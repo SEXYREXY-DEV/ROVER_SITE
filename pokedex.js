@@ -24,9 +24,10 @@ fetch('pokedex.json')
                 <p><strong>Hidden Ability:</strong> ${pokemon.HiddenAbility}</p>
                 <p><strong>Evolutions:</strong> ${pokemon.Evolutions}</p>
                 <p><strong>Location Found:</strong> ${pokemon["Location Found"] || 'Not found'}</p>
-                <p><strong>Evolution Line:</strong> ${pokemon.EvolutionLine}</p>
+                <p><strong>Evolution Line:</strong> ${pokemon["Evolution Line"]}</p>
             `;
             pokemonContainer.appendChild(entry);
         });
     })
     .catch(error => console.error('Error loading Pokémon data:', error));
+
