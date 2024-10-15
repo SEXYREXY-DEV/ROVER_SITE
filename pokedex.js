@@ -1,11 +1,13 @@
 // pokedex.js
 
-// Function to load JSON data
 fetch('pokedex.json')
     .then(response => response.json())
     .then(data => {
         console.log(data); // Log the data to check if it loads successfully
         const pokemonContainer = document.getElementById('pokemon-container');
+
+        // Base path for images
+        const baseImagePath = 'Graphics/Pokemon/Front/'; // Change this based on your folder structure
 
         // Loop through Pokémon data and create entries
         data.forEach(pokemon => {
@@ -13,6 +15,7 @@ fetch('pokedex.json')
             entry.classList.add('pokemon-entry');
             entry.innerHTML = `
                 <h2>${pokemon.Name}</h2>
+                <img src="${baseImagePath}${pokemon.InternalName}.png" alt="${pokemon.Name} image" class="pokemon-image">
                 <p><strong>Type:</strong> ${pokemon.Type1} ${pokemon.Type2 ? ' / ' + pokemon.Type2 : ''}</p>
                 <p><strong>HP:</strong> ${pokemon.HP}</p>
                 <p><strong>Attack:</strong> ${pokemon.Attack}</p>
@@ -30,4 +33,3 @@ fetch('pokedex.json')
         });
     })
     .catch(error => console.error('Error loading Pokémon data:', error));
-
