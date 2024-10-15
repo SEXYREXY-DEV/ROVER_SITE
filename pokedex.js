@@ -23,7 +23,7 @@ fetch('pokedex.json')
                 <p><strong>Abilities:</strong> ${pokemon.Abilities}</p>
                 <p><strong>Hidden Ability:</strong> ${pokemon.HiddenAbility}</p>
                 <p><strong>Evolutions:</strong> ${pokemon.Evolutions}</p>
-                <p><strong>Location Found:</strong> ${pokemon.LocationFound || 'Not found'}</p>
+                <p><strong>Location Found:</strong> ${pokemon["Location Found"] || 'Not found'}</p>
                 <p><strong>Evolution Line:</strong> ${pokemon.EvolutionLine}</p>
             `;
             pokemonContainer.appendChild(entry);
