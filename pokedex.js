@@ -4,6 +4,7 @@
 fetch('pokedex.json')
     .then(response => response.json())
     .then(data => {
+        console.log(data); // Log the data to check if it loads successfully
         const pokemonContainer = document.getElementById('pokemon-container');
 
         // Loop through Pokémon data and create entries
@@ -11,22 +12,19 @@ fetch('pokedex.json')
             const entry = document.createElement('div');
             entry.classList.add('pokemon-entry');
             entry.innerHTML = `
-                <img src="${pokemon.image}" alt="${pokemon.name}">
-                <h2>#${pokemon.id.toString().padStart(3, '0')} ${pokemon.name}</h2>
-                <p>Type: ${pokemon.type1} ${pokemon.type2 ? ' / ' + pokemon.type2 : ''}</p>
-                <h3>Base Stats:</h3>
-                <ul>
-                    <li>HP: ${pokemon.hp}</li>
-                    <li>Attack: ${pokemon.attack}</li>
-                    <li>Defense: ${pokemon.defense}</li>
-                    <li>Sp. Attack: ${pokemon.spAtk}</li>
-                    <li>Sp. Defense: ${pokemon.spDef}</li>
-                    <li>Speed: ${pokemon.speed}</li>
-                </ul>
-                <h3>Moves:</h3>
-                <ul>
-                    ${pokemon.moves.split(',').map(move => `<li>${move}</li>`).join('')}
-                </ul>
+                <h2>${pokemon.Name}</h2>
+                <p><strong>Type:</strong> ${pokemon.Type1} ${pokemon.Type2 ? ' / ' + pokemon.Type2 : ''}</p>
+                <p><strong>HP:</strong> ${pokemon.HP}</p>
+                <p><strong>Attack:</strong> ${pokemon.Attack}</p>
+                <p><strong>Defense:</strong> ${pokemon.Defense}</p>
+                <p><strong>Special Attack:</strong> ${pokemon.SpAtk}</p>
+                <p><strong>Special Defense:</strong> ${pokemon.SpDef}</p>
+                <p><strong>Speed:</strong> ${pokemon.Spd}</p>
+                <p><strong>Abilities:</strong> ${pokemon.Abilities}</p>
+                <p><strong>Hidden Ability:</strong> ${pokemon.HiddenAbility}</p>
+                <p><strong>Evolutions:</strong> ${pokemon.Evolutions}</p>
+                <p><strong>Location Found:</strong> ${pokemon.LocationFound || 'Not found'}</p>
+                <p><strong>Evolution Line:</strong> ${pokemon.EvolutionLine}</p>
             `;
             pokemonContainer.appendChild(entry);
         });
