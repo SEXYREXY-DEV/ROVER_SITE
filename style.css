@@ -51,14 +51,6 @@ ul {
     padding: 0;
 }
 
-.pokemon-entry {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    background-color: #f9f9f9;
-}
-
 .pokemon-entry h2 {
     margin: 0;
     font-size: 24px;
