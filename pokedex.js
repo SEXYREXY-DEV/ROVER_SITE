@@ -7,7 +7,7 @@ fetch('pokedex.json')
         const pokemonContainer = document.getElementById('pokemon-container');
 
         // Base path for images
-        const baseImagePath = 'Graphics/Pokemon/Front/'; // Change this based on your folder structure
+        const baseImagePath = 'Front/'; // Change this based on your folder structure
 
         // Loop through Pokémon data and create entries
         data.forEach(pokemon => {
