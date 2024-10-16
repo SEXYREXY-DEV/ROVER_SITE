@@ -1,10 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Fetch the Pokémon data from the JSON file
+    // Fetch Pokémon data from JSON file
     fetch('path/to/your/pokemon-data.json')
         .then(response => response.json())
         .then(pokemonData => {
-            // Populate the dropdown with Pokémon names
             const dropdown = document.getElementById('pokemonSelect');
+            const pokemonInfo = document.getElementById('pokemonInfo');
+
+            // Populate the dropdown with Pokémon names
             for (let pokemonName in pokemonData) {
                 const option = document.createElement('option');
                 option.value = pokemonName;
@@ -12,16 +14,23 @@ document.addEventListener("DOMContentLoaded", () => {
                 dropdown.appendChild(option);
             }
 
-            // Function to update the displayed Pokémon content
+            // Function to update the display with selected Pokémon details
             function updatePokedexContent(selectedPokemon) {
                 const pokemon = pokemonData[selectedPokemon];
 
-                let content = `
+                // Clear existing content
+                pokemonInfo.innerHTML = '';
+
+                // Generate the content based on Pokémon data
+                pokemonInfo.innerHTML = `
                     <h1>${pokemon.Name}</h1>
                     <img src="images/${pokemon.InternalName}.png" alt="${pokemon.Name}">
-                    <div class="type">Type: ${pokemon.Type1} / ${pokemon.Type2}</div>
                     
-                    <div class="stats">
+                    <div class="pokemon-types">
+                        <strong>Type:</strong> ${pokemon.Type1} / ${pokemon.Type2 || 'None'}
+                    </div>
+
+                    <div class="pokemon-stats">
                         <h3>Stats</h3>
                         <div>HP: ${pokemon.HP}</div>
                         <div>Attack: ${pokemon.Attack}</div>
@@ -30,33 +39,29 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div>Sp. Defense: ${pokemon.SpDef}</div>
                         <div>Speed: ${pokemon.Spd}</div>
                     </div>
-                    
-                    <div class="abilities">
+
+                    <div class="pokemon-abilities">
                         <h3>Abilities</h3>
                         <div>${pokemon.Abilities.split(', ').join('<br>')}</div>
                         <div><strong>Hidden Ability:</strong> ${pokemon.HiddenAbility}</div>
                     </div>
-                    
-                    <div class="evolution">
+
+                    <div class="pokemon-evolution">
                         <h3>Evolution Line</h3>
                         <div>${pokemon.EvolutionLine}</div>
                     </div>
                 `;
-
-                // Insert the generated content into the pokedex element
-                document.getElementById('pokedex').innerHTML = content;
             }
 
-            // Add event listener to dropdown
+            // Add event listener for dropdown change
             dropdown.addEventListener('change', function(e) {
                 const selectedPokemon = e.target.value;
-                // Update the Pokedex content with the selected Pokémon
                 updatePokedexContent(selectedPokemon);
             });
 
-            // Initialize by showing the first Pokémon in the list
+            // Display first Pokémon by default
             const firstPokemon = dropdown.options[0].value;
             updatePokedexContent(firstPokemon);
         })
-        .catch(error => console.error('Error fetching the Pokémon data:', error));
+        .catch(error => console.error('Error loading Pokémon data:', error));
 });

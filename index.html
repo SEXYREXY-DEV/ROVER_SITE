@@ -3,50 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokédex</title>
+    <title>Pokedex</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
         }
-        .pokedex {
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            background-color: white;
-            padding: 20px;
-            max-width: 400px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .pokedex h1 {
-            text-align: center;
-        }
-        .pokedex img {
-            display: block;
-            margin: 0 auto 10px;
-            width: 150px;
-        }
-        .stats, .abilities, .evolution {
+
+        #pokedex {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             margin-top: 20px;
         }
-        .stats div, .abilities div {
+
+        select {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .pokemon-info {
+            border: 2px solid #333;
+            padding: 20px;
+            background-color: white;
+            width: 300px;
+            text-align: center;
+        }
+
+        .pokemon-info h1 {
+            margin-bottom: 10px;
+        }
+
+        .pokemon-stats, .pokemon-types, .pokemon-abilities, .pokemon-evolution {
+            margin-top: 15px;
+            text-align: left;
+        }
+
+        .pokemon-stats div, .pokemon-abilities div, .pokemon-evolution div {
             margin-bottom: 5px;
+        }
+
+        img {
+            max-width: 100px;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <!-- Dropdown to select Pokémon -->
-    <select id="pokemonSelect">
-        <option value="Bulbasaur">Bulbasaur</option>
-        <option value="Ivysaur">Ivysaur</option>
-        <option value="Venusaur">Venusaur</option>
-    </select>
 
-    <!-- Div where Pokémon data will be displayed -->
-    <div class="pokedex" id="pokedex">
-        <!-- Content will be injected here -->
+    <div id="pokedex">
+        <select id="pokemonSelect">
+            <!-- Dropdown populated dynamically -->
+        </select>
+
+        <div class="pokemon-info" id="pokemonInfo">
+            <!-- Pokémon data will be displayed here -->
+        </div>
     </div>
 
     <script src="pokedex.js"></script>
+
 </body>
 </html>
