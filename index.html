@@ -4,22 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .pokedex {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: white;
+            padding: 20px;
+            max-width: 400px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .pokedex h1 {
+            text-align: center;
+        }
+        .pokedex img {
+            display: block;
+            margin: 0 auto 10px;
+            width: 150px;
+        }
+        .stats, .abilities, .evolution {
+            margin-top: 20px;
+        }
+        .stats div, .abilities div {
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Pokédex</h1>
-    </header>
-    
-    <main>
-        <div id="pokemon-container" class="pokemon-container"></div>
-    </main>
+    <!-- Dropdown to select Pokémon -->
+    <select id="pokemonSelect">
+        <option value="Bulbasaur">Bulbasaur</option>
+        <option value="Ivysaur">Ivysaur</option>
+        <option value="Venusaur">Venusaur</option>
+    </select>
 
-    <footer>
-        <p>© 2024 Your Pokédex</p>
-    </footer>
+    <!-- Div where Pokémon data will be displayed -->
+    <div class="pokedex" id="pokedex">
+        <!-- Content will be injected here -->
+    </div>
 
-    <!-- Link to your JavaScript file -->
     <script src="pokedex.js"></script>
 </body>
 </html>

@@ -1,35 +1,62 @@
-// pokedex.js
+document.addEventListener("DOMContentLoaded", () => {
+    // Fetch the Pokémon data from the JSON file
+    fetch('path/to/your/pokemon-data.json')
+        .then(response => response.json())
+        .then(pokemonData => {
+            // Populate the dropdown with Pokémon names
+            const dropdown = document.getElementById('pokemonSelect');
+            for (let pokemonName in pokemonData) {
+                const option = document.createElement('option');
+                option.value = pokemonName;
+                option.textContent = pokemonData[pokemonName].Name;
+                dropdown.appendChild(option);
+            }
 
-fetch('pokedex.json')
-    .then(response => response.json())
-    .then(data => {
-        console.log(data); // Log the data to check if it loads successfully
-        const pokemonContainer = document.getElementById('pokemon-container');
+            // Function to update the displayed Pokémon content
+            function updatePokedexContent(selectedPokemon) {
+                const pokemon = pokemonData[selectedPokemon];
 
-        // Base path for images
-        const baseImagePath = 'Graphics/Pokemon/Front/'; // Change this based on your folder structure
+                let content = `
+                    <h1>${pokemon.Name}</h1>
+                    <img src="images/${pokemon.InternalName}.png" alt="${pokemon.Name}">
+                    <div class="type">Type: ${pokemon.Type1} / ${pokemon.Type2}</div>
+                    
+                    <div class="stats">
+                        <h3>Stats</h3>
+                        <div>HP: ${pokemon.HP}</div>
+                        <div>Attack: ${pokemon.Attack}</div>
+                        <div>Defense: ${pokemon.Defense}</div>
+                        <div>Sp. Attack: ${pokemon.SpAtk}</div>
+                        <div>Sp. Defense: ${pokemon.SpDef}</div>
+                        <div>Speed: ${pokemon.Spd}</div>
+                    </div>
+                    
+                    <div class="abilities">
+                        <h3>Abilities</h3>
+                        <div>${pokemon.Abilities.split(', ').join('<br>')}</div>
+                        <div><strong>Hidden Ability:</strong> ${pokemon.HiddenAbility}</div>
+                    </div>
+                    
+                    <div class="evolution">
+                        <h3>Evolution Line</h3>
+                        <div>${pokemon.EvolutionLine}</div>
+                    </div>
+                `;
 
-        // Loop through Pokémon data and create entries
-        data.forEach(pokemon => {
-            const entry = document.createElement('div');
-            entry.classList.add('pokemon-entry');
-            entry.innerHTML = `
-                <h2>${pokemon.Name}</h2>
-                <img src="${baseImagePath}${pokemon.InternalName}.png" alt="${pokemon.Name} image" class="pokemon-image">
-                <p><strong>Type:</strong> ${pokemon.Type1} ${pokemon.Type2 ? ' / ' + pokemon.Type2 : ''}</p>
-                <p><strong>HP:</strong> ${pokemon.HP}</p>
-                <p><strong>Attack:</strong> ${pokemon.Attack}</p>
-                <p><strong>Defense:</strong> ${pokemon.Defense}</p>
-                <p><strong>Special Attack:</strong> ${pokemon.SpAtk}</p>
-                <p><strong>Special Defense:</strong> ${pokemon.SpDef}</p>
-                <p><strong>Speed:</strong> ${pokemon.Spd}</p>
-                <p><strong>Abilities:</strong> ${pokemon.Abilities}</p>
-                <p><strong>Hidden Ability:</strong> ${pokemon.HiddenAbility}</p>
-                <p><strong>Evolutions:</strong> ${pokemon.Evolutions}</p>
-                <p><strong>Location Found:</strong> ${pokemon["Location Found"] || 'Not found'}</p>
-                <p><strong>Evolution Line:</strong> ${pokemon["Evolution Line"]}</p>
-            `;
-            pokemonContainer.appendChild(entry);
-        });
-    })
-    .catch(error => console.error('Error loading Pokémon data:', error));
+                // Insert the generated content into the pokedex element
+                document.getElementById('pokedex').innerHTML = content;
+            }
+
+            // Add event listener to dropdown
+            dropdown.addEventListener('change', function(e) {
+                const selectedPokemon = e.target.value;
+                // Update the Pokedex content with the selected Pokémon
+                updatePokedexContent(selectedPokemon);
+            });
+
+            // Initialize by showing the first Pokémon in the list
+            const firstPokemon = dropdown.options[0].value;
+            updatePokedexContent(firstPokemon);
+        })
+        .catch(error => console.error('Error fetching the Pokémon data:', error));
+});
