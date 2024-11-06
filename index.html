@@ -3,22 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
-    <style>
-        /* Add your CSS styles here */
-    </style>
+    <title>Pokémon Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Dropdown for selecting Pokémon -->
-    <select id="pokemon-select">
-        <!-- Dropdown options populated dynamically from the script -->
-    </select>
-
-    <!-- Container where Pokémon details will be displayed -->
-    <div id="pokemon-container"></div>
-
-    <script src="pokedex.js"></script>
-
+    <header>
+        <h1>Pokédex</h1>
+        <input type="text" id="search-bar" placeholder="Search for a Pokémon..." />
+    </header>
+    <main>
+        <div id="pokemon-container" class="pokemon-container"></div>
+        <div id="pokemon-info">
+            <h1 id="pokemon-name"></h1>
+            <p id="pokemon-type"></p>
+            <p id="pokemon-hp"></p>
+            <p id="pokemon-attack"></p>
+            <p id="pokemon-defense"></p>
+            <p id="pokemon-sp-atk"></p>
+            <p id="pokemon-sp-def"></p>
+            <p id="pokemon-speed"></p>
+            <div id="pokemon-evolution-line"></div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+    <script src="details.js"></script>
 </body>
 </html>

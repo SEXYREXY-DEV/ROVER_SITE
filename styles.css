@@ -1,0 +1,96 @@
+.pokemon-card {
+  display: flex;
+  margin: 5px; /* Keep the margin low */
+  padding: 5px; /* Reduce padding for thinner rows */
+  border-radius: 12px; /* Round the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
+  flex-direction: row; /* Align items horizontally */
+  width: 78%; /* Set a specific width */
+  height: auto; /* Allow height to adjust based on content */
+  background: linear-gradient(to right, #f9f9f9, #e0e0e0); /* Light gradient */
+}
+
+
+.pokemon-info {
+  display: flex;
+  flex-direction: column; /* Arrange name and type in a column */
+  justify-content: space-between; /* Space out the content */
+  flex-grow: 1; /* Allow info section to grow */
+  padding-left: 10px; /* Add padding for spacing */
+}
+
+.pokemon-stats{
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the stats/abilities */
+  margin-top: 2px; /* Reduce margin for spacing */
+}
+
+.pokemon-abilities {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the abilities */
+  align-items: center; /* Align items vertically */
+  margin-top: 2px; /* Reduce margin for spacing */
+}
+
+.ability-container,
+.hidden-ability {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack name and value vertically */
+  align-items: flex-start; /* Align items to start */
+}
+
+.hidden-ability {
+  margin-right: 110px; /* Add right margin to create space */
+}
+
+.ability-name {
+  font-weight: bold; /* Make ability names bold */
+  text-align: left; /* Align ability names to the left */
+}
+
+.ability-value {
+  text-align: left; /* Align ability values to the left */
+}
+
+
+
+/* Stat styles */
+.stat-name {
+  font-weight: bold; /* Make stat names bold */
+  text-align: center; /* Center align stat names */
+  margin-right: 5px; /* Spacing between stat names and values */
+}
+
+.stat-value {
+  text-align: center; /* Center align stat values */
+}
+
+.pokemon-image {
+  width: 96px;   /* Set width to 96 pixels */
+  height: 96px;  /* Set height to 96 pixels */
+  object-fit: cover; /* Ensure the image maintains aspect ratio */
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+#search-bar {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#pokemon-container {
+  display: flex; /* Enable flexbox */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
+  justify-content: center; /* Center cards horizontally */
+  align-items: center; /* Center cards vertically (if the container has a defined height) */
+  padding: 10px; /* Optional padding around the container */
+}
+

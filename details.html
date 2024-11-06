@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Details</title>
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+    <section id="image-view">
+        <label for="image-selector">Select Image View:</label>
+        <select id="image-selector">
+            <option value="Front">Front</option>
+            <option value="Back">Back</option>
+            <option value="Front shiny">Front Shiny</option>
+            <option value="Back shiny">Back Shiny</option>
+            <option value="Icons">Icon</option>
+        </select>
+    </section>
+
+    <section id="pokemon-info">
+        <div id="pokemon-header">
+            <h1 id="pokemon-name"></h1>
+            <div id="pokemon-image-container">
+                <img id="pokemon-image" src="" alt="Pokémon Image">
+            </div>
+        </div>
+
+        <div id="pokemon-details">
+            <div id="pokemon-type" class="detail-section">
+                <strong>Type:</strong>
+                <p id="type-description"></p>
+            </div>
+            <div id="pokemon-abilities" class="detail-section">
+                <strong>Abilities:</strong>
+                <p id="abilities-description"></p>
+            </div>
+
+            <div id="pokemon-hidden-ability" class="detail-section">
+                <strong>Hidden Ability:</strong>
+                <p id="hidden-ability-description"></p>
+            </div>
+
+            <div id="pokemon-evolutions" class="detail-section">
+                <strong>Evolutions:</strong>
+                <p id="evolutions-description"></p>
+            </div>
+
+            <div id="pokemon-pokedex" class="detail-section">
+                <strong>Pokédex Entry:</strong>
+                <p id="pokedex-entry"></p>
+            </div>
+
+            <div id="pokemon-base-stats">
+                <h2>Base Stats</h2>
+                <table class="stats-table">
+                    <thead>
+                        <tr>
+                            <th>Stat</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody id="base-stats-body"></tbody>
+                </table>
+            </div>
+            
+            <div id="pokemon-moves">
+                <h2>Moves</h2>
+                <table class="moves-table">
+                    <thead>
+                        <tr>
+                            <th>Level</th>
+                            <th>Type</th>
+                            <th>Category</th>
+                            <th>Power</th>
+                            <th>Accuracy</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody id="moves-table-body"></tbody>
+                </table>
+            </div>
+
+            <div id="pokemon-other-stats">
+                <h2>Other Stats</h2>
+                <table class="stats-table">
+                    <thead>
+                        <tr>
+                            <th>Stat</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody id="other-stats-body"></tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src="details.js"></script>
+</body>
+</html>
