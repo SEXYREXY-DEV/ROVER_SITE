@@ -61,7 +61,7 @@ function renderPokemonData(pokemon, movesData) {
 
   // Set initial image to 'front'
   const imageName = pokemon.InternalName || pokemon.Name.replace(/\s+/g, '_');
-  pokemonImage.src = `images/front/${imageName}.png`;
+  pokemonImage.src = `images/Front/${imageName}.png`;
 
   // Apply initial size based on 'front' view
   pokemonImage.classList.add("normal-size"); // Set this to the default size class for 'front'
