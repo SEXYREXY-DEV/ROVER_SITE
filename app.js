@@ -119,9 +119,8 @@ function createPokemonCard(pokemon, basePokemon = null) {
     const type2Color = types[1] ? getTypeColor(types[1]) : type1Color;
 
     // Apply background gradient based on types
-    card.style.background = types[1]
-        ? `linear-gradient(90deg, ${type1Color} 50%, ${type2Color} 50%)`
-        : type1Color;
+    card.style.borderImage = `linear-gradient(90deg, ${type1Color} 50%, ${type2Color} 50%) 1`;
+
 
     // Info container
     const info = document.createElement("div");

@@ -1,23 +1,29 @@
-.pokemon-card {
+.pokemon-card { 
   display: flex;
-  margin: 5px; /* Keep the margin low */
-  padding: 5px; /* Reduce padding for thinner rows */
-  border-radius: 12px; /* Round the corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-  transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
-  flex-direction: row; /* Align items horizontally */
-  width: 78%; /* Set a specific width */
-  height: auto; /* Allow height to adjust based on content */
-  background: linear-gradient(to right, #f9f9f9, #e0e0e0); /* Light gradient */
+  margin: 5px;
+  padding: 10px; /* Increased padding for space between border and content */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+  flex-direction: row;
+  width: 78%;
+  height: auto;
+  background-color: #fff; /* Set to white or a neutral color */
+  border: 9px solid transparent; /* Default border, will change in JavaScript */
 }
 
-
+/* For the info section */
 .pokemon-info {
   display: flex;
-  flex-direction: column; /* Arrange name and type in a column */
-  justify-content: space-between; /* Space out the content */
-  flex-grow: 1; /* Allow info section to grow */
-  padding-left: 10px; /* Add padding for spacing */
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .pokemon-stats{
@@ -70,11 +76,6 @@
   width: 96px;   /* Set width to 96 pixels */
   height: 96px;  /* Set height to 96 pixels */
   object-fit: cover; /* Ensure the image maintains aspect ratio */
-}
-
-.pokemon-card:hover {
-  transform: scale(1.05); /* Scale up on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
 }
 
 #search-bar {
