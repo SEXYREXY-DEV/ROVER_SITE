@@ -35,6 +35,7 @@ function updatePokemonImage(pokemonName, viewType) {
   const pokemonImage = document.getElementById("pokemon-image");
   const imageName = pokemonName.replace(/\s+/g, '_');
   const imagePath = `images/${viewType}/${imageName.toUpperCase()}.png`;
+  console.log(`${viewType}`);
   pokemonImage.src = imagePath;
 
   if (viewType === "Icons") {
