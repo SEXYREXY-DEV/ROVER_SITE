@@ -4,115 +4,118 @@ document.addEventListener("DOMContentLoaded", () => {
     const abilitySearchBar = document.getElementById("ability-search-bar");
     const sortDropdown = document.getElementById("sort-dropdown");
 
-    // Fetch Pokémon data
-    fetch("data/merged_pokemon.json")
-        .then(response => response.json())
-        .then(data => {
-            // Store the full Pokémon data for later use
-            const allPokemon = data;
+    // Fetch configuration and Pokémon data in parallel
+    Promise.all([
+        fetch("data/config.json").then(response => response.json()),
+        fetch("data/merged_pokemon.json").then(response => response.json())
+    ])
+    .then(([config, data]) => {
+        const excludedPokemon = config.excludedPokemon.map(name => name.toLowerCase());
+        const allPokemon = data.filter(pokemon => !excludedPokemon.includes(pokemon.Name.toLowerCase()));
 
-            // Function to display Pokémon cards based on filtered data
-            function displayPokemon(pokemonData) {
-                container.innerHTML = ''; // Clear current Pokémon cards
-                pokemonData.forEach(pokemon => {
-                    const baseCard = createPokemonCard(getBasePokemonData(pokemon)); // Display base Pokémon card
-                    container.appendChild(baseCard);
-                });
-            }
+        // Function to display Pokémon cards based on filtered data
+        function displayPokemon(pokemonData) {
+            container.innerHTML = ''; // Clear current Pokémon cards
+            pokemonData.forEach(pokemon => {
+                const baseCard = createPokemonCard(getBasePokemonData(pokemon)); // Display base Pokémon card
+                container.appendChild(baseCard);
+            });
+        }
 
-            // Initial display of all Pokémon
-            displayPokemon(allPokemon);
+        // Initial display of all Pokémon
+        displayPokemon(allPokemon);
 
-            // Search functionality for Pokémon name
-            searchBar.addEventListener("input", () => {
-                filterAndDisplayPokemon();
+        // Search functionality for Pokémon name
+        searchBar.addEventListener("input", () => {
+            filterAndDisplayPokemon();
+        });
+
+        // Search functionality for ability
+        abilitySearchBar.addEventListener("input", () => {
+            filterAndDisplayPokemon();
+        });
+
+        // Sort functionality
+        sortDropdown.addEventListener("change", () => {
+            sortAndDisplayPokemon();
+        });
+
+        // Function to filter and sort Pokémon based on search queries and selected sort option
+        function filterAndDisplayPokemon() {
+            const nameQuery = searchBar.value.toLowerCase().trim();
+            const abilityQuery = abilitySearchBar.value.toLowerCase().trim();
+
+            // Filter Pokémon based on both name and ability queries
+            const filteredPokemon = allPokemon.filter(pokemon => {
+                const matchesName = pokemon.Name.toLowerCase().includes(nameQuery);
+                const abilities = pokemon.Abilities ? pokemon.Abilities.split(",") : [];
+                const matchesAbility = abilities.some(ability =>
+                    ability.toLowerCase().includes(abilityQuery)
+                );
+
+                return (nameQuery === '' || matchesName) && (abilityQuery === '' || matchesAbility);
             });
 
-            // Search functionality for ability
-            abilitySearchBar.addEventListener("input", () => {
-                filterAndDisplayPokemon();
-            });
+            // Display the filtered Pokémon
+            sortAndDisplayPokemon(filteredPokemon);
+        }
 
-            // Sort functionality
-            sortDropdown.addEventListener("change", () => {
-                sortAndDisplayPokemon();
-            });
+        // Function to sort Pokémon based on the selected stat
+        function sortAndDisplayPokemon(pokemonData = allPokemon) {
+            const selectedSort = sortDropdown.value;
 
-            // Function to filter and sort Pokémon based on search queries and selected sort option
-            function filterAndDisplayPokemon() {
-                const nameQuery = searchBar.value.toLowerCase().trim();
-                const abilityQuery = abilitySearchBar.value.toLowerCase().trim();
+            let sortedPokemon = [...pokemonData]; // Copy the array to avoid modifying the original
 
-                // Filter Pokémon based on both name and ability queries
-                const filteredPokemon = allPokemon.filter(pokemon => {
-                    const matchesName = pokemon.Name.toLowerCase().includes(nameQuery);
-                    const abilities = pokemon.Abilities ? pokemon.Abilities.split(",") : [];
-                    const matchesAbility = abilities.some(ability =>
-                        ability.toLowerCase().includes(abilityQuery)
-                    );
+            // Sort based on the selected stat
+            sortedPokemon.sort((a, b) => {
+                let statA, statB;
 
-                    return (nameQuery === '' || matchesName) && (abilityQuery === '' || matchesAbility);
-                });
-
-                // Display the filtered Pokémon
-                sortAndDisplayPokemon(filteredPokemon);
-            }
-
-            // Function to sort Pokémon based on the selected stat
-            function sortAndDisplayPokemon(pokemonData = allPokemon) {
-                const selectedSort = sortDropdown.value;
-
-                let sortedPokemon = [...pokemonData]; // Copy the array to avoid modifying the original
-
-                // Sort based on the selected stat
-                sortedPokemon.sort((a, b) => {
-                    let statA, statB;
-
-                    // Get the stat value based on the selected option
-                    switch (selectedSort) {
-                        case "hp":
-                            statA = parseInt(a.BaseStats[0], 10); // HP is the first stat in the array
-                            statB = parseInt(b.BaseStats[0], 10);
-                            break;
-                        case "attack":
-                            statA = parseInt(a.BaseStats[1], 10); // Attack is the second stat
-                            statB = parseInt(b.BaseStats[1], 10);
-                            break;
-                        case "defense":
-                            statA = parseInt(a.BaseStats[2], 10); // Defense is the third stat
-                            statB = parseInt(b.BaseStats[2], 10);
-                            break;
-                        case "speed":
-                            statA = parseInt(a.BaseStats[3], 10); // Speed is the last stat
-                            statB = parseInt(b.BaseStats[3], 10);
-                            break;
-                        case "spatk":
-                            statA = parseInt(a.BaseStats[4], 10); // Speed is the last stat
-                            statB = parseInt(b.BaseStats[4], 10);
-                            break;    
-                        case "spdef":
-                        statA = parseInt(a.BaseStats[5], 10); // Speed is the last stat
+                // Get the stat value based on the selected option
+                switch (selectedSort) {
+                    case "hp":
+                        statA = parseInt(a.BaseStats[0], 10); // HP is the first stat in the array
+                        statB = parseInt(b.BaseStats[0], 10);
+                        break;
+                    case "attack":
+                        statA = parseInt(a.BaseStats[1], 10); // Attack is the second stat
+                        statB = parseInt(b.BaseStats[1], 10);
+                        break;
+                    case "defense":
+                        statA = parseInt(a.BaseStats[2], 10); // Defense is the third stat
+                        statB = parseInt(b.BaseStats[2], 10);
+                        break;
+                    case "speed":
+                        statA = parseInt(a.BaseStats[3], 10); // Speed is the last stat
+                        statB = parseInt(b.BaseStats[3], 10);
+                        break;
+                    case "spatk":
+                        statA = parseInt(a.BaseStats[4], 10); // Sp. Atk is the fifth stat
+                        statB = parseInt(b.BaseStats[4], 10);
+                        break;    
+                    case "spdef":
+                        statA = parseInt(a.BaseStats[5], 10); // Sp. Def is the sixth stat
                         statB = parseInt(b.BaseStats[5], 10);
                         break;
-                        case "name":
-                        default:
-                            statA = a.Name.toLowerCase();
-                            statB = b.Name.toLowerCase();
-                            break;
-                    }
+                    case "name":
+                    default:
+                        statA = a.Name.toLowerCase();
+                        statB = b.Name.toLowerCase();
+                        break;
+                }
 
-                    // Return the result of the comparison (ascending)
-                    if (statA > statB) return -1;
-                    if (statA < statB) return 1;
-                    return 0;
-                });
+                // Return the result of the comparison (ascending)
+                if (statA > statB) return -1;
+                if (statA < statB) return 1;
+                return 0;
+            });
 
-                // Display the sorted Pokémon
-                displayPokemon(sortedPokemon);
-            }
-        })
-        .catch(error => console.error("Error loading Pokémon data:", error));
+            // Display the sorted Pokémon
+            displayPokemon(sortedPokemon);
+        }
+    })
+    .catch(error => console.error("Error loading data:", error));
 });
+
 
 
 
