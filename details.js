@@ -33,9 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function updatePokemonImage(pokemonName, viewType) {
   const pokemonImage = document.getElementById("pokemon-image");
-  const imageName = pokemonName.replace(/\s+/g, '_');
-  const imagePath = `images/${viewType.charAt(0).toUpperCase() + viewType.slice(1).toLowerCase()}/${imageName.toUpperCase()}.png`;
-  console.log(`${viewType.charAt(0).toUpperCase() + viewType.slice(1)}`);
+  const imageName = pokemonName;
+  const imagePath = `images/${viewType}/${imageName.toUpperCase()}.png`;
+  console.log(`${viewType}`);
   pokemonImage.src = imagePath;
 
   if (viewType.charAt(0).toUpperCase() === "Icons") {
