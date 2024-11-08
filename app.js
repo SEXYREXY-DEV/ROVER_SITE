@@ -135,7 +135,7 @@ function createPokemonCard(pokemon, basePokemon = null) {
     const image = document.createElement("img");
     image.classList.add("pokemon-image");
     const imageName = pokemon.InternalName || pokemon.Name;
-    image.src = `images/front/${imageName.toUpperCase()}.png`;
+    image.src = `images/Front/${imageName.toUpperCase()}.png`;
     image.alt = name.textContent;
 
     // Add Type
