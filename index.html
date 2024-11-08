@@ -8,23 +8,22 @@
 </head>
 <body>
     <header>
-        <h1>Pokédex</h1>
-        <input type="text" id="search-bar" placeholder="Search for a Pokémon..." />
+        <h1>Vanguard 3.0 Pokedex!</h1>
+        <input type="text" id="search-bar" placeholder="Search Pokémon...">
+        <input type="text" id="ability-search-bar" placeholder="Search Abilities...">
+        <select id="sort-dropdown">
+            <option value="name">Sort by Name</option>
+            <option value="hp">HP</option>
+            <option value="attack">Attack</option>
+            <option value="defense">Defense</option>
+            <option value="speed">Speed</option>
+            <option value="spatk">SpAtk</option>
+            <option value="spdef">SpDef</option>
+        </select>
     </header>
     <main>
         <div id="pokemon-container" class="pokemon-container"></div>
-        <div id="pokemon-info">
-            <h1 id="pokemon-name"></h1>
-            <p id="pokemon-type"></p>
-            <p id="pokemon-hp"></p>
-            <p id="pokemon-attack"></p>
-            <p id="pokemon-defense"></p>
-            <p id="pokemon-sp-atk"></p>
-            <p id="pokemon-sp-def"></p>
-            <p id="pokemon-speed"></p>
-        </div>
     </main>
     <script src="app.js"></script>
-    <script src="details.js"></script>
 </body>
 </html>

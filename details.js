@@ -92,9 +92,9 @@ const baseStats = [
   { stat: 'HP', value: pokemon.BaseStats[0] },
   { stat: 'Attack', value: pokemon.BaseStats[1] },
   { stat: 'Defense', value: pokemon.BaseStats[2] },
-  { stat: 'Sp. Atk', value: pokemon.BaseStats[3] },
-  { stat: 'Sp. Def', value: pokemon.BaseStats[4] },
-  { stat: 'Speed', value: pokemon.BaseStats[5] }
+  { stat: 'Sp. Atk', value: pokemon.BaseStats[4] },
+  { stat: 'Sp. Def', value: pokemon.BaseStats[5] },
+  { stat: 'Speed', value: pokemon.BaseStats[3] }
 ];
 
 baseStats.forEach(stat => {
@@ -119,8 +119,8 @@ for (let i = 0; i < pokemon.Moves.length; i += 2) {
     <td>${levelLearned}</td>
     <td>${typeImage}</td>
     <td>${categoryImage}</td>
-    <td>${move.Power || 'N/A'}</td>
-    <td>${move.Accuracy || 'N/A'}</td>
+    <td>${move.Power ||'-'}</td>
+    <td>${move.Accuracy || '-'}</td>
     <td>${move.Description || 'No description available'}</td>
   `;
   movesTableBody.appendChild(row);
@@ -147,3 +147,24 @@ otherStats.forEach(stat => {
   otherStatsBody.appendChild(row);
 });
 }
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  // User prefers dark mode
+  document.documentElement.classList.add('dark-mode');
+} else {
+  // User prefers light mode
+  document.documentElement.classList.add('light-mode');
+}
+
+// Optional: Listen for changes in dark mode preference
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+  if (event.matches) {
+      // Dark mode activated
+      document.documentElement.classList.add('dark-mode');
+      document.documentElement.classList.remove('light-mode');
+  } else {
+      // Light mode activated
+      document.documentElement.classList.add('light-mode');
+      document.documentElement.classList.remove('dark-mode');
+  }
+});
