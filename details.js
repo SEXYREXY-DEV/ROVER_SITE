@@ -33,11 +33,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function updatePokemonImage(pokemonName, viewType) {
   const pokemonImage = document.getElementById("pokemon-image");
-  const imageName = pokemonName.replace(/\s+/g, '_');
-  const imagePath = `images/${viewType.toLowerCase()}/${imageName.toUpperCase()}.png`;
+  const imageName = pokemonName;
+  const imagePath = `images/${viewType}/${imageName.toUpperCase()}.png`;
+  console.log(`${viewType}`);
   pokemonImage.src = imagePath;
 
-  if (viewType.toLowerCase() === "icons") {
+  if (viewType.charAt(0).toUpperCase() === "Icons") {
       pokemonImage.classList.remove("normal-size");
       pokemonImage.classList.add("icon-size");
   } else {
