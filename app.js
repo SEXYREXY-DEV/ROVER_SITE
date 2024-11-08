@@ -132,7 +132,6 @@ function createPokemonCard(pokemon, basePokemon = null) {
     name.textContent = pokemon.Name || pokemon.InternalName;
     if (basePokemon) name.textContent += ` (${pokemon.FormName || "Form"})`;
 
-    // Add Pokémon Image
     const image = document.createElement("img");
     image.classList.add("pokemon-image");
     const imageName = pokemon.InternalName || pokemon.Name;
