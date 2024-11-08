@@ -55,7 +55,7 @@ const pokemonHiddenAbilityElement = document.getElementById("hidden-ability-desc
 const pokemonPokedexElement = document.getElementById("pokedex-entry");
 
 const imageName = pokemon.InternalName || pokemon.Name.replace(/\s+/g, '_');
-pokemonImage.src = `images/front/${imageName.toUpperCase()}.png`;
+pokemonImage.src = `images/Front/${imageName.toUpperCase()}.png`;
 pokemonImage.classList.add("normal-size");
 
 pokemonNameElement.textContent = pokemon.Name;
@@ -110,7 +110,7 @@ for (let i = 0; i < pokemon.Moves.length; i += 2) {
   const levelLearned = pokemon.Moves[i];
   const moveName = pokemon.Moves[i + 1];
   const move = movesData.find(m => m.Name === moveName) || {};
-  const typeImage = move.Type ? `<img src="images/types/${move.Type.toUpperCase()}.png" alt="${move.Type} Type" class="type-icon">` : 'N/A';
+  const typeImage = move.Type ? `<img src="images/Types/${move.Type.toUpperCase()}.png" alt="${move.Type} Type" class="type-icon">` : 'N/A';
   const categoryImage = move.Category ? `<img src="images/Moves/${move.Category.toUpperCase()}.png" alt="${move.Category} Type" class="category-icon">` : 'N/A';
   const row = document.createElement("tr");
   row.innerHTML = `
