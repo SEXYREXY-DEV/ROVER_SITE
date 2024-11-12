@@ -44,21 +44,28 @@ document.addEventListener("DOMContentLoaded", () => {
         function filterAndDisplayPokemon() {
             const nameQuery = searchBar.value.toLowerCase().trim();
             const abilityQuery = abilitySearchBar.value.toLowerCase().trim();
-
+        
             // Filter Pokémon based on both name and ability queries
             const filteredPokemon = allPokemon.filter(pokemon => {
                 const matchesName = pokemon.Name.toLowerCase().includes(nameQuery);
+                
+                // Check Abilities and HiddenAbility for matches
                 const abilities = pokemon.Abilities ? pokemon.Abilities.split(",") : [];
-                const matchesAbility = abilities.some(ability =>
+                const hasMatchingAbility = abilities.some(ability => 
                     ability.toLowerCase().includes(abilityQuery)
                 );
-
+                const hasMatchingHiddenAbility = pokemon.HiddenAbility && 
+                    pokemon.HiddenAbility.toLowerCase().includes(abilityQuery);
+        
+                const matchesAbility = hasMatchingAbility || hasMatchingHiddenAbility;
+        
                 return (nameQuery === '' || matchesName) && (abilityQuery === '' || matchesAbility);
             });
-
+        
             // Display the filtered Pokémon
             sortAndDisplayPokemon(filteredPokemon);
         }
+        
 
         // Function to sort Pokémon based on the selected stat
         function sortAndDisplayPokemon(pokemonData = allPokemon) {

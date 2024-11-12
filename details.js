@@ -2,28 +2,25 @@ document.addEventListener("DOMContentLoaded", () => {
   const pokemonImage = document.getElementById("pokemon-image");
   const imageSelector = document.getElementById("image-selector");
 
-  // Get Pokémon name from URL parameters
   const urlParams = new URLSearchParams(window.location.search);
   const pokemonName = urlParams.get('pokemon');
 
-  fetch("data/merged_pokemon.json")
-    .then(response => response.json())
-    .then(data => {
-      const pokemon = data.find(p => p.InternalName === decodeURIComponent(pokemonName));
-      if (pokemon) {
-        fetch("data/moves.json")  // Fetch the moves data
-          .then(response => response.json())
-          .then(movesData => {
-            renderPokemonData(pokemon, movesData);
-          })
-          .catch(error => console.error("Error loading moves data:", error));
-      } else {
-        console.error("Pokémon not found");
-      }
-    })
-    .catch(error => console.error("Error loading Pokémon data:", error));
+  // Fetch abilities.json and moves.json data in parallel
+  Promise.all([
+    fetch("data/merged_pokemon.json").then(response => response.json()),
+    fetch("data/abilities.json").then(response => response.json()),
+    fetch("data/moves.json").then(response => response.json())
+  ])
+  .then(([pokemonData, abilitiesData, movesData]) => {
+    const pokemon = pokemonData.find(p => p.InternalName === decodeURIComponent(pokemonName));
+    if (pokemon) {
+      renderPokemonData(pokemon, movesData, abilitiesData);
+    } else {
+      console.error("Pokémon not found");
+    }
+  })
+  .catch(error => console.error("Error loading data:", error));
 
-  // Update the image and size when dropdown selection changes
   imageSelector.addEventListener("change", (event) => {
     if (pokemonName) {
       updatePokemonImage(pokemonName, event.target.value);
@@ -35,54 +32,54 @@ function updatePokemonImage(pokemonName, viewType) {
   const pokemonImage = document.getElementById("pokemon-image");
   const imageName = pokemonName;
   const imagePath = `images/${viewType}/${imageName.toUpperCase()}.png`;
-  console.log(`${viewType}`);
   pokemonImage.src = imagePath;
 
-  if (viewType.charAt(0).toUpperCase() === "Icons") {
-      pokemonImage.classList.remove("normal-size");
-      pokemonImage.classList.add("icon-size");
+  if (viewType === "Icons") {
+    pokemonImage.classList.remove("normal-size");
+    pokemonImage.classList.add("icon-size");
   } else {
-      pokemonImage.classList.remove("icon-size");
-      pokemonImage.classList.add("normal-size");
+    pokemonImage.classList.remove("icon-size");
+    pokemonImage.classList.add("normal-size");
   }
 }
 
-function renderPokemonData(pokemon, movesData) {
-const pokemonImage = document.getElementById("pokemon-image");
-const pokemonNameElement = document.getElementById("pokemon-name");
-const pokemonTypeElement = document.getElementById("type-description");
-const pokemonAbilitiesElement = document.getElementById("abilities-description");
-const pokemonHiddenAbilityElement = document.getElementById("hidden-ability-description");
-const pokemonPokedexElement = document.getElementById("pokedex-entry");
+function renderPokemonData(pokemon, movesData, abilitiesData) {
+  const pokemonImage = document.getElementById("pokemon-image");
+  const pokemonNameElement = document.getElementById("pokemon-name");
+  const pokemonTypeElement = document.getElementById("type-description");
+  const pokemonAbilitiesElement = document.getElementById("abilities-description");
+  const pokemonHiddenAbilityElement = document.getElementById("hidden-ability-description");
+  const pokemonPokedexElement = document.getElementById("pokedex-entry");
 
-const imageName = pokemon.InternalName || pokemon.Name.replace(/\s+/g, '_');
-pokemonImage.src = `images/Front/${imageName.toUpperCase()}.png`;
-pokemonImage.classList.add("normal-size");
+  const imageName = pokemon.InternalName || pokemon.Name.replace(/\s+/g, '_');
+  pokemonImage.src = `images/Front/${imageName.toUpperCase()}.png`;
+  pokemonImage.classList.add("normal-size");
 
-pokemonNameElement.textContent = pokemon.Name;
+  pokemonNameElement.textContent = pokemon.Name;
 
-// Display Types with color badges
-const types = [pokemon.Type1, pokemon.Type2].filter(Boolean);
-pokemonTypeElement.innerHTML = types
-  .map(type => `<span class="type-badge ${type.toLowerCase()}">${type}</span>`)
-  .join(' ');
+  const types = [pokemon.Type1, pokemon.Type2].filter(Boolean);
+  pokemonTypeElement.innerHTML = types
+    .map(type => `<span class="type-badge ${type.toLowerCase()}">${type}</span>`)
+    .join(' ');
 
-// Display abilities
-const abilitiesArray = pokemon.Abilities.split(',').map(ability => ability.trim());
-pokemonAbilitiesElement.innerHTML = abilitiesArray.join(', ') || 'None';
+  const abilitiesArray = pokemon.Abilities.split(',').map(ability => ability.trim());
+  pokemonAbilitiesElement.innerHTML = abilitiesArray.map(ability => {
+    const abilityKey = ability.toLowerCase().replace(/\s+/g, '');
+    const abilityInfo = abilitiesData[abilityKey];
+    return `<div class="ability">
+              <strong>${abilityInfo ? abilityInfo.Name : ability}</strong>: 
+              ${abilityInfo ? abilityInfo.Description : 'No description available'}
+            </div>`;
+  }).join('') || 'None';
 
-// Set hidden ability
-pokemonHiddenAbilityElement.textContent = pokemon.HiddenAbility || 'None';
+  pokemonHiddenAbilityElement.textContent = pokemon.HiddenAbility || 'None';
+  pokemonPokedexElement.textContent = pokemon.Pokedex || 'No entry available';
 
-// Set Pokédex entry
-pokemonPokedexElement.textContent = pokemon.Pokedex || 'No entry available';
+  renderStatsTable(pokemon);
+  renderMovesTable(pokemon, movesData);
+  renderOtherStatsTable(pokemon);
 
-// Show base stats, moves, and other stats as needed
-renderStatsTable(pokemon);
-renderMovesTable(pokemon, movesData);
-renderOtherStatsTable(pokemon);
-
-document.getElementById("pokemon-info").style.display = "block";
+  document.getElementById("pokemon-info").style.display = "block";
 }
 
 function renderStatsTable(pokemon) {
