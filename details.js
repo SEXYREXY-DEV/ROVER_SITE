@@ -62,6 +62,7 @@ function renderPokemonData(pokemon, movesData, abilitiesData) {
     .map(type => `<span class="type-badge ${type.toLowerCase()}">${type}</span>`)
     .join(' ');
 
+  // Render regular abilities
   const abilitiesArray = pokemon.Abilities.split(',').map(ability => ability.trim());
   pokemonAbilitiesElement.innerHTML = abilitiesArray.map(ability => {
     const abilityKey = ability.toLowerCase().replace(/\s+/g, '');
@@ -72,7 +73,18 @@ function renderPokemonData(pokemon, movesData, abilitiesData) {
             </div>`;
   }).join('') || 'None';
 
-  pokemonHiddenAbilityElement.textContent = pokemon.HiddenAbility || 'None';
+  // Render hidden ability in the same format as regular abilities
+  if (pokemon.HiddenAbility) {
+    const hiddenAbilityKey = pokemon.HiddenAbility.toLowerCase().replace(/\s+/g, '');
+    const hiddenAbilityInfo = abilitiesData[hiddenAbilityKey];
+    pokemonHiddenAbilityElement.innerHTML = `<div class="ability">
+                                               <strong>${hiddenAbilityInfo ? hiddenAbilityInfo.Name : pokemon.HiddenAbility}</strong>: 
+                                               ${hiddenAbilityInfo ? hiddenAbilityInfo.Description : 'No description available'}
+                                             </div>`;
+  } else {
+    pokemonHiddenAbilityElement.textContent = 'None';
+  }
+
   pokemonPokedexElement.textContent = pokemon.Pokedex || 'No entry available';
 
   renderStatsTable(pokemon);
@@ -81,6 +93,7 @@ function renderPokemonData(pokemon, movesData, abilitiesData) {
 
   document.getElementById("pokemon-info").style.display = "block";
 }
+
 
 function renderStatsTable(pokemon) {
 const baseStatsBody = document.getElementById("base-stats-body");
