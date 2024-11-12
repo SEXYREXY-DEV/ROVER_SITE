@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Function to display Pokémon cards based on filtered data
         function displayPokemon(pokemonData) {
-            container.innerHTML = ''; // Clear current Pokémon cards
+            container.innerHTML = '';
             pokemonData.forEach(pokemon => {
-                const baseCard = createPokemonCard(getBasePokemonData(pokemon)); // Display base Pokémon card
+                const baseCard = createPokemonCard(getBasePokemonData(pokemon));
                 container.appendChild(baseCard);
             });
         }
@@ -71,13 +71,12 @@ document.addEventListener("DOMContentLoaded", () => {
         function sortAndDisplayPokemon(pokemonData = allPokemon) {
             const selectedSort = sortDropdown.value;
 
-            let sortedPokemon = [...pokemonData]; // Copy the array to avoid modifying the original
+            let sortedPokemon = [...pokemonData];
 
-            // Sort based on the selected stat
+
             sortedPokemon.sort((a, b) => {
                 let statA, statB;
 
-                // Get the stat value based on the selected option
                 switch (selectedSort) {
                     case "hp":
                         statA = parseInt(a.BaseStats[0], 10); // HP is the first stat in the array
@@ -110,13 +109,12 @@ document.addEventListener("DOMContentLoaded", () => {
                         break;
                 }
 
-                // Return the result of the comparison (ascending)
+                // Return the result of the comparison
                 if (statA > statB) return -1;
                 if (statA < statB) return 1;
                 return 0;
             });
 
-            // Display the sorted Pokémon
             displayPokemon(sortedPokemon);
         }
     })
@@ -129,7 +127,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // 1. Define the function to extract base Pokémon data
 function getBasePokemonData(pokemonData) {
-    // Return base Pokémon data even if it has forms
     return {
         Name: pokemonData.Name,
         InternalName: pokemonData.InternalName,
@@ -199,7 +196,7 @@ function createPokemonCard(pokemon, basePokemon = null) {
     const type1Color = getTypeColor(types[0]);
     const type2Color = types[1] ? getTypeColor(types[1]) : type1Color;
 
-    // Apply background gradient based on types
+    // Background Types
     card.style.borderImage = `linear-gradient(90deg, ${type1Color} 50%, ${type2Color} 50%) 1`;
 
 
@@ -207,7 +204,6 @@ function createPokemonCard(pokemon, basePokemon = null) {
     const info = document.createElement("div");
     info.classList.add("pokemon-info");
 
-    // Add Name (include form name if it's a form)
     const name = document.createElement("h2");
     name.textContent = pokemon.Name || pokemon.InternalName;
     if (basePokemon) name.textContent += ` (${pokemon.FormName || "Form"})`;
@@ -243,8 +239,7 @@ function createPokemonCard(pokemon, basePokemon = null) {
         <div><span class="stat-name">SpDef</span><br><span class="stat-value">${spDef}</span></div>
     `;
     card.addEventListener("click", () => {
-        // Use the Pokémon's InternalName or ID to navigate
-        const pokemonName = encodeURIComponent(pokemon.InternalName);
+        const pokemonName = encodeURIComponent(pokemon.Name);
         window.location.href = `details.html?pokemon=${pokemonName}`; // Redirect to details page
     });
     // Abilities section
@@ -257,20 +252,17 @@ function createPokemonCard(pokemon, basePokemon = null) {
 
     abilities.innerHTML = `<p>${abilitiesText}</p><p>${hiddenAbilityText}</p>`;
 
-    // Append elements to info section
     info.appendChild(name);
     info.appendChild(type);
     info.appendChild(stats);
     info.appendChild(abilities);
 
-    // Append image and info to card
     card.appendChild(image);
     card.appendChild(info);
 
     return card;
 }
 
-// Function to get color based on type
 function getTypeColor(type) {
     const typeColors = {
         NORMAL: '#A8A878', FIRE: '#F08030', WATER: '#6890F0', ELECTRIC: '#F8D030',
@@ -283,7 +275,6 @@ function getTypeColor(type) {
     return typeColors[type?.toUpperCase()] || '#ccc';
 }
 
-// Set Pokémon information
 pokemonInfo.innerHTML = `
     <h1>${pokemon.Name}</h1>
     <p>Type: ${pokemon.Type1}${pokemon.Type2 ? ' / ' + pokemon.Type2 : ''}</p>
@@ -295,7 +286,6 @@ pokemonInfo.innerHTML = `
     <p>Speed: ${pokemon.Spd}</p>
 `;
 
-// Set abilities and hidden ability
 document.getElementById('pokemon-abilities').textContent = pokemon.Abilities.map(ability => ability.name).join(', ');
 document.getElementById('pokemon-hidden-ability').textContent = pokemon.HiddenAbility ? pokemon.HiddenAbility.split(' - ')[0] : 'None';
 

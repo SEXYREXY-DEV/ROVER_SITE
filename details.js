@@ -12,11 +12,16 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("data/moves.json").then(response => response.json())
   ])
   .then(([pokemonData, abilitiesData, movesData]) => {
-    const pokemon = pokemonData.find(p => p.InternalName === decodeURIComponent(pokemonName));
+    let pokemon = pokemonData.find(p => p.InternalName === decodeURIComponent(pokemonName));
+    
+    if (!pokemon) {
+      pokemon = pokemonData.find(p => p.Name === decodeURIComponent(pokemonName));
+    }
+    
     if (pokemon) {
       renderPokemonData(pokemon, movesData, abilitiesData);
     } else {
-      console.error("Pokémon not found");
+      console.error(`Pokémon not found. Tried searching by InternalName: ${decodeURIComponent(pokemonName)} and Name: ${decodeURIComponent(pokemonName)}`);
     }
   })
   .catch(error => console.error("Error loading data:", error));
@@ -27,6 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+
 
 function updatePokemonImage(pokemonName, viewType) {
   const pokemonImage = document.getElementById("pokemon-image");
@@ -159,21 +166,17 @@ otherStats.forEach(stat => {
 }
 
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  // User prefers dark mode
   document.documentElement.classList.add('dark-mode');
 } else {
-  // User prefers light mode
   document.documentElement.classList.add('light-mode');
 }
 
-// Optional: Listen for changes in dark mode preference
+
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
   if (event.matches) {
-      // Dark mode activated
       document.documentElement.classList.add('dark-mode');
       document.documentElement.classList.remove('light-mode');
   } else {
-      // Light mode activated
       document.documentElement.classList.add('light-mode');
       document.documentElement.classList.remove('dark-mode');
   }
