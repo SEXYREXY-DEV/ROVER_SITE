@@ -119,7 +119,7 @@ function renderEvolutions(pokemon) {
       const evolutionName = evolutions[i];
 
       const evolutionImage = document.createElement("img");
-      evolutionImage.src = `images/front/${evolutionName.toUpperCase()}.png`;
+      evolutionImage.src = `images/Front/${evolutionName.toUpperCase()}.png`;
       evolutionImage.alt = evolutionName;
       evolutionImage.classList.add("evolution-image");
 
