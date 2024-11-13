@@ -239,7 +239,7 @@ function createPokemonCard(pokemon, basePokemon = null) {
         <div><span class="stat-name">SpDef</span><br><span class="stat-value">${spDef}</span></div>
     `;
     card.addEventListener("click", () => {
-        const pokemonName = encodeURIComponent(pokemon.Name);
+        const pokemonName = encodeURIComponent(pokemon.InternalName);
         window.location.href = `details.html?pokemon=${pokemonName}`; // Redirect to details page
     });
     // Abilities section
