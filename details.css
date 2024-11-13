@@ -401,3 +401,44 @@ strong {
     height: auto;
     border-radius: 10px;
 }
+
+.evolution-container {
+    margin-top: 20px;
+  }
+  
+  .evolution-images {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .evolution-entry {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .evolution-image {
+    width: 192px;
+    height: 192px;
+    cursor: pointer;
+  }
+  
+  .evolution-info {
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  .evolution-image {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+    cursor: pointer; /* Makes the cursor a pointer on hover */
+}
+
+.evolution-image:hover {
+    transform: scale(1.1); /* Slightly enlarges the image */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+    opacity: 0.9; /* Slightly reduces opacity */
+}
+
+  

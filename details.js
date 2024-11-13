@@ -33,8 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
-
 function updatePokemonImage(pokemonName, viewType) {
   const pokemonImage = document.getElementById("pokemon-image");
   const imageName = pokemonName;
@@ -99,7 +97,44 @@ function renderPokemonData(pokemon, movesData, abilitiesData) {
   renderOtherStatsTable(pokemon);
 
   document.getElementById("pokemon-info").style.display = "block";
+
+  renderEvolutions(pokemon);
 }
+
+function renderEvolutions(pokemon) {
+  const evolutionContainer = document.getElementById("evolution-images");
+
+  if (!evolutionContainer) {
+    console.error("Element with ID 'evolution-images' not found.");
+    return;
+  }
+
+  evolutionContainer.innerHTML = '';
+
+  if (pokemon.Evolutions) {
+
+    const evolutions = pokemon.Evolutions.split(',');
+    
+    for (let i = 0; i < evolutions.length; i += 3) {
+      const evolutionName = evolutions[i];
+
+      const evolutionImage = document.createElement("img");
+      evolutionImage.src = `images/front/${evolutionName.toUpperCase()}.png`;
+      evolutionImage.alt = evolutionName;
+      evolutionImage.classList.add("evolution-image");
+
+      evolutionImage.addEventListener("click", () => {
+        window.location.href = `details.html?pokemon=${encodeURIComponent(evolutionName)}`;
+      });
+
+      evolutionContainer.appendChild(evolutionImage);
+    }
+  } else {
+
+    evolutionContainer.innerHTML = '<p>No evolutions available.</p>';
+  }
+}
+
 
 
 function renderStatsTable(pokemon) {

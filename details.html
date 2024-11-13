@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="details.css">
 </head>
 <body>
-    <section id="image-view">
+    <section id="image-view" class="control-panel">
         <label for="image-selector">Select Image View:</label>
         <select id="image-selector">
             <option value="Front">Front</option>
@@ -17,16 +17,14 @@
             <option value="Icons">Icon</option>
         </select>
     </section>
-
     <section id="pokemon-info">
         <div id="pokemon-header">
-            <h1 id="pokemon-name"></h1>
+            <h1 id="pokemon-name" class="pokemon-name"></h1>
             <div id="pokemon-image-container">
-                <img id="pokemon-image" src="" alt="Pokémon Image">
+                <img id="pokemon-image" src="" alt="Pokémon Image" class="pokemon-image">
             </div>
         </div>
-
-        <div id="pokemon-details">
+        <div id="pokemon-details" class="details-wrapper">
             <div id="pokemon-type" class="detail-section">
                 <strong>Type:</strong>
                 <p id="type-description"></p>
@@ -43,8 +41,11 @@
                 <strong>Pokédex Entry:</strong>
                 <p id="pokedex-entry"></p>
             </div>
-
-            <div id="pokemon-base-stats">
+            <div id="evolution-section" class="evolution-container">
+                <h3>Evolutions</h3>
+                <div id="evolution-images"></div>
+            </div>
+            <div id="pokemon-base-stats" class="stat-section">
                 <h2>Base Stats</h2>
                 <table class="stats-table">
                     <thead>
@@ -56,8 +57,7 @@
                     <tbody id="base-stats-body"></tbody>
                 </table>
             </div>
-            
-            <div id="pokemon-moves">
+            <div id="pokemon-moves" class="moves-section">
                 <h2>Moves</h2>
                 <table class="moves-table">
                     <thead>
@@ -74,8 +74,7 @@
                     <tbody id="moves-table-body"></tbody>
                 </table>
             </div>
-
-            <div id="pokemon-other-stats">
+            <div id="pokemon-other-stats" class="stat-section">
                 <h2>Other Stats</h2>
                 <table class="stats-table">
                     <thead>
