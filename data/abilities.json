@@ -1353,6 +1353,14 @@
     },
     "phasechange": {
         "Name": "Phase Change",
-        "Description": "Ice moves become water and get 1.5x power."
+        "Description": "Ice moves become water and get 1.2x power."
+    },
+    "auroraconcord": {
+        "Name": "Aurora Concord",
+        "Description": "Powers up beam moves."
+    },
+    "fiercestance": {
+        "Name": "Fierce Stance",
+        "Description": "Changes form at half HP."
     }
 }

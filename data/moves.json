@@ -145,7 +145,8 @@
         "FunctionCode": "ConfuseTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "EffectChance": 10,
         "Description": "The user attacks with a sinister beam of light. It may also confuse the target."
@@ -1094,7 +1095,8 @@
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
-            "CannotMetronome"
+            "CannotMetronome",
+            "Beam"
         ],
         "Description": "This is Eternatus's most powerful attack in its original form. The user can't move on the next turn."
     },
@@ -1221,7 +1223,8 @@
         "FunctionCode": "None",
         "Flags": [
             "CanProtect",
-            "CannotMetronome"
+            "CannotMetronome",
+            "Beam"
         ],
         "Description": "The user unleashes a strong beam from its core."
     },
@@ -1821,7 +1824,8 @@
         "FunctionCode": "RaiseUserSpAtk1",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "EffectChance": 70,
         "Description": "The user fires a concentrated bundle of electricity. It may also raise the user's Sp. Atk stat."
@@ -1981,7 +1985,8 @@
             "Recoil",
             "CanProtect",
             "CanMirrorMove",
-            "CannotMetronome"
+            "CannotMetronome",
+            "Beam"
         ],
         "Description": "Fires a powerful beam of light drawn from the Eternal Flower. It also damages the user a lot."
     },
@@ -1997,7 +2002,8 @@
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
-            "CannotMetronome"
+            "CannotMetronome",
+            "Beam"
         ],
         "Description": "The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat."
     },
@@ -3479,6 +3485,23 @@
         "Description": "The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat."
     },
     {
+        "Name": "RESONANTBEAM",
+        "Type": "SOUND",
+        "Category": "Special",
+        "Power": 75,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "LowerTargetSpAtk1",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove",
+            "Beam"
+        ],
+        "EffectChance": 100,
+        "Description": "The user attacks by blasting a special beam. This also lowers the target's Sp. Atk stat."
+    },
+    {
         "Name": "BURNINGJEALOUSY",
         "Type": "FIRE",
         "Category": "Special",
@@ -4112,7 +4135,8 @@
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
-            "CannotMetronome"
+            "CannotMetronome",
+            "Beam"
         ],
         "Description": "The user emits a sinister ray. This move can be used on the target regardless of its Abilities."
     },
@@ -4524,7 +4548,8 @@
         "FunctionCode": "TwoTurnAttackOneTurnInSun",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "Description": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn."
     },
@@ -5619,7 +5644,8 @@
         "FunctionCode": "FreezeTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "EffectChance": 10,
         "Description": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid."
@@ -5685,7 +5711,8 @@
         "FunctionCode": "LowerTargetAttack1",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "EffectChance": 10,
         "Description": "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat."
@@ -5967,7 +5994,8 @@
         "FunctionCode": "AttackAndSkipNextTurn",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "Description": "The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy."
     },
@@ -6098,7 +6126,8 @@
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
-            "CannotMetronome"
+            "CannotMetronome",
+            "Beam"
         ],
         "Description": "The user fires a beam of light at its target. The type changes depending on the Drive the user holds."
     },
@@ -6362,7 +6391,8 @@
         "FunctionCode": "ParalyzeBurnOrFreezeTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "EffectChance": 20,
         "Description": "The user strikes with a simultaneous three-beam attack. May also paralyze, burn, or freeze the target."
@@ -8694,7 +8724,7 @@
         "Name": "POISONSTING",
         "Type": "POISON",
         "Category": "Physical",
-        "Power": 15,
+        "Power": 30,
         "Accuracy": 100,
         "TotalPP": 35,
         "Target": "NearOther",
@@ -9766,7 +9796,8 @@
         "FunctionCode": "TwoTurnAttackChargeRaiseUserSpAtk1",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "Description": "Gathers space power and boosts its Sp. Atk stat on the first turn, attacks on the next turn."
     },
@@ -10024,7 +10055,8 @@
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
-            "CannotMetronome"
+            "CannotMetronome",
+            "Beam"
         ],
         "Description": "The user fires a beam of steel that it collected from its entire body. This also damages the user."
     },
@@ -10490,7 +10522,8 @@
             "CanProtect",
             "CanMirrorMove",
             "Pulse",
-            "CannotMetronome"
+            "CannotMetronome",
+            "Beam"
         ],
         "Description": "The user attacks opposing Pok\u00c3\u00a9mon with countless beams of light that glow a deep and brilliant blue."
     },
@@ -10767,7 +10800,8 @@
         "FunctionCode": "LowerTargetSpeed1",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "EffectChance": 10,
         "Description": "A spray of bubbles is forcefully ejected at the target. It may also lower its Speed stat."
@@ -12231,7 +12265,8 @@
         "Flags": [
             "Twice",
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "Description": "The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row."
     },
@@ -12475,7 +12510,8 @@
         "FunctionCode": "CategoryDependsOnHigherDamageIgnoreTargetAbility",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "Description": "A tackle or a beam charged with energy deals damage. Uses the user's highest atk stat."
     },
@@ -13192,7 +13228,8 @@
         "FunctionCode": "RandomlyDealsDoubleDamage",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Beam"
         ],
         "Description": "Sometimes all of the user's heads shoot beams in unison, doubling this move's power."
     },
@@ -13212,5 +13249,53 @@
         ],
         "EffectChance": 100,
         "Description": "An explosion of sticky candy syrup, which drop the target's Speed stat each turn for three turns."
+    },
+    {
+        "Name": "BOLTOFGENIUS",
+        "Type": "NORMAL",
+        "Category": "Physical",
+        "Accuracy": 100,
+        "TotalPP": 5,
+        "Target": "NearOther",
+        "FunctionCode": "FailsIfTargetIsntStatused",
+        "Description": "An ambush takes advantage of the target's weakness. Acts first, fails if the target isn't statused.",
+        "Power": 100,
+        "Priority": 1,
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ]
+    },
+    {
+        "Name": "BURROWINGSTRIKE",
+        "Type": "GROUND",
+        "Category": "Physical",
+        "Power": 50,
+        "Accuracy": 100,
+        "TotalPP": 20,
+        "Target": "NearOther",
+        "FunctionCode": "RaiseUserSpeed1",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 100,
+        "Description": "The user quick burrows and then attacks from below, it raises the user's Speed stat."
+    },
+    {
+        "Name": "GOODNIGHTMOON",
+        "Type": "NORMAL",
+        "Category": "Status",
+        "Accuracy": 0,
+        "TotalPP": 10,
+        "Target": "AllBattlers",
+        "FunctionCode": "SleepTargetNextTurn",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user lets loose a huge yawn that lulls everyone into falling asleep on the next turn."
     }
 ]

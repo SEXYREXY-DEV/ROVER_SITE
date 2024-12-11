@@ -112,11 +112,12 @@ function renderEvolutions(pokemon) {
   evolutionContainer.innerHTML = '';
 
   if (pokemon.Evolutions) {
-
     const evolutions = pokemon.Evolutions.split(',');
-    
+
     for (let i = 0; i < evolutions.length; i += 3) {
       const evolutionName = evolutions[i];
+      const evolutionMethod = evolutions[i + 1];
+      const evolutionItem = evolutions[i + 2];
 
       const evolutionImage = document.createElement("img");
       evolutionImage.src = `images/front/${evolutionName.toUpperCase()}.png`;
@@ -127,13 +128,23 @@ function renderEvolutions(pokemon) {
         window.location.href = `details.html?pokemon=${encodeURIComponent(evolutionName)}`;
       });
 
-      evolutionContainer.appendChild(evolutionImage);
+      const evolutionContainerItem = document.createElement("div");
+      evolutionContainerItem.classList.add("evolution-container-item");
+      
+      evolutionContainerItem.appendChild(evolutionImage);
+
+      const methodText = document.createElement("p");
+      methodText.textContent = `Method: ${evolutionMethod} ${evolutionItem ? `(${evolutionItem})` : ''}`;
+      methodText.classList.add("evolution-how");
+      evolutionContainerItem.appendChild(methodText);
+
+      evolutionContainer.appendChild(evolutionContainerItem);
     }
   } else {
-
     evolutionContainer.innerHTML = '<p>No evolutions available.</p>';
   }
 }
+
 
 
 

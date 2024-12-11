@@ -108,7 +108,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = ConfuseTarget
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Beam
 EffectChance = 10
 Description = The user attacks with a sinister beam of light. It may also confuse the target.
 #-------------------------------
@@ -852,7 +852,7 @@ Accuracy = 90
 TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
-Flags = CanProtect,CanMirrorMove,CannotMetronome
+Flags = CanProtect,CanMirrorMove,CannotMetronome,Beam
 Description = This is Eternatus's most powerful attack in its original form. The user can't move on the next turn.
 #-------------------------------
 [DRAGONENERGY]
@@ -949,7 +949,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = None
-Flags = CanProtect,CannotMetronome
+Flags = CanProtect,CannotMetronome,Beam
 Description = The user unleashes a strong beam from its core.
 #-------------------------------
 [SPACIALREND]
@@ -1407,7 +1407,7 @@ Accuracy = 90
 TotalPP = 10
 Target = NearOther
 FunctionCode = RaiseUserSpAtk1
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Beam
 EffectChance = 70
 Description = The user fires a concentrated bundle of electricity. It may also raise the user's Sp. Atk stat.
 #-------------------------------
@@ -1542,7 +1542,7 @@ Accuracy = 90
 TotalPP = 5
 Target = NearOther
 FunctionCode = RecoilHalfOfDamageDealt
-Flags = Recoil,CanProtect,CanMirrorMove,CannotMetronome
+Flags = Recoil,CanProtect,CanMirrorMove,CannotMetronome,Beam
 Description = Fires a powerful beam of light drawn from the Eternal Flower. It also damages the user a lot.
 #-------------------------------
 [FLEURCANNON]
@@ -1554,7 +1554,7 @@ Accuracy = 90
 TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtk2
-Flags = CanProtect,CanMirrorMove,CannotMetronome
+Flags = CanProtect,CanMirrorMove,CannotMetronome,Beam
 Description = The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat.
 #-------------------------------
 [MISTYEXPLOSION]
@@ -2706,6 +2706,19 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 100
 Description = The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.
 #-------------------------------
+[RESONANTBEAM]
+Name = Resonant Beam
+Type = SOUND
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = CanProtect,CanMirrorMove,Beam
+EffectChance = 100
+Description = The user attacks by blasting a special beam. This also lowers the target's Sp. Atk stat.
+#-------------------------------
 [BURNINGJEALOUSY]
 Name = Burning Jealousy
 Type = FIRE
@@ -3195,7 +3208,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = IgnoreTargetAbility
-Flags = CanProtect,CanMirrorMove,CannotMetronome
+Flags = CanProtect,CanMirrorMove,CannotMetronome,Beam
 Description = The user emits a sinister ray. This move can be used on the target regardless of its Abilities.
 #-------------------------------
 [PHANTOMFORCE]
@@ -3517,7 +3530,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackOneTurnInSun
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Beam
 Description = A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.
 #-------------------------------
 [WOODHAMMER]
@@ -4380,7 +4393,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = FreezeTarget
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Beam
 EffectChance = 10
 Description = The target is struck with an icy-cold beam of energy. It may also freeze the target solid.
 #-------------------------------
@@ -4432,7 +4445,7 @@ Accuracy = 100
 TotalPP = 20
 Target = NearOther
 FunctionCode = LowerTargetAttack1
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Beam
 EffectChance = 10
 Description = The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.
 #-------------------------------
@@ -4659,7 +4672,7 @@ Accuracy = 90
 TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Beam
 Description = The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.
 #-------------------------------
 [BOOMBURST]
@@ -4755,7 +4768,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = TypeDependsOnUserDrive
-Flags = CanProtect,CanMirrorMove,CannotMetronome
+Flags = CanProtect,CanMirrorMove,CannotMetronome,Beam
 Description = The user fires a beam of light at its target. The type changes depending on the Drive the user holds.
 #-------------------------------
 [THRASH]
@@ -4951,7 +4964,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = ParalyzeBurnOrFreezeTarget
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Beam
 EffectChance = 20
 Description = The user strikes with a simultaneous three-beam attack. May also paralyze, burn, or freeze the target.
 #-------------------------------
@@ -6867,7 +6880,7 @@ Description = The target is attacked with a discharge of filthy gases. It may al
 Name = Poison Sting
 Type = POISON
 Category = Physical
-Power = 15
+Power = 30
 Accuracy = 100
 TotalPP = 35
 Target = NearOther
@@ -7763,7 +7776,7 @@ Accuracy = 90
 TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackChargeRaiseUserSpAtk1
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Beam
 Description = Gathers space power and boosts its Sp. Atk stat on the first turn, attacks on the next turn.
 #-------------------------------
 [DIAMONDSTORM]
@@ -7975,7 +7988,7 @@ Accuracy = 95
 TotalPP = 5
 Target = NearOther
 FunctionCode = UserLosesHalfOfTotalHP
-Flags = CanProtect,CanMirrorMove,CannotMetronome
+Flags = CanProtect,CanMirrorMove,CannotMetronome,Beam
 Description = The user fires a beam of steel that it collected from its entire body. This also damages the user.
 #-------------------------------
 [STEELROLLER]
@@ -8335,7 +8348,7 @@ Accuracy = 85
 TotalPP = 10
 Target = AllNearFoes
 FunctionCode = None
-Flags = CanProtect,CanMirrorMove,Pulse,CannotMetronome
+Flags = CanProtect,CanMirrorMove,Pulse,CannotMetronome,Beam
 Description = The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue.
 #-------------------------------
 [STEAMERUPTION]
@@ -8546,7 +8559,7 @@ Accuracy = 100
 TotalPP = 20
 Target = NearOther
 FunctionCode = LowerTargetSpeed1
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Beam
 EffectChance = 10
 Description = A spray of bubbles is forcefully ejected at the target. It may also lower its Speed stat.
 #-------------------------------
@@ -9727,7 +9740,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = HitTwoTimes
-Flags = Twice,CanProtect,CanMirrorMove
+Flags = Twice,CanProtect,CanMirrorMove,Beam
 Description = The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row.
 #-------------------------------
 [WICKEDTORQUE]
@@ -9923,7 +9936,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbility
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Beam
 Description = A tackle or a beam charged with energy deals damage. Uses the user's highest atk stat.
 #-------------------------------
 [PESTILENCEBURST]
@@ -10479,7 +10492,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = RandomlyDealsDoubleDamage
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Beam
 Description = Sometimes all of the user's heads shoot beams in unison, doubling this move's power.
 #-------------------------------
 [SYRUPBOMB]
@@ -10494,3 +10507,50 @@ FunctionCode = LowerTargetSpeedOverTime
 Flags = CanProtect,CanMirrorMove,Bomb
 EffectChance = 100
 Description = An explosion of sticky candy syrup, which drop the target's Speed stat each turn for three turns.
+#-------------------------------
+[BOLTOFGENIUS]
+Name = Bolt of Genius
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = RaiseUserSpAtkSpDef1PlusAllyInElectricPsychicTerrain
+Description = Electricity stimulates the brain, increasing SpAtk and SpDef. In electric/psychic terrain, it boosts allies aswell.
+#------------------------------
+[AMBUSH]
+Name = Ambush
+Type = NORMAL
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+Priority = 1
+FunctionCode = FailsIfTargetIsntStatused
+Flags = Contact,CanProtect,CanMirrorMove
+Description = An ambush takes advantage of the target's weakness. Acts first, fails if the target isn't statused.
+#-------------------------------
+[BURROWINGSTRIKE]
+Name = Burrowing Strike
+Type = GROUND
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RaiseUserSpeed1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user quick burrows and then attacks from below, it raises the user's Speed stat.
+#-------------------------------
+[GOODNIGHTMOON]
+Name = Goodnight Moon
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = AllBattlers
+FunctionCode = SleepTargetNextTurn
+Flags = CanProtect,CanMirrorMove
+Description = The user lets loose a huge yawn that lulls everyone into falling asleep on the next turn.

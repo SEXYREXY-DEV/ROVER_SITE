@@ -1353,5 +1353,13 @@ Description = Changes form when hit by fire type or burn-inducing move.
 #-------------------------------
 [PHASECHANGE]
 Name = Phase Change
-Description = Ice moves become water and get 1.5x power.
+Description = Ice moves become water and get 1.2x power.
+#-------------------------------
+[AURORACONCORD]
+Name = Aurora Concord
+Description = Powers up beam moves.
+#-------------------------------
+[FIERCESTANCE]
+Name = Fierce Stance
+Description = Changes form at half HP.
 

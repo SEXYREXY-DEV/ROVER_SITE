@@ -19,6 +19,9 @@ def convert_txt_to_json(input_file, output_file):
                 key = key.strip()
                 value = value.strip()
                 
+                if key == 'Name':
+                    value = value.upper()
+                
                 if key == 'Types':
                     # Split Types field into Type1 and Type2
                     types = value.split(',')

@@ -74,9 +74,9 @@ Land,20
     15,WATTREL,15,18
 #-------------------------------
 [021] # Arlen Sewers
-Cave,200
+Cave,20
     20,GASTLY,17,20
-    20,KOFFING,17,20
+    20,VANILLITE,17,20
     20,GRIMER,17,20
     20,VAROOM,17,20
     20,EKANS,17,20
@@ -236,9 +236,9 @@ Land,20
     20,LOTAD,6,8
 #-------------------------------
 [065] # Blackstone Cavern
-Cave,200
+Cave,20
     20,GEODUDET,7,10
-    20,KOFFING,7,10
+    20,VANILLITE,7,10
     20,ZUBAT,7,10
     20,PARAS,7,10
     20,WHISMUR,7,10
@@ -310,7 +310,7 @@ Land,20
 Land,20
     16,POLIWAG,12,15
     16,PIDGEY,12,15
-    16,VENIPEDE,12,15
+    16,STANTLER,12,15
     16,FLETCHLING,12,15
     16,RATTATA,12,15
     16,METAPOD,12,15
@@ -392,7 +392,7 @@ Land,20
     20,STANTLER,30,32
     20,ABRA,30,32
     20,SEWADDLE,30,32
-    20,VENIPEDE,30,32
+    20,STANTLER,30,32
     20,BOLTUND,30,32
 #-------------------------------
 [096] # Mt. Runaan West
@@ -462,7 +462,7 @@ Land,20
 [117] # Eastcliff Path
 Land,20
     20,BUNNELBY,38,40
-    20,DEERLING,38,40
+    20,STANTLER,38,40
     20,MIENFOO,38,40
     20,PINSIR,38,40
     20,MAGNEMITET,38,40

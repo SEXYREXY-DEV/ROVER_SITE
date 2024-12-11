@@ -1788,15 +1788,6 @@ Abilities = BATTLEBOND
 HiddenAbility = BATTLEBOND
 Compatibility = Undiscovered
 #-------------------------------
-[GRENINJA,2]
-FormName = Ash-Greninja
-BaseStats = 72,145,67,132,153,71
-Abilities = BATTLEBOND
-HiddenAbility = BATTLEBOND
-Generation = 7
-BattlerPlayerY = 15
-BattlerEnemyY = 15
-#-------------------------------
 [VIVILLON,1]
 FormName = Archipelago Pattern
 #-------------------------------
@@ -2356,190 +2347,19 @@ BattlerPlayerY = 8
 BattlerEnemyY = 11
 #-------------------------------
 [ALCREMIE,1]
-FormName = Berry - Vanilla Cream
+FormName = Vanilla
 #-------------------------------
 [ALCREMIE,2]
-FormName = Love - Vanilla Cream
+FormName = Blue Honey
 #-------------------------------
 [ALCREMIE,3]
-FormName = Star - Vanilla Cream
+FormName = Mint
 #-------------------------------
 [ALCREMIE,4]
-FormName = Clover - Vanilla Cream
+FormName = Pink Velvet
 #-------------------------------
 [ALCREMIE,5]
-FormName = Flower - Vanilla Cream
-#-------------------------------
-[ALCREMIE,6]
-FormName = Ribbon - Vanilla Cream
-#-------------------------------
-[ALCREMIE,7]
-FormName = Strawberry - Ruby Cream
-#-------------------------------
-[ALCREMIE,8]
-FormName = Berry - Ruby Cream
-#-------------------------------
-[ALCREMIE,9]
-FormName = Love - Ruby Cream
-#-------------------------------
-[ALCREMIE,10]
-FormName = Star - Ruby Cream
-#-------------------------------
-[ALCREMIE,11]
-FormName = Clover - Ruby Cream
-#-------------------------------
-[ALCREMIE,12]
-FormName = Flower - Ruby Cream
-#-------------------------------
-[ALCREMIE,13]
-FormName = Ribbon - Ruby Cream
-#-------------------------------
-[ALCREMIE,14]
-FormName = Strawberry - Matcha Cream
-#-------------------------------
-[ALCREMIE,15]
-FormName = Berry - Matcha Cream
-#-------------------------------
-[ALCREMIE,16]
-FormName = Love - Matcha Cream
-#-------------------------------
-[ALCREMIE,17]
-FormName = Star - Matcha Cream
-#-------------------------------
-[ALCREMIE,18]
-FormName = Clover - Matcha Cream
-#-------------------------------
-[ALCREMIE,19]
-FormName = Flower - Matcha Cream
-#-------------------------------
-[ALCREMIE,20]
-FormName = Ribbon - Matcha Cream
-#-------------------------------
-[ALCREMIE,21]
-FormName = Strawberry - Mint Cream
-#-------------------------------
-[ALCREMIE,22]
-FormName = Berry - Mint Cream
-#-------------------------------
-[ALCREMIE,23]
-FormName = Love - Mint Cream
-#-------------------------------
-[ALCREMIE,24]
-FormName = Star - Mint Cream
-#-------------------------------
-[ALCREMIE,25]
-FormName = Clover - Mint Cream
-#-------------------------------
-[ALCREMIE,26]
-FormName = Flower - Mint Cream
-#-------------------------------
-[ALCREMIE,27]
-FormName = Ribbon - Mint Cream
-#-------------------------------
-[ALCREMIE,28]
-FormName = Strawberry - Lemon Cream
-#-------------------------------
-[ALCREMIE,29]
-FormName = Berry - Lemon Cream
-#-------------------------------
-[ALCREMIE,30]
-FormName = Love - Lemon Cream
-#-------------------------------
-[ALCREMIE,31]
-FormName = Star - Lemon Cream
-#-------------------------------
-[ALCREMIE,32]
-FormName = Clover - Lemon Cream
-#-------------------------------
-[ALCREMIE,33]
-FormName = Flower - Lemon Cream
-#-------------------------------
-[ALCREMIE,34]
-FormName = Ribbon - Lemon Cream
-#-------------------------------
-[ALCREMIE,35]
-FormName = Strawberry - Salted Cream
-#-------------------------------
-[ALCREMIE,36]
-FormName = Berry - Salted Cream
-#-------------------------------
-[ALCREMIE,37]
-FormName = Love - Salted Cream
-#-------------------------------
-[ALCREMIE,38]
-FormName = Star - Salted Cream
-#-------------------------------
-[ALCREMIE,39]
-FormName = Clover - Salted Cream
-#-------------------------------
-[ALCREMIE,40]
-FormName = Flower - Salted Cream
-#-------------------------------
-[ALCREMIE,41]
-FormName = Ribbon - Salted Cream
-#-------------------------------
-[ALCREMIE,42]
-FormName = Strawberry - Ruby Swirl
-#-------------------------------
-[ALCREMIE,43]
-FormName = Berry - Ruby Swirl
-#-------------------------------
-[ALCREMIE,44]
-FormName = Love - Ruby Swirl
-#-------------------------------
-[ALCREMIE,45]
-FormName = Star - Ruby Swirl
-#-------------------------------
-[ALCREMIE,46]
-FormName = Clover - Ruby Swirl
-#-------------------------------
-[ALCREMIE,47]
-FormName = Flower - Ruby Swirl
-#-------------------------------
-[ALCREMIE,48]
-FormName = Ribbon - Ruby Swirl
-#-------------------------------
-[ALCREMIE,49]
-FormName = Strawberry - Caramel Swirl
-#-------------------------------
-[ALCREMIE,50]
-FormName = Berry - Caramel Swirl
-#-------------------------------
-[ALCREMIE,51]
-FormName = Love - Caramel Swirl
-#-------------------------------
-[ALCREMIE,52]
-FormName = Star - Caramel Swirl
-#-------------------------------
-[ALCREMIE,53]
-FormName = Clover - Caramel Swirl
-#-------------------------------
-[ALCREMIE,54]
-FormName = Flower - Caramel Swirl
-#-------------------------------
-[ALCREMIE,55]
-FormName = Ribbon - Caramel Swirl
-#-------------------------------
-[ALCREMIE,56]
-FormName = Strawberry - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,57]
-FormName = Berry - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,58]
-FormName = Love - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,59]
-FormName = Star - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,60]
-FormName = Clover - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,61]
-FormName = Flower - Rainbow Swirl
-#-------------------------------
-[ALCREMIE,62]
-FormName = Ribbon - Rainbow Swirl
+FormName = Chocolate
 #-------------------------------
 [SINISTEA,1]
 FormName = Antique Form
@@ -2732,42 +2552,6 @@ BaseStats = 950,132,90,101,132,90
 Moves = 1,WAVECRASH,1,HIGHHORSEPOWER,1,STOREDPOWER,1,LIFEDEW
 TutorMoves = ASSURANCE,AQUARING,AVALANCHE,BLIZZARD,BODYPRESS,BODYSLAM,BULLDOZE,CLOSECOMBAT,CRUNCH,ENDURE,FACADE,GIGAIMPACT,HAIL,HEAVYSLAM,HIGHHORSEPOWER,HYPERBEAM,ICEBEAM,ICICLESPEAR,ICYWIND,IRONDEFENSE,LASHOUT,LUNGE,MUDSHOT,OUTRAGE,PAYBACK,PROTECT,REST,ROUND,SCARYFACE,SLEEPTALK,SMARTSTRIKE,SNARL,SNORE,STOMPINGTANTRUM,SUBSTITUTE,SUPERPOWER,SWORDSDANCE,TAUNT,THROATCHOP,UPROAR,WATERFALL,ICEHAMMER,AGILITY,CALMMIND,DARKPULSE,FOULPLAY,HEX,NASTYPLOT,PHANTOMFORCE,PSYCHOCUT,SHADOWBALL,SWIFT,WILLOWISP,MOONLIGHT,FOCUSBLAST,PSYCHIC
 #-------------------------------
-[GOLMACHINA,1]
-FormName = Aerodynamic Drive
-BaseStats = 89,98,75,136,50,75
-Abilities = WINDPOWER,WEAKARMOR
-HiddenAbility = QUARKDRIVE
-Height = 2.2
-Weight = 100.0
-Pokedex = With the enhancements of the aerodynamic drive, Golmachina now sports a special suit that lowers friction. The drive reaches its full power when charged.
-#-------------------------------
-[GOLMACHINA,2]
-FormName = Golmachina Aegis
-BaseStats = 90,76,120,84,120,60
-Abilities = WINDPOWER,WEAKARMOR
-HiddenAbility = QUARKDRIVE
-Height = 2.2
-Weight = 100.0
-Pokedex = Tank
-#-------------------------------
-[GOLMACHINA,3]
-FormName = Golmachina Arms
-BaseStats = 89,100,75,136,50,90
-Abilities = WINDPOWER,WEAKARMOR
-HiddenAbility = QUARKDRIVE
-Height = 2.2
-Weight = 100.0
-Pokedex = SPA
-#-------------------------------
-[GOLMACHINA,4]
-FormName = Golmachina Aevum
-BaseStats = 100,120,80,100,120,80
-Abilities = WINDPOWER,WEAKARMOR
-HiddenAbility = QUARKDRIVE
-Height = 2.2
-Weight = 100.0
-Pokedex = HP
-#-------------------------------
 [SAKUSHIDO,1]
 FormName = Blade Forme
 BaseStats = 50,170,20,90,110,60
@@ -2854,3 +2638,59 @@ Pokedex = Fishers detest this troublesome Pokémon because it sprays poison from
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = OVERQWIL,LevelUseMoveCount,BARBBARRAGE
+#-------------------------------
+[GOLMACHINA,1]
+FormName = Golmachina Alacier
+BaseStats = 105,85,70,135,85,60
+Abilities = LEVITATE
+Height = 3.2
+Weight = 400.0
+Pokedex = With the enhancements of the Alacier drive, Golmachina now sports a special suit that lowers friction. This form's speed is unmatched, able to travel across the world in just one night.
+#-------------------------------
+[GOLMACHINA,2]
+FormName = Golmachina Aegis
+BaseStats = 105,75,120,45,105,95
+Abilities = BULLETPROOF
+Height = 3.2
+Weight = 400.0
+Pokedex = With the enhancements of the Aegis drive, Golmachina now sports a special suit that improves its durability. This form's defenses are unmatched, not even the toughest of blows are able to harm it.
+#-------------------------------
+[GOLMACHINA,3]
+FormName = Golmachina Arms
+BaseStats = 105,70,70,85,135,75
+Abilities = WEAKARMOR
+Height = 3.2
+Weight = 400.0
+Pokedex = With the enhancements of the Arms drive, Golmachina now sports a special suit that amplifies its long-range attacking prowess. This form's reach is unmatched, foes even hundreds of miles away are not safe from it.
+#-------------------------------
+[GOLMACHINA,4]
+FormName = Golmachina Aeternus-Defense
+BaseStats = 105,80,135,45,80,135
+Abilities = STANCECHANGE
+Height = 3.2
+Weight = 400.0
+Pokedex = With the enhancements of the Aevum drive, Golmachina now sports a special suit that supports its true power. This form has only appeared in legend, as a champion that will defend the people during their time of need.
+#-------------------------------
+[GOLMACHINA,5]
+FormName = Golmachina Aeternus-Attack
+BaseStats = 105,135,80,45,135,80
+Abilities = STANCECHANGE
+Height = 3.2
+Weight = 400.0
+Pokedex = With the enhancements of the Aevum drive, Golmachina now sports a special suit that supports its true power. This form has only appeared in legend, as an idol of destruction that will bring ruin to its enemies.
+#-------------------------------
+[TORTERRA,1]
+FormName = Water
+Types = WATER,GRASS
+Abilities = PHASECHANGE
+#-------------------------------
+[GRENINJA,2]
+FormName = Fierce Stance
+Type1 = ROCK
+Type2 = WATER
+BaseStats = 83,131,55,136,80,50
+EffortPoints = 0,1,0,2,0,0
+Color = Gray
+Pokedex = When something is threatening Greninja or its home, it will shed all notions of tranquility and peace. It will attack with unparalleled ferocity until its home is safe.
+BattlerPlayerY = 33
+BattlerEnemyY = 33
