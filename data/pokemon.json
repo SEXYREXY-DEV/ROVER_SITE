@@ -71556,7 +71556,6 @@
     {
         "Name": "BLITZLE",
         "Type1": "ELECTRIC",
-        "Type2": "FIGHTING",
         "BaseStats": [
             "45",
             "60",
