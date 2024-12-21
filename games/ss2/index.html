@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Pokedex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="game-title"></h1>
+        <input type="text" id="search-bar" placeholder="Search Pokémon...">
+        <input type="text" id="ability-search-bar" placeholder="Search Abilities...">
+        <select id="sort-dropdown">
+            <option value="name">Sort by Name</option>
+            <option value="hp">HP</option>
+            <option value="attack">Attack</option>
+            <option value="defense">Defense</option>
+            <option value="speed">Speed</option>
+            <option value="spatk">SpAtk</option>
+            <option value="spdef">SpDef</option>
+        </select>
+    </header>
+    <main>
+        <div id="pokemon-container" class="pokemon-container"></div>
+    </main>
+    <script>
+        // Dynamically set game title and paths
+        const currentPath = window.location.pathname;
+        const gameName = currentPath.split('/').slice(-2, -1)[0];
+        document.getElementById('game-title').innerText = `Pokédex for Pokémon ${gameName.charAt(0).toUpperCase() + gameName.slice(1)}`;
+
+        // Dynamically load game-specific data
+        const dataPath = `data/pokemon.json`; // Adjust based on your folder structure
+        const imagesPath = `images/`;
+        console.log(`Data Path: ${dataPath}, Images Path: ${imagesPath}`);
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>

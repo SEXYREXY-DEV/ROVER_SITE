@@ -1,0 +1,2656 @@
+[
+    {
+        "BaseName": "",
+        "FormName": "Form"
+    },
+    {
+        "BaseName": "VENUSAUR",
+        "FormName": "Mega Venusaur",
+        "BaseStats": [
+            "110",
+            "127",
+            "153",
+            "65",
+            "70",
+            "110"
+        ],
+        "Weight": 200.0
+    },
+    {
+        "BaseName": "BEEDRILL",
+        "FormName": "Mega Beedrill",
+        "BaseStats": [
+            "65",
+            "150",
+            "40",
+            "145",
+            "15",
+            "80"
+        ],
+        "Height": 1.4,
+        "Weight": 40.5
+    },
+    {
+        "BaseName": "PIDGEOT",
+        "FormName": "Mega Pidgeot",
+        "BaseStats": [
+            "83",
+            "80",
+            "80",
+            "121",
+            "135",
+            "80"
+        ],
+        "Height": 2.2,
+        "Weight": 50.5
+    },
+    {
+        "BaseName": "RATTATA",
+        "FormName": "Alolan Form",
+        "Weight": 3.8
+    },
+    {
+        "BaseName": "RATICATE",
+        "FormName": "Alolan Form",
+        "BaseStats": [
+            "75",
+            "71",
+            "70",
+            "77",
+            "40",
+            "80"
+        ],
+        "Weight": 25.5
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Cosplay Pikachu"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Cosplay Pikachu - Belle"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Cosplay Pikachu - Libre"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Cosplay Pikachu - Ph.D."
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Cosplay Pikachu - Pop Star"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Cosplay Pikachu - Rock Star"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Original Cap Pikachu"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Hoenn Cap Pikachu"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Sinnoh Cap Pikachu"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Unova Cap Pikachu"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Kalos Cap Pikachu"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Alola Cap Pikachu"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "Partner Cap Pikachu"
+    },
+    {
+        "BaseName": "PIKACHU",
+        "FormName": "World Cap Pikachu"
+    },
+    {
+        "BaseName": "RAICHU",
+        "FormName": "Alolan Form",
+        "BaseStats": [
+            "60",
+            "85",
+            "50",
+            "110",
+            "95",
+            "85"
+        ],
+        "Height": 0.7,
+        "Weight": 21.0
+    },
+    {
+        "BaseName": "SANDSHREW",
+        "FormName": "Alolan Form",
+        "BaseStats": [
+            "50",
+            "75",
+            "90",
+            "40",
+            "10",
+            "35"
+        ],
+        "Height": 0.7,
+        "Weight": 40.0
+    },
+    {
+        "BaseName": "SANDSLASH",
+        "FormName": "Alolan Form",
+        "BaseStats": [
+            "75",
+            "100",
+            "120",
+            "65",
+            "25",
+            "65"
+        ],
+        "Height": 1.2,
+        "Weight": 55.0
+    },
+    {
+        "BaseName": "VULPIX",
+        "FormName": "Alolan Form"
+    },
+    {
+        "BaseName": "NINETALES",
+        "FormName": "Alolan Form",
+        "BaseStats": [
+            "73",
+            "67",
+            "75",
+            "109",
+            "81",
+            "100"
+        ]
+    },
+    {
+        "BaseName": "DIGLETT",
+        "FormName": "Alolan Form",
+        "BaseStats": [
+            "10",
+            "55",
+            "30",
+            "90",
+            "35",
+            "45"
+        ],
+        "Weight": 1.0
+    },
+    {
+        "BaseName": "DUGTRIO",
+        "FormName": "Alolan Form",
+        "BaseStats": [
+            "35",
+            "100",
+            "60",
+            "110",
+            "50",
+            "70"
+        ],
+        "Weight": 66.6
+    },
+    {
+        "BaseName": "MEOWTH",
+        "FormName": "Alolan Form",
+        "BaseStats": [
+            "40",
+            "35",
+            "35",
+            "90",
+            "50",
+            "40"
+        ]
+    },
+    {
+        "BaseName": "MEOWTH",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "50",
+            "65",
+            "55",
+            "40",
+            "40",
+            "40"
+        ]
+    },
+    {
+        "BaseName": "PERSIAN",
+        "FormName": "Alolan Form",
+        "BaseStats": [
+            "65",
+            "60",
+            "60",
+            "115",
+            "75",
+            "65"
+        ],
+        "Height": 1.1,
+        "Weight": 33.0
+    },
+    {
+        "BaseName": "ALAKAZAM",
+        "FormName": "Mega Alakazam",
+        "BaseStats": [
+            "55",
+            "50",
+            "65",
+            "150",
+            "175",
+            "105"
+        ],
+        "Height": 1.2
+    },
+    {
+        "BaseName": "GEODUDE",
+        "FormName": "Alolan Form",
+        "Weight": 20.3
+    },
+    {
+        "BaseName": "GRAVELER",
+        "FormName": "Alolan Form",
+        "Weight": 110.0
+    },
+    {
+        "BaseName": "GOLEM",
+        "FormName": "Alolan Form",
+        "Height": 1.7,
+        "Weight": 316.0
+    },
+    {
+        "BaseName": "PONYTA",
+        "FormName": "Galarian Form",
+        "Height": 0.8,
+        "Weight": 24.0
+    },
+    {
+        "BaseName": "RAPIDASH",
+        "FormName": "Galarian Form",
+        "Weight": 80.0
+    },
+    {
+        "BaseName": "SLOWPOKE",
+        "FormName": "Galarian Form"
+    },
+    {
+        "BaseName": "SLOWBRO",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "95",
+            "100",
+            "95",
+            "30",
+            "100",
+            "70"
+        ],
+        "Weight": 70.5
+    },
+    {
+        "BaseName": "SLOWBRO",
+        "FormName": "Mega Slowbro",
+        "BaseStats": [
+            "95",
+            "75",
+            "180",
+            "30",
+            "130",
+            "80"
+        ],
+        "Height": 2.0,
+        "Weight": 120.0
+    },
+    {
+        "BaseName": "FARFETCHD",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "52",
+            "95",
+            "55",
+            "55",
+            "58",
+            "62"
+        ],
+        "Weight": 42.0
+    },
+    {
+        "BaseName": "GRIMER",
+        "FormName": "Alolan Form",
+        "Height": 0.7,
+        "Weight": 42.0
+    },
+    {
+        "BaseName": "MUK",
+        "FormName": "Alolan Form",
+        "Height": 1.0,
+        "Weight": 52.0
+    },
+    {
+        "BaseName": "GENGAR",
+        "FormName": "Mega Gengar",
+        "BaseStats": [
+            "60",
+            "65",
+            "80",
+            "130",
+            "170",
+            "95"
+        ],
+        "Height": 1.4
+    },
+    {
+        "BaseName": "EXEGGUTOR",
+        "FormName": "Alolan Form",
+        "BaseStats": [
+            "95",
+            "105",
+            "85",
+            "45",
+            "125",
+            "75"
+        ],
+        "Height": 10.9,
+        "Weight": 415.6
+    },
+    {
+        "BaseName": "FEAROW",
+        "FormName": "Mega Fearow",
+        "BaseStats": [
+            "75",
+            "115",
+            "120",
+            "120",
+            "46",
+            "71"
+        ],
+        "Weight": 80.0
+    },
+    {
+        "BaseName": "WEEZING",
+        "FormName": "Galarian Form",
+        "Height": 3.0,
+        "Weight": 16.0
+    },
+    {
+        "BaseName": "KANGASKHAN",
+        "FormName": "Mega Kangaskhan",
+        "BaseStats": [
+            "105",
+            "125",
+            "100",
+            "100",
+            "60",
+            "100"
+        ],
+        "Weight": 100.0
+    },
+    {
+        "BaseName": "MRMIME",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "50",
+            "65",
+            "65",
+            "100",
+            "90",
+            "90"
+        ],
+        "Height": 1.4,
+        "Weight": 56.8
+    },
+    {
+        "BaseName": "PINSIR",
+        "FormName": "Mega Pinsir",
+        "BaseStats": [
+            "65",
+            "155",
+            "120",
+            "105",
+            "65",
+            "90"
+        ],
+        "Height": 1.7,
+        "Weight": 59.0
+    },
+    {
+        "BaseName": "GYARADOS",
+        "FormName": "Mega Gyarados",
+        "BaseStats": [
+            "95",
+            "155",
+            "109",
+            "81",
+            "70",
+            "130"
+        ],
+        "Weight": 305.0
+    },
+    {
+        "BaseName": "AERODACTYL",
+        "FormName": "Mega Aerodactyl",
+        "BaseStats": [
+            "80",
+            "135",
+            "145",
+            "80",
+            "70",
+            "105"
+        ],
+        "Height": 1.9,
+        "Weight": 139.0
+    },
+    {
+        "BaseName": "ARTICUNO",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "90",
+            "85",
+            "85",
+            "95",
+            "125",
+            "100"
+        ]
+    },
+    {
+        "BaseName": "ZAPDOS",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "90",
+            "125",
+            "90",
+            "100",
+            "85",
+            "90"
+        ]
+    },
+    {
+        "BaseName": "MOLTRES",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "90",
+            "85",
+            "90",
+            "90",
+            "100",
+            "125"
+        ]
+    },
+    {
+        "BaseName": "MEWTWO",
+        "FormName": "Mega Mewtwo X",
+        "BaseStats": [
+            "106",
+            "190",
+            "100",
+            "130",
+            "154",
+            "100"
+        ],
+        "Height": 2.3,
+        "Weight": 127.0
+    },
+    {
+        "BaseName": "MEWTWO",
+        "FormName": "Mega Mewtwo Y",
+        "BaseStats": [
+            "106",
+            "150",
+            "70",
+            "140",
+            "194",
+            "120"
+        ],
+        "Height": 1.5,
+        "Weight": 33.0
+    },
+    {
+        "BaseName": "PICHU",
+        "FormName": "Spiky-Eared"
+    },
+    {
+        "BaseName": "AMPHAROS",
+        "FormName": "Mega Ampharos",
+        "BaseStats": [
+            "90",
+            "95",
+            "105",
+            "45",
+            "165",
+            "110"
+        ]
+    },
+    {
+        "BaseName": "SLOWKING",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "95",
+            "65",
+            "80",
+            "30",
+            "110",
+            "110"
+        ],
+        "Height": 1.8
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "B"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "C"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "D"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "E"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "F"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "G"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "H"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "I"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "J"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "K"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "L"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "M"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "N"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "O"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "P"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "Q"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "R"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "S"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "T"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "U"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "V"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "W"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "X"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "Y"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "Z"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "?"
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "!"
+    },
+    {
+        "BaseName": "STEELIX",
+        "FormName": "Mega Steelix",
+        "BaseStats": [
+            "75",
+            "125",
+            "230",
+            "30",
+            "55",
+            "95"
+        ],
+        "Height": 10.5,
+        "Weight": 740.0
+    },
+    {
+        "BaseName": "SCIZOR",
+        "FormName": "Mega Scizor",
+        "BaseStats": [
+            "70",
+            "150",
+            "140",
+            "65",
+            "100",
+            "75"
+        ],
+        "Height": 2.0,
+        "Weight": 125.0
+    },
+    {
+        "BaseName": "HERACROSS",
+        "FormName": "Mega Heracross",
+        "BaseStats": [
+            "80",
+            "185",
+            "115",
+            "75",
+            "40",
+            "105"
+        ],
+        "Height": 1.7,
+        "Weight": 62.5
+    },
+    {
+        "BaseName": "CORSOLA",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "60",
+            "55",
+            "100",
+            "30",
+            "65",
+            "100"
+        ],
+        "Weight": 0.5
+    },
+    {
+        "BaseName": "HOUNDOOM",
+        "FormName": "Mega Houndoom",
+        "BaseStats": [
+            "75",
+            "90",
+            "90",
+            "115",
+            "140",
+            "90"
+        ],
+        "Height": 1.9,
+        "Weight": 49.5
+    },
+    {
+        "BaseName": "TYRANITAR",
+        "FormName": "Mega Tyranitar",
+        "BaseStats": [
+            "100",
+            "164",
+            "150",
+            "71",
+            "95",
+            "120"
+        ],
+        "Height": 2.5,
+        "Weight": 255.0
+    },
+    {
+        "BaseName": "SCEPTILE",
+        "FormName": "Mega Sceptile",
+        "BaseStats": [
+            "70",
+            "110",
+            "75",
+            "145",
+            "145",
+            "85"
+        ],
+        "Height": 1.9,
+        "Weight": 55.2
+    },
+    {
+        "BaseName": "BLAZIKEN",
+        "FormName": "Mega Blaziken",
+        "BaseStats": [
+            "80",
+            "160",
+            "80",
+            "100",
+            "130",
+            "80"
+        ]
+    },
+    {
+        "BaseName": "SWAMPERT",
+        "FormName": "Mega Swampert",
+        "BaseStats": [
+            "100",
+            "150",
+            "110",
+            "70",
+            "95",
+            "110"
+        ],
+        "Height": 1.9,
+        "Weight": 102.0
+    },
+    {
+        "BaseName": "ZIGZAGOON",
+        "FormName": "Galarian Form"
+    },
+    {
+        "BaseName": "LINOONE",
+        "FormName": "Galarian Form"
+    },
+    {
+        "BaseName": "GARDEVOIR",
+        "FormName": "Mega Gardevoir",
+        "BaseStats": [
+            "72",
+            "63",
+            "140",
+            "95",
+            "108",
+            "140"
+        ],
+        "Height": 1.8,
+        "Weight": 68.4
+    },
+    {
+        "BaseName": "SABLEYE",
+        "FormName": "Mega Sableye",
+        "BaseStats": [
+            "50",
+            "85",
+            "125",
+            "20",
+            "85",
+            "115"
+        ],
+        "Weight": 161.0
+    },
+    {
+        "BaseName": "MAWILE",
+        "FormName": "Mega Mawile",
+        "BaseStats": [
+            "50",
+            "105",
+            "125",
+            "50",
+            "55",
+            "95"
+        ],
+        "Height": 1.0,
+        "Weight": 23.5
+    },
+    {
+        "BaseName": "AGGRON",
+        "FormName": "Mega Aggron",
+        "BaseStats": [
+            "70",
+            "140",
+            "230",
+            "50",
+            "60",
+            "80"
+        ],
+        "Height": 2.2,
+        "Weight": 395.0
+    },
+    {
+        "BaseName": "MEDICHAM",
+        "FormName": "Mega Medicham",
+        "BaseStats": [
+            "60",
+            "100",
+            "85",
+            "100",
+            "80",
+            "85"
+        ]
+    },
+    {
+        "BaseName": "MANECTRIC",
+        "FormName": "Mega Manectric",
+        "BaseStats": [
+            "80",
+            "75",
+            "80",
+            "135",
+            "135",
+            "80"
+        ],
+        "Height": 1.8,
+        "Weight": 44.0
+    },
+    {
+        "BaseName": "SHARPEDO",
+        "FormName": "Mega Sharpedo",
+        "BaseStats": [
+            "70",
+            "140",
+            "70",
+            "105",
+            "110",
+            "65"
+        ],
+        "Height": 2.5,
+        "Weight": 130.3
+    },
+    {
+        "BaseName": "CAMERUPT",
+        "FormName": "Mega Camerupt",
+        "BaseStats": [
+            "70",
+            "120",
+            "100",
+            "20",
+            "145",
+            "105"
+        ],
+        "Height": 2.5,
+        "Weight": 320.5
+    },
+    {
+        "BaseName": "ALTARIAT",
+        "FormName": "Mega Altaria",
+        "BaseStats": [
+            "75",
+            "155",
+            "90",
+            "80",
+            "110",
+            "105"
+        ],
+        "Height": 1.5
+    },
+    {
+        "BaseName": "CASTFORM",
+        "FormName": "Sunny Form"
+    },
+    {
+        "BaseName": "CASTFORM",
+        "FormName": "Rainy Form"
+    },
+    {
+        "BaseName": "CASTFORM",
+        "FormName": "Snowy Form"
+    },
+    {
+        "BaseName": "BANETTE",
+        "FormName": "Mega Banette",
+        "BaseStats": [
+            "64",
+            "165",
+            "75",
+            "75",
+            "93",
+            "83"
+        ],
+        "Height": 1.2,
+        "Weight": 13.0
+    },
+    {
+        "BaseName": "ABSOL",
+        "FormName": "Mega Absol",
+        "BaseStats": [
+            "65",
+            "140",
+            "80",
+            "95",
+            "135",
+            "80"
+        ],
+        "Weight": 79.0
+    },
+    {
+        "BaseName": "GLALIE",
+        "FormName": "Mega Glalie",
+        "BaseStats": [
+            "80",
+            "120",
+            "80",
+            "100",
+            "120",
+            "80"
+        ],
+        "Height": 2.1,
+        "Weight": 350.2
+    },
+    {
+        "BaseName": "SALAMENCE",
+        "FormName": "Mega Salamence",
+        "BaseStats": [
+            "95",
+            "145",
+            "130",
+            "120",
+            "120",
+            "90"
+        ],
+        "Height": 1.8,
+        "Weight": 112.6
+    },
+    {
+        "BaseName": "METAGROSS",
+        "FormName": "Mega Metagross",
+        "BaseStats": [
+            "95",
+            "145",
+            "130",
+            "120",
+            "120",
+            "90"
+        ],
+        "Height": 2.5,
+        "Weight": 942.9
+    },
+    {
+        "BaseName": "LATIAS",
+        "FormName": "Mega Latias",
+        "BaseStats": [
+            "80",
+            "100",
+            "120",
+            "110",
+            "140",
+            "150"
+        ],
+        "Height": 1.8,
+        "Weight": 52.0
+    },
+    {
+        "BaseName": "LATIOS",
+        "FormName": "Mega Latios",
+        "BaseStats": [
+            "80",
+            "130",
+            "100",
+            "110",
+            "160",
+            "120"
+        ],
+        "Height": 2.3,
+        "Weight": 70.0
+    },
+    {
+        "BaseName": "KYOGRE",
+        "FormName": "Primal Kyogre",
+        "BaseStats": [
+            "100",
+            "150",
+            "90",
+            "90",
+            "180",
+            "160"
+        ],
+        "Height": 9.8,
+        "Weight": 430.0
+    },
+    {
+        "BaseName": "GROUDON",
+        "FormName": "Primal Groudon",
+        "BaseStats": [
+            "100",
+            "180",
+            "160",
+            "90",
+            "150",
+            "90"
+        ],
+        "Height": 5.0,
+        "Weight": 999.7
+    },
+    {
+        "BaseName": "RAYQUAZA",
+        "FormName": "Mega Rayquaza",
+        "BaseStats": [
+            "105",
+            "180",
+            "100",
+            "115",
+            "180",
+            "100"
+        ],
+        "Height": 10.8,
+        "Weight": 392.0
+    },
+    {
+        "BaseName": "DEOXYS",
+        "FormName": "Attack Forme",
+        "BaseStats": [
+            "50",
+            "180",
+            "20",
+            "150",
+            "180",
+            "20"
+        ]
+    },
+    {
+        "BaseName": "DEOXYS",
+        "FormName": "Defense Forme",
+        "BaseStats": [
+            "50",
+            "70",
+            "160",
+            "90",
+            "70",
+            "160"
+        ]
+    },
+    {
+        "BaseName": "DEOXYS",
+        "FormName": "Speed Forme",
+        "BaseStats": [
+            "50",
+            "95",
+            "90",
+            "180",
+            "95",
+            "90"
+        ]
+    },
+    {
+        "BaseName": "BURMY",
+        "FormName": "Sandy Cloak"
+    },
+    {
+        "BaseName": "BURMY",
+        "FormName": "Trash Cloak"
+    },
+    {
+        "BaseName": "WORMADAM",
+        "FormName": "Sandy Cloak",
+        "BaseStats": [
+            "60",
+            "79",
+            "105",
+            "36",
+            "59",
+            "85"
+        ]
+    },
+    {
+        "BaseName": "WORMADAM",
+        "FormName": "Trash Cloak",
+        "BaseStats": [
+            "60",
+            "69",
+            "95",
+            "36",
+            "69",
+            "95"
+        ]
+    },
+    {
+        "BaseName": "CHERRIM",
+        "FormName": "Sunshine Form"
+    },
+    {
+        "BaseName": "SHELLOS",
+        "FormName": "East Sea"
+    },
+    {
+        "BaseName": "GASTRODON",
+        "FormName": "East Sea"
+    },
+    {
+        "BaseName": "LOPUNNY",
+        "FormName": "Mega Lopunny",
+        "BaseStats": [
+            "65",
+            "136",
+            "94",
+            "135",
+            "54",
+            "96"
+        ],
+        "Height": 1.3,
+        "Weight": 28.3
+    },
+    {
+        "BaseName": "GARCHOMP",
+        "FormName": "Mega Garchomp",
+        "BaseStats": [
+            "108",
+            "170",
+            "115",
+            "92",
+            "120",
+            "95"
+        ]
+    },
+    {
+        "BaseName": "LUCARIO",
+        "FormName": "Mega Lucario",
+        "BaseStats": [
+            "60",
+            "80",
+            "70",
+            "160",
+            "145",
+            "110"
+        ],
+        "Height": 1.5,
+        "Weight": 0.5
+    },
+    {
+        "BaseName": "ABOMASNOW",
+        "FormName": "Mega Abomasnow",
+        "BaseStats": [
+            "100",
+            "132",
+            "105",
+            "30",
+            "132",
+            "105"
+        ],
+        "Height": 2.7,
+        "Weight": 185.0
+    },
+    {
+        "BaseName": "GALLADE",
+        "FormName": "Mega Gallade",
+        "BaseStats": [
+            "85",
+            "138",
+            "110",
+            "140",
+            "63",
+            "82"
+        ],
+        "Height": 1.8,
+        "Weight": 82.0
+    },
+    {
+        "BaseName": "ROTOM",
+        "FormName": "Heat Rotom",
+        "BaseStats": [
+            "50",
+            "65",
+            "107",
+            "86",
+            "105",
+            "107"
+        ]
+    },
+    {
+        "BaseName": "ROTOM",
+        "FormName": "Wash Rotom",
+        "BaseStats": [
+            "50",
+            "65",
+            "107",
+            "86",
+            "105",
+            "107"
+        ]
+    },
+    {
+        "BaseName": "ROTOM",
+        "FormName": "Frost Rotom",
+        "BaseStats": [
+            "50",
+            "65",
+            "107",
+            "86",
+            "105",
+            "107"
+        ]
+    },
+    {
+        "BaseName": "ROTOM",
+        "FormName": "Fan Rotom",
+        "BaseStats": [
+            "50",
+            "65",
+            "107",
+            "86",
+            "105",
+            "107"
+        ]
+    },
+    {
+        "BaseName": "ROTOM",
+        "FormName": "Mow Rotom",
+        "BaseStats": [
+            "50",
+            "65",
+            "107",
+            "86",
+            "105",
+            "107"
+        ]
+    },
+    {
+        "BaseName": "GIRATINA",
+        "FormName": "Origin Forme",
+        "BaseStats": [
+            "150",
+            "120",
+            "100",
+            "90",
+            "120",
+            "100"
+        ],
+        "Height": 6.9,
+        "Weight": 650.0
+    },
+    {
+        "BaseName": "SHAYMIN",
+        "FormName": "Sky Forme",
+        "BaseStats": [
+            "100",
+            "103",
+            "75",
+            "127",
+            "120",
+            "75"
+        ],
+        "Height": 0.4,
+        "Weight": 5.2
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Fighting Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Flying Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Poison Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Ground Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Rock Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Bug Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Ghost Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Steel Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Unknown Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Fire Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Water Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Grass Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Electric Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Psychic Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Ice Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Dragon Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Dark Type"
+    },
+    {
+        "BaseName": "ARCEUS",
+        "FormName": "Fairy Type"
+    },
+    {
+        "BaseName": "AUDINO",
+        "FormName": "Mega Audino",
+        "BaseStats": [
+            "103",
+            "60",
+            "126",
+            "50",
+            "80",
+            "126"
+        ],
+        "Height": 1.5,
+        "Weight": 32.0
+    },
+    {
+        "BaseName": "BASCULIN",
+        "FormName": "White-Striped"
+    },
+    {
+        "BaseName": "BASCULIN",
+        "FormName": "Blue-Striped"
+    },
+    {
+        "BaseName": "DARUMAKA",
+        "FormName": "Galarian Form",
+        "Height": 0.7,
+        "Weight": 40.0
+    },
+    {
+        "BaseName": "DARMANITAN",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "105",
+            "140",
+            "55",
+            "95",
+            "40",
+            "55"
+        ],
+        "Height": 1.7,
+        "Weight": 120.0
+    },
+    {
+        "BaseName": "DARMANITAN",
+        "FormName": "Zen Mode",
+        "BaseStats": [
+            "105",
+            "30",
+            "105",
+            "55",
+            "140",
+            "105"
+        ]
+    },
+    {
+        "BaseName": "DARMANITAN",
+        "FormName": "Galarian Form Zen Mode",
+        "BaseStats": [
+            "105",
+            "160",
+            "55",
+            "135",
+            "30",
+            "55"
+        ]
+    },
+    {
+        "BaseName": "YAMASK",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "38",
+            "55",
+            "85",
+            "30",
+            "30",
+            "65"
+        ]
+    },
+    {
+        "BaseName": "DEERLING",
+        "FormName": "Summer Form"
+    },
+    {
+        "BaseName": "DEERLING",
+        "FormName": "Autumn Form"
+    },
+    {
+        "BaseName": "DEERLING",
+        "FormName": "Winter Form"
+    },
+    {
+        "BaseName": "SAWSBUCK",
+        "FormName": "Summer Form"
+    },
+    {
+        "BaseName": "SAWSBUCK",
+        "FormName": "Autumn Form"
+    },
+    {
+        "BaseName": "SAWSBUCK",
+        "FormName": "Winter Form"
+    },
+    {
+        "BaseName": "STUNFISK",
+        "FormName": "Galarian Form",
+        "BaseStats": [
+            "109",
+            "81",
+            "99",
+            "32",
+            "66",
+            "84"
+        ],
+        "Weight": 20.5
+    },
+    {
+        "BaseName": "TORNADUS",
+        "FormName": "Therian Forme",
+        "BaseStats": [
+            "79",
+            "100",
+            "80",
+            "121",
+            "110",
+            "90"
+        ],
+        "Height": 1.4
+    },
+    {
+        "BaseName": "THUNDURUS",
+        "FormName": "Therian Forme",
+        "BaseStats": [
+            "79",
+            "105",
+            "70",
+            "101",
+            "145",
+            "80"
+        ],
+        "Height": 3.0
+    },
+    {
+        "BaseName": "LANDORUS",
+        "FormName": "Therian Forme",
+        "BaseStats": [
+            "89",
+            "145",
+            "90",
+            "91",
+            "105",
+            "80"
+        ],
+        "Height": 1.3
+    },
+    {
+        "BaseName": "KYUREM",
+        "FormName": "White Kyurem",
+        "BaseStats": [
+            "125",
+            "120",
+            "90",
+            "95",
+            "170",
+            "100"
+        ],
+        "Height": 3.6
+    },
+    {
+        "BaseName": "KYUREM",
+        "FormName": "Black Kyurem",
+        "BaseStats": [
+            "125",
+            "170",
+            "100",
+            "95",
+            "120",
+            "90"
+        ],
+        "Height": 3.3
+    },
+    {
+        "BaseName": "KYUREM",
+        "FormName": "White Kyurem (Overdrive Mode)",
+        "BaseStats": [
+            "125",
+            "120",
+            "90",
+            "95",
+            "170",
+            "100"
+        ],
+        "Height": 3.6
+    },
+    {
+        "BaseName": "KYUREM",
+        "FormName": "Black Kyurem (Overdrive Mode)",
+        "BaseStats": [
+            "125",
+            "170",
+            "100",
+            "95",
+            "120",
+            "90"
+        ],
+        "Height": 3.3
+    },
+    {
+        "BaseName": "KELDEO",
+        "FormName": "Resolute Form"
+    },
+    {
+        "BaseName": "MELOETTA",
+        "FormName": "Pirouette Forme",
+        "BaseStats": [
+            "100",
+            "128",
+            "90",
+            "128",
+            "77",
+            "77"
+        ]
+    },
+    {
+        "BaseName": "GENESECT",
+        "FormName": "Shock Drive"
+    },
+    {
+        "BaseName": "GENESECT",
+        "FormName": "Burn Drive"
+    },
+    {
+        "BaseName": "GENESECT",
+        "FormName": "Chill Drive"
+    },
+    {
+        "BaseName": "GENESECT",
+        "FormName": "Douse Drive"
+    },
+    {
+        "BaseName": "GRENINJA",
+        "FormName": "GRENINJA Form 1"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Archipelago Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Continental Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Elegant Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Garden Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "High Plains Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Icy Snow Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Jungle Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Marine Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Modern Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Monsoon Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Ocean Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Polar Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "River Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Sandstorm Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Savanna Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Sun Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Tundra Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Fancy Pattern"
+    },
+    {
+        "BaseName": "VIVILLON",
+        "FormName": "Pok\u00c3\u00a9 Ball Pattern"
+    },
+    {
+        "BaseName": "FLABEBE",
+        "FormName": "Yellow Flower"
+    },
+    {
+        "BaseName": "FLABEBE",
+        "FormName": "Orange Flower"
+    },
+    {
+        "BaseName": "FLABEBE",
+        "FormName": "Blue Flower"
+    },
+    {
+        "BaseName": "FLABEBE",
+        "FormName": "White Flower"
+    },
+    {
+        "BaseName": "FLOETTE",
+        "FormName": "Yellow Flower"
+    },
+    {
+        "BaseName": "FLOETTE",
+        "FormName": "Orange Flower"
+    },
+    {
+        "BaseName": "FLOETTE",
+        "FormName": "Blue Flower"
+    },
+    {
+        "BaseName": "FLOETTE",
+        "FormName": "White Flower"
+    },
+    {
+        "BaseName": "FLOETTE",
+        "FormName": "Eternal Flower",
+        "BaseStats": [
+            "74",
+            "65",
+            "67",
+            "92",
+            "125",
+            "128"
+        ]
+    },
+    {
+        "BaseName": "FLORGES",
+        "FormName": "Yellow Flower"
+    },
+    {
+        "BaseName": "FLORGES",
+        "FormName": "Orange Flower"
+    },
+    {
+        "BaseName": "FLORGES",
+        "FormName": "Blue Flower"
+    },
+    {
+        "BaseName": "FLORGES",
+        "FormName": "White Flower"
+    },
+    {
+        "BaseName": "FURFROU",
+        "FormName": "Heart Trim"
+    },
+    {
+        "BaseName": "FURFROU",
+        "FormName": "Star Trim"
+    },
+    {
+        "BaseName": "FURFROU",
+        "FormName": "Diamond Trim"
+    },
+    {
+        "BaseName": "FURFROU",
+        "FormName": "Debutante Trim"
+    },
+    {
+        "BaseName": "FURFROU",
+        "FormName": "Matron Trim"
+    },
+    {
+        "BaseName": "FURFROU",
+        "FormName": "Dandy Trim"
+    },
+    {
+        "BaseName": "FURFROU",
+        "FormName": "La Reine Trim"
+    },
+    {
+        "BaseName": "FURFROU",
+        "FormName": "Kabuki Trim"
+    },
+    {
+        "BaseName": "FURFROU",
+        "FormName": "Pharaoh Trim"
+    },
+    {
+        "BaseName": "MEOWSTIC",
+        "FormName": "Female"
+    },
+    {
+        "BaseName": "AEGISLASH",
+        "FormName": "Blade Forme",
+        "BaseStats": [
+            "60",
+            "150",
+            "50",
+            "60",
+            "150",
+            "50"
+        ]
+    },
+    {
+        "BaseName": "PUMPKABOO",
+        "FormName": "Small Size"
+    },
+    {
+        "BaseName": "PUMPKABOO",
+        "FormName": "Large Size",
+        "BaseStats": [
+            "54",
+            "66",
+            "70",
+            "46",
+            "44",
+            "55"
+        ],
+        "Height": 0.5,
+        "Weight": 7.5
+    },
+    {
+        "BaseName": "PUMPKABOO",
+        "FormName": "Super Size",
+        "BaseStats": [
+            "59",
+            "66",
+            "70",
+            "41",
+            "44",
+            "55"
+        ],
+        "Height": 0.8,
+        "Weight": 15.0
+    },
+    {
+        "BaseName": "GOURGEIST",
+        "FormName": "Small Size"
+    },
+    {
+        "BaseName": "GOURGEIST",
+        "FormName": "Large Size",
+        "BaseStats": [
+            "75",
+            "95",
+            "122",
+            "69",
+            "58",
+            "75"
+        ],
+        "Height": 1.1,
+        "Weight": 14.0
+    },
+    {
+        "BaseName": "GOURGEIST",
+        "FormName": "Super Size",
+        "BaseStats": [
+            "85",
+            "100",
+            "122",
+            "54",
+            "58",
+            "75"
+        ],
+        "Height": 1.7,
+        "Weight": 39.0
+    },
+    {
+        "BaseName": "XERNEAS",
+        "FormName": "Active Mode"
+    },
+    {
+        "BaseName": "ZYGARDE",
+        "FormName": "10% Forme",
+        "BaseStats": [
+            "54",
+            "100",
+            "71",
+            "115",
+            "61",
+            "85"
+        ],
+        "Height": 1.2,
+        "Weight": 33.5
+    },
+    {
+        "BaseName": "ZYGARDE",
+        "FormName": "Complete Forme",
+        "BaseStats": [
+            "216",
+            "100",
+            "121",
+            "85",
+            "91",
+            "95"
+        ],
+        "Height": 4.5,
+        "Weight": 610.0
+    },
+    {
+        "BaseName": "ZYGARDE",
+        "FormName": "ZYGARDE Form 3",
+        "BaseStats": [
+            "216",
+            "100",
+            "121",
+            "85",
+            "91",
+            "95"
+        ],
+        "Height": 4.5,
+        "Weight": 610.0
+    },
+    {
+        "BaseName": "DIANCIE",
+        "FormName": "Mega Diancie",
+        "BaseStats": [
+            "50",
+            "160",
+            "110",
+            "110",
+            "160",
+            "110"
+        ],
+        "Height": 1.1,
+        "Weight": 27.8
+    },
+    {
+        "BaseName": "HOOPA",
+        "FormName": "Hoopa Unbound",
+        "BaseStats": [
+            "80",
+            "160",
+            "60",
+            "80",
+            "170",
+            "130"
+        ],
+        "Height": 6.5,
+        "Weight": 490.0
+    },
+    {
+        "BaseName": "ORICORIO",
+        "FormName": "Pom-Pom Style"
+    },
+    {
+        "BaseName": "ORICORIO",
+        "FormName": "Pa'u Style"
+    },
+    {
+        "BaseName": "ORICORIO",
+        "FormName": "Sensu Style"
+    },
+    {
+        "BaseName": "ROCKRUFF",
+        "FormName": "ROCKRUFF Form 2"
+    },
+    {
+        "BaseName": "LYCANROC",
+        "FormName": "Midnight Form",
+        "BaseStats": [
+            "85",
+            "115",
+            "75",
+            "82",
+            "55",
+            "75"
+        ],
+        "Height": 1.1
+    },
+    {
+        "BaseName": "LYCANROC",
+        "FormName": "Dusk Form",
+        "BaseStats": [
+            "75",
+            "117",
+            "65",
+            "110",
+            "55",
+            "65"
+        ]
+    },
+    {
+        "BaseName": "WISHIWASHI",
+        "FormName": "School Form",
+        "BaseStats": [
+            "45",
+            "140",
+            "130",
+            "30",
+            "140",
+            "135"
+        ],
+        "Height": 8.2,
+        "Weight": 78.6
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Fighting"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Flying"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Poison"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Ground"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Rock"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Bug"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Ghost"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Steel"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Unknown"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Fire"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Water"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Grass"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Electric"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Psychic"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Ice"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Dragon"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Dark"
+    },
+    {
+        "BaseName": "SILVALLY",
+        "FormName": "Type: Fairy"
+    },
+    {
+        "BaseName": "MINIOR",
+        "FormName": "Red Core",
+        "BaseStats": [
+            "60",
+            "100",
+            "60",
+            "120",
+            "100",
+            "60"
+        ],
+        "Weight": 0.3
+    },
+    {
+        "BaseName": "MINIOR",
+        "FormName": "Orange Core",
+        "BaseStats": [
+            "60",
+            "100",
+            "60",
+            "120",
+            "100",
+            "60"
+        ],
+        "Weight": 0.3
+    },
+    {
+        "BaseName": "MINIOR",
+        "FormName": "Yellow Core",
+        "BaseStats": [
+            "60",
+            "100",
+            "60",
+            "120",
+            "100",
+            "60"
+        ],
+        "Weight": 0.3
+    },
+    {
+        "BaseName": "MINIOR",
+        "FormName": "Green Core",
+        "BaseStats": [
+            "60",
+            "100",
+            "60",
+            "120",
+            "100",
+            "60"
+        ],
+        "Weight": 0.3
+    },
+    {
+        "BaseName": "MINIOR",
+        "FormName": "Blue Core",
+        "BaseStats": [
+            "60",
+            "100",
+            "60",
+            "120",
+            "100",
+            "60"
+        ],
+        "Weight": 0.3
+    },
+    {
+        "BaseName": "MINIOR",
+        "FormName": "Indigo Core",
+        "BaseStats": [
+            "60",
+            "100",
+            "60",
+            "120",
+            "100",
+            "60"
+        ],
+        "Weight": 0.3
+    },
+    {
+        "BaseName": "MINIOR",
+        "FormName": "Violet Core",
+        "BaseStats": [
+            "60",
+            "100",
+            "60",
+            "120",
+            "100",
+            "60"
+        ],
+        "Weight": 0.3
+    },
+    {
+        "BaseName": "MIMIKYU",
+        "FormName": "Busted Form",
+        "BaseStats": [
+            "115",
+            "100",
+            "35",
+            "136",
+            "60",
+            "30"
+        ]
+    },
+    {
+        "BaseName": "NECROZMA",
+        "FormName": "Dusk Mane",
+        "BaseStats": [
+            "97",
+            "157",
+            "127",
+            "77",
+            "113",
+            "109"
+        ],
+        "Height": 3.8,
+        "Weight": 460.0
+    },
+    {
+        "BaseName": "NECROZMA",
+        "FormName": "Dawn Wings",
+        "BaseStats": [
+            "97",
+            "113",
+            "109",
+            "77",
+            "157",
+            "127"
+        ],
+        "Height": 4.2,
+        "Weight": 350.0
+    },
+    {
+        "BaseName": "NECROZMA",
+        "FormName": "Ultra Necrozma",
+        "BaseStats": [
+            "97",
+            "167",
+            "97",
+            "129",
+            "167",
+            "97"
+        ],
+        "Height": 7.5
+    },
+    {
+        "BaseName": "NECROZMA",
+        "FormName": "NECROZMA Form 4",
+        "BaseStats": [
+            "97",
+            "167",
+            "97",
+            "129",
+            "167",
+            "97"
+        ],
+        "Height": 7.5
+    },
+    {
+        "BaseName": "MAGEARNA",
+        "FormName": "Original Color"
+    },
+    {
+        "BaseName": "CRAMORANT",
+        "FormName": "Gulping Form"
+    },
+    {
+        "BaseName": "CRAMORANT",
+        "FormName": "Gorging Form"
+    },
+    {
+        "BaseName": "TOXTRICITY",
+        "FormName": "Low Key Form"
+    },
+    {
+        "BaseName": "ALCREMIE",
+        "FormName": "Vanilla"
+    },
+    {
+        "BaseName": "ALCREMIE",
+        "FormName": "Blue Honey"
+    },
+    {
+        "BaseName": "ALCREMIE",
+        "FormName": "Mint"
+    },
+    {
+        "BaseName": "ALCREMIE",
+        "FormName": "Pink Velvet"
+    },
+    {
+        "BaseName": "ALCREMIE",
+        "FormName": "Chocolate"
+    },
+    {
+        "BaseName": "SINISTEA",
+        "FormName": "Antique Form"
+    },
+    {
+        "BaseName": "POLTEAGEIST",
+        "FormName": "Antique Form"
+    },
+    {
+        "BaseName": "EISCUE",
+        "FormName": "Noice Face",
+        "BaseStats": [
+            "75",
+            "80",
+            "70",
+            "130",
+            "65",
+            "50"
+        ]
+    },
+    {
+        "BaseName": "INDEEDEE",
+        "FormName": "Female",
+        "BaseStats": [
+            "70",
+            "55",
+            "65",
+            "85",
+            "95",
+            "105"
+        ]
+    },
+    {
+        "BaseName": "MORPEKO",
+        "FormName": "Hangry Mode"
+    },
+    {
+        "BaseName": "ZACIAN",
+        "FormName": "Crowned Sword",
+        "BaseStats": [
+            "92",
+            "170",
+            "115",
+            "148",
+            "80",
+            "115"
+        ],
+        "Weight": 355.0
+    },
+    {
+        "BaseName": "ZAMAZENTA",
+        "FormName": "Crowned Shield",
+        "BaseStats": [
+            "92",
+            "130",
+            "145",
+            "128",
+            "80",
+            "145"
+        ],
+        "Weight": 785.0
+    },
+    {
+        "BaseName": "URSHIFU",
+        "FormName": "Rapid Strike Style"
+    },
+    {
+        "BaseName": "SETSAREC",
+        "FormName": "Unleashed",
+        "BaseStats": [
+            "95",
+            "125",
+            "90",
+            "110",
+            "110",
+            "90"
+        ]
+    },
+    {
+        "BaseName": "FLYGON",
+        "FormName": "Mega Flygon",
+        "BaseStats": [
+            "80",
+            "80",
+            "80",
+            "110",
+            "140",
+            "120"
+        ],
+        "Weight": 102.0
+    },
+    {
+        "BaseName": "BLASTOISE",
+        "FormName": "Mega Blastoise",
+        "BaseStats": [
+            "79",
+            "143",
+            "160",
+            "48",
+            "95",
+            "125"
+        ],
+        "Weight": 800.0
+    },
+    {
+        "BaseName": "RELICANTH",
+        "FormName": "Mega Relicanth",
+        "BaseStats": [
+            "65",
+            "40",
+            "110",
+            "65",
+            "130",
+            "175"
+        ],
+        "Weight": 33.4
+    },
+    {
+        "BaseName": "CHARIZARD",
+        "FormName": "Mega Charizard",
+        "BaseStats": [
+            "88",
+            "107",
+            "98",
+            "70",
+            "138",
+            "134"
+        ],
+        "Weight": 200.5
+    },
+    {
+        "BaseName": "WOOPER",
+        "FormName": "Paldean Form",
+        "Type1": "POISON",
+        "Type2": "GROUND",
+        "Types": "POISON,GROUND",
+        "Weight": 11.0
+    },
+    {
+        "BaseName": "TAUROS",
+        "FormName": "Paldean (Combat Breed)",
+        "Type1": "FIGHTING",
+        "Types": "FIGHTING",
+        "BaseStats": [
+            "75",
+            "110",
+            "105",
+            "100",
+            "30",
+            "70"
+        ],
+        "Weight": 115.0
+    },
+    {
+        "BaseName": "TAUROS",
+        "FormName": "Paldean (Blaze Breed)",
+        "Type1": "FIGHTING",
+        "Type2": "FIRE",
+        "Types": "FIGHTING,FIRE",
+        "BaseStats": [
+            "75",
+            "110",
+            "105",
+            "100",
+            "30",
+            "70"
+        ],
+        "Weight": 85.0
+    },
+    {
+        "BaseName": "TAUROS",
+        "FormName": "Paldean (Aqua Breed)",
+        "Type1": "FIGHTING",
+        "Type2": "WATER",
+        "Types": "FIGHTING,WATER",
+        "BaseStats": [
+            "75",
+            "110",
+            "105",
+            "100",
+            "30",
+            "70"
+        ],
+        "Weight": 110.0
+    },
+    {
+        "BaseName": "MORPHIAS",
+        "FormName": "Mega Morphias",
+        "BaseStats": [
+            "70",
+            "100",
+            "120",
+            "130",
+            "140",
+            "120"
+        ],
+        "Height": 1.7,
+        "Weight": 75.0
+    },
+    {
+        "BaseName": "SLEIHESNIRE",
+        "FormName": "Sleihesnire Boss",
+        "BaseStats": [
+            "950",
+            "132",
+            "90",
+            "101",
+            "132",
+            "90"
+        ]
+    },
+    {
+        "BaseName": "SAKUSHIDO",
+        "FormName": "Blade Forme",
+        "BaseStats": [
+            "50",
+            "170",
+            "20",
+            "90",
+            "110",
+            "60"
+        ]
+    },
+    {
+        "BaseName": "BRAVIARY",
+        "FormName": "Hisuian",
+        "Type1": "PSYCHIC",
+        "Type2": "FLYING",
+        "Types": "PSYCHIC,FLYING",
+        "BaseStats": [
+            "110",
+            "73",
+            "70",
+            "75",
+            "112",
+            "70"
+        ],
+        "Height": 1.7,
+        "Weight": 43.4
+    },
+    {
+        "BaseName": "ARCANINE",
+        "FormName": "Hisuian",
+        "Type1": "FIRE",
+        "Type2": "ROCK",
+        "Types": "FIRE,ROCK",
+        "BaseStats": [
+            "95",
+            "115",
+            "80",
+            "90",
+            "95",
+            "80"
+        ],
+        "Height": 2.0,
+        "Weight": 168.0
+    },
+    {
+        "BaseName": "ELECTRODE",
+        "FormName": "Hisuian",
+        "Type1": "ELECTRIC",
+        "Type2": "GRASS",
+        "Types": "ELECTRIC,GRASS",
+        "BaseStats": [
+            "60",
+            "80",
+            "70",
+            "130",
+            "80",
+            "70"
+        ],
+        "Weight": 71.0
+    },
+    {
+        "BaseName": "ZOROARK",
+        "FormName": "Hisuian",
+        "Type1": "NORMAL",
+        "Type2": "GHOST",
+        "Types": "NORMAL,GHOST",
+        "BaseStats": [
+            "55",
+            "100",
+            "60",
+            "110",
+            "125",
+            "60"
+        ],
+        "Weight": 73.0
+    },
+    {
+        "BaseName": "LILLIGANT",
+        "FormName": "Hisuian",
+        "Type1": "GRASS",
+        "Type2": "FIGHTING",
+        "Types": "GRASS,FIGHTING",
+        "BaseStats": [
+            "70",
+            "105",
+            "75",
+            "105",
+            "50",
+            "75"
+        ],
+        "Height": 1.2,
+        "Weight": 19.2
+    },
+    {
+        "BaseName": "QWILFISH",
+        "FormName": "Hisuian",
+        "Type1": "DARK",
+        "Type2": "POISON",
+        "Types": "DARK,POISON"
+    },
+    {
+        "BaseName": "GOLMACHINA",
+        "FormName": "Golmachina Alacier",
+        "BaseStats": [
+            "105",
+            "85",
+            "70",
+            "135",
+            "85",
+            "60"
+        ],
+        "Height": 3.2,
+        "Weight": 400.0
+    },
+    {
+        "BaseName": "GOLMACHINA",
+        "FormName": "Golmachina Aegis",
+        "BaseStats": [
+            "105",
+            "75",
+            "120",
+            "45",
+            "105",
+            "95"
+        ],
+        "Height": 3.2,
+        "Weight": 400.0
+    },
+    {
+        "BaseName": "GOLMACHINA",
+        "FormName": "Golmachina Arms",
+        "BaseStats": [
+            "105",
+            "70",
+            "70",
+            "85",
+            "135",
+            "75"
+        ],
+        "Height": 3.2,
+        "Weight": 400.0
+    },
+    {
+        "BaseName": "GOLMACHINA",
+        "FormName": "Golmachina Aeternus-Defense",
+        "BaseStats": [
+            "105",
+            "80",
+            "135",
+            "45",
+            "80",
+            "135"
+        ],
+        "Height": 3.2,
+        "Weight": 400.0
+    },
+    {
+        "BaseName": "GOLMACHINA",
+        "FormName": "Golmachina Aeternus-Attack",
+        "BaseStats": [
+            "105",
+            "135",
+            "80",
+            "45",
+            "135",
+            "80"
+        ],
+        "Height": 3.2,
+        "Weight": 400.0
+    },
+    {
+        "BaseName": "TORTERRA",
+        "FormName": "Water",
+        "Type1": "WATER",
+        "Type2": "GRASS",
+        "Types": "WATER,GRASS"
+    },
+    {
+        "BaseName": "GRENINJA",
+        "FormName": "Fierce Stance",
+        "BaseStats": [
+            "83",
+            "131",
+            "55",
+            "136",
+            "80",
+            "50"
+        ]
+    }
+]

@@ -1,62 +1,64 @@
 import json
 
-# Load the base Pokémon data
-with open('data/pokemon.json', 'r') as f:
-    pokemon_data = json.load(f)
+def merge_pokemon_data(game_name):
+    # Define file paths based on the game name
+    base_file_path = f'games/{game_name}/data/pokemon.json'
+    form_file_path = f'games/{game_name}/data/pokemon_forms.json'
+    merged_file_path = f'games/{game_name}/data/merged_pokemon.json'
 
-# Load the forms data
-with open('data/pokemon_forms.json', 'r') as f:
-    forms_data = json.load(f)
+    try:
+        # Load base Pokémon data from base JSON file
+        with open(base_file_path, 'r') as base_file:
+            base_data = json.load(base_file)
 
-# Organize base Pokémon data by InternalName or Name, skipping entries without either
-pokemon_dict = {
-    (poke.get('InternalName') or poke.get('Name')): poke
-    for poke in pokemon_data if poke.get('InternalName') or poke.get('Name')
-}
+        # Load form data from form JSON file
+        with open(form_file_path, 'r') as form_file:
+            form_data = json.load(form_file)
 
-# Dictionary to keep track of form counts per Pokémon
-form_counters = {}
+        merged_pokemon = {}
 
-# Process each form and add it to the respective Pokémon's entry
-for form in forms_data:
-    # Determine the base Pokémon identifier, prioritizing InternalName
-    base_internal_name = form.get("InternalName") or form.get("Name")
-    
-    # Check if the base Pokémon exists in the main data
-    if base_internal_name in pokemon_dict:
-        # Initialize form counter for this Pokémon if it doesn't exist
-        if base_internal_name not in form_counters:
-            form_counters[base_internal_name] = 1
-        else:
-            form_counters[base_internal_name] += 1
+        # Check the structure of the base data (optional debug print)
+        print(f"Base data structure for {game_name}:")
+        for base_pokemon in base_data:
+            print(base_pokemon)  # Print each base entry to check the structure
+            break  # Remove this line if you want to print all base entries
 
-        # Create a unique InternalName for this form
-        form_internal_name = f"{base_internal_name}_{form_counters[base_internal_name]}"
-        
-        # Add this unique InternalName to the form under "InternalName" 
-        # and right after "FormName" for clarity
-        form["FormName"] = form.get("FormName", f"{base_internal_name} Form {form_counters[base_internal_name]}")
-        form["InternalName"] = form_internal_name
+        # Iterate through base Pokémon data and add to merged_pokemon dictionary
+        for base_pokemon in base_data:
+            try:
+                base_name = base_pokemon["InternalName"]
+                merged_pokemon[base_name] = base_pokemon
+            except KeyError:
+                print(f"Warning: 'InternalName' not found in this base entry: {base_pokemon}")
 
-        # Remove redundant fields from form to avoid duplication with base Pokémon data
-        form = {key: value for key, value in form.items() if key not in {"Name", "InternalName"}}
-        
-        # Ensure Forms field is a list in the main Pokémon dictionary
-        if "Forms" not in pokemon_dict[base_internal_name]:
-            pokemon_dict[base_internal_name]["Forms"] = []
-        
-        # Add the form entry to the Forms list in the base Pokémon dictionary
-        pokemon_dict[base_internal_name]["Forms"].append({
-            "FormName": form["FormName"],
-            "InternalName": form_internal_name,
-            **form  # Include all remaining fields in the form
-        })
-    else:
-        print(f"Warning: {base_internal_name} in forms file not found in base Pokémon data.")
+        # Iterate through form data and append forms to the corresponding base Pokémon
+        for form in form_data:
+            base_name = form["BaseName"]
+            
+            if base_name in merged_pokemon:
+                # Ensure that BaseStats exists in the form
+                if "BaseStats" in form:
+                    # Create a new entry for the form in the merged Pokémon data
+                    form_data_copy = form.copy()
+                    form_data_copy["InternalName"] = f"{base_name}T"  # Use a new InternalName for the form
+                    merged_pokemon[base_name]["Forms"] = merged_pokemon[base_name].get("Forms", [])
+                    merged_pokemon[base_name]["Forms"].append(form_data_copy)
+                else:
+                    print(f"Warning: 'BaseStats' not found in form for {base_name} - skipping form.")
+            else:
+                print(f"Warning: Base name {base_name} not found in base data.")
 
-# Convert the dictionary back to a list
-merged_data = list(pokemon_dict.values())
+        # Write the merged Pokémon data to a new JSON file
+        with open(merged_file_path, 'w') as merged_file:
+            json.dump(list(merged_pokemon.values()), merged_file, indent=4)
 
-# Save the merged data
-with open('data/merged_pokemon.json', 'w') as f:
-    json.dump(merged_data, f, indent=4)
+        print(f"Merge completed and saved to {merged_file_path}")
+
+    except FileNotFoundError as e:
+        print(f"Error: File not found - {e}")
+    except json.JSONDecodeError as e:
+        print(f"Error: Failed to decode JSON - {e}")
+
+# Call the function for 'vanguard' and 'ss2'
+merge_pokemon_data('vanguard')
+merge_pokemon_data('ss2')

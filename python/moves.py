@@ -1,3 +1,4 @@
+import os
 import json
 from compare_moves import check_moves
 
@@ -39,18 +40,32 @@ def parse_moves(input_file, output_file):
     with open(output_file, 'w') as json_file:
         json.dump(moves_list, json_file, indent=4)
 
-txt_file = 'data/moves.txt'
-json_file = 'data/moves.json'
-
-
-if __name__ == '__main__':
-    parse_moves('data/moves.txt', 'data/moves.json')
-    
-    mismatches = check_moves(txt_file, json_file)
-
-    if mismatches:
+def process_moves(game_folders):
+    """Process moves for multiple games."""
+    for game_folder in game_folders:
+        print(f"Processing game: {game_folder}")
+        
+        moves_txt_file = os.path.join('games', game_folder, 'data', 'moves.txt')
+        moves_json_file = os.path.join('games', game_folder, 'data', 'moves.json')
+        
+        if not os.path.exists(moves_txt_file):
+            print(f"Moves file not found for game: {game_folder}")
+            continue
+        
+        # Parse and save moves
+        parse_moves(moves_txt_file, moves_json_file)
+        
+        # Compare moves and check for mismatches
+        mismatches = check_moves(moves_txt_file, moves_json_file)
+        if mismatches:
+            print(f"Mismatches found for game: {game_folder}")
             for mismatch in mismatches:
                 move_name, key, txt_value, json_value = mismatch
                 print(f"- {move_name}: {key} differs (txt: {txt_value}, json: {json_value})")
-    else:
-        print("No mismatches found!")
+        else:
+            print(f"No mismatches found for game: {game_folder}")
+
+if __name__ == '__main__':
+    # List of game folders
+    games = ['vanguard', 'ss2', 'alden']  # Replace with your actual game folder names
+    process_moves(games)

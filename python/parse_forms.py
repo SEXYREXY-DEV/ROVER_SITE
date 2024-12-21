@@ -1,4 +1,5 @@
 import json
+import os
 
 def load_base_pokemon_data(base_file):
     """Load the base Pokémon data into a dictionary."""
@@ -11,7 +12,7 @@ def load_base_pokemon_data(base_file):
         if not entry.strip():
             continue
         
-        pokemon_data = {}
+        pokemon_data = {'BaseName': ''}
         lines = entry.strip().split('\n')
         
         for line in lines:
@@ -20,27 +21,26 @@ def load_base_pokemon_data(base_file):
                 key = key.strip()
                 value = value.strip()
                 
-                if key == 'Types':
-                    # Split Types field into Type1 and Type2
-                    types = value.split(',')
-                    pokemon_data['Type1'] = types[0]
-                    if len(types) > 1:
-                        pokemon_data['Type2'] = types[1]
-                
-                elif key in ['BaseStats', 'EffortPoints', 'Moves', 'TutorMoves', 'EggMoves']:
-                    value = value.split(',')
-                
-                elif key in ['Height', 'Weight']:
-                    value = float(value)
-                
-                elif key in ['BaseEXP', 'Rareness', 'Happiness', 'Generation']:
-                    value = int(value)
-                
-                pokemon_data[key] = value
+                # Only process implied columns
+                if key in ['InternalName', 'Types', 'BaseStats', 'Height', 'Weight']:
+                    if key == 'Types':
+                        # Split Types field into Type1 and Type2
+                        types = value.split(',')
+                        pokemon_data['Type1'] = types[0]
+                        if len(types) > 1:
+                            pokemon_data['Type2'] = types[1]
+                    
+                    elif key == 'BaseStats':
+                        value = value.split(',')
+                    
+                    elif key in ['Height', 'Weight']:
+                        value = float(value)
+                    
+                    pokemon_data[key] = value
         
-        internal_name = pokemon_data.get('InternalName')
-        if internal_name:
-            base_pokemon[internal_name] = pokemon_data
+        #internal_name = pokemon_data.get('InternalName')
+        #if internal_name:
+        #    base_pokemon[internal_name] = pokemon_data
     
     return base_pokemon
 
@@ -55,13 +55,18 @@ def convert_forms_to_json(forms_file, base_pokemon, output_file):
         if not entry.strip():
             continue
         
-        form_data = {}
+        form_data = {'BaseName': '', 'FormName': ''}
         lines = entry.strip().split('\n')
         base_pokemon_key = None
+        form_number = None
         
         for line in lines:
             if '[' in line and ']' in line:
-                base_pokemon_key = line.split(',')[0][1:]  # Extract the base Pokémon key
+                # Extract the base Pokémon key and form number
+                header = line.strip('[]')
+                base_pokemon_key, *form_info = header.split(',')
+                form_data['BaseName'] = base_pokemon_key.strip()
+                form_number = form_info[0].strip() if form_info else None
                 continue
             
             if '=' in line:
@@ -69,30 +74,36 @@ def convert_forms_to_json(forms_file, base_pokemon, output_file):
                 key = key.strip()
                 value = value.strip()
                 
-                if key == 'Types':
-                    # Split Types field into Type1 and Type2
-                    types = value.split(',')
-                    form_data['Type1'] = types[0]
-                    if len(types) > 1:
-                        form_data['Type2'] = types[1]
+                # Only process implied columns
+                if key == 'FormName':
+                    form_data['FormName'] = value
                 
-                elif key in ['BaseStats', 'Moves', 'TutorMoves', 'EggMoves']:
-                    value = value.split(',')
-                
-                elif key in ['Height', 'Weight']:
-                    value = float(value)
-                
-                elif key in ['Generation']:
-                    value = int(value)
-                
-                form_data[key] = value
+                elif key in ['InternalName', 'Types', 'BaseStats', 'Height', 'Weight']:
+                    if key == 'Types':
+                        # Split Types field into Type1 and Type2
+                        types = value.split(',')
+                        form_data['Type1'] = types[0]
+                        if len(types) > 1:
+                            form_data['Type2'] = types[1]
+                    
+                    elif key == 'BaseStats':
+                        value = value.split(',')
+                    
+                    elif key in ['Height', 'Weight']:
+                        value = float(value)
+                    
+                    form_data[key] = value
+        
+        # Default the FormName if not explicitly defined
+        if not form_data['FormName']:
+            form_data['FormName'] = f"{form_data['BaseName']} Form {form_number or ''}".strip()
         
         # Merge missing data from base Pokémon
         if base_pokemon_key in base_pokemon:
             base_data = base_pokemon[base_pokemon_key]
-            for key in base_data:
+            for key, base_value in base_data.items():
                 if key not in form_data:
-                    form_data[key] = base_data[key]
+                    form_data[key] = base_value
         
         forms_list.append(form_data)
     
@@ -100,8 +111,16 @@ def convert_forms_to_json(forms_file, base_pokemon, output_file):
     with open(output_file, 'w') as json_file:
         json.dump(forms_list, json_file, indent=4)
 
-# Load base Pokémon data from pokemon.txt
-base_pokemon_data = load_base_pokemon_data('data/pokemon.txt')
+# Paths for all three games
+games = ['vanguard', 'ss2']
 
-# Convert the forms data to JSON
-convert_forms_to_json('data/pokemon_forms.txt', base_pokemon_data, 'data/pokemon_forms.json')
+for game in games:
+    base_path = f'games/{game}/data/pokemon.txt'
+    forms_path = f'games/{game}/data/pokemon_forms.txt'
+    output_path = f'games/{game}/data/pokemon_forms.json'
+    
+    # Load base Pokémon data
+    base_pokemon_data = load_base_pokemon_data(base_path)
+    
+    # Convert the forms data to JSON
+    convert_forms_to_json(forms_path, base_pokemon_data, output_path)
