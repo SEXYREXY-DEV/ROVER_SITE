@@ -124,19 +124,24 @@ function renderPokemonData(pokemon, movesData, abilitiesData) {
       formImage.classList.add("form-image");
       formItem.appendChild(formImage);
     
-      // Display base stats for the form
       if (form.BaseStats) {
         const statsList = document.createElement("ul");
-        const statNames = ["HP", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed"];
-        
-        form.BaseStats.forEach((statValue, i) => {
+      
+        // Map the file's order (HP, Attack, Defense, Speed, Sp. Atk, Sp. Def)
+        // to the desired display order (HP, Attack, Defense, Sp. Def, Sp. Atk, Speed)
+        const statOrder = [0, 1, 2, 5, 4, 3]; // Reordered indices
+        const statNames = ["HP", "Attack", "Defense", "Sp. Def", "Sp. Atk", "Speed"];
+      
+        statOrder.forEach((originalIndex, displayIndex) => {
+          const statValue = form.BaseStats[originalIndex];
           const statItem = document.createElement("li");
-          statItem.textContent = `${statNames[i]}: ${statValue}`;
+          statItem.textContent = `${statNames[displayIndex]}: ${statValue}`;
           statsList.appendChild(statItem);
         });
-    
+      
         formItem.appendChild(statsList);
       }
+      
     
       formsContainer.appendChild(formItem);
     });    
