@@ -4,6 +4,10 @@
         "FormName": "Form"
     },
     {
+        "BaseName": "",
+        "FormName": "Form"
+    },
+    {
         "BaseName": "GENGAR",
         "FormName": "Mega Gengar",
         "BaseStats": [
@@ -73,6 +77,18 @@
             "75",
             "120",
             "120",
+            "110"
+        ]
+    },
+    {
+        "BaseName": "SEISMITOAD",
+        "FormName": "Mega Seismitoad",
+        "BaseStats": [
+            "95",
+            "100",
+            "110",
+            "70",
+            "124",
             "110"
         ]
     },
@@ -159,6 +175,18 @@
             "75",
             "45",
             "135"
+        ]
+    },
+    {
+        "BaseName": "SUDOWOODO",
+        "FormName": "Mega Sudowoodo",
+        "BaseStats": [
+            "90",
+            "40",
+            "100",
+            "100",
+            "130",
+            "130"
         ]
     },
     {
@@ -294,6 +322,18 @@
         ]
     },
     {
+        "BaseName": "SCEPTILE",
+        "FormName": "Mega Sceptile",
+        "BaseStats": [
+            "105",
+            "130",
+            "105",
+            "130",
+            "65",
+            "105"
+        ]
+    },
+    {
         "BaseName": "TYRANITAR",
         "FormName": "Mega Tyranitar",
         "BaseStats": [
@@ -355,6 +395,18 @@
         ]
     },
     {
+        "BaseName": "SAWSBUCK",
+        "FormName": "Mega Sawsbuck",
+        "BaseStats": [
+            "70",
+            "140",
+            "85",
+            "145",
+            "50",
+            "85"
+        ]
+    },
+    {
         "BaseName": "AGGRON",
         "FormName": "Mega Aggron",
         "BaseStats": [
@@ -364,6 +416,18 @@
             "75",
             "65",
             "115"
+        ]
+    },
+    {
+        "BaseName": "SLOWKING",
+        "FormName": "Mega Slowking",
+        "BaseStats": [
+            "95",
+            "65",
+            "110",
+            "70",
+            "130",
+            "120"
         ]
     },
     {
@@ -403,6 +467,18 @@
         ]
     },
     {
+        "BaseName": "FURRET",
+        "FormName": "Mega Furret",
+        "BaseStats": [
+            "75",
+            "41",
+            "54",
+            "115",
+            "135",
+            "110"
+        ]
+    },
+    {
         "BaseName": "GARDEVOIR",
         "FormName": "Mega Gardevoir",
         "BaseStats": [
@@ -424,6 +500,18 @@
             "110",
             "85",
             "100"
+        ]
+    },
+    {
+        "BaseName": "DUGTRIO",
+        "FormName": "Mega Dugtrio",
+        "BaseStats": [
+            "75",
+            "130",
+            "100",
+            "130",
+            "50",
+            "120"
         ]
     },
     {
@@ -487,6 +575,18 @@
         ]
     },
     {
+        "BaseName": "BLISSEY",
+        "FormName": "Mega Blissey",
+        "BaseStats": [
+            "105",
+            "120",
+            "140",
+            "65",
+            "75",
+            "135"
+        ]
+    },
+    {
         "BaseName": "TENTACRUEL",
         "FormName": "Mega Tentacruel",
         "BaseStats": [
@@ -524,6 +624,18 @@
             "113",
             "45",
             "112"
+        ]
+    },
+    {
+        "BaseName": "BEHEEYEM",
+        "FormName": "Mega Beheeyem",
+        "BaseStats": [
+            "115",
+            "70",
+            "125",
+            "65",
+            "65",
+            "145"
         ]
     },
     {
@@ -647,6 +759,18 @@
         ]
     },
     {
+        "BaseName": "LOPUNNY",
+        "FormName": "Mega Lopunny",
+        "BaseStats": [
+            "55",
+            "116",
+            "100",
+            "115",
+            "74",
+            "120"
+        ]
+    },
+    {
         "BaseName": "GOTHITELLE2",
         "FormName": "Mega T.Gothitelle",
         "BaseStats": [
@@ -692,6 +816,42 @@
             "115",
             "121",
             "125"
+        ]
+    },
+    {
+        "BaseName": "TOXTRICITY",
+        "FormName": "Mega Toxtricity",
+        "BaseStats": [
+            "95",
+            "105",
+            "110",
+            "90",
+            "92",
+            "110"
+        ]
+    },
+    {
+        "BaseName": "DUGTRIO2",
+        "FormName": "Mega T.Dugtrio",
+        "BaseStats": [
+            "75",
+            "110",
+            "100",
+            "110",
+            "110",
+            "100"
+        ]
+    },
+    {
+        "BaseName": "LUVDISC",
+        "FormName": "Mega Luvdisc",
+        "BaseStats": [
+            "55",
+            "115",
+            "90",
+            "130",
+            "65",
+            "90"
         ]
     },
     {
@@ -863,6 +1023,18 @@
         ]
     },
     {
+        "BaseName": "BANETTE",
+        "FormName": "Mega Banette",
+        "BaseStats": [
+            "74",
+            "130",
+            "95",
+            "90",
+            "63",
+            "103"
+        ]
+    },
+    {
         "BaseName": "HOUNDOOM",
         "FormName": "Mega Houndoom",
         "BaseStats": [
@@ -935,6 +1107,18 @@
         ]
     },
     {
+        "BaseName": "GRAPPLOCT",
+        "FormName": "Mega Grapploct",
+        "BaseStats": [
+            "90",
+            "118",
+            "120",
+            "70",
+            "62",
+            "120"
+        ]
+    },
+    {
         "BaseName": "HATTERENE",
         "FormName": "Mega Hatterene",
         "BaseStats": [
@@ -971,6 +1155,30 @@
         ]
     },
     {
+        "BaseName": "WYRDEER2",
+        "FormName": "Mega T.Wyrdeer",
+        "BaseStats": [
+            "93",
+            "135",
+            "92",
+            "135",
+            "70",
+            "100"
+        ]
+    },
+    {
+        "BaseName": "URSALUNA",
+        "FormName": "Mega Ursaluna",
+        "BaseStats": [
+            "95",
+            "125",
+            "105",
+            "110",
+            "85",
+            "130"
+        ]
+    },
+    {
         "BaseName": "EMOLGA",
         "FormName": "Mega Emolga",
         "BaseStats": [
@@ -980,6 +1188,174 @@
             "138",
             "40",
             "75"
+        ]
+    },
+    {
+        "BaseName": "",
+        "FormName": "Form"
+    },
+    {
+        "BaseName": "VESPIQUEN",
+        "FormName": "Mega Vespiquen",
+        "BaseStats": [
+            "80",
+            "30",
+            "102",
+            "120",
+            "120",
+            "122"
+        ]
+    },
+    {
+        "BaseName": "BLAZIKEN",
+        "FormName": "Mega Blaziken",
+        "BaseStats": [
+            "80",
+            "130",
+            "105",
+            "140",
+            "60",
+            "115"
+        ]
+    },
+    {
+        "BaseName": "GARGANACL",
+        "FormName": "Mega Garganacl",
+        "Type1": "FAIRY",
+        "Types": "FAIRY",
+        "BaseStats": [
+            "130",
+            "120",
+            "115",
+            "75",
+            "45",
+            "115"
+        ]
+    },
+    {
+        "BaseName": "WOBBUFFET",
+        "FormName": "Mega Wobbuffet",
+        "BaseStats": [
+            "140",
+            "33",
+            "103",
+            "33",
+            "103",
+            "93"
+        ]
+    },
+    {
+        "BaseName": "PLUSLE",
+        "FormName": "Mega Plusle",
+        "Type1": "FLYING",
+        "Type2": "WATER",
+        "Types": "FLYING,WATER",
+        "BaseStats": [
+            "56",
+            "81",
+            "61",
+            "136",
+            "129",
+            "71"
+        ]
+    },
+    {
+        "BaseName": "MINUN",
+        "FormName": "Mega Minun",
+        "Type1": "ICE",
+        "Type2": "WATER",
+        "Types": "ICE,WATER",
+        "BaseStats": [
+            "65",
+            "137",
+            "112",
+            "106",
+            "54",
+            "60"
+        ]
+    },
+    {
+        "BaseName": "BLASTOISE",
+        "FormName": "Mega Blastoise",
+        "BaseStats": [
+            "84",
+            "83",
+            "130",
+            "78",
+            "120",
+            "135"
+        ]
+    },
+    {
+        "BaseName": "CACTURNE2",
+        "FormName": "Mega T.Cacturne",
+        "BaseStats": [
+            "70",
+            "50",
+            "100",
+            "115",
+            "130",
+            "110"
+        ]
+    },
+    {
+        "BaseName": "URSALUNA2",
+        "FormName": "Mega T.Ursaluna",
+        "BaseStats": [
+            "105",
+            "110",
+            "125",
+            "120",
+            "65",
+            "125"
+        ]
+    },
+    {
+        "BaseName": "DREDNAW",
+        "FormName": "Mega Drednaw",
+        "BaseStats": [
+            "90",
+            "120",
+            "120",
+            "84",
+            "43",
+            "128"
+        ]
+    },
+    {
+        "BaseName": "MELMETAL",
+        "FormName": "Mega Melmetal",
+        "BaseStats": [
+            "135",
+            "143",
+            "133",
+            "84",
+            "70",
+            "135"
+        ]
+    },
+    {
+        "BaseName": "WHIMSICOTT2",
+        "FormName": "Mega T.Whimsicott",
+        "BaseStats": [
+            "75",
+            "107",
+            "90",
+            "101",
+            "107",
+            "100"
+        ]
+    },
+    {
+        "BaseName": "CHARIZARD2",
+        "FormName": "Mega T.Charizard",
+        "BaseStats": [
+            "90",
+            "125",
+            "108",
+            "127",
+            "84",
+            "100"
         ]
     },
     {
@@ -1317,6 +1693,66 @@
         ]
     },
     {
+        "BaseName": "SHELLOS",
+        "FormName": "Shagon",
+        "Type1": "DRAGON",
+        "Type2": "FLYING",
+        "Types": "DRAGON,FLYING",
+        "BaseStats": [
+            "60",
+            "60",
+            "56",
+            "70",
+            "36",
+            "53"
+        ]
+    },
+    {
+        "BaseName": "GASTRODON",
+        "FormName": "Gastramence",
+        "Type1": "DRAGON",
+        "Type2": "FLYING",
+        "Types": "DRAGON,FLYING",
+        "BaseStats": [
+            "85",
+            "80",
+            "70",
+            "110",
+            "55",
+            "85"
+        ]
+    },
+    {
+        "BaseName": "SHELLOS",
+        "FormName": "Shibax",
+        "Type1": "DRAGON",
+        "Type2": "ICE",
+        "Types": "DRAGON,ICE",
+        "BaseStats": [
+            "60",
+            "70",
+            "56",
+            "60",
+            "36",
+            "53"
+        ]
+    },
+    {
+        "BaseName": "GASTRODON",
+        "FormName": "Gascalibur",
+        "Type1": "DRAGON",
+        "Type2": "ICE",
+        "Types": "DRAGON,ICE",
+        "BaseStats": [
+            "85",
+            "100",
+            "70",
+            "90",
+            "55",
+            "85"
+        ]
+    },
+    {
         "BaseName": "BASCULIN",
         "FormName": "Dragonfish",
         "Type1": "DRAGON",
@@ -1332,78 +1768,93 @@
         ]
     },
     {
-        "BaseName": "BASCULEGION",
-        "FormName": "Dragonfish",
-        "Type1": "DRAGON",
-        "Type2": "GHOST",
-        "Types": "DRAGON,GHOST",
+        "BaseName": "FURFROU",
+        "FormName": "Ash",
+        "Type1": "FLYING",
+        "Type2": "FIRE",
+        "Types": "FLYING,FIRE",
         "BaseStats": [
-            "90",
-            "122",
-            "90",
-            "113",
-            "55",
-            "60"
+            "80",
+            "50",
+            "80",
+            "80",
+            "115",
+            "70"
         ]
     },
     {
-        "BaseName": "CHERRIM",
-        "FormName": "Hailing Form",
-        "Type1": "GRASS",
+        "BaseName": "FURFROU",
+        "FormName": "Fog",
+        "Type1": "FLYING",
+        "Type2": "GHOST",
+        "Types": "FLYING,GHOST",
+        "BaseStats": [
+            "50",
+            "50",
+            "75",
+            "95",
+            "90",
+            "115"
+        ]
+    },
+    {
+        "BaseName": "FURFROU",
+        "FormName": "Chilling",
+        "Type1": "FLYING",
         "Type2": "ICE",
-        "Types": "GRASS,ICE",
+        "Types": "FLYING,ICE",
+        "BaseStats": [
+            "115",
+            "60",
+            "60",
+            "70",
+            "100",
+            "70"
+        ]
+    },
+    {
+        "BaseName": "FURFROU",
+        "FormName": "Dust",
+        "Type1": "FLYING",
+        "Type2": "GROUND",
+        "Types": "FLYING,GROUND",
         "BaseStats": [
             "70",
-            "40",
-            "60",
-            "85",
-            "102",
-            "93"
-        ]
-    },
-    {
-        "BaseName": "ESPURR",
-        "FormName": "Arsonist",
-        "Type1": "PSYCHIC",
-        "Type2": "FIRE",
-        "Types": "PSYCHIC,FIRE",
-        "BaseStats": [
-            "62",
-            "38",
-            "54",
-            "68",
-            "53",
+            "50",
+            "115",
+            "70",
+            "90",
             "80"
         ]
     },
     {
-        "BaseName": "MEOWSTIC",
-        "FormName": "Arsonist",
-        "Type1": "PSYCHIC",
-        "Type2": "FIRE",
-        "Types": "PSYCHIC,FIRE",
+        "BaseName": "FURFROU",
+        "FormName": "Storm",
+        "Type1": "FLYING",
+        "Type2": "ELECTRIC",
+        "Types": "FLYING,ELECTRIC",
         "BaseStats": [
-            "74",
-            "48",
-            "71",
-            "104",
-            "73",
-            "96"
+            "70",
+            "100",
+            "65",
+            "65",
+            "100",
+            "75"
         ]
     },
     {
-        "BaseName": "DARMANITAN",
-        "FormName": "Zen Mode",
-        "Type1": "ROCK",
+        "BaseName": "FURFROU",
+        "FormName": "Tornado",
+        "Type1": "FLYING",
         "Type2": "SOUND",
-        "Types": "ROCK,SOUND",
+        "Types": "FLYING,SOUND",
         "BaseStats": [
-            "110",
-            "130",
-            "130",
-            "15",
-            "20",
-            "135"
+            "70",
+            "115",
+            "70",
+            "100",
+            "50",
+            "70"
         ]
     },
     {
@@ -1536,93 +1987,63 @@
         ]
     },
     {
-        "BaseName": "FURFROU",
-        "FormName": "Ash",
-        "Type1": "FLYING",
-        "Type2": "FIRE",
-        "Types": "FLYING,FIRE",
-        "BaseStats": [
-            "80",
-            "50",
-            "80",
-            "80",
-            "115",
-            "70"
-        ]
-    },
-    {
-        "BaseName": "FURFROU",
-        "FormName": "Fog",
-        "Type1": "FLYING",
-        "Type2": "GHOST",
-        "Types": "FLYING,GHOST",
-        "BaseStats": [
-            "50",
-            "50",
-            "75",
-            "95",
-            "90",
-            "115"
-        ]
-    },
-    {
-        "BaseName": "FURFROU",
-        "FormName": "Chilling",
-        "Type1": "FLYING",
+        "BaseName": "CHERRIM",
+        "FormName": "Hailing Form",
+        "Type1": "GRASS",
         "Type2": "ICE",
-        "Types": "FLYING,ICE",
+        "Types": "GRASS,ICE",
         "BaseStats": [
-            "115",
-            "60",
-            "60",
             "70",
-            "100",
-            "70"
+            "40",
+            "60",
+            "85",
+            "102",
+            "93"
         ]
     },
     {
-        "BaseName": "FURFROU",
-        "FormName": "Dust",
-        "Type1": "FLYING",
-        "Type2": "GROUND",
-        "Types": "FLYING,GROUND",
+        "BaseName": "ESPURR",
+        "FormName": "Arsonist",
+        "Type1": "PSYCHIC",
+        "Type2": "FIRE",
+        "Types": "PSYCHIC,FIRE",
         "BaseStats": [
-            "70",
-            "50",
-            "115",
-            "70",
-            "90",
+            "62",
+            "38",
+            "54",
+            "68",
+            "53",
             "80"
         ]
     },
     {
-        "BaseName": "FURFROU",
-        "FormName": "Storm",
-        "Type1": "FLYING",
-        "Type2": "ELECTRIC",
-        "Types": "FLYING,ELECTRIC",
+        "BaseName": "MEOWSTIC",
+        "FormName": "Arsonist",
+        "Type1": "PSYCHIC",
+        "Type2": "FIRE",
+        "Types": "PSYCHIC,FIRE",
         "BaseStats": [
-            "70",
-            "100",
-            "65",
-            "65",
-            "100",
-            "75"
+            "74",
+            "48",
+            "71",
+            "104",
+            "73",
+            "96"
         ]
     },
     {
-        "BaseName": "FURFROU",
-        "FormName": "Tornado",
-        "Type1": "FLYING",
+        "BaseName": "DARMANITAN",
+        "FormName": "Zen Mode",
+        "Type1": "ROCK",
         "Type2": "SOUND",
-        "Types": "FLYING,SOUND",
+        "Types": "ROCK,SOUND",
         "BaseStats": [
-            "70",
-            "115",
-            "70",
-            "100",
-            "50",
-            "70"
+            "110",
+            "130",
+            "130",
+            "15",
+            "20",
+            "135"
         ]
     },
     {
@@ -1641,10 +2062,280 @@
         ]
     },
     {
+        "BaseName": "BASCULEGION",
+        "FormName": "Dragonfish",
+        "Type1": "DRAGON",
+        "Type2": "GHOST",
+        "Types": "DRAGON,GHOST",
+        "BaseStats": [
+            "90",
+            "122",
+            "90",
+            "113",
+            "55",
+            "60"
+        ]
+    },
+    {
+        "BaseName": "WISHIWASHI",
+        "FormName": "Swarm Form",
+        "BaseStats": [
+            "65",
+            "120",
+            "100",
+            "115",
+            "120",
+            "100"
+        ],
+        "Height": 8.2,
+        "Weight": 78.6
+    },
+    {
+        "BaseName": "ORICORIO",
+        "FormName": "Metal",
+        "Type1": "DARK",
+        "Type2": "SOUND",
+        "Types": "DARK,SOUND",
+        "BaseStats": [
+            "75",
+            "105",
+            "70",
+            "93",
+            "63",
+            "70"
+        ]
+    },
+    {
+        "BaseName": "ORICORIO",
+        "FormName": "Rave",
+        "Type1": "ELECTRIC",
+        "Type2": "SOUND",
+        "Types": "ELECTRIC,SOUND",
+        "BaseStats": [
+            "75",
+            "85",
+            "60",
+            "113",
+            "83",
+            "60"
+        ]
+    },
+    {
+        "BaseName": "ORICORIO",
+        "FormName": "World",
+        "Type1": "FIRE",
+        "Type2": "SOUND",
+        "Types": "FIRE,SOUND",
+        "BaseStats": [
+            "75",
+            "90",
+            "65",
+            "93",
+            "88",
+            "65"
+        ]
+    },
+    {
+        "BaseName": "BURMY",
+        "FormName": "Rock",
+        "Type1": "ROCK",
+        "Type2": "BUG",
+        "Types": "ROCK,BUG",
+        "BaseStats": [
+            "40",
+            "29",
+            "35",
+            "36",
+            "29",
+            "55"
+        ]
+    },
+    {
+        "BaseName": "WORMADAM",
+        "FormName": "Rock",
+        "Type1": "ROCK",
+        "Type2": "BUG",
+        "Types": "ROCK,BUG",
+        "BaseStats": [
+            "80",
+            "99",
+            "105",
+            "46",
+            "29",
+            "65"
+        ]
+    },
+    {
+        "BaseName": "MOTHIM",
+        "FormName": "Rock",
+        "Type1": "ROCK",
+        "Type2": "BUG",
+        "Types": "ROCK,BUG",
+        "BaseStats": [
+            "80",
+            "34",
+            "40",
+            "96",
+            "104",
+            "70"
+        ]
+    },
+    {
+        "BaseName": "BURMY",
+        "FormName": "Snow",
+        "BaseStats": [
+            "40",
+            "29",
+            "35",
+            "36",
+            "29",
+            "55"
+        ],
+        "Type1": "ICE",
+        "Type2": "BUG",
+        "Types": "ICE,BUG"
+    },
+    {
+        "BaseName": "WORMADAM",
+        "FormName": "Snow",
+        "Type1": "ICE",
+        "Type2": "BUG",
+        "Types": "ICE,BUG",
+        "BaseStats": [
+            "80",
+            "99",
+            "105",
+            "46",
+            "29",
+            "65"
+        ]
+    },
+    {
+        "BaseName": "MOTHIM",
+        "FormName": "Snow",
+        "Type1": "ICE",
+        "Type2": "BUG",
+        "Types": "ICE,BUG",
+        "BaseStats": [
+            "80",
+            "34",
+            "40",
+            "96",
+            "104",
+            "70"
+        ]
+    },
+    {
+        "BaseName": "UNOWN",
+        "FormName": "Symphony Form",
+        "BaseStats": [
+            "78",
+            "85",
+            "130",
+            "50",
+            "145",
+            "130"
+        ],
+        "Height": 8.2,
+        "Weight": 78.6
+    },
+    {
+        "BaseName": "EISCUE",
+        "FormName": "No TV Face",
+        "BaseStats": [
+            "85",
+            "80",
+            "70",
+            "120",
+            "65",
+            "50"
+        ]
+    },
+    {
+        "BaseName": "TOGEDEMARU",
+        "FormName": "Reactive",
+        "BaseStats": [
+            "74",
+            "121",
+            "87",
+            "111",
+            "32",
+            "70"
+        ]
+    },
+    {
+        "BaseName": "SPOINK",
+        "FormName": "Toxic Orb",
+        "Type1": "POISON",
+        "Types": "POISON",
+        "BaseStats": [
+            "60",
+            "25",
+            "70",
+            "50",
+            "70",
+            "55"
+        ]
+    },
+    {
+        "BaseName": "GRUMPIG",
+        "FormName": "Toxic Orb",
+        "Type1": "POISON",
+        "Types": "POISON",
+        "BaseStats": [
+            "80",
+            "45",
+            "100",
+            "70",
+            "90",
+            "85"
+        ]
+    },
+    {
         "BaseName": "",
         "FormName": "Form"
     },
     {
+        "BaseName": "LEDYBA",
+        "FormName": "Gold Ranger"
+    },
+    {
+        "BaseName": "LEDYBA",
+        "FormName": "Blue Ranger"
+    },
+    {
+        "BaseName": "LEDYBA",
+        "FormName": "Green Ranger"
+    },
+    {
+        "BaseName": "LEDYBA",
+        "FormName": "Pink Ranger"
+    },
+    {
+        "BaseName": "LEDYBA",
+        "FormName": "Sixth Ranger"
+    },
+    {
+        "BaseName": "LEDIAN",
+        "FormName": "Gold Ranger"
+    },
+    {
+        "BaseName": "LEDIAN",
+        "FormName": "Blue Ranger"
+    },
+    {
+        "BaseName": "LEDIAN",
+        "FormName": "Green Ranger"
+    },
+    {
+        "BaseName": "LEDIAN",
+        "FormName": "Pink Ranger"
+    },
+    {
+        "BaseName": "LEDIAN",
+        "FormName": "Sixth Ranger"
+    },
+    {
         "BaseName": "GOOMY",
         "FormName": "Cherry"
     },
@@ -1703,6 +2394,46 @@
     {
         "BaseName": "GOODRA",
         "FormName": "Grape"
+    },
+    {
+        "BaseName": "MIMIKYU",
+        "FormName": "Busted Form"
+    },
+    {
+        "BaseName": "MELTAN",
+        "FormName": "Strawberry Vanilla"
+    },
+    {
+        "BaseName": "MELMETAL",
+        "FormName": "Strawberry Vanilla"
+    },
+    {
+        "BaseName": "MELTAN",
+        "FormName": "Salted Caramel"
+    },
+    {
+        "BaseName": "MELMETAL",
+        "FormName": "Salted Caramel"
+    },
+    {
+        "BaseName": "MELTAN",
+        "FormName": "Banana Peanut Butter"
+    },
+    {
+        "BaseName": "MELMETAL",
+        "FormName": "Banana Peanut Butter"
+    },
+    {
+        "BaseName": "SQUAWKABILLY",
+        "FormName": "Green"
+    },
+    {
+        "BaseName": "SQUAWKABILLY",
+        "FormName": "Blue"
+    },
+    {
+        "BaseName": "MIMIKYU2",
+        "FormName": "Busted Form"
     },
     {
         "BaseName": "",
@@ -1730,11 +2461,11 @@
         "Types": "POISON,SOUND",
         "BaseStats": [
             "100",
-            "25",
+            "35",
             "50",
             "100",
-            "100",
-            "50 # 425 BST Total"
+            "90",
+            "50 # 425 BST Total Special Glass Cannon"
         ]
     },
     {
@@ -1745,11 +2476,11 @@
         "Types": "BUG,DARK",
         "BaseStats": [
             "100",
-            "100",
+            "90",
             "50",
             "100",
-            "25",
-            "50 # 425 BST Total"
+            "35",
+            "50 # 425 BST Total Physical Glass Cannon"
         ]
     },
     {
@@ -1760,11 +2491,11 @@
         "Types": "DARK,POISON",
         "BaseStats": [
             "100",
-            "100",
+            "90",
             "50",
             "100",
-            "25",
-            "50 # 425 BST Total"
+            "35",
+            "50 # 425 BST Total Physical Glass Cannon"
         ]
     },
     {
@@ -1775,11 +2506,26 @@
         "Types": "BUG,PSYCHIC",
         "BaseStats": [
             "100",
-            "25",
+            "35",
             "50",
             "100",
+            "90",
+            "50 # 425 BST Total Special Glass Cannon"
+        ]
+    },
+    {
+        "BaseName": "CHIKORITA",
+        "FormName": "Anomaly",
+        "Type1": "FAIRY",
+        "Type2": "GRASS",
+        "Types": "FAIRY,GRASS",
+        "BaseStats": [
             "100",
-            "50 # 425 BST Total"
+            "25",
+            "70",
+            "80",
+            "80",
+            "70 # 425 BST Total Special Bruiser"
         ]
     },
     {
@@ -1805,11 +2551,11 @@
         "Types": "GROUND,POISON",
         "BaseStats": [
             "100",
-            "25",
+            "35",
             "50",
             "100",
-            "100",
-            "50 # 425 BST Total"
+            "90",
+            "50 # 425 BST Total Special Glass Cannon"
         ]
     },
     {
@@ -1820,11 +2566,11 @@
         "Types": "GROUND,POISON",
         "BaseStats": [
             "100",
-            "100",
+            "90",
             "50",
             "100",
-            "25",
-            "50 # 425 BST Total"
+            "35",
+            "50 # 425 BST Total Physical Glass Cannon"
         ]
     },
     {
@@ -1835,11 +2581,11 @@
         "Types": "GROUND,FIGHTING",
         "BaseStats": [
             "100",
-            "100",
-            "50",
-            "100",
+            "80",
+            "70",
+            "80",
             "25",
-            "50 # 425 BST Total"
+            "70 # 425 BST Total Physical Bruiser"
         ]
     },
     {
@@ -1849,11 +2595,11 @@
         "Types": "GROUND",
         "BaseStats": [
             "100",
-            "25",
-            "50",
+            "30",
+            "80",
+            "15",
             "100",
-            "100",
-            "50 # 425 BST Total"
+            "100 # 425 BST Total Special Juggernaut"
         ]
     },
     {
@@ -1880,10 +2626,10 @@
         "BaseStats": [
             "100",
             "100",
-            "50",
             "100",
-            "25",
-            "50 # 425 BST Total"
+            "15",
+            "30",
+            "80 # 425 BST Total Physical Juggernaut"
         ]
     },
     {
@@ -1894,11 +2640,11 @@
         "Types": "DARK,SOUND",
         "BaseStats": [
             "100",
-            "100",
+            "90",
             "50",
             "100",
-            "25",
-            "50 # 425 BST Total"
+            "35",
+            "50 # 425 BST Total Physical Glass Cannon"
         ]
     },
     {
@@ -1909,11 +2655,11 @@
         "Types": "GROUND,GHOST",
         "BaseStats": [
             "100",
-            "100",
-            "50",
-            "100",
+            "80",
+            "70",
+            "80",
             "25",
-            "50 # 425 BST Total"
+            "70 # 425 BST Total Physical Bruiser"
         ]
     },
     {
@@ -1924,11 +2670,11 @@
         "Types": "NORMAL,FLYING",
         "BaseStats": [
             "100",
-            "100",
-            "50",
-            "100",
             "25",
-            "75 # 450 BST Total"
+            "75",
+            "85",
+            "85",
+            "80 # 450 BST Total Special Bruiser"
         ]
     },
     {
@@ -1939,11 +2685,11 @@
         "Types": "WATER,BUG",
         "BaseStats": [
             "100",
-            "100",
-            "75",
-            "100",
+            "85",
+            "80",
+            "85",
             "25",
-            "50 # 450 BST Total"
+            "75 # 450 BST Total Physical Bruiser"
         ]
     },
     {
@@ -1954,11 +2700,11 @@
         "Types": "STEEL,PSYCHIC",
         "BaseStats": [
             "100",
+            "30",
+            "80",
             "25",
-            "50",
             "100",
-            "100",
-            "75 # 450 BST Total"
+            "115 # 450 BST Total Special Juggernaut"
         ]
     },
     {
@@ -1970,10 +2716,10 @@
         "BaseStats": [
             "100",
             "100",
-            "50",
-            "100",
+            "115",
             "25",
-            "75 # 450 BST Total"
+            "30",
+            "80 # 450 BST Total Physical Juggernaut"
         ]
     },
     {
@@ -1984,11 +2730,11 @@
         "Types": "WATER,STEEL",
         "BaseStats": [
             "100",
-            "100",
-            "75",
-            "100",
+            "85",
+            "80",
+            "85",
             "25",
-            "50 # 450 BST Total"
+            "75 # 450 BST Total Physical Bruiser"
         ]
     },
     {
@@ -2001,9 +2747,9 @@
             "100",
             "25",
             "75",
-            "100",
-            "100",
-            "50 # 450 BST Total"
+            "85",
+            "85",
+            "80 # 450 BST Total Special Bruiser"
         ]
     },
     {
@@ -2014,11 +2760,11 @@
         "Types": "BUG,FLYING",
         "BaseStats": [
             "100",
-            "25",
-            "50",
+            "35",
+            "55",
             "100",
             "100",
-            "75 # 450 BST Total"
+            "60 # 450 BST Total Special Glass Cannon"
         ]
     },
     {
@@ -2029,11 +2775,11 @@
         "Types": "GRASS,COSMIC",
         "BaseStats": [
             "100",
-            "25",
-            "75",
+            "35",
+            "55",
             "100",
             "100",
-            "50 # 450 BST Total"
+            "60 # 450 BST Total Special Glass Cannon"
         ]
     },
     {
@@ -2045,10 +2791,10 @@
         "BaseStats": [
             "100",
             "25",
-            "50",
-            "100",
-            "100",
-            "75 # 450 BST Total"
+            "75",
+            "85",
+            "85",
+            "80 # 450 BST Total Special Bruiser"
         ]
     },
     {
@@ -2059,11 +2805,11 @@
         "Types": "BUG,FIGHTING",
         "BaseStats": [
             "100",
-            "100",
-            "75",
-            "100",
+            "85",
+            "80",
+            "85",
             "25",
-            "50 # 450 BST Total"
+            "75 # 450 BST Total Physical Bruiser"
         ]
     },
     {
@@ -2074,11 +2820,11 @@
         "Types": "WATER,COSMIC",
         "BaseStats": [
             "100",
-            "25",
-            "50",
+            "35",
+            "55",
             "100",
             "100",
-            "75 # 450 BST Total"
+            "60 # 450 BST Total Special Glass Cannon"
         ]
     },
     {
@@ -2091,24 +2837,24 @@
             "100",
             "25",
             "75",
-            "100",
-            "100",
-            "50 # 450 BST Total"
+            "85",
+            "85",
+            "80 # 450 BST Total Special Bruiser"
         ]
     },
     {
-        "BaseName": "MAROWAK",
+        "BaseName": "CUBONE",
         "FormName": "Anomaly",
         "Type1": "WATER",
         "Type2": "ROCK",
         "Types": "WATER,ROCK",
         "BaseStats": [
             "100",
-            "100",
-            "75",
-            "100",
+            "85",
+            "80",
+            "85",
             "25",
-            "50 # 450 BST Total"
+            "75 # 450 BST Total Physical Bruiser"
         ]
     },
     {
@@ -2120,10 +2866,10 @@
         "BaseStats": [
             "100",
             "100",
-            "75",
+            "60",
             "100",
-            "25",
-            "50 # 450 BST Total"
+            "35",
+            "55 # 450 BST Total Physical Glass Cannon"
         ]
     },
     {
@@ -2183,7 +2929,7 @@
             "100",
             "100",
             "100",
-            "100 # 500 BST Total"
+            "100 # 600 BST Total"
         ]
     },
     {
@@ -2194,11 +2940,11 @@
         "Types": "LIGHT,SOUND",
         "BaseStats": [
             "100",
-            "25",
-            "75",
+            "35",
+            "55",
             "100",
             "100",
-            "50 # 450 BST Total"
+            "60 # 450 BST Total Special Glass Cannon"
         ]
     },
     {
@@ -2269,11 +3015,11 @@
         "Types": "SOUND,STEEL",
         "BaseStats": [
             "100",
-            "25",
-            "75",
+            "45",
+            "60",
             "100",
             "100",
-            "75 # 475 BST Total"
+            "70 # 475 BST Total Special Glass Cannon"
         ]
     },
     {
@@ -2283,11 +3029,11 @@
         "Types": "GHOST",
         "BaseStats": [
             "100",
-            "25",
-            "75",
+            "45",
+            "60",
             "100",
             "100",
-            "75 # 475 BST Total"
+            "70 # 475 BST Total Special Glass Cannon"
         ]
     },
     {
@@ -2299,10 +3045,10 @@
         "BaseStats": [
             "100",
             "100",
-            "75",
+            "70",
             "100",
-            "25",
-            "75 # 475 BST Total"
+            "45",
+            "60 # 475 BST Total Physical Glass Cannon"
         ]
     },
     {
@@ -2313,11 +3059,11 @@
         "Types": "GROUND,PSYCHIC",
         "BaseStats": [
             "100",
-            "25",
-            "75",
-            "100",
-            "100",
-            "75 # 475 BST Total"
+            "35",
+            "85",
+            "85",
+            "85",
+            "85 # 475 BST Total Special Bruiser"
         ]
     },
     {
@@ -2328,11 +3074,11 @@
         "Types": "FAIRY,GRASS",
         "BaseStats": [
             "100",
-            "25",
-            "75",
-            "100",
-            "100",
-            "75 # 475 BST Total"
+            "35",
+            "85",
+            "85",
+            "85",
+            "85 # 475 BST Total Special Bruiser"
         ]
     },
     {
@@ -2343,11 +3089,11 @@
         "Types": "COSMIC,ICE",
         "BaseStats": [
             "100",
-            "100",
-            "75",
-            "100",
-            "25",
-            "75 # 475 BST Total"
+            "85",
+            "85",
+            "85",
+            "35",
+            "85 # 475 BST Total Physical Bruiser"
         ]
     },
     {
@@ -2452,6 +3198,275 @@
             "100",
             "100",
             "50",
+            "100 # 600 BST Total"
+        ]
+    },
+    {
+        "BaseName": "KOFFING",
+        "FormName": "Anomaly",
+        "Type1": "FIRE",
+        "Type2": "POISON",
+        "Types": "FIRE,POISON",
+        "BaseStats": [
+            "100",
+            "40",
+            "85",
+            "25",
+            "105",
+            "120 # 475 BST Total Special Juggernaut"
+        ]
+    },
+    {
+        "BaseName": "MAROWAK",
+        "FormName": "Anomaly",
+        "Type1": "WATER",
+        "Type2": "ROCK",
+        "Types": "WATER,ROCK",
+        "BaseStats": [
+            "100",
+            "85",
+            "85",
+            "85",
+            "35",
+            "85 # 475 BST Total Physical Bruiser"
+        ]
+    },
+    {
+        "BaseName": "RALTS",
+        "FormName": "Anomaly",
+        "Type1": "DARK",
+        "Type2": "POISON",
+        "Types": "DARK,POISON",
+        "BaseStats": [
+            "100",
+            "45",
+            "60",
+            "100",
+            "100",
+            "70 # 475 BST Total Special Glass Cannon"
+        ]
+    },
+    {
+        "BaseName": "SMOLIV",
+        "FormName": "Anomaly",
+        "Type1": "WATER",
+        "Type2": "PSYCHIC",
+        "Types": "WATER,PSYCHIC",
+        "BaseStats": [
+            "100",
+            "45",
+            "60",
+            "100",
+            "100",
+            "70 # 475 BST Total Special Glass Cannon"
+        ]
+    },
+    {
+        "BaseName": "VANILLITE",
+        "FormName": "Anomaly",
+        "Type1": "POISON",
+        "Types": "POISON",
+        "BaseStats": [
+            "100",
+            "40",
+            "85",
+            "25",
+            "105",
+            "120 # 475 BST Total Special Juggernaut"
+        ]
+    },
+    {
+        "BaseName": "NATU",
+        "FormName": "Anomaly",
+        "Type1": "STEEL",
+        "Type2": "ELECTRIC",
+        "Types": "STEEL,ELECTRIC",
+        "BaseStats": [
+            "100",
+            "85",
+            "85",
+            "85",
+            "35",
+            "85 # 475 BST Total Physical Bruiser"
+        ]
+    },
+    {
+        "BaseName": "MANECTRIC",
+        "FormName": "Anomaly",
+        "Type1": "GROUND",
+        "Type2": "GHOST",
+        "Types": "GROUND,GHOST",
+        "BaseStats": [
+            "150",
+            "100",
+            "100",
+            "100",
+            "50",
+            "100 # 600 BST Total"
+        ]
+    },
+    {
+        "BaseName": "ARIADOS",
+        "FormName": "Anomaly",
+        "Type1": "DARK",
+        "Type2": "POISON",
+        "Types": "DARK,POISON",
+        "BaseStats": [
+            "150",
+            "100",
+            "100",
+            "100",
+            "50",
+            "100 # 600 BST Total"
+        ]
+    },
+    {
+        "BaseName": "MUK",
+        "FormName": "Anomaly",
+        "Type1": "GRASS",
+        "Type2": "GROUND",
+        "Types": "GRASS,GROUND",
+        "BaseStats": [
+            "150",
+            "100",
+            "100",
+            "50",
+            "100",
+            "100 # 600 BST Total"
+        ]
+    },
+    {
+        "BaseName": "BRELOOM",
+        "FormName": "Anomaly",
+        "Type1": "STEEL",
+        "Type2": "FIGHTING",
+        "Types": "STEEL,FIGHTING",
+        "BaseStats": [
+            "150",
+            "100",
+            "100",
+            "100",
+            "50",
+            "100 # 600 BST Total"
+        ]
+    },
+    {
+        "BaseName": "DRAPION",
+        "FormName": "Anomaly",
+        "Type1": "GROUND",
+        "Type2": "POISON",
+        "Types": "GROUND,POISON",
+        "BaseStats": [
+            "150",
+            "100",
+            "100",
+            "100",
+            "50",
+            "100 # 600 BST Total"
+        ]
+    },
+    {
+        "BaseName": "GOLBAT",
+        "FormName": "Anomaly",
+        "Type1": "DARK",
+        "Type2": "SOUND",
+        "Types": "DARK,SOUND",
+        "BaseStats": [
+            "150",
+            "100",
+            "100",
+            "100",
+            "50",
+            "100 # 600 BST Total"
+        ]
+    },
+    {
+        "BaseName": "CROBAT",
+        "FormName": "Anomaly",
+        "Type1": "DARK",
+        "Type2": "SOUND",
+        "Types": "DARK,SOUND",
+        "BaseStats": [
+            "150",
+            "125",
+            "100",
+            "100",
+            "25",
+            "100 # 600 BST Total"
+        ]
+    },
+    {
+        "BaseName": "EMOLGA",
+        "FormName": "Anomaly",
+        "Type1": "POISON",
+        "Type2": "FLYING",
+        "Types": "POISON,FLYING",
+        "BaseStats": [
+            "100",
+            "85",
+            "85",
+            "85",
+            "35",
+            "85 # 475 BST Total Physical Bruiser"
+        ]
+    },
+    {
+        "BaseName": "SEAKING",
+        "FormName": "Anomaly",
+        "Type1": "POISON",
+        "Type2": "WATER",
+        "Types": "POISON,WATER",
+        "BaseStats": [
+            "100",
+            "35",
+            "85",
+            "85",
+            "85",
+            "85 # 475 BST Total Special Bruiser"
+        ]
+    },
+    {
+        "BaseName": "LANTURN",
+        "FormName": "Anomaly",
+        "Type1": "LIGHT",
+        "Type2": "DARK",
+        "Types": "LIGHT,DARK",
+        "BaseStats": [
+            "100",
+            "35",
+            "85",
+            "85",
+            "85",
+            "85 # 475 BST Total Special Bruiser"
+        ]
+    },
+    {
+        "BaseName": "MEGANIUM",
+        "FormName": "Anomaly",
+        "Type1": "FAIRY",
+        "Type2": "GRASS",
+        "Types": "FAIRY,GRASS",
+        "BaseStats": [
+            "150",
+            "25",
+            "100",
+            "100",
+            "125",
+            "100 # 600 BST Total"
+        ]
+    },
+    {
+        "BaseName": "WISHIWASHI",
+        "FormName": "Anomaly",
+        "Type1": "LIGHT",
+        "Type2": "DARK",
+        "Types": "LIGHT,DARK",
+        "BaseStats": [
+            "150",
+            "25",
+            "100",
+            "100",
+            "125",
             "100 # 600 BST Total"
         ]
     },

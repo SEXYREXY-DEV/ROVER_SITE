@@ -440,13 +440,13 @@
         "Accuracy": 0,
         "TotalPP": 20,
         "Target": "NearOther",
-        "FunctionCode": "None",
+        "FunctionCode": "ExtraPowerIfEvasion",
         "Flags": [
             "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user draws up to the foe disarmingly then throws a sucker punch. It hits without fail."
+        "Description": "The user throws a sucker punch. Always hit and will do 50% extra damage to evasive foes."
     },
     {
         "Name": "THIEF",
@@ -745,7 +745,7 @@
         "Category": "Status",
         "Accuracy": 0,
         "TotalPP": 10,
-        "Target": "NearOther",
+        "Target": "User",
         "Priority": 4,
         "FunctionCode": "ProtectUserFromDamagingMovesObstruct",
         "Description": "Protects the user from all attacks. Direct contact harshly lowers the attacker's Defense."
@@ -2454,7 +2454,7 @@
             "Dance"
         ],
         "EffectChance": 50,
-        "Description": "Cloaked in flames the user dances, raising the user's Sp. Atk stat."
+        "Description": "Cloaked in flames the user dances. Chance to raise the user's Sp. Atk stat."
     },
     {
         "Name": "FIRELASH",
@@ -3880,7 +3880,7 @@
         "Type": "GROUND",
         "Category": "Physical",
         "Power": 35,
-        "Accuracy": 85,
+        "Accuracy": 90,
         "TotalPP": 15,
         "Target": "NearOther",
         "FunctionCode": "BindTarget",
@@ -6813,7 +6813,7 @@
         "TotalPP": 20,
         "Target": "User",
         "FunctionCode": "SwitchOutUserStatusMove",
-        "Description": "Use it to flee from any wild Pok\u00c3\u00a9mon. It can also warp to the last Pok\u00c3\u00a9mon Center visited."
+        "Description": "Use it to flee from any wild Pok\u00c3\u00a9mon."
     },
     {
         "Name": "TRICKROOM",
@@ -7814,7 +7814,7 @@
         "Type": "BUG",
         "Category": "Physical",
         "Power": 25,
-        "Accuracy": 90,
+        "Accuracy": 100,
         "TotalPP": 15,
         "Target": "NearOther",
         "FunctionCode": "HitTwoToFiveTimes",
@@ -8343,12 +8343,12 @@
         "Accuracy": 0,
         "TotalPP": 20,
         "Target": "NearOther",
-        "FunctionCode": "None",
+        "FunctionCode": "ExtraPowerIfEvasion",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user strikes the target with a quick jolt of electricity. This attack cannot be evaded."
+        "Description": "The user shocks the target. Always hit and will do 50% extra damage to evasive foes."
     },
     {
         "Name": "SPARK",
@@ -9219,13 +9219,13 @@
         "Power": 70,
         "Accuracy": 0,
         "TotalPP": 20,
-        "Target": "AllNearFoes",
-        "FunctionCode": "None",
+        "Target": "NearOther",
+        "FunctionCode": "ExtraPowerIfEvasion",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user scatters curious leaves that chase the target. This attack will not miss."
+        "Description": "The user scatters leaves that chase and always hit. Does 50% extra damage to evasive targets."
     },
     {
         "Name": "NEEDLEARM",
@@ -11214,7 +11214,7 @@
         "Category": "Status",
         "Accuracy": 100,
         "TotalPP": 15,
-        "Target": "NearOther",
+        "Target": "User",
         "FunctionCode": "LowerUserDefSpDef1RaiseUserAtkSpAtkSpd2",
         "Description": "The user shatters its core lowering its defenses but sharply raising attacking and Speed stats."
     },
@@ -12722,12 +12722,12 @@
         "Accuracy": 0,
         "TotalPP": 20,
         "Target": "NearOther",
-        "FunctionCode": "None",
+        "FunctionCode": "ExtraPowerIfEvasion",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Elevates one's Chakra and sends a wave of energy on the foe. Always hit."
+        "Description": "Sends a wave of energy at the foe. Always hit and will do 50% extra damage to evasive foes."
     },
     {
         "Name": "PARRY",
@@ -13514,7 +13514,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 20,
-        "Description": "Stomping its feet an avalanche of mud falls on the target. It may lower the target's accuracy."
+        "Description": "Stomping its feet, an avalanche of mud falls on the foes. It may lower their accuracy."
     },
     {
         "Name": "SANDJET",
@@ -13629,8 +13629,8 @@
         "Type": "ICE",
         "Category": "Physical",
         "Power": 75,
-        "Accuracy": 90,
-        "TotalPP": 10,
+        "Accuracy": 100,
+        "TotalPP": 15,
         "Target": "NearOther",
         "FunctionCode": "FreezeTarget",
         "Flags": [
@@ -14250,7 +14250,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Filled with skepticism this move is SE on Ghost-types."
+        "Description": "This move is skeptical of supernatural forces, allowing it to be S/E on Ghost-types."
     },
     {
         "Name": "GENESIS",
@@ -16480,7 +16480,7 @@
     {
         "Name": "REFRACTION",
         "Type": "LIGHT",
-        "Category": "Special",
+        "Category": "Physical",
         "Power": 70,
         "Accuracy": 100,
         "TotalPP": 20,
@@ -17576,7 +17576,7 @@
         "Category": "Status",
         "Accuracy": 0,
         "TotalPP": 10,
-        "Target": "NearOther",
+        "Target": "User",
         "Priority": 4,
         "FunctionCode": "ProtectUserFromDamagingMovesObstruct",
         "Description": "Shields the user from all attacks. Direct contact harshly lowers the attacker's Defense."
@@ -17623,13 +17623,13 @@
         "Accuracy": 0,
         "TotalPP": 20,
         "Target": "NearOther",
-        "FunctionCode": "None",
+        "FunctionCode": "ExtraPowerIfEvasion",
         "Flags": [
             "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user lands a fleeting blow on the target. It hits without fail."
+        "Description": "The user lands a fleeting blow. Always hit and will do 50% extra damage to evasive foes."
     },
     {
         "Name": "GRACEFULSTRIKE",
@@ -17830,7 +17830,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Launches a volley of sharp feathers that becomes more powerful with each successive hit."
+        "Description": "A consecutive volley of sharp feathers three times that become more powerful with each successive hit."
     },
     {
         "Name": "STALKPREY",
@@ -18103,7 +18103,7 @@
             "Wind"
         ],
         "EffectChance": 10,
-        "Description": "The user stirs up a petal tempest and attacks everything around it. It may also cause confusion."
+        "Description": "The user stirs up a petal tempest to attack its enemy. It may also cause confusion."
     },
     {
         "Name": "DUSTDEVILS",
@@ -18426,7 +18426,7 @@
     {
         "Name": "BLINDINGFLASH",
         "Type": "LIGHT",
-        "Category": "Physical",
+        "Category": "Special",
         "Power": 95,
         "Accuracy": 100,
         "TotalPP": 15,
@@ -19139,21 +19139,21 @@
         "Description": "The user charges the target in a gush of water."
     },
     {
-        "Name": "RIPTIDE] # Crunch but 85BP, no Biting fla",
+        "Name": "RIPTIDE",
         "Type": "WATER",
         "Category": "Physical",
         "Power": 85,
         "Accuracy": 100,
         "TotalPP": 15,
         "Target": "NearOther",
-        "FunctionCode": "LowerTargetDefense1",
+        "FunctionCode": "LowerTargetAttack1",
         "Flags": [
             "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
         "EffectChance": 20,
-        "Description": "The user surges at the target and hits with a wall of water. It may also lower the target's Defense stat."
+        "Description": "The user surges at the target and hits with a wall of water. It may also lower the target's Attack stat."
     },
     {
         "Name": "BALANCERCHANGEREQUIRED",

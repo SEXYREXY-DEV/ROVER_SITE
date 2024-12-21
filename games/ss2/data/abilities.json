@@ -1,7 +1,8 @@
 {
     "dryskin": {
         "Name": "Dry Skin",
-        "Description": "Reduces HP if it is hot. Water restores HP."
+        "Description": "Reduces HP if it is hot. Water restores HP.",
+        "FullDesc": "User heals 1/8 HP each turn during Rain and takes no damage from Water-type moves, when hit by a Water-type move they get healed for 1/4 of their max HP. User loses 1/8 HP each turn during Harsh Sunlight and takes 1.25x damage from Fire-type moves."
     },
     "queenlymajesty": {
         "Name": "Queenly Majesty",
@@ -9,11 +10,13 @@
     },
     "punkrock": {
         "Name": "Punk Rock",
-        "Description": "Boosts power and resistance of sound moves."
+        "Description": "Boosts power and resistance of sound moves.",
+        "FullDesc": "User's moves with the sound flag deal 1.3x damage. User takes 0.5x damage from moves with the sound flag."
     },
     "stench": {
         "Name": "Stench",
-        "Description": "The stench may cause the target to flinch."
+        "Description": "The stench may cause the target to flinch.",
+        "FullDesc": "When attacking, user's moves have a 10% chance to cause the target to flinch. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50%."
     },
     "drizzle": {
         "Name": "Drizzle",
@@ -41,19 +44,23 @@
     },
     "sandveil": {
         "Name": "Sand Veil",
-        "Description": "Boosts defense and evasion in a sandstorm."
+        "Description": "Boosts defense in a sandstorm.",
+        "FullDesc": "User gets 1.5x Defense when under a Sandstorm. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50% on areas with a Sadnstorm."
     },
     "static": {
         "Name": "Static",
-        "Description": "Contact with the Pok\u00c3\u00a9mon may cause paralysis."
+        "Description": "Contact with the Pok\u00c3\u00a9mon may cause paralysis.",
+        "FullDesc": "When user is hit by a contact move, there's a 30% chance to paralyze the attacker."
     },
     "voltabsorb": {
         "Name": "Volt Absorb",
-        "Description": "Restores HP if hit by an Electric-type move."
+        "Description": "Restores HP if hit by an Electric-type move.",
+        "FullDesc": "User takes no damage from Electric-type moves, when hit by an Electric-type move they get healed for 1/4 of their max HP."
     },
     "waterabsorb": {
         "Name": "Water Absorb",
-        "Description": "Restores HP if hit by a Water-type move."
+        "Description": "Restores HP if hit by a Water-type move.",
+        "FullDesc": "User takes no damage from Water-type moves, when hit by a Water-type move they get healed for 1/4 of their max HP."
     },
     "oblivious": {
         "Name": "Oblivious",
@@ -65,7 +72,8 @@
     },
     "compoundeyes": {
         "Name": "Compound Eyes",
-        "Description": "The Pok\u00c3\u00a9mon's accuracy is boosted."
+        "Description": "The Pok\u00c3\u00a9mon's accuracy is boosted.",
+        "FullDesc": "User's moves have 1.3x Accuracy. If user is in the lead, increases chances of wild encounters carrying an item."
     },
     "insomnia": {
         "Name": "Insomnia",
@@ -81,7 +89,8 @@
     },
     "flashfire": {
         "Name": "Flash Fire",
-        "Description": "It powers up Fire-type moves if it's hit by one."
+        "Description": "It powers up Fire-type moves if it's hit by one.",
+        "FullDesc": "User is immune to Fire-type moves. The first time they're hit by a Fire-type move, their own Fire-type moves will deal 1.5x damage until they switch out. If user is in the lead, has 50% chance to force wild encounters to be Fire types."
     },
     "shielddust": {
         "Name": "Shield Dust",
@@ -93,11 +102,13 @@
     },
     "suctioncups": {
         "Name": "Suction Cups",
-        "Description": "Negates all moves that force switching out."
+        "Description": "Negates all moves that force switching out.",
+        "FullDesc": "User cannot forcibly be switched out by enemy moves or items. If user is in the lead, increases bite rate when fishing."
     },
     "intimidate": {
         "Name": "Intimidate",
-        "Description": "Lowers the foe's Attack stat."
+        "Description": "Lowers the foe's Attack stat.",
+        "FullDesc": "Lowers all adjacent foes' Attack stat by one stage when user enters the field. If user is in the lead, has 50% chance to prevent random encounters from pok\u00c3\u00a9mon 5 or more levels lower."
     },
     "shadowtag": {
         "Name": "Shadow Tag",
@@ -117,7 +128,8 @@
     },
     "effectspore": {
         "Name": "Effect Spore",
-        "Description": "Contact may cause poison, paralysis or sleep."
+        "Description": "Contact may cause poison, paralysis or sleep.",
+        "FullDesc": "When user is hit by a contact move, there's a 30% chance to either poison, paralyze, or sleep the attacker."
     },
     "synchronize": {
         "Name": "Synchronize",
@@ -133,23 +145,28 @@
     },
     "lightningrod": {
         "Name": "Lightning Rod",
-        "Description": "Draws in all Electric-type moves to +SpAtk."
+        "Description": "Draws in all Electric-type moves to +SpAtk.",
+        "FullDesc": "User redirects all single target Electric-type moves towards itself and takes no damage from Electric-type moves, when hit by an Electric-type move their Special Attack is increased by one stage. If user is in the lead, has 50% chance to force wild encounters to be Electric types."
     },
     "serenegrace": {
         "Name": "Serene Grace",
-        "Description": "Moves' effect chance x2 but dmg lower by chance%."
+        "Description": "Moves' effect chance x2 but dmg lower by chance%.",
+        "FullDesc": "User's damaging moves with additional effects get the chance of said effects activating doubled, however, said moves will also deal reduced damage equal to the effect's original infliction chance. Does not affect moves that already have a 100% chance of triggering their effects."
     },
     "swiftswim": {
         "Name": "Swift Swim",
-        "Description": "Boosts the Pok\u00c3\u00a9mon's Speed in rain."
+        "Description": "Boosts the Pok\u00c3\u00a9mon's Speed in rain.",
+        "FullDesc": "User's Speed stat is doubled during Rain."
     },
     "chlorophyll": {
         "Name": "Chlorophyll",
-        "Description": "Boosts the Pok\u00c3\u00a9mon's Speed in sunshine."
+        "Description": "Boosts the Pok\u00c3\u00a9mon's Speed in sunshine.",
+        "FullDesc": "User's Speed stat is doubled during Harsh Sunlight."
     },
     "illuminate": {
         "Name": "Illuminate",
-        "Description": "Normal moves become Light-type and 1.2x boost."
+        "Description": "Normal moves become Light-type and 1.2x boost.",
+        "FullDesc": "User's Normal-type moves become Light-type and deal 1.2x damage. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50%."
     },
     "trace": {
         "Name": "Trace",
@@ -161,7 +178,8 @@
     },
     "poisonpoint": {
         "Name": "Poison Point",
-        "Description": "Contact with the Pok\u00c3\u00a9mon may poison the attacker."
+        "Description": "Contact with the Pok\u00c3\u00a9mon may poison the attacker.",
+        "FullDesc": "When user is hit by a contact move, there's a 30% chance to poison the attacker."
     },
     "innerfocus": {
         "Name": "Inner Focus",
@@ -170,7 +188,8 @@
     "magmaarmor": {
         "Name": "Magma Armor",
         "Flags": "FasterEggHatching",
-        "Description": "Prevents the Pok\u00c3\u00a9mon from becoming frozen."
+        "Description": "Prevents the Pok\u00c3\u00a9mon from becoming frozen.",
+        "FullDesc": "User cannot be frozen. When user is in the party, eggs hatch twice as fast."
     },
     "waterveil": {
         "Name": "Water Veil",
@@ -178,7 +197,8 @@
     },
     "magnetpull": {
         "Name": "Magnet Pull",
-        "Description": "Prevents Steel-type Pok\u00c3\u00a9mon from escaping."
+        "Description": "Prevents Steel-type Pok\u00c3\u00a9mon from escaping.",
+        "FullDesc": "When user is on the field, adjacent enemy Steel types cannot switch out or escape. If user is in the lead, has 50% chance to force wild encounters to be Steel types."
     },
     "soundproof": {
         "Name": "Soundproof",
@@ -207,7 +227,8 @@
     "flamebody": {
         "Name": "Flame Body",
         "Flags": "FasterEggHatching",
-        "Description": "Contact with the Pok\u00c3\u00a9mon may burn the attacker."
+        "Description": "Contact with the Pok\u00c3\u00a9mon may burn the attacker.",
+        "FullDesc": "When user is hit by a contact move, there's a 30% chance to burn the attacker. When user is in the party, eggs hatch twice as fast."
     },
     "runaway": {
         "Name": "Run Away",
@@ -215,7 +236,8 @@
     },
     "keeneye": {
         "Name": "Keen Eye",
-        "Description": "Prevents other Pok\u00c3\u00a9mon from lowering accuracy."
+        "Description": "Prevents other Pok\u00c3\u00a9mon from lowering accuracy.",
+        "FullDesc": "User's Accuracy cannot be lowered and they will ignore any Evasion stat boosts when attacking. If user is in the lead, has 50% chance to prevent random encounters from pok\u00c3\u00a9mon 5 or more levels lower."
     },
     "hypercutter": {
         "Name": "Hyper Cutter",
@@ -231,11 +253,13 @@
     },
     "hustle": {
         "Name": "Hustle",
-        "Description": "Boosts the Attack stat but lowers accuracy."
+        "Description": "Boosts the Attack stat but lowers accuracy.",
+        "FullDesc": "User has 1.5x Attack but 0.8x Accuracy with physical moves."
     },
     "cutecharm": {
         "Name": "Cute Charm",
-        "Description": "Contact with the Pok\u00c3\u00a9mon may cause infatuation."
+        "Description": "Contact with the Pok\u00c3\u00a9mon may cause infatuation.",
+        "FullDesc": "When user is hit by a contact move, there's a 30% chance to infatuate the attacker. If user is in the lead, has a 66% chance to force wild encounters to be the opposite gender to the user's."
     },
     "plus": {
         "Name": "Plus",
@@ -251,39 +275,47 @@
     },
     "stickyhold": {
         "Name": "Sticky Hold",
-        "Description": "Protects the Pok\u00c3\u00a9mon from item theft."
+        "Description": "Protects the Pok\u00c3\u00a9mon from item theft.",
+        "FullDesc": "User's held item cannot be removed, stolen, swapped or destroyed by others. If user is in the lead, increases bite rate when fishing."
     },
     "shedskin": {
         "Name": "Shed Skin",
-        "Description": "The Pok\u00c3\u00a9mon may heal its own status problems."
+        "Description": "The Pok\u00c3\u00a9mon may heal its own status problems.",
+        "FullDesc": "User has 1/3 chance of automatically recovering from any status conditions it's suffering from at the end of each turn."
     },
     "guts": {
         "Name": "Guts",
-        "Description": "Boosts Attack if there is a status problem."
+        "Description": "Boosts Attack if there is a status problem.",
+        "FullDesc": "User gets 1.5x Attack when under any status condition. The user also does not lose Attack when burned."
     },
     "marvelscale": {
         "Name": "Marvel Scale",
-        "Description": "Ups Defense if there is a status problem."
+        "Description": "Ups Defense if there is a status problem.",
+        "FullDesc": "User gets 1.5x Defense when under any status condition."
     },
     "liquidooze": {
         "Name": "Liquid Ooze",
-        "Description": "Resists damage from draining moves."
+        "Description": "Damages attackers using any draining move."
     },
     "overgrow": {
         "Name": "Overgrow",
-        "Description": "Powers up Grass-type moves in a pinch."
+        "Description": "Powers up Grass-type moves in a pinch.",
+        "FullDesc": "User's Grass-type moves deal 1.5x damage when they have 1/3 or less HP remaining."
     },
     "blaze": {
         "Name": "Blaze",
-        "Description": "Powers up Fire-type moves in a pinch."
+        "Description": "Powers up Fire-type moves in a pinch.",
+        "FullDesc": "User's Fire-type moves deal 1.5x damage when they have 1/3 or less HP remaining."
     },
     "torrent": {
         "Name": "Torrent",
-        "Description": "Powers up Water-type moves in a pinch."
+        "Description": "Powers up Water-type moves in a pinch.",
+        "FullDesc": "User's Water-type moves deal 1.5x damage when they have 1/3 or less HP remaining."
     },
     "swarm": {
         "Name": "Swarm",
-        "Description": "Powers up Bug-type moves in a pinch."
+        "Description": "Powers up Bug-type moves in a pinch.",
+        "FullDesc": "User's Bug-type moves deal 1.5x damage when they have 1/3 or less HP remaining."
     },
     "rockhead": {
         "Name": "Rock Head",
@@ -295,7 +327,8 @@
     },
     "arenatrap": {
         "Name": "Arena Trap",
-        "Description": "Prevents the foe from fleeing."
+        "Description": "Prevents the foe from fleeing.",
+        "FullDesc": "When user is on the field, adjacent grounded enemies cannot escape or switch out. If user is in the lead, increases wild pok\u00c3\u00a9mon encounter rate by 100%."
     },
     "vitalspirit": {
         "Name": "Vital Spirit",
@@ -303,7 +336,8 @@
     },
     "whitesmoke": {
         "Name": "White Smoke",
-        "Description": "Prevents other Pok\u00c3\u00a9mon from lowering its stats."
+        "Description": "Prevents other Pok\u00c3\u00a9mon from lowering its stats.",
+        "FullDesc": "Prevents other Pok\u00c3\u00a9mon from lowering its stats. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50%."
     },
     "purepower": {
         "Name": "Pure Power",
@@ -319,11 +353,13 @@
     },
     "tangledfeet": {
         "Name": "Tangled Feet",
-        "Description": "Raises evasion if the Pok\u00c3\u00a9mon is confused."
+        "Description": "Raises evasion if the Pok\u00c3\u00a9mon is confused.",
+        "FullDesc": "When user is confused, incoming moves have 0.5x Accuracy."
     },
     "motordrive": {
         "Name": "Motor Drive",
-        "Description": "Raises Speed if hit by an Electric-type move."
+        "Description": "Raises Speed if hit by an Electric-type move.",
+        "FullDesc": "User takes no damage from Electric-type moves, when hit by an Electric-type move their Attack is increased by one stage."
     },
     "rivalry": {
         "Name": "Rivalry",
@@ -335,7 +371,8 @@
     },
     "snowcloak": {
         "Name": "Snow Cloak",
-        "Description": "Boosts SpDef and evasion in a hailstorm."
+        "Description": "Boosts SpDef in a hailstorm.",
+        "FullDesc": "User gets 1.5x Special Defense when under Hail. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50% on areas with Hail."
     },
     "gluttony": {
         "Name": "Gluttony",
@@ -355,23 +392,28 @@
     },
     "simple": {
         "Name": "Simple",
-        "Description": "The Pok\u00c3\u00a9mon is prone to wild stat changes."
+        "Description": "The Pok\u00c3\u00a9mon is prone to wild stat changes.",
+        "FullDesc": "The user doubles any stat drops and boosts it receives."
     },
     "download": {
         "Name": "Download",
-        "Description": "Adjusts power according to a foe's defenses."
+        "Description": "Adjusts power according to a foe's defenses.",
+        "FullDesc": "When entering the field, raises Attack by one stage if foes' average Defense is lower than Special Defense, otherwise it raises Special Attack by one stage."
     },
     "ironfist": {
         "Name": "Iron Fist",
-        "Description": "Boosts the power of punching moves."
+        "Description": "Boosts the power of punching moves.",
+        "FullDesc": "User's moves with the punching flag deal 1.2x damage."
     },
     "poisonheal": {
         "Name": "Poison Heal",
-        "Description": "Restores HP if the Pok\u00c3\u00a9mon is poisoned."
+        "Description": "Restores HP if the Pok\u00c3\u00a9mon is poisoned.",
+        "FullDesc": "User takes no damage from poison and bad poison and is healed by 1/8 max HP each turn instead."
     },
     "adaptability": {
         "Name": "Adaptability",
-        "Description": "Powers up moves of the same type."
+        "Description": "Powers up moves of the same type.",
+        "FullDesc": "Increases STAB from 1.5x damage to 2x damage."
     },
     "skilllink": {
         "Name": "Skill Link",
@@ -387,15 +429,18 @@
     },
     "quickfeet": {
         "Name": "Quick Feet",
-        "Description": "Boosts Speed if there is a status problem."
+        "Description": "Boosts Speed if there is a status problem.",
+        "FullDesc": "User gets 1.5x Speed when under any status condition. The user also does not lose Speed when paralyzed. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50%."
     },
     "normalize": {
         "Name": "Normalize",
-        "Description": "Moves become the Normal type and 1.2x boost."
+        "Description": "Moves become the Normal type and 1.2x boost.",
+        "FullDesc": "User's moves become Normal-type and deal 1.2x damage. Moves that were originally Normal-type also get this boost."
     },
     "sniper": {
         "Name": "Sniper",
-        "Description": "Powers up moves if they become critical hits."
+        "Description": "Powers up moves if they become critical hits.",
+        "FullDesc": "Critical hits deal 1.5x damage."
     },
     "magicguard": {
         "Name": "Magic Guard",
@@ -403,7 +448,8 @@
     },
     "noguard": {
         "Name": "No Guard",
-        "Description": "Ensures attacks by or against the Pok\u00c3\u00a9mon land."
+        "Description": "Ensures attacks by or against the Pok\u00c3\u00a9mon land.",
+        "FullDesc": "Attacks used by or against the user will ignore accuracy checks to always hit. If user is in the lead, increases wild pok\u00c3\u00a9mon encounter rate by 100%."
     },
     "stall": {
         "Name": "Stall",
@@ -411,7 +457,8 @@
     },
     "technician": {
         "Name": "Technician",
-        "Description": "Powers up the Pok\u00c3\u00a9mon's weaker moves."
+        "Description": "Powers up the Pok\u00c3\u00a9mon's weaker moves.",
+        "FullDesc": "Moves with 60 or lower BP deal 1.5x damage."
     },
     "leafguard": {
         "Name": "Leaf Guard",
@@ -427,11 +474,13 @@
     },
     "superluck": {
         "Name": "Super Luck",
-        "Description": "Heightens the critical-hit ratios of moves."
+        "Description": "Heightens the critical-hit ratios of moves.",
+        "FullDesc": "User has +1 crit rate on all moves. If user is in the lead, increases chances of wild encounters carrying an item."
     },
     "aftermath": {
         "Name": "Aftermath",
-        "Description": "Damages the attacker landing the finishing hit."
+        "Description": "Damages the attacker landing the finishing hit.",
+        "FullDesc": "When user is KO'ed by a contact move, the attacker loses 1/4 of their max HP."
     },
     "anticipation": {
         "Name": "Anticipation",
@@ -447,11 +496,13 @@
     },
     "tintedlens": {
         "Name": "Tinted Lens",
-        "Description": "Powers up not very effective moves."
+        "Description": "Powers up not very effective moves.",
+        "FullDesc": "Not very effective moves deal 2x damage."
     },
     "filter": {
         "Name": "Filter",
-        "Description": "Reduces damage from super-effective attacks."
+        "Description": "Reduces damage from super-effective attacks.",
+        "FullDesc": "User takes 0.75x damage from super-effective attacks."
     },
     "slowstart": {
         "Name": "Slow Start",
@@ -459,11 +510,13 @@
     },
     "scrappy": {
         "Name": "Scrappy",
-        "Description": "Enables moves to hit Ghost-type Pok\u00c3\u00a9mon."
+        "Description": "Enables moves to hit Ghost-type Pok\u00c3\u00a9mon.",
+        "FullDesc": "User's Normal and Fighting-type moves deal 1x damage against Ghost types."
     },
     "stormdrain": {
         "Name": "Storm Drain",
-        "Description": "Draws in all Water-type moves to up Sp. Attack."
+        "Description": "Draws in all Water-type moves to up Sp. Attack.",
+        "FullDesc": "User redirects all single target Water-type moves towards itself and takes no damage from Water-type moves, when hit by a Water-type move their Special Attack is increased by one stage. If user is in the lead, has 50% chance to force wild encounters to be Water types."
     },
     "icebody": {
         "Name": "Ice Body",
@@ -471,7 +524,8 @@
     },
     "solidrock": {
         "Name": "Solid Rock",
-        "Description": "Reduces damage from super-effective attacks."
+        "Description": "Reduces damage from super-effective attacks.",
+        "FullDesc": "User takes 0.75x damage from super-effective attacks."
     },
     "snowwarning": {
         "Name": "Snow Warning",
@@ -483,7 +537,8 @@
     },
     "reckless": {
         "Name": "Reckless",
-        "Description": "Powers up moves that have recoil damage."
+        "Description": "Powers up moves that have recoil damage.",
+        "FullDesc": "Moves with recoil or crash damage deal 1.2x damage."
     },
     "multitype": {
         "Name": "Multitype",
@@ -495,7 +550,8 @@
     },
     "baddreams": {
         "Name": "Bad Dreams",
-        "Description": "Reduces a sleeping foe's HP."
+        "Description": "Reduces a sleeping foe's HP.",
+        "FullDesc": "When user is on the field, all adjacent enemies that are asleep will lose 1/8 max HP each turn."
     },
     "pickpocket": {
         "Name": "Pickpocket",
@@ -503,7 +559,8 @@
     },
     "sheerforce": {
         "Name": "Sheer Force",
-        "Description": "Removes added effects to increase move damage."
+        "Description": "Removes added effects to increase move damage.",
+        "FullDesc": "User's moves with additional effects deal 1.3x damage but can no longer inflict those effects."
     },
     "contrary": {
         "Name": "Contrary",
@@ -523,15 +580,18 @@
     },
     "cursedbody": {
         "Name": "Cursed Body",
-        "Description": "May disable a move used on the Pok\u00c3\u00a9mon."
+        "Description": "May disable a move used on the Pok\u00c3\u00a9mon.",
+        "FullDesc": "When user is hit by a damaging move, there's a 30% chance to disable the attacker's move."
     },
     "healer": {
         "Name": "Healer",
-        "Description": "Sometimes cures allies' statuses."
+        "Description": "Sometimes cures allies' statuses.",
+        "FullDesc": "User has a 30% chance to cure any adjacent allies' status effects at the end of each turn."
     },
     "friendguard": {
         "Name": "Friend Guard",
-        "Description": "Reduces damage done to allies."
+        "Description": "Reduces damage done to allies.",
+        "FullDesc": "When user is on the field, all other allies take 0.75x damage."
     },
     "weakarmor": {
         "Name": "Weak Armor",
@@ -547,19 +607,23 @@
     },
     "multiscale": {
         "Name": "Multiscale",
-        "Description": "Reduces damage when HP is full."
+        "Description": "Reduces damage when HP is full.",
+        "FullDesc": "User takes 0.5x damage while their HP is full."
     },
     "toxicboost": {
         "Name": "Toxic Boost",
-        "Description": "Powers up physical attacks when poisoned."
+        "Description": "Powers up physical attacks when poisoned.",
+        "FullDesc": "User's physical attacks deal 1.5x damage when poisoned or badly poisoned."
     },
     "flareboost": {
         "Name": "Flare Boost",
-        "Description": "Powers up special attacks when burned."
+        "Description": "Powers up special attacks when burned.",
+        "FullDesc": "User's special attacks deal 1.5x damage when burned."
     },
     "harvest": {
         "Name": "Harvest",
-        "Description": "May create another Berry after one is used."
+        "Description": "May create another Berry after one is used.",
+        "FullDesc": "At the end of each turn, the user has a 50% chance to restore the last Berry they consumed during the battle. During Harsh Sunlight this chance becomes 100%. If user is in the lead, has 50% chance to force wild encounters to be Grass types."
     },
     "telepathy": {
         "Name": "Telepathy",
@@ -567,7 +631,8 @@
     },
     "moody": {
         "Name": "Moody",
-        "Description": "Raises one stat and lowers another."
+        "Description": "Raises one stat and lowers another.",
+        "FullDesc": "Every turn, the user gets one out of their Attack, Special Attack, Defense, Special Defense or Speed raised by two stages at random. The previous turn's boost is lost on the following turn."
     },
     "overcoat": {
         "Name": "Overcoat",
@@ -575,11 +640,13 @@
     },
     "poisontouch": {
         "Name": "Poison Touch",
-        "Description": "May poison targets when a Pok\u00c3\u00a9mon makes contact."
+        "Description": "May poison targets when a Pok\u00c3\u00a9mon makes contact.",
+        "FullDesc": "When user hits an enemy with a contact move, there's a 30% chance to poison the target."
     },
     "regenerator": {
         "Name": "Regenerator",
-        "Description": "Restores a little HP when withdrawn from battle."
+        "Description": "Restores a little HP when withdrawn from battle.",
+        "FullDesc": "User recovers 33% of their max HP when switched out."
     },
     "bigpecks": {
         "Name": "Big Pecks",
@@ -587,15 +654,18 @@
     },
     "sandrush": {
         "Name": "Sand Rush",
-        "Description": "Boosts the Pok\u00c3\u00a9mon's Speed in a sandstorm."
+        "Description": "Boosts the Pok\u00c3\u00a9mon's Speed in a sandstorm.",
+        "FullDesc": "User's Speed stat is doubled during a Sandstorm."
     },
     "wonderskin": {
         "Name": "Wonder Skin",
-        "Description": "Makes status-changing moves more likely to miss."
+        "Description": "Makes status-changing moves more likely to miss.",
+        "FullDesc": "Lowers the Accuracy of any Status moves used against the user to 50%."
     },
     "analytic": {
         "Name": "Analytic",
-        "Description": "Boosts move power when the Pok\u00c3\u00a9mon moves last."
+        "Description": "Boosts move power when the Pok\u00c3\u00a9mon moves last.",
+        "FullDesc": "When user moves after all other pok\u00c3\u00a9mon on the field, their moves deal 1.3x damage."
     },
     "illusion": {
         "Name": "Illusion",
@@ -615,7 +685,7 @@
     },
     "moxie": {
         "Name": "Moxie",
-        "Description": "Boosts Atk by 20% with every fainted foe."
+        "Description": "On KO, Attack is boosted once per switch-in."
     },
     "justified": {
         "Name": "Justified",
@@ -623,7 +693,8 @@
     },
     "rattled": {
         "Name": "Rattled",
-        "Description": "Some move types scare it and boost its Speed."
+        "Description": "Some move types scare it and boost its Speed.",
+        "FullDesc": "When user gets hit by a Bug, Dark or Ghost-type move, their Speed is boosted by one stage."
     },
     "magicbounce": {
         "Name": "Magic Bounce",
@@ -631,15 +702,18 @@
     },
     "sapsipper": {
         "Name": "Sap Sipper",
-        "Description": "Boosts Attack when hit by a Grass-type move."
+        "Description": "Boosts Attack when hit by a Grass-type move.",
+        "FullDesc": "User takes no damage from Grass-type moves, when hit by a Grass-type move their Attack is increased by one stage."
     },
     "prankster": {
         "Name": "Prankster",
-        "Description": "Gives priority to a status move."
+        "Description": "Gives priority to a status move.",
+        "FullDesc": "User's Status moves get +1 priority but become ineffective against Dark types."
     },
     "sandforce": {
         "Name": "Sand Force",
-        "Description": "Boosts certain moves' power in a sandstorm."
+        "Description": "Boosts certain moves' power in a sandstorm.",
+        "FullDesc": "User's Rock, Ground and Steel-type moves deal 1.3x damage during a Sandstorm."
     },
     "ironbarbs": {
         "Name": "Iron Barbs",
@@ -667,11 +741,13 @@
     },
     "flowerveil": {
         "Name": "Flower Veil",
-        "Description": "Protects Grass-type allies from stat/status effects."
+        "Description": "Protects Grass-type allies from stat/status effects.",
+        "FullDesc": "When user is on the field, all Grass-type allies including the user become immune to stat drops and status effects."
     },
     "cheekpouch": {
         "Name": "Cheek Pouch",
-        "Description": "Restores HP as well when the Pok\u00c3\u00a9mon eats a Berry."
+        "Description": "Restores HP as well when the Pok\u00c3\u00a9mon eats a Berry.",
+        "FullDesc": "When the user eats a berry, they also recover 1/3 of their max HP on top of the berry's effect."
     },
     "protean": {
         "Name": "Protean",
@@ -695,11 +771,13 @@
     },
     "strongjaw": {
         "Name": "Strong Jaw",
-        "Description": "Boosts the power of biting moves."
+        "Description": "Boosts the power of biting moves.",
+        "FullDesc": "User's moves with the biting flag deal 1.5x damage."
     },
     "refrigerate": {
         "Name": "Refrigerate",
-        "Description": "Normal-type moves become Ice-type and powered up."
+        "Description": "Normal-type moves become Ice-type and powered up.",
+        "FullDesc": "User's Normal-type moves become Ice-type and deal 1.2x damage."
     },
     "sweetveil": {
         "Name": "Sweet Veil",
@@ -715,11 +793,13 @@
     },
     "megalauncher": {
         "Name": "Mega Launcher",
-        "Description": "Powers up aura and pulse moves."
+        "Description": "Powers up aura and pulse moves.",
+        "FullDesc": "User's moves with the aura and pulse flags deal 1.5x damage."
     },
     "grasspelt": {
         "Name": "Grass Pelt",
-        "Description": "Boosts the Defense stat on Grassy Terrain."
+        "Description": "Boosts the Defense stat on Grassy Terrain.",
+        "FullDesc": "User gets 1.5x Defense when under Grassy Terrain."
     },
     "symbiosis": {
         "Name": "Symbiosis",
@@ -727,11 +807,13 @@
     },
     "toughclaws": {
         "Name": "Tough Claws",
-        "Description": "Powers up moves that make direct contact."
+        "Description": "Powers up moves that make direct contact.",
+        "FullDesc": "Moves that make contact deal 1.3x damage."
     },
     "pixilate": {
         "Name": "Pixilate",
-        "Description": "Normal-type moves become Fairy-type and powered up."
+        "Description": "Normal-type moves become Fairy-type and powered up.",
+        "FullDesc": "User's Normal-type moves become Fairy-type and deal 1.2x damage."
     },
     "gooey": {
         "Name": "Gooey",
@@ -739,7 +821,8 @@
     },
     "aerilate": {
         "Name": "Aerilate",
-        "Description": "Normal-type moves become Flying-type and power up."
+        "Description": "Normal-type moves become Flying-type and power up.",
+        "FullDesc": "User's Normal-type moves become Flying-type and deal 1.2x damage."
     },
     "parentalbond": {
         "Name": "Parental Bond",
@@ -747,15 +830,18 @@
     },
     "darkaura": {
         "Name": "Dark Aura",
-        "Description": "Powers up each Pok\u00c3\u00a9mon's Dark-type moves."
+        "Description": "Powers up each Pok\u00c3\u00a9mon's Dark-type moves.",
+        "FullDesc": "When user is on the field, all pok\u00c3\u00a9mon on both sides deal 1.33x damage with Dark-type moves."
     },
     "fairyaura": {
         "Name": "Fairy Aura",
-        "Description": "Powers up each Pok\u00c3\u00a9mon's Fairy-type moves."
+        "Description": "Powers up each Pok\u00c3\u00a9mon's Fairy-type moves.",
+        "FullDesc": "When user is on the field, all pok\u00c3\u00a9mon on both sides deal 1.33x damage with Fairy-type moves."
     },
     "aurabreak": {
         "Name": "Aura Break",
-        "Description": "Reverses Aura Abilities to weaken affected moves."
+        "Description": "Reverses Aura Abilities to weaken affected moves.",
+        "FullDesc": "When user is on the field, all Aura abilities are reversed to instead cause affected moves to deal 0.75x damage instead."
     },
     "primordialsea": {
         "Name": "Primordial Sea",
@@ -775,11 +861,13 @@
     },
     "wimpout": {
         "Name": "Wimp Out",
-        "Description": "Cowardly switches out if its HP becomes half or less."
+        "Description": "Cowardly switches out if its HP becomes half or less.",
+        "FullDesc": "When the user's HP is reduced to half or less, the user switches out at the end of the turn."
     },
     "emergencyexit": {
         "Name": "Emergency Exit",
-        "Description": "Switches out if its HP becomes half or less."
+        "Description": "Switches out if its HP becomes half or less.",
+        "FullDesc": "When the user's HP is reduced to half or less, the user switches out at the end of the turn."
     },
     "watercompaction": {
         "Name": "Water Compaction",
@@ -795,15 +883,18 @@
     },
     "stakeout": {
         "Name": "Stakeout",
-        "Description": "Deals doubles damage to a target's replacement."
+        "Description": "Deals doubles damage to a target's replacement.",
+        "FullDesc": "User deals 2x damage when attacking a target on the same turn they switched in."
     },
     "waterbubble": {
         "Name": "Water Bubble",
-        "Description": "0.5x Fire/2x Water moves, prevent burns"
+        "Description": "0.5x Fire/2x Water moves, prevent burns",
+        "FullDesc": "User's Water-type moves deal 2x damage. User takes 0.5x damage from Fire-type moves and is immune to Burn."
     },
     "steelworker": {
         "Name": "Steelworker",
-        "Description": "Powers up Steel-type moves."
+        "Description": "Powers up Steel-type moves.",
+        "FullDesc": "User's Steel-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     "berserk": {
         "Name": "Berserk",
@@ -811,7 +902,8 @@
     },
     "slushrush": {
         "Name": "Slush Rush",
-        "Description": "Boosts the Pok\u00c3\u00a9mon's Speed stat in a hailstorm."
+        "Description": "Boosts the Pok\u00c3\u00a9mon's Speed stat in a hailstorm.",
+        "FullDesc": "User's Speed stat is doubled during Hail."
     },
     "longreach": {
         "Name": "Long Reach",
@@ -823,11 +915,13 @@
     },
     "triage": {
         "Name": "Triage",
-        "Description": "Gives priority to a healing move."
+        "Description": "Gives priority to a healing move.",
+        "FullDesc": "Recovery and HP draining moves get +1 priority."
     },
     "galvanize": {
         "Name": "Galvanize",
-        "Description": "Normal-type moves become Electric-type and powered."
+        "Description": "Normal-type moves become Electric-type and powered.",
+        "FullDesc": "User's Normal-type moves become Electric-type and deal 1.2x damage."
     },
     "surgesurfer": {
         "Name": "Surge Surfer",
@@ -851,7 +945,8 @@
     },
     "corrosion": {
         "Name": "Corrosion",
-        "Description": "Poison hits Steel/Poison for 1x and can poison them."
+        "Description": "Poison hits Steel/Poison for 1x and can poison them.",
+        "FullDesc": "User's Poison-type moves deal 1x damage against Steel or Poison types. User can also poison and badly poison Steel and Poison types."
     },
     "comatose": {
         "Name": "Comatose",
@@ -859,7 +954,8 @@
     },
     "innardsout": {
         "Name": "Innards Out",
-        "Description": "Damages an attacker that lands the finishing hit."
+        "Description": "Damages an attacker that lands the finishing hit.",
+        "FullDesc": "When user faints, deal damage equal to the HP they had remaining before the last attack to the attacker."
     },
     "dancer": {
         "Name": "Dancer",
@@ -867,11 +963,13 @@
     },
     "battery": {
         "Name": "Battery",
-        "Description": "Powers up ally Pok\u00c3\u00a9mon's special moves."
+        "Description": "Powers up ally Pok\u00c3\u00a9mon's special moves.",
+        "FullDesc": "When user is on the field, all other allies deal 1.3x damage with Special moves."
     },
     "fluffy": {
         "Name": "Fluffy",
-        "Description": "Resists contact damage but weaker to Fire-type."
+        "Description": "Resists contact damage but weaker to Fire-type.",
+        "FullDesc": "User takes 0.5x damage from contact moves, but takes 2x damage from Fire-type moves."
     },
     "dazzling": {
         "Name": "Dazzling",
@@ -923,15 +1021,18 @@
     },
     "shadowshield": {
         "Name": "Shadow Shield",
-        "Description": "Resists damage while its HP is full."
+        "Description": "Resists damage while its HP is full.",
+        "FullDesc": "User takes 0.5x damage while their HP is full."
     },
     "prismarmor": {
         "Name": "Prism Armor",
-        "Description": "Reduces damage from super-effective attacks."
+        "Description": "Reduces damage from super-effective attacks.",
+        "FullDesc": "User takes 0.75x damage from super-effective attacks."
     },
     "neuroforce": {
         "Name": "Neuroforce",
-        "Description": "Powers up moves that are super-effective."
+        "Description": "Powers up moves that are super-effective.",
+        "FullDesc": "User's super-effective moves deal 1.25x damage."
     },
     "ballfetch": {
         "Name": "Ball Fetch",
@@ -947,7 +1048,8 @@
     },
     "gorillatactics": {
         "Name": "Gorilla Tactics",
-        "Description": "Boosts Attack but only allows the use of one move."
+        "Description": "Boosts Attack but only allows the use of one move.",
+        "FullDesc": "User has 1.5x Attack but is locked in into the first move they use."
     },
     "gulpmissile": {
         "Name": "Gulp Missile",
@@ -995,7 +1097,8 @@
     },
     "powerspot": {
         "Name": "Power Spot",
-        "Description": "Powers up all the moves of all allies."
+        "Description": "Powers up all the moves of all allies.",
+        "FullDesc": "When user is on the field, all other allies deal 1.3x damage."
     },
     "propellertail": {
         "Name": "Propeller Tail",
@@ -1020,11 +1123,13 @@
     "steamengine": {
         "Name": "Steam Engine",
         "Flags": "FasterEggHatching",
-        "Description": "Boosts Speed when hit by a Fire or Water-type move."
+        "Description": "Boosts Speed when hit by a Fire or Water-type move.",
+        "FullDesc": "When user is hit by a Fire or Water-type move, their Speed is increased by six stages. When user is in the party, eggs hatch twice as fast."
     },
     "steelyspirit": {
         "Name": "Steely Spirit",
-        "Description": "Powers up allies' Steel-type moves."
+        "Description": "Powers up allies' Steel-type moves.",
+        "FullDesc": "Steel-type moves deal 1.5x damage for all allies on field, including user. Stacks multiplicatively with STAB."
     },
     "wanderingspirit": {
         "Name": "Wandering Spirit",
@@ -1036,7 +1141,8 @@
     },
     "quickdraw": {
         "Name": "Quick Draw",
-        "Description": "Enables moving first sometimes."
+        "Description": "Enables moving first sometimes.",
+        "FullDesc": "User has a 30% chance to move first in its priority bracket."
     },
     "curiousmedicine": {
         "Name": "CuriousMedicine",
@@ -1044,11 +1150,13 @@
     },
     "transistor": {
         "Name": "Transistor",
-        "Description": "Powers up Electric-type moves."
+        "Description": "Powers up Electric-type moves.",
+        "FullDesc": "User's Electric-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     "dragonsmaw": {
         "Name": "Dragon's Maw",
-        "Description": "Powers up Dragon-type moves."
+        "Description": "Powers up Dragon-type moves.",
+        "FullDesc": "User's Dragon-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     "chillingneigh": {
         "Name": "Chilling Neigh",
@@ -1072,15 +1180,17 @@
     },
     "charisma": {
         "Name": "Charisma",
-        "Description": "Boosts SpAtk by 20% with every fainted foe."
+        "Description": "On KO, SpAtk is boosted once per switch-in."
     },
     "cacophony": {
         "Name": "Cacophony",
-        "Description": "Draws in all Sound-type moves to up Sp. Attack."
+        "Description": "Draws in all Sound-type moves to up Sp. Attack.",
+        "FullDesc": "User redirects all single target Sound-type moves towards itself and takes no damage from Sound-type moves, when hit by a Sound-type move their Special Attack is increased by one stage."
     },
     "virtuoso": {
         "Name": "Virtuoso",
-        "Description": "Powers up Sound-type moves."
+        "Description": "Powers up Sound-type moves.",
+        "FullDesc": "User's Sound-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     "nobility": {
         "Name": "Nobility",
@@ -1096,15 +1206,18 @@
     },
     "conductor": {
         "Name": "Conductor",
-        "Description": "Electric moves can hit Ground or Electric."
+        "Description": "Electric moves can hit Ground or Electric.",
+        "FullDesc": "User's Electric-type moves deal 1x damage against Ground or Electric types."
     },
     "blacklight": {
         "Name": "Black Light",
-        "Description": "Light moves become 1.2x power Dark moves."
+        "Description": "Light moves become 1.2x power Dark moves.",
+        "FullDesc": "User's Light-type moves become Dark-type and deal 1.2x damage."
     },
     "whiteout": {
         "Name": "Whiteout",
-        "Description": "Dark moves become 1.2x power Light moves"
+        "Description": "Dark moves become 1.2x power Light moves",
+        "FullDesc": "User's Dark-type moves become Light-type and deal 1.2x damage."
     },
     "naivety": {
         "Name": "Naivety",
@@ -1112,7 +1225,8 @@
     },
     "dishearten": {
         "Name": "Dishearten",
-        "Description": "Lowers the foe's Sp. Atk stat."
+        "Description": "Lowers the foe's Sp. Atk stat.",
+        "FullDesc": "Lowers all adjacent foes' Special Attack stat by one stage when user enters the field."
     },
     "vitality": {
         "Name": "Vitality",
@@ -1120,15 +1234,18 @@
     },
     "starstruck": {
         "Name": "Starstruck",
-        "Description": "Powers up Cosmic-type moves in a pinch."
+        "Description": "Powers up Cosmic-type moves in a pinch.",
+        "FullDesc": "User's Cosmic-type moves deal 1.5x damage when they have 1/3 or less HP remaining."
     },
     "irradiate": {
         "Name": "Irradiate",
-        "Description": "Powers up Light-type moves in a pinch."
+        "Description": "Powers up Light-type moves in a pinch.",
+        "FullDesc": "User's Light-type moves deal 1.5x damage when they have 1/3 or less HP remaining."
     },
     "maestro": {
         "Name": "Maestro",
-        "Description": "Powers up Sound-type moves in a pinch."
+        "Description": "Powers up Sound-type moves in a pinch.",
+        "FullDesc": "User's Sound-type moves deal 1.5x damage when they have 1/3 or less HP remaining."
     },
     "unbreakable": {
         "Name": "Unbreakable",
@@ -1160,11 +1277,13 @@
     },
     "cannonfire": {
         "Name": "Cannon Fire",
-        "Description": "Powers up bomb-type moves."
+        "Description": "Powers up bomb-type moves.",
+        "FullDesc": "User's moves with the bomb flag deal 1.5x damage."
     },
     "icyveins": {
         "Name": "Icy Veins",
-        "Description": "Ups Ice and Water moves in hail."
+        "Description": "Ups Ice and Water moves in hail.",
+        "FullDesc": "User's Ice and Water-type moves deal 1.3x damage during Hail."
     },
     "realism": {
         "Name": "Realism",
@@ -1180,19 +1299,23 @@
     },
     "darkmatter": {
         "Name": "Dark Matter",
-        "Description": "Normal moves become 1.2x power Cosmic moves."
+        "Description": "Normal moves become 1.2x power Cosmic moves.",
+        "FullDesc": "User's Normal-type moves become Cosmic-type and deal 1.2x damage."
     },
     "wintergift": {
         "Name": "Winter Gift",
-        "Description": "Powers up party's SpAtk/SpDef in hail."
+        "Description": "Powers up party's SpAtk/SpDef in hail.",
+        "FullDesc": "When user is on the field, all allies including user get 1.5x Special Attack and Special Defense during Hail."
     },
     "tormented": {
         "Name": "Tormented",
-        "Description": "Boosts the Sp.Atk stat but lowers accuracy."
+        "Description": "Boosts the Sp.Atk stat but lowers accuracy.",
+        "FullDesc": "User has 1.5x Special Attack but 0.8x Accuracy with special moves."
     },
     "arsonist": {
         "Name": "Arsonist",
-        "Description": "Powers up Fire-type moves."
+        "Description": "Powers up Fire-type moves.",
+        "FullDesc": "User's Fire-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     "vengeful": {
         "Name": "Vengeful",
@@ -1204,7 +1327,8 @@
     },
     "spellcaster": {
         "Name": "Spellcaster",
-        "Description": "Powers up Psychic-type moves in a pinch."
+        "Description": "Powers up Psychic-type moves in a pinch.",
+        "FullDesc": "User's Psychic-type moves deal 1.5x damage when they have 1/3 or less HP remaining."
     },
     "attunement": {
         "Name": "Attunement",
@@ -1216,7 +1340,8 @@
     },
     "nebulacloud": {
         "Name": "Nebula Cloud",
-        "Description": "Protects Cosmic-types from stat/status effects."
+        "Description": "Protects Cosmic-types from stat/status effects.",
+        "FullDesc": "When user is on the field, all Cosmic-type allies including the user become immune to stat drops and status effects."
     },
     "clayform": {
         "Name": "Clay Form",
@@ -1228,19 +1353,23 @@
     },
     "lightaura": {
         "Name": "Light Aura",
-        "Description": "Powers up all users' Light-type moves."
+        "Description": "Powers up each Pok\u00c3\u00a9mon's Light-type moves.",
+        "FullDesc": "When user is on the field, all pok\u00c3\u00a9mon on both sides deal 1.33x damage with Light-type moves."
     },
     "lightbulb": {
         "Name": "Light Bulb",
-        "Description": "Weakens incoming Dark moves, 2x Light moves"
+        "Description": "Weakens incoming Dark moves, 2x Light moves",
+        "FullDesc": "User's Light-type moves deal 2x damage. User takes 0.5x damage from Dark-type moves."
     },
     "terrorize": {
         "Name": "Terrorize",
-        "Description": "Weakens incoming Bug moves, 2x Psychic moves"
+        "Description": "Weakens incoming Bug moves, 2x Psychic moves",
+        "FullDesc": "User's Psychic-type moves deal 2x damage. User takes 0.5x damage from Bug-type moves."
     },
     "antigravity": {
         "Name": "Anti-Gravity",
-        "Description": "Sound/Ground can hit Cosmic."
+        "Description": "Sound/Ground can hit Cosmic.",
+        "FullDesc": "User's Sound and Ground-type moves deal 1x damage against Cosmic types."
     },
     "packedsnow": {
         "Name": "Packed Snow",
@@ -1248,7 +1377,8 @@
     },
     "hivemind": {
         "Name": "Hivemind",
-        "Description": "Powers up Bug-type moves."
+        "Description": "Powers up Bug-type moves.",
+        "FullDesc": "User's Bug-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     "opaqueness": {
         "Name": "Opaqueness",
@@ -1256,7 +1386,8 @@
     },
     "precision": {
         "Name": "Precision",
-        "Description": "The Pok\u00c3\u00a9mon's accuracy is boosted."
+        "Description": "The Pok\u00c3\u00a9mon's accuracy is boosted.",
+        "FullDesc": "User's moves have 1.3x Accuracy."
     },
     "irredeemable": {
         "Name": "Irredeemable",
@@ -1264,7 +1395,8 @@
     },
     "bonecollector": {
         "Name": "Bone Collector",
-        "Description": "Powers up Ground-type moves."
+        "Description": "Powers up Ground-type moves.",
+        "FullDesc": "User's Ground-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     "scorchscale": {
         "Name": "Scorch Scale",
@@ -1272,15 +1404,18 @@
     },
     "rockypayload": {
         "Name": "Rocky Payload",
-        "Description": "Powers up Rock-type moves."
+        "Description": "Powers up Rock-type moves.",
+        "FullDesc": "User's Rock-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     "hivebody": {
         "Name": "Hive Body",
-        "Description": "Contact moves apply Infestation."
+        "Description": "Contact moves apply Infestation.",
+        "FullDesc": "When user is hit by a move that makes contact, there's a 30% chance to trap the attacker in Infestation."
     },
     "angershell": {
         "Name": "Anger Shell",
-        "Description": "The Pok\u00c3\u00a9mon's stats change at or below half health."
+        "Description": "The Pok\u00c3\u00a9mon's stats change at or below half health.",
+        "FullDesc": "When HP is reduced to 50% or less, user's Defense and Special Defense are lowered by one stage, while their Attack, Special Attack and Speed are raised by one stage."
     },
     "costar": {
         "Name": "Costar",
@@ -1288,39 +1423,48 @@
     },
     "sharpness": {
         "Name": "Sharpness",
-        "Description": "Powers up slicing moves."
+        "Description": "Powers up slicing moves.",
+        "FullDesc": "User's moves with the slicing flag deal 1.5x damage."
     },
     "toxicdebris": {
         "Name": "Toxic Debris",
-        "Description": "Scatters poison spikes upon contact."
+        "Description": "Scatters poison spikes upon contact.",
+        "FullDesc": "When hit by a move that makes contact, user sets up Toxic Spikes on the enemy side of the field."
     },
     "eartheater": {
         "Name": "Earth Eater",
-        "Description": "Restores HP if hit by a Ground-type move."
+        "Description": "Restores HP if hit by a Ground-type move.",
+        "FullDesc": "User takes no damage from Ground-type moves, when hit by a Ground-type move they get healed for 1/4 of their max HP."
     },
     "requiem": {
         "Name": "Requiem",
-        "Description": "Powers up Dark-type moves."
+        "Description": "Powers up Dark-type moves.",
+        "FullDesc": "User's Dark-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     "affection": {
         "Name": "Affection",
-        "Description": "Powers up Fairy-type moves."
+        "Description": "Powers up Fairy-type moves.",
+        "FullDesc": "User's Fairy-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     "disarray": {
         "Name": "Disarray",
-        "Description": "Temporarily twists the dimensions."
+        "Description": "Temporarily twists the dimensions.",
+        "FullDesc": "User sets up Trick Room when entering the field."
     },
     "cometstorm": {
         "Name": "Comet Storm",
-        "Description": "+1 Speed/SpAtk when hit by a Rock-type move"
+        "Description": "+1 Speed/SpAtk when hit by a Rock-type move",
+        "FullDesc": "User takes no damage from Rock-type moves, when hit by a Rock-type move their Special Attack and Speed is increased by one stage."
     },
     "maelstrom": {
         "Name": "Maelstrom",
-        "Description": "Traps grounded foes. Contact engulfs them in a whirlpool."
+        "Description": "Traps grounded foes. Contact engulfs them in a whirlpool.",
+        "FullDesc": "When user is on the field, adjacent grounded enemies cannot escape or switch out. When user is hit by a move that makes contact, there's a 30% chance to trap the attacker in a Whirlpool."
     },
     "hadronengine": {
         "Name": "Hadron Engine",
-        "Description": "Electric Terrain activates and ups Attack/Sp. Atk."
+        "Description": "Electric Terrain activates and ups Attack/Sp. Atk.",
+        "FullDesc": "User sets up Electric Terrain when entering the field and gets 1.33x Attack and Special Attack when under Electric Terrain."
     },
     "tropicalhide": {
         "Name": "Tropical Hide",
@@ -1332,7 +1476,8 @@
     },
     "haunted": {
         "Name": "Haunted",
-        "Description": "Powers up Ghost-type moves."
+        "Description": "Powers up Ghost-type moves.",
+        "FullDesc": "User's Ghost-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     "reaper": {
         "Name": "Reaper",
@@ -1341,27 +1486,29 @@
     "windrider": {
         "Name": "Wind Rider",
         "Description": "No damage from wind, ups Atk/SpAtk instead.",
-        "FullDesc": "Takes no damage from wind moves, but increases Attack and Special Attack instead."
+        "FullDesc": "Takes no damage from wind moves, but increases Attack and Special Attack by one stage instead."
     },
     "teleface": {
         "Name": "TV Face",
-        "Description": "Prevent a physical attack. Can be restored in electric terrain.",
-        "FullDesc": "Negates damage when hit with a physical attack, while in electric terrain it will recover its protection."
+        "Description": "Prevent a physical attack. Restored in electric terrain.",
+        "FullDesc": "Protects from one physical attack, entering electric terrain will restore this shield. Form and stats change when the shield is down."
     },
     "darkswarm": {
         "Name": "Dark Swarm",
-        "Description": "Forms a dark swarm while it has a lot of HP."
+        "Description": "Forms a dark swarm while it has > 25% HP and at Level 20+."
     },
     "symphony": {
         "Name": "Symphony",
-        "Description": "Forms a symphony while it has a lot of HP."
+        "Description": "Forms a symphony while it has > 25% HP and at Level 20+."
     },
     "destructivecore": {
-        "Name": "Destructive Core",
-        "Description": "It explodes if its HP becomes half or less."
+        "Name": "Dest. Core",
+        "Description": "It explodes if its HP becomes half or less.",
+        "FullDesc": "When HP is reduced to 50% or less, user changes to Reactive Form. This form has reduced defenses but increased Attack and Speed."
     },
     "windfury": {
         "Name": "Wind Fury",
-        "Description": "Boosts wind moves 30%/ Reduces Wind dmg 50%."
+        "Description": "Boosts wind moves 30%/ Reduces Wind dmg 50%.",
+        "FullDesc": "User's moves with the wind flag deal 1.3x damage. User takes 0.5x damage from moves with the wind flag."
     }
 }
