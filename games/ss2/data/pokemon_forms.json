@@ -36,10 +36,10 @@
         "FormName": "Mega Arbok",
         "BaseStats": [
             "55",
-            "140",
-            "89",
             "130",
-            "65",
+            "89",
+            "120",
+            "85",
             "89"
         ]
     },
@@ -190,6 +190,18 @@
         ]
     },
     {
+        "BaseName": "NOCTOWL",
+        "FormName": "Mega Noctowl",
+        "BaseStats": [
+            "73",
+            "55",
+            "100",
+            "115",
+            "125",
+            "107"
+        ]
+    },
+    {
         "BaseName": "ELECTRODE",
         "FormName": "Mega Electrode",
         "BaseStats": [
@@ -278,10 +290,10 @@
         "FormName": "Mega Froslass",
         "BaseStats": [
             "70",
-            "55",
-            "55",
+            "65",
+            "65",
+            "120",
             "130",
-            "140",
             "130"
         ]
     },
@@ -313,11 +325,11 @@
         "BaseName": "BEARTIC",
         "FormName": "Mega Beartic",
         "BaseStats": [
-            "90",
-            "145",
+            "100",
+            "140",
             "120",
-            "75",
-            "70",
+            "90",
+            "50",
             "105"
         ]
     },
@@ -447,11 +459,11 @@
         "FormName": "Mega Kingdra",
         "BaseStats": [
             "100",
-            "55",
+            "85",
             "120",
-            "120",
-            "115",
-            "130"
+            "110",
+            "105",
+            "120"
         ]
     },
     {
@@ -512,6 +524,18 @@
             "130",
             "50",
             "120"
+        ]
+    },
+    {
+        "BaseName": "AZUMARILL",
+        "FormName": "Mega Azumarill",
+        "BaseStats": [
+            "90",
+            "90",
+            "90",
+            "70",
+            "90",
+            "90"
         ]
     },
     {
@@ -631,11 +655,11 @@
         "FormName": "Mega Beheeyem",
         "BaseStats": [
             "115",
-            "70",
-            "125",
+            "90",
+            "120",
             "65",
             "65",
-            "145"
+            "130"
         ]
     },
     {
@@ -1122,12 +1146,12 @@
         "BaseName": "HATTERENE",
         "FormName": "Mega Hatterene",
         "BaseStats": [
-            "57",
-            "60",
-            "145",
-            "59",
-            "146",
-            "143"
+            "72",
+            "65",
+            "130",
+            "64",
+            "141",
+            "138"
         ]
     },
     {
@@ -1252,10 +1276,10 @@
         "Types": "FLYING,WATER",
         "BaseStats": [
             "56",
-            "81",
+            "91",
             "61",
             "136",
-            "129",
+            "119",
             "71"
         ]
     },
@@ -1267,10 +1291,10 @@
         "Types": "ICE,WATER",
         "BaseStats": [
             "65",
-            "137",
+            "127",
             "112",
             "106",
-            "54",
+            "64",
             "60"
         ]
     },
@@ -2071,8 +2095,8 @@
             "90",
             "122",
             "90",
-            "113",
-            "55",
+            "99",
+            "69",
             "60"
         ]
     },
@@ -2432,6 +2456,14 @@
         "FormName": "Blue"
     },
     {
+        "BaseName": "TATSUGIRI",
+        "FormName": "Blue"
+    },
+    {
+        "BaseName": "TATSUGIRI",
+        "FormName": "Pink"
+    },
+    {
         "BaseName": "MIMIKYU2",
         "FormName": "Busted Form"
     },
@@ -2670,11 +2702,11 @@
         "Types": "NORMAL,FLYING",
         "BaseStats": [
             "100",
+            "85",
+            "80",
+            "85",
             "25",
-            "75",
-            "85",
-            "85",
-            "80 # 450 BST Total Special Bruiser"
+            "75 # 450 BST Total Physical Bruiser"
         ]
     },
     {
@@ -3468,6 +3500,36 @@
             "100",
             "125",
             "100 # 600 BST Total"
+        ]
+    },
+    {
+        "BaseName": "HYDRAPPLE",
+        "FormName": "Anomaly",
+        "Type1": "STEEL",
+        "Type2": "POISON",
+        "Types": "STEEL,POISON",
+        "BaseStats": [
+            "150",
+            "25",
+            "100",
+            "100",
+            "125",
+            "100 # 600 BST Total"
+        ]
+    },
+    {
+        "BaseName": "GRIMER",
+        "FormName": "Anomaly",
+        "Type1": "GRASS",
+        "Type2": "GROUND",
+        "Types": "GRASS,GROUND",
+        "BaseStats": [
+            "100",
+            "85",
+            "85",
+            "85",
+            "35",
+            "85 # 475 BST Total Physical Bruiser"
         ]
     },
     {

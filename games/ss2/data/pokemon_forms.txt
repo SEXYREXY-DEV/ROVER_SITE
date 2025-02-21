@@ -13,8 +13,8 @@
 FormName = Mega Gengar
 MegaStone = GENGARITE
 BaseStats = 65,65,95,130,145,100
-Abilities = VOLTABSORB
-HiddenAbilities = VOLTABSORB
+Abilities = ICEBODY
+HiddenAbilities = ICEBODY
 #-------------------------------
 [DODRIO,1]
 FormName = Mega Dodrio
@@ -26,7 +26,7 @@ HiddenAbilities = COMPETITIVE
 [ARBOK,1]
 FormName = Mega Arbok
 MegaStone = ARBOKINITE
-BaseStats = 55,140,89,130,65,89
+BaseStats = 55,130,89,120,85,89
 Abilities = INTIMIDATE
 HiddenAbilities = INTIMIDATE
 #-------------------------------
@@ -116,6 +116,13 @@ BaseStats = 90,40,100,100,130,130
 Abilities = ADAPTABILITY
 HiddenAbilities = ADAPTABILITY
 #-------------------------------
+[NOCTOWL,1]
+FormName = Mega Noctowl
+MegaStone = NOCTOWLITE
+BaseStats = 73,55,100,115,125,107
+Abilities = VITALITY
+HiddenAbilities = VITALITY
+#-------------------------------
 [ELECTRODE,1]
 FormName = Mega Electrode
 MegaStone = ELECTRONITE
@@ -162,13 +169,13 @@ HiddenAbilities = LEVITATE
 FormName = Mega Glalie
 MegaStone = GLALITITE
 BaseStats = 70,140,150,120,50,50
-Abilities = TOUGHCLAWS
-HiddenAbilities = TOUGHCLAWS
+Abilities = STRONGJAW
+HiddenAbilities = STRONGJAW
 #-------------------------------
 [FROSLASS,1]
 FormName = Mega Froslass
 MegaStone = FROSLASSITE
-BaseStats = 70,55,55,130,140,130
+BaseStats = 70,65,65,120,130,130
 Abilities = SHADOWTAG
 HiddenAbilities = SHADOWTAG
 #-------------------------------
@@ -189,9 +196,9 @@ HiddenAbilities = MAGICGUARD
 [BEARTIC,1]
 FormName = Mega Beartic
 MegaStone = BEARTICITE
-BaseStats = 90,145,120,75,70,105
-Abilities = TOUGHCLAWS
-HiddenAbilities = TOUGHCLAWS
+BaseStats = 100,140,120,90,50,105
+Abilities = FLUFFY
+HiddenAbilities = FLUFFY
 #-------------------------------
 [SCEPTILE,1]
 FormName = Mega Sceptile
@@ -267,7 +274,7 @@ HiddenAbilities = LEVITATE
 [KINGDRA,1]
 FormName = Mega Kingdra
 MegaStone = KINGDRANITE
-BaseStats = 100,55,120,120,115,130
+BaseStats = 100,85,120,110,105,120
 Abilities = MEGALAUNCHER
 HiddenAbilities = MEGALAUNCHER
 #-------------------------------
@@ -306,12 +313,19 @@ BaseStats = 75,130,100,130,50,120
 Abilities = WANDERINGSPIRIT
 HiddenAbilities = WANDERINGSPIRIT
 #-------------------------------
+[AZUMARILL,1]
+FormName = Mega Azumarill
+MegaStone = AZUMARILLITE
+BaseStats = 90,90,90,70,90,90
+Abilities = HUGEPOWER
+HiddenAbilities = HUGEPOWER
+#-------------------------------
 [MELOETTA,1]
 FormName = Mega Meloetta
 MegaStone = MELOETTITE
 BaseStats = 100,77,97,130,148,148
-Abilities = SERENEGRACE
-HiddenAbilities = SERENEGRACE
+Abilities = PUREHEART
+HiddenAbilities = PUREHEART
 #-------------------------------
 [ABSOL,1]
 FormName = Mega Absol
@@ -374,7 +388,7 @@ HiddenAbilities = DARKAURA
 [BEHEEYEM,1]
 FormName = Mega Beheeyem
 MegaStone = BEHEEYEMITE
-BaseStats = 115,70,125,65,65,145
+BaseStats = 115,90,120,65,65,130
 Abilities = GENIUS
 HiddenAbilities = GENIUS
 #-------------------------------
@@ -389,8 +403,8 @@ HiddenAbilities = MAELSTROM
 FormName = Mega Raichu
 MegaStone = RAICHUNITE
 BaseStats = 60,70,85,140,130,100
-Abilities = LEVITATE
-HiddenAbilities = LEVITATE
+Abilities = FILTER
+HiddenAbilities = FILTER
 #-------------------------------
 [COFAGRIGUS,1]
 FormName = Mega Cofagrigus
@@ -431,8 +445,8 @@ HiddenAbilities = WATERBUBBLE
 FormName = Mega Manectric
 MegaStone = MANECTITE
 BaseStats = 70,135,65,135,55,115
-Abilities = BONECOLLECTOR
-HiddenAbilities = BONECOLLECTOR
+Abilities = CURSEDBODY
+HiddenAbilities = CURSEDBODY
 #-------------------------------
 [MAMOSWINE,1]
 FormName = Mega Mamoswine
@@ -571,8 +585,8 @@ HiddenAbilities = HADRONENGINE
 FormName = Mega Mismagius
 MegaStone = MISMAGITE
 BaseStats = 85,35,90,115,135,135
-Abilities = TRIAGE
-HiddenAbilities = TRIAGE
+Abilities = DAZZLING
+HiddenAbilities = DAZZLING
 #-------------------------------
 [COALOSSAL,1]
 FormName = Mega Coalossal
@@ -634,8 +648,8 @@ HiddenAbilities = TINTEDLENS
 FormName = Mega Exploud
 MegaStone = EXPLOUDINITE
 BaseStats = 104,66,93,108,126,93
-Abilities = REALISM
-HiddenAbilities = REALISM
+Abilities = PUNKROCK
+HiddenAbilities = PUNKROCK
 #-------------------------------
 [CENTISKORCH,1]
 FormName = Mega Centiskorch
@@ -661,7 +675,7 @@ HiddenAbilities = CONTRARY
 [HATTERENE,1]
 FormName = Mega Hatterene
 MegaStone = HATTERENITE
-BaseStats = 57,60,145,59,146,143
+BaseStats = 72,65,130,64,141,138
 Abilities = REALISM
 HiddenAbilities = REALISM
 #-------------------------------
@@ -744,7 +758,7 @@ HiddenAbilities = REQUIEM
 FormName = Mega Plusle
 Types = FLYING,WATER
 MegaStone = PLUSITE
-BaseStats = 56,81,61,136,129,71
+BaseStats = 56,91,61,136,119,71
 Abilities = DELTASTREAM
 HiddenAbilities = DELTASTREAM
 #-------------------------------
@@ -752,7 +766,7 @@ HiddenAbilities = DELTASTREAM
 FormName = Mega Minun
 Types = ICE,WATER
 MegaStone = MINUNITE
-BaseStats = 65,137,112,106,54,60
+BaseStats = 65,127,112,106,64,60
 Abilities = PACKEDSNOW
 HiddenAbilities = PACKEDSNOW
 #-------------------------------
@@ -1188,7 +1202,7 @@ Abilities = SHARPSHOOTER,SKILLLINK
 HiddenAbilities = LONGREACH
 Moves = 1,THORNPRISON,1,FOCUSENERGY,4,STRAFE,8,RAZORLEAF,12,BARRAGE,15,LUCKYCHANT,18,FLING,21,SHRAPNEL,24,MAGICALLEAF,27,PINMISSILE,30,PARTINGSHOT,33,SEEDBOMB,36,ARROWFLURRY,39,HELLBULLET,39,SNIPESHOT,42,ENERGYBALL,45,FLASHCANNON,48,THOUSANDARROWS,51,BOMBARDMENT,54,METEORBEAM,57,NATURESWRATH,60,WEAPONMASTERY
 TutorMoves = AIRSLASH,AROMATHERAPY,ATTRACT,BOMBARDMENT,BULLETSEED,CALMMIND,COUPDEGRACE,DAZZLINGGLEAM,DEADLYREACH,DEFOG,ENERGYBALL,EXECUTION,FALSESWIPE,FURYCUTTER,GIGADRAIN,GOLDENBULLET,GRASSYTERRAIN,GYROBALL,HIDDENPOWER,ICICLESPEAR,KNOCKOFF,LEECHLIFE,MAGICALLEAF,MAGNETICCANNON,MIRRORSHOT,MISSILESHOT,MOONSTONERAY,NATURESWRATH,PINMISSILE,PROTECT,REST,RETURN,SCALESHOT,SLEEPTALK,SOLARBEAM,SPIKES,SUNNYDAY,SWEEPINGWIND,SWIFT,SWORDSDANCE,SYNTHESIS,TAUNT,TOXIC,TRIATTACK,VENDETTA,WORKUP
-EggMoves = NATUREPOWER,SYNTHESIS,FLAMEVOLLEY,PEPPERBURST,SCALESHOT,SPIKECANNON,ICICLESPEAR,CUPIDSARROW,SPIRITSHACKLE
+EggMoves = SYNTHESIS,FLAMEVOLLEY,PEPPERBURST,SCALESHOT,SPIKECANNON,ICICLESPEAR,CUPIDSARROW,SPIRITSHACKLE
 Pokedex = This Pokemon masquerades as a bow in tune with nature.
 Evolutions = DOUBLADE,Level,35
 #-------------------------------
@@ -1346,7 +1360,7 @@ Pokedex = This Pokemon has taken on its true form. It forgoes its tendency to pr
 [BASCULEGION,1]
 FormName = Dragonfish
 Types = DRAGON,GHOST
-BaseStats = 90,122,90,113,55,60
+BaseStats = 90,122,90,99,69,60
 EVs = ATTACK,2,SPEED,1
 Abilities = SWIFTSWIM,INNERFOCUS
 HiddenAbilities = ADAPTABILITY
@@ -1635,6 +1649,12 @@ FormName = Green
 [SQUAWKABILLY,2]
 FormName = Blue
 #-------------------------------
+[TATSUGIRI,1]
+FormName = Blue
+#-------------------------------
+[TATSUGIRI,2]
+FormName = Pink
+#-------------------------------
 [MIMIKYU2,1]
 FormName = Busted Form
 Pokedex = The flimsy disguise it used to put together its imitation was damaged. It is now depressed.
@@ -1788,7 +1808,7 @@ Pokedex = This Pokemon is a temporal anomaly.
 [MURKROW,1]
 FormName = Anomaly
 Types = NORMAL,FLYING
-BaseStats = 100,25,75,85,85,80 # 450 BST Total Special Bruiser
+BaseStats = 100,85,80,85,25,75 # 450 BST Total Physical Bruiser
 EVs = ATTACK,3
 Abilities = PRECISION
 Moves = 1,DUALWINGBEAT,1,EGGBOMB,1,SHATTER,1,SPIRITBREAK
@@ -2269,6 +2289,24 @@ BaseStats = 150,25,100,100,125,100 # 600 BST Total
 EVs = SPECIAL_ATTACK,3
 Abilities = DARKAURA
 Moves = 1,DARKVOID,1,DREAMEATER,1,NASTYPLOT,1,HYPNOSIS
+Pokedex = This Pokemon is a temporal anomaly.
+#-------------------------------
+[HYDRAPPLE,2]
+FormName = Anomaly
+Types = STEEL,POISON
+BaseStats = 150,25,100,100,125,100 # 600 BST Total
+EVs = SPECIAL_ATTACK,3
+Abilities = DARKAURA
+Moves = 1,ACIDRAIN,1,CHROMERAY,1,EARTHPOWER,1,VITALITYDRAIN
+Pokedex = This Pokemon is a temporal anomaly.
+#-------------------------------
+[GRIMER,1]
+FormName = Anomaly
+Types = GRASS,GROUND
+BaseStats = 100,85,85,85,35,85 # 475 BST Total Physical Bruiser
+EVs = DEFENSE,3
+Abilities = RAINDISH
+Moves = 1,STRENGTHSAP,1,LEECHSEED,1,MOSSYPUNCH,1,PROTECT
 Pokedex = This Pokemon is a temporal anomaly.
 #-------------------------------
 #-------------------------------

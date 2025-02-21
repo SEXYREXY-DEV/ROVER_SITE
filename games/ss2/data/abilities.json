@@ -45,7 +45,7 @@
     "sandveil": {
         "Name": "Sand Veil",
         "Description": "Boosts defense in a sandstorm.",
-        "FullDesc": "User gets 1.5x Defense when under a Sandstorm. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50% on areas with a Sadnstorm."
+        "FullDesc": "User gets 1.5x Defense when under a Sandstorm. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50% on areas with a Sandstorm."
     },
     "static": {
         "Name": "Static",
@@ -116,7 +116,8 @@
     },
     "roughskin": {
         "Name": "Rough Skin",
-        "Description": "Inflicts damage to the foe on contact."
+        "Description": "Inflicts damage to the foe on contact.",
+        "FullDesc": "When user is hit by a contact move, attacker takes damage equal to 1/8 of their max HP."
     },
     "wonderguard": {
         "Name": "Wonder Guard",
@@ -124,7 +125,8 @@
     },
     "levitate": {
         "Name": "Levitate",
-        "Description": "Gives full immunity to all Ground-type moves."
+        "Description": "Gives full immunity to all Ground-type moves.",
+        "FullDesc": "User takes no damage from Ground-type moves. User is also considered ungrounded and thus unaffected by entry hazards or terrain."
     },
     "effectspore": {
         "Name": "Effect Spore",
@@ -133,7 +135,8 @@
     },
     "synchronize": {
         "Name": "Synchronize",
-        "Description": "Passes status conditions to enemy."
+        "Description": "Passes status conditions to enemy.",
+        "FullDesc": "When user is poisoned, burned or paralyzed by another pok\u00c3\u00a9mon, that pok\u00c3\u00a9mon will also become afflicted with the same status."
     },
     "clearbody": {
         "Name": "Clear Body",
@@ -245,7 +248,8 @@
     },
     "pickup": {
         "Name": "Pickup",
-        "Description": "The Pok\u00c3\u00a9mon may pick up items."
+        "Description": "The Pok\u00c3\u00a9mon may pick up items.",
+        "FullDesc": "When user is on the field and not holding an item, at the end of every turn they will collect the last item consumed by another pok\u00c3\u00a9mon in that turn. After a battle, the user has a 10% chance to generate a random item if they are not already holding an item."
     },
     "truant": {
         "Name": "Truant",
@@ -295,7 +299,8 @@
     },
     "liquidooze": {
         "Name": "Liquid Ooze",
-        "Description": "Damages attackers using any draining move."
+        "Description": "Damages attackers using any draining move.",
+        "FullDesc": "When user is hit by an HP-draining move or effect, the attacker loses HP equal to the amount they would have been healed for instead."
     },
     "overgrow": {
         "Name": "Overgrow",
@@ -359,7 +364,7 @@
     "motordrive": {
         "Name": "Motor Drive",
         "Description": "Raises Speed if hit by an Electric-type move.",
-        "FullDesc": "User takes no damage from Electric-type moves, when hit by an Electric-type move their Attack is increased by one stage."
+        "FullDesc": "User takes no damage from Electric-type moves, when hit by an Electric-type move their Speed is increased by one stage."
     },
     "rivalry": {
         "Name": "Rivalry",
@@ -376,7 +381,8 @@
     },
     "gluttony": {
         "Name": "Gluttony",
-        "Description": "Encourages the early use of a held Berry."
+        "Description": "Encourages the early use of a held Berry.",
+        "FullDesc": "User eats berries that are usually eaten at 25% HP at 50% HP instead."
     },
     "angerpoint": {
         "Name": "Anger Point",
@@ -384,7 +390,8 @@
     },
     "unburden": {
         "Name": "Unburden",
-        "Description": "Raises Speed if a held item is used up or lost."
+        "Description": "Raises Speed if a held item is used up or lost.",
+        "FullDesc": "When user uses or loses a held item, their Speed stat is doubled until they switch out."
     },
     "heatproof": {
         "Name": "Heatproof",
@@ -417,7 +424,8 @@
     },
     "skilllink": {
         "Name": "Skill Link",
-        "Description": "Increases the frequency of multi-strike moves."
+        "Description": "Increases the frequency of multi-strike moves.",
+        "FullDesc": "User's multi-strike moves with a variable number of hits will always hit for the maximum possible number of hits. User's accuracy-dependent multi-strike moves will only have a single accuracy check."
     },
     "hydration": {
         "Name": "Hydration",
@@ -444,7 +452,8 @@
     },
     "magicguard": {
         "Name": "Magic Guard",
-        "Description": "The Pok\u00c3\u00a9mon only takes damage from attacks."
+        "Description": "The Pok\u00c3\u00a9mon only takes damage from attacks.",
+        "FullDesc": "User is immune to passive damage such as entry hazards, damage from statuses, or recoil."
     },
     "noguard": {
         "Name": "No Guard",
@@ -492,12 +501,13 @@
     },
     "unaware": {
         "Name": "Unaware",
-        "Description": "Ignores any stat changes in the Pok\u00c3\u00a9mon."
+        "Description": "Ignores any stat changes in the Pok\u00c3\u00a9mon.",
+        "FullDesc": "User ignores Evasion, Defense and Special Defense stat stages of the target when attacking. User ignores Accuracy, Attack and Special Attack stat stages of the attacker when being attacked."
     },
     "tintedlens": {
         "Name": "Tinted Lens",
         "Description": "Powers up not very effective moves.",
-        "FullDesc": "Not very effective moves deal 2x damage."
+        "FullDesc": "User's not very effective moves deal 2x damage."
     },
     "filter": {
         "Name": "Filter",
@@ -555,7 +565,8 @@
     },
     "pickpocket": {
         "Name": "Pickpocket",
-        "Description": "Steals an item when hit by another Pok\u00c3\u00a9mon."
+        "Description": "Steals an item when hit by another Pok\u00c3\u00a9mon.",
+        "FullDesc": "When user is not holding an item and is hit by a contact move, user steals the attacker's held item."
     },
     "sheerforce": {
         "Name": "Sheer Force",
@@ -572,7 +583,8 @@
     },
     "defiant": {
         "Name": "Defiant",
-        "Description": "When its stats are lowered its Attack increases."
+        "Description": "When its stats are lowered its Attack increases.",
+        "FullDesc": "When user's stats are lowered by an opponent, their Attack raises by two stages."
     },
     "defeatist": {
         "Name": "Defeatist",
@@ -595,7 +607,8 @@
     },
     "weakarmor": {
         "Name": "Weak Armor",
-        "Description": "Physical attacks lower Defense and raise Speed."
+        "Description": "Physical attacks lower Defense and raise Speed.",
+        "FullDesc": "When user is hit by a physical attack, their Defense decreases by one stage and their Speed increases by two stages."
     },
     "heavymetal": {
         "Name": "Heavy Metal",
@@ -631,7 +644,7 @@
     },
     "moody": {
         "Name": "Moody",
-        "Description": "Raises one stat and lowers another.",
+        "Description": "Raises one stat and lowers the previous raised.",
         "FullDesc": "Every turn, the user gets one out of their Attack, Special Attack, Defense, Special Defense or Speed raised by two stages at random. The previous turn's boost is lost on the following turn."
     },
     "overcoat": {
@@ -677,7 +690,8 @@
     },
     "infiltrator": {
         "Name": "Infiltrator",
-        "Description": "Passes through the foe's barrier and strikes."
+        "Description": "Passes through the foe's barrier and strikes.",
+        "FullDesc": "User ignores effects of opposing Reflect, Light Screen, Aurora Veil, Mist and Safeguard when attacking."
     },
     "mummy": {
         "Name": "Mummy",
@@ -717,7 +731,8 @@
     },
     "ironbarbs": {
         "Name": "Iron Barbs",
-        "Description": "Inflicts damage to the Pok\u00c3\u00a9mon on contact."
+        "Description": "Inflicts damage to the Pok\u00c3\u00a9mon on contact.",
+        "FullDesc": "When user is hit by a contact move, attacker takes damage equal to 1/8 of their max HP."
     },
     "zenmode": {
         "Name": "Zen Mode",
@@ -737,7 +752,8 @@
     },
     "aromaveil": {
         "Name": "Aroma Veil",
-        "Description": "Protects against attacks that limit move choices."
+        "Description": "Protects against attacks that limit move choices.",
+        "FullDesc": "When user is on the field, all allies including the user cannot be disabled, infatuated, taunted, encored or tormented."
     },
     "flowerveil": {
         "Name": "Flower Veil",
@@ -759,15 +775,18 @@
     },
     "magician": {
         "Name": "Magician",
-        "Description": "Steals the held item of a Pok\u00c3\u00a9mon it hits."
+        "Description": "Steals the held item of a Pok\u00c3\u00a9mon it hits.",
+        "FullDesc": "When user is not holding an item and attacks a target, user steals the target's held item."
     },
     "bulletproof": {
         "Name": "Bulletproof",
-        "Description": "Protects the Pok\u00c3\u00a9mon from some ball and bomb moves."
+        "Description": "Protects the Pok\u00c3\u00a9mon from some ball and bomb moves.",
+        "FullDesc": "User takes no damage from moves with the Bomb flag."
     },
     "competitive": {
         "Name": "Competitive",
-        "Description": "Sharply boosts Sp. Atk when a stat is lowered."
+        "Description": "Sharply boosts Sp. Atk when a stat is lowered.",
+        "FullDesc": "When user's stats are lowered by an opponent, their Special Attack raises by two stages."
     },
     "strongjaw": {
         "Name": "Strong Jaw",
@@ -841,7 +860,7 @@
     "aurabreak": {
         "Name": "Aura Break",
         "Description": "Reverses Aura Abilities to weaken affected moves.",
-        "FullDesc": "When user is on the field, all Aura abilities are reversed to instead cause affected moves to deal 0.75x damage instead."
+        "FullDesc": "When user is on the field, all Aura abilities are reversed, causing affected moves to deal 0.75x damage instead."
     },
     "primordialsea": {
         "Name": "Primordial Sea",
@@ -916,7 +935,7 @@
     "triage": {
         "Name": "Triage",
         "Description": "Gives priority to a healing move.",
-        "FullDesc": "Recovery and HP draining moves get +1 priority."
+        "FullDesc": "Recovery and HP draining moves get +3 priority."
     },
     "galvanize": {
         "Name": "Galvanize",
@@ -950,7 +969,8 @@
     },
     "comatose": {
         "Name": "Comatose",
-        "Description": "It's always drowsing"
+        "Description": "It's always drowsing",
+        "FullDesc": "The user is always considered to be asleep."
     },
     "innardsout": {
         "Name": "Innards Out",
@@ -1129,7 +1149,7 @@
     "steelyspirit": {
         "Name": "Steely Spirit",
         "Description": "Powers up allies' Steel-type moves.",
-        "FullDesc": "Steel-type moves deal 1.5x damage for all allies on field, including user. Stacks multiplicatively with STAB."
+        "FullDesc": "When user is on the field, all allies including user deal 1.5x damage with Steel-type moves. Stacks multiplicatively with STAB."
     },
     "wanderingspirit": {
         "Name": "Wandering Spirit",
@@ -1332,7 +1352,8 @@
     },
     "attunement": {
         "Name": "Attunement",
-        "Description": "Boosts Sp. Atk if there is a status problem."
+        "Description": "Boosts Sp. Atk if there is a status problem.",
+        "FullDesc": "User gets 1.5x Special Attack when under any status condition."
     },
     "terminator": {
         "Name": "Terminator",
@@ -1510,5 +1531,10 @@
         "Name": "Wind Fury",
         "Description": "Boosts wind moves 30%/ Reduces Wind dmg 50%.",
         "FullDesc": "User's moves with the wind flag deal 1.3x damage. User takes 0.5x damage from moves with the wind flag."
+    },
+    "regrowth": {
+        "Name": "Regrowth",
+        "Description": "Regains 1/16 max HP or lowered stats each turn.",
+        "FullDesc": "User will regain 1/16 health each turn but if the user has lowered stats, it will restore its lowered stats by 1 stage each turn."
     }
 }

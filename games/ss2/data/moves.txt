@@ -1222,7 +1222,8 @@ Description = The user covers the ground with mist for five turns. Grounded Pok√
 [NATURESMADNESS]
 Name = Nature's Madness
 Type = FAIRY
-Category = Status
+Category = Special
+Power = 1
 Accuracy = 90
 TotalPP = 10
 Target = NearOther
@@ -5488,6 +5489,7 @@ Category = Status
 Accuracy = 0
 TotalPP = 20
 Target = User
+Priority = -6
 FunctionCode = SwitchOutUserStatusMove
 Description = Use it to flee from any wild Pok√©mon.
 #-------------------------------
@@ -5839,7 +5841,7 @@ TotalPP = 10
 Target = User
 Priority = 4
 FunctionCode = ProtectUserFromDamagingMovesKingsShield
-Description = Protects itself from damage. It also harshly lowers the Attack of attackers that make contact.
+Description = Protects itself from damage. It also lowers the Attack of attackers that make contact.
 #-------------------------------
 [SHIFTGEAR]
 Name = Shift Gear
@@ -7746,7 +7748,7 @@ TotalPP = 15
 Target = NearOther
 Priority = 3
 FunctionCode = RedirectAllMovesToTarget
-Description = The user shines a light on itself making all targets take aim only at the user.
+Description = The user shines a light on itself making all targets take aim only at the target.
 #-------------------------------
 [TAILGLOW]
 Name = Tail Glow
@@ -8206,9 +8208,9 @@ Power = 110
 Accuracy = 90
 TotalPP = 10
 Target = AllNearOthers
-FunctionCode = None
+FunctionCode = LowerUserSpAtk1
 Flags = CanProtect,CanMirrorMove,Sound
-Description = The user attacks everything around it with the destructive power of a terrible explosive sound.
+Description = The user attacks everything around it with a destructive sound. Lowers user's SpAtk by 1.
 #-------------------------------
 [CHATTER]
 Name = Chatter
@@ -9953,7 +9955,7 @@ Name = Siren's Song
 Type = FAIRY
 Category = Special
 Power = 70
-Accuracy = 90
+Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = TrapTargetInBattle
@@ -10928,7 +10930,7 @@ Accuracy = 0
 TotalPP = 20
 Target = User
 FunctionCode = CureUserBurnPoisonParalysis
-Description = The user prays to cure itself of a poisoning burn or paralysis.
+Description = The user prays to cure itself of a poisoning, burn, or paralysis.
 #-------------------------------
 [CONSECRATE]
 Name = Consecrate
@@ -11866,7 +11868,7 @@ Name = Battle Cry
 Type = SOUND
 Category = Physical
 Power = 70
-Accuracy = 90
+Accuracy = 100
 TotalPP = 15
 Target = AllNearFoes
 FunctionCode = TrapTargetInBattle
@@ -13109,7 +13111,7 @@ Accuracy = 100
 TotalPP = 10
 Target = AllNearOthers
 FunctionCode = None
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Sound
 Description = The user releases a nova of sonic energy, striking everything around it.
 #-------------------------------
 [LUMINESCENCE]
@@ -13773,7 +13775,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpAtk1
 Flags = CanProtect,CanMirrorMove
 EffectChance = 10
-Description = Spits a sticky substance at the target, causing irritation with a 10% chance to lower Sp.Atk.
+Description = Spits a sticky substance causing irritation at the target. 10% chance to lower Sp.Atk.
 #-------------------------------
 [CLACKACLACK]
 Name = Clack-a-clack
@@ -13941,7 +13943,7 @@ Accuracy = 90
 TotalPP = 10
 Target = NearOther
 FunctionCode = RaiseUserSpeed1
-Flags = Contact,CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove
 EffectChance = 30
 Description = The user casts an enchantment at its foe. It has a chance to raise the user's Speed stat.
 #-------------------------------
@@ -13993,7 +13995,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserPositiveStatStages
 Flags = CanProtect,CanMirrorMove
-Description = The user taps into its chi to unleash an attack. The more the user's stats are raised the greater the damage.
+Description = The user taps into its chi. The more the user's stats are raised the greater the damage.
 #-------------------------------
 [CHIWAVE]
 Name = Chi Wave
@@ -15102,7 +15104,7 @@ Category = Physical
 Power = 70
 Accuracy = 100
 TotalPP = 10
-Target = AllNearOthers
+Target = AllNearFoes
 FunctionCode = LowerTargetDefense1
 Flags = CanProtect,CanMirrorMove
 EffectChance = 10
@@ -15146,7 +15148,7 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 10
 Description = The user's surface shines brightly on the target. It may also lower the target's accuracy.
 #-------------------------------
-[IRONIMPACT] # Custom move, use Leafage as base, turn to 90BP, effect chance is 30%
+[IRONIMPACT]
 Name = Iron Impact
 Type = STEEL
 Category = Physical
