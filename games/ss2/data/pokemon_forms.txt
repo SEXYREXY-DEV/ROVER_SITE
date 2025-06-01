@@ -70,8 +70,8 @@ HiddenAbilities = LEVITATE
 FormName = Mega Gyarados
 MegaStone = GYARADOSITE
 BaseStats = 95,155,109,81,70,130
-Abilities = LEVITATE
-HiddenAbilities = LEVITATE
+Abilities = MOLDBREAKER
+HiddenAbilities = MOLDBREAKER
 #-------------------------------
 [AVALUGG,1]
 FormName = Mega Avalugg
@@ -203,7 +203,7 @@ HiddenAbilities = FLUFFY
 [SCEPTILE,1]
 FormName = Mega Sceptile
 MegaStone = SCEPTILITE
-BaseStats = 105,130,105,130,65,105
+BaseStats = 105,130,105,130,65,95
 Abilities = TINTEDLENS
 HiddenAbilities = TINTEDLENS
 #-------------------------------
@@ -233,8 +233,8 @@ HiddenAbilities = DAZZLING
 FormName = Mega Altaria
 MegaStone = ALTARIANITE
 BaseStats = 75,60,105,95,130,125
-Abilities = LEVITATE
-HiddenAbilities = LEVITATE
+Abilities = CORROSION
+HiddenAbilities = CORROSION
 #-------------------------------
 [HERACROSS,1]
 FormName = Mega Heracross
@@ -267,9 +267,9 @@ HiddenAbilities = HIVEMIND
 [CORVIKNIGHT,1]
 FormName = Mega Corviknight
 MegaStone = CORVINITE
-BaseStats = 75,120,100,120,70,100
-Abilities = LEVITATE
-HiddenAbilities = LEVITATE
+BaseStats = 75,120,100,120,80,100
+Abilities = BLACKLIGHT
+HiddenAbilities = BLACKLIGHT
 #-------------------------------
 [KINGDRA,1]
 FormName = Mega Kingdra
@@ -309,7 +309,7 @@ HiddenAbilities = SHARPNESS
 [DUGTRIO,1]
 FormName = Mega Dugtrio
 MegaStone = DUGTRIOITE
-BaseStats = 75,130,100,130,50,120
+BaseStats = 75,120,90,130,50,120
 Abilities = WANDERINGSPIRIT
 HiddenAbilities = WANDERINGSPIRIT
 #-------------------------------
@@ -507,7 +507,7 @@ HiddenAbilities = GORILLATACTICS
 [DUGTRIO2,1]
 FormName = Mega T.Dugtrio
 MegaStone = DUGTRIOITE2
-BaseStats = 75,110,100,110,110,100
+BaseStats = 75,110,100,110,110,80
 Abilities = THICKFAT
 HiddenAbilities = THICKFAT
 #-------------------------------
@@ -571,8 +571,8 @@ HiddenAbilities = TRIAGE
 FormName = Mega Barbaracle
 MegaStone = BARBARACLITE
 BaseStats = 105,60,80,104,155,96
-Abilities = LEVITATE
-HiddenAbilities = LEVITATE
+Abilities = SOLIDROCK
+HiddenAbilities = SOLIDROCK
 #-------------------------------
 [FALINKS,1]
 FormName = Mega Falinks
@@ -588,6 +588,13 @@ BaseStats = 85,35,90,115,135,135
 Abilities = DAZZLING
 HiddenAbilities = DAZZLING
 #-------------------------------
+[SCIZOR,1]
+FormName = Mega Scizor
+MegaStone = SCIZORITE
+BaseStats = 75,65,130,50,140,140
+Abilities = MEGALAUNCHER
+HiddenAbilities = MEGALAUNCHER
+#-------------------------------
 [COALOSSAL,1]
 FormName = Mega Coalossal
 MegaStone = COALOSSALITE
@@ -599,8 +606,8 @@ HiddenAbilities = IMPENETRABLE
 FormName = Mega T.Gigalith
 MegaStone = GIGANITE2
 BaseStats = 85,70,105,105,135,130
-Abilities = EARTHEATER
-HiddenAbilities = EARTHEATER
+Abilities = CONDUCTOR
+HiddenAbilities = CONDUCTOR
 #-------------------------------
 [DRAGONITE,1]
 FormName = Mega Dragonite
@@ -697,8 +704,8 @@ HiddenAbilities = DARKAURA
 FormName = Mega T.Wyrdeer
 MegaStone = WYRDEERITE2
 BaseStats = 93,135,92,135,70,100
-Abilities = MOTORDRIVE
-HiddenAbilities = MOTORDRIVE
+Abilities = SHEERFORCE
+HiddenAbilities = SHEERFORCE
 #-------------------------------
 [URSALUNA,1]
 FormName = Mega Ursaluna
@@ -1490,6 +1497,7 @@ Pokedex = This Pokemon is used to nesting in trees, allowing snow to accumulate 
 #-------------------------------
 [UNOWN,1]
 FormName = Symphony Form
+Flags = BattleOnly
 BaseStats = 78,85,130,50,145,130
 BaseExp = 217
 Height = 8.2
@@ -1499,11 +1507,13 @@ Pokedex = The individual tablets synchronize together to produce a unified orche
 #-------------------------------
 [EISCUE,1]
 FormName = No TV Face
+Flags = BattleOnly
 BaseStats = 85,80,70,120,65,50
 Pokedex = The TV covering this Pokémon's face has shattered, revealing a maimed Pokemon hiding underneath the remnants of the TV.
 #-------------------------------
 [TOGEDEMARU,1]
 FormName = Reactive
+Flags = BattleOnly
 BaseStats = 74,121,87,111,32,70
 Pokedex = The inert naval mine form detonated, making it more exposed but far more aggressive.
 #-------------------------------
@@ -1623,6 +1633,7 @@ FormName = Grape
 #-------------------------------
 [MIMIKYU,1]
 FormName = Busted Form
+Flags = BattleOnly
 Pokedex = While the Munchlax it had possessed has been long since deceased, the Mimikyu inside continues to puppet its body.
 #-------------------------------
 [MELTAN,1]
@@ -1657,6 +1668,7 @@ FormName = Pink
 #-------------------------------
 [MIMIKYU2,1]
 FormName = Busted Form
+Flags = BattleOnly
 Pokedex = The flimsy disguise it used to put together its imitation was damaged. It is now depressed.
 #-------------------------------
 #-------------------------------
@@ -2284,6 +2296,7 @@ Pokedex = This Pokemon is a temporal anomaly.
 #-------------------------------
 [WISHIWASHI,2]
 FormName = Anomaly
+Flags = BattleOnly
 Types = LIGHT,DARK
 BaseStats = 150,25,100,100,125,100 # 600 BST Total
 EVs = SPECIAL_ATTACK,3

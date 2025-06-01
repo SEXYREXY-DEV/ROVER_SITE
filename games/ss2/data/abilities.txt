@@ -17,11 +17,12 @@ FullDesc = User's moves with the sound flag deal 1.3x damage. User takes 0.5x da
 [STENCH]
 Name = Stench
 Description = The stench may cause the target to flinch.
-FullDesc = When attacking, user's moves have a 10% chance to cause the target to flinch. If user is in the lead, reduces wild pokémon encounter rate by 50%.
+FullDesc = When attacking, user's moves have a 10% chance to cause the target to flinch. If user is in the lead, reduces wild Pokémon encounter rate by 50%.
 #-------------------------------
 [DRIZZLE]
 Name = Drizzle
 Description = The Pokémon makes it rain if it appears in battle.
+FullDesc = User summons Rain for 5 turns when entering the field, unless Rain is already present. 
 #-------------------------------
 [SPEEDBOOST]
 Name = Speed Boost
@@ -46,7 +47,7 @@ Description = The Pokémon is protected from paralysis.
 [SANDVEIL]
 Name = Sand Veil
 Description = Boosts defense in a sandstorm.
-FullDesc = User gets 1.5x Defense when under a Sandstorm. If user is in the lead, reduces wild pokémon encounter rate by 50% on areas with a Sandstorm.
+FullDesc = User gets 1.5x Defense during a Sandstorm. User takes no damage from Sandstorm. If user is in the lead, reduces wild Pokémon encounter rate by 50% on areas with a Sandstorm.
 #-------------------------------
 [STATIC]
 Name = Static
@@ -66,6 +67,7 @@ FullDesc = User takes no damage from Water-type moves, when hit by a Water-type 
 [OBLIVIOUS]
 Name = Oblivious
 Description = Prevents it from becoming infatuated.
+FullDesc = Prevents the user from becoming infatuated. The user is also immune to Intimidate and Dishearten.
 #-------------------------------
 [CLOUDNINE]
 Name = Cloud Nine
@@ -100,6 +102,7 @@ Description = Blocks the added effects of attacks taken.
 [OWNTEMPO]
 Name = Own Tempo
 Description = Prevents the Pokémon from becoming confused.
+FullDesc = Prevents the user from becoming confused. The user is also immune to Intimidate and Dishearten.
 #-------------------------------
 [SUCTIONCUPS]
 Name = Suction Cups
@@ -109,7 +112,7 @@ FullDesc = User cannot forcibly be switched out by enemy moves or items. If user
 [INTIMIDATE]
 Name = Intimidate
 Description = Lowers the foe's Attack stat.
-FullDesc = Lowers all adjacent foes' Attack stat by one stage when user enters the field. If user is in the lead, has 50% chance to prevent random encounters from pokémon 5 or more levels lower.
+FullDesc = Lowers all adjacent foes' Attack stat by one stage when user enters the field. If user is in the lead, has 50% chance to prevent random encounters from Pokémon 5 or more levels lower.
 #-------------------------------
 [SHADOWTAG]
 Name = Shadow Tag
@@ -137,7 +140,7 @@ FullDesc = When user is hit by a contact move, there's a 30% chance to either po
 [SYNCHRONIZE]
 Name = Synchronize
 Description = Passes status conditions to enemy.
-FullDesc = When user is poisoned, burned or paralyzed by another pokémon, that pokémon will also become afflicted with the same status.
+FullDesc = When user is poisoned, burned or paralyzed by another Pokémon, that Pokémon will also become afflicted with the same status.
 #-------------------------------
 [CLEARBODY]
 Name = Clear Body
@@ -170,7 +173,7 @@ FullDesc = User's Speed stat is doubled during Harsh Sunlight.
 [ILLUMINATE]
 Name = Illuminate
 Description = Normal moves become Light-type and 1.2x boost.
-FullDesc = User's Normal-type moves become Light-type and deal 1.2x damage. If user is in the lead, reduces wild pokémon encounter rate by 50%.
+FullDesc = User's Normal-type moves become Light-type and deal 1.2x damage. If user is in the lead, reduces wild Pokémon encounter rate by 50%.
 #-------------------------------
 [TRACE]
 Name = Trace
@@ -188,6 +191,7 @@ FullDesc = When user is hit by a contact move, there's a 30% chance to poison th
 [INNERFOCUS]
 Name = Inner Focus
 Description = Shielded from flinching.
+FullDesc = Prevents the user from flinching. The user is also immune to Intimidate and Dishearten.
 #-------------------------------
 [MAGMAARMOR]
 Name = Magma Armor
@@ -215,6 +219,7 @@ Description = The Pokémon gradually regains 1/8 max HP in rain.
 [SANDSTREAM]
 Name = Sand Stream
 Description = The Pokémon summons a sandstorm in battle.
+FullDesc = User summons a Sandstorm for 5 turns when entering the field, unless a Sandstorm is already present. User takes no damage from Sandstorm.
 #-------------------------------
 [PRESSURE]
 Name = Pressure
@@ -241,16 +246,17 @@ Description = Ignores trapping and ensures escapes from wild Pokemon.
 [KEENEYE]
 Name = Keen Eye
 Description = Prevents other Pokémon from lowering accuracy.
-FullDesc = User's Accuracy cannot be lowered and they will ignore any Evasion stat boosts when attacking. If user is in the lead, has 50% chance to prevent random encounters from pokémon 5 or more levels lower.
+FullDesc = User's Accuracy stat cannot be lowered by other Pokémon and they will ignore any Evasion stat boosts when attacking. If user is in the lead, has 50% chance to prevent random encounters from Pokémon 5 or more levels lower.
 #-------------------------------
 [HYPERCUTTER]
 Name = Hyper Cutter
 Description = Prevents other Pokémon from lowering Attack stat.
+FullDesc = User's Attack stat cannot be lowered by other Pokémon.
 #-------------------------------
 [PICKUP]
 Name = Pickup
 Description = The Pokémon may pick up items.
-FullDesc = When user is on the field and not holding an item, at the end of every turn they will collect the last item consumed by another pokémon in that turn. After a battle, the user has a 10% chance to generate a random item if they are not already holding an item.
+FullDesc = When user is on the field and not holding an item, at the end of every turn they will collect the last item consumed by another Pokémon in that turn. After a battle, the user has a 10% chance to generate a random item if they are not already holding an item.
 #-------------------------------
 [TRUANT]
 Name = Truant
@@ -286,17 +292,17 @@ FullDesc = User's held item cannot be removed, stolen, swapped or destroyed by o
 [SHEDSKIN]
 Name = Shed Skin
 Description = The Pokémon may heal its own status problems.
-FullDesc = User has 1/3 chance of automatically recovering from any status conditions it's suffering from at the end of each turn.
+FullDesc = User has 1/3 chance of automatically recovering from any non-volatile status conditions it's suffering from at the end of each turn.
 #-------------------------------
 [GUTS]
 Name = Guts
 Description = Boosts Attack if there is a status problem.
-FullDesc = User gets 1.5x Attack when under any status condition. The user also does not lose Attack when burned.
+FullDesc = User gets 1.5x Attack when under any non-volatile status condition. The user also does not lose Attack when burned.
 #-------------------------------
 [MARVELSCALE]
 Name = Marvel Scale
 Description = Ups Defense if there is a status problem.
-FullDesc = User gets 1.5x Defense when under any status condition.
+FullDesc = User gets 1.5x Defense when under any non-volatile status condition.
 #-------------------------------
 [LIQUIDOOZE]
 Name = Liquid Ooze
@@ -330,11 +336,12 @@ Description = Protects the Pokémon from recoil damage.
 [DROUGHT]
 Name = Drought
 Description = Turns the sunlight harsh if it is in battle.
+FullDesc = User summons Harsh Sunlight for 5 turns when entering the field, unless Harsh Sunlight is already present.
 #-------------------------------
 [ARENATRAP]
 Name = Arena Trap
 Description = Prevents the foe from fleeing.
-FullDesc = When user is on the field, adjacent grounded enemies cannot escape or switch out. If user is in the lead, increases wild pokémon encounter rate by 100%.
+FullDesc = When user is on the field, adjacent grounded enemies cannot escape or switch out. If user is in the lead, increases wild Pokémon encounter rate by 100%.
 #-------------------------------
 [VITALSPIRIT]
 Name = Vital Spirit
@@ -343,7 +350,7 @@ Description = Prevents the Pokémon from falling asleep.
 [WHITESMOKE]
 Name = White Smoke
 Description = Prevents other Pokémon from lowering its stats.
-FullDesc = Prevents other Pokémon from lowering its stats. If user is in the lead, reduces wild pokémon encounter rate by 50%.
+FullDesc = User's stats cannot be lowered by other Pokémon. If user is in the lead, reduces wild Pokémon encounter rate by 50%.
 #-------------------------------
 [PUREPOWER]
 Name = Pure Power
@@ -378,7 +385,7 @@ Description = Raises Speed when the Pokémon flinches.
 [SNOWCLOAK]
 Name = Snow Cloak
 Description = Boosts SpDef in a hailstorm.
-FullDesc = User gets 1.5x Special Defense when under Hail. If user is in the lead, reduces wild pokémon encounter rate by 50% on areas with Hail.
+FullDesc = User gets 1.5x Special Defense during Hail. User takes no damage from Hail. If user is in the lead, reduces wild Pokémon encounter rate by 50% on areas with Hail.
 #-------------------------------
 [GLUTTONY]
 Name = Gluttony
@@ -439,7 +446,7 @@ Description = Ups SpAtk 1.5x in sun; lose 1/8 HP each turn.
 [QUICKFEET]
 Name = Quick Feet
 Description = Boosts Speed if there is a status problem.
-FullDesc = User gets 1.5x Speed when under any status condition. The user also does not lose Speed when paralyzed. If user is in the lead, reduces wild pokémon encounter rate by 50%.
+FullDesc = User gets 1.5x Speed when under any non-volatile status condition. The user also does not lose Speed when paralyzed. If user is in the lead, reduces wild Pokémon encounter rate by 50%.
 #-------------------------------
 [NORMALIZE]
 Name = Normalize
@@ -459,7 +466,7 @@ FullDesc = User is immune to passive damage such as entry hazards, damage from s
 [NOGUARD]
 Name = No Guard
 Description = Ensures attacks by or against the Pokémon land.
-FullDesc = Attacks used by or against the user will ignore accuracy checks to always hit. If user is in the lead, increases wild pokémon encounter rate by 100%.
+FullDesc = Attacks used by or against the user will ignore accuracy checks to always hit. If user is in the lead, increases wild Pokémon encounter rate by 100%.
 #-------------------------------
 [STALL]
 Name = Stall
@@ -522,7 +529,7 @@ Description = Temporarily halves Attack and Speed.
 [SCRAPPY]
 Name = Scrappy
 Description = Enables moves to hit Ghost-type Pokémon.
-FullDesc = User's Normal and Fighting-type moves deal 1x damage against Ghost types.
+FullDesc = User's Normal and Fighting-type moves deal 1x damage against Ghost types. The user is also immune to Intimidate and Dishearten.
 #-------------------------------
 [STORMDRAIN]
 Name = Storm Drain
@@ -532,6 +539,7 @@ FullDesc = User redirects all single target Water-type moves towards itself and 
 [ICEBODY]
 Name = Ice Body
 Description = The Pokémon regains 1/8 max HP in hail.
+FullDesc = User regains 1/8 max HP every turn during Hail. User takes no damage from Hail. 
 #-------------------------------
 [SOLIDROCK]
 Name = Solid Rock
@@ -541,6 +549,7 @@ FullDesc = User takes 0.75x damage from super-effective attacks.
 [SNOWWARNING]
 Name = Snow Warning
 Description = The Pokémon summons a hailstorm in battle.
+FullDesc = User summons Hail for 5 turns when entering the field, unless Hail is already present. User takes no damage from Hail.
 #-------------------------------
 [FRISK]
 Name = Frisk
@@ -599,7 +608,7 @@ FullDesc = When user is hit by a damaging move, there's a 30% chance to disable 
 [HEALER]
 Name = Healer
 Description = Sometimes cures allies' statuses.
-FullDesc = User has a 30% chance to cure any adjacent allies' status effects at the end of each turn.
+FullDesc = User has a 30% chance to cure any adjacent allies' non-volatile status effects at the end of each turn.
 #-------------------------------
 [FRIENDGUARD]
 Name = Friend Guard
@@ -664,12 +673,13 @@ FullDesc = User recovers 33% of their max HP when switched out.
 #-------------------------------
 [BIGPECKS]
 Name = Big Pecks
-Description = Prevents lowering of Defense stat.
+Description = Prevents other Pokémon from lowering Defense.
+FullDesc = User's Defense stat cannot be lowered by other Pokémon.
 #-------------------------------
 [SANDRUSH]
 Name = Sand Rush
 Description = Boosts the Pokémon's Speed in a sandstorm.
-FullDesc = User's Speed stat is doubled during a Sandstorm.
+FullDesc = User's Speed stat is doubled during a Sandstorm. User takes no damage from Sandstorm.
 #-------------------------------
 [WONDERSKIN]
 Name = Wonder Skin
@@ -679,7 +689,7 @@ FullDesc = Lowers the Accuracy of any Status moves used against the user to 50%.
 [ANALYTIC]
 Name = Analytic
 Description = Boosts move power when the Pokémon moves last.
-FullDesc = When user moves after all other pokémon on the field, their moves deal 1.3x damage.
+FullDesc = When user moves after all other Pokémon on the field, their moves deal 1.3x damage.
 #-------------------------------
 [ILLUSION]
 Name = Illusion
@@ -709,7 +719,7 @@ Description = Raises Attack when hit by a Dark-type move.
 [RATTLED]
 Name = Rattled
 Description = Some move types scare it and boost its Speed.
-FullDesc = When user gets hit by a Bug, Dark or Ghost-type move, their Speed is boosted by one stage.
+FullDesc = When user gets hit by a Bug, Dark or Ghost-type move, or has their stats lowered by Intimidate/Dishearten, their Speed is boosted by one stage.
 #-------------------------------
 [MAGICBOUNCE]
 Name = Magic Bounce
@@ -728,7 +738,7 @@ FullDesc = User's Status moves get +1 priority but become ineffective against Da
 [SANDFORCE]
 Name = Sand Force
 Description = Boosts certain moves' power in a sandstorm.
-FullDesc = User's Rock, Ground and Steel-type moves deal 1.3x damage during a Sandstorm.
+FullDesc = User's Rock, Ground and Steel-type moves deal 1.3x damage during a Sandstorm. User takes no damage from Sandstorm.
 #-------------------------------
 [IRONBARBS]
 Name = Iron Barbs
@@ -759,7 +769,7 @@ FullDesc = When user is on the field, all allies including the user cannot be di
 [FLOWERVEIL]
 Name = Flower Veil
 Description = Protects Grass-type allies from stat/status effects.
-FullDesc = When user is on the field, all Grass-type allies including the user become immune to stat drops and status effects.
+FullDesc = When user is on the field, all Grass-type allies including the user become immune to stat drops inflicted from other Pokémon, as well as non-volatile status effects.
 #-------------------------------
 [CHEEKPOUCH]
 Name = Cheek Pouch
@@ -851,12 +861,12 @@ Description = All moves land a second hit for 25% damage.
 [DARKAURA]
 Name = Dark Aura
 Description = Powers up each Pokémon's Dark-type moves.
-FullDesc = When user is on the field, all pokémon on both sides deal 1.33x damage with Dark-type moves.
+FullDesc = When user is on the field, all Pokémon on both sides deal 1.33x damage with Dark-type moves.
 #-------------------------------
 [FAIRYAURA]
 Name = Fairy Aura
 Description = Powers up each Pokémon's Fairy-type moves.
-FullDesc = When user is on the field, all pokémon on both sides deal 1.33x damage with Fairy-type moves.
+FullDesc = When user is on the field, all Pokémon on both sides deal 1.33x damage with Fairy-type moves.
 #-------------------------------
 [AURABREAK]
 Name = Aura Break
@@ -923,7 +933,7 @@ Description = Ups Sp. Atk if a hit makes its HP half or less.
 [SLUSHRUSH]
 Name = Slush Rush
 Description = Boosts the Pokémon's Speed stat in a hailstorm.
-FullDesc = User's Speed stat is doubled during Hail.
+FullDesc = User's Speed stat is doubled during Hail. User takes no damage from Hail. 
 #-------------------------------
 [LONGREACH]
 Name = Long Reach
@@ -1132,6 +1142,7 @@ Description = Ripens Berries and increases their effect.
 [SANDSPIT]
 Name = Sand Spit
 Description = Creates a sandstorm when it's hit by an attack.
+FullDesc = User summons a Sandstorm for 5 turns when hit by an attack, unless a Sandstorm is already present. User takes no damage from Sandstorm.
 #-------------------------------
 [SCREENCLEANER]
 Name = Screen Cleaner
@@ -1280,15 +1291,18 @@ FullDesc = User's Sound-type moves deal 1.5x damage when they have 1/3 or less H
 #-------------------------------
 [UNBREAKABLE]
 Name = Unbreakable
-Description = Prevents lowering of Defense stat.
+Description = Prevents other Pokémon from lowering Defense.
+FullDesc = User's Defense stat cannot be lowered by other Pokémon.
 #-------------------------------
 [INTUITION]
 Name = Intuition
-Description = Prevents lowering of Sp. Atk stat.
+Description = Prevents other Pokémon from lowering Sp. Atk stat.
+FullDesc = User's Special Attack stat cannot be lowered by other Pokémon.
 #-------------------------------
 [IMPENETRABLE]
 Name = Impenetrable
-Description = Prevents lowering of Def/SpDef stat.
+Description = Prevents other Pokémon from lowering Def/SpDef.
+FullDesc = User's Defense and Special Defense stats cannot be lowered by other Pokémon.
 #-------------------------------
 [FORTIFICATION]
 Name = Fortification
@@ -1314,7 +1328,7 @@ FullDesc = User's moves with the bomb flag deal 1.5x damage.
 [ICYVEINS]
 Name = Icy Veins
 Description = Ups Ice and Water moves in hail.
-FullDesc = User's Ice and Water-type moves deal 1.3x damage during Hail.
+FullDesc = User's Ice and Water-type moves deal 1.3x damage during Hail. User takes no damage from Hail. 
 #-------------------------------
 [REALISM]
 Name = Realism
@@ -1336,7 +1350,7 @@ FullDesc = User's Normal-type moves become Cosmic-type and deal 1.2x damage.
 [WINTERGIFT]
 Name = Winter Gift
 Description = Powers up party's SpAtk/SpDef in hail.
-FullDesc = When user is on the field, all allies including user get 1.5x Special Attack and Special Defense during Hail.
+FullDesc = When user is on the field, all allies including user get 1.5x Special Attack and Special Defense during Hail. User takes no damage from Hail. 
 #-------------------------------
 [TORMENTED]
 Name = Tormented
@@ -1373,11 +1387,12 @@ Description = Ups Atk if a hit makes its HP <50%.
 [NEBULACLOUD]
 Name = Nebula Cloud
 Description = Protects Cosmic-types from stat/status effects.
-FullDesc = When user is on the field, all Cosmic-type allies including the user become immune to stat drops and status effects.
+FullDesc = When user is on the field, all Cosmic-type allies including the user become immune to stat drops inflicted from other Pokémon, as well as non-volatile status effects.
 #-------------------------------
 [CLAYFORM]
 Name = Clay Form
 Description = The Pokémon regains 1/8 max HP in a sandstorm.
+FullDesc = The Pokémon regains 1/8 max HP every turn during a Sandstorm. User takes no damage from Sandstorm.
 #-------------------------------
 [SYNTHESIZE]
 Name = Synthesize
@@ -1386,7 +1401,7 @@ Description = The Pokémon regains 1/8 max HP in sunlight.
 [LIGHTAURA]
 Name = Light Aura
 Description = Powers up each Pokémon's Light-type moves.
-FullDesc = When user is on the field, all pokémon on both sides deal 1.33x damage with Light-type moves.
+FullDesc = When user is on the field, all Pokémon on both sides deal 1.33x damage with Light-type moves.
 #-------------------------------
 [LIGHTBULB]
 Name = Light Bulb
@@ -1405,7 +1420,8 @@ FullDesc = User's Sound and Ground-type moves deal 1x damage against Cosmic type
 #-------------------------------
 [PACKEDSNOW]
 Name = Packed Snow
-Description = Halves effectiveness of S/E moves in hail.
+Description = Halves effectiveness of S/E moves in Hail.
+FullDesc = User takes 0.5x damage from super effective moves during Hail. User takes no damage from Hail. 
 #-------------------------------
 [HIVEMIND]
 Name = Hivemind
@@ -1546,5 +1562,17 @@ FullDesc = User's moves with the wind flag deal 1.3x damage. User takes 0.5x dam
 [REGROWTH]
 Name = Regrowth
 Description = Regains 1/16 max HP or lowered stats each turn.
-FullDesc = User will regain 1/16 health each turn but if the user has lowered stats, it will restore its lowered stats by 1 stage each turn.
+FullDesc = All of user's lowered stats are restored by 1 stage at the end of each turn, if user has no lowered stats regain 1/16 max HP at the end of each turn instead.
+#-------------------------------
+[ORICHALCUMPULSE]
+Name = Orichalcum Pulse
+Description = Turns the sunlight harsh while boosing Attack.
+#-------------------------------
+[PROTOSYNTHESIS]
+Name = Protosynthesis
+Description = Boosts its best stat in harsh sunlight.
+#-------------------------------
+[QUARKDRIVE]
+Name = Quark Drive
+Description = Boosts its best stat in Electric Terrain.
 #-------------------------------

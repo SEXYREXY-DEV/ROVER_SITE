@@ -16,11 +16,12 @@
     "stench": {
         "Name": "Stench",
         "Description": "The stench may cause the target to flinch.",
-        "FullDesc": "When attacking, user's moves have a 10% chance to cause the target to flinch. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50%."
+        "FullDesc": "When attacking, user's moves have a 10% chance to cause the target to flinch. If user is in the lead, reduces wild Pok\u00c3\u00a9mon encounter rate by 50%."
     },
     "drizzle": {
         "Name": "Drizzle",
-        "Description": "The Pok\u00c3\u00a9mon makes it rain if it appears in battle."
+        "Description": "The Pok\u00c3\u00a9mon makes it rain if it appears in battle.",
+        "FullDesc": "User summons Rain for 5 turns when entering the field, unless Rain is already present."
     },
     "speedboost": {
         "Name": "Speed Boost",
@@ -45,7 +46,7 @@
     "sandveil": {
         "Name": "Sand Veil",
         "Description": "Boosts defense in a sandstorm.",
-        "FullDesc": "User gets 1.5x Defense when under a Sandstorm. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50% on areas with a Sandstorm."
+        "FullDesc": "User gets 1.5x Defense during a Sandstorm. User takes no damage from Sandstorm. If user is in the lead, reduces wild Pok\u00c3\u00a9mon encounter rate by 50% on areas with a Sandstorm."
     },
     "static": {
         "Name": "Static",
@@ -64,7 +65,8 @@
     },
     "oblivious": {
         "Name": "Oblivious",
-        "Description": "Prevents it from becoming infatuated."
+        "Description": "Prevents it from becoming infatuated.",
+        "FullDesc": "Prevents the user from becoming infatuated. The user is also immune to Intimidate and Dishearten."
     },
     "cloudnine": {
         "Name": "Cloud Nine",
@@ -98,7 +100,8 @@
     },
     "owntempo": {
         "Name": "Own Tempo",
-        "Description": "Prevents the Pok\u00c3\u00a9mon from becoming confused."
+        "Description": "Prevents the Pok\u00c3\u00a9mon from becoming confused.",
+        "FullDesc": "Prevents the user from becoming confused. The user is also immune to Intimidate and Dishearten."
     },
     "suctioncups": {
         "Name": "Suction Cups",
@@ -108,7 +111,7 @@
     "intimidate": {
         "Name": "Intimidate",
         "Description": "Lowers the foe's Attack stat.",
-        "FullDesc": "Lowers all adjacent foes' Attack stat by one stage when user enters the field. If user is in the lead, has 50% chance to prevent random encounters from pok\u00c3\u00a9mon 5 or more levels lower."
+        "FullDesc": "Lowers all adjacent foes' Attack stat by one stage when user enters the field. If user is in the lead, has 50% chance to prevent random encounters from Pok\u00c3\u00a9mon 5 or more levels lower."
     },
     "shadowtag": {
         "Name": "Shadow Tag",
@@ -136,7 +139,7 @@
     "synchronize": {
         "Name": "Synchronize",
         "Description": "Passes status conditions to enemy.",
-        "FullDesc": "When user is poisoned, burned or paralyzed by another pok\u00c3\u00a9mon, that pok\u00c3\u00a9mon will also become afflicted with the same status."
+        "FullDesc": "When user is poisoned, burned or paralyzed by another Pok\u00c3\u00a9mon, that Pok\u00c3\u00a9mon will also become afflicted with the same status."
     },
     "clearbody": {
         "Name": "Clear Body",
@@ -169,7 +172,7 @@
     "illuminate": {
         "Name": "Illuminate",
         "Description": "Normal moves become Light-type and 1.2x boost.",
-        "FullDesc": "User's Normal-type moves become Light-type and deal 1.2x damage. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50%."
+        "FullDesc": "User's Normal-type moves become Light-type and deal 1.2x damage. If user is in the lead, reduces wild Pok\u00c3\u00a9mon encounter rate by 50%."
     },
     "trace": {
         "Name": "Trace",
@@ -186,7 +189,8 @@
     },
     "innerfocus": {
         "Name": "Inner Focus",
-        "Description": "Shielded from flinching."
+        "Description": "Shielded from flinching.",
+        "FullDesc": "Prevents the user from flinching. The user is also immune to Intimidate and Dishearten."
     },
     "magmaarmor": {
         "Name": "Magma Armor",
@@ -213,7 +217,8 @@
     },
     "sandstream": {
         "Name": "Sand Stream",
-        "Description": "The Pok\u00c3\u00a9mon summons a sandstorm in battle."
+        "Description": "The Pok\u00c3\u00a9mon summons a sandstorm in battle.",
+        "FullDesc": "User summons a Sandstorm for 5 turns when entering the field, unless a Sandstorm is already present. User takes no damage from Sandstorm."
     },
     "pressure": {
         "Name": "Pressure",
@@ -240,16 +245,17 @@
     "keeneye": {
         "Name": "Keen Eye",
         "Description": "Prevents other Pok\u00c3\u00a9mon from lowering accuracy.",
-        "FullDesc": "User's Accuracy cannot be lowered and they will ignore any Evasion stat boosts when attacking. If user is in the lead, has 50% chance to prevent random encounters from pok\u00c3\u00a9mon 5 or more levels lower."
+        "FullDesc": "User's Accuracy stat cannot be lowered by other Pok\u00c3\u00a9mon and they will ignore any Evasion stat boosts when attacking. If user is in the lead, has 50% chance to prevent random encounters from Pok\u00c3\u00a9mon 5 or more levels lower."
     },
     "hypercutter": {
         "Name": "Hyper Cutter",
-        "Description": "Prevents other Pok\u00c3\u00a9mon from lowering Attack stat."
+        "Description": "Prevents other Pok\u00c3\u00a9mon from lowering Attack stat.",
+        "FullDesc": "User's Attack stat cannot be lowered by other Pok\u00c3\u00a9mon."
     },
     "pickup": {
         "Name": "Pickup",
         "Description": "The Pok\u00c3\u00a9mon may pick up items.",
-        "FullDesc": "When user is on the field and not holding an item, at the end of every turn they will collect the last item consumed by another pok\u00c3\u00a9mon in that turn. After a battle, the user has a 10% chance to generate a random item if they are not already holding an item."
+        "FullDesc": "When user is on the field and not holding an item, at the end of every turn they will collect the last item consumed by another Pok\u00c3\u00a9mon in that turn. After a battle, the user has a 10% chance to generate a random item if they are not already holding an item."
     },
     "truant": {
         "Name": "Truant",
@@ -285,17 +291,17 @@
     "shedskin": {
         "Name": "Shed Skin",
         "Description": "The Pok\u00c3\u00a9mon may heal its own status problems.",
-        "FullDesc": "User has 1/3 chance of automatically recovering from any status conditions it's suffering from at the end of each turn."
+        "FullDesc": "User has 1/3 chance of automatically recovering from any non-volatile status conditions it's suffering from at the end of each turn."
     },
     "guts": {
         "Name": "Guts",
         "Description": "Boosts Attack if there is a status problem.",
-        "FullDesc": "User gets 1.5x Attack when under any status condition. The user also does not lose Attack when burned."
+        "FullDesc": "User gets 1.5x Attack when under any non-volatile status condition. The user also does not lose Attack when burned."
     },
     "marvelscale": {
         "Name": "Marvel Scale",
         "Description": "Ups Defense if there is a status problem.",
-        "FullDesc": "User gets 1.5x Defense when under any status condition."
+        "FullDesc": "User gets 1.5x Defense when under any non-volatile status condition."
     },
     "liquidooze": {
         "Name": "Liquid Ooze",
@@ -328,12 +334,13 @@
     },
     "drought": {
         "Name": "Drought",
-        "Description": "Turns the sunlight harsh if it is in battle."
+        "Description": "Turns the sunlight harsh if it is in battle.",
+        "FullDesc": "User summons Harsh Sunlight for 5 turns when entering the field, unless Harsh Sunlight is already present."
     },
     "arenatrap": {
         "Name": "Arena Trap",
         "Description": "Prevents the foe from fleeing.",
-        "FullDesc": "When user is on the field, adjacent grounded enemies cannot escape or switch out. If user is in the lead, increases wild pok\u00c3\u00a9mon encounter rate by 100%."
+        "FullDesc": "When user is on the field, adjacent grounded enemies cannot escape or switch out. If user is in the lead, increases wild Pok\u00c3\u00a9mon encounter rate by 100%."
     },
     "vitalspirit": {
         "Name": "Vital Spirit",
@@ -342,7 +349,7 @@
     "whitesmoke": {
         "Name": "White Smoke",
         "Description": "Prevents other Pok\u00c3\u00a9mon from lowering its stats.",
-        "FullDesc": "Prevents other Pok\u00c3\u00a9mon from lowering its stats. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50%."
+        "FullDesc": "User's stats cannot be lowered by other Pok\u00c3\u00a9mon. If user is in the lead, reduces wild Pok\u00c3\u00a9mon encounter rate by 50%."
     },
     "purepower": {
         "Name": "Pure Power",
@@ -377,7 +384,7 @@
     "snowcloak": {
         "Name": "Snow Cloak",
         "Description": "Boosts SpDef in a hailstorm.",
-        "FullDesc": "User gets 1.5x Special Defense when under Hail. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50% on areas with Hail."
+        "FullDesc": "User gets 1.5x Special Defense during Hail. User takes no damage from Hail. If user is in the lead, reduces wild Pok\u00c3\u00a9mon encounter rate by 50% on areas with Hail."
     },
     "gluttony": {
         "Name": "Gluttony",
@@ -438,7 +445,7 @@
     "quickfeet": {
         "Name": "Quick Feet",
         "Description": "Boosts Speed if there is a status problem.",
-        "FullDesc": "User gets 1.5x Speed when under any status condition. The user also does not lose Speed when paralyzed. If user is in the lead, reduces wild pok\u00c3\u00a9mon encounter rate by 50%."
+        "FullDesc": "User gets 1.5x Speed when under any non-volatile status condition. The user also does not lose Speed when paralyzed. If user is in the lead, reduces wild Pok\u00c3\u00a9mon encounter rate by 50%."
     },
     "normalize": {
         "Name": "Normalize",
@@ -458,7 +465,7 @@
     "noguard": {
         "Name": "No Guard",
         "Description": "Ensures attacks by or against the Pok\u00c3\u00a9mon land.",
-        "FullDesc": "Attacks used by or against the user will ignore accuracy checks to always hit. If user is in the lead, increases wild pok\u00c3\u00a9mon encounter rate by 100%."
+        "FullDesc": "Attacks used by or against the user will ignore accuracy checks to always hit. If user is in the lead, increases wild Pok\u00c3\u00a9mon encounter rate by 100%."
     },
     "stall": {
         "Name": "Stall",
@@ -521,7 +528,7 @@
     "scrappy": {
         "Name": "Scrappy",
         "Description": "Enables moves to hit Ghost-type Pok\u00c3\u00a9mon.",
-        "FullDesc": "User's Normal and Fighting-type moves deal 1x damage against Ghost types."
+        "FullDesc": "User's Normal and Fighting-type moves deal 1x damage against Ghost types. The user is also immune to Intimidate and Dishearten."
     },
     "stormdrain": {
         "Name": "Storm Drain",
@@ -530,7 +537,8 @@
     },
     "icebody": {
         "Name": "Ice Body",
-        "Description": "The Pok\u00c3\u00a9mon regains 1/8 max HP in hail."
+        "Description": "The Pok\u00c3\u00a9mon regains 1/8 max HP in hail.",
+        "FullDesc": "User regains 1/8 max HP every turn during Hail. User takes no damage from Hail."
     },
     "solidrock": {
         "Name": "Solid Rock",
@@ -539,7 +547,8 @@
     },
     "snowwarning": {
         "Name": "Snow Warning",
-        "Description": "The Pok\u00c3\u00a9mon summons a hailstorm in battle."
+        "Description": "The Pok\u00c3\u00a9mon summons a hailstorm in battle.",
+        "FullDesc": "User summons Hail for 5 turns when entering the field, unless Hail is already present. User takes no damage from Hail."
     },
     "frisk": {
         "Name": "Frisk",
@@ -598,7 +607,7 @@
     "healer": {
         "Name": "Healer",
         "Description": "Sometimes cures allies' statuses.",
-        "FullDesc": "User has a 30% chance to cure any adjacent allies' status effects at the end of each turn."
+        "FullDesc": "User has a 30% chance to cure any adjacent allies' non-volatile status effects at the end of each turn."
     },
     "friendguard": {
         "Name": "Friend Guard",
@@ -663,12 +672,13 @@
     },
     "bigpecks": {
         "Name": "Big Pecks",
-        "Description": "Prevents lowering of Defense stat."
+        "Description": "Prevents other Pok\u00c3\u00a9mon from lowering Defense.",
+        "FullDesc": "User's Defense stat cannot be lowered by other Pok\u00c3\u00a9mon."
     },
     "sandrush": {
         "Name": "Sand Rush",
         "Description": "Boosts the Pok\u00c3\u00a9mon's Speed in a sandstorm.",
-        "FullDesc": "User's Speed stat is doubled during a Sandstorm."
+        "FullDesc": "User's Speed stat is doubled during a Sandstorm. User takes no damage from Sandstorm."
     },
     "wonderskin": {
         "Name": "Wonder Skin",
@@ -678,7 +688,7 @@
     "analytic": {
         "Name": "Analytic",
         "Description": "Boosts move power when the Pok\u00c3\u00a9mon moves last.",
-        "FullDesc": "When user moves after all other pok\u00c3\u00a9mon on the field, their moves deal 1.3x damage."
+        "FullDesc": "When user moves after all other Pok\u00c3\u00a9mon on the field, their moves deal 1.3x damage."
     },
     "illusion": {
         "Name": "Illusion",
@@ -708,7 +718,7 @@
     "rattled": {
         "Name": "Rattled",
         "Description": "Some move types scare it and boost its Speed.",
-        "FullDesc": "When user gets hit by a Bug, Dark or Ghost-type move, their Speed is boosted by one stage."
+        "FullDesc": "When user gets hit by a Bug, Dark or Ghost-type move, or has their stats lowered by Intimidate/Dishearten, their Speed is boosted by one stage."
     },
     "magicbounce": {
         "Name": "Magic Bounce",
@@ -727,7 +737,7 @@
     "sandforce": {
         "Name": "Sand Force",
         "Description": "Boosts certain moves' power in a sandstorm.",
-        "FullDesc": "User's Rock, Ground and Steel-type moves deal 1.3x damage during a Sandstorm."
+        "FullDesc": "User's Rock, Ground and Steel-type moves deal 1.3x damage during a Sandstorm. User takes no damage from Sandstorm."
     },
     "ironbarbs": {
         "Name": "Iron Barbs",
@@ -758,7 +768,7 @@
     "flowerveil": {
         "Name": "Flower Veil",
         "Description": "Protects Grass-type allies from stat/status effects.",
-        "FullDesc": "When user is on the field, all Grass-type allies including the user become immune to stat drops and status effects."
+        "FullDesc": "When user is on the field, all Grass-type allies including the user become immune to stat drops inflicted from other Pok\u00c3\u00a9mon, as well as non-volatile status effects."
     },
     "cheekpouch": {
         "Name": "Cheek Pouch",
@@ -850,12 +860,12 @@
     "darkaura": {
         "Name": "Dark Aura",
         "Description": "Powers up each Pok\u00c3\u00a9mon's Dark-type moves.",
-        "FullDesc": "When user is on the field, all pok\u00c3\u00a9mon on both sides deal 1.33x damage with Dark-type moves."
+        "FullDesc": "When user is on the field, all Pok\u00c3\u00a9mon on both sides deal 1.33x damage with Dark-type moves."
     },
     "fairyaura": {
         "Name": "Fairy Aura",
         "Description": "Powers up each Pok\u00c3\u00a9mon's Fairy-type moves.",
-        "FullDesc": "When user is on the field, all pok\u00c3\u00a9mon on both sides deal 1.33x damage with Fairy-type moves."
+        "FullDesc": "When user is on the field, all Pok\u00c3\u00a9mon on both sides deal 1.33x damage with Fairy-type moves."
     },
     "aurabreak": {
         "Name": "Aura Break",
@@ -922,7 +932,7 @@
     "slushrush": {
         "Name": "Slush Rush",
         "Description": "Boosts the Pok\u00c3\u00a9mon's Speed stat in a hailstorm.",
-        "FullDesc": "User's Speed stat is doubled during Hail."
+        "FullDesc": "User's Speed stat is doubled during Hail. User takes no damage from Hail."
     },
     "longreach": {
         "Name": "Long Reach",
@@ -1130,7 +1140,8 @@
     },
     "sandspit": {
         "Name": "Sand Spit",
-        "Description": "Creates a sandstorm when it's hit by an attack."
+        "Description": "Creates a sandstorm when it's hit by an attack.",
+        "FullDesc": "User summons a Sandstorm for 5 turns when hit by an attack, unless a Sandstorm is already present. User takes no damage from Sandstorm."
     },
     "screencleaner": {
         "Name": "Screen Cleaner",
@@ -1269,15 +1280,18 @@
     },
     "unbreakable": {
         "Name": "Unbreakable",
-        "Description": "Prevents lowering of Defense stat."
+        "Description": "Prevents other Pok\u00c3\u00a9mon from lowering Defense.",
+        "FullDesc": "User's Defense stat cannot be lowered by other Pok\u00c3\u00a9mon."
     },
     "intuition": {
         "Name": "Intuition",
-        "Description": "Prevents lowering of Sp. Atk stat."
+        "Description": "Prevents other Pok\u00c3\u00a9mon from lowering Sp. Atk stat.",
+        "FullDesc": "User's Special Attack stat cannot be lowered by other Pok\u00c3\u00a9mon."
     },
     "impenetrable": {
         "Name": "Impenetrable",
-        "Description": "Prevents lowering of Def/SpDef stat."
+        "Description": "Prevents other Pok\u00c3\u00a9mon from lowering Def/SpDef.",
+        "FullDesc": "User's Defense and Special Defense stats cannot be lowered by other Pok\u00c3\u00a9mon."
     },
     "fortification": {
         "Name": "Fortification",
@@ -1303,7 +1317,7 @@
     "icyveins": {
         "Name": "Icy Veins",
         "Description": "Ups Ice and Water moves in hail.",
-        "FullDesc": "User's Ice and Water-type moves deal 1.3x damage during Hail."
+        "FullDesc": "User's Ice and Water-type moves deal 1.3x damage during Hail. User takes no damage from Hail."
     },
     "realism": {
         "Name": "Realism",
@@ -1325,7 +1339,7 @@
     "wintergift": {
         "Name": "Winter Gift",
         "Description": "Powers up party's SpAtk/SpDef in hail.",
-        "FullDesc": "When user is on the field, all allies including user get 1.5x Special Attack and Special Defense during Hail."
+        "FullDesc": "When user is on the field, all allies including user get 1.5x Special Attack and Special Defense during Hail. User takes no damage from Hail."
     },
     "tormented": {
         "Name": "Tormented",
@@ -1362,11 +1376,12 @@
     "nebulacloud": {
         "Name": "Nebula Cloud",
         "Description": "Protects Cosmic-types from stat/status effects.",
-        "FullDesc": "When user is on the field, all Cosmic-type allies including the user become immune to stat drops and status effects."
+        "FullDesc": "When user is on the field, all Cosmic-type allies including the user become immune to stat drops inflicted from other Pok\u00c3\u00a9mon, as well as non-volatile status effects."
     },
     "clayform": {
         "Name": "Clay Form",
-        "Description": "The Pok\u00c3\u00a9mon regains 1/8 max HP in a sandstorm."
+        "Description": "The Pok\u00c3\u00a9mon regains 1/8 max HP in a sandstorm.",
+        "FullDesc": "The Pok\u00c3\u00a9mon regains 1/8 max HP every turn during a Sandstorm. User takes no damage from Sandstorm."
     },
     "synthesize": {
         "Name": "Synthesize",
@@ -1375,7 +1390,7 @@
     "lightaura": {
         "Name": "Light Aura",
         "Description": "Powers up each Pok\u00c3\u00a9mon's Light-type moves.",
-        "FullDesc": "When user is on the field, all pok\u00c3\u00a9mon on both sides deal 1.33x damage with Light-type moves."
+        "FullDesc": "When user is on the field, all Pok\u00c3\u00a9mon on both sides deal 1.33x damage with Light-type moves."
     },
     "lightbulb": {
         "Name": "Light Bulb",
@@ -1394,7 +1409,8 @@
     },
     "packedsnow": {
         "Name": "Packed Snow",
-        "Description": "Halves effectiveness of S/E moves in hail."
+        "Description": "Halves effectiveness of S/E moves in Hail.",
+        "FullDesc": "User takes 0.5x damage from super effective moves during Hail. User takes no damage from Hail."
     },
     "hivemind": {
         "Name": "Hivemind",
@@ -1535,6 +1551,18 @@
     "regrowth": {
         "Name": "Regrowth",
         "Description": "Regains 1/16 max HP or lowered stats each turn.",
-        "FullDesc": "User will regain 1/16 health each turn but if the user has lowered stats, it will restore its lowered stats by 1 stage each turn."
+        "FullDesc": "All of user's lowered stats are restored by 1 stage at the end of each turn, if user has no lowered stats regain 1/16 max HP at the end of each turn instead."
+    },
+    "orichalcumpulse": {
+        "Name": "Orichalcum Pulse",
+        "Description": "Turns the sunlight harsh while boosing Attack."
+    },
+    "protosynthesis": {
+        "Name": "Protosynthesis",
+        "Description": "Boosts its best stat in harsh sunlight."
+    },
+    "quarkdrive": {
+        "Name": "Quark Drive",
+        "Description": "Boosts its best stat in Electric Terrain."
     }
 }
