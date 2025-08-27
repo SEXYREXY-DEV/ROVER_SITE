@@ -8962,7 +8962,7 @@
         "CatchRate": "200",
         "Happiness": 50,
         "Abilities": "PRESSURE,MAGICGUARD",
-        "HiddenAbilities": "ENLIGHTENED",
+        "HiddenAbility": "ENLIGHTENED",
         "Moves": [
             "1",
             "HIDDENPOWER"
@@ -9072,7 +9072,7 @@
         "CatchRate": "100",
         "Happiness": 50,
         "Abilities": "PRESSURE,MAGICGUARD",
-        "HiddenAbilities": "ENLIGHTENED",
+        "HiddenAbility": "ENLIGHTENED",
         "Moves": [
             "0",
             "TWISTER",
@@ -9215,7 +9215,7 @@
         "CatchRate": "50",
         "Happiness": 50,
         "Abilities": "PRESSURE,MAGICGUARD",
-        "HiddenAbilities": "ENLIGHTENED",
+        "HiddenAbility": "ENLIGHTENED",
         "Moves": [
             "0",
             "DRAGONCHEER",
@@ -18730,7 +18730,7 @@
         "CatchRate": "255",
         "Happiness": 50,
         "Abilities": "SWIFTSWIM",
-        "HiddenAbilities": "RATTLED",
+        "HiddenAbility": "RATTLED",
         "Moves": [
             "1",
             "SPLASH",
@@ -18775,7 +18775,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "INTIMIDATE",
-        "HiddenAbilities": "MOXIE",
+        "HiddenAbility": "MOXIE",
         "Moves": [
             "0",
             "BITE",
@@ -33599,7 +33599,7 @@
         "Rareness": 45,
         "Happiness": 70,
         "Abilities": "INTIMIDATE,FRISK",
-        "HiddenAbilities": "SAPSIPPER",
+        "HiddenAbility": "SAPSIPPER",
         "Moves": [
             "1",
             "TACKLE",
@@ -56508,7 +56508,7 @@
         "CatchRate": "255",
         "Happiness": 50,
         "Abilities": "KEENEYE,RIVALRY",
-        "HiddenAbilities": "RECKLESS",
+        "HiddenAbility": "RECKLESS",
         "Moves": [
             "1",
             "TACKLE",
@@ -56600,7 +56600,7 @@
         "CatchRate": "120",
         "Happiness": 50,
         "Abilities": "INTIMIDATE,RIVALRY",
-        "HiddenAbilities": "RECKLESS",
+        "HiddenAbility": "RECKLESS",
         "Moves": [
             "1",
             "TACKLE",
@@ -56693,7 +56693,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "INTIMIDATE,RIVALRY",
-        "HiddenAbilities": "RECKLESS",
+        "HiddenAbility": "RECKLESS",
         "Moves": [
             "0",
             "CLOSECOMBAT",
@@ -77306,7 +77306,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "PRANKSTER,INFILTRATOR",
-        "HiddenAbilities": "CHLOROPHYLL",
+        "HiddenAbility": "CHLOROPHYLL",
         "Moves": [
             "1",
             "ABSORB",
@@ -77406,7 +77406,7 @@
         "CatchRate": "75",
         "Happiness": 50,
         "Abilities": "PRANKSTER,INFILTRATOR",
-        "HiddenAbilities": "CHLOROPHYLL",
+        "HiddenAbility": "CHLOROPHYLL",
         "Moves": [
             "0",
             "TAILWIND",
@@ -130837,7 +130837,7 @@
         "Rareness": 225,
         "Happiness": 70,
         "Abilities": "ANGERSHELL, SHELLARMOR",
-        "HiddenAbilities": "REGENERATOR",
+        "HiddenAbility": "REGENERATOR",
         "Moves": [
             "1",
             "ROCKTHROW",
@@ -130964,7 +130964,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "INFILTRATOR,MERCILESS",
-        "HiddenAbilities": "AVARICE",
+        "HiddenAbility": "AVARICE",
         "Moves": [
             "1",
             "SCRATCH",
@@ -131094,7 +131094,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "INFILTRATOR,MERCILESS",
-        "HiddenAbilities": "AVARICE",
+        "HiddenAbility": "AVARICE",
         "Moves": [
             "0",
             "THIEF",
@@ -131226,7 +131226,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "INFILTRATOR,MERCILESS",
-        "HiddenAbilities": "AVARICE",
+        "HiddenAbility": "AVARICE",
         "Moves": [
             "0",
             "VAINGLORYVENTURE",
@@ -131363,7 +131363,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "BLAZE",
-        "HiddenAbilities": "UNAWARE",
+        "HiddenAbility": "UNAWARE",
         "Moves": [
             "1",
             "TACKLE",
@@ -131460,7 +131460,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "BLAZE",
-        "HiddenAbilities": "UNAWARE",
+        "HiddenAbility": "UNAWARE",
         "Moves": [
             "1",
             "TACKLE",
@@ -131560,7 +131560,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "BLAZE",
-        "HiddenAbilities": "UNAWARE",
+        "HiddenAbility": "UNAWARE",
         "Moves": [
             "0",
             "TORCHSONG",
@@ -131680,7 +131680,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "TORRENT,MINDTUNING",
-        "HiddenAbilities": "TECHNICIAN",
+        "HiddenAbility": "TECHNICIAN",
         "Moves": [
             "1",
             "POUND",
@@ -131770,7 +131770,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "TORRENT,MINDTUNING",
-        "HiddenAbilities": "TECHNICIAN",
+        "HiddenAbility": "TECHNICIAN",
         "Moves": [
             "1",
             "POUND",
@@ -131866,7 +131866,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "TORRENT,MINDTUNING",
-        "HiddenAbilities": "TECHNICIAN",
+        "HiddenAbility": "TECHNICIAN",
         "Moves": [
             "0",
             "TRIPLEWHIRLING",
@@ -131984,7 +131984,7 @@
         "CatchRate": "255",
         "Happiness": 50,
         "Abilities": "AROMAVEIL, GLUTTONY",
-        "HiddenAbilities": "THICKFAT",
+        "HiddenAbility": "THICKFAT",
         "Moves": [
             "1",
             "TACKLE",
@@ -132075,7 +132075,7 @@
         "CatchRate": "100",
         "Happiness": 50,
         "Abilities": "LINGERINGAROMA, GLUTTONY",
-        "HiddenAbilities": "THICKFAT",
+        "HiddenAbility": "THICKFAT",
         "Moves": [
             "1",
             "TACKLE",
@@ -132176,7 +132176,7 @@
         "CatchRate": "255",
         "Happiness": 50,
         "Abilities": "INSOMNIA",
-        "HiddenAbilities": "STAKEOUT",
+        "HiddenAbility": "STAKEOUT",
         "Moves": [
             "1",
             "TACKLE",
@@ -132269,7 +132269,7 @@
         "CatchRate": "120",
         "Happiness": 50,
         "Abilities": "INSOMNIA",
-        "HiddenAbilities": "STAKEOUT",
+        "HiddenAbility": "STAKEOUT",
         "Moves": [
             "0",
             "SILKTRAP",
@@ -132373,7 +132373,7 @@
         "CatchRate": "190",
         "Happiness": 20,
         "Abilities": "SWARM",
-        "HiddenAbilities": "TINTEDLENS",
+        "HiddenAbility": "TINTEDLENS",
         "Moves": [
             "1",
             "TACKLE",
@@ -132456,7 +132456,7 @@
         "CatchRate": "30",
         "Happiness": 0,
         "Abilities": "SWARM",
-        "HiddenAbilities": "TINTEDLENS",
+        "HiddenAbility": "TINTEDLENS",
         "Moves": [
             "1",
             "TACKLE",
@@ -132563,7 +132563,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "STATIC, NATURALCURE",
-        "HiddenAbilities": "IRONFIST",
+        "HiddenAbility": "IRONFIST",
         "Moves": [
             "1",
             "SCRATCH",
@@ -132665,7 +132665,7 @@
         "CatchRate": "80",
         "Happiness": 50,
         "Abilities": "VOLTABSORB, NATURALCURE",
-        "HiddenAbilities": "IRONFIST",
+        "HiddenAbility": "IRONFIST",
         "Moves": [
             "0",
             "ARMTHRUST",
@@ -132772,7 +132772,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "VOLTABSORB, NATURALCURE",
-        "HiddenAbilities": "IRONFIST",
+        "HiddenAbility": "IRONFIST",
         "Moves": [
             "0",
             "REVIVALBLESSING",
@@ -132896,7 +132896,7 @@
         "CatchRate": "150",
         "Happiness": 50,
         "Abilities": "RUNAWAY, PICKUP",
-        "HiddenAbilities": "OWNTEMPO",
+        "HiddenAbility": "OWNTEMPO",
         "Moves": [
             "1",
             "POUND",
@@ -132998,7 +132998,7 @@
         "CatchRate": "75",
         "Happiness": 50,
         "Abilities": "FRIENDGUARD, CHEEKPOUCH",
-        "HiddenAbilities": "TECHNICIAN",
+        "HiddenAbility": "TECHNICIAN",
         "Moves": [
             "1",
             "POUND",
@@ -133107,7 +133107,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "OWNTEMPO",
-        "HiddenAbilities": "KLUTZ",
+        "HiddenAbility": "KLUTZ",
         "Moves": [
             "1",
             "TACKLE",
@@ -133205,7 +133205,7 @@
         "CatchRate": "90",
         "Happiness": 50,
         "Abilities": "WELLBAKEDBODY",
-        "HiddenAbilities": "AROMAVEIL",
+        "HiddenAbility": "AROMAVEIL",
         "Moves": [
             "1",
             "TACKLE",
@@ -133308,7 +133308,7 @@
         "CatchRate": "255",
         "Happiness": 50,
         "Abilities": "EARLYBIRD",
-        "HiddenAbilities": "HARVEST",
+        "HiddenAbility": "HARVEST",
         "Moves": [
             "1",
             "TACKLE",
@@ -133396,7 +133396,7 @@
         "CatchRate": "120",
         "Happiness": 50,
         "Abilities": "EARLYBIRD",
-        "HiddenAbilities": "HARVEST",
+        "HiddenAbility": "HARVEST",
         "Moves": [
             "1",
             "TACKLE",
@@ -133484,7 +133484,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "SEEDSOWER",
-        "HiddenAbilities": "HARVEST",
+        "HiddenAbility": "HARVEST",
         "Moves": [
             "1",
             "SWEETSCENT",
@@ -133589,7 +133589,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "INTIMIDATE, HUSTLE",
-        "HiddenAbilities": "GUTS",
+        "HiddenAbility": "GUTS",
         "Moves": [
             "1",
             "GROWL",
@@ -133689,7 +133689,7 @@
         "CatchRate": "255",
         "Happiness": 50,
         "Abilities": "PURIFYINGSALT, STURDY",
-        "HiddenAbilities": "CLEARBODY",
+        "HiddenAbility": "CLEARBODY",
         "Moves": [
             "1",
             "TACKLE",
@@ -133784,7 +133784,7 @@
         "CatchRate": "120",
         "Happiness": 50,
         "Abilities": "PURIFYINGSALT, STURDY",
-        "HiddenAbilities": "CLEARBODY",
+        "HiddenAbility": "CLEARBODY",
         "Moves": [
             "0",
             "SALTCURE",
@@ -133884,7 +133884,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "PURIFYINGSALT, STURDY",
-        "HiddenAbilities": "CLEARBODY",
+        "HiddenAbility": "CLEARBODY",
         "Moves": [
             "0",
             "HAMMERARM",
@@ -133999,7 +133999,7 @@
         "CatchRate": "90",
         "Happiness": 50,
         "Abilities": "FLASHFIRE",
-        "HiddenAbilities": "FLAMEBODY",
+        "HiddenAbility": "FLAMEBODY",
         "Moves": [
             "1",
             "LEER",
@@ -134078,7 +134078,7 @@
         "CatchRate": "25",
         "Happiness": 20,
         "Abilities": "FLASHFIRE",
-        "HiddenAbilities": "WEAKARMOR",
+        "HiddenAbility": "WEAKARMOR",
         "Moves": [
             "0",
             "PSYSHOCK",
@@ -134195,7 +134195,7 @@
         "CatchRate": "25",
         "Happiness": 20,
         "Abilities": "FLASHFIRE",
-        "HiddenAbilities": "WEAKARMOR",
+        "HiddenAbility": "WEAKARMOR",
         "Moves": [
             "0",
             "SHADOWCLAW",
@@ -134304,7 +134304,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "OWNTEMPO, STATIC",
-        "HiddenAbilities": "DAMP",
+        "HiddenAbility": "DAMP",
         "Moves": [
             "1",
             "TACKLE",
@@ -134395,7 +134395,7 @@
         "CatchRate": "50",
         "Happiness": 50,
         "Abilities": "ELECTROMORPHOSIS, STATIC",
-        "HiddenAbilities": "DAMP",
+        "HiddenAbility": "DAMP",
         "Moves": [
             "1",
             "TACKLE",
@@ -134490,7 +134490,7 @@
         "CatchRate": "180",
         "Happiness": 50,
         "Abilities": "WINDPOWER, VOLTABSORB",
-        "HiddenAbilities": "COMPETITIVE",
+        "HiddenAbility": "COMPETITIVE",
         "Moves": [
             "1",
             "GROWL",
@@ -134582,7 +134582,7 @@
         "CatchRate": "90",
         "Happiness": 50,
         "Abilities": "WINDPOWER, VOLTABSORB",
-        "HiddenAbilities": "COMPETITIVE",
+        "HiddenAbility": "COMPETITIVE",
         "Moves": [
             "0",
             "ELECTROBALL",
@@ -134679,7 +134679,7 @@
         "CatchRate": "150",
         "Happiness": 50,
         "Abilities": "INTIMIDATE, RUNAWAY",
-        "HiddenAbilities": "STAKEOUT",
+        "HiddenAbility": "STAKEOUT",
         "Moves": [
             "1",
             "TACKLE",
@@ -134776,7 +134776,7 @@
         "CatchRate": "75",
         "Happiness": 50,
         "Abilities": "INTIMIDATE, GUARDDOG",
-        "HiddenAbilities": "STAKEOUT",
+        "HiddenAbility": "STAKEOUT",
         "Moves": [
             "0",
             "COMEUPPANCE",
@@ -134882,7 +134882,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "UNBURDEN, PICKPOCKET",
-        "HiddenAbilities": "PRANKSTER",
+        "HiddenAbility": "PRANKSTER",
         "Moves": [
             "1",
             "SCRATCH",
@@ -134984,7 +134984,7 @@
         "CatchRate": "90",
         "Happiness": 50,
         "Abilities": "UNBURDEN, POISONTOUCH",
-        "HiddenAbilities": "PRANKSTER",
+        "HiddenAbility": "PRANKSTER",
         "Moves": [
             "0",
             "DOODLE",
@@ -135092,7 +135092,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "WINDRIDER",
-        "HiddenAbilities": "INFILTRATOR",
+        "HiddenAbility": "INFILTRATOR",
         "Moves": [
             "1",
             "DEFENSECURL",
@@ -135187,7 +135187,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "WINDRIDER",
-        "HiddenAbilities": "INFILTRATOR",
+        "HiddenAbility": "INFILTRATOR",
         "Moves": [
             "1",
             "DEFENSECURL",
@@ -135283,7 +135283,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "MYCELIUMMIGHT",
-        "HiddenAbilities": "",
+        "HiddenAbility": "",
         "Moves": [
             "1",
             "WRAP",
@@ -135393,7 +135393,7 @@
         "CatchRate": "90",
         "Happiness": 50,
         "Abilities": "MYCELIUMMIGHT",
-        "HiddenAbilities": "",
+        "HiddenAbility": "",
         "Moves": [
             "1",
             "REFLECTTYPE",
@@ -135505,7 +135505,7 @@
         "CatchRate": "120",
         "Happiness": 50,
         "Abilities": "ANGERSHELL, SHELLARMOR",
-        "HiddenAbilities": "REGENERATOR",
+        "HiddenAbility": "REGENERATOR",
         "Moves": [
             "1",
             "VISEGRIP",
@@ -135611,7 +135611,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "CHLOROPHYLL,INSOMNIA",
-        "HiddenAbilities": "KLUTZ",
+        "HiddenAbility": "KLUTZ",
         "Moves": [
             "1",
             "LEER",
@@ -135706,7 +135706,7 @@
         "CatchRate": "75",
         "Happiness": 50,
         "Abilities": "CHLOROPHYLL,INSOMNIA",
-        "HiddenAbilities": "BERSERK",
+        "HiddenAbility": "BERSERK",
         "Moves": [
             "0",
             "FLAMETHROWER",
@@ -135818,7 +135818,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "COMPOUNDEYES",
-        "HiddenAbilities": "SHEDSKIN",
+        "HiddenAbility": "SHEDSKIN",
         "Moves": [
             "1",
             "TACKLE",
@@ -135900,7 +135900,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "SYNCHRONIZE",
-        "HiddenAbilities": "TELEPATHY",
+        "HiddenAbility": "TELEPATHY",
         "Moves": [
             "0",
             "REVIVALBLESSING",
@@ -136019,7 +136019,7 @@
         "CatchRate": "120",
         "Happiness": 50,
         "Abilities": "ANTICIPATION, FRISK",
-        "HiddenAbilities": "SPEEDBOOST",
+        "HiddenAbility": "SPEEDBOOST",
         "Moves": [
             "1",
             "GROWL",
@@ -136113,7 +136113,7 @@
         "CatchRate": "60",
         "Happiness": 50,
         "Abilities": "OPPORTUNIST, FRISK",
-        "HiddenAbilities": "SPEEDBOOST",
+        "HiddenAbility": "SPEEDBOOST",
         "Moves": [
             "0",
             "LUMINACRASH",
@@ -136232,7 +136232,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "MOLDBREAKER, OWNTEMPO",
-        "HiddenAbilities": "PICKPOCKET",
+        "HiddenAbility": "PICKPOCKET",
         "Moves": [
             "1",
             "ASTONISH",
@@ -136333,7 +136333,7 @@
         "CatchRate": "90",
         "Happiness": 50,
         "Abilities": "MOLDBREAKER, OWNTEMPO",
-        "HiddenAbilities": "PICKPOCKET",
+        "HiddenAbility": "PICKPOCKET",
         "Moves": [
             "1",
             "ASTONISH",
@@ -136435,7 +136435,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "MOLDBREAKER, OWNTEMPO",
-        "HiddenAbilities": "PICKPOCKET",
+        "HiddenAbility": "PICKPOCKET",
         "Moves": [
             "0",
             "GIGATONHAMMER",
@@ -136539,7 +136539,7 @@
         "CatchRate": "255",
         "Happiness": 50,
         "Abilities": "GOOEY, RATTLED",
-        "HiddenAbilities": "SANDVEIL",
+        "HiddenAbility": "SANDVEIL",
         "Moves": [
             "1",
             "SANDATTACK",
@@ -136629,7 +136629,7 @@
         "CatchRate": "50",
         "Happiness": 50,
         "Abilities": "GOOEY, RATTLED",
-        "HiddenAbilities": "SANDVEIL",
+        "HiddenAbility": "SANDVEIL",
         "Moves": [
             "1",
             "SANDATTACK",
@@ -136723,7 +136723,7 @@
         "CatchRate": "25",
         "Happiness": 50,
         "Abilities": "BIGPECKS, KEENEYE",
-        "HiddenAbilities": "ROCKYPAYLOAD",
+        "HiddenAbility": "ROCKYPAYLOAD",
         "Moves": [
             "1",
             "WINGATTACK",
@@ -136831,7 +136831,7 @@
         "CatchRate": "200",
         "Happiness": 50,
         "Abilities": "WATERVEIL",
-        "HiddenAbilities": "",
+        "HiddenAbility": "",
         "Moves": [
             "1",
             "SUPERSONIC",
@@ -136925,7 +136925,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "ZEROTOHERO",
-        "HiddenAbilities": "",
+        "HiddenAbility": "",
         "Moves": [
             "0",
             "FLIPTURN",
@@ -137042,7 +137042,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "OVERCOAT",
-        "HiddenAbilities": "SLOWSTART",
+        "HiddenAbility": "SLOWSTART",
         "Moves": [
             "1",
             "LICK",
@@ -137138,7 +137138,7 @@
         "CatchRate": "75",
         "Happiness": 50,
         "Abilities": "OVERCOAT",
-        "HiddenAbilities": "FILTER",
+        "HiddenAbility": "FILTER",
         "Moves": [
             "0",
             "SHIFTGEAR",
@@ -137242,7 +137242,7 @@
         "CatchRate": "190",
         "Happiness": 50,
         "Abilities": "SHEDSKIN",
-        "HiddenAbilities": "REGENERATOR",
+        "HiddenAbility": "REGENERATOR",
         "Moves": [
             "1",
             "TACKLE",
@@ -137344,7 +137344,7 @@
         "CatchRate": "25",
         "Happiness": 50,
         "Abilities": "EARTHEATER",
-        "HiddenAbilities": "SANDVEIL",
+        "HiddenAbility": "SANDVEIL",
         "Moves": [
             "1",
             "TACKLE",
@@ -137442,7 +137442,7 @@
         "CatchRate": "70",
         "Happiness": 50,
         "Abilities": "TOXICDEBRIS",
-        "HiddenAbilities": "CORROSION",
+        "HiddenAbility": "CORROSION",
         "Moves": [
             "1",
             "ROCKTHROW",
@@ -137538,7 +137538,7 @@
         "CatchRate": "25",
         "Happiness": 50,
         "Abilities": "TOXICDEBRIS",
-        "HiddenAbilities": "CORROSION",
+        "HiddenAbility": "CORROSION",
         "Moves": [
             "0",
             "MORTALSPIN",
@@ -137644,7 +137644,7 @@
         "CatchRate": "120",
         "Happiness": 50,
         "Abilities": "SANDRUSH",
-        "HiddenAbilities": "FLUFFY",
+        "HiddenAbility": "FLUFFY",
         "Moves": [
             "1",
             "TACKLE",
@@ -137748,7 +137748,7 @@
         "CatchRate": "60",
         "Happiness": 50,
         "Abilities": "SANDRUSH",
-        "HiddenAbilities": "FLUFFY",
+        "HiddenAbility": "FLUFFY",
         "Moves": [
             "1",
             "TACKLE",
@@ -137856,7 +137856,7 @@
         "CatchRate": "100",
         "Happiness": 50,
         "Abilities": "SCRAPPY, TANGLEDFEET",
-        "HiddenAbilities": "COSTAR",
+        "HiddenAbility": "COSTAR",
         "Moves": [
             "1",
             "PECK",
@@ -137957,7 +137957,7 @@
         "CatchRate": "150",
         "Happiness": 50,
         "Abilities": "THICKFAT, SNOWCLOAK",
-        "HiddenAbilities": "SHEERFORCE",
+        "HiddenAbility": "SHEERFORCE",
         "Moves": [
             "1",
             "TACKLE",
@@ -138057,7 +138057,7 @@
         "CatchRate": "50",
         "Happiness": 50,
         "Abilities": "THICKFAT, SLUSHRUSH",
-        "HiddenAbilities": "SHEERFORCE",
+        "HiddenAbility": "SHEERFORCE",
         "Moves": [
             "1",
             "TACKLE",
@@ -138159,7 +138159,7 @@
         "CatchRate": "100",
         "Happiness": 50,
         "Abilities": "MOLDBREAKER",
-        "HiddenAbilities": "SHARPNESS",
+        "HiddenAbility": "SHARPNESS",
         "Moves": [
             "1",
             "TACKLE",
@@ -138253,7 +138253,7 @@
         "CatchRate": "25",
         "Happiness": 50,
         "Abilities": "UNAWARE, OBLIVIOUS",
-        "HiddenAbilities": "WATERVEIL",
+        "HiddenAbility": "WATERVEIL",
         "Moves": [
             "1",
             "TACKLE",
@@ -138356,7 +138356,7 @@
         "CatchRate": "100",
         "Happiness": 50,
         "Abilities": "COMMANDER",
-        "HiddenAbilities": "STORMDRAIN",
+        "HiddenAbility": "STORMDRAIN",
         "Moves": [
             "1",
             "WATERGUN",
@@ -138444,7 +138444,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "VITALSPIRIT, INNERFOCUS",
-        "HiddenAbilities": "DEFIANT",
+        "HiddenAbility": "DEFIANT",
         "Moves": [
             "0",
             "HOLLOWSTRIKE",
@@ -138576,7 +138576,7 @@
         "CatchRate": "90",
         "Happiness": 50,
         "Abilities": "POISONPOINT, WATERABSORB",
-        "HiddenAbilities": "UNAWARE",
+        "HiddenAbility": "UNAWARE",
         "Moves": [
             "0",
             "AMNESIA",
@@ -138688,7 +138688,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "CUDCHEW, ARMORTAIL",
-        "HiddenAbilities": "SAPSIPPER",
+        "HiddenAbility": "SAPSIPPER",
         "Moves": [
             "1",
             "TACKLE",
@@ -138811,7 +138811,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "SERENEGRACE, RUNAWAY",
-        "HiddenAbilities": "RATTLED",
+        "HiddenAbility": "RATTLED",
         "Moves": [
             "1",
             "DEFENSECURL",
@@ -138944,7 +138944,7 @@
         "CatchRate": "25",
         "Happiness": 50,
         "Abilities": "DEFIANT, SUPREMEOVERLORD",
-        "HiddenAbilities": "PRESSURE",
+        "HiddenAbility": "PRESSURE",
         "Moves": [
             "0",
             "KOWTOWCLEAVE",
@@ -140405,7 +140405,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "THERMALEXCHANGE",
-        "HiddenAbilities": "ICEBODY",
+        "HiddenAbility": "ICEBODY",
         "Moves": [
             "1",
             "TACKLE",
@@ -140496,7 +140496,7 @@
         "CatchRate": "25",
         "Happiness": 50,
         "Abilities": "THERMALEXCHANGE",
-        "HiddenAbilities": "ICEBODY",
+        "HiddenAbility": "ICEBODY",
         "Moves": [
             "1",
             "TACKLE",
@@ -140589,7 +140589,7 @@
         "CatchRate": "10",
         "Happiness": 50,
         "Abilities": "THERMALEXCHANGE",
-        "HiddenAbilities": "ICEBODY",
+        "HiddenAbility": "ICEBODY",
         "Moves": [
             "0",
             "GLAIVERUSH",
@@ -140783,7 +140783,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "GOODASGOLD",
-        "HiddenAbilities": "",
+        "HiddenAbility": "",
         "Moves": [
             "1",
             "TACKLE",
@@ -141804,7 +141804,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "SUPERSWEETSYRUP,GLUTTONY",
-        "HiddenAbilities": "STICKYHOLD",
+        "HiddenAbility": "STICKYHOLD",
         "Moves": [
             "0",
             "DOUBLEHIT",
@@ -141901,7 +141901,7 @@
         "CatchRate": "10",
         "Happiness": 50,
         "Abilities": "SUPERSWEETSYRUP,REGENERATOR",
-        "HiddenAbilities": "STICKYHOLD",
+        "HiddenAbility": "STICKYHOLD",
         "Moves": [
             "0",
             "FICKLEBEAM",
@@ -144104,7 +144104,7 @@
         "CatchRate": "60",
         "Happiness": 70,
         "Abilities": "GUTS,BULLETPROOF",
-        "HiddenAbilities": "UNNERVE",
+        "HiddenAbility": "UNNERVE",
         "Moves": [
             "0",
             "HEADLONGRUSH",
@@ -144247,7 +144247,7 @@
         "CatchRate": "25",
         "Happiness": 50,
         "Abilities": "SWIFTSWIM,ADAPTABILITY",
-        "HiddenAbilities": "MOLDBREAKER",
+        "HiddenAbility": "MOLDBREAKER",
         "Moves": [
             "1",
             "SHADOWBALL",
@@ -147406,7 +147406,7 @@
         "CatchRate": "45",
         "Happiness": 70,
         "Abilities": "INTIMIDATE,FRISK",
-        "HiddenAbilities": "SAPSIPPER",
+        "HiddenAbility": "SAPSIPPER",
         "Moves": [
             "0",
             "PSYSHIELDBASH",
@@ -147539,7 +147539,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "POISONPOINT,SWIFTSWIM",
-        "HiddenAbilities": "INTIMIDATE",
+        "HiddenAbility": "INTIMIDATE",
         "Moves": [
             "1",
             "POISONSTING",
@@ -147660,7 +147660,7 @@
         "CatchRate": "45",
         "Happiness": 70,
         "Abilities": "SWARM,SHEERFORCE",
-        "HiddenAbilities": "SHARPNESS",
+        "HiddenAbility": "SHARPNESS",
         "Moves": [
             "0",
             "STONEAXE",
@@ -147771,7 +147771,7 @@
         "CatchRate": "20",
         "Happiness": 35,
         "Abilities": "PRESSURE,UNBURDEN",
-        "HiddenAbilities": "POISONTOUCH",
+        "HiddenAbility": "POISONTOUCH",
         "Moves": [
             "0",
             "DIRECLAW",
@@ -148465,7 +148465,7 @@
         "CatchRate": "45",
         "Happiness": 50,
         "Abilities": "VITALSPIRIT,FLAMETOUCH",
-        "HiddenAbilities": "DEFIANT",
+        "HiddenAbility": "DEFIANT",
         "Moves": [
             "0",
             "TEMPERFLARE",
@@ -148944,7 +148944,7 @@
         "CatchRate": "55",
         "Happiness": 10,
         "Abilities": "CHLOROPHYLL,INSOMNIA",
-        "HiddenAbilities": "BERSERK",
+        "HiddenAbility": "BERSERK",
         "Moves": [
             "0",
             "ENERGYBALL",
@@ -154741,7 +154741,7 @@
         "CatchRate": "10",
         "Happiness": 50,
         "Abilities": "STAMINA,STURDY",
-        "HiddenAbilities": "STALWART",
+        "HiddenAbility": "STALWART",
         "Moves": [
             "0",
             "ELECTROSHOT",
