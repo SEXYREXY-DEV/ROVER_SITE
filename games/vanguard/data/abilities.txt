@@ -137,7 +137,7 @@ Description = Boosts the Pokémon's Speed in sunshine.
 #-------------------------------
 [ILLUMINATE]
 Name = Illuminate
-Description = Raises the likelihood of meeting wild Pokémon.
+Description = Raises accuracy and chance to meet wild Pokemon.
 #-------------------------------
 [TRACE]
 Name = Trace
@@ -1265,11 +1265,11 @@ Description = The user's Sp.Atk/Sp.Def is raised/lowered by 1 when it switches i
 #-------------------------------
 [MIRRORSPELL]
 Name = Mirror Spell
-Description = When switching in, reflects Sp. Attacks.
+Description = Inflicts damage upon being hit by a Special attack.
 #-------------------------------
 [NORDICSPIRIT]
 Name = Nordic Spirit
-Description = If Snow is active, Aurora Veil is set on switch.
+Description = If Snow is active, a short-lived Aurora Veil is set on switch.
 #-------------------------------
 [ONETWO]
 Name = One-Two
@@ -1285,7 +1285,7 @@ Description = Only once, cannot be KO, switches out, and heals 100% HP.
 #-------------------------------
 [SHUFFLETYPE]
 Name = Shuffle Type
-Description = The user's type changes sporadically every turn.
+Description = Always changes type to that of the move it's about to use.
 #-------------------------------
 [SOULCONDUCTOR]
 Name = Soul Conductor
@@ -1297,7 +1297,7 @@ Description = Increases Defense when user defeats an opponent.
 #-------------------------------
 [VACUUMCORE]
 Name = Vacuum Core
-Description = Electric and wind-based moves are drawn in, increasing SpAtk.
+Description = Increases SpAtk when hit by Electric and wind-based moves. Electric moves are drawn in.
 #-------------------------------
 [WARPINGNEIGH]
 Name = Warping Neigh
@@ -1305,7 +1305,7 @@ Description = Increases Sp.Def when user defeats an opponent.
 #-------------------------------
 [WINDMAESTRO]
 Name = Wind Maestro
-Description = Forces active ally to take attacks. Wind moves boost Attack.
+Description = Avoids ally's attacks. Wind moves boost Attack.
 #-------------------------------
 [WITHERINGOFFER]
 Name = Withering Offer
@@ -1315,8 +1315,8 @@ Description = Boosts every stat after knocking out an ally.
 Name = Apt to Serve
 Description = Lowers Speed when Trick Room is active.
 #-------------------------------
-[CREMATION]
-Name = Cremation
+[NUREACTOR]
+Name = Nu-Reactor
 Description = Boosts Sp. Def each time a Pokémon faints.
 #-------------------------------
 [SNOWBALL]
@@ -1333,7 +1333,7 @@ Description = Raises the PokÃ©mon's Sp.Attack stat.
 #-------------------------------
 [FLAMETOUCH]
 Name = Flame Touch
-Description = May burn targets when a Pokémon makes contact.
+Description = May burn targets when the Pokémon makes contact.
 #-------------------------------
 [SPIKYSHEDDING]
 Name = Spiky Shedding
@@ -1362,4 +1362,52 @@ Description = Powers up beam moves.
 [FIERCESTANCE]
 Name = Fierce Stance
 Description = Changes form at half HP.
-
+#-------------------------------
+[INVERSION]
+Name = Inversion
+Description = This Pokemon's resistances and weaknesses are reversed.
+#-------------------------------
+[OBFUSCATE]
+Name = Obfuscate
+Description = Normal-type moves become Typeless and are powered up.
+#-------------------------------
+[HOSPITALITY]
+Name = Hospitality
+Description = Restores ally's HP a little when entering battle.
+#-------------------------------
+[AVARICE]
+Name = Avarice
+Description = The user steals the opponent's item upon entering battle. The user can't steal if it is already holding an item.
+#-------------------------------
+[LUNARAURA]
+Name = Lunar Aura
+Description = Boosts the power of Dark and Fairy type moves for itself and allies.
+#-------------------------------
+[SOLARAURA]
+Name = Solar Aura
+Description = Boosts the power of Fire and Psychic type moves for itself and allies.
+#-------------------------------
+[STARSEEKER]
+Name = Star Seeker
+Description = Guided by stars, this Pokémon's attacks always land and its supereffective moves are slightly boosted.
+#-------------------------------
+[LAGANNIMPACT]
+Name = Lagann Impact
+Description = Hype moments and aura.
+#-------------------------------
+[ENLIGHTENED]
+Name = Enlightened
+Description = It powers up Dragon-type moves if it's hit by one.
+#-------------------------------
+[TEMPEREDBODY]
+Name = Tempered Body
+Description = Sharply raises Speed if hit by an Fire-type move.
+#-------------------------------
+[MINDSEYE]
+Name = Mind's Eye
+Description = The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves.
+#-------------------------------
+[AETHERBLAZE]
+Name = Aetherblaze
+Description = Ignores abilities. Opponents' Special Defense is lowered once.
+#-------------------------------

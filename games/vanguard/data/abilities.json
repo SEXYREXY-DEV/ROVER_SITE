@@ -137,7 +137,7 @@
     },
     "illuminate": {
         "Name": "Illuminate",
-        "Description": "Raises the likelihood of meeting wild Pok\u00c3\u00a9mon."
+        "Description": "Raises accuracy and chance to meet wild Pokemon."
     },
     "trace": {
         "Name": "Trace",
@@ -1265,11 +1265,11 @@
     },
     "mirrorspell": {
         "Name": "Mirror Spell",
-        "Description": "When switching in, reflects Sp. Attacks."
+        "Description": "Inflicts damage upon being hit by a Special attack."
     },
     "nordicspirit": {
         "Name": "Nordic Spirit",
-        "Description": "If Snow is active, Aurora Veil is set on switch."
+        "Description": "If Snow is active, a short-lived Aurora Veil is set on switch."
     },
     "onetwo": {
         "Name": "One-Two",
@@ -1285,7 +1285,7 @@
     },
     "shuffletype": {
         "Name": "Shuffle Type",
-        "Description": "The user's type changes sporadically every turn."
+        "Description": "Always changes type to that of the move it's about to use."
     },
     "soulconductor": {
         "Name": "Soul Conductor",
@@ -1297,7 +1297,7 @@
     },
     "vacuumcore": {
         "Name": "Vacuum Core",
-        "Description": "Electric and wind-based moves are drawn in, increasing SpAtk."
+        "Description": "Increases SpAtk when hit by Electric and wind-based moves. Electric moves are drawn in."
     },
     "warpingneigh": {
         "Name": "Warping Neigh",
@@ -1305,7 +1305,7 @@
     },
     "windmaestro": {
         "Name": "Wind Maestro",
-        "Description": "Forces active ally to take attacks. Wind moves boost Attack."
+        "Description": "Avoids ally's attacks. Wind moves boost Attack."
     },
     "witheringoffer": {
         "Name": "Withering Offer",
@@ -1315,8 +1315,8 @@
         "Name": "Apt to Serve",
         "Description": "Lowers Speed when Trick Room is active."
     },
-    "cremation": {
-        "Name": "Cremation",
+    "nureactor": {
+        "Name": "Nu-Reactor",
         "Description": "Boosts Sp. Def each time a Pok\u00c3\u00a9mon faints."
     },
     "snowball": {
@@ -1333,7 +1333,7 @@
     },
     "flametouch": {
         "Name": "Flame Touch",
-        "Description": "May burn targets when a Pok\u00c3\u00a9mon makes contact."
+        "Description": "May burn targets when the Pok\u00c3\u00a9mon makes contact."
     },
     "spikyshedding": {
         "Name": "Spiky Shedding",
@@ -1362,5 +1362,53 @@
     "fiercestance": {
         "Name": "Fierce Stance",
         "Description": "Changes form at half HP."
+    },
+    "inversion": {
+        "Name": "Inversion",
+        "Description": "This Pokemon's resistances and weaknesses are reversed."
+    },
+    "obfuscate": {
+        "Name": "Obfuscate",
+        "Description": "Normal-type moves become Typeless and are powered up."
+    },
+    "hospitality": {
+        "Name": "Hospitality",
+        "Description": "Restores ally's HP a little when entering battle."
+    },
+    "avarice": {
+        "Name": "Avarice",
+        "Description": "The user steals the opponent's item upon entering battle. The user can't steal if it is already holding an item."
+    },
+    "lunaraura": {
+        "Name": "Lunar Aura",
+        "Description": "Boosts the power of Dark and Fairy type moves for itself and allies."
+    },
+    "solaraura": {
+        "Name": "Solar Aura",
+        "Description": "Boosts the power of Fire and Psychic type moves for itself and allies."
+    },
+    "starseeker": {
+        "Name": "Star Seeker",
+        "Description": "Guided by stars, this Pok\u00c3\u00a9mon's attacks always land and its supereffective moves are slightly boosted."
+    },
+    "lagannimpact": {
+        "Name": "Lagann Impact",
+        "Description": "Hype moments and aura."
+    },
+    "enlightened": {
+        "Name": "Enlightened",
+        "Description": "It powers up Dragon-type moves if it's hit by one."
+    },
+    "temperedbody": {
+        "Name": "Tempered Body",
+        "Description": "Sharply raises Speed if hit by an Fire-type move."
+    },
+    "mindseye": {
+        "Name": "Mind's Eye",
+        "Description": "The Pok\u00c3\u00a9mon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves."
+    },
+    "aetherblaze": {
+        "Name": "Aetherblaze",
+        "Description": "Ignores abilities. Opponents' Special Defense is lowered once."
     }
 }

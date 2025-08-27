@@ -3841,7 +3841,7 @@
         "Type": "FLYING",
         "Category": "Special",
         "Power": 75,
-        "Accuracy": 95,
+        "Accuracy": 100,
         "TotalPP": 15,
         "Target": "Other",
         "FunctionCode": "FlinchTarget",
@@ -4380,12 +4380,16 @@
     {
         "Name": "DESTINYBOND",
         "Type": "GHOST",
-        "Category": "Status",
-        "Accuracy": 0,
+        "Category": "Special",
+        "Power": 1,
+        "Accuracy": 100,
         "TotalPP": 5,
-        "Target": "User",
-        "FunctionCode": "LowerPPOfTargetLastMoveBy4",
-        "Description": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it."
+        "Target": "NearOther",
+        "FunctionCode": "UserFaintsFixedDamageUserHP",
+        "Flags": [
+            "CanProtect"
+        ],
+        "Description": "The user risks all to attack the foe. The user faints but does damage equal to its HP."
     },
     {
         "Name": "GRUDGE",
@@ -6284,7 +6288,7 @@
         "Name": "EXTREMESPEED",
         "Type": "NORMAL",
         "Category": "Physical",
-        "Power": 70,
+        "Power": 80,
         "Accuracy": 100,
         "TotalPP": 5,
         "Target": "NearOther",
@@ -6601,7 +6605,7 @@
     },
     {
         "Name": "COVET",
-        "Type": "FAIRY",
+        "Type": "NORMAL",
         "Category": "Physical",
         "Power": 60,
         "Accuracy": 100,
@@ -6957,7 +6961,7 @@
         "Type": "NORMAL",
         "Category": "Physical",
         "Power": 25,
-        "Accuracy": 85,
+        "Accuracy": 90,
         "TotalPP": 10,
         "Target": "NearOther",
         "FunctionCode": "HitTwoToFiveTimes",
@@ -9916,7 +9920,7 @@
         "Name": "SMACKDOWN",
         "Type": "ROCK",
         "Category": "Physical",
-        "Power": 50,
+        "Power": 70,
         "Accuracy": 100,
         "TotalPP": 15,
         "Target": "NearOther",
@@ -10270,7 +10274,7 @@
         "Type": "STEEL",
         "Category": "Special",
         "Power": 65,
-        "Accuracy": 85,
+        "Accuracy": 100,
         "TotalPP": 10,
         "Target": "NearOther",
         "FunctionCode": "LowerTargetAccuracy1",
@@ -11276,8 +11280,8 @@
         "Name": "MOUNTAINGALE",
         "Type": "ICE",
         "Category": "Physical",
-        "Power": 120,
-        "Accuracy": 95,
+        "Power": 100,
+        "Accuracy": 85,
         "TotalPP": 10,
         "Target": "NearOther",
         "FunctionCode": "FlinchTarget",
@@ -11350,7 +11354,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "EffectChance": 30,
+        "EffectChance": 100,
         "Description": "The user attacks the target with spine-chilling resentment. This also lowers the target\u00e2\u20ac\u2122s Attack stat."
     },
     {
@@ -11465,14 +11469,13 @@
         "Accuracy": 90,
         "TotalPP": 15,
         "Target": "NearOther",
-        "FunctionCode": "AddStealthRocksToFoeSide",
+        "FunctionCode": "DamageTargetAddStealthRocksToFoeSide",
         "Flags": [
             "Contact",
             "CanProtect",
-            "HighCriticalHitRate",
             "Slicing"
         ],
-        "Description": "The user swings its stone axes at the target, aiming to land a critical hit. Stone splinters left behind by this attack float around the target."
+        "Description": "The user swings its stone axes at the target. Stone splinters left behind by this attack float around the target."
     },
     {
         "Name": "MYSTICALPOWER",
@@ -11535,14 +11538,14 @@
         "Accuracy": 90,
         "TotalPP": 15,
         "Target": "NearOther",
-        "FunctionCode": "AddSpikesToFoeSide",
+        "FunctionCode": "DamageTargetAddSpikesToFoeSide",
         "Flags": [
             "Contact",
             "CanProtect",
             "Slicing"
         ],
         "EffectChance": 100,
-        "Description": "The user slashes its shell blade at the target, aiming to land a critical hit. Shell splinters left behind by this attack remain scattered under the target as spikes."
+        "Description": "The user slashes its shell blade at the target. Shell splinters left behind by this attack remain scattered under the target as spikes."
     },
     {
         "Name": "TAKEHEART",
@@ -12339,7 +12342,7 @@
         "Name": "KAOLINBASH",
         "Type": "GROUND",
         "Category": "Physical",
-        "Power": 80,
+        "Power": 70,
         "Accuracy": 100,
         "TotalPP": 8,
         "Target": "NearOther",
@@ -12354,34 +12357,18 @@
         "Name": "DIAMONDBREATH",
         "Type": "ROCK",
         "Category": "Special",
-        "Power": 90,
-        "Accuracy": 90,
+        "Power": 80,
+        "Accuracy": 95,
         "TotalPP": 8,
         "Target": "AllNearFoes",
-        "FunctionCode": "LowerTargetSpDef2",
+        "FunctionCode": "LowerTargetSpDef1",
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
             "CannotMetronome"
         ],
         "EffectChance": 20,
-        "Description": "Opposing Pokemon are blasted with rare ores. This may sharply lower the target's Special Defense."
-    },
-    {
-        "Name": "SOVEREIGNEDGE",
-        "Type": "STEEL",
-        "Category": "Physical",
-        "Power": 60,
-        "Accuracy": 100,
-        "TotalPP": 8,
-        "Target": "NearOther",
-        "FunctionCode": "RaiseUserAttack3IfTargetFaints",
-        "Flags": [
-            "Contact",
-            "CanProtect",
-            "CanMirrorMove"
-        ],
-        "Description": "The target is sliced with a sharp horn, dealing damage. Drastically raises Atk if scores a KO."
+        "Description": "Opposing Pokemon are blasted with rare ores. This may lower the target's Special Defense."
     },
     {
         "Name": "HEATEDREVUP",
@@ -12442,18 +12429,19 @@
     },
     {
         "Name": "CODE:POWER",
-        "Type": "POISON",
+        "Type": "ELECTRIC",
         "Category": "Physical",
-        "Power": 80,
+        "Power": 70,
         "Accuracy": 100,
         "TotalPP": 15,
         "Target": "NearOther",
         "FunctionCode": "CodePower",
         "Flags": [
+            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Malicious files corrupt and heat the enemy, which may cause a burn. Hits Steel-Types effectively."
+        "Description": "Malicious files corrupt the enemy. Hits Steel-Types effectively."
     },
     {
         "Name": "CODEQUARANTINE",
@@ -12480,14 +12468,14 @@
             "CanMirrorMove",
             "Pulse"
         ],
-        "EffectChance": 100,
-        "Description": "By editing the enemy's data, a virus is injected. This also lowers their Sp.Defense."
+        "EffectChance": 50,
+        "Description": "By editing the enemy's data, a virus is injected. This may also lower the target's Sp.Defense."
     },
     {
         "Name": "DUNEGLIDER",
         "Type": "GROUND",
         "Category": "Physical",
-        "Power": 90,
+        "Power": 55,
         "Accuracy": 100,
         "TotalPP": 20,
         "Target": "NearOther",
@@ -12519,23 +12507,23 @@
         "Name": "PESTILENCEBURST",
         "Type": "GRASS",
         "Category": "Special",
-        "Power": 150,
+        "Power": 90,
         "Accuracy": 100,
-        "TotalPP": 5,
-        "Target": "AllNearOthers",
-        "FunctionCode": "PowerHigherWithUserHP",
+        "TotalPP": 10,
+        "Target": "AllNearFoes",
+        "FunctionCode": "HealUserByHalfOfDamageDone",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A beatiful yet terrifying blossom erupts. The lower the user's HP, the less powerful this attack becomes."
+        "Description": "A breathtaking flower erupts as it blooms, restoring the user's HP by half of damage dealt."
     },
     {
         "Name": "NAZCAPATTERNS",
         "Type": "NORMAL",
         "Category": "Special",
-        "Power": 120,
-        "Accuracy": 85,
+        "Power": 110,
+        "Accuracy": 100,
         "TotalPP": 5,
         "Target": "NearOther",
         "FunctionCode": "TypeIsUserFirstTypeCategoryDependsOnHigherDamage",
@@ -12550,7 +12538,7 @@
         "Name": "QUAKINGSPEAR",
         "Type": "GROUND",
         "Category": "Physical",
-        "Power": 80,
+        "Power": 60,
         "Accuracy": 95,
         "TotalPP": 10,
         "Target": "NearOther",
@@ -12568,7 +12556,7 @@
         "Name": "STRIDENTSPARK",
         "Type": "SOUND",
         "Category": "Physical",
-        "Power": 75,
+        "Power": 70,
         "Accuracy": 100,
         "TotalPP": 10,
         "Target": "NearOther",
@@ -12576,9 +12564,10 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "Punching"
+            "CanMirrorMove"
         ],
-        "Description": "Punches that break the sound barrier deal damage. Hits Sound types super effectively."
+        "EffectChance": 0,
+        "Description": "The user attacks swiftly, breaking the sound barrier and dealing damage. Hits Sound types super effectively."
     },
     {
         "Name": "SPARKLECLUSTER",
@@ -12624,6 +12613,7 @@
         "Target": "NearOther",
         "FunctionCode": "LowerTargetSpeed1",
         "Flags": [
+            "Contact",
             "Soul",
             "CanProtect",
             "CanMirrorMove"
@@ -12660,7 +12650,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Four heads fire incendiary shots up to 4 times in a row."
+        "Description": "The user's four heads fire incendiary shots two to four times in a row."
     },
     {
         "Name": "THUNDERCLAP",
@@ -12683,8 +12673,8 @@
         "Name": "VINDUNAR",
         "Type": "FLYING",
         "Category": "Special",
-        "Power": 100,
-        "Accuracy": 85,
+        "Power": 90,
+        "Accuracy": 100,
         "TotalPP": 10,
         "Target": "NearOther",
         "FunctionCode": "Vindunar",
@@ -12693,7 +12683,7 @@
             "CanMirrorMove",
             "CannotMetronome"
         ],
-        "Description": "Mystical wind deals damage to the target. Uses highest attack stat and never misses under Rain."
+        "Description": "Mystical wind attack the target. Uses highest attack stat and never misses under Rain."
     },
     {
         "Name": "WHIRLYHELIX",
@@ -12741,18 +12731,18 @@
         "Name": "DISCORDANTSHRIEK",
         "Type": "SOUND",
         "Category": "Special",
-        "Power": 120,
-        "Accuracy": 100,
-        "TotalPP": 10,
-        "Target": "RandomNearFoe",
-        "FunctionCode": "MultiTurnAttackConfuseUserAtEnd",
+        "Power": 65,
+        "Accuracy": 95,
+        "TotalPP": 15,
+        "Target": "AllNearFoes",
+        "FunctionCode": "LowerTargetSpeed1",
         "Flags": [
             "MultiTurn",
             "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Chilling screams deal damage for 2 or 3 turns, then it confuses the user."
+        "Description": "Chilling screams damage the foes, lowering their speed."
     },
     {
         "Name": "HEARTBEAT",
@@ -12790,17 +12780,16 @@
         "Name": "SERENEWAVE",
         "Type": "NORMAL",
         "Category": "Special",
-        "Power": 70,
-        "Accuracy": 90,
+        "Power": 90,
+        "Accuracy": 100,
         "TotalPP": 10,
         "Target": "AllNearFoes",
-        "FunctionCode": "LowerTargetSpAtk1",
+        "FunctionCode": "None",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "EffectChance": 100,
-        "Description": "A soothing wave hinders the fighting spirit of the opponents, lowering Sp.Attack."
+        "Description": "The user creates a soothing wave that hinders the fighting spirit of their opponents, damaging them."
     },
     {
         "Name": "FURIOUSPUMMELING",
@@ -12863,19 +12852,19 @@
     },
     {
         "Name": "HOARFROSTTIDE",
-        "Type": "WATER",
+        "Type": "ICE",
         "Category": "Special",
-        "Power": 105,
+        "Power": 95,
         "Accuracy": 85,
         "TotalPP": 5,
         "Target": "NearOther",
-        "FunctionCode": "FreezeTargetAlwaysHitsInHailAlwaysHitsInRain",
+        "FunctionCode": "LowerTargetSpAttack1AlwaysHitsInHailAlwaysHitsInRain",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "EffectChance": 20,
-        "Description": "Cold water storms the opponent, which may inflict frostbite. Never misses under Rain and Snow."
+        "EffectChance": 30,
+        "Description": "Cold water storms the opponent, which may lower special attack. Never misses under Rain and Snow."
     },
     {
         "Name": "MANAFANGS",
@@ -12898,16 +12887,16 @@
         "Name": "MERCURIANTRAP",
         "Type": "STEEL",
         "Category": "Special",
-        "Power": 110,
+        "Power": 50,
         "Accuracy": 100,
         "TotalPP": 15,
-        "Target": "NearOther",
-        "Priority": -3,
-        "FunctionCode": "BadPoisonAttackerBeforeUserActs",
+        "Target": "AllNearFoes",
+        "Priority": 0,
+        "FunctionCode": "BindTarget",
         "Flags": [
             "CanProtect"
         ],
-        "Description": "Liquid metal drowns the user's body, before being hurled. Contact causes bad poison."
+        "Description": "The user traps its opponents in a cage of mercury, preventing them from switching out."
     },
     {
         "Name": "RAIDERTONITRUS",
@@ -12990,13 +12979,13 @@
         "Accuracy": 100,
         "TotalPP": 10,
         "Target": "NearOther",
-        "FunctionCode": "TypeAndPowerDependOnTerrain",
+        "FunctionCode": "PowerHigherWhenTerrain",
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
             "Contact"
         ],
-        "Description": "A claw imbued with energy strikes. Different stats are raised depending on the terrain."
+        "Description": "A claw imbued with energy strikes. This move's power increases when a terrain is active."
     },
     {
         "Name": "TRITIUMCANNON",
@@ -13018,18 +13007,18 @@
     {
         "Name": "WHITEWRAITHS",
         "Type": "GHOST",
-        "Category": "Physical",
-        "Power": 90,
+        "Category": "Special",
+        "Power": 65,
         "Accuracy": 100,
-        "TotalPP": 5,
+        "TotalPP": 10,
         "Target": "NearOther",
-        "FunctionCode": "TwoTurnAttackChargeRaiseUserAttack1OneTurnInSun",
+        "FunctionCode": "TwoTurnAttackChargeRaiseUserSpecialAttack1OneTurnInSun",
         "Flags": [
             "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A two-turn attack. Wraiths are absorbed, increasing Attack. Unleashes in 1 turn under Sun."
+        "Description": "A two-turn attack. Wraiths are absorbed, increasing Special Attack. Unleashes in 1 turn under Sun."
     },
     {
         "Name": "SOULSUCKER",
@@ -13074,6 +13063,7 @@
         "Target": "NearOther",
         "FunctionCode": "None",
         "Flags": [
+            "Contact",
             "CanProtect",
             "CanMirrorMove",
             "CannotMetronome",
@@ -13102,16 +13092,17 @@
         "Name": "PYROCLASTICSWEEP",
         "Type": "FIRE",
         "Category": "Physical",
-        "Power": 150,
+        "Power": 90,
         "Accuracy": 100,
-        "TotalPP": 5,
+        "TotalPP": 10,
         "Target": "AllNearFoes",
-        "FunctionCode": "PowerHigherWithUserHP",
+        "FunctionCode": "None",
         "Flags": [
+            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Fierce flames are shot forward. The lower the user's HP, the less powerful this attack becomes."
+        "Description": "The user lets loose sweeping flames, damaging opposing Pok\u00c3\u00a9mon."
     },
     {
         "Name": "TORBIDVINESTORM",
@@ -13138,6 +13129,7 @@
         "Target": "NearOther",
         "FunctionCode": "CodePower",
         "Flags": [
+            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -13181,6 +13173,7 @@
         "Target": "NearOther",
         "FunctionCode": "CategoryDependsOnHigherDamageLowerUserDefSpDef1",
         "Flags": [
+            "Contact",
             "CanProtect",
             "CanMirrorMove",
             "Punching",
@@ -13297,5 +13290,642 @@
             "CanMirrorMove"
         ],
         "Description": "The user lets loose a huge yawn that lulls everyone into falling asleep on the next turn."
+    },
+    {
+        "Name": "TYPHOONFLAME",
+        "Type": "FIRE",
+        "Category": "Special",
+        "Power": 80,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "IncreasePowerInRainWeather",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user unleashes a fiery surge that draws moisture from the air, creating a steam-fueled inferno. Its power is intensified during rain."
+    },
+    {
+        "Name": "BURNINGPALM",
+        "Type": "FIRE",
+        "Category": "Physical",
+        "Power": 25,
+        "Accuracy": 90,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "HitTwoToFiveTimes",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user strikes the target with ignited palms two to five times in a row."
+    },
+    {
+        "Name": "TWIRLINGSWIPES",
+        "Type": "FAIRY",
+        "Category": "Physical",
+        "Power": 25,
+        "Accuracy": 90,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "HitTwoToFiveTimes",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user playfully twirls around and swipes at their opponent, hitting them up to five times."
+    },
+    {
+        "Name": "PYREPRISON",
+        "Type": "FIGHTING",
+        "Category": "Physical",
+        "Power": 80,
+        "Accuracy": 90,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "CategoryDependsOnHigherDamageBindTarget",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove",
+            "CannotMetronome"
+        ],
+        "Description": "The user traps the target in a cage of raging fire for four to five turns. Inflicts physical or special damage, whichever will be more effective."
+    },
+    {
+        "Name": "GAMMABURST",
+        "Type": "POISON",
+        "Category": "Special",
+        "Power": 90,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "HealAllyOrDamageFoe",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove",
+            "Bomb"
+        ],
+        "Description": "A concentrated blast of radiation is fired, damaging enemies and restoring allies."
+    },
+    {
+        "Name": "VINESTORM",
+        "Type": "GRASS",
+        "Category": "Special",
+        "Power": 90,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "AllNearFoes",
+        "FunctionCode": "CategoryDependsOnHigherDamage",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "Vines sprout from the ground and thrash at the opposing Pokemon. Inflicts physical or special damage, whichever will be more effective."
+    },
+    {
+        "Name": "IRONSTRIKE",
+        "Type": "STEEL",
+        "Category": "Physical",
+        "Power": 50,
+        "Accuracy": 100,
+        "TotalPP": 25,
+        "Target": "NearOther",
+        "FunctionCode": "IronStrike",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user gives a harsh strike with its tail, knocking out its target drastically increases Attack stat."
+    },
+    {
+        "Name": "DISSIPATION",
+        "Type": "TYPELESS",
+        "Category": "Status",
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "User",
+        "Priority": 4,
+        "FunctionCode": "ProtectUserFromDamagingMovesDissipation",
+        "Description": "The user protects itself from all attacks. Direct contact lowers the attacker's Special Defense."
+    },
+    {
+        "Name": "ALLURINGVOICE",
+        "Type": "FAIRY",
+        "Category": "Special",
+        "Power": 80,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "ConfuseTargetIfTargetStatsRaisedThisTurn",
+        "Flags": [
+            "Sound",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 100,
+        "Description": "Attacks using an angelic voice. This confuses the target if its stats have been raised this turn."
+    },
+    {
+        "Name": "HARDPRESS",
+        "Type": "STEEL",
+        "Category": "Physical",
+        "Power": 1,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "PowerHigherWithTargetHP100PowerRange",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The target is crushed with great force. The attack is more powerful the more HP the target has left."
+    },
+    {
+        "Name": "HIDDENPOWERGROUND",
+        "Type": "GROUND",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "Not for player usage."
+    },
+    {
+        "Name": "HIDDENPOWERFIR",
+        "Type": "FIRE",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERWAT",
+        "Type": "WATER",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERELE",
+        "Type": "ELECTRIC",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERGRA",
+        "Type": "GRASS",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERICE",
+        "Type": "ICE",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERFIG",
+        "Type": "FIGHTING",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERPOI",
+        "Type": "POISON",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERGRO",
+        "Type": "GROUND",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERFLY",
+        "Type": "FLYING",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERPSY",
+        "Type": "PSYCHIC",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERBUG",
+        "Type": "BUG",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERROC",
+        "Type": "ROCK",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERGHO",
+        "Type": "GHOST",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERDRA",
+        "Type": "DRAGON",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERDAR",
+        "Type": "DARK",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERSTE",
+        "Type": "STEEL",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERFAI",
+        "Type": "FAIRY",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "HIDDENPOWERSOU",
+        "Type": "SOUND",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A unique attack that varies in type and intensity depending on the Pok\u00c3\u00a9mon using it."
+    },
+    {
+        "Name": "SONICSLASH",
+        "Type": "STEEL",
+        "Category": "Physical",
+        "Power": 80,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "UseUserBaseSpeedInsteadOfUserBaseAttack",
+        "Flags": [
+            "Contact",
+            "Slicing",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user slashes an opponent with stunning speed. Power increases the higher the user's Speed is."
+    },
+    {
+        "Name": "HYDRODANCE",
+        "Type": "WATER",
+        "Category": "Special",
+        "Power": 80,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "RaiseUserSpAtk1",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove",
+            "Dance"
+        ],
+        "EffectChance": 50,
+        "Description": "Cloaked in a veil of water, the user dances and attacks an opponent. It may also raise the user's Sp. Atk stat."
+    },
+    {
+        "Name": "VAINGLORYVENTURE",
+        "Type": "DRAGON",
+        "Category": "Special",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 20,
+        "Target": "NearOther",
+        "FunctionCode": "AlwaysCriticalHitLowerAtkSpAtkItemless",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "This attack always crits. If the opponent isn't holding an item, their attacking stats are lowered."
+    },
+    {
+        "Name": "UPPERHAND",
+        "Type": "FIGHTING",
+        "Category": "Physical",
+        "Power": 65,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "Priority": 3,
+        "FunctionCode": "FlinchTargetFailsIfTargetNotUsingPriorityMove",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 100,
+        "Description": "An attack that hits first and makes the target flinch. Fails if the target isn't using a high priority move."
+    },
+    {
+        "Name": "ASTRALSTORM",
+        "Type": "FLYING",
+        "Category": "Special",
+        "Power": 100,
+        "Accuracy": 100,
+        "TotalPP": 5,
+        "Target": "AllNearFoes",
+        "FunctionCode": "CategoryDependsOnHigherDamageIgnoreTargetAbility",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove",
+            "CannotMetronome"
+        ],
+        "Description": "The user attacks with a barrage of stars. This move the higher of the user's Attack or Sp. Atk stat."
+    },
+    {
+        "Name": "DIREHEAVEN",
+        "Type": "GHOST",
+        "Category": "Special",
+        "Power": 110,
+        "Accuracy": 100,
+        "TotalPP": 5,
+        "Target": "AllNearFoes",
+        "FunctionCode": "BurnTarget",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 20,
+        "Description": "The skies cry out, showering opponents with blights. This attack may leave its targets with a burn."
+    },
+    {
+        "Name": "RYTHMICCOMBO",
+        "Type": "SOUND",
+        "Category": "Physical",
+        "Power": 20,
+        "Accuracy": 90,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "HitThreeTimesPowersUpWithEachHit",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "A consecutive three-strike attack that becomes more powerful with each successful hit."
+    },
+    {
+        "Name": "ELECTROSHOT",
+        "Type": "ELECTRIC",
+        "Category": "Special",
+        "Power": 130,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "TwoTurnAttackOneTurnInRainRaiseUserSpAtk1",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 100,
+        "Description": "A two-turn attack. The user boosts its Sp. Atk and then fires a high-voltage shot."
+    },
+    {
+        "Name": "HOLLOWSTRIKE",
+        "Type": "GHOST",
+        "Category": "Physical",
+        "Power": 60,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "AlwaysCriticalHit",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user catches the opponent off guard and strikes. This attack always results in a critical hit."
+    },
+    {
+        "Name": "BLACKFLAME",
+        "Type": "DARK",
+        "Category": "Special",
+        "Power": 85,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "LowerTargetSpAtk1",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove",
+            "Sound",
+            "CannotMetronome"
+        ],
+        "EffectChance": 100,
+        "Description": "The user shoots a debilitating black fire, which lowers the target's Sp. Atk stat."
+    },
+    {
+        "Name": "BLOODMOON",
+        "Type": "NORMAL",
+        "Category": "Special",
+        "Power": 140,
+        "Accuracy": 100,
+        "TotalPP": 5,
+        "Target": "NearOther",
+        "FunctionCode": "CantSelectConsecutiveTurns",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user unleashes the full brunt of its spirit from a full moon that shines as red as blood. This move can't be used twice in a row."
+    },
+    {
+        "Name": "MATCHAGOTCHA",
+        "Type": "GRASS",
+        "Category": "Physical",
+        "Power": 85,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "PoisonTarget",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user slams the target with a club reinforced with poisonous thorns. May poison the target.",
+        "EffectChance": 50
     }
 ]

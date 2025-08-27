@@ -3,10 +3,10 @@
 [VENUSAUR,1]
 FormName = Mega Venusaur
 MegaStone = VENUSAURITE
-BaseStats = 110,127,153,65,70,110
-Abilities = SANDSHROUD
-HiddenAbility = SANDSHROUD
-Weight = 200.0
+BaseStats = 110,130,140,65,90,100
+Abilities = SANDRUSH
+HiddenAbility = SANDRUSH
+Weight = 600.0
 Pokedex = While its massive horns are intimidating, it's the humanoid clay figure on its back that scares away most predators. It's theorized that Venusaur's wish of protecting its offspring was fulfilled by the power of Mega Evolution, forming the haunting statue. 
 Generation = 6
 BattlerPlayerY = 8
@@ -15,12 +15,12 @@ BattlerEnemyY = 10
 [BEEDRILL,1]
 FormName = Mega Beedrill
 MegaStone = BEEDRILLITE
-BaseStats = 65,150,40,145,15,80
-Abilities = ADAPTABILITY
-HiddenAbility = ADAPTABILITY
+BaseStats = 75,100,135,50,75,125
+Abilities = ARENATRAP
+HiddenAbility = ARENATRAP
 Height = 1.4
 Weight = 40.5
-Pokedex = Its legs have become poison stingers. It stabs its prey repeatedly with the stingers on its limbs, dealing the final blow with the stinger on its rear.
+Pokedex = 
 Generation = 6
 BattlerPlayerY = 14
 BattlerEnemyY = 15
@@ -535,7 +535,7 @@ BattlerEnemyY = 4
 [FEAROW,1]
 FormName = Mega Fearow
 MegaStone = FEAROWITE
-BaseStats = 75,115,120,120,46,71
+BaseStats = 65,120,95,130,51,81
 Abilities = SHARPNESS
 HiddenAbility = SHARPNESS
 Weight = 80.0
@@ -544,7 +544,6 @@ Generation = 6
 BattlerPlayerY = 8
 BattlerEnemyY = 10
 #-------------------------------
-
 [WEEZING,1]
 FormName = Galarian Form
 Type1 = POISON
@@ -625,7 +624,7 @@ FormName = Mega Aerodactyl
 Type1 = GRASS
 Type2 = ROCK
 MegaStone = AERODACTYLITE
-BaseStats = 80,135,145,80,70,105
+BaseStats = 80,140,150,80,70,95
 Abilities = ROCKHEAD
 HiddenAbility = ROCKHEAD
 Height = 1.9
@@ -1104,7 +1103,7 @@ FormName = Mega Altaria
 MegaStone = ALTARIANITE
 Type1 = ELECTRIC
 Type2 = DRAGON
-BaseStats = 75,155,90,80,110,105
+BaseStats = 75,155,90,80,110,110
 Abilities = SURGESURFER
 HiddenAbility = SURGESURFER
 Height = 1.5
@@ -1139,7 +1138,7 @@ BattlerEnemyY = 28
 [BANETTE,1]
 FormName = Mega Banette
 MegaStone = BANETTITE
-BaseStats = 64,165,75,75,93,83
+BaseStats = 64,165,75,95,83,93
 Abilities = PRANKSTER
 HiddenAbility = PRANKSTER
 Height = 1.2
@@ -1152,9 +1151,9 @@ BattlerEnemyY = 20
 [ABSOL,1]
 FormName = Mega Absol
 MegaStone = ABSOLITE
-BaseStats = 65,140,80,95,135,80
-Abilities = CHLOROPHYLL
-HiddenAbility = CHLOROPHYLL
+BaseStats = 65,160,85,105,85,85
+Abilities = ANCIENTKNOWLEDGE
+HiddenAbility = ANCIENTKNOWLEDGE
 Weight = 79.0
 Pokedex = TBD
 BattlerEnemyY = 17
@@ -1297,7 +1296,7 @@ Type1 = BUG
 Type2 = GROUND
 BaseStats = 60,79,105,36,59,85
 EffortPoints = 0,0,2,0,0,0
-Moves = 0,QUIVERDANCE,1,QUIVERDANCE,1,SUCKERPUNCH,1,TACKLE,1,PROTECT,1,BUGBITE,10,PROTECT,15,BUGBITE,20,HIDDENPOWER,23,CONFUSION,26,ROCKBLAST,29,HARDEN,32,PSYBEAM,35,CAPTIVATE,38,FLAIL,41,ATTRACT,44,PSYCHIC,47,FISSURE,50,BUGBUZZ
+Moves = 0,QUIVERDANCE,1,QUIVERDANCE,1,SUCKERPUNCH,1,TACKLE,1,PROTECT,1,BUGBITE,10,PROTECT,15,BUGBITE,20,STRINGSHOT,23,CONFUSION,26,ROCKBLAST,29,HARDEN,32,PSYBEAM,35,INFESTATION,38,FLAIL,41,ATTRACT,44,PSYCHIC,47,FISSURE,50,BUGBUZZ
 TutorMoves = ALLYSWITCH,ATTRACT,BUGBITE,BULLDOZE,CONFIDE,DIG,DOUBLETEAM,DREAMEATER,EARTHPOWER,EARTHQUAKE,ELECTROWEB,ENDEAVOR,ENDURE,FACADE,FRUSTRATION,GIGAIMPACT,HIDDENPOWER,HYPERBEAM,INFESTATION,PROTECT,PSYCHIC,PSYCHUP,RAINDANCE,REST,RETURN,ROCKTOMB,ROUND,SAFEGUARD,SANDSTORM,SHADOWBALL,SIGNALBEAM,SKILLSWAP,SLEEPTALK,SNORE,STEALTHROCK,SUBSTITUTE,SUNNYDAY,SWAGGER,TELEKINESIS,THIEF,TOXIC,UPROAR,VENOSHOCK
 Color = Brown
 BattlerPlayerY = 26
@@ -1308,7 +1307,7 @@ Type1 = BUG
 Type2 = STEEL
 BaseStats = 60,69,95,36,69,95
 EffortPoints = 0,0,1,0,0,1
-Moves = 0,QUIVERDANCE,1,QUIVERDANCE,1,METALBURST,1,SUCKERPUNCH,1,TACKLE,1,PROTECT,1,BUGBITE,10,PROTECT,15,BUGBITE,20,HIDDENPOWER,23,CONFUSION,26,MIRRORSHOT,29,METALSOUND,32,PSYBEAM,35,CAPTIVATE,38,FLAIL,41,ATTRACT,44,PSYCHIC,47,IRONHEAD,50,BUGBUZZ
+Moves = 0,QUIVERDANCE,1,QUIVERDANCE,1,METALBURST,1,SUCKERPUNCH,1,TACKLE,1,PROTECT,1,BUGBITE,10,PROTECT,15,BUGBITE,20,STRINGSHOT,23,CONFUSION,26,METALBURST,29,METALSOUND,32,PSYBEAM,35,INFESTATION,38,FLAIL,41,ATTRACT,44,PSYCHIC,47,IRONHEAD,50,BUGBUZZ
 TutorMoves = ALLYSWITCH,ATTRACT,BUGBITE,CONFIDE,DOUBLETEAM,DREAMEATER,ELECTROWEB,ENDEAVOR,ENDURE,FACADE,FLASHCANNON,FRUSTRATION,GIGAIMPACT,GUNKSHOT,GYROBALL,HIDDENPOWER,HYPERBEAM,INFESTATION,IRONDEFENSE,IRONHEAD,MAGNETRISE,PROTECT,PSYCHIC,PSYCHUP,RAINDANCE,REST,RETURN,ROUND,SAFEGUARD,SHADOWBALL,SIGNALBEAM,SKILLSWAP,SLEEPTALK,SNORE,STEALTHROCK,SUBSTITUTE,SUNNYDAY,SWAGGER,TELEKINESIS,THIEF,TOXIC,UPROAR,VENOSHOCK
 Color = Red
 BattlerPlayerY = 26
@@ -1359,12 +1358,12 @@ BattlerEnemyY = 13
 #-------------------------------
 [LUCARIO,1]
 FormName = Mega Lucario
-Type1 = ELECTRIC
+Type1 = FIGHTING
 Type2 = PSYCHIC
 MegaStone = LUCARIONITE
-BaseStats = 60,80,70,160,145,110
-Abilities = NOGUARD
-HiddenAbility = NOGUARD
+BaseStats = 65,90,85,145,130,110
+Abilities = MEGALAUNCHER
+HiddenAbility = MEGALAUNCHER
 Height = 1.5
 Weight = 0.5
 Pokedex = With its firewall being nullified during Mega Evolving, a virus infected Lucario. At the peak of its power, it can teleport a small chunk of world into the virtual one.
@@ -1375,8 +1374,8 @@ BattlerEnemyY = 15
 [ABOMASNOW,1]
 FormName = Mega Abomasnow
 MegaStone = ABOMASITE
-BaseStats = 100,132,105,30,132,105
-HiddenAbility = SNOWWARNING
+BaseStats = 90,132,100,40,132,100
+HiddenAbilities = SLUSHRUSH
 Height = 2.7
 Weight = 185.0
 Generation = 6
@@ -1784,9 +1783,15 @@ FormName = Chill Drive
 FormName = Douse Drive
 #-------------------------------
 [GRENINJA,1]
-Abilities = BATTLEBOND
-HiddenAbility = BATTLEBOND
-Compatibility = Undiscovered
+FormName = Fierce Stance
+Type1 = ROCK
+Type2 = WATER
+BaseStats = 85,134,65,136,70,60
+EffortPoints = 0,1,0,2,0,0
+Color = Gray
+Pokedex = When something is threatening Greninja or its home, it will shed all notions of tranquility and peace. It will attack with unparalleled ferocity until its home is safe.
+BattlerPlayerY = 33
+BattlerEnemyY = 33
 #-------------------------------
 [VIVILLON,1]
 FormName = Archipelago Pattern
@@ -2380,11 +2385,10 @@ FormName = Female
 BaseStats = 70,55,65,85,95,105
 EffortPoints = 0,0,0,0,0,2
 Abilities = OWNTEMPO,SYNCHRONIZE
-Moves = 1,STOREDPOWER,1,PLAYNICE,5,BATONPASS,10,DISARMINGVOICE,15,PSYBEAM,20,HELPINGHAND,25,FOLLOWME,30,AROMATHERAPY,35,PSYCHIC,40,CALMMIND,45,GUARDSPLIT,50,PSYCHICTERRAIN,55,HEALINGWISH
-TutorMoves = ALLYSWITCH,ATTRACT,BATONPASS,CALMMIND,DAZZLINGGLEAM,DRAININGKISS,DRAINPUNCH,ENDURE,ENERGYBALL,EXPANDINGFORCE,FACADE,FUTURESIGHT,GUARDSWAP,HELPINGHAND,HYPERVOICE,IMPRISON,LIGHTSCREEN,MAGICALLEAF,METRONOME,MYSTICALFIRE,PAYDAY,PLAYROUGH,PROTECT,PSYCHIC,PSYCHICTERRAIN,PSYSHOCK,REFLECT,REST,ROUND,SAFEGUARD,SHADOWBALL,SLEEPTALK,SNORE,STOREDPOWER,SUBSTITUTE,SWIFT,TERRAINPULSE,TRICK,ZENHEADBUTT
+Moves = 1,STOREDPOWER,1,PLAYNICE,5,ENCORE,10,DISARMINGVOICE,15,PSYBEAM,20,SWIFT,25,FOLLOWME,30,HEALINGWISH,35,PSYCHIC,40,CALMMIND,45,GUARDSPLIT,50,SERENEWAVE,55,FAKEOUT
+TutorMoves = ALLYSWITCH,ATTRACT,BATONPASS,BODYSLAM,CALMMIND,CHARM,DAZZLINGGLEAM,DISARMINGVOICE,DRAININGKISS,DRAINPUNCH,ENDURE,ENERGYBALL,EXPANDINGFORCE,FACADE,FUTURESIGHT,GUARDSWAP,HELPINGHAND,HYPERVOICE,IMPRISON,LIGHTSCREEN,MAGICALLEAF,METRONOME,MYSTICALFIRE,PAYDAY,PLAYROUGH,PROTECT,PSYBEAM,PSYCHIC,PSYCHICTERRAIN,PSYSHOCK,REFLECT,REST,ROUND,SAFEGUARD,SHADOWBALL,SKILLSWAP,SLEEPTALK,SNORE,STOREDPOWER,SUBSTITUTE,SWIFT,TAKEDOWN,TERRAINPULSE,TRICK,TRICKROOM,ZENHEADBUTT
 EggMoves = FAKEOUT,HEALPULSE,PSYCHUP,PSYCHOSHIFT
 Pokedex = They diligently serve people and Pokémon so they can gather feelings of gratitude. The females are particularly good at babysitting.
-BattlerPlayerY = 26
 #-------------------------------
 [MORPEKO,1]
 FormName = Hangry Mode
@@ -2421,8 +2425,8 @@ BattlerEnemyY = 12
 FormName = Unleashed
 Type1 = POISON
 Type2 = GROUND
-BaseStats = 95,125,90,110,110,90
-EffortPoints = 0,0,0,0,2,0
+BaseStats = 80,130,60,100,100,70
+EffortPoints = 0,2,0,0,0,0
 Color = Purple
 Pokedex = Setsarec will only shed its skin against powerful opponents, unleashing its full power. The markings on its crest turn foes into stone. 
 BattlerPlayerY = 33
@@ -2431,13 +2435,13 @@ BattlerEnemyY = 33
 [FLYGON,1]
 FormName = Mega Flygon
 MegaStone = FLYGONITE
-Type1 = ICE
-Type2 = POISON
+Type1 = BUG
+Type2 = DARK
 BaseStats = 80,80,80,110,140,120
 Abilities = DARKENEDSCALES
 HiddenAbility = DARKENEDSCALES
 Weight = 102.0
-Pokedex = Unlike their normal counterpart, they are savage and impetuous, freezing even the air itself. This drastic change in behaviour is caused by the immense energy output of Mega Evolution.
+Pokedex = Unlike their normal counterpart, they are savage and impetuous. This drastic change in behaviour is caused by the immense energy output of Mega Evolution.
 Generation = 6
 BattlerPlayerY = 8
 BattlerEnemyY = 10
@@ -2445,21 +2449,21 @@ BattlerEnemyY = 10
 [BLASTOISE,1]
 FormName = Mega Blastoise 
 MegaStone = BLASTOISINITE
-BaseStats = 79,143,160,48,95,125
-Abilities = GOODASGOLD
-HiddenAbility = GOODASGOLD
+BaseStats = 79,143,150,68,95,115
+Abilities = SUPREMEOVERLORD
+HiddenAbility = SUPREMEOVERLORD
 Weight = 800.0
-Pokedex = The massive scales bursting out of its shell have forced Blastoise to stay on all fours, due to their immense weight. A single swing from this Pokemon's arms can fold a steel beam like paper.
+Pokedex = The massive scales bursting out of its shell have forced Blastoise to stay on all fours, due to their immense weight. A single swing from this Pokemon cam demolish several buildings in a row.
 Generation = 6
 BattlerPlayerY = 8
 BattlerEnemyY = 10
 #-------------------------------
 [RELICANTH,1]
 FormName = Mega Relicanth
-MegaStone = RELICANTITE
-BaseStats = 65,40,110,65,130,175
-Abilities = SANDRUSH
-HiddenAbility = SANDRUSH
+MegaStone = RELICANTHITE
+BaseStats = 65,40,140,65,130,145
+Abilities = STORMDRAIN
+HiddenAbility = STORMDRAIN
 Weight = 33.4
 Pokedex = Due to the unbridled power of Mega Evolution, Relicanth's remaining organs are slowly melting inside its body, causing extremely hot smoke to surround the Pokemon. 
 Generation = 6
@@ -2469,7 +2473,7 @@ BattlerEnemyY = 10
 [CHARIZARD,1]
 FormName = Mega Charizard 
 MegaStone = CHARIZARDITE
-BaseStats = 88,107,98,70,138,134
+BaseStats = 91,97,98,77,138,134
 Abilities = SHEERFORCE
 HiddenAbility = SHEERFORCE
 Weight = 200.5
@@ -2684,13 +2688,76 @@ FormName = Water
 Types = WATER,GRASS
 Abilities = PHASECHANGE
 #-------------------------------
-[GRENINJA,2]
-FormName = Fierce Stance
-Type1 = ROCK
-Type2 = WATER
-BaseStats = 83,131,55,136,80,50
-EffortPoints = 0,1,0,2,0,0
-Color = Gray
-Pokedex = When something is threatening Greninja or its home, it will shed all notions of tranquility and peace. It will attack with unparalleled ferocity until its home is safe.
-BattlerPlayerY = 33
-BattlerEnemyY = 33
+[DRUDDIGON,1]
+FormName = Mega Druddigon
+MegaStone = DRUDDIGONITE
+Type1 = ELECTRIC
+Type2 = GHOST
+BaseStats = 82,137,90,121,70,85
+Abilities = DOWNLOAD
+HiddenAbility = DOWNLOAD
+Weight = 0.1
+Pokedex = The power of Mega Evolution has made Druddigon siginificantly faster. It only hungers for the corruption of more data.
+BattlerPlayerY = 21
+BattlerEnemyY = 18
+#-------------------------------
+[NOCTOWLT,1]
+FormName = Mega Noctowl
+Type1 = FAIRY
+Type2 = FLYING
+MegaStone = NOCTOWLITE
+BaseStats = 100,50,70,115,130,100
+Abilities = DAZZLING
+HiddenAbility = DAZZLING
+Weight = 2.4
+Pokedex = Mega Noctowl's feathers, when shrouded in the moon's light, have the peculiar ability to turn it completely invisible.
+BattlerPlayerY = 0
+BattlerEnemyY = 0
+#-------------------------------
+[OBSCUREON,1]
+FormName = Mega Obscureon
+MegaStone = OBSCURITE
+BaseStats = 90,115,95,90,140,120
+Abilities = OBFUSCATE
+Weight = 26.5
+Pokedex = 
+Generation = 6
+BattlerPlayerY = 8
+BattlerEnemyY = 10
+#-------------------------------
+[EVOLEON,1]
+FormName = Mega Evoleon
+MegaStone = EVOLEONITE
+BaseStats = 60,130,85,125,130,95
+Abilities = SHUFFLETYPE
+HiddenAbility = SHUFFLETYPE
+Weight = 26.5
+Pokedex = The influence of Mega Evolution over its DNA causes the various genetic codes inside Evoleon to prevail over the rest. This unpredictable nature makes it hard to control.
+Generation = 6
+BattlerPlayerY = 8
+BattlerEnemyY = 10
+#-------------------------------
+[DRAGONITE,1]
+FormName = Mega Dragonite
+MegaStone = DRAGONITIUM
+BaseStats = 90,145,115,105,130,115
+Abilities = CRITICALBEAT
+HiddenAbility = CRITICALBEAT
+Height = 2.4
+Weight = 210.0
+Pokedex = Living beings around it pass out due to the overwhelming energy emanating from it. If a Dragonite remains in this state for too long, a black hole may form.
+Generation = 6
+BattlerPlayerY = 14
+BattlerEnemyY = 15
+#-------------------------------
+[URSALUNA,1]
+FormName = Blood Moon
+BaseStats = 113,70,120,52,135,65
+Abilities = MINDSEYE
+HiddenAbility = MINDSEYE
+Height = 2.7
+Weight = 333.0
+Pokedex = It crossed the sea and drifted ashore in a new land. Surviving in this place led it to take on a unique appearance and gain special powers.
+Generation = 9
+BattlerPlayerY = 14
+BattlerEnemyY = 15

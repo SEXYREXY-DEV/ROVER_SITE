@@ -8,24 +8,24 @@
         "FormName": "Mega Venusaur",
         "BaseStats": [
             "110",
-            "127",
-            "153",
+            "130",
+            "140",
             "65",
-            "70",
-            "110"
+            "90",
+            "100"
         ],
-        "Weight": 200.0
+        "Weight": 600.0
     },
     {
         "BaseName": "BEEDRILL",
         "FormName": "Mega Beedrill",
         "BaseStats": [
-            "65",
-            "150",
-            "40",
-            "145",
-            "15",
-            "80"
+            "75",
+            "100",
+            "135",
+            "50",
+            "75",
+            "125"
         ],
         "Height": 1.4,
         "Weight": 40.5
@@ -367,12 +367,12 @@
         "BaseName": "FEAROW",
         "FormName": "Mega Fearow",
         "BaseStats": [
-            "75",
-            "115",
+            "65",
             "120",
-            "120",
-            "46",
-            "71"
+            "95",
+            "130",
+            "51",
+            "81"
         ],
         "Weight": 80.0
     },
@@ -441,11 +441,11 @@
         "FormName": "Mega Aerodactyl",
         "BaseStats": [
             "80",
-            "135",
-            "145",
+            "140",
+            "150",
             "80",
             "70",
-            "105"
+            "95"
         ],
         "Height": 1.9,
         "Weight": 139.0
@@ -900,7 +900,7 @@
             "90",
             "80",
             "110",
-            "105"
+            "110"
         ],
         "Height": 1.5
     },
@@ -923,9 +923,9 @@
             "64",
             "165",
             "75",
-            "75",
-            "93",
-            "83"
+            "95",
+            "83",
+            "93"
         ],
         "Height": 1.2,
         "Weight": 13.0
@@ -935,11 +935,11 @@
         "FormName": "Mega Absol",
         "BaseStats": [
             "65",
-            "140",
-            "80",
-            "95",
-            "135",
-            "80"
+            "160",
+            "85",
+            "105",
+            "85",
+            "85"
         ],
         "Weight": 79.0
     },
@@ -1165,11 +1165,11 @@
         "BaseName": "LUCARIO",
         "FormName": "Mega Lucario",
         "BaseStats": [
-            "60",
-            "80",
-            "70",
-            "160",
+            "65",
+            "90",
+            "85",
             "145",
+            "130",
             "110"
         ],
         "Height": 1.5,
@@ -1179,12 +1179,12 @@
         "BaseName": "ABOMASNOW",
         "FormName": "Mega Abomasnow",
         "BaseStats": [
+            "90",
+            "132",
             "100",
+            "40",
             "132",
-            "105",
-            "30",
-            "132",
-            "105"
+            "100"
         ],
         "Height": 2.7,
         "Weight": 185.0
@@ -1603,7 +1603,15 @@
     },
     {
         "BaseName": "GRENINJA",
-        "FormName": "GRENINJA Form 1"
+        "FormName": "Fierce Stance",
+        "BaseStats": [
+            "85",
+            "134",
+            "65",
+            "136",
+            "70",
+            "60"
+        ]
     },
     {
         "BaseName": "VIVILLON",
@@ -2321,12 +2329,12 @@
         "BaseName": "SETSAREC",
         "FormName": "Unleashed",
         "BaseStats": [
-            "95",
-            "125",
-            "90",
-            "110",
-            "110",
-            "90"
+            "80",
+            "130",
+            "60",
+            "100",
+            "100",
+            "70"
         ]
     },
     {
@@ -2348,10 +2356,10 @@
         "BaseStats": [
             "79",
             "143",
-            "160",
-            "48",
+            "150",
+            "68",
             "95",
-            "125"
+            "115"
         ],
         "Weight": 800.0
     },
@@ -2361,10 +2369,10 @@
         "BaseStats": [
             "65",
             "40",
-            "110",
+            "140",
             "65",
             "130",
-            "175"
+            "145"
         ],
         "Weight": 33.4
     },
@@ -2372,10 +2380,10 @@
         "BaseName": "CHARIZARD",
         "FormName": "Mega Charizard",
         "BaseStats": [
-            "88",
-            "107",
+            "91",
+            "97",
             "98",
-            "70",
+            "77",
             "138",
             "134"
         ],
@@ -2642,15 +2650,83 @@
         "Types": "WATER,GRASS"
     },
     {
-        "BaseName": "GRENINJA",
-        "FormName": "Fierce Stance",
+        "BaseName": "DRUDDIGON",
+        "FormName": "Mega Druddigon",
         "BaseStats": [
-            "83",
-            "131",
-            "55",
-            "136",
-            "80",
-            "50"
-        ]
+            "82",
+            "137",
+            "90",
+            "121",
+            "70",
+            "85"
+        ],
+        "Weight": 0.1
+    },
+    {
+        "BaseName": "NOCTOWLT",
+        "FormName": "Mega Noctowl",
+        "BaseStats": [
+            "100",
+            "50",
+            "70",
+            "115",
+            "130",
+            "100"
+        ],
+        "Weight": 2.4
+    },
+    {
+        "BaseName": "OBSCUREON",
+        "FormName": "Mega Obscureon",
+        "BaseStats": [
+            "90",
+            "115",
+            "95",
+            "90",
+            "140",
+            "120"
+        ],
+        "Weight": 26.5
+    },
+    {
+        "BaseName": "EVOLEON",
+        "FormName": "Mega Evoleon",
+        "BaseStats": [
+            "60",
+            "130",
+            "85",
+            "125",
+            "130",
+            "95"
+        ],
+        "Weight": 26.5
+    },
+    {
+        "BaseName": "DRAGONITE",
+        "FormName": "Mega Dragonite",
+        "BaseStats": [
+            "90",
+            "145",
+            "115",
+            "105",
+            "130",
+            "115"
+        ],
+        "Height": 2.4,
+        "Weight": 210.0
+    },
+    {
+        "BaseName": "URSALUNA",
+        "FormName": "Blood Moon",
+        "BaseStats": [
+            "113",
+            "70",
+            "120",
+            "52",
+            "135",
+            "65"
+        ],
+        "Height": 2.7,
+        "Weight": 333.0
     }
 ]
