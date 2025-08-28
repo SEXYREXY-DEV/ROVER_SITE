@@ -315,7 +315,7 @@ function renderEvolutions(original, allOriginalPokemon) {
     evoDiv.className = 'evo-stage';
     if (highlight) evoDiv.classList.add('current-pokemon');
     evoDiv.innerHTML = `
-      <img src="./games/${game}/images/Front/${p.InternalName.toLowerCase()}.png" alt="${p.Name}" class="evolution-sprite" />
+      <img src="./games/${game}/images/Front/${p.InternalName.toUpperCase()}.png" alt="${p.Name}" class="evolution-sprite" />
       <div>${p.Name}</div>
     `;
 
