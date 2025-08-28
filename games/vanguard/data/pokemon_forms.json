@@ -14,7 +14,11 @@
             "90",
             "100"
         ],
-        "Weight": 600.0
+        "HiddenAbility": "SANDRUSH",
+        "Abilities": "SANDRUSH",
+        "Weight": 600.0,
+        "InternalName": "VENUSAUR",
+        "Height": 2.2
     },
     {
         "BaseName": "BEEDRILL",
@@ -27,8 +31,11 @@
             "75",
             "125"
         ],
+        "HiddenAbility": "ARENATRAP",
+        "Abilities": "ARENATRAP",
         "Height": 1.4,
-        "Weight": 40.5
+        "Weight": 40.5,
+        "InternalName": "BEEDRILL"
     },
     {
         "BaseName": "PIDGEOT",
@@ -41,17 +48,36 @@
             "135",
             "80"
         ],
+        "HiddenAbility": "NOGUARD",
+        "Abilities": "NOGUARD",
         "Height": 2.2,
-        "Weight": 50.5
+        "Weight": 50.5,
+        "InternalName": "PIDGEOT"
     },
     {
         "BaseName": "RATTATA",
         "FormName": "Alolan Form",
-        "Weight": 3.8
+        "Type1": "DARK",
+        "Type2": "NORMAL",
+        "HiddenAbility": "THICKFAT",
+        "Abilities": "GLUTTONY,HUSTLE",
+        "Weight": 3.8,
+        "InternalName": "RATTATA",
+        "BaseStats": [
+            "40",
+            "66",
+            "45",
+            "30",
+            "25",
+            "45"
+        ],
+        "Height": 0.3
     },
     {
         "BaseName": "RATICATE",
         "FormName": "Alolan Form",
+        "Type1": "DARK",
+        "Type2": "NORMAL",
         "BaseStats": [
             "75",
             "71",
@@ -60,67 +86,241 @@
             "40",
             "80"
         ],
-        "Weight": 25.5
+        "HiddenAbility": "THICKFAT",
+        "Abilities": "GLUTTONY,HUSTLE",
+        "Weight": 25.5,
+        "InternalName": "RATICATE",
+        "Height": 0.7
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Cosplay Pikachu"
+        "FormName": "Cosplay Pikachu",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Cosplay Pikachu - Belle"
+        "FormName": "Cosplay Pikachu - Belle",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Cosplay Pikachu - Libre"
+        "FormName": "Cosplay Pikachu - Libre",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Cosplay Pikachu - Ph.D."
+        "FormName": "Cosplay Pikachu - Ph.D.",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Cosplay Pikachu - Pop Star"
+        "FormName": "Cosplay Pikachu - Pop Star",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Cosplay Pikachu - Rock Star"
+        "FormName": "Cosplay Pikachu - Rock Star",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Original Cap Pikachu"
+        "FormName": "Original Cap Pikachu",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Hoenn Cap Pikachu"
+        "FormName": "Hoenn Cap Pikachu",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Sinnoh Cap Pikachu"
+        "FormName": "Sinnoh Cap Pikachu",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Unova Cap Pikachu"
+        "FormName": "Unova Cap Pikachu",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Kalos Cap Pikachu"
+        "FormName": "Kalos Cap Pikachu",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Alola Cap Pikachu"
+        "FormName": "Alola Cap Pikachu",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "Partner Cap Pikachu"
+        "FormName": "Partner Cap Pikachu",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "PIKACHU",
-        "FormName": "World Cap Pikachu"
+        "FormName": "World Cap Pikachu",
+        "InternalName": "PIKACHU",
+        "BaseStats": [
+            "35",
+            "55",
+            "40",
+            "90",
+            "50",
+            "50"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.4,
+        "Weight": 6.0
     },
     {
         "BaseName": "RAICHU",
         "FormName": "Alolan Form",
+        "Type1": "ELECTRIC",
+        "Type2": "PSYCHIC",
         "BaseStats": [
             "60",
             "85",
@@ -129,12 +329,17 @@
             "95",
             "85"
         ],
+        "HiddenAbility": "SURGESURFER",
+        "Abilities": "SURGESURFER",
         "Height": 0.7,
-        "Weight": 21.0
+        "Weight": 21.0,
+        "InternalName": "RAICHU"
     },
     {
         "BaseName": "SANDSHREW",
         "FormName": "Alolan Form",
+        "Type1": "ICE",
+        "Type2": "STEEL",
         "BaseStats": [
             "50",
             "75",
@@ -143,12 +348,17 @@
             "10",
             "35"
         ],
+        "HiddenAbility": "SLUSHRUSH",
+        "Abilities": "SNOWCLOAK",
         "Height": 0.7,
-        "Weight": 40.0
+        "Weight": 40.0,
+        "InternalName": "SANDSHREW"
     },
     {
         "BaseName": "SANDSLASH",
         "FormName": "Alolan Form",
+        "Type1": "ICE",
+        "Type2": "STEEL",
         "BaseStats": [
             "75",
             "100",
@@ -157,16 +367,35 @@
             "25",
             "65"
         ],
+        "HiddenAbility": "SLUSHRUSH",
+        "Abilities": "SNOWCLOAK",
         "Height": 1.2,
-        "Weight": 55.0
+        "Weight": 55.0,
+        "InternalName": "SANDSLASH"
     },
     {
         "BaseName": "VULPIX",
-        "FormName": "Alolan Form"
+        "FormName": "Alolan Form",
+        "Type1": "ICE",
+        "HiddenAbility": "SNOWWARNING",
+        "Abilities": "SNOWCLOAK",
+        "InternalName": "VULPIX",
+        "BaseStats": [
+            "38",
+            "41",
+            "40",
+            "65",
+            "50",
+            "65"
+        ],
+        "Height": 0.6,
+        "Weight": 9.9
     },
     {
         "BaseName": "NINETALES",
         "FormName": "Alolan Form",
+        "Type1": "ICE",
+        "Type2": "FAIRY",
         "BaseStats": [
             "73",
             "67",
@@ -174,11 +403,18 @@
             "109",
             "81",
             "100"
-        ]
+        ],
+        "HiddenAbility": "SNOWWARNING",
+        "Abilities": "SNOWCLOAK",
+        "InternalName": "NINETALES",
+        "Height": 1.1,
+        "Weight": 19.9
     },
     {
         "BaseName": "DIGLETT",
         "FormName": "Alolan Form",
+        "Type1": "GROUND",
+        "Type2": "STEEL",
         "BaseStats": [
             "10",
             "55",
@@ -187,11 +423,17 @@
             "35",
             "45"
         ],
-        "Weight": 1.0
+        "HiddenAbility": "SANDVEIL,TANGLINGHAIR",
+        "Abilities": "SANDVEIL,TANGLINGHAIR",
+        "Weight": 1.0,
+        "InternalName": "DIGLETT",
+        "Height": 0.2
     },
     {
         "BaseName": "DUGTRIO",
         "FormName": "Alolan Form",
+        "Type1": "GROUND",
+        "Type2": "STEEL",
         "BaseStats": [
             "35",
             "100",
@@ -200,11 +442,16 @@
             "50",
             "70"
         ],
-        "Weight": 66.6
+        "HiddenAbility": "SANDVEIL,TANGLINGHAIR",
+        "Abilities": "SANDVEIL,TANGLINGHAIR",
+        "Weight": 66.6,
+        "InternalName": "DUGTRIO",
+        "Height": 0.7
     },
     {
         "BaseName": "MEOWTH",
         "FormName": "Alolan Form",
+        "Type1": "DARK",
         "BaseStats": [
             "40",
             "35",
@@ -212,11 +459,17 @@
             "90",
             "50",
             "40"
-        ]
+        ],
+        "HiddenAbility": "RATTLED",
+        "InternalName": "MEOWTH",
+        "Abilities": "PICKUP,TECHNICIAN",
+        "Height": 0.4,
+        "Weight": 4.2
     },
     {
         "BaseName": "MEOWTH",
         "FormName": "Galarian Form",
+        "Type1": "STEEL",
         "BaseStats": [
             "50",
             "65",
@@ -224,11 +477,17 @@
             "40",
             "40",
             "40"
-        ]
+        ],
+        "HiddenAbility": "PICKUP,TOUGHCLAWS",
+        "Abilities": "PICKUP,TOUGHCLAWS",
+        "InternalName": "MEOWTH",
+        "Height": 0.4,
+        "Weight": 4.2
     },
     {
         "BaseName": "PERSIAN",
         "FormName": "Alolan Form",
+        "Type1": "DARK",
         "BaseStats": [
             "65",
             "60",
@@ -237,8 +496,11 @@
             "75",
             "65"
         ],
+        "HiddenAbility": "RATTLED",
+        "Abilities": "FURCOAT,TECHNICIAN",
         "Height": 1.1,
-        "Weight": 33.0
+        "Weight": 33.0,
+        "InternalName": "PERSIAN"
     },
     {
         "BaseName": "ALAKAZAM",
@@ -251,42 +513,129 @@
             "175",
             "105"
         ],
-        "Height": 1.2
+        "HiddenAbility": "TRACE",
+        "Abilities": "TRACE",
+        "Height": 1.2,
+        "InternalName": "ALAKAZAM",
+        "Weight": 48.0
     },
     {
         "BaseName": "GEODUDE",
         "FormName": "Alolan Form",
-        "Weight": 20.3
+        "Type1": "ROCK",
+        "Type2": "ELECTRIC",
+        "HiddenAbility": "GALVANIZE",
+        "Abilities": "MAGNETPULL,STURDY",
+        "Weight": 20.3,
+        "InternalName": "GEODUDE",
+        "BaseStats": [
+            "40",
+            "80",
+            "100",
+            "20",
+            "30",
+            "30"
+        ],
+        "Height": 0.4
     },
     {
         "BaseName": "GRAVELER",
         "FormName": "Alolan Form",
-        "Weight": 110.0
+        "Type1": "ROCK",
+        "Type2": "ELECTRIC",
+        "HiddenAbility": "GALVANIZE",
+        "Abilities": "MAGNETPULL,STURDY",
+        "Weight": 110.0,
+        "InternalName": "GRAVELER",
+        "BaseStats": [
+            "55",
+            "95",
+            "115",
+            "35",
+            "45",
+            "45"
+        ],
+        "Height": 1.0
     },
     {
         "BaseName": "GOLEM",
         "FormName": "Alolan Form",
+        "Type1": "ROCK",
+        "Type2": "ELECTRIC",
+        "HiddenAbility": "GALVANIZE",
+        "Abilities": "MAGNETPULL,STURDY",
         "Height": 1.7,
-        "Weight": 316.0
+        "Weight": 316.0,
+        "InternalName": "GOLEM",
+        "BaseStats": [
+            "80",
+            "120",
+            "130",
+            "45",
+            "55",
+            "65"
+        ]
     },
     {
         "BaseName": "PONYTA",
         "FormName": "Galarian Form",
+        "Type1": "PSYCHIC",
+        "HiddenAbility": "ANTICIPATION",
+        "Abilities": "RUNAWAY,PASTELVEIL",
         "Height": 0.8,
-        "Weight": 24.0
+        "Weight": 24.0,
+        "InternalName": "PONYTA",
+        "BaseStats": [
+            "50",
+            "85",
+            "55",
+            "90",
+            "65",
+            "65"
+        ]
     },
     {
         "BaseName": "RAPIDASH",
         "FormName": "Galarian Form",
-        "Weight": 80.0
+        "Type1": "PSYCHIC",
+        "Type2": "FAIRY",
+        "HiddenAbility": "ANTICIPATION",
+        "Abilities": "RUNAWAY,PASTELVEIL",
+        "Weight": 80.0,
+        "InternalName": "RAPIDASH",
+        "BaseStats": [
+            "65",
+            "100",
+            "70",
+            "105",
+            "80",
+            "80"
+        ],
+        "Height": 1.7
     },
     {
         "BaseName": "SLOWPOKE",
-        "FormName": "Galarian Form"
+        "FormName": "Galarian Form",
+        "Type1": "PSYCHIC",
+        "HiddenAbility": "GLUTTONY,OWNTEMPO",
+        "Abilities": "GLUTTONY,OWNTEMPO",
+        "InternalName": "SLOWPOKE",
+        "BaseStats": [
+            "90",
+            "65",
+            "65",
+            "15",
+            "40",
+            "40"
+        ],
+        "Height": 1.2,
+        "Weight": 36.0
     },
     {
         "BaseName": "SLOWBRO",
         "FormName": "Galarian Form",
+        "Type1": "POISON",
+        "Type2": "PSYCHIC",
         "BaseStats": [
             "95",
             "100",
@@ -295,7 +644,11 @@
             "100",
             "70"
         ],
-        "Weight": 70.5
+        "HiddenAbility": "QUICKDRAW,OWNTEMPO",
+        "Abilities": "QUICKDRAW,OWNTEMPO",
+        "Weight": 70.5,
+        "InternalName": "SLOWBRO",
+        "Height": 1.6
     },
     {
         "BaseName": "SLOWBRO",
@@ -308,12 +661,16 @@
             "130",
             "80"
         ],
+        "HiddenAbility": "SHELLARMOR",
+        "Abilities": "SHELLARMOR",
         "Height": 2.0,
-        "Weight": 120.0
+        "Weight": 120.0,
+        "InternalName": "SLOWBRO"
     },
     {
         "BaseName": "FARFETCHD",
         "FormName": "Galarian Form",
+        "Type1": "FIGHTING",
         "BaseStats": [
             "52",
             "95",
@@ -322,19 +679,49 @@
             "58",
             "62"
         ],
-        "Weight": 42.0
+        "HiddenAbility": "SCRAPPY",
+        "Abilities": "STEADFAST",
+        "Weight": 42.0,
+        "InternalName": "FARFETCHD",
+        "Height": 0.8
     },
     {
         "BaseName": "GRIMER",
         "FormName": "Alolan Form",
+        "Type1": "POISON",
+        "Type2": "DARK",
+        "HiddenAbility": "POWEROFALCHEMY",
+        "Abilities": "POISONTOUCH,GLUTTONY",
         "Height": 0.7,
-        "Weight": 42.0
+        "Weight": 42.0,
+        "InternalName": "GRIMER",
+        "BaseStats": [
+            "75",
+            "40",
+            "60",
+            "20",
+            "70",
+            "60"
+        ]
     },
     {
         "BaseName": "MUK",
         "FormName": "Alolan Form",
+        "Type1": "POISON",
+        "Type2": "DARK",
+        "HiddenAbility": "POWEROFALCHEMY",
+        "Abilities": "POISONTOUCH,GLUTTONY",
         "Height": 1.0,
-        "Weight": 52.0
+        "Weight": 52.0,
+        "InternalName": "MUK",
+        "BaseStats": [
+            "100",
+            "65",
+            "90",
+            "45",
+            "110",
+            "90"
+        ]
     },
     {
         "BaseName": "GENGAR",
@@ -347,11 +734,17 @@
             "170",
             "95"
         ],
-        "Height": 1.4
+        "HiddenAbility": "SHADOWTAG",
+        "Abilities": "SHADOWTAG",
+        "Height": 1.4,
+        "InternalName": "GENGAR",
+        "Weight": 40.5
     },
     {
         "BaseName": "EXEGGUTOR",
         "FormName": "Alolan Form",
+        "Type1": "GRASS",
+        "Type2": "DRAGON",
         "BaseStats": [
             "95",
             "105",
@@ -360,8 +753,11 @@
             "125",
             "75"
         ],
+        "HiddenAbility": "FRISK",
+        "Abilities": "FRISK",
         "Height": 10.9,
-        "Weight": 415.6
+        "Weight": 415.6,
+        "InternalName": "EXEGGUTOR"
     },
     {
         "BaseName": "FEAROW",
@@ -374,13 +770,30 @@
             "51",
             "81"
         ],
-        "Weight": 80.0
+        "HiddenAbility": "SHARPNESS",
+        "Abilities": "SHARPNESS",
+        "Weight": 80.0,
+        "InternalName": "FEAROW",
+        "Height": 1.2
     },
     {
         "BaseName": "WEEZING",
         "FormName": "Galarian Form",
+        "Type1": "POISON",
+        "Type2": "FAIRY",
+        "HiddenAbility": "MISTYSURGE",
         "Height": 3.0,
-        "Weight": 16.0
+        "Weight": 16.0,
+        "InternalName": "WEEZING",
+        "BaseStats": [
+            "85",
+            "55",
+            "120",
+            "60",
+            "100",
+            "90"
+        ],
+        "Abilities": "LEVITATE,NEUTRALIZINGGAS"
     },
     {
         "BaseName": "KANGASKHAN",
@@ -393,11 +806,17 @@
             "60",
             "100"
         ],
-        "Weight": 100.0
+        "HiddenAbility": "PARENTALBOND",
+        "Abilities": "PARENTALBOND",
+        "Weight": 100.0,
+        "InternalName": "KANGASKHAN",
+        "Height": 2.2
     },
     {
         "BaseName": "MRMIME",
         "FormName": "Galarian Form",
+        "Type1": "ICE",
+        "Type2": "PSYCHIC",
         "BaseStats": [
             "50",
             "65",
@@ -406,12 +825,17 @@
             "90",
             "90"
         ],
+        "HiddenAbility": "ICEBODY",
+        "Abilities": "VITALSPIRIT,SCREENCLEANER",
         "Height": 1.4,
-        "Weight": 56.8
+        "Weight": 56.8,
+        "InternalName": "MRMIME"
     },
     {
         "BaseName": "PINSIR",
         "FormName": "Mega Pinsir",
+        "Type1": "BUG",
+        "Type2": "FLYING",
         "BaseStats": [
             "65",
             "155",
@@ -420,12 +844,17 @@
             "65",
             "90"
         ],
+        "HiddenAbility": "AERILATE",
+        "Abilities": "AERILATE",
         "Height": 1.7,
-        "Weight": 59.0
+        "Weight": 59.0,
+        "InternalName": "PINSIR"
     },
     {
         "BaseName": "GYARADOS",
         "FormName": "Mega Gyarados",
+        "Type1": "WATER",
+        "Type2": "DARK",
         "BaseStats": [
             "95",
             "155",
@@ -434,11 +863,18 @@
             "70",
             "130"
         ],
-        "Weight": 305.0
+        "HiddenAbility": "MOLDBREAKER",
+        "Abilities": "MOLDBREAKER",
+        "Weight": 305.0,
+        "InternalName": "GYARADOS",
+        "Types": "WATER,FLYING",
+        "Height": 6.5
     },
     {
         "BaseName": "AERODACTYL",
         "FormName": "Mega Aerodactyl",
+        "Type1": "GRASS",
+        "Type2": "ROCK",
         "BaseStats": [
             "80",
             "140",
@@ -447,12 +883,17 @@
             "70",
             "95"
         ],
+        "HiddenAbility": "ROCKHEAD",
+        "Abilities": "ROCKHEAD",
         "Height": 1.9,
-        "Weight": 139.0
+        "Weight": 139.0,
+        "InternalName": "AERODACTYL"
     },
     {
         "BaseName": "ARTICUNO",
         "FormName": "Galarian Form",
+        "Type1": "PSYCHIC",
+        "Type2": "FLYING",
         "BaseStats": [
             "90",
             "85",
@@ -460,11 +901,18 @@
             "95",
             "125",
             "100"
-        ]
+        ],
+        "HiddenAbility": "COMPETITIVE",
+        "Abilities": "COMPETITIVE",
+        "InternalName": "ARTICUNO",
+        "Height": 1.7,
+        "Weight": 55.4
     },
     {
         "BaseName": "ZAPDOS",
         "FormName": "Galarian Form",
+        "Type1": "FIGHTING",
+        "Type2": "FLYING",
         "BaseStats": [
             "90",
             "125",
@@ -472,11 +920,18 @@
             "100",
             "85",
             "90"
-        ]
+        ],
+        "HiddenAbility": "DEFIANT",
+        "Abilities": "DEFIANT",
+        "InternalName": "ZAPDOS",
+        "Height": 1.6,
+        "Weight": 52.6
     },
     {
         "BaseName": "MOLTRES",
         "FormName": "Galarian Form",
+        "Type1": "DARK",
+        "Type2": "FLYING",
         "BaseStats": [
             "90",
             "85",
@@ -484,11 +939,18 @@
             "90",
             "100",
             "125"
-        ]
+        ],
+        "HiddenAbility": "BERSERK",
+        "Abilities": "BERSERK",
+        "InternalName": "MOLTRES",
+        "Height": 2.0,
+        "Weight": 60.0
     },
     {
         "BaseName": "MEWTWO",
         "FormName": "Mega Mewtwo X",
+        "Type1": "PSYCHIC",
+        "Type2": "FIGHTING",
         "BaseStats": [
             "106",
             "190",
@@ -497,8 +959,11 @@
             "154",
             "100"
         ],
+        "HiddenAbility": "STEADFAST",
+        "Abilities": "STEADFAST",
         "Height": 2.3,
-        "Weight": 127.0
+        "Weight": 127.0,
+        "InternalName": "MEWTWO"
     },
     {
         "BaseName": "MEWTWO",
@@ -511,16 +976,33 @@
             "194",
             "120"
         ],
+        "HiddenAbility": "INSOMNIA",
+        "Abilities": "INSOMNIA",
         "Height": 1.5,
-        "Weight": 33.0
+        "Weight": 33.0,
+        "InternalName": "MEWTWO"
     },
     {
         "BaseName": "PICHU",
-        "FormName": "Spiky-Eared"
+        "FormName": "Spiky-Eared",
+        "InternalName": "PICHU",
+        "BaseStats": [
+            "20",
+            "40",
+            "15",
+            "60",
+            "35",
+            "35"
+        ],
+        "Abilities": "STATIC",
+        "Height": 0.3,
+        "Weight": 2.0
     },
     {
         "BaseName": "AMPHAROS",
         "FormName": "Mega Ampharos",
+        "Type1": "ELECTRIC",
+        "Type2": "DRAGON",
         "BaseStats": [
             "90",
             "95",
@@ -528,11 +1010,18 @@
             "45",
             "165",
             "110"
-        ]
+        ],
+        "HiddenAbility": "MOLDBREAKER",
+        "Abilities": "MOLDBREAKER",
+        "InternalName": "AMPHAROS",
+        "Height": 1.4,
+        "Weight": 61.5
     },
     {
         "BaseName": "SLOWKING",
         "FormName": "Galarian Form",
+        "Type1": "POISON",
+        "Type2": "PSYCHIC",
         "BaseStats": [
             "95",
             "65",
@@ -541,115 +1030,443 @@
             "110",
             "110"
         ],
-        "Height": 1.8
+        "HiddenAbility": "CURIOUSMEDICINE,OWNTEMPO",
+        "Abilities": "CURIOUSMEDICINE,OWNTEMPO",
+        "Height": 1.8,
+        "InternalName": "SLOWKING",
+        "Weight": 79.5
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "B"
+        "FormName": "B",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "C"
+        "FormName": "C",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "D"
+        "FormName": "D",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "E"
+        "FormName": "E",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "F"
+        "FormName": "F",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "G"
+        "FormName": "G",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "H"
+        "FormName": "H",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "I"
+        "FormName": "I",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "J"
+        "FormName": "J",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "K"
+        "FormName": "K",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "L"
+        "FormName": "L",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "M"
+        "FormName": "M",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "N"
+        "FormName": "N",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "O"
+        "FormName": "O",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "P"
+        "FormName": "P",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "Q"
+        "FormName": "Q",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "R"
+        "FormName": "R",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "S"
+        "FormName": "S",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "T"
+        "FormName": "T",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "U"
+        "FormName": "U",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "V"
+        "FormName": "V",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "W"
+        "FormName": "W",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "X"
+        "FormName": "X",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "Y"
+        "FormName": "Y",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "Z"
+        "FormName": "Z",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "?"
+        "FormName": "?",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "UNOWN",
-        "FormName": "!"
+        "FormName": "!",
+        "InternalName": "UNOWN",
+        "BaseStats": [
+            "48",
+            "72",
+            "48",
+            "48",
+            "72",
+            "48"
+        ],
+        "Abilities": "LEVITATE",
+        "Height": 0.5,
+        "Weight": 5.0
     },
     {
         "BaseName": "STEELIX",
@@ -662,8 +1479,11 @@
             "55",
             "95"
         ],
+        "HiddenAbility": "SANDFORCE",
+        "Abilities": "SANDFORCE",
         "Height": 10.5,
-        "Weight": 740.0
+        "Weight": 740.0,
+        "InternalName": "STEELIX"
     },
     {
         "BaseName": "SCIZOR",
@@ -676,8 +1496,11 @@
             "100",
             "75"
         ],
+        "HiddenAbility": "TECHNICIAN",
+        "Abilities": "TECHNICIAN",
         "Height": 2.0,
-        "Weight": 125.0
+        "Weight": 125.0,
+        "InternalName": "SCIZOR"
     },
     {
         "BaseName": "HERACROSS",
@@ -690,12 +1513,16 @@
             "40",
             "105"
         ],
+        "HiddenAbility": "SKILLLINK",
+        "Abilities": "SKILLLINK",
         "Height": 1.7,
-        "Weight": 62.5
+        "Weight": 62.5,
+        "InternalName": "HERACROSS"
     },
     {
         "BaseName": "CORSOLA",
         "FormName": "Galarian Form",
+        "Type1": "GHOST",
         "BaseStats": [
             "60",
             "55",
@@ -704,7 +1531,11 @@
             "65",
             "100"
         ],
-        "Weight": 0.5
+        "HiddenAbility": "CURSEDBODY",
+        "Abilities": "WEAKARMOR",
+        "Weight": 0.5,
+        "InternalName": "CORSOLA",
+        "Height": 0.6
     },
     {
         "BaseName": "HOUNDOOM",
@@ -717,8 +1548,11 @@
             "140",
             "90"
         ],
+        "HiddenAbility": "SOLARPOWER",
+        "Abilities": "SOLARPOWER",
         "Height": 1.9,
-        "Weight": 49.5
+        "Weight": 49.5,
+        "InternalName": "HOUNDOOM"
     },
     {
         "BaseName": "TYRANITAR",
@@ -731,12 +1565,17 @@
             "95",
             "120"
         ],
+        "HiddenAbility": "SANDSTREAM",
         "Height": 2.5,
-        "Weight": 255.0
+        "Weight": 255.0,
+        "InternalName": "TYRANITAR",
+        "Abilities": "SANDSTREAM"
     },
     {
         "BaseName": "SCEPTILE",
         "FormName": "Mega Sceptile",
+        "Type1": "GRASS",
+        "Type2": "DRAGON",
         "BaseStats": [
             "70",
             "110",
@@ -745,8 +1584,11 @@
             "145",
             "85"
         ],
+        "HiddenAbility": "LIGHTNINGROD",
+        "Abilities": "LIGHTNINGROD",
         "Height": 1.9,
-        "Weight": 55.2
+        "Weight": 55.2,
+        "InternalName": "SCEPTILE"
     },
     {
         "BaseName": "BLAZIKEN",
@@ -758,7 +1600,12 @@
             "100",
             "130",
             "80"
-        ]
+        ],
+        "HiddenAbility": "SPEEDBOOST",
+        "Abilities": "SPEEDBOOST",
+        "InternalName": "BLAZIKEN",
+        "Height": 1.9,
+        "Weight": 52.0
     },
     {
         "BaseName": "SWAMPERT",
@@ -771,20 +1618,53 @@
             "95",
             "110"
         ],
+        "HiddenAbility": "SWIFTSWIM",
+        "Abilities": "SWIFTSWIM",
         "Height": 1.9,
-        "Weight": 102.0
+        "Weight": 102.0,
+        "InternalName": "SWAMPERT"
     },
     {
         "BaseName": "ZIGZAGOON",
-        "FormName": "Galarian Form"
+        "FormName": "Galarian Form",
+        "Type1": "DARK",
+        "Type2": "NORMAL",
+        "InternalName": "ZIGZAGOON",
+        "BaseStats": [
+            "38",
+            "60",
+            "41",
+            "60",
+            "30",
+            "41"
+        ],
+        "Abilities": "QUICKFEET,PICKUP",
+        "Height": 0.4,
+        "Weight": 17.5
     },
     {
         "BaseName": "LINOONE",
-        "FormName": "Galarian Form"
+        "FormName": "Galarian Form",
+        "Type1": "DARK",
+        "Type2": "NORMAL",
+        "InternalName": "LINOONE",
+        "BaseStats": [
+            "78",
+            "110",
+            "61",
+            "100",
+            "50",
+            "61"
+        ],
+        "Abilities": "QUICKFEET,PICKUP",
+        "Height": 0.5,
+        "Weight": 32.5
     },
     {
         "BaseName": "GARDEVOIR",
         "FormName": "Mega Gardevoir",
+        "Type1": "FLYING",
+        "Type2": "ELECTRIC",
         "BaseStats": [
             "72",
             "63",
@@ -793,8 +1673,11 @@
             "108",
             "140"
         ],
+        "HiddenAbility": "VACUUMCORE",
+        "Abilities": "VACUUMCORE",
         "Height": 1.8,
-        "Weight": 68.4
+        "Weight": 68.4,
+        "InternalName": "GARDEVOIR"
     },
     {
         "BaseName": "SABLEYE",
@@ -807,7 +1690,11 @@
             "85",
             "115"
         ],
-        "Weight": 161.0
+        "HiddenAbility": "MAGICBOUNCE",
+        "Abilities": "MAGICBOUNCE",
+        "Weight": 161.0,
+        "InternalName": "SABLEYE",
+        "Height": 0.5
     },
     {
         "BaseName": "MAWILE",
@@ -820,12 +1707,16 @@
             "55",
             "95"
         ],
+        "HiddenAbility": "HUGEPOWER",
+        "Abilities": "HUGEPOWER",
         "Height": 1.0,
-        "Weight": 23.5
+        "Weight": 23.5,
+        "InternalName": "MAWILE"
     },
     {
         "BaseName": "AGGRON",
         "FormName": "Mega Aggron",
+        "Type1": "STEEL",
         "BaseStats": [
             "70",
             "140",
@@ -834,8 +1725,11 @@
             "60",
             "80"
         ],
+        "HiddenAbility": "FILTER",
+        "Abilities": "FILTER",
         "Height": 2.2,
-        "Weight": 395.0
+        "Weight": 395.0,
+        "InternalName": "AGGRON"
     },
     {
         "BaseName": "MEDICHAM",
@@ -847,7 +1741,12 @@
             "100",
             "80",
             "85"
-        ]
+        ],
+        "HiddenAbility": "PUREPOWER",
+        "InternalName": "MEDICHAM",
+        "Abilities": "PUREPOWER",
+        "Height": 1.3,
+        "Weight": 31.5
     },
     {
         "BaseName": "MANECTRIC",
@@ -860,8 +1759,11 @@
             "135",
             "80"
         ],
+        "HiddenAbility": "INTIMIDATE",
+        "Abilities": "INTIMIDATE",
         "Height": 1.8,
-        "Weight": 44.0
+        "Weight": 44.0,
+        "InternalName": "MANECTRIC"
     },
     {
         "BaseName": "SHARPEDO",
@@ -874,8 +1776,11 @@
             "110",
             "65"
         ],
+        "HiddenAbility": "STRONGJAW",
+        "Abilities": "STRONGJAW",
         "Height": 2.5,
-        "Weight": 130.3
+        "Weight": 130.3,
+        "InternalName": "SHARPEDO"
     },
     {
         "BaseName": "CAMERUPT",
@@ -888,12 +1793,17 @@
             "145",
             "105"
         ],
+        "HiddenAbility": "SHEERFORCE",
+        "Abilities": "SHEERFORCE",
         "Height": 2.5,
-        "Weight": 320.5
+        "Weight": 320.5,
+        "InternalName": "CAMERUPT"
     },
     {
         "BaseName": "ALTARIAT",
         "FormName": "Mega Altaria",
+        "Type1": "ELECTRIC",
+        "Type2": "DRAGON",
         "BaseStats": [
             "75",
             "155",
@@ -902,19 +1812,62 @@
             "110",
             "110"
         ],
-        "Height": 1.5
+        "HiddenAbility": "SURGESURFER",
+        "Abilities": "SURGESURFER",
+        "Height": 1.5,
+        "InternalName": "ALTARIAT",
+        "Weight": 20.6
     },
     {
         "BaseName": "CASTFORM",
-        "FormName": "Sunny Form"
+        "FormName": "Sunny Form",
+        "Type1": "FIRE",
+        "InternalName": "CASTFORM",
+        "BaseStats": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+        ],
+        "Abilities": "FORECAST",
+        "Height": 0.3,
+        "Weight": 0.8
     },
     {
         "BaseName": "CASTFORM",
-        "FormName": "Rainy Form"
+        "FormName": "Rainy Form",
+        "Type1": "WATER",
+        "InternalName": "CASTFORM",
+        "BaseStats": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+        ],
+        "Abilities": "FORECAST",
+        "Height": 0.3,
+        "Weight": 0.8
     },
     {
         "BaseName": "CASTFORM",
-        "FormName": "Snowy Form"
+        "FormName": "Snowy Form",
+        "Type1": "ICE",
+        "InternalName": "CASTFORM",
+        "BaseStats": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+        ],
+        "Abilities": "FORECAST",
+        "Height": 0.3,
+        "Weight": 0.8
     },
     {
         "BaseName": "BANETTE",
@@ -927,8 +1880,11 @@
             "83",
             "93"
         ],
+        "HiddenAbility": "PRANKSTER",
+        "Abilities": "PRANKSTER",
         "Height": 1.2,
-        "Weight": 13.0
+        "Weight": 13.0,
+        "InternalName": "BANETTE"
     },
     {
         "BaseName": "ABSOL",
@@ -941,7 +1897,11 @@
             "85",
             "85"
         ],
-        "Weight": 79.0
+        "HiddenAbility": "ANCIENTKNOWLEDGE",
+        "Abilities": "ANCIENTKNOWLEDGE",
+        "Weight": 79.0,
+        "InternalName": "ABSOL",
+        "Height": 1.6
     },
     {
         "BaseName": "GLALIE",
@@ -954,8 +1914,11 @@
             "120",
             "80"
         ],
+        "HiddenAbility": "REFRIGERATE",
+        "Abilities": "REFRIGERATE",
         "Height": 2.1,
-        "Weight": 350.2
+        "Weight": 350.2,
+        "InternalName": "GLALIE"
     },
     {
         "BaseName": "SALAMENCE",
@@ -968,8 +1931,11 @@
             "120",
             "90"
         ],
+        "HiddenAbility": "AERILATE",
+        "Abilities": "AERILATE",
         "Height": 1.8,
-        "Weight": 112.6
+        "Weight": 112.6,
+        "InternalName": "SALAMENCE"
     },
     {
         "BaseName": "METAGROSS",
@@ -982,8 +1948,11 @@
             "120",
             "90"
         ],
+        "HiddenAbility": "TOUGHCLAWS",
+        "Abilities": "TOUGHCLAWS",
         "Height": 2.5,
-        "Weight": 942.9
+        "Weight": 942.9,
+        "InternalName": "METAGROSS"
     },
     {
         "BaseName": "LATIAS",
@@ -997,7 +1966,9 @@
             "150"
         ],
         "Height": 1.8,
-        "Weight": 52.0
+        "Weight": 52.0,
+        "InternalName": "LATIAS",
+        "Abilities": "LEVITATE"
     },
     {
         "BaseName": "LATIOS",
@@ -1011,7 +1982,9 @@
             "120"
         ],
         "Height": 2.3,
-        "Weight": 70.0
+        "Weight": 70.0,
+        "InternalName": "LATIOS",
+        "Abilities": "LEVITATE"
     },
     {
         "BaseName": "KYOGRE",
@@ -1024,12 +1997,17 @@
             "180",
             "160"
         ],
+        "HiddenAbility": "PRIMORDIALSEA",
+        "Abilities": "PRIMORDIALSEA",
         "Height": 9.8,
-        "Weight": 430.0
+        "Weight": 430.0,
+        "InternalName": "KYOGRE"
     },
     {
         "BaseName": "GROUDON",
         "FormName": "Primal Groudon",
+        "Type1": "GROUND",
+        "Type2": "FIRE",
         "BaseStats": [
             "100",
             "180",
@@ -1038,8 +2016,11 @@
             "150",
             "90"
         ],
+        "HiddenAbility": "DESOLATELAND",
+        "Abilities": "DESOLATELAND",
         "Height": 5.0,
-        "Weight": 999.7
+        "Weight": 999.7,
+        "InternalName": "GROUDON"
     },
     {
         "BaseName": "RAYQUAZA",
@@ -1052,8 +2033,11 @@
             "180",
             "100"
         ],
+        "HiddenAbility": "DELTASTREAM",
+        "Abilities": "DELTASTREAM",
         "Height": 10.8,
-        "Weight": 392.0
+        "Weight": 392.0,
+        "InternalName": "RAYQUAZA"
     },
     {
         "BaseName": "DEOXYS",
@@ -1065,7 +2049,11 @@
             "150",
             "180",
             "20"
-        ]
+        ],
+        "InternalName": "DEOXYS",
+        "Abilities": "PRESSURE",
+        "Height": 1.7,
+        "Weight": 60.8
     },
     {
         "BaseName": "DEOXYS",
@@ -1077,7 +2065,11 @@
             "90",
             "70",
             "160"
-        ]
+        ],
+        "InternalName": "DEOXYS",
+        "Abilities": "PRESSURE",
+        "Height": 1.7,
+        "Weight": 60.8
     },
     {
         "BaseName": "DEOXYS",
@@ -1089,19 +2081,49 @@
             "180",
             "95",
             "90"
-        ]
+        ],
+        "InternalName": "DEOXYS",
+        "Abilities": "PRESSURE",
+        "Height": 1.7,
+        "Weight": 60.8
     },
     {
         "BaseName": "BURMY",
-        "FormName": "Sandy Cloak"
+        "FormName": "Sandy Cloak",
+        "InternalName": "BURMY",
+        "BaseStats": [
+            "40",
+            "29",
+            "45",
+            "36",
+            "29",
+            "45"
+        ],
+        "Abilities": "SHEDSKIN",
+        "Height": 0.2,
+        "Weight": 3.4
     },
     {
         "BaseName": "BURMY",
-        "FormName": "Trash Cloak"
+        "FormName": "Trash Cloak",
+        "InternalName": "BURMY",
+        "BaseStats": [
+            "40",
+            "29",
+            "45",
+            "36",
+            "29",
+            "45"
+        ],
+        "Abilities": "SHEDSKIN",
+        "Height": 0.2,
+        "Weight": 3.4
     },
     {
         "BaseName": "WORMADAM",
         "FormName": "Sandy Cloak",
+        "Type1": "BUG",
+        "Type2": "GROUND",
         "BaseStats": [
             "60",
             "79",
@@ -1109,11 +2131,17 @@
             "36",
             "59",
             "85"
-        ]
+        ],
+        "InternalName": "WORMADAM",
+        "Abilities": "ANTICIPATION",
+        "Height": 0.5,
+        "Weight": 6.5
     },
     {
         "BaseName": "WORMADAM",
         "FormName": "Trash Cloak",
+        "Type1": "BUG",
+        "Type2": "STEEL",
         "BaseStats": [
             "60",
             "69",
@@ -1121,23 +2149,65 @@
             "36",
             "69",
             "95"
-        ]
+        ],
+        "InternalName": "WORMADAM",
+        "Abilities": "ANTICIPATION",
+        "Height": 0.5,
+        "Weight": 6.5
     },
     {
         "BaseName": "CHERRIM",
-        "FormName": "Sunshine Form"
+        "FormName": "Sunshine Form",
+        "InternalName": "CHERRIM",
+        "BaseStats": [
+            "70",
+            "60",
+            "70",
+            "85",
+            "87",
+            "78"
+        ],
+        "Abilities": "FLOWERGIFT",
+        "Height": 0.5,
+        "Weight": 9.3
     },
     {
         "BaseName": "SHELLOS",
-        "FormName": "East Sea"
+        "FormName": "East Sea",
+        "InternalName": "SHELLOS",
+        "BaseStats": [
+            "76",
+            "48",
+            "48",
+            "34",
+            "57",
+            "62"
+        ],
+        "Abilities": "STICKYHOLD,STORMDRAIN",
+        "Height": 0.3,
+        "Weight": 6.3
     },
     {
         "BaseName": "GASTRODON",
-        "FormName": "East Sea"
+        "FormName": "East Sea",
+        "InternalName": "GASTRODON",
+        "BaseStats": [
+            "111",
+            "83",
+            "68",
+            "39",
+            "92",
+            "82"
+        ],
+        "Abilities": "STICKYHOLD,STORMDRAIN",
+        "Height": 0.9,
+        "Weight": 29.9
     },
     {
         "BaseName": "LOPUNNY",
         "FormName": "Mega Lopunny",
+        "Type1": "NORMAL",
+        "Type2": "FIGHTING",
         "BaseStats": [
             "65",
             "136",
@@ -1146,8 +2216,11 @@
             "54",
             "96"
         ],
+        "HiddenAbility": "SCRAPPY",
+        "Abilities": "SCRAPPY",
         "Height": 1.3,
-        "Weight": 28.3
+        "Weight": 28.3,
+        "InternalName": "LOPUNNY"
     },
     {
         "BaseName": "GARCHOMP",
@@ -1159,11 +2232,18 @@
             "92",
             "120",
             "95"
-        ]
+        ],
+        "HiddenAbility": "SANDFORCE",
+        "Abilities": "SANDFORCE",
+        "InternalName": "GARCHOMP",
+        "Height": 1.9,
+        "Weight": 95.0
     },
     {
         "BaseName": "LUCARIO",
         "FormName": "Mega Lucario",
+        "Type1": "FIGHTING",
+        "Type2": "PSYCHIC",
         "BaseStats": [
             "65",
             "90",
@@ -1172,8 +2252,11 @@
             "130",
             "110"
         ],
+        "HiddenAbility": "MEGALAUNCHER",
+        "Abilities": "MEGALAUNCHER",
         "Height": 1.5,
-        "Weight": 0.5
+        "Weight": 0.5,
+        "InternalName": "LUCARIO"
     },
     {
         "BaseName": "ABOMASNOW",
@@ -1186,12 +2269,18 @@
             "132",
             "100"
         ],
+        "HiddenAbility": "SLUSHRUSH",
+        "HiddenAbilities": "SLUSHRUSH",
         "Height": 2.7,
-        "Weight": 185.0
+        "Weight": 185.0,
+        "InternalName": "ABOMASNOW",
+        "Abilities": "SNOWWARNING"
     },
     {
         "BaseName": "GALLADE",
         "FormName": "Mega Gallade",
+        "Type1": "FLYING",
+        "Type2": "FAIRY",
         "BaseStats": [
             "85",
             "138",
@@ -1200,12 +2289,17 @@
             "63",
             "82"
         ],
+        "HiddenAbility": "WINDMAESTRO",
+        "Abilities": "WINDMAESTRO",
         "Height": 1.8,
-        "Weight": 82.0
+        "Weight": 82.0,
+        "InternalName": "GALLADE"
     },
     {
         "BaseName": "ROTOM",
         "FormName": "Heat Rotom",
+        "Type1": "ELECTRIC",
+        "Type2": "FIRE",
         "BaseStats": [
             "50",
             "65",
@@ -1213,11 +2307,17 @@
             "86",
             "105",
             "107"
-        ]
+        ],
+        "InternalName": "ROTOM",
+        "Abilities": "LEVITATE",
+        "Height": 0.3,
+        "Weight": 0.3
     },
     {
         "BaseName": "ROTOM",
         "FormName": "Wash Rotom",
+        "Type1": "ELECTRIC",
+        "Type2": "WATER",
         "BaseStats": [
             "50",
             "65",
@@ -1225,11 +2325,17 @@
             "86",
             "105",
             "107"
-        ]
+        ],
+        "InternalName": "ROTOM",
+        "Abilities": "LEVITATE",
+        "Height": 0.3,
+        "Weight": 0.3
     },
     {
         "BaseName": "ROTOM",
         "FormName": "Frost Rotom",
+        "Type1": "ELECTRIC",
+        "Type2": "ICE",
         "BaseStats": [
             "50",
             "65",
@@ -1237,11 +2343,17 @@
             "86",
             "105",
             "107"
-        ]
+        ],
+        "InternalName": "ROTOM",
+        "Abilities": "LEVITATE",
+        "Height": 0.3,
+        "Weight": 0.3
     },
     {
         "BaseName": "ROTOM",
         "FormName": "Fan Rotom",
+        "Type1": "ELECTRIC",
+        "Type2": "FLYING",
         "BaseStats": [
             "50",
             "65",
@@ -1249,11 +2361,17 @@
             "86",
             "105",
             "107"
-        ]
+        ],
+        "InternalName": "ROTOM",
+        "Abilities": "LEVITATE",
+        "Height": 0.3,
+        "Weight": 0.3
     },
     {
         "BaseName": "ROTOM",
         "FormName": "Mow Rotom",
+        "Type1": "ELECTRIC",
+        "Type2": "GRASS",
         "BaseStats": [
             "50",
             "65",
@@ -1261,7 +2379,11 @@
             "86",
             "105",
             "107"
-        ]
+        ],
+        "InternalName": "ROTOM",
+        "Abilities": "LEVITATE",
+        "Height": 0.3,
+        "Weight": 0.3
     },
     {
         "BaseName": "GIRATINA",
@@ -1274,12 +2396,17 @@
             "120",
             "100"
         ],
+        "HiddenAbility": "LEVITATE",
+        "Abilities": "LEVITATE",
         "Height": 6.9,
-        "Weight": 650.0
+        "Weight": 650.0,
+        "InternalName": "GIRATINA"
     },
     {
         "BaseName": "SHAYMIN",
         "FormName": "Sky Forme",
+        "Type1": "GRASS",
+        "Type2": "FLYING",
         "BaseStats": [
             "100",
             "103",
@@ -1288,84 +2415,323 @@
             "120",
             "75"
         ],
+        "HiddenAbility": "SERENEGRACE",
+        "Abilities": "SERENEGRACE",
         "Height": 0.4,
-        "Weight": 5.2
+        "Weight": 5.2,
+        "InternalName": "SHAYMIN"
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Fighting Type"
+        "FormName": "Fighting Type",
+        "Type1": "FIGHTING",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Flying Type"
+        "FormName": "Flying Type",
+        "Type1": "FLYING",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Poison Type"
+        "FormName": "Poison Type",
+        "Type1": "POISON",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Ground Type"
+        "FormName": "Ground Type",
+        "Type1": "GROUND",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Rock Type"
+        "FormName": "Rock Type",
+        "Type1": "ROCK",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Bug Type"
+        "FormName": "Bug Type",
+        "Type1": "BUG",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Ghost Type"
+        "FormName": "Ghost Type",
+        "Type1": "GHOST",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Steel Type"
+        "FormName": "Steel Type",
+        "Type1": "STEEL",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Unknown Type"
+        "FormName": "Unknown Type",
+        "Type1": "QMARKS",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Fire Type"
+        "FormName": "Fire Type",
+        "Type1": "FIRE",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Water Type"
+        "FormName": "Water Type",
+        "Type1": "WATER",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Grass Type"
+        "FormName": "Grass Type",
+        "Type1": "GRASS",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Electric Type"
+        "FormName": "Electric Type",
+        "Type1": "ELECTRIC",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Psychic Type"
+        "FormName": "Psychic Type",
+        "Type1": "PSYCHIC",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Ice Type"
+        "FormName": "Ice Type",
+        "Type1": "ICE",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Dragon Type"
+        "FormName": "Dragon Type",
+        "Type1": "DRAGON",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Dark Type"
+        "FormName": "Dark Type",
+        "Type1": "DARK",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "ARCEUS",
-        "FormName": "Fairy Type"
+        "FormName": "Fairy Type",
+        "Type1": "FAIRY",
+        "InternalName": "ARCEUS",
+        "BaseStats": [
+            "120",
+            "120",
+            "120",
+            "120",
+            "120",
+            "120"
+        ],
+        "Abilities": "MULTITYPE",
+        "Height": 3.2,
+        "Weight": 320.0
     },
     {
         "BaseName": "AUDINO",
         "FormName": "Mega Audino",
+        "Type1": "SOUND",
+        "Type2": "FAIRY",
         "BaseStats": [
             "103",
             "60",
@@ -1374,26 +2740,67 @@
             "80",
             "126"
         ],
+        "HiddenAbility": "HEALER",
+        "Abilities": "HEALER",
         "Height": 1.5,
-        "Weight": 32.0
+        "Weight": 32.0,
+        "InternalName": "AUDINO"
     },
     {
         "BaseName": "BASCULIN",
-        "FormName": "White-Striped"
+        "FormName": "White-Striped",
+        "HiddenAbility": "RATTLED,ADAPTABILITY",
+        "Abilities": "RATTLED,ADAPTABILITY",
+        "InternalName": "BASCULIN",
+        "BaseStats": [
+            "70",
+            "92",
+            "65",
+            "98",
+            "80",
+            "55"
+        ],
+        "Height": 1.0,
+        "Weight": 18.0
     },
     {
         "BaseName": "BASCULIN",
-        "FormName": "Blue-Striped"
+        "FormName": "Blue-Striped",
+        "HiddenAbility": "ROCKHEAD,ADAPTABILITY",
+        "Abilities": "ROCKHEAD,ADAPTABILITY",
+        "InternalName": "BASCULIN",
+        "BaseStats": [
+            "70",
+            "92",
+            "65",
+            "98",
+            "80",
+            "55"
+        ],
+        "Height": 1.0,
+        "Weight": 18.0
     },
     {
         "BaseName": "DARUMAKA",
         "FormName": "Galarian Form",
+        "Type1": "ICE",
         "Height": 0.7,
-        "Weight": 40.0
+        "Weight": 40.0,
+        "InternalName": "DARUMAKA",
+        "BaseStats": [
+            "70",
+            "90",
+            "45",
+            "50",
+            "15",
+            "45"
+        ],
+        "Abilities": "HUSTLE"
     },
     {
         "BaseName": "DARMANITAN",
         "FormName": "Galarian Form",
+        "Type1": "ICE",
         "BaseStats": [
             "105",
             "140",
@@ -1402,12 +2809,17 @@
             "40",
             "55"
         ],
+        "HiddenAbility": "GORILLATACTICS",
+        "Abilities": "GORILLATACTICS",
         "Height": 1.7,
-        "Weight": 120.0
+        "Weight": 120.0,
+        "InternalName": "DARMANITAN"
     },
     {
         "BaseName": "DARMANITAN",
         "FormName": "Zen Mode",
+        "Type1": "FIRE",
+        "Type2": "PSYCHIC",
         "BaseStats": [
             "105",
             "30",
@@ -1415,11 +2827,17 @@
             "55",
             "140",
             "105"
-        ]
+        ],
+        "InternalName": "DARMANITAN",
+        "Abilities": "SHEERFORCE",
+        "Height": 1.3,
+        "Weight": 92.9
     },
     {
         "BaseName": "DARMANITAN",
         "FormName": "Galarian Form Zen Mode",
+        "Type1": "ICE",
+        "Type2": "FIRE",
         "BaseStats": [
             "105",
             "160",
@@ -1427,11 +2845,17 @@
             "135",
             "30",
             "55"
-        ]
+        ],
+        "InternalName": "DARMANITAN",
+        "Abilities": "SHEERFORCE",
+        "Height": 1.3,
+        "Weight": 92.9
     },
     {
         "BaseName": "YAMASK",
         "FormName": "Galarian Form",
+        "Type1": "GROUND",
+        "Type2": "GHOST",
         "BaseStats": [
             "38",
             "55",
@@ -1439,35 +2863,114 @@
             "30",
             "30",
             "65"
-        ]
+        ],
+        "HiddenAbility": "WANDERINGSPIRIT",
+        "Abilities": "WANDERINGSPIRIT",
+        "InternalName": "YAMASK",
+        "Height": 0.5,
+        "Weight": 1.5
     },
     {
         "BaseName": "DEERLING",
-        "FormName": "Summer Form"
+        "FormName": "Summer Form",
+        "InternalName": "DEERLING",
+        "BaseStats": [
+            "60",
+            "40",
+            "50",
+            "75",
+            "60",
+            "50"
+        ],
+        "Abilities": "LIGHTNINGROD,BERSERK",
+        "Height": 0.6,
+        "Weight": 19.5
     },
     {
         "BaseName": "DEERLING",
-        "FormName": "Autumn Form"
+        "FormName": "Autumn Form",
+        "InternalName": "DEERLING",
+        "BaseStats": [
+            "60",
+            "40",
+            "50",
+            "75",
+            "60",
+            "50"
+        ],
+        "Abilities": "LIGHTNINGROD,BERSERK",
+        "Height": 0.6,
+        "Weight": 19.5
     },
     {
         "BaseName": "DEERLING",
-        "FormName": "Winter Form"
+        "FormName": "Winter Form",
+        "InternalName": "DEERLING",
+        "BaseStats": [
+            "60",
+            "40",
+            "50",
+            "75",
+            "60",
+            "50"
+        ],
+        "Abilities": "LIGHTNINGROD,BERSERK",
+        "Height": 0.6,
+        "Weight": 19.5
     },
     {
         "BaseName": "SAWSBUCK",
-        "FormName": "Summer Form"
+        "FormName": "Summer Form",
+        "InternalName": "SAWSBUCK",
+        "BaseStats": [
+            "80",
+            "60",
+            "70",
+            "95",
+            "100",
+            "70"
+        ],
+        "Abilities": "LIGHTNINGROD,BERSERK",
+        "Height": 1.9,
+        "Weight": 92.5
     },
     {
         "BaseName": "SAWSBUCK",
-        "FormName": "Autumn Form"
+        "FormName": "Autumn Form",
+        "InternalName": "SAWSBUCK",
+        "BaseStats": [
+            "80",
+            "60",
+            "70",
+            "95",
+            "100",
+            "70"
+        ],
+        "Abilities": "LIGHTNINGROD,BERSERK",
+        "Height": 1.9,
+        "Weight": 92.5
     },
     {
         "BaseName": "SAWSBUCK",
-        "FormName": "Winter Form"
+        "FormName": "Winter Form",
+        "InternalName": "SAWSBUCK",
+        "BaseStats": [
+            "80",
+            "60",
+            "70",
+            "95",
+            "100",
+            "70"
+        ],
+        "Abilities": "LIGHTNINGROD,BERSERK",
+        "Height": 1.9,
+        "Weight": 92.5
     },
     {
         "BaseName": "STUNFISK",
         "FormName": "Galarian Form",
+        "Type1": "GROUND",
+        "Type2": "STEEL",
         "BaseStats": [
             "109",
             "81",
@@ -1476,7 +2979,11 @@
             "66",
             "84"
         ],
-        "Weight": 20.5
+        "HiddenAbility": "MIMICRY",
+        "Abilities": "MIMICRY",
+        "Weight": 20.5,
+        "InternalName": "STUNFISK",
+        "Height": 0.7
     },
     {
         "BaseName": "TORNADUS",
@@ -1489,7 +2996,11 @@
             "110",
             "90"
         ],
-        "Height": 1.4
+        "HiddenAbility": "REGENERATOR",
+        "Abilities": "REGENERATOR",
+        "Height": 1.4,
+        "InternalName": "TORNADUS",
+        "Weight": 63.0
     },
     {
         "BaseName": "THUNDURUS",
@@ -1502,7 +3013,11 @@
             "145",
             "80"
         ],
-        "Height": 3.0
+        "HiddenAbility": "VOLTABSORB",
+        "Abilities": "VOLTABSORB",
+        "Height": 3.0,
+        "InternalName": "THUNDURUS",
+        "Weight": 61.0
     },
     {
         "BaseName": "LANDORUS",
@@ -1515,7 +3030,11 @@
             "105",
             "80"
         ],
-        "Height": 1.3
+        "HiddenAbility": "INTIMIDATE",
+        "Abilities": "INTIMIDATE",
+        "Height": 1.3,
+        "InternalName": "LANDORUS",
+        "Weight": 68.0
     },
     {
         "BaseName": "KYUREM",
@@ -1528,7 +3047,11 @@
             "170",
             "100"
         ],
-        "Height": 3.6
+        "HiddenAbility": "TURBOBLAZE",
+        "Abilities": "TURBOBLAZE",
+        "Height": 3.6,
+        "InternalName": "KYUREM",
+        "Weight": 325.0
     },
     {
         "BaseName": "KYUREM",
@@ -1541,7 +3064,11 @@
             "120",
             "90"
         ],
-        "Height": 3.3
+        "HiddenAbility": "TERAVOLT",
+        "Abilities": "TERAVOLT",
+        "Height": 3.3,
+        "InternalName": "KYUREM",
+        "Weight": 325.0
     },
     {
         "BaseName": "KYUREM",
@@ -1554,7 +3081,11 @@
             "170",
             "100"
         ],
-        "Height": 3.6
+        "HiddenAbility": "TURBOBLAZE",
+        "Abilities": "TURBOBLAZE",
+        "Height": 3.6,
+        "InternalName": "KYUREM",
+        "Weight": 325.0
     },
     {
         "BaseName": "KYUREM",
@@ -1567,15 +3098,33 @@
             "120",
             "90"
         ],
-        "Height": 3.3
+        "HiddenAbility": "TERAVOLT",
+        "Abilities": "TERAVOLT",
+        "Height": 3.3,
+        "InternalName": "KYUREM",
+        "Weight": 325.0
     },
     {
         "BaseName": "KELDEO",
-        "FormName": "Resolute Form"
+        "FormName": "Resolute Form",
+        "InternalName": "KELDEO",
+        "BaseStats": [
+            "91",
+            "72",
+            "90",
+            "108",
+            "129",
+            "90"
+        ],
+        "Abilities": "JUSTIFIED",
+        "Height": 1.4,
+        "Weight": 48.5
     },
     {
         "BaseName": "MELOETTA",
         "FormName": "Pirouette Forme",
+        "Type1": "NORMAL",
+        "Type2": "FIGHTING",
         "BaseStats": [
             "100",
             "128",
@@ -1583,27 +3132,81 @@
             "128",
             "77",
             "77"
-        ]
+        ],
+        "InternalName": "MELOETTA",
+        "Abilities": "SERENEGRACE",
+        "Height": 0.6,
+        "Weight": 6.5
     },
     {
         "BaseName": "GENESECT",
-        "FormName": "Shock Drive"
+        "FormName": "Shock Drive",
+        "InternalName": "GENESECT",
+        "BaseStats": [
+            "71",
+            "120",
+            "95",
+            "99",
+            "120",
+            "95"
+        ],
+        "Abilities": "DOWNLOAD",
+        "Height": 1.5,
+        "Weight": 82.5
     },
     {
         "BaseName": "GENESECT",
-        "FormName": "Burn Drive"
+        "FormName": "Burn Drive",
+        "InternalName": "GENESECT",
+        "BaseStats": [
+            "71",
+            "120",
+            "95",
+            "99",
+            "120",
+            "95"
+        ],
+        "Abilities": "DOWNLOAD",
+        "Height": 1.5,
+        "Weight": 82.5
     },
     {
         "BaseName": "GENESECT",
-        "FormName": "Chill Drive"
+        "FormName": "Chill Drive",
+        "InternalName": "GENESECT",
+        "BaseStats": [
+            "71",
+            "120",
+            "95",
+            "99",
+            "120",
+            "95"
+        ],
+        "Abilities": "DOWNLOAD",
+        "Height": 1.5,
+        "Weight": 82.5
     },
     {
         "BaseName": "GENESECT",
-        "FormName": "Douse Drive"
+        "FormName": "Douse Drive",
+        "InternalName": "GENESECT",
+        "BaseStats": [
+            "71",
+            "120",
+            "95",
+            "99",
+            "120",
+            "95"
+        ],
+        "Abilities": "DOWNLOAD",
+        "Height": 1.5,
+        "Weight": 82.5
     },
     {
         "BaseName": "GRENINJA",
         "FormName": "Fierce Stance",
+        "Type1": "ROCK",
+        "Type2": "WATER",
         "BaseStats": [
             "85",
             "134",
@@ -1611,115 +3214,443 @@
             "136",
             "70",
             "60"
-        ]
+        ],
+        "InternalName": "GRENINJA",
+        "Abilities": "FIERCESTANCE,SOLIDROCK",
+        "Height": 1.5,
+        "Weight": 40.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Archipelago Pattern"
+        "FormName": "Archipelago Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Continental Pattern"
+        "FormName": "Continental Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Elegant Pattern"
+        "FormName": "Elegant Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Garden Pattern"
+        "FormName": "Garden Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "High Plains Pattern"
+        "FormName": "High Plains Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Icy Snow Pattern"
+        "FormName": "Icy Snow Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Jungle Pattern"
+        "FormName": "Jungle Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Marine Pattern"
+        "FormName": "Marine Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Modern Pattern"
+        "FormName": "Modern Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Monsoon Pattern"
+        "FormName": "Monsoon Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Ocean Pattern"
+        "FormName": "Ocean Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Polar Pattern"
+        "FormName": "Polar Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "River Pattern"
+        "FormName": "River Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Sandstorm Pattern"
+        "FormName": "Sandstorm Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Savanna Pattern"
+        "FormName": "Savanna Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Sun Pattern"
+        "FormName": "Sun Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Tundra Pattern"
+        "FormName": "Tundra Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Fancy Pattern"
+        "FormName": "Fancy Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "VIVILLON",
-        "FormName": "Pok\u00c3\u00a9 Ball Pattern"
+        "FormName": "Pok\u00c3\u00a9 Ball Pattern",
+        "InternalName": "VIVILLON",
+        "BaseStats": [
+            "80",
+            "52",
+            "50",
+            "89",
+            "90",
+            "50"
+        ],
+        "Abilities": "SHIELDDUST,COMPOUNDEYES",
+        "Height": 1.2,
+        "Weight": 17.0
     },
     {
         "BaseName": "FLABEBE",
-        "FormName": "Yellow Flower"
+        "FormName": "Yellow Flower",
+        "InternalName": "FLABEBE",
+        "BaseStats": [
+            "44",
+            "38",
+            "39",
+            "42",
+            "61",
+            "79"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 0.1,
+        "Weight": 0.1
     },
     {
         "BaseName": "FLABEBE",
-        "FormName": "Orange Flower"
+        "FormName": "Orange Flower",
+        "InternalName": "FLABEBE",
+        "BaseStats": [
+            "44",
+            "38",
+            "39",
+            "42",
+            "61",
+            "79"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 0.1,
+        "Weight": 0.1
     },
     {
         "BaseName": "FLABEBE",
-        "FormName": "Blue Flower"
+        "FormName": "Blue Flower",
+        "InternalName": "FLABEBE",
+        "BaseStats": [
+            "44",
+            "38",
+            "39",
+            "42",
+            "61",
+            "79"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 0.1,
+        "Weight": 0.1
     },
     {
         "BaseName": "FLABEBE",
-        "FormName": "White Flower"
+        "FormName": "White Flower",
+        "InternalName": "FLABEBE",
+        "BaseStats": [
+            "44",
+            "38",
+            "39",
+            "42",
+            "61",
+            "79"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 0.1,
+        "Weight": 0.1
     },
     {
         "BaseName": "FLOETTE",
-        "FormName": "Yellow Flower"
+        "FormName": "Yellow Flower",
+        "InternalName": "FLOETTE",
+        "BaseStats": [
+            "54",
+            "45",
+            "47",
+            "52",
+            "75",
+            "98"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 0.2,
+        "Weight": 0.9
     },
     {
         "BaseName": "FLOETTE",
-        "FormName": "Orange Flower"
+        "FormName": "Orange Flower",
+        "InternalName": "FLOETTE",
+        "BaseStats": [
+            "54",
+            "45",
+            "47",
+            "52",
+            "75",
+            "98"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 0.2,
+        "Weight": 0.9
     },
     {
         "BaseName": "FLOETTE",
-        "FormName": "Blue Flower"
+        "FormName": "Blue Flower",
+        "InternalName": "FLOETTE",
+        "BaseStats": [
+            "54",
+            "45",
+            "47",
+            "52",
+            "75",
+            "98"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 0.2,
+        "Weight": 0.9
     },
     {
         "BaseName": "FLOETTE",
-        "FormName": "White Flower"
+        "FormName": "White Flower",
+        "InternalName": "FLOETTE",
+        "BaseStats": [
+            "54",
+            "45",
+            "47",
+            "52",
+            "75",
+            "98"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 0.2,
+        "Weight": 0.9
     },
     {
         "BaseName": "FLOETTE",
@@ -1731,63 +3662,236 @@
             "92",
             "125",
             "128"
-        ]
+        ],
+        "InternalName": "FLOETTE",
+        "Abilities": "FLOWERVEIL",
+        "Height": 0.2,
+        "Weight": 0.9
     },
     {
         "BaseName": "FLORGES",
-        "FormName": "Yellow Flower"
+        "FormName": "Yellow Flower",
+        "InternalName": "FLORGES",
+        "BaseStats": [
+            "78",
+            "65",
+            "68",
+            "75",
+            "112",
+            "154"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 1.1,
+        "Weight": 10.0
     },
     {
         "BaseName": "FLORGES",
-        "FormName": "Orange Flower"
+        "FormName": "Orange Flower",
+        "InternalName": "FLORGES",
+        "BaseStats": [
+            "78",
+            "65",
+            "68",
+            "75",
+            "112",
+            "154"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 1.1,
+        "Weight": 10.0
     },
     {
         "BaseName": "FLORGES",
-        "FormName": "Blue Flower"
+        "FormName": "Blue Flower",
+        "InternalName": "FLORGES",
+        "BaseStats": [
+            "78",
+            "65",
+            "68",
+            "75",
+            "112",
+            "154"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 1.1,
+        "Weight": 10.0
     },
     {
         "BaseName": "FLORGES",
-        "FormName": "White Flower"
+        "FormName": "White Flower",
+        "InternalName": "FLORGES",
+        "BaseStats": [
+            "78",
+            "65",
+            "68",
+            "75",
+            "112",
+            "154"
+        ],
+        "Abilities": "FLOWERVEIL",
+        "Height": 1.1,
+        "Weight": 10.0
     },
     {
         "BaseName": "FURFROU",
-        "FormName": "Heart Trim"
+        "FormName": "Heart Trim",
+        "InternalName": "FURFROU",
+        "BaseStats": [
+            "75",
+            "80",
+            "60",
+            "102",
+            "65",
+            "90"
+        ],
+        "Abilities": "FURCOAT",
+        "Height": 1.2,
+        "Weight": 28.0
     },
     {
         "BaseName": "FURFROU",
-        "FormName": "Star Trim"
+        "FormName": "Star Trim",
+        "InternalName": "FURFROU",
+        "BaseStats": [
+            "75",
+            "80",
+            "60",
+            "102",
+            "65",
+            "90"
+        ],
+        "Abilities": "FURCOAT",
+        "Height": 1.2,
+        "Weight": 28.0
     },
     {
         "BaseName": "FURFROU",
-        "FormName": "Diamond Trim"
+        "FormName": "Diamond Trim",
+        "InternalName": "FURFROU",
+        "BaseStats": [
+            "75",
+            "80",
+            "60",
+            "102",
+            "65",
+            "90"
+        ],
+        "Abilities": "FURCOAT",
+        "Height": 1.2,
+        "Weight": 28.0
     },
     {
         "BaseName": "FURFROU",
-        "FormName": "Debutante Trim"
+        "FormName": "Debutante Trim",
+        "InternalName": "FURFROU",
+        "BaseStats": [
+            "75",
+            "80",
+            "60",
+            "102",
+            "65",
+            "90"
+        ],
+        "Abilities": "FURCOAT",
+        "Height": 1.2,
+        "Weight": 28.0
     },
     {
         "BaseName": "FURFROU",
-        "FormName": "Matron Trim"
+        "FormName": "Matron Trim",
+        "InternalName": "FURFROU",
+        "BaseStats": [
+            "75",
+            "80",
+            "60",
+            "102",
+            "65",
+            "90"
+        ],
+        "Abilities": "FURCOAT",
+        "Height": 1.2,
+        "Weight": 28.0
     },
     {
         "BaseName": "FURFROU",
-        "FormName": "Dandy Trim"
+        "FormName": "Dandy Trim",
+        "InternalName": "FURFROU",
+        "BaseStats": [
+            "75",
+            "80",
+            "60",
+            "102",
+            "65",
+            "90"
+        ],
+        "Abilities": "FURCOAT",
+        "Height": 1.2,
+        "Weight": 28.0
     },
     {
         "BaseName": "FURFROU",
-        "FormName": "La Reine Trim"
+        "FormName": "La Reine Trim",
+        "InternalName": "FURFROU",
+        "BaseStats": [
+            "75",
+            "80",
+            "60",
+            "102",
+            "65",
+            "90"
+        ],
+        "Abilities": "FURCOAT",
+        "Height": 1.2,
+        "Weight": 28.0
     },
     {
         "BaseName": "FURFROU",
-        "FormName": "Kabuki Trim"
+        "FormName": "Kabuki Trim",
+        "InternalName": "FURFROU",
+        "BaseStats": [
+            "75",
+            "80",
+            "60",
+            "102",
+            "65",
+            "90"
+        ],
+        "Abilities": "FURCOAT",
+        "Height": 1.2,
+        "Weight": 28.0
     },
     {
         "BaseName": "FURFROU",
-        "FormName": "Pharaoh Trim"
+        "FormName": "Pharaoh Trim",
+        "InternalName": "FURFROU",
+        "BaseStats": [
+            "75",
+            "80",
+            "60",
+            "102",
+            "65",
+            "90"
+        ],
+        "Abilities": "FURCOAT",
+        "Height": 1.2,
+        "Weight": 28.0
     },
     {
         "BaseName": "MEOWSTIC",
-        "FormName": "Female"
+        "FormName": "Female",
+        "HiddenAbility": "COMPETITIVE",
+        "InternalName": "MEOWSTIC",
+        "BaseStats": [
+            "74",
+            "48",
+            "76",
+            "104",
+            "83",
+            "81"
+        ],
+        "Abilities": "KEENEYE,INFILTRATOR",
+        "Height": 0.6,
+        "Weight": 8.5
     },
     {
         "BaseName": "AEGISLASH",
@@ -1799,11 +3903,27 @@
             "60",
             "150",
             "50"
-        ]
+        ],
+        "InternalName": "AEGISLASH",
+        "Abilities": "STANCECHANGE",
+        "Height": 1.7,
+        "Weight": 53.0
     },
     {
         "BaseName": "PUMPKABOO",
-        "FormName": "Small Size"
+        "FormName": "Small Size",
+        "InternalName": "PUMPKABOO",
+        "BaseStats": [
+            "70",
+            "45",
+            "70",
+            "20",
+            "45",
+            "70"
+        ],
+        "Abilities": "INSOMNIA,HEALER",
+        "Height": 0.4,
+        "Weight": 5.0
     },
     {
         "BaseName": "PUMPKABOO",
@@ -1817,7 +3937,9 @@
             "55"
         ],
         "Height": 0.5,
-        "Weight": 7.5
+        "Weight": 7.5,
+        "InternalName": "PUMPKABOO",
+        "Abilities": "INSOMNIA,HEALER"
     },
     {
         "BaseName": "PUMPKABOO",
@@ -1831,11 +3953,25 @@
             "55"
         ],
         "Height": 0.8,
-        "Weight": 15.0
+        "Weight": 15.0,
+        "InternalName": "PUMPKABOO",
+        "Abilities": "INSOMNIA,HEALER"
     },
     {
         "BaseName": "GOURGEIST",
-        "FormName": "Small Size"
+        "FormName": "Small Size",
+        "InternalName": "GOURGEIST",
+        "BaseStats": [
+            "95",
+            "90",
+            "90",
+            "35",
+            "60",
+            "105"
+        ],
+        "Abilities": "INSOMNIA,HEALER",
+        "Height": 0.9,
+        "Weight": 12.5
     },
     {
         "BaseName": "GOURGEIST",
@@ -1849,7 +3985,9 @@
             "75"
         ],
         "Height": 1.1,
-        "Weight": 14.0
+        "Weight": 14.0,
+        "InternalName": "GOURGEIST",
+        "Abilities": "INSOMNIA,HEALER"
     },
     {
         "BaseName": "GOURGEIST",
@@ -1863,11 +4001,25 @@
             "75"
         ],
         "Height": 1.7,
-        "Weight": 39.0
+        "Weight": 39.0,
+        "InternalName": "GOURGEIST",
+        "Abilities": "INSOMNIA,HEALER"
     },
     {
         "BaseName": "XERNEAS",
-        "FormName": "Active Mode"
+        "FormName": "Active Mode",
+        "InternalName": "XERNEAS",
+        "BaseStats": [
+            "126",
+            "131",
+            "95",
+            "99",
+            "131",
+            "98"
+        ],
+        "Abilities": "FAIRYAURA",
+        "Height": 3.0,
+        "Weight": 215.0
     },
     {
         "BaseName": "ZYGARDE",
@@ -1881,7 +4033,9 @@
             "85"
         ],
         "Height": 1.2,
-        "Weight": 33.5
+        "Weight": 33.5,
+        "InternalName": "ZYGARDE",
+        "Abilities": "AURABREAK"
     },
     {
         "BaseName": "ZYGARDE",
@@ -1894,8 +4048,11 @@
             "91",
             "95"
         ],
+        "HiddenAbility": "POWERCONSTRUCT",
+        "Abilities": "POWERCONSTRUCT",
         "Height": 4.5,
-        "Weight": 610.0
+        "Weight": 610.0,
+        "InternalName": "ZYGARDE"
     },
     {
         "BaseName": "ZYGARDE",
@@ -1908,8 +4065,11 @@
             "91",
             "95"
         ],
+        "HiddenAbility": "POWERCONSTRUCT",
+        "Abilities": "POWERCONSTRUCT",
         "Height": 4.5,
-        "Weight": 610.0
+        "Weight": 610.0,
+        "InternalName": "ZYGARDE"
     },
     {
         "BaseName": "DIANCIE",
@@ -1922,12 +4082,17 @@
             "160",
             "110"
         ],
+        "HiddenAbility": "MAGICBOUNCE",
+        "Abilities": "MAGICBOUNCE",
         "Height": 1.1,
-        "Weight": 27.8
+        "Weight": 27.8,
+        "InternalName": "DIANCIE"
     },
     {
         "BaseName": "HOOPA",
         "FormName": "Hoopa Unbound",
+        "Type1": "PSYCHIC",
+        "Type2": "DARK",
         "BaseStats": [
             "80",
             "160",
@@ -1937,23 +4102,80 @@
             "130"
         ],
         "Height": 6.5,
-        "Weight": 490.0
+        "Weight": 490.0,
+        "InternalName": "HOOPA",
+        "Abilities": "MAGICIAN"
     },
     {
         "BaseName": "ORICORIO",
-        "FormName": "Pom-Pom Style"
+        "FormName": "Pom-Pom Style",
+        "Type1": "ELECTRIC",
+        "Type2": "FLYING",
+        "InternalName": "ORICORIO",
+        "BaseStats": [
+            "75",
+            "70",
+            "70",
+            "93",
+            "98",
+            "70"
+        ],
+        "Abilities": "DANCER",
+        "Height": 0.6,
+        "Weight": 3.4
     },
     {
         "BaseName": "ORICORIO",
-        "FormName": "Pa'u Style"
+        "FormName": "Pa'u Style",
+        "Type1": "PSYCHIC",
+        "Type2": "FLYING",
+        "InternalName": "ORICORIO",
+        "BaseStats": [
+            "75",
+            "70",
+            "70",
+            "93",
+            "98",
+            "70"
+        ],
+        "Abilities": "DANCER",
+        "Height": 0.6,
+        "Weight": 3.4
     },
     {
         "BaseName": "ORICORIO",
-        "FormName": "Sensu Style"
+        "FormName": "Sensu Style",
+        "Type1": "GHOST",
+        "Type2": "FLYING",
+        "InternalName": "ORICORIO",
+        "BaseStats": [
+            "75",
+            "70",
+            "70",
+            "93",
+            "98",
+            "70"
+        ],
+        "Abilities": "DANCER",
+        "Height": 0.6,
+        "Weight": 3.4
     },
     {
         "BaseName": "ROCKRUFF",
-        "FormName": "ROCKRUFF Form 2"
+        "FormName": "ROCKRUFF Form 2",
+        "HiddenAbility": "OWNTEMPO",
+        "Abilities": "OWNTEMPO",
+        "InternalName": "ROCKRUFF",
+        "BaseStats": [
+            "45",
+            "65",
+            "40",
+            "60",
+            "30",
+            "40"
+        ],
+        "Height": 0.5,
+        "Weight": 9.2
     },
     {
         "BaseName": "LYCANROC",
@@ -1966,7 +4188,11 @@
             "55",
             "75"
         ],
-        "Height": 1.1
+        "HiddenAbility": "NOGUARD",
+        "Abilities": "KEENEYE,VITALSPIRIT",
+        "Height": 1.1,
+        "InternalName": "LYCANROC",
+        "Weight": 25.0
     },
     {
         "BaseName": "LYCANROC",
@@ -1978,7 +4204,12 @@
             "110",
             "55",
             "65"
-        ]
+        ],
+        "HiddenAbility": "TOUGHCLAWS",
+        "Abilities": "TOUGHCLAWS",
+        "InternalName": "LYCANROC",
+        "Height": 0.8,
+        "Weight": 25.0
     },
     {
         "BaseName": "WISHIWASHI",
@@ -1992,79 +4223,315 @@
             "135"
         ],
         "Height": 8.2,
-        "Weight": 78.6
+        "Weight": 78.6,
+        "InternalName": "WISHIWASHI",
+        "Abilities": "SCHOOLING"
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Fighting"
+        "FormName": "Type: Fighting",
+        "Type1": "FIGHTING",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Flying"
+        "FormName": "Type: Flying",
+        "Type1": "FLYING",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Poison"
+        "FormName": "Type: Poison",
+        "Type1": "POISON",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Ground"
+        "FormName": "Type: Ground",
+        "Type1": "GROUND",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Rock"
+        "FormName": "Type: Rock",
+        "Type1": "ROCK",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Bug"
+        "FormName": "Type: Bug",
+        "Type1": "BUG",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Ghost"
+        "FormName": "Type: Ghost",
+        "Type1": "GHOST",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Steel"
+        "FormName": "Type: Steel",
+        "Type1": "STEEL",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Unknown"
+        "FormName": "Type: Unknown",
+        "Type1": "QMARKS",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Fire"
+        "FormName": "Type: Fire",
+        "Type1": "FIRE",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Water"
+        "FormName": "Type: Water",
+        "Type1": "WATER",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Grass"
+        "FormName": "Type: Grass",
+        "Type1": "GRASS",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Electric"
+        "FormName": "Type: Electric",
+        "Type1": "ELECTRIC",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Psychic"
+        "FormName": "Type: Psychic",
+        "Type1": "PSYCHIC",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Ice"
+        "FormName": "Type: Ice",
+        "Type1": "ICE",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Dragon"
+        "FormName": "Type: Dragon",
+        "Type1": "DRAGON",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Dark"
+        "FormName": "Type: Dark",
+        "Type1": "DARK",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "SILVALLY",
-        "FormName": "Type: Fairy"
+        "FormName": "Type: Fairy",
+        "Type1": "FAIRY",
+        "InternalName": "SILVALLY",
+        "BaseStats": [
+            "95",
+            "95",
+            "95",
+            "95",
+            "95",
+            "95"
+        ],
+        "Abilities": "RKSSYSTEM",
+        "Height": 2.3,
+        "Weight": 100.5
     },
     {
         "BaseName": "MINIOR",
@@ -2077,7 +4544,10 @@
             "100",
             "60"
         ],
-        "Weight": 0.3
+        "Weight": 0.3,
+        "InternalName": "MINIOR",
+        "Abilities": "SHIELDSDOWN",
+        "Height": 0.3
     },
     {
         "BaseName": "MINIOR",
@@ -2090,7 +4560,10 @@
             "100",
             "60"
         ],
-        "Weight": 0.3
+        "Weight": 0.3,
+        "InternalName": "MINIOR",
+        "Abilities": "SHIELDSDOWN",
+        "Height": 0.3
     },
     {
         "BaseName": "MINIOR",
@@ -2103,7 +4576,10 @@
             "100",
             "60"
         ],
-        "Weight": 0.3
+        "Weight": 0.3,
+        "InternalName": "MINIOR",
+        "Abilities": "SHIELDSDOWN",
+        "Height": 0.3
     },
     {
         "BaseName": "MINIOR",
@@ -2116,7 +4592,10 @@
             "100",
             "60"
         ],
-        "Weight": 0.3
+        "Weight": 0.3,
+        "InternalName": "MINIOR",
+        "Abilities": "SHIELDSDOWN",
+        "Height": 0.3
     },
     {
         "BaseName": "MINIOR",
@@ -2129,7 +4608,10 @@
             "100",
             "60"
         ],
-        "Weight": 0.3
+        "Weight": 0.3,
+        "InternalName": "MINIOR",
+        "Abilities": "SHIELDSDOWN",
+        "Height": 0.3
     },
     {
         "BaseName": "MINIOR",
@@ -2142,7 +4624,10 @@
             "100",
             "60"
         ],
-        "Weight": 0.3
+        "Weight": 0.3,
+        "InternalName": "MINIOR",
+        "Abilities": "SHIELDSDOWN",
+        "Height": 0.3
     },
     {
         "BaseName": "MINIOR",
@@ -2155,7 +4640,10 @@
             "100",
             "60"
         ],
-        "Weight": 0.3
+        "Weight": 0.3,
+        "InternalName": "MINIOR",
+        "Abilities": "SHIELDSDOWN",
+        "Height": 0.3
     },
     {
         "BaseName": "MIMIKYU",
@@ -2167,11 +4655,17 @@
             "136",
             "60",
             "30"
-        ]
+        ],
+        "InternalName": "MIMIKYU",
+        "Abilities": "DISGUISE",
+        "Height": 0.2,
+        "Weight": 0.7
     },
     {
         "BaseName": "NECROZMA",
         "FormName": "Dusk Mane",
+        "Type1": "PSYCHIC",
+        "Type2": "STEEL",
         "BaseStats": [
             "97",
             "157",
@@ -2181,11 +4675,15 @@
             "109"
         ],
         "Height": 3.8,
-        "Weight": 460.0
+        "Weight": 460.0,
+        "InternalName": "NECROZMA",
+        "Abilities": "PRISMARMOR"
     },
     {
         "BaseName": "NECROZMA",
         "FormName": "Dawn Wings",
+        "Type1": "PSYCHIC",
+        "Type2": "GHOST",
         "BaseStats": [
             "97",
             "113",
@@ -2195,11 +4693,15 @@
             "127"
         ],
         "Height": 4.2,
-        "Weight": 350.0
+        "Weight": 350.0,
+        "InternalName": "NECROZMA",
+        "Abilities": "PRISMARMOR"
     },
     {
         "BaseName": "NECROZMA",
         "FormName": "Ultra Necrozma",
+        "Type1": "PSYCHIC",
+        "Type2": "DRAGON",
         "BaseStats": [
             "97",
             "167",
@@ -2208,11 +4710,17 @@
             "167",
             "97"
         ],
-        "Height": 7.5
+        "HiddenAbility": "NEUROFORCE",
+        "Abilities": "NEUROFORCE",
+        "Height": 7.5,
+        "InternalName": "NECROZMA",
+        "Weight": 230.0
     },
     {
         "BaseName": "NECROZMA",
         "FormName": "NECROZMA Form 4",
+        "Type1": "PSYCHIC",
+        "Type2": "DRAGON",
         "BaseStats": [
             "97",
             "167",
@@ -2221,51 +4729,188 @@
             "167",
             "97"
         ],
-        "Height": 7.5
+        "HiddenAbility": "NEUROFORCE",
+        "Abilities": "NEUROFORCE",
+        "Height": 7.5,
+        "InternalName": "NECROZMA",
+        "Weight": 230.0
     },
     {
         "BaseName": "MAGEARNA",
-        "FormName": "Original Color"
+        "FormName": "Original Color",
+        "InternalName": "MAGEARNA",
+        "BaseStats": [
+            "80",
+            "95",
+            "115",
+            "65",
+            "130",
+            "115"
+        ],
+        "Abilities": "SOULHEART",
+        "Height": 1.0,
+        "Weight": 80.5
     },
     {
         "BaseName": "CRAMORANT",
-        "FormName": "Gulping Form"
+        "FormName": "Gulping Form",
+        "InternalName": "CRAMORANT",
+        "BaseStats": [
+            "70",
+            "85",
+            "55",
+            "85",
+            "85",
+            "95"
+        ],
+        "Abilities": "GULPMISSILE",
+        "Height": 0.8,
+        "Weight": 18.0
     },
     {
         "BaseName": "CRAMORANT",
-        "FormName": "Gorging Form"
+        "FormName": "Gorging Form",
+        "InternalName": "CRAMORANT",
+        "BaseStats": [
+            "70",
+            "85",
+            "55",
+            "85",
+            "85",
+            "95"
+        ],
+        "Abilities": "GULPMISSILE",
+        "Height": 0.8,
+        "Weight": 18.0
     },
     {
         "BaseName": "TOXTRICITY",
-        "FormName": "Low Key Form"
+        "FormName": "Low Key Form",
+        "HiddenAbility": "PUNKROCK,MINUS",
+        "Abilities": "PUNKROCK,MINUS",
+        "InternalName": "TOXTRICITY",
+        "BaseStats": [
+            "75",
+            "98",
+            "70",
+            "75",
+            "114",
+            "70"
+        ],
+        "Height": 1.6,
+        "Weight": 40.0
     },
     {
         "BaseName": "ALCREMIE",
-        "FormName": "Vanilla"
+        "FormName": "Vanilla",
+        "InternalName": "ALCREMIE",
+        "BaseStats": [
+            "75",
+            "70",
+            "80",
+            "90",
+            "95",
+            "85"
+        ],
+        "Abilities": "SWEETVEIL",
+        "Height": 0.3,
+        "Weight": 0.5
     },
     {
         "BaseName": "ALCREMIE",
-        "FormName": "Blue Honey"
+        "FormName": "Blue Honey",
+        "InternalName": "ALCREMIE",
+        "BaseStats": [
+            "75",
+            "70",
+            "80",
+            "90",
+            "95",
+            "85"
+        ],
+        "Abilities": "SWEETVEIL",
+        "Height": 0.3,
+        "Weight": 0.5
     },
     {
         "BaseName": "ALCREMIE",
-        "FormName": "Mint"
+        "FormName": "Mint",
+        "InternalName": "ALCREMIE",
+        "BaseStats": [
+            "75",
+            "70",
+            "80",
+            "90",
+            "95",
+            "85"
+        ],
+        "Abilities": "SWEETVEIL",
+        "Height": 0.3,
+        "Weight": 0.5
     },
     {
         "BaseName": "ALCREMIE",
-        "FormName": "Pink Velvet"
+        "FormName": "Pink Velvet",
+        "InternalName": "ALCREMIE",
+        "BaseStats": [
+            "75",
+            "70",
+            "80",
+            "90",
+            "95",
+            "85"
+        ],
+        "Abilities": "SWEETVEIL",
+        "Height": 0.3,
+        "Weight": 0.5
     },
     {
         "BaseName": "ALCREMIE",
-        "FormName": "Chocolate"
+        "FormName": "Chocolate",
+        "InternalName": "ALCREMIE",
+        "BaseStats": [
+            "75",
+            "70",
+            "80",
+            "90",
+            "95",
+            "85"
+        ],
+        "Abilities": "SWEETVEIL",
+        "Height": 0.3,
+        "Weight": 0.5
     },
     {
         "BaseName": "SINISTEA",
-        "FormName": "Antique Form"
+        "FormName": "Antique Form",
+        "InternalName": "SINISTEA",
+        "BaseStats": [
+            "40",
+            "45",
+            "45",
+            "50",
+            "74",
+            "54"
+        ],
+        "Abilities": "WEAKARMOR",
+        "Height": 0.1,
+        "Weight": 0.2
     },
     {
         "BaseName": "POLTEAGEIST",
-        "FormName": "Antique Form"
+        "FormName": "Antique Form",
+        "InternalName": "POLTEAGEIST",
+        "BaseStats": [
+            "60",
+            "65",
+            "65",
+            "70",
+            "134",
+            "114"
+        ],
+        "Abilities": "WEAKARMOR",
+        "Height": 0.2,
+        "Weight": 0.4
     },
     {
         "BaseName": "EISCUE",
@@ -2277,7 +4922,11 @@
             "130",
             "65",
             "50"
-        ]
+        ],
+        "InternalName": "EISCUE",
+        "Abilities": "ICEFACE",
+        "Height": 1.4,
+        "Weight": 89.0
     },
     {
         "BaseName": "INDEEDEE",
@@ -2289,15 +4938,34 @@
             "85",
             "95",
             "105"
-        ]
+        ],
+        "HiddenAbility": "OWNTEMPO,SYNCHRONIZE",
+        "Abilities": "OWNTEMPO,SYNCHRONIZE",
+        "InternalName": "INDEEDEE",
+        "Height": 0.9,
+        "Weight": 28.0
     },
     {
         "BaseName": "MORPEKO",
-        "FormName": "Hangry Mode"
+        "FormName": "Hangry Mode",
+        "InternalName": "MORPEKO",
+        "BaseStats": [
+            "58",
+            "95",
+            "58",
+            "97",
+            "70",
+            "58"
+        ],
+        "Abilities": "HUNGERSWITCH",
+        "Height": 0.3,
+        "Weight": 3.0
     },
     {
         "BaseName": "ZACIAN",
         "FormName": "Crowned Sword",
+        "Type1": "FAIRY",
+        "Type2": "STEEL",
         "BaseStats": [
             "92",
             "170",
@@ -2306,11 +4974,16 @@
             "80",
             "115"
         ],
-        "Weight": 355.0
+        "Weight": 355.0,
+        "InternalName": "ZACIAN",
+        "Abilities": "INTREPIDSWORD",
+        "Height": 2.8
     },
     {
         "BaseName": "ZAMAZENTA",
         "FormName": "Crowned Shield",
+        "Type1": "FIGHTING",
+        "Type2": "STEEL",
         "BaseStats": [
             "92",
             "130",
@@ -2319,15 +4992,34 @@
             "80",
             "145"
         ],
-        "Weight": 785.0
+        "Weight": 785.0,
+        "InternalName": "ZAMAZENTA",
+        "Abilities": "DAUNTLESSSHIELD",
+        "Height": 2.9
     },
     {
         "BaseName": "URSHIFU",
-        "FormName": "Rapid Strike Style"
+        "FormName": "Rapid Strike Style",
+        "Type1": "FIGHTING",
+        "Type2": "WATER",
+        "InternalName": "URSHIFU",
+        "BaseStats": [
+            "100",
+            "130",
+            "100",
+            "97",
+            "63",
+            "60"
+        ],
+        "Abilities": "UNSEENFIST",
+        "Height": 1.9,
+        "Weight": 105.0
     },
     {
         "BaseName": "SETSAREC",
         "FormName": "Unleashed",
+        "Type1": "POISON",
+        "Type2": "GROUND",
         "BaseStats": [
             "80",
             "130",
@@ -2340,6 +5032,8 @@
     {
         "BaseName": "FLYGON",
         "FormName": "Mega Flygon",
+        "Type1": "BUG",
+        "Type2": "DARK",
         "BaseStats": [
             "80",
             "80",
@@ -2348,7 +5042,11 @@
             "140",
             "120"
         ],
-        "Weight": 102.0
+        "HiddenAbility": "DARKENEDSCALES",
+        "Abilities": "DARKENEDSCALES",
+        "Weight": 102.0,
+        "InternalName": "FLYGON",
+        "Height": 2.0
     },
     {
         "BaseName": "BLASTOISE",
@@ -2361,7 +5059,11 @@
             "95",
             "115"
         ],
-        "Weight": 800.0
+        "HiddenAbility": "SUPREMEOVERLORD",
+        "Abilities": "SUPREMEOVERLORD",
+        "Weight": 800.0,
+        "InternalName": "BLASTOISE",
+        "Height": 1.7
     },
     {
         "BaseName": "RELICANTH",
@@ -2374,7 +5076,11 @@
             "130",
             "145"
         ],
-        "Weight": 33.4
+        "HiddenAbility": "STORMDRAIN",
+        "Abilities": "STORMDRAIN",
+        "Weight": 33.4,
+        "InternalName": "RELICANTH",
+        "Height": 1.0
     },
     {
         "BaseName": "CHARIZARD",
@@ -2387,7 +5093,11 @@
             "138",
             "134"
         ],
-        "Weight": 200.5
+        "HiddenAbility": "SHEERFORCE",
+        "Abilities": "SHEERFORCE",
+        "Weight": 200.5,
+        "InternalName": "CHARIZARD",
+        "Height": 1.7
     },
     {
         "BaseName": "WOOPER",
@@ -2395,7 +5105,19 @@
         "Type1": "POISON",
         "Type2": "GROUND",
         "Types": "POISON,GROUND",
-        "Weight": 11.0
+        "HiddenAbility": "POISONPOINT, WATERABSORB",
+        "Abilities": "POISONPOINT, WATERABSORB",
+        "Weight": 11.0,
+        "InternalName": "WOOPER",
+        "BaseStats": [
+            "55",
+            "45",
+            "45",
+            "15",
+            "25",
+            "25"
+        ],
+        "Height": 0.4
     },
     {
         "BaseName": "TAUROS",
@@ -2410,7 +5132,12 @@
             "30",
             "70"
         ],
-        "Weight": 115.0
+        "HiddenAbility": "CUDCHEW",
+        "HiddenAbilities": "CUDCHEW",
+        "Weight": 115.0,
+        "InternalName": "TAUROS",
+        "Abilities": "INTIMIDATE,ANGERPOINT",
+        "Height": 1.4
     },
     {
         "BaseName": "TAUROS",
@@ -2426,7 +5153,12 @@
             "30",
             "70"
         ],
-        "Weight": 85.0
+        "HiddenAbility": "CUDCHEW",
+        "HiddenAbilities": "CUDCHEW",
+        "Weight": 85.0,
+        "InternalName": "TAUROS",
+        "Abilities": "INTIMIDATE,ANGERPOINT",
+        "Height": 1.4
     },
     {
         "BaseName": "TAUROS",
@@ -2442,7 +5174,12 @@
             "30",
             "70"
         ],
-        "Weight": 110.0
+        "HiddenAbility": "CUDCHEW",
+        "HiddenAbilities": "CUDCHEW",
+        "Weight": 110.0,
+        "InternalName": "TAUROS",
+        "Abilities": "INTIMIDATE,ANGERPOINT",
+        "Height": 1.4
     },
     {
         "BaseName": "MORPHIAS",
@@ -2455,6 +5192,8 @@
             "140",
             "120"
         ],
+        "HiddenAbility": "TELEPATHY",
+        "Abilities": "TELEPATHY",
         "Height": 1.7,
         "Weight": 75.0
     },
@@ -2468,7 +5207,11 @@
             "101",
             "132",
             "90"
-        ]
+        ],
+        "InternalName": "SLEIHESNIRE",
+        "Abilities": "APEXNEIGH",
+        "Height": 2.9,
+        "Weight": 210.0
     },
     {
         "BaseName": "SAKUSHIDO",
@@ -2480,7 +5223,11 @@
             "90",
             "110",
             "60"
-        ]
+        ],
+        "InternalName": "SAKUSHIDO",
+        "Abilities": "STANCECHANGE",
+        "Height": 1.7,
+        "Weight": 23.0
     },
     {
         "BaseName": "BRAVIARY",
@@ -2496,8 +5243,12 @@
             "112",
             "70"
         ],
+        "HiddenAbility": "TINTEDLENS",
+        "HiddenAbilities": "TINTEDLENS",
         "Height": 1.7,
-        "Weight": 43.4
+        "Weight": 43.4,
+        "InternalName": "BRAVIARY",
+        "Abilities": "KEENEYE,SHEERFORCE"
     },
     {
         "BaseName": "ARCANINE",
@@ -2513,8 +5264,12 @@
             "95",
             "80"
         ],
+        "HiddenAbility": "ROCKHEAD",
+        "HiddenAbilities": "ROCKHEAD",
         "Height": 2.0,
-        "Weight": 168.0
+        "Weight": 168.0,
+        "InternalName": "ARCANINE",
+        "Abilities": "INTIMIDATE,FLASHFIRE"
     },
     {
         "BaseName": "ELECTRODE",
@@ -2530,7 +5285,12 @@
             "80",
             "70"
         ],
-        "Weight": 71.0
+        "HiddenAbility": "RECKLESS",
+        "HiddenAbilities": "RECKLESS",
+        "Weight": 71.0,
+        "InternalName": "ELECTRODE",
+        "Abilities": "ROCKYPAYLOAD",
+        "Height": 1.2
     },
     {
         "BaseName": "ZOROARK",
@@ -2546,7 +5306,12 @@
             "125",
             "60"
         ],
-        "Weight": 73.0
+        "HiddenAbility": "BERSERK",
+        "HiddenAbilities": "BERSERK",
+        "Weight": 73.0,
+        "InternalName": "ZOROARK",
+        "Abilities": "ILLUSION",
+        "Height": 1.5
     },
     {
         "BaseName": "LILLIGANT",
@@ -2562,15 +5327,30 @@
             "50",
             "75"
         ],
+        "HiddenAbility": "CHLOROPHYLL,HUSTLE",
+        "Abilities": "CHLOROPHYLL,HUSTLE",
         "Height": 1.2,
-        "Weight": 19.2
+        "Weight": 19.2,
+        "InternalName": "LILLIGANT"
     },
     {
         "BaseName": "QWILFISH",
         "FormName": "Hisuian",
         "Type1": "DARK",
         "Type2": "POISON",
-        "Types": "DARK,POISON"
+        "Types": "DARK,POISON",
+        "InternalName": "QWILFISH",
+        "BaseStats": [
+            "65",
+            "95",
+            "85",
+            "85",
+            "55",
+            "55"
+        ],
+        "Abilities": "POISONPOINT,SWIFTSWIM",
+        "Height": 0.5,
+        "Weight": 3.9
     },
     {
         "BaseName": "GOLMACHINA",
@@ -2583,8 +5363,11 @@
             "85",
             "60"
         ],
+        "HiddenAbility": "LEVITATE",
+        "Abilities": "LEVITATE",
         "Height": 3.2,
-        "Weight": 400.0
+        "Weight": 400.0,
+        "InternalName": "GOLMACHINA"
     },
     {
         "BaseName": "GOLMACHINA",
@@ -2597,8 +5380,11 @@
             "105",
             "95"
         ],
+        "HiddenAbility": "BULLETPROOF",
+        "Abilities": "BULLETPROOF",
         "Height": 3.2,
-        "Weight": 400.0
+        "Weight": 400.0,
+        "InternalName": "GOLMACHINA"
     },
     {
         "BaseName": "GOLMACHINA",
@@ -2611,8 +5397,11 @@
             "135",
             "75"
         ],
+        "HiddenAbility": "WEAKARMOR",
+        "Abilities": "WEAKARMOR",
         "Height": 3.2,
-        "Weight": 400.0
+        "Weight": 400.0,
+        "InternalName": "GOLMACHINA"
     },
     {
         "BaseName": "GOLMACHINA",
@@ -2625,8 +5414,11 @@
             "80",
             "135"
         ],
+        "HiddenAbility": "STANCECHANGE",
+        "Abilities": "STANCECHANGE",
         "Height": 3.2,
-        "Weight": 400.0
+        "Weight": 400.0,
+        "InternalName": "GOLMACHINA"
     },
     {
         "BaseName": "GOLMACHINA",
@@ -2639,19 +5431,37 @@
             "135",
             "80"
         ],
+        "HiddenAbility": "STANCECHANGE",
+        "Abilities": "STANCECHANGE",
         "Height": 3.2,
-        "Weight": 400.0
+        "Weight": 400.0,
+        "InternalName": "GOLMACHINA"
     },
     {
         "BaseName": "TORTERRA",
         "FormName": "Water",
         "Type1": "WATER",
         "Type2": "GRASS",
-        "Types": "WATER,GRASS"
+        "Types": "WATER,GRASS",
+        "HiddenAbility": "PHASECHANGE",
+        "Abilities": "PHASECHANGE",
+        "InternalName": "TORTERRA",
+        "BaseStats": [
+            "105",
+            "123",
+            "95",
+            "54",
+            "58",
+            "90"
+        ],
+        "Height": 2.2,
+        "Weight": 310.0
     },
     {
         "BaseName": "DRUDDIGON",
         "FormName": "Mega Druddigon",
+        "Type1": "ELECTRIC",
+        "Type2": "GHOST",
         "BaseStats": [
             "82",
             "137",
@@ -2660,11 +5470,17 @@
             "70",
             "85"
         ],
-        "Weight": 0.1
+        "HiddenAbility": "DOWNLOAD",
+        "Abilities": "DOWNLOAD",
+        "Weight": 0.1,
+        "InternalName": "DRUDDIGON",
+        "Height": 1.8
     },
     {
         "BaseName": "NOCTOWLT",
         "FormName": "Mega Noctowl",
+        "Type1": "FAIRY",
+        "Type2": "FLYING",
         "BaseStats": [
             "100",
             "50",
@@ -2673,7 +5489,11 @@
             "130",
             "100"
         ],
-        "Weight": 2.4
+        "HiddenAbility": "DAZZLING",
+        "Abilities": "DAZZLING",
+        "Weight": 2.4,
+        "InternalName": "NOCTOWLT",
+        "Height": 1.6
     },
     {
         "BaseName": "OBSCUREON",
@@ -2686,6 +5506,8 @@
             "140",
             "120"
         ],
+        "HiddenAbility": "OBFUSCATE",
+        "Abilities": "OBFUSCATE",
         "Weight": 26.5
     },
     {
@@ -2699,6 +5521,8 @@
             "130",
             "95"
         ],
+        "HiddenAbility": "SHUFFLETYPE",
+        "Abilities": "SHUFFLETYPE",
         "Weight": 26.5
     },
     {
@@ -2712,8 +5536,11 @@
             "130",
             "115"
         ],
+        "HiddenAbility": "CRITICALBEAT",
+        "Abilities": "CRITICALBEAT",
         "Height": 2.4,
-        "Weight": 210.0
+        "Weight": 210.0,
+        "InternalName": "DRAGONITE"
     },
     {
         "BaseName": "URSALUNA",
@@ -2726,6 +5553,8 @@
             "135",
             "65"
         ],
+        "HiddenAbility": "MINDSEYE",
+        "Abilities": "MINDSEYE",
         "Height": 2.7,
         "Weight": 333.0
     }

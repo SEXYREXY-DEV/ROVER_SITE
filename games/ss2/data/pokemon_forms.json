@@ -17,7 +17,10 @@
             "130",
             "145",
             "100"
-        ]
+        ],
+        "HiddenAbility": "ICEBODY",
+        "Abilities": "ICEBODY",
+        "HiddenAbilities": "ICEBODY"
     },
     {
         "BaseName": "DODRIO",
@@ -29,7 +32,10 @@
             "120",
             "140",
             "130"
-        ]
+        ],
+        "HiddenAbility": "COMPETITIVE",
+        "Abilities": "COMPETITIVE",
+        "HiddenAbilities": "COMPETITIVE"
     },
     {
         "BaseName": "ARBOK",
@@ -41,7 +47,10 @@
             "120",
             "85",
             "89"
-        ]
+        ],
+        "HiddenAbility": "INTIMIDATE",
+        "Abilities": "INTIMIDATE",
+        "HiddenAbilities": "INTIMIDATE"
     },
     {
         "BaseName": "STARMIE",
@@ -53,7 +62,10 @@
             "130",
             "130",
             "110"
-        ]
+        ],
+        "HiddenAbility": "FILTER",
+        "Abilities": "FILTER",
+        "HiddenAbilities": "FILTER"
     },
     {
         "BaseName": "STEELIX",
@@ -66,6 +78,9 @@
             "55",
             "95"
         ],
+        "HiddenAbility": "SKILLLINK",
+        "Abilities": "SKILLLINK",
+        "HiddenAbilities": "SKILLLINK",
         "Weight": 740.0
     },
     {
@@ -78,7 +93,10 @@
             "120",
             "120",
             "110"
-        ]
+        ],
+        "HiddenAbility": "NOGUARD",
+        "Abilities": "NOGUARD",
+        "HiddenAbilities": "NOGUARD"
     },
     {
         "BaseName": "SEISMITOAD",
@@ -90,7 +108,10 @@
             "70",
             "124",
             "110"
-        ]
+        ],
+        "HiddenAbility": "PROTEAN",
+        "Abilities": "PROTEAN",
+        "HiddenAbilities": "PROTEAN"
     },
     {
         "BaseName": "GOLURK",
@@ -102,7 +123,10 @@
             "65",
             "75",
             "115"
-        ]
+        ],
+        "HiddenAbility": "LEVITATE",
+        "Abilities": "LEVITATE",
+        "HiddenAbilities": "LEVITATE"
     },
     {
         "BaseName": "GYARADOS",
@@ -114,7 +138,10 @@
             "81",
             "70",
             "130"
-        ]
+        ],
+        "HiddenAbility": "MOLDBREAKER",
+        "Abilities": "MOLDBREAKER",
+        "HiddenAbilities": "MOLDBREAKER"
     },
     {
         "BaseName": "AVALUGG",
@@ -127,6 +154,9 @@
             "44",
             "126"
         ],
+        "HiddenAbility": "SANDSTREAM",
+        "Abilities": "SANDSTREAM",
+        "HiddenAbilities": "SANDSTREAM",
         "Weight": 700.0
     },
     {
@@ -139,7 +169,10 @@
             "145",
             "75",
             "95"
-        ]
+        ],
+        "HiddenAbility": "SHEERFORCE",
+        "Abilities": "SHEERFORCE",
+        "HiddenAbilities": "SHEERFORCE"
     },
     {
         "BaseName": "AERODACTYL",
@@ -151,7 +184,10 @@
             "150",
             "70",
             "95"
-        ]
+        ],
+        "HiddenAbility": "MULTISCALE",
+        "Abilities": "MULTISCALE",
+        "HiddenAbilities": "MULTISCALE"
     },
     {
         "BaseName": "GIGALITH",
@@ -163,7 +199,10 @@
             "75",
             "140",
             "125"
-        ]
+        ],
+        "HiddenAbility": "ICYVEINS",
+        "Abilities": "ICYVEINS",
+        "HiddenAbilities": "ICYVEINS"
     },
     {
         "BaseName": "GLISCOR",
@@ -175,7 +214,10 @@
             "75",
             "45",
             "135"
-        ]
+        ],
+        "HiddenAbility": "NOGUARD",
+        "Abilities": "NOGUARD",
+        "HiddenAbilities": "NOGUARD"
     },
     {
         "BaseName": "SUDOWOODO",
@@ -187,7 +229,10 @@
             "100",
             "130",
             "130"
-        ]
+        ],
+        "HiddenAbility": "ADAPTABILITY",
+        "Abilities": "ADAPTABILITY",
+        "HiddenAbilities": "ADAPTABILITY"
     },
     {
         "BaseName": "NOCTOWL",
@@ -199,7 +244,10 @@
             "115",
             "125",
             "107"
-        ]
+        ],
+        "HiddenAbility": "VITALITY",
+        "Abilities": "VITALITY",
+        "HiddenAbilities": "VITALITY"
     },
     {
         "BaseName": "ELECTRODE",
@@ -211,7 +259,10 @@
             "140",
             "50",
             "120"
-        ]
+        ],
+        "HiddenAbility": "SHEERFORCE",
+        "Abilities": "SHEERFORCE",
+        "HiddenAbilities": "SHEERFORCE"
     },
     {
         "BaseName": "BEEDRILL",
@@ -223,7 +274,10 @@
             "120",
             "140",
             "105"
-        ]
+        ],
+        "HiddenAbility": "TRACE",
+        "Abilities": "TRACE",
+        "HiddenAbilities": "TRACE"
     },
     {
         "BaseName": "MACHAMP",
@@ -235,7 +289,10 @@
             "85",
             "55",
             "95"
-        ]
+        ],
+        "HiddenAbility": "SNIPER",
+        "Abilities": "SNIPER",
+        "HiddenAbilities": "SNIPER"
     },
     {
         "BaseName": "VENUSAUR",
@@ -247,7 +304,10 @@
             "95",
             "130",
             "120"
-        ]
+        ],
+        "HiddenAbility": "MAGICBOUNCE",
+        "Abilities": "MAGICBOUNCE",
+        "HiddenAbilities": "MAGICBOUNCE"
     },
     {
         "BaseName": "SHARPEDO",
@@ -259,7 +319,10 @@
             "145",
             "100",
             "75"
-        ]
+        ],
+        "HiddenAbility": "AERILATE",
+        "Abilities": "AERILATE",
+        "HiddenAbilities": "AERILATE"
     },
     {
         "BaseName": "CHANDELURE",
@@ -271,7 +334,10 @@
             "130",
             "140",
             "135"
-        ]
+        ],
+        "HiddenAbility": "LEVITATE",
+        "Abilities": "LEVITATE",
+        "HiddenAbilities": "LEVITATE"
     },
     {
         "BaseName": "GLALIE",
@@ -283,7 +349,10 @@
             "120",
             "50",
             "50"
-        ]
+        ],
+        "HiddenAbility": "STRONGJAW",
+        "Abilities": "STRONGJAW",
+        "HiddenAbilities": "STRONGJAW"
     },
     {
         "BaseName": "FROSLASS",
@@ -295,7 +364,10 @@
             "120",
             "130",
             "130"
-        ]
+        ],
+        "HiddenAbility": "SHADOWTAG",
+        "Abilities": "SHADOWTAG",
+        "HiddenAbilities": "SHADOWTAG"
     },
     {
         "BaseName": "INFERNAPE",
@@ -307,7 +379,10 @@
             "138",
             "104",
             "91"
-        ]
+        ],
+        "HiddenAbility": "LEVITATE",
+        "Abilities": "LEVITATE",
+        "HiddenAbilities": "LEVITATE"
     },
     {
         "BaseName": "SABLEYE",
@@ -319,7 +394,10 @@
             "60",
             "45",
             "130"
-        ]
+        ],
+        "HiddenAbility": "MAGICGUARD",
+        "Abilities": "MAGICGUARD",
+        "HiddenAbilities": "MAGICGUARD"
     },
     {
         "BaseName": "BEARTIC",
@@ -331,7 +409,10 @@
             "90",
             "50",
             "105"
-        ]
+        ],
+        "HiddenAbility": "FLUFFY",
+        "Abilities": "FLUFFY",
+        "HiddenAbilities": "FLUFFY"
     },
     {
         "BaseName": "SCEPTILE",
@@ -343,7 +424,10 @@
             "130",
             "65",
             "95"
-        ]
+        ],
+        "HiddenAbility": "TINTEDLENS",
+        "Abilities": "TINTEDLENS",
+        "HiddenAbilities": "TINTEDLENS"
     },
     {
         "BaseName": "TYRANITAR",
@@ -356,6 +440,9 @@
             "115",
             "125"
         ],
+        "HiddenAbility": "ANALYTIC",
+        "Abilities": "ANALYTIC",
+        "HiddenAbilities": "ANALYTIC",
         "Weight": 500.0
     },
     {
@@ -368,7 +455,10 @@
             "77",
             "48",
             "72"
-        ]
+        ],
+        "HiddenAbility": "ROCKHEAD",
+        "Abilities": "ROCKHEAD",
+        "HiddenAbilities": "ROCKHEAD"
     },
     {
         "BaseName": "AMPHAROS",
@@ -380,7 +470,10 @@
             "135",
             "105",
             "140"
-        ]
+        ],
+        "HiddenAbility": "DAZZLING",
+        "Abilities": "DAZZLING",
+        "HiddenAbilities": "DAZZLING"
     },
     {
         "BaseName": "ALTARIA",
@@ -392,7 +485,10 @@
             "95",
             "130",
             "125"
-        ]
+        ],
+        "HiddenAbility": "CORROSION",
+        "Abilities": "CORROSION",
+        "HiddenAbilities": "CORROSION"
     },
     {
         "BaseName": "HERACROSS",
@@ -404,7 +500,10 @@
             "115",
             "40",
             "115"
-        ]
+        ],
+        "HiddenAbility": "WATERABSORB",
+        "Abilities": "WATERABSORB",
+        "HiddenAbilities": "WATERABSORB"
     },
     {
         "BaseName": "SAWSBUCK",
@@ -416,7 +515,10 @@
             "145",
             "50",
             "85"
-        ]
+        ],
+        "HiddenAbility": "RECKLESS",
+        "Abilities": "RECKLESS",
+        "HiddenAbilities": "RECKLESS"
     },
     {
         "BaseName": "AGGRON",
@@ -428,7 +530,10 @@
             "75",
             "65",
             "115"
-        ]
+        ],
+        "HiddenAbility": "HIVEMIND",
+        "Abilities": "HIVEMIND",
+        "HiddenAbilities": "HIVEMIND"
     },
     {
         "BaseName": "SLOWKING",
@@ -440,7 +545,10 @@
             "70",
             "130",
             "120"
-        ]
+        ],
+        "HiddenAbility": "HIVEMIND",
+        "Abilities": "HIVEMIND",
+        "HiddenAbilities": "HIVEMIND"
     },
     {
         "BaseName": "CORVIKNIGHT",
@@ -452,7 +560,10 @@
             "120",
             "80",
             "100"
-        ]
+        ],
+        "HiddenAbility": "BLACKLIGHT",
+        "Abilities": "BLACKLIGHT",
+        "HiddenAbilities": "BLACKLIGHT"
     },
     {
         "BaseName": "KINGDRA",
@@ -464,7 +575,10 @@
             "110",
             "105",
             "120"
-        ]
+        ],
+        "HiddenAbility": "MEGALAUNCHER",
+        "Abilities": "MEGALAUNCHER",
+        "HiddenAbilities": "MEGALAUNCHER"
     },
     {
         "BaseName": "BUTTERFREE",
@@ -476,7 +590,10 @@
             "105",
             "135",
             "115"
-        ]
+        ],
+        "HiddenAbility": "DAZZLING",
+        "Abilities": "DAZZLING",
+        "HiddenAbilities": "DAZZLING"
     },
     {
         "BaseName": "FURRET",
@@ -488,7 +605,10 @@
             "115",
             "135",
             "110"
-        ]
+        ],
+        "HiddenAbility": "HAUNTED",
+        "Abilities": "HAUNTED",
+        "HiddenAbilities": "HAUNTED"
     },
     {
         "BaseName": "GARDEVOIR",
@@ -500,7 +620,10 @@
             "120",
             "155",
             "135"
-        ]
+        ],
+        "HiddenAbility": "IRREDEEMABLE",
+        "Abilities": "IRREDEEMABLE",
+        "HiddenAbilities": "IRREDEEMABLE"
     },
     {
         "BaseName": "GALLADE",
@@ -512,7 +635,10 @@
             "110",
             "85",
             "100"
-        ]
+        ],
+        "HiddenAbility": "SHARPNESS",
+        "Abilities": "SHARPNESS",
+        "HiddenAbilities": "SHARPNESS"
     },
     {
         "BaseName": "DUGTRIO",
@@ -524,7 +650,10 @@
             "130",
             "50",
             "120"
-        ]
+        ],
+        "HiddenAbility": "WANDERINGSPIRIT",
+        "Abilities": "WANDERINGSPIRIT",
+        "HiddenAbilities": "WANDERINGSPIRIT"
     },
     {
         "BaseName": "AZUMARILL",
@@ -536,7 +665,10 @@
             "70",
             "90",
             "90"
-        ]
+        ],
+        "HiddenAbility": "HUGEPOWER",
+        "Abilities": "HUGEPOWER",
+        "HiddenAbilities": "HUGEPOWER"
     },
     {
         "BaseName": "MELOETTA",
@@ -548,7 +680,10 @@
             "130",
             "148",
             "148"
-        ]
+        ],
+        "HiddenAbility": "PUREHEART",
+        "Abilities": "PUREHEART",
+        "HiddenAbilities": "PUREHEART"
     },
     {
         "BaseName": "ABSOL",
@@ -560,7 +695,10 @@
             "125",
             "75",
             "80"
-        ]
+        ],
+        "HiddenAbility": "LIGHTAURA",
+        "Abilities": "LIGHTAURA",
+        "HiddenAbilities": "LIGHTAURA"
     },
     {
         "BaseName": "METAGROSS",
@@ -572,7 +710,10 @@
             "70",
             "140",
             "140"
-        ]
+        ],
+        "HiddenAbility": "WEAKARMOR",
+        "Abilities": "WEAKARMOR",
+        "HiddenAbilities": "WEAKARMOR"
     },
     {
         "BaseName": "MEDICHAM",
@@ -584,7 +725,10 @@
             "115",
             "85",
             "125"
-        ]
+        ],
+        "HiddenAbility": "GENIUS",
+        "Abilities": "GENIUS",
+        "HiddenAbilities": "GENIUS"
     },
     {
         "BaseName": "PIDGEOT",
@@ -596,7 +740,10 @@
             "131",
             "130",
             "90"
-        ]
+        ],
+        "HiddenAbility": "REFRIGERATE",
+        "Abilities": "REFRIGERATE",
+        "HiddenAbilities": "REFRIGERATE"
     },
     {
         "BaseName": "BLISSEY",
@@ -608,7 +755,10 @@
             "65",
             "75",
             "135"
-        ]
+        ],
+        "HiddenAbility": "MOTORDRIVE",
+        "Abilities": "MOTORDRIVE",
+        "HiddenAbilities": "MOTORDRIVE"
     },
     {
         "BaseName": "TENTACRUEL",
@@ -620,7 +770,10 @@
             "80",
             "130",
             "145"
-        ]
+        ],
+        "HiddenAbility": "ANALYTIC",
+        "Abilities": "ANALYTIC",
+        "HiddenAbilities": "ANALYTIC"
     },
     {
         "BaseName": "TSAREENA",
@@ -634,7 +787,10 @@
             "113",
             "45",
             "112"
-        ]
+        ],
+        "HiddenAbility": "LIGHTAURA",
+        "Abilities": "LIGHTAURA",
+        "HiddenAbilities": "LIGHTAURA"
     },
     {
         "BaseName": "TSAREENA",
@@ -648,7 +804,10 @@
             "113",
             "45",
             "112"
-        ]
+        ],
+        "HiddenAbility": "DARKAURA",
+        "Abilities": "DARKAURA",
+        "HiddenAbilities": "DARKAURA"
     },
     {
         "BaseName": "BEHEEYEM",
@@ -660,7 +819,10 @@
             "65",
             "65",
             "130"
-        ]
+        ],
+        "HiddenAbility": "GENIUS",
+        "Abilities": "GENIUS",
+        "HiddenAbilities": "GENIUS"
     },
     {
         "BaseName": "SANDACONDA",
@@ -672,7 +834,10 @@
             "81",
             "120",
             "112"
-        ]
+        ],
+        "HiddenAbility": "MAELSTROM",
+        "Abilities": "MAELSTROM",
+        "HiddenAbilities": "MAELSTROM"
     },
     {
         "BaseName": "RAICHU",
@@ -684,7 +849,10 @@
             "140",
             "130",
             "100"
-        ]
+        ],
+        "HiddenAbility": "FILTER",
+        "Abilities": "FILTER",
+        "HiddenAbilities": "FILTER"
     },
     {
         "BaseName": "COFAGRIGUS",
@@ -696,7 +864,10 @@
             "50",
             "145",
             "145"
-        ]
+        ],
+        "HiddenAbility": "CHARISMA",
+        "Abilities": "CHARISMA",
+        "HiddenAbilities": "CHARISMA"
     },
     {
         "BaseName": "SWAMPERT",
@@ -708,7 +879,10 @@
             "80",
             "120",
             "130"
-        ]
+        ],
+        "HiddenAbility": "COMETSTORM",
+        "Abilities": "COMETSTORM",
+        "HiddenAbilities": "COMETSTORM"
     },
     {
         "BaseName": "GOTHITELLE",
@@ -720,7 +894,10 @@
             "135",
             "55",
             "115"
-        ]
+        ],
+        "HiddenAbility": "ADAPTABILITY",
+        "Abilities": "ADAPTABILITY",
+        "HiddenAbilities": "ADAPTABILITY"
     },
     {
         "BaseName": "CHARIZARD",
@@ -732,7 +909,10 @@
             "130",
             "84",
             "105"
-        ]
+        ],
+        "HiddenAbility": "IRREDEEMABLE",
+        "Abilities": "IRREDEEMABLE",
+        "HiddenAbilities": "IRREDEEMABLE"
     },
     {
         "BaseName": "WIGGLYTUFF",
@@ -744,7 +924,10 @@
             "80",
             "85",
             "110"
-        ]
+        ],
+        "HiddenAbility": "WATERBUBBLE",
+        "Abilities": "WATERBUBBLE",
+        "HiddenAbilities": "WATERBUBBLE"
     },
     {
         "BaseName": "MANECTRIC",
@@ -756,7 +939,10 @@
             "135",
             "55",
             "115"
-        ]
+        ],
+        "HiddenAbility": "CURSEDBODY",
+        "Abilities": "CURSEDBODY",
+        "HiddenAbilities": "CURSEDBODY"
     },
     {
         "BaseName": "MAMOSWINE",
@@ -768,7 +954,10 @@
             "90",
             "55",
             "110"
-        ]
+        ],
+        "HiddenAbility": "GALVANIZE",
+        "Abilities": "GALVANIZE",
+        "HiddenAbilities": "GALVANIZE"
     },
     {
         "BaseName": "TORTERRA",
@@ -780,7 +969,10 @@
             "56",
             "75",
             "135"
-        ]
+        ],
+        "HiddenAbility": "STAMINA",
+        "Abilities": "STAMINA",
+        "HiddenAbilities": "STAMINA"
     },
     {
         "BaseName": "LOPUNNY",
@@ -792,7 +984,10 @@
             "115",
             "74",
             "120"
-        ]
+        ],
+        "HiddenAbility": "DANCER",
+        "Abilities": "DANCER",
+        "HiddenAbilities": "DANCER"
     },
     {
         "BaseName": "GOTHITELLE2",
@@ -804,7 +999,10 @@
             "65",
             "125",
             "100"
-        ]
+        ],
+        "HiddenAbility": "NOBILITY",
+        "Abilities": "NOBILITY",
+        "HiddenAbilities": "NOBILITY"
     },
     {
         "BaseName": "DONPHAN",
@@ -816,7 +1014,10 @@
             "70",
             "40",
             "130"
-        ]
+        ],
+        "HiddenAbility": "SHEERFORCE",
+        "Abilities": "SHEERFORCE",
+        "HiddenAbilities": "SHEERFORCE"
     },
     {
         "BaseName": "GARCHOMP",
@@ -828,7 +1029,10 @@
             "112",
             "110",
             "125"
-        ]
+        ],
+        "HiddenAbility": "INFILTRATOR",
+        "Abilities": "INFILTRATOR",
+        "HiddenAbilities": "INFILTRATOR"
     },
     {
         "BaseName": "NINETALES",
@@ -840,7 +1044,10 @@
             "115",
             "121",
             "125"
-        ]
+        ],
+        "HiddenAbility": "CHARISMA",
+        "Abilities": "CHARISMA",
+        "HiddenAbilities": "CHARISMA"
     },
     {
         "BaseName": "TOXTRICITY",
@@ -852,7 +1059,10 @@
             "90",
             "92",
             "110"
-        ]
+        ],
+        "HiddenAbility": "GORILLATACTICS",
+        "Abilities": "GORILLATACTICS",
+        "HiddenAbilities": "GORILLATACTICS"
     },
     {
         "BaseName": "DUGTRIO2",
@@ -864,7 +1074,10 @@
             "110",
             "110",
             "80"
-        ]
+        ],
+        "HiddenAbility": "THICKFAT",
+        "Abilities": "THICKFAT",
+        "HiddenAbilities": "THICKFAT"
     },
     {
         "BaseName": "LUVDISC",
@@ -876,7 +1089,10 @@
             "130",
             "65",
             "90"
-        ]
+        ],
+        "HiddenAbility": "HUSTLE",
+        "Abilities": "HUSTLE",
+        "HiddenAbilities": "HUSTLE"
     },
     {
         "BaseName": "ABSOL2",
@@ -888,7 +1104,10 @@
             "115",
             "45",
             "115"
-        ]
+        ],
+        "HiddenAbility": "SNIPER",
+        "Abilities": "SNIPER",
+        "HiddenAbilities": "SNIPER"
     },
     {
         "BaseName": "ABOMASNOW",
@@ -900,7 +1119,10 @@
             "70",
             "102",
             "115"
-        ]
+        ],
+        "HiddenAbility": "REGENERATOR",
+        "Abilities": "REGENERATOR",
+        "HiddenAbilities": "REGENERATOR"
     },
     {
         "BaseName": "SABLEYE2",
@@ -912,7 +1134,10 @@
             "70",
             "50",
             "120"
-        ]
+        ],
+        "HiddenAbility": "SOUNDPROOF",
+        "Abilities": "SOUNDPROOF",
+        "HiddenAbilities": "SOUNDPROOF"
     },
     {
         "BaseName": "GARBODOR",
@@ -924,7 +1149,10 @@
             "60",
             "116",
             "132"
-        ]
+        ],
+        "HiddenAbility": "NEUTRALIZINGGAS",
+        "Abilities": "NEUTRALIZINGGAS",
+        "HiddenAbilities": "NEUTRALIZINGGAS"
     },
     {
         "BaseName": "ALTARIA2",
@@ -936,7 +1164,10 @@
             "90",
             "135",
             "140"
-        ]
+        ],
+        "HiddenAbility": "LIGHTNINGROD",
+        "Abilities": "LIGHTNINGROD",
+        "HiddenAbilities": "LIGHTNINGROD"
     },
     {
         "BaseName": "SWAMPERT2",
@@ -948,7 +1179,10 @@
             "80",
             "140",
             "120"
-        ]
+        ],
+        "HiddenAbility": "VITALITY",
+        "Abilities": "VITALITY",
+        "HiddenAbilities": "VITALITY"
     },
     {
         "BaseName": "MASQUERAIN2",
@@ -960,7 +1194,10 @@
             "90",
             "130",
             "122"
-        ]
+        ],
+        "HiddenAbility": "TRIAGE",
+        "Abilities": "TRIAGE",
+        "HiddenAbilities": "TRIAGE"
     },
     {
         "BaseName": "BARBARACLE",
@@ -972,7 +1209,10 @@
             "104",
             "155",
             "96"
-        ]
+        ],
+        "HiddenAbility": "SOLIDROCK",
+        "Abilities": "SOLIDROCK",
+        "HiddenAbilities": "SOLIDROCK"
     },
     {
         "BaseName": "FALINKS",
@@ -984,7 +1224,10 @@
             "95",
             "105",
             "90"
-        ]
+        ],
+        "HiddenAbility": "HADRONENGINE",
+        "Abilities": "HADRONENGINE",
+        "HiddenAbilities": "HADRONENGINE"
     },
     {
         "BaseName": "MISMAGIUS",
@@ -996,7 +1239,10 @@
             "115",
             "135",
             "135"
-        ]
+        ],
+        "HiddenAbility": "DAZZLING",
+        "Abilities": "DAZZLING",
+        "HiddenAbilities": "DAZZLING"
     },
     {
         "BaseName": "SCIZOR",
@@ -1008,7 +1254,10 @@
             "50",
             "140",
             "140"
-        ]
+        ],
+        "HiddenAbility": "MEGALAUNCHER",
+        "Abilities": "MEGALAUNCHER",
+        "HiddenAbilities": "MEGALAUNCHER"
     },
     {
         "BaseName": "COALOSSAL",
@@ -1020,7 +1269,10 @@
             "30",
             "60",
             "140"
-        ]
+        ],
+        "HiddenAbility": "IMPENETRABLE",
+        "Abilities": "IMPENETRABLE",
+        "HiddenAbilities": "IMPENETRABLE"
     },
     {
         "BaseName": "GIGALITH2",
@@ -1032,7 +1284,10 @@
             "105",
             "135",
             "130"
-        ]
+        ],
+        "HiddenAbility": "CONDUCTOR",
+        "Abilities": "CONDUCTOR",
+        "HiddenAbilities": "CONDUCTOR"
     },
     {
         "BaseName": "DRAGONITE",
@@ -1044,7 +1299,10 @@
             "130",
             "120",
             "124"
-        ]
+        ],
+        "HiddenAbility": "PUREHEART",
+        "Abilities": "PUREHEART",
+        "HiddenAbilities": "PUREHEART"
     },
     {
         "BaseName": "DRAGAPULT",
@@ -1056,7 +1314,10 @@
             "140",
             "135",
             "120"
-        ]
+        ],
+        "HiddenAbility": "NOGUARD",
+        "Abilities": "NOGUARD",
+        "HiddenAbilities": "NOGUARD"
     },
     {
         "BaseName": "BANETTE",
@@ -1068,7 +1329,10 @@
             "90",
             "63",
             "103"
-        ]
+        ],
+        "HiddenAbility": "PRANKSTER",
+        "Abilities": "PRANKSTER",
+        "HiddenAbilities": "PRANKSTER"
     },
     {
         "BaseName": "HOUNDOOM",
@@ -1080,7 +1344,10 @@
             "105",
             "120",
             "90"
-        ]
+        ],
+        "HiddenAbility": "SPEEDBOOST",
+        "Abilities": "SPEEDBOOST",
+        "HiddenAbilities": "SPEEDBOOST"
     },
     {
         "BaseName": "EMPOLEON",
@@ -1092,7 +1359,10 @@
             "90",
             "86",
             "121"
-        ]
+        ],
+        "HiddenAbility": "FILTER",
+        "Abilities": "FILTER",
+        "HiddenAbilities": "FILTER"
     },
     {
         "BaseName": "JUMPLUFF2",
@@ -1104,7 +1374,10 @@
             "130",
             "105",
             "105"
-        ]
+        ],
+        "HiddenAbility": "TINTEDLENS",
+        "Abilities": "TINTEDLENS",
+        "HiddenAbilities": "TINTEDLENS"
     },
     {
         "BaseName": "EXPLOUD",
@@ -1116,7 +1389,10 @@
             "108",
             "126",
             "93"
-        ]
+        ],
+        "HiddenAbility": "PUNKROCK",
+        "Abilities": "PUNKROCK",
+        "HiddenAbilities": "PUNKROCK"
     },
     {
         "BaseName": "CENTISKORCH",
@@ -1128,7 +1404,10 @@
             "125",
             "50",
             "120"
-        ]
+        ],
+        "HiddenAbility": "LEECHINGFANGS",
+        "Abilities": "LEECHINGFANGS",
+        "HiddenAbilities": "LEECHINGFANGS"
     },
     {
         "BaseName": "SALAMENCE",
@@ -1140,7 +1419,10 @@
             "120",
             "130",
             "110"
-        ]
+        ],
+        "HiddenAbility": "DRAGONSMAW",
+        "Abilities": "DRAGONSMAW",
+        "HiddenAbilities": "DRAGONSMAW"
     },
     {
         "BaseName": "GRAPPLOCT",
@@ -1152,7 +1434,10 @@
             "70",
             "62",
             "120"
-        ]
+        ],
+        "HiddenAbility": "CONTRARY",
+        "Abilities": "CONTRARY",
+        "HiddenAbilities": "CONTRARY"
     },
     {
         "BaseName": "HATTERENE",
@@ -1164,7 +1449,10 @@
             "64",
             "141",
             "138"
-        ]
+        ],
+        "HiddenAbility": "REALISM",
+        "Abilities": "REALISM",
+        "HiddenAbilities": "REALISM"
     },
     {
         "BaseName": "CHIMECHO",
@@ -1176,7 +1464,10 @@
             "115",
             "135",
             "120"
-        ]
+        ],
+        "HiddenAbility": "LEVITATE",
+        "Abilities": "LEVITATE",
+        "HiddenAbilities": "LEVITATE"
     },
     {
         "BaseName": "GRIMMSNARL2",
@@ -1188,7 +1479,10 @@
             "110",
             "85",
             "115"
-        ]
+        ],
+        "HiddenAbility": "DARKAURA",
+        "Abilities": "DARKAURA",
+        "HiddenAbilities": "DARKAURA"
     },
     {
         "BaseName": "WYRDEER2",
@@ -1200,7 +1494,10 @@
             "135",
             "70",
             "100"
-        ]
+        ],
+        "HiddenAbility": "SHEERFORCE",
+        "Abilities": "SHEERFORCE",
+        "HiddenAbilities": "SHEERFORCE"
     },
     {
         "BaseName": "URSALUNA",
@@ -1212,7 +1509,10 @@
             "110",
             "85",
             "130"
-        ]
+        ],
+        "HiddenAbility": "ETHEREAL",
+        "Abilities": "ETHEREAL",
+        "HiddenAbilities": "ETHEREAL"
     },
     {
         "BaseName": "EMOLGA",
@@ -1224,7 +1524,10 @@
             "138",
             "40",
             "75"
-        ]
+        ],
+        "HiddenAbility": "MOXIE",
+        "Abilities": "MOXIE",
+        "HiddenAbilities": "MOXIE"
     },
     {
         "BaseName": "",
@@ -1240,7 +1543,10 @@
             "120",
             "120",
             "122"
-        ]
+        ],
+        "HiddenAbility": "LEVITATE",
+        "Abilities": "LEVITATE",
+        "HiddenAbilities": "LEVITATE"
     },
     {
         "BaseName": "BLAZIKEN",
@@ -1252,7 +1558,10 @@
             "140",
             "60",
             "115"
-        ]
+        ],
+        "HiddenAbility": "SANDVEIL",
+        "Abilities": "SANDVEIL",
+        "HiddenAbilities": "SANDVEIL"
     },
     {
         "BaseName": "GARGANACL",
@@ -1266,7 +1575,10 @@
             "75",
             "45",
             "115"
-        ]
+        ],
+        "HiddenAbility": "ARSONIST",
+        "Abilities": "ARSONIST",
+        "HiddenAbilities": "ARSONIST"
     },
     {
         "BaseName": "WOBBUFFET",
@@ -1278,7 +1590,10 @@
             "33",
             "103",
             "93"
-        ]
+        ],
+        "HiddenAbility": "REQUIEM",
+        "Abilities": "REQUIEM",
+        "HiddenAbilities": "REQUIEM"
     },
     {
         "BaseName": "PLUSLE",
@@ -1293,7 +1608,10 @@
             "136",
             "119",
             "71"
-        ]
+        ],
+        "HiddenAbility": "DELTASTREAM",
+        "Abilities": "DELTASTREAM",
+        "HiddenAbilities": "DELTASTREAM"
     },
     {
         "BaseName": "MINUN",
@@ -1308,7 +1626,10 @@
             "106",
             "64",
             "60"
-        ]
+        ],
+        "HiddenAbility": "PACKEDSNOW",
+        "Abilities": "PACKEDSNOW",
+        "HiddenAbilities": "PACKEDSNOW"
     },
     {
         "BaseName": "BLASTOISE",
@@ -1320,7 +1641,10 @@
             "78",
             "120",
             "135"
-        ]
+        ],
+        "HiddenAbility": "MEGALAUNCHER",
+        "Abilities": "MEGALAUNCHER",
+        "HiddenAbilities": "MEGALAUNCHER"
     },
     {
         "BaseName": "CACTURNE2",
@@ -1332,7 +1656,10 @@
             "115",
             "130",
             "110"
-        ]
+        ],
+        "HiddenAbility": "SOLARPOWER",
+        "Abilities": "SOLARPOWER",
+        "HiddenAbilities": "SOLARPOWER"
     },
     {
         "BaseName": "URSALUNA2",
@@ -1344,7 +1671,10 @@
             "120",
             "65",
             "125"
-        ]
+        ],
+        "HiddenAbility": "SHARPNESS",
+        "Abilities": "SHARPNESS",
+        "HiddenAbilities": "SHARPNESS"
     },
     {
         "BaseName": "DREDNAW",
@@ -1356,7 +1686,10 @@
             "84",
             "43",
             "128"
-        ]
+        ],
+        "HiddenAbility": "IMPENETRABLE",
+        "Abilities": "IMPENETRABLE",
+        "HiddenAbilities": "IMPENETRABLE"
     },
     {
         "BaseName": "MELMETAL",
@@ -1368,7 +1701,10 @@
             "84",
             "70",
             "135"
-        ]
+        ],
+        "HiddenAbility": "REFRIGERATE",
+        "Abilities": "REFRIGERATE",
+        "HiddenAbilities": "REFRIGERATE"
     },
     {
         "BaseName": "WHIMSICOTT2",
@@ -1380,7 +1716,10 @@
             "101",
             "107",
             "100"
-        ]
+        ],
+        "HiddenAbility": "WINDRIDER",
+        "Abilities": "WINDRIDER",
+        "HiddenAbilities": "WINDRIDER"
     },
     {
         "BaseName": "CHARIZARD2",
@@ -1392,7 +1731,10 @@
             "127",
             "84",
             "100"
-        ]
+        ],
+        "HiddenAbility": "GALEWINGS",
+        "Abilities": "GALEWINGS",
+        "HiddenAbilities": "GALEWINGS"
     },
     {
         "BaseName": "",
@@ -1411,7 +1753,10 @@
             "57",
             "75",
             "59"
-        ]
+        ],
+        "HiddenAbility": "DRIZZLE",
+        "Abilities": "GOOEY,SWIFTSWIM",
+        "HiddenAbilities": "DRIZZLE"
     },
     {
         "BaseName": "GASTRODON",
@@ -1426,7 +1771,10 @@
             "85",
             "110",
             "88"
-        ]
+        ],
+        "HiddenAbility": "DRIZZLE",
+        "Abilities": "GOOEY,SWIFTSWIM",
+        "HiddenAbilities": "DRIZZLE"
     },
     {
         "BaseName": "SHELLOS",
@@ -1441,7 +1789,10 @@
             "45",
             "40",
             "45"
-        ]
+        ],
+        "HiddenAbility": "SHEERFORCE",
+        "Abilities": "GOOEY,FORTIFICATION",
+        "HiddenAbilities": "SHEERFORCE"
     },
     {
         "BaseName": "GASTRODON",
@@ -1456,7 +1807,10 @@
             "55",
             "55",
             "75"
-        ]
+        ],
+        "HiddenAbility": "SHEERFORCE",
+        "Abilities": "GOOEY,FORTIFICATION",
+        "HiddenAbilities": "SHEERFORCE"
     },
     {
         "BaseName": "SHELLOS",
@@ -1471,7 +1825,10 @@
             "75",
             "40",
             "40"
-        ]
+        ],
+        "HiddenAbility": "INTIMIDATE",
+        "Abilities": "GOOEY,HYPERCUTTER",
+        "HiddenAbilities": "INTIMIDATE"
     },
     {
         "BaseName": "GASTRODON",
@@ -1486,7 +1843,10 @@
             "105",
             "60",
             "80"
-        ]
+        ],
+        "HiddenAbility": "INTIMIDATE",
+        "Abilities": "GOOEY,HYPERCUTTER",
+        "HiddenAbilities": "INTIMIDATE"
     },
     {
         "BaseName": "SHELLOS",
@@ -1501,7 +1861,10 @@
             "30",
             "50",
             "65"
-        ]
+        ],
+        "HiddenAbility": "NOGUARD",
+        "Abilities": "GOOEY,MARVELSCALE",
+        "HiddenAbilities": "NOGUARD"
     },
     {
         "BaseName": "GASTRODON",
@@ -1516,7 +1879,10 @@
             "50",
             "80",
             "90"
-        ]
+        ],
+        "HiddenAbility": "NOGUARD",
+        "Abilities": "GOOEY,MARVELSCALE",
+        "HiddenAbilities": "NOGUARD"
     },
     {
         "BaseName": "SHELLOS",
@@ -1531,7 +1897,10 @@
             "45",
             "50",
             "69"
-        ]
+        ],
+        "HiddenAbility": "REGENERATOR",
+        "Abilities": "GOOEY,HEALER",
+        "HiddenAbilities": "REGENERATOR"
     },
     {
         "BaseName": "GASTRODON",
@@ -1546,7 +1915,10 @@
             "72",
             "73",
             "101"
-        ]
+        ],
+        "HiddenAbility": "REGENERATOR",
+        "Abilities": "GOOEY,HEALER",
+        "HiddenAbilities": "REGENERATOR"
     },
     {
         "BaseName": "SHELLOS",
@@ -1561,7 +1933,10 @@
             "65",
             "60",
             "45"
-        ]
+        ],
+        "HiddenAbility": "SKILLLINK",
+        "Abilities": "GOOEY,COMPOUNDEYES",
+        "HiddenAbilities": "SKILLLINK"
     },
     {
         "BaseName": "GASTRODON",
@@ -1576,7 +1951,10 @@
             "116",
             "100",
             "57"
-        ]
+        ],
+        "HiddenAbility": "SKILLLINK",
+        "Abilities": "GOOEY,COMPOUNDEYES",
+        "HiddenAbilities": "SKILLLINK"
     },
     {
         "BaseName": "SHELLOS",
@@ -1591,7 +1969,10 @@
             "57",
             "40",
             "40"
-        ]
+        ],
+        "HiddenAbility": "SANDSTREAM",
+        "Abilities": "GOOEY,SANDRUSH",
+        "HiddenAbilities": "SANDSTREAM"
     },
     {
         "BaseName": "GASTRODON",
@@ -1606,7 +1987,10 @@
             "85",
             "50",
             "57"
-        ]
+        ],
+        "HiddenAbility": "SANDSTREAM",
+        "Abilities": "GOOEY,SANDRUSH",
+        "HiddenAbilities": "SANDSTREAM"
     },
     {
         "BaseName": "SHELLOS",
@@ -1621,7 +2005,10 @@
             "40",
             "30",
             "70"
-        ]
+        ],
+        "HiddenAbility": "RIPEN",
+        "Abilities": "GOOEY,IMMUNITY",
+        "HiddenAbilities": "RIPEN"
     },
     {
         "BaseName": "GASTRODON",
@@ -1636,7 +2023,10 @@
             "50",
             "45",
             "110"
-        ]
+        ],
+        "HiddenAbility": "RIPEN",
+        "Abilities": "GOOEY,IMMUNITY",
+        "HiddenAbilities": "RIPEN"
     },
     {
         "BaseName": "SHELLOS",
@@ -1651,7 +2041,10 @@
             "70",
             "76",
             "45"
-        ]
+        ],
+        "HiddenAbility": "SPEEDBOOST",
+        "Abilities": "GOOEY,PERISHBODY",
+        "HiddenAbilities": "SPEEDBOOST"
     },
     {
         "BaseName": "GASTRODON",
@@ -1666,7 +2059,10 @@
             "110",
             "115",
             "55"
-        ]
+        ],
+        "HiddenAbility": "SPEEDBOOST",
+        "Abilities": "GOOEY,PERISHBODY",
+        "HiddenAbilities": "SPEEDBOOST"
     },
     {
         "BaseName": "SHELLOS",
@@ -1681,7 +2077,10 @@
             "60",
             "45",
             "60"
-        ]
+        ],
+        "HiddenAbility": "SNIPER",
+        "Abilities": "GOOEY,POISONTOUCH",
+        "HiddenAbilities": "SNIPER"
     },
     {
         "BaseName": "GASTRODON",
@@ -1696,7 +2095,10 @@
             "70",
             "60",
             "90"
-        ]
+        ],
+        "HiddenAbility": "SNIPER",
+        "Abilities": "GOOEY,POISONTOUCH",
+        "HiddenAbilities": "SNIPER"
     },
     {
         "BaseName": "SHELLOS",
@@ -1711,7 +2113,10 @@
             "40",
             "46",
             "53"
-        ]
+        ],
+        "HiddenAbility": "UNBREAKABLE",
+        "Abilities": "GOOEY,ROUGHSKIN",
+        "HiddenAbilities": "UNBREAKABLE"
     },
     {
         "BaseName": "GASTRODON",
@@ -1726,7 +2131,10 @@
             "50",
             "55",
             "85"
-        ]
+        ],
+        "HiddenAbility": "UNBREAKABLE",
+        "Abilities": "GOOEY,ROUGHSKIN",
+        "HiddenAbilities": "UNBREAKABLE"
     },
     {
         "BaseName": "SHELLOS",
@@ -1741,7 +2149,10 @@
             "70",
             "36",
             "53"
-        ]
+        ],
+        "HiddenAbility": "INTIMIDATE",
+        "Abilities": "GOOEY,SHEERFORCE",
+        "HiddenAbilities": "INTIMIDATE"
     },
     {
         "BaseName": "GASTRODON",
@@ -1756,7 +2167,10 @@
             "110",
             "55",
             "85"
-        ]
+        ],
+        "HiddenAbility": "INTIMIDATE",
+        "Abilities": "GOOEY,SHEERFORCE",
+        "HiddenAbilities": "INTIMIDATE"
     },
     {
         "BaseName": "SHELLOS",
@@ -1771,7 +2185,10 @@
             "60",
             "36",
             "53"
-        ]
+        ],
+        "HiddenAbility": "SLUSHRUSH",
+        "Abilities": "GOOEY,ICYVEINS",
+        "HiddenAbilities": "SLUSHRUSH"
     },
     {
         "BaseName": "GASTRODON",
@@ -1786,7 +2203,10 @@
             "90",
             "55",
             "85"
-        ]
+        ],
+        "HiddenAbility": "SLUSHRUSH",
+        "Abilities": "GOOEY,ICYVEINS",
+        "HiddenAbilities": "SLUSHRUSH"
     },
     {
         "BaseName": "BASCULIN",
@@ -1801,7 +2221,10 @@
             "93",
             "50",
             "55"
-        ]
+        ],
+        "HiddenAbility": "ADAPTABILITY",
+        "Abilities": "SWIFTSWIM,INNERFOCUS",
+        "HiddenAbilities": "ADAPTABILITY"
     },
     {
         "BaseName": "FURFROU",
@@ -1816,7 +2239,9 @@
             "80",
             "115",
             "70"
-        ]
+        ],
+        "HiddenAbility": "DROUGHT",
+        "Abilities": "DROUGHT"
     },
     {
         "BaseName": "FURFROU",
@@ -1831,7 +2256,9 @@
             "95",
             "90",
             "115"
-        ]
+        ],
+        "HiddenAbility": "ETHEREAL",
+        "Abilities": "ETHEREAL"
     },
     {
         "BaseName": "FURFROU",
@@ -1846,7 +2273,9 @@
             "70",
             "100",
             "70"
-        ]
+        ],
+        "HiddenAbility": "SNOWWARNING",
+        "Abilities": "SNOWWARNING"
     },
     {
         "BaseName": "FURFROU",
@@ -1861,7 +2290,9 @@
             "70",
             "90",
             "80"
-        ]
+        ],
+        "HiddenAbility": "SANDSTREAM",
+        "Abilities": "SANDSTREAM"
     },
     {
         "BaseName": "FURFROU",
@@ -1876,7 +2307,9 @@
             "65",
             "100",
             "75"
-        ]
+        ],
+        "HiddenAbility": "DRIZZLE",
+        "Abilities": "DRIZZLE"
     },
     {
         "BaseName": "FURFROU",
@@ -1891,7 +2324,9 @@
             "100",
             "50",
             "70"
-        ]
+        ],
+        "HiddenAbility": "DELTASTREAM",
+        "Abilities": "DELTASTREAM"
     },
     {
         "BaseName": "HONEDGE",
@@ -1905,7 +2340,10 @@
             "70",
             "65",
             "40"
-        ]
+        ],
+        "HiddenAbility": "LONGREACH",
+        "Abilities": "SHARPSHOOTER,SKILLLINK",
+        "HiddenAbilities": "LONGREACH"
     },
     {
         "BaseName": "DOUBLADE",
@@ -1919,7 +2357,10 @@
             "95",
             "95",
             "45"
-        ]
+        ],
+        "HiddenAbility": "LONGREACH",
+        "Abilities": "SHARPSHOOTER,SKILLLINK",
+        "HiddenAbilities": "LONGREACH"
     },
     {
         "BaseName": "AEGISLASH",
@@ -1934,7 +2375,10 @@
             "105",
             "110",
             "50"
-        ]
+        ],
+        "HiddenAbility": "LONGREACH",
+        "Abilities": "SHARPSHOOTER,SKILLLINK",
+        "HiddenAbilities": "LONGREACH"
     },
     {
         "BaseName": "HONEDGE",
@@ -1948,7 +2392,10 @@
             "70",
             "35",
             "37"
-        ]
+        ],
+        "HiddenAbility": "SHARPNESS",
+        "Abilities": "DEFIANT,ADAPTABILITY",
+        "HiddenAbilities": "SHARPNESS"
     },
     {
         "BaseName": "DOUBLADE",
@@ -1962,7 +2409,10 @@
             "95",
             "35",
             "49"
-        ]
+        ],
+        "HiddenAbility": "SHARPNESS",
+        "Abilities": "DEFIANT,ADAPTABILITY",
+        "HiddenAbilities": "SHARPNESS"
     },
     {
         "BaseName": "AEGISLASH",
@@ -1977,7 +2427,10 @@
             "100",
             "50",
             "55"
-        ]
+        ],
+        "HiddenAbility": "SHARPNESS",
+        "Abilities": "DEFIANT,ADAPTABILITY",
+        "HiddenAbilities": "SHARPNESS"
     },
     {
         "BaseName": "HONEDGE",
@@ -1991,7 +2444,10 @@
             "35",
             "28",
             "77"
-        ]
+        ],
+        "HiddenAbility": "CONTRARY",
+        "Abilities": "STATIC,TRANSISTOR",
+        "HiddenAbilities": "CONTRARY"
     },
     {
         "BaseName": "DOUBLADE",
@@ -2005,7 +2461,10 @@
             "65",
             "45",
             "99"
-        ]
+        ],
+        "HiddenAbility": "CONTRARY",
+        "Abilities": "STATIC,TRANSISTOR",
+        "HiddenAbilities": "CONTRARY"
     },
     {
         "BaseName": "AEGISLASH",
@@ -2020,7 +2479,10 @@
             "70",
             "50",
             "110"
-        ]
+        ],
+        "HiddenAbility": "CONTRARY",
+        "Abilities": "STATIC,TRANSISTOR",
+        "HiddenAbilities": "CONTRARY"
     },
     {
         "BaseName": "CHERRIM",
@@ -2050,7 +2512,10 @@
             "68",
             "53",
             "80"
-        ]
+        ],
+        "HiddenAbility": "ARSONIST",
+        "Abilities": "DISHEARTEN,TELEPATHY",
+        "HiddenAbilities": "ARSONIST"
     },
     {
         "BaseName": "MEOWSTIC",
@@ -2065,7 +2530,10 @@
             "104",
             "73",
             "96"
-        ]
+        ],
+        "HiddenAbility": "ARSONIST",
+        "Abilities": "DISHEARTEN,TELEPATHY",
+        "HiddenAbilities": "ARSONIST"
     },
     {
         "BaseName": "DARMANITAN",
@@ -2095,7 +2563,13 @@
             "130",
             "95",
             "80"
-        ]
+        ],
+        "HiddenAbility": "FRISK",
+        "Abilities": "LONGREACH,SCRAPPY",
+        "HiddenAbilities": "FRISK",
+        "InternalName": "HOOPA",
+        "Height": 0.5,
+        "Weight": 9.0
     },
     {
         "BaseName": "BASCULEGION",
@@ -2110,7 +2584,10 @@
             "99",
             "69",
             "60"
-        ]
+        ],
+        "HiddenAbility": "ADAPTABILITY",
+        "Abilities": "SWIFTSWIM,INNERFOCUS",
+        "HiddenAbilities": "ADAPTABILITY"
     },
     {
         "BaseName": "WISHIWASHI",
@@ -2139,7 +2616,10 @@
             "93",
             "63",
             "70"
-        ]
+        ],
+        "HiddenAbility": "DANCER",
+        "Abilities": "HUSTLE,PUNKROCK",
+        "HiddenAbilities": "DANCER"
     },
     {
         "BaseName": "ORICORIO",
@@ -2154,7 +2634,10 @@
             "113",
             "83",
             "60"
-        ]
+        ],
+        "HiddenAbility": "DANCER",
+        "Abilities": "VITALSPIRIT,DAZZLING",
+        "HiddenAbilities": "DANCER"
     },
     {
         "BaseName": "ORICORIO",
@@ -2169,7 +2652,10 @@
             "93",
             "88",
             "65"
-        ]
+        ],
+        "HiddenAbility": "DANCER",
+        "Abilities": "SERENEGRACE,QUICKFEET",
+        "HiddenAbilities": "DANCER"
     },
     {
         "BaseName": "BURMY",
@@ -2184,7 +2670,10 @@
             "36",
             "29",
             "55"
-        ]
+        ],
+        "HiddenAbility": "SOLIDROCK",
+        "Abilities": "STAMINA,WATERCOMPACTION",
+        "HiddenAbilities": "SOLIDROCK"
     },
     {
         "BaseName": "WORMADAM",
@@ -2199,7 +2688,10 @@
             "46",
             "29",
             "65"
-        ]
+        ],
+        "HiddenAbility": "SOLIDROCK",
+        "Abilities": "STAMINA,WATERCOMPACTION",
+        "HiddenAbilities": "SOLIDROCK"
     },
     {
         "BaseName": "MOTHIM",
@@ -2214,7 +2706,10 @@
             "96",
             "104",
             "70"
-        ]
+        ],
+        "HiddenAbility": "WEAKARMOR",
+        "Abilities": "VITALITY,WATERCOMPACTION",
+        "HiddenAbilities": "WEAKARMOR"
     },
     {
         "BaseName": "BURMY",
@@ -2227,6 +2722,9 @@
             "29",
             "55"
         ],
+        "HiddenAbility": "REGENERATOR",
+        "Abilities": "PACKEDSNOW,ICEBODY",
+        "HiddenAbilities": "REGENERATOR",
         "Type1": "ICE",
         "Type2": "BUG",
         "Types": "ICE,BUG"
@@ -2244,7 +2742,10 @@
             "46",
             "29",
             "65"
-        ]
+        ],
+        "HiddenAbility": "REGENERATOR",
+        "Abilities": "PACKEDSNOW,ICEBODY",
+        "HiddenAbilities": "REGENERATOR"
     },
     {
         "BaseName": "MOTHIM",
@@ -2259,7 +2760,10 @@
             "96",
             "104",
             "70"
-        ]
+        ],
+        "HiddenAbility": "SLUSHRUSH",
+        "Abilities": "ICESCALES,GALEWINGS",
+        "HiddenAbilities": "SLUSHRUSH"
     },
     {
         "BaseName": "UNOWN",
@@ -2311,7 +2815,10 @@
             "50",
             "70",
             "55"
-        ]
+        ],
+        "HiddenAbility": "INSOMNIA",
+        "Abilities": "POISONPOINT,CLEARBODY",
+        "HiddenAbilities": "INSOMNIA"
     },
     {
         "BaseName": "GRUMPIG",
@@ -2325,7 +2832,10 @@
             "70",
             "90",
             "85"
-        ]
+        ],
+        "HiddenAbility": "INSOMNIA",
+        "Abilities": "POISONPOINT,CLEARBODY",
+        "HiddenAbilities": "INSOMNIA"
     },
     {
         "BaseName": "",
@@ -2495,7 +3005,9 @@
             "10",
             "70",
             "125 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "ANTIGRAVITY",
+        "Abilities": "ANTIGRAVITY"
     },
     {
         "BaseName": "GOTHITA2",
@@ -2510,7 +3022,9 @@
             "100",
             "90",
             "50 # 425 BST Total Special Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "POISONTOUCH",
+        "Abilities": "POISONTOUCH"
     },
     {
         "BaseName": "JOLTIK",
@@ -2525,7 +3039,9 @@
             "100",
             "35",
             "50 # 425 BST Total Physical Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "SNIPER",
+        "Abilities": "SNIPER"
     },
     {
         "BaseName": "SPINARAK",
@@ -2540,7 +3056,9 @@
             "100",
             "35",
             "50 # 425 BST Total Physical Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "STALWART",
+        "Abilities": "STALWART"
     },
     {
         "BaseName": "DEWPIDER2",
@@ -2555,7 +3073,9 @@
             "100",
             "90",
             "50 # 425 BST Total Special Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "POISONTOUCH",
+        "Abilities": "POISONTOUCH"
     },
     {
         "BaseName": "CHIKORITA",
@@ -2570,7 +3090,9 @@
             "80",
             "80",
             "70 # 425 BST Total Special Bruiser"
-        ]
+        ],
+        "HiddenAbility": "IMMUNITY",
+        "Abilities": "IMMUNITY"
     },
     {
         "BaseName": "GALVANTULA",
@@ -2585,7 +3107,9 @@
             "100",
             "25",
             "50 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "SNIPER",
+        "Abilities": "SNIPER"
     },
     {
         "BaseName": "EKANS",
@@ -2600,7 +3124,9 @@
             "100",
             "90",
             "50 # 425 BST Total Special Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "MAESTRO",
+        "Abilities": "MAESTRO"
     },
     {
         "BaseName": "SKORUPI",
@@ -2615,7 +3141,9 @@
             "100",
             "35",
             "50 # 425 BST Total Physical Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "SNIPER",
+        "Abilities": "SNIPER"
     },
     {
         "BaseName": "MACHOP",
@@ -2630,7 +3158,9 @@
             "80",
             "25",
             "70 # 425 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "OWNTEMPO",
+        "Abilities": "OWNTEMPO"
     },
     {
         "BaseName": "GULPIN",
@@ -2644,7 +3174,9 @@
             "15",
             "100",
             "100 # 425 BST Total Special Juggernaut"
-        ]
+        ],
+        "HiddenAbility": "STORMDRAIN",
+        "Abilities": "STORMDRAIN"
     },
     {
         "BaseName": "ARBOK",
@@ -2659,7 +3191,9 @@
             "100",
             "100",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "MAESTRO",
+        "Abilities": "MAESTRO"
     },
     {
         "BaseName": "LARVESTA2",
@@ -2674,7 +3208,9 @@
             "15",
             "30",
             "80 # 425 BST Total Physical Juggernaut"
-        ]
+        ],
+        "HiddenAbility": "NEBULACLOUD",
+        "Abilities": "NEBULACLOUD"
     },
     {
         "BaseName": "ZUBAT",
@@ -2689,7 +3225,9 @@
             "100",
             "35",
             "50 # 425 BST Total Physical Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "SPEEDBOOST",
+        "Abilities": "SPEEDBOOST"
     },
     {
         "BaseName": "ELECTRIKE",
@@ -2704,7 +3242,9 @@
             "80",
             "25",
             "70 # 425 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "INFILTRATOR",
+        "Abilities": "INFILTRATOR"
     },
     {
         "BaseName": "MURKROW",
@@ -2719,7 +3259,9 @@
             "85",
             "25",
             "75 # 450 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "PRECISION",
+        "Abilities": "PRECISION"
     },
     {
         "BaseName": "SABLEYE2",
@@ -2734,7 +3276,9 @@
             "85",
             "25",
             "75 # 450 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "INFILTRATOR",
+        "Abilities": "INFILTRATOR"
     },
     {
         "BaseName": "GOLETT",
@@ -2749,7 +3293,9 @@
             "25",
             "100",
             "115 # 450 BST Total Special Juggernaut"
-        ]
+        ],
+        "HiddenAbility": "INTUITION",
+        "Abilities": "INTUITION"
     },
     {
         "BaseName": "SPHEAL",
@@ -2764,7 +3310,9 @@
             "25",
             "30",
             "80 # 450 BST Total Physical Juggernaut"
-        ]
+        ],
+        "HiddenAbility": "THICKFAT",
+        "Abilities": "THICKFAT"
     },
     {
         "BaseName": "BUIZEL",
@@ -2779,7 +3327,9 @@
             "85",
             "25",
             "75 # 450 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "MAGICBOUNCE",
+        "Abilities": "MAGICBOUNCE"
     },
     {
         "BaseName": "KADABRA",
@@ -2794,7 +3344,9 @@
             "85",
             "85",
             "80 # 450 BST Total Special Bruiser"
-        ]
+        ],
+        "HiddenAbility": "REALISM",
+        "Abilities": "REALISM"
     },
     {
         "BaseName": "RIBOMBEE",
@@ -2809,7 +3361,9 @@
             "100",
             "100",
             "60 # 450 BST Total Special Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "OWNTEMPO",
+        "Abilities": "OWNTEMPO"
     },
     {
         "BaseName": "GLOOM",
@@ -2824,7 +3378,9 @@
             "100",
             "100",
             "60 # 450 BST Total Special Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "CHARISMA",
+        "Abilities": "CHARISMA"
     },
     {
         "BaseName": "MARSHTOMP2",
@@ -2839,7 +3395,9 @@
             "85",
             "85",
             "80 # 450 BST Total Special Bruiser"
-        ]
+        ],
+        "HiddenAbility": "CHARISMA",
+        "Abilities": "CHARISMA"
     },
     {
         "BaseName": "ELECTABUZZ",
@@ -2854,7 +3412,9 @@
             "85",
             "25",
             "75 # 450 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "MOXIE",
+        "Abilities": "MOXIE"
     },
     {
         "BaseName": "BRAIXEN",
@@ -2869,7 +3429,9 @@
             "100",
             "100",
             "60 # 450 BST Total Special Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "CHARISMA",
+        "Abilities": "CHARISMA"
     },
     {
         "BaseName": "METANG",
@@ -2884,7 +3446,9 @@
             "85",
             "85",
             "80 # 450 BST Total Special Bruiser"
-        ]
+        ],
+        "HiddenAbility": "MEGALAUNCHER",
+        "Abilities": "MEGALAUNCHER"
     },
     {
         "BaseName": "CUBONE",
@@ -2899,7 +3463,9 @@
             "85",
             "25",
             "75 # 450 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "SNIPER",
+        "Abilities": "SNIPER"
     },
     {
         "BaseName": "ROSELIA",
@@ -2914,7 +3480,9 @@
             "100",
             "35",
             "55 # 450 BST Total Physical Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "SNIPER",
+        "Abilities": "SNIPER"
     },
     {
         "BaseName": "STARMIE",
@@ -2929,7 +3497,9 @@
             "100",
             "100",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "SERENEGRACE",
+        "Abilities": "SERENEGRACE"
     },
     {
         "BaseName": "SWOOBAT",
@@ -2944,7 +3514,9 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "STRONGJAW",
+        "Abilities": "STRONGJAW"
     },
     {
         "BaseName": "NOIVERN",
@@ -2959,7 +3531,9 @@
             "100",
             "100",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "PUNKROCK",
+        "Abilities": "PUNKROCK"
     },
     {
         "BaseName": "WEEZING",
@@ -2974,7 +3548,9 @@
             "100",
             "100",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "STEAMENGINE",
+        "Abilities": "STEAMENGINE"
     },
     {
         "BaseName": "MISDREAVUS",
@@ -2989,7 +3565,9 @@
             "100",
             "100",
             "60 # 450 BST Total Special Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "MEGALAUNCHER",
+        "Abilities": "MEGALAUNCHER"
     },
     {
         "BaseName": "MISMAGIUS",
@@ -3004,7 +3582,9 @@
             "100",
             "100",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "ETHEREAL",
+        "Abilities": "ETHEREAL"
     },
     {
         "BaseName": "GRAPPLOCT",
@@ -3019,7 +3599,9 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "ARENATRAP",
+        "Abilities": "ARENATRAP"
     },
     {
         "BaseName": "GYARADOS",
@@ -3034,7 +3616,9 @@
             "100",
             "100",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "TELEPATHY",
+        "Abilities": "TELEPATHY"
     },
     {
         "BaseName": "HOOPA",
@@ -3049,7 +3633,12 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "CONTRARY",
+        "Abilities": "CONTRARY",
+        "InternalName": "HOOPA",
+        "Height": 0.5,
+        "Weight": 9.0
     },
     {
         "BaseName": "PICHU",
@@ -3064,7 +3653,9 @@
             "100",
             "100",
             "70 # 475 BST Total Special Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "VIRTUOSO",
+        "Abilities": "VIRTUOSO"
     },
     {
         "BaseName": "EEVEE2",
@@ -3078,7 +3669,9 @@
             "100",
             "100",
             "70 # 475 BST Total Special Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "PROTEAN",
+        "Abilities": "PROTEAN"
     },
     {
         "BaseName": "LITTEN",
@@ -3093,7 +3686,9 @@
             "100",
             "45",
             "60 # 475 BST Total Physical Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "TOUGHCLAWS",
+        "Abilities": "TOUGHCLAWS"
     },
     {
         "BaseName": "GOLDUCK",
@@ -3108,7 +3703,9 @@
             "85",
             "85",
             "85 # 475 BST Total Special Bruiser"
-        ]
+        ],
+        "HiddenAbility": "DISHEARTEN",
+        "Abilities": "DISHEARTEN"
     },
     {
         "BaseName": "BAYLEEF",
@@ -3123,7 +3720,9 @@
             "85",
             "85",
             "85 # 475 BST Total Special Bruiser"
-        ]
+        ],
+        "HiddenAbility": "IMMUNITY",
+        "Abilities": "IMMUNITY"
     },
     {
         "BaseName": "LOPUNNY",
@@ -3138,7 +3737,9 @@
             "85",
             "35",
             "85 # 475 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "TECHNICIAN",
+        "Abilities": "TECHNICIAN"
     },
     {
         "BaseName": "ARCANINE",
@@ -3153,7 +3754,9 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "ASTRALMAJESTY",
+        "Abilities": "ASTRALMAJESTY"
     },
     {
         "BaseName": "GALLADE",
@@ -3168,7 +3771,9 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "SHARPNESS",
+        "Abilities": "SHARPNESS"
     },
     {
         "BaseName": "CENTISKORCH",
@@ -3183,7 +3788,9 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "LEECHINGFANGS",
+        "Abilities": "LEECHINGFANGS"
     },
     {
         "BaseName": "JUMPLUFF2",
@@ -3198,7 +3805,9 @@
             "100",
             "100",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "LEVITATE",
+        "Abilities": "LEVITATE"
     },
     {
         "BaseName": "REUNICLUS2",
@@ -3213,7 +3822,9 @@
             "100",
             "100",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "ANALYTIC",
+        "Abilities": "ANALYTIC"
     },
     {
         "BaseName": "GARBODOR",
@@ -3228,7 +3839,9 @@
             "100",
             "100",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "LIQUIDOOZE",
+        "Abilities": "LIQUIDOOZE"
     },
     {
         "BaseName": "VENOMOTH",
@@ -3243,7 +3856,9 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "PROTEAN",
+        "Abilities": "PROTEAN"
     },
     {
         "BaseName": "KOFFING",
@@ -3258,7 +3873,9 @@
             "25",
             "105",
             "120 # 475 BST Total Special Juggernaut"
-        ]
+        ],
+        "HiddenAbility": "LEVITATE",
+        "Abilities": "LEVITATE"
     },
     {
         "BaseName": "MAROWAK",
@@ -3273,7 +3890,9 @@
             "85",
             "35",
             "85 # 475 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "CANNONFIRE",
+        "Abilities": "CANNONFIRE"
     },
     {
         "BaseName": "RALTS",
@@ -3288,7 +3907,9 @@
             "100",
             "100",
             "70 # 475 BST Total Special Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "REQUIEM",
+        "Abilities": "REQUIEM"
     },
     {
         "BaseName": "SMOLIV",
@@ -3303,7 +3924,9 @@
             "100",
             "100",
             "70 # 475 BST Total Special Glass Cannon"
-        ]
+        ],
+        "HiddenAbility": "MAELSTROM",
+        "Abilities": "MAELSTROM"
     },
     {
         "BaseName": "VANILLITE",
@@ -3317,7 +3940,9 @@
             "25",
             "105",
             "120 # 475 BST Total Special Juggernaut"
-        ]
+        ],
+        "HiddenAbility": "EARTHEATER",
+        "Abilities": "EARTHEATER"
     },
     {
         "BaseName": "NATU",
@@ -3332,7 +3957,9 @@
             "85",
             "35",
             "85 # 475 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "DOWNLOAD",
+        "Abilities": "DOWNLOAD"
     },
     {
         "BaseName": "MANECTRIC",
@@ -3347,7 +3974,9 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "INTIMIDATE",
+        "Abilities": "INTIMIDATE"
     },
     {
         "BaseName": "ARIADOS",
@@ -3362,7 +3991,9 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "INTIMIDATE",
+        "Abilities": "INTIMIDATE"
     },
     {
         "BaseName": "MUK",
@@ -3377,7 +4008,9 @@
             "50",
             "100",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "RAINDISH",
+        "Abilities": "RAINDISH"
     },
     {
         "BaseName": "BRELOOM",
@@ -3392,7 +4025,9 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "TECHNICIAN",
+        "Abilities": "TECHNICIAN"
     },
     {
         "BaseName": "DRAPION",
@@ -3407,7 +4042,9 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "SHEERFORCE",
+        "Abilities": "SHEERFORCE"
     },
     {
         "BaseName": "GOLBAT",
@@ -3422,7 +4059,9 @@
             "100",
             "50",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "LEECHINGFANGS",
+        "Abilities": "LEECHINGFANGS"
     },
     {
         "BaseName": "CROBAT",
@@ -3437,7 +4076,9 @@
             "100",
             "25",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "LEECHINGFANGS",
+        "Abilities": "LEECHINGFANGS"
     },
     {
         "BaseName": "EMOLGA",
@@ -3452,7 +4093,9 @@
             "85",
             "35",
             "85 # 475 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "INTIMIDATE",
+        "Abilities": "INTIMIDATE"
     },
     {
         "BaseName": "SEAKING",
@@ -3467,7 +4110,9 @@
             "85",
             "85",
             "85 # 475 BST Total Special Bruiser"
-        ]
+        ],
+        "HiddenAbility": "STORMDRAIN",
+        "Abilities": "STORMDRAIN"
     },
     {
         "BaseName": "LANTURN",
@@ -3482,7 +4127,9 @@
             "85",
             "85",
             "85 # 475 BST Total Special Bruiser"
-        ]
+        ],
+        "HiddenAbility": "DARKAURA",
+        "Abilities": "DARKAURA"
     },
     {
         "BaseName": "MEGANIUM",
@@ -3497,7 +4144,9 @@
             "100",
             "125",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "TRIAGE",
+        "Abilities": "TRIAGE"
     },
     {
         "BaseName": "WISHIWASHI",
@@ -3512,7 +4161,9 @@
             "100",
             "125",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "DARKAURA",
+        "Abilities": "DARKAURA"
     },
     {
         "BaseName": "HYDRAPPLE",
@@ -3527,7 +4178,9 @@
             "100",
             "125",
             "100 # 600 BST Total"
-        ]
+        ],
+        "HiddenAbility": "DARKAURA",
+        "Abilities": "DARKAURA"
     },
     {
         "BaseName": "GRIMER",
@@ -3542,7 +4195,9 @@
             "85",
             "35",
             "85 # 475 BST Total Physical Bruiser"
-        ]
+        ],
+        "HiddenAbility": "RAINDISH",
+        "Abilities": "RAINDISH"
     },
     {
         "BaseName": "",
@@ -3561,7 +4216,9 @@
             "75",
             "100",
             "125 # 750 BST Total"
-        ]
+        ],
+        "HiddenAbility": "FILTER",
+        "Abilities": "FILTER"
     },
     {
         "BaseName": "DIALGA",
@@ -3576,6 +4233,8 @@
             "75",
             "100",
             "125 # 750 BST Total"
-        ]
+        ],
+        "HiddenAbility": "FILTER",
+        "Abilities": "FILTER"
     }
 ]

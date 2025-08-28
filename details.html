@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Details</title>
+  <link rel="stylesheet" href="details.css">
+</head>
+<body>
+  <div id="main-container">
+    <button onclick="window.history.back()">← Back to Pokédex</button>
+
+    <div id="sprite-selector">
+      <label>View Sprite: </label>
+      <select id="sprite-viewer">
+        <option value="Front">Front</option>
+        <option value="Front Shiny">Front Shiny</option>
+        <option value="Back">Back</option>
+        <option value="Back Shiny">Back Shiny</option>
+        <option value="Icons">Icon</option>
+      </select>
+    </div>
+
+    <div id="main-info">
+    </div>
+
+    
+    <div id="full-info"></div>
+    <div id="evolution-chain">
+      <h3>Evolution Chain</h3>
+      <div id="evolutions"></div>
+    </div>
+    <div id="move-tabs"></div>
+    <div id="forms-container"></div>
+  </div>
+
+  <script type="module" src="details.js"></script>
+</body>
+</html>
