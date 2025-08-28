@@ -371,16 +371,6 @@ async function loadPokedex(game) {
           formAbilities.innerHTML = `<p><strong>Abilities:</strong> ${form.Abilities}</p>`;
           formCard.appendChild(formAbilities);
 
-          const formHiddenAbilityValue = form.HiddenAbilities || form.HiddenAbility;
-          if (
-            formHiddenAbilityValue &&
-            !(form.Abilities || []).includes(formHiddenAbilityValue)
-          ) {
-            const formHiddenAbilities = document.createElement('div');
-            formHiddenAbilities.innerHTML = `<p><strong>Hidden Ability:</strong> ${formHiddenAbilityValue}</p>`;
-            formCard.appendChild(formHiddenAbilities);
-          }
-
           const formStats = document.createElement('ul');
           form.BaseStats.forEach((stat, idx) => {
             const li = document.createElement('li');
@@ -400,6 +390,15 @@ async function loadPokedex(game) {
           formCard.appendChild(formTitle);
           formCard.appendChild(formTypes);
           formCard.appendChild(formAbilities);
+          const formHiddenAbilityValue = form.HiddenAbilities || form.HiddenAbility;
+          if (
+            formHiddenAbilityValue &&
+            !(form.Abilities || []).includes(formHiddenAbilityValue)
+          ) {
+            const formHiddenAbilities = document.createElement('div');
+            formHiddenAbilities.innerHTML = `<p><strong>Hidden Ability:</strong> ${formHiddenAbilityValue}</p>`;
+            formCard.appendChild(formHiddenAbilities);
+          }
           formCard.appendChild(formStats);
           formsWrapper.appendChild(formCard);
         });
