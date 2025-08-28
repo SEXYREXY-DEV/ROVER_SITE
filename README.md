@@ -1,5 +1,17 @@
-PokeRover but it's a website!
+# I own none of this.
 
-I don't own anything on here!
+## Everything placed onto Roversite is placed at the request and/or knowledge of the respective fan game developers/development teams.
 
-Everything is hosted with the game creator's permission. Contact them if you would like to use something here or have questions. I simply make documentation of these neat projects.
+#### Reach out if you would like your game featured:
+
+
+
+
+
+
+
+
+
+
+
+sexyrexy1212 on Discord

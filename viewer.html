@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokédex Viewer</title>
+  <link rel="stylesheet" href="viewer.css" />
+</head>
+<body>
+  <div id="search-container">
+  <input type="text" id="search-bar" placeholder="Search by Anything, good luck!" />
+  <input type="text" id="name-search" placeholder="Search by Name" />
+  <input type="text" id="type-search" placeholder="Search by Type" />
+  <input type="text" id="ability-search" placeholder="Search by Ability" />
+  <input type="text" id="move-search" placeholder="Search by Move" />
+</div>
+  <button id="reset-button">Reset</button>
+  <div id="sort-container">
+  <label for="sort-select">Sort by:</label>
+  <select id="sort-select">
+    <option value="default">Default</option>
+    <option value="alphabetical">Alphabetical (A-Z)</option>
+  </select>
+</div>
+  <h1>Game-Specific Pokédex</h1>
+  <div id="pokedex-container"></div>
+  <script type="module" src="viewer.js"></script>
+</body>
+</html>

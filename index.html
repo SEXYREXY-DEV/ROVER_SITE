@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokémon Games</title>
-    <link rel="stylesheet" href="homepage.css">
+  <meta charset="UTF-8">
+  <title>Pokémon Game Browser</title>
+  <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to PokéRover!</h1>
-        <p>Select a game to explore its Pokédex!</p>
-    </header>
-    <main>
-        <div class="games-container">
-            <a href="games/vanguard/index.html" class="game-card">
-                <h2>Project Vanguard</h2>
-            </a>
-            <a href="games/ss2/index.html" class="game-card">
-                <h2>Soulstones 2: Time Wardens</h2>
-            </a>
-        </div>
-    </main>
+
+  <h1>PokéRover Game Index</h1>
+  <div class="game-grid">
+    <a href="viewer.html?game=ss2" class="game-card" style="--accent: #78C850">
+      <h2>Soulstones 2: Time Wardens</h2>
+      <p>Over 1000 regionals, custom region, fresh story!</p>
+    </a>
+
+    <a href="viewer.html?game=vanguard" class="game-card" style="--accent: #C03028">
+      <h2>Project Vanguard</h2>
+      <p>Darker, immersive story, custom tilesets, and over 270 Regional Variants and Fakemon!</p>
+    </a>
+  </div>
 </body>
 </html>
