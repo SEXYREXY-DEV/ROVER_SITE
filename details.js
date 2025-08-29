@@ -339,7 +339,7 @@ function renderEvolutions(original, allOriginalPokemon) {
       // Evo method/item
       const methodDiv = document.createElement('div');
       methodDiv.className = 'evo-method';
-      let methodText = evo.method ? evo.method.replace(/_/g, ' ') : 'Unknown';
+      let methodText = evo.method ? evo.method.replace(/_/g, ' ') : 'Method';
       if (evo.param) {
         // If it's an item, show the item image if available
         if (evo.method && evo.method.toLowerCase().includes('item')) {
