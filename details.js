@@ -313,6 +313,7 @@ function renderEvolutions(original, allOriginalPokemon) {
     const p = allOriginalPokemon.find(pkmn => pkmn.InternalName === name);
     const evoDiv = document.createElement('div');
     evoDiv.className = 'evo-stage';
+    evoDiv.dataset.internalName = p.InternalName; // <-- Add this line
     if (highlight) evoDiv.classList.add('current-pokemon');
     evoDiv.innerHTML = `
       <img src="./games/${game}/images/Front/${p.InternalName.toUpperCase()}.png" alt="${p.Name}" class="evolution-sprite" />
@@ -382,8 +383,8 @@ function renderEvolutions(original, allOriginalPokemon) {
       div.classList.add('current_pokemon');
     }
     div.onclick = () => {
-      const pokeName = div.textContent.trim();
-      const poke = allOriginalPokemon.find(p => p.Name === pokeName);
+      const internalName = div.dataset.internalName; // <-- Use this instead
+      const poke = allOriginalPokemon.find(p => p.InternalName === internalName);
       if (poke) {
         localStorage.setItem('selectedPokemon', poke.InternalName);
         window.location.reload();
