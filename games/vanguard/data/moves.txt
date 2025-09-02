@@ -11043,6 +11043,18 @@ FunctionCode = HealUserByHalfOfDamageDoneBurnTarget
 Flags = CanProtect,CanMirrorMove 
 Description = A breathtaking flower erupts as it blooms, restoring the user's HP by half of damage dealt.
 #------------------------------
+[SOVEREIGNEDGE]
+Name = Sovereign Edge
+Type = STEEL
+Category = Physical
+Power = 10
+Accuracy = 10
+TotalPP = 8
+Target = NearOther
+FunctionCode = RaiseUserAttack3IfTargetFaints
+Flags = Contact,CanProtect,CanMirrorMove
+Description = REMOVED, PLEASE DELETE.
+#-------------------------------
 [DATURABLUDGEON]
 Name = Datura Bludgeon
 Type = GRASS

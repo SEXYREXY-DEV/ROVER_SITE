@@ -1604,8 +1604,8 @@
         "HiddenAbility": "SPEEDBOOST",
         "Abilities": "SPEEDBOOST",
         "InternalName": "BLAZIKEN",
-        "Height": 1.9,
-        "Weight": 52.0
+        "Height": 1.8,
+        "Weight": 45.0
     },
     {
         "BaseName": "SWAMPERT",
@@ -4649,12 +4649,12 @@
         "BaseName": "MIMIKYU",
         "FormName": "Busted Form",
         "BaseStats": [
-            "115",
+            "55",
+            "95",
             "100",
-            "35",
-            "136",
-            "60",
-            "30"
+            "96",
+            "50",
+            "80"
         ],
         "InternalName": "MIMIKYU",
         "Abilities": "DISGUISE",
@@ -5027,7 +5027,9 @@
             "100",
             "100",
             "70"
-        ]
+        ],
+        "HiddenAbility": "REVIVALSHEDDING",
+        "Abilities": "REVIVALSHEDDING"
     },
     {
         "BaseName": "FLYGON",
@@ -5351,91 +5353,6 @@
         "Abilities": "POISONPOINT,SWIFTSWIM",
         "Height": 0.5,
         "Weight": 3.9
-    },
-    {
-        "BaseName": "GOLMACHINA",
-        "FormName": "Golmachina Alacier",
-        "BaseStats": [
-            "105",
-            "85",
-            "70",
-            "135",
-            "85",
-            "60"
-        ],
-        "HiddenAbility": "LEVITATE",
-        "Abilities": "LEVITATE",
-        "Height": 3.2,
-        "Weight": 400.0,
-        "InternalName": "GOLMACHINA"
-    },
-    {
-        "BaseName": "GOLMACHINA",
-        "FormName": "Golmachina Aegis",
-        "BaseStats": [
-            "105",
-            "75",
-            "120",
-            "45",
-            "105",
-            "95"
-        ],
-        "HiddenAbility": "BULLETPROOF",
-        "Abilities": "BULLETPROOF",
-        "Height": 3.2,
-        "Weight": 400.0,
-        "InternalName": "GOLMACHINA"
-    },
-    {
-        "BaseName": "GOLMACHINA",
-        "FormName": "Golmachina Arms",
-        "BaseStats": [
-            "105",
-            "70",
-            "70",
-            "85",
-            "135",
-            "75"
-        ],
-        "HiddenAbility": "WEAKARMOR",
-        "Abilities": "WEAKARMOR",
-        "Height": 3.2,
-        "Weight": 400.0,
-        "InternalName": "GOLMACHINA"
-    },
-    {
-        "BaseName": "GOLMACHINA",
-        "FormName": "Golmachina Aeternus-Defense",
-        "BaseStats": [
-            "105",
-            "80",
-            "135",
-            "45",
-            "80",
-            "135"
-        ],
-        "HiddenAbility": "STANCECHANGE",
-        "Abilities": "STANCECHANGE",
-        "Height": 3.2,
-        "Weight": 400.0,
-        "InternalName": "GOLMACHINA"
-    },
-    {
-        "BaseName": "GOLMACHINA",
-        "FormName": "Golmachina Aeternus-Attack",
-        "BaseStats": [
-            "105",
-            "135",
-            "80",
-            "45",
-            "135",
-            "80"
-        ],
-        "HiddenAbility": "STANCECHANGE",
-        "Abilities": "STANCECHANGE",
-        "Height": 3.2,
-        "Weight": 400.0,
-        "InternalName": "GOLMACHINA"
     },
     {
         "BaseName": "TORTERRA",

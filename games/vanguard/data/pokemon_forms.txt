@@ -2270,7 +2270,7 @@ BattlerEnemyY = 36
 #-------------------------------
 [MIMIKYU,1]
 FormName = Busted Form
-BaseStats = 115,100,35,136,60,30
+BaseStats = 55,95,100,96,50,80
 Pokedex = Zipping across the battlefield with unmatched speed, it aims specifically for the eyes of its prey, as it doesn't want to be seen.
 #-------------------------------
 [NECROZMA,1]
@@ -2427,6 +2427,7 @@ Type1 = POISON
 Type2 = GROUND
 BaseStats = 80,130,60,100,100,70
 EffortPoints = 0,2,0,0,0,0
+Abilities = REVIVALSHEDDING
 Color = Purple
 Pokedex = Setsarec will only shed its skin against powerful opponents, unleashing its full power. The markings on its crest turn foes into stone. 
 BattlerPlayerY = 33
@@ -2642,46 +2643,6 @@ Pokedex = Fishers detest this troublesome Pokémon because it sprays poison from
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = OVERQWIL,LevelUseMoveCount,BARBBARRAGE
-#-------------------------------
-[GOLMACHINA,1]
-FormName = Golmachina Alacier
-BaseStats = 105,85,70,135,85,60
-Abilities = LEVITATE
-Height = 3.2
-Weight = 400.0
-Pokedex = With the enhancements of the Alacier drive, Golmachina now sports a special suit that lowers friction. This form's speed is unmatched, able to travel across the world in just one night.
-#-------------------------------
-[GOLMACHINA,2]
-FormName = Golmachina Aegis
-BaseStats = 105,75,120,45,105,95
-Abilities = BULLETPROOF
-Height = 3.2
-Weight = 400.0
-Pokedex = With the enhancements of the Aegis drive, Golmachina now sports a special suit that improves its durability. This form's defenses are unmatched, not even the toughest of blows are able to harm it.
-#-------------------------------
-[GOLMACHINA,3]
-FormName = Golmachina Arms
-BaseStats = 105,70,70,85,135,75
-Abilities = WEAKARMOR
-Height = 3.2
-Weight = 400.0
-Pokedex = With the enhancements of the Arms drive, Golmachina now sports a special suit that amplifies its long-range attacking prowess. This form's reach is unmatched, foes even hundreds of miles away are not safe from it.
-#-------------------------------
-[GOLMACHINA,4]
-FormName = Golmachina Aeternus-Defense
-BaseStats = 105,80,135,45,80,135
-Abilities = STANCECHANGE
-Height = 3.2
-Weight = 400.0
-Pokedex = With the enhancements of the Aevum drive, Golmachina now sports a special suit that supports its true power. This form has only appeared in legend, as a champion that will defend the people during their time of need.
-#-------------------------------
-[GOLMACHINA,5]
-FormName = Golmachina Aeternus-Attack
-BaseStats = 105,135,80,45,135,80
-Abilities = STANCECHANGE
-Height = 3.2
-Weight = 400.0
-Pokedex = With the enhancements of the Aevum drive, Golmachina now sports a special suit that supports its true power. This form has only appeared in legend, as an idol of destruction that will bring ruin to its enemies.
 #-------------------------------
 [TORTERRA,1]
 FormName = Water

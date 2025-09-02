@@ -13914,6 +13914,22 @@
     },
     {
         "Name": "MATCHAGOTCHA",
+        "Type": "STEEL",
+        "Category": "Physical",
+        "Power": 10,
+        "Accuracy": 10,
+        "TotalPP": 8,
+        "Target": "NearOther",
+        "FunctionCode": "RaiseUserAttack3IfTargetFaints",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "REMOVED, PLEASE DELETE."
+    },
+    {
+        "Name": "DATURABLUDGEON",
         "Type": "GRASS",
         "Category": "Physical",
         "Power": 85,
@@ -13925,7 +13941,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user slams the target with a club reinforced with poisonous thorns. May poison the target.",
-        "EffectChance": 50
+        "EffectChance": 50,
+        "Description": "The user slams the target with a club reinforced with poisonous thorns. May poison the target."
     }
 ]
