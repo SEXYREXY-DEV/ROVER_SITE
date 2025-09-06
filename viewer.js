@@ -5,7 +5,7 @@ const pokedexWrapper = document.getElementById('pokedex-wrapper');
 import { normalizePokemon, findMatchingOriginal, applyFilters } from './utils.js';
 
 if (game === 'vanguard') {
-  // Show the end-of-life notice
+
   notice.innerHTML = `
   <div class="notice-box">
     <h2>Vanguard Support Ended</h2>
@@ -16,13 +16,13 @@ if (game === 'vanguard') {
       There won't be any more updates or fixes for vanguard data, sorry.<br><br>
       I will start supporting more games soon and I hope to see y'all back here sometime.<br><br>
       Here's a <a href="https://sexyrexy-dev.github.io/ROVER_SITE/">link</a> to the base site so that you can bookmark it and check back later.<br><br>
-      Thanks for all the fun times and memories in Vanguard.<br>
+      Thanks for all the fun times and memories in Vanguard.<br><br>
       – SEXYREXY
     </p>
   </div>
 `;
 
-  loadPokedex(game, pokedexWrapper); // ✅ loads *under* the notice
+  loadPokedex(game, pokedexWrapper);
 } else if (!game) {
   notice.innerHTML = '<p>Error: No game selected.</p>';
 } else {
@@ -46,14 +46,14 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
         };
         return typeColors[type?.toUpperCase()] || '#ccc';
       }
-  // --- Load config.json ---
+
   try {
     const configResp = await fetch(`./games/${game}/data/config.json`);
     if (configResp.ok) {
       config = await configResp.json();
     }
   } catch (e) {
-    // Use defaults if config missing
+
     config = { excludedPokemon: [], AllowsForms: "Y" };
   }
 
@@ -66,13 +66,12 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
     normalizedList = pokemons.map(p => normalizePokemon(p));
     console.log('Normalized list:', normalizedList);
 
-    // Exclude Pokémon in config.excludedPokemon
     if (Array.isArray(config.excludedPokemon) && config.excludedPokemon.length > 0) {
       const excludedSet = new Set(config.excludedPokemon.map(name => name.toUpperCase()));
       normalizedList = normalizedList.filter(
         p => !excludedSet.has(p.InternalName.toUpperCase())
       );
-      // Also filter forms inside each Pokémon
+
       normalizedList.forEach(p => {
         if (Array.isArray(p.Forms)) {
           p.Forms = p.Forms.filter(
@@ -84,7 +83,6 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       });
     }
 
-    // Remove forms if not allowed
     if (config.AllowsForms === "N") {
       normalizedList.forEach(p => { p.Forms = []; });
     }
@@ -154,7 +152,7 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
 
       let filtered;
       if (!query) {
-        // Show all Pokémon if search input is empty
+
         filtered = normalizedList;
       } else {
         filtered = normalizedList.filter(p =>
