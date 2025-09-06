@@ -206,4 +206,35 @@ body {
   }
 }
 
+/* viewer.css */
+.notice-box {
+  background: linear-gradient(135deg, #ffe5e5, #ffd6d6);
+  border: 2px solid #f08080;
+  border-radius: 12px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: system-ui, sans-serif;
+  max-width: 800px;
+}
+
+.notice-box h2 {
+  margin-top: 0;
+  color: #b22222;
+  font-size: 1.8em;
+}
+
+.notice-box p {
+  color: #333;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.notice-box h2 {
+  text-align: center;
+  margin-top: 0;
+  color: #b22222;   /* or whatever color you prefer */
+  font-size: 1.8em;
+}
+
 

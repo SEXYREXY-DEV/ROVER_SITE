@@ -1,21 +1,40 @@
 const params = new URLSearchParams(window.location.search);
 const game = params.get('game');
-const pokedexContainer = document.getElementById('pokedex-container');
-import { normalizePokemon } from './utils.js';
-import { findMatchingOriginal } from './utils.js';
-import { applyFilters } from './utils.js';
+const notice = document.getElementById('notice');
+const pokedexWrapper = document.getElementById('pokedex-wrapper');
+import { normalizePokemon, findMatchingOriginal, applyFilters } from './utils.js';
 
-if (!game) {
-  pokedexContainer.innerHTML = '<p>Error: No game selected.</p>';
+if (game === 'vanguard') {
+  // Show the end-of-life notice
+  notice.innerHTML = `
+  <div class="notice-box">
+    <h2>Vanguard Support Ended</h2>
+    <p>
+      This game is no longer supported and supposedly my site is getting 'replaced' soon.<br><br>
+      I was told this today and have had no prior warning or communication for desired improvements, etc.<br><br>
+      Due to this, I feel like my time has been extremely disrespected by the developers but I liked the community there so I guess I'll keep it up for a bit.<br><br>
+      There won't be any more updates or fixes for vanguard data, sorry.<br><br>
+      I will start supporting more games soon and I hope to see y'all back here sometime.<br><br>
+      Here's a link to the base site <a href="https://sexyrexy-dev.github.io/ROVER_SITE/">link</a> so that you can bookmark it and check back later.<br><br>
+      Thanks for all the fun times and memories in Vanguard.<br>
+      – SEXYREXY
+    </p>
+  </div>
+`;
+
+  loadPokedex(game, pokedexWrapper); // ✅ loads *under* the notice
+} else if (!game) {
+  notice.innerHTML = '<p>Error: No game selected.</p>';
 } else {
-  loadPokedex(game);
+  loadPokedex(game, pokedexWrapper);
 }
+
 
 let normalizedList = [];
 
 let config = { excludedPokemon: [], AllowsForms: "Y" };
 
-async function loadPokedex(game) {
+async function loadPokedex(game, container = document.getElementById('pokedex-container')) {
   function getTypeColor(type) {
         const typeColors = {
           NORMAL: '#A8A878', FIRE: '#F08030', WATER: '#6890F0', ELECTRIC: '#F8D030',
@@ -86,7 +105,7 @@ async function loadPokedex(game) {
       const sortBy = sortSelect ? sortSelect.value : 'alphabetical';
       const sortedList = sortPokemonList(filteredList, sortBy);
 
-      pokedexContainer.innerHTML = '';
+      container.innerHTML = '';
       const matchingOriginal = sortedList.map(n => {
         const found = originalData.find(p => p.InternalName.toLowerCase() === n.InternalName);
         if (!found) {
@@ -120,7 +139,7 @@ async function loadPokedex(game) {
         );
       }
 
-      pokedexContainer.innerHTML = '';
+      container.innerHTML = '';
       const matchingOriginal = filtered.map(n => findMatchingOriginal(n, pokemons));
 
       matchingOriginal.filter(p => p).forEach(p => renderPokemonCard(p));
@@ -144,7 +163,7 @@ async function loadPokedex(game) {
         );
       }
 
-      pokedexContainer.innerHTML = '';
+      container.innerHTML = '';
       const matchingOriginal = filtered.map(n => findMatchingOriginal(n, pokemons));
 
       matchingOriginal.filter(p => p).forEach(p => renderPokemonCard(p));
@@ -166,7 +185,7 @@ async function loadPokedex(game) {
         );
       }
 
-      pokedexContainer.innerHTML = '';
+      container.innerHTML = '';
       const matchingOriginal = filtered.map(n => findMatchingOriginal(n, pokemons)
       );
       matchingOriginal.filter(p => p).forEach(p => renderPokemonCard(p));
@@ -188,7 +207,7 @@ async function loadPokedex(game) {
         );
       }
 
-      pokedexContainer.innerHTML = '';
+      container.innerHTML = '';
       const matchingOriginal = filtered.map(n => findMatchingOriginal(n, pokemons)
       );
       matchingOriginal.filter(p => p).forEach(p => renderPokemonCard(p));
@@ -210,7 +229,7 @@ async function loadPokedex(game) {
         );
       }
 
-      pokedexContainer.innerHTML = '';
+      container.innerHTML = '';
       const matchingOriginal = filtered.map(n => findMatchingOriginal(n, pokemons)
       );
       matchingOriginal.filter(p => p).forEach(p => renderPokemonCard(p));
@@ -406,10 +425,10 @@ async function loadPokedex(game) {
         card.appendChild(formsWrapper);
       }
 
-      pokedexContainer.appendChild(card);
+      container.appendChild(card);
     }
   } catch (err) {
-    pokedexContainer.innerHTML = `<p>Error loading data for game: ${game}</p>`;
+    container.innerHTML = `<p>Error loading data for game: ${game}</p>`;
     console.error(err);
   }
 }
