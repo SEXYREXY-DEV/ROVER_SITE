@@ -8,15 +8,8 @@ if (game === 'vanguard') {
 
   notice.innerHTML = `
   <div class="notice-box">
-    <h2>Vanguard Support Ended</h2>
-    <p>
-      This game is no longer supported and supposedly my site is getting 'replaced' soon.<br><br>
-      I was told this today and have had no prior warning or communication for desired improvements, etc.<br><br>
-      Due to this, I feel like my time has been extremely disrespected by the developers but I liked the community there so I guess I'll keep it up for a bit.<br><br>
-      There won't be any more updates or fixes for vanguard data, sorry.<br><br>
-      I will start supporting more games soon and I hope to see y'all back here sometime.<br><br>
-      Here's a <a href="https://sexyrexy-dev.github.io/ROVER_SITE/">link</a> to the base site so that you can bookmark it and check back later.<br><br>
-      Thanks for all the fun times and memories in Vanguard.<br><br>
+    <h2>We back</h2>
+    <p>No hard feelings, go vanguard<br><br>
       – SEXYREXY
     </p>
   </div>
