@@ -3,23 +3,10 @@ const game = params.get('game');
 const notice = document.getElementById('notice');
 const pokedexWrapper = document.getElementById('pokedex-wrapper');
 import { normalizePokemon, findMatchingOriginal, applyFilters } from './utils.js';
-
-if (game === 'vanguard') {
-
-  notice.innerHTML = `
-  <div class="notice-box">
-    <h2>We back</h2>
-    <p>No hard feelings, go vanguard<br><br>
-      – SEXYREXY
-    </p>
-  </div>
-`;
-
+if (game) {
   loadPokedex(game, pokedexWrapper);
-} else if (!game) {
-  notice.innerHTML = '<p>Error: No game selected.</p>';
 } else {
-  loadPokedex(game, pokedexWrapper);
+  notice.innerHTML = '<p>Error: No game selected.</p>';
 }
 
 
