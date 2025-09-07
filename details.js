@@ -1,7 +1,6 @@
 // details.js
 
 import { normalizePokemon } from './utils.js';
-import { findMatchingOriginal } from './utils.js';
 
 const params = new URLSearchParams(window.location.search);
 const game = params.get('game');
@@ -83,9 +82,29 @@ function renderPokemonDetails(pokemon) {
 
   renderMainInfo(original, normalized);
   renderEvolutions(original, allPokemon);
-  renderFullInfo(original); // Always show info under evolutions
+  renderFullInfo(original);
   renderForms(original);
-  renderMovesTabs(original); // New: render moves tabs and tables
+  renderMovesTabs(original);
+}
+
+function createStatsContainer(stats) {
+  const container = document.createElement('div');
+  container.className = 'stat-container';
+
+  const statList = document.createElement('ul');
+  statList.className = 'stat-list';
+
+  Object.entries(stats).forEach(([stat, value]) => {
+    const li = document.createElement('li');
+    li.innerHTML = `
+      <span class="stat-name">${stat}</span>
+      <span class="stat-bar-value">${value}</span>
+    `;
+    statList.appendChild(li);
+  });
+
+  container.appendChild(statList);
+  return container;
 }
 
 function renderMainInfo(pokemon) {
@@ -240,17 +259,16 @@ function renderForms(pokemon) {
 
     // Stats
     if (form.BaseStats && Array.isArray(form.BaseStats) && form.BaseStats.length === 6) {
-      const statsList = document.createElement('div');
-      statsList.className = 'form-stats';
-      statsList.innerHTML = `
-        <div><strong>HP:</strong> ${form.BaseStats[0]}</div>
-        <div><strong>Attack:</strong> ${form.BaseStats[1]}</div>
-        <div><strong>Defense:</strong> ${form.BaseStats[2]}</div>
-        <div><strong>Sp. Atk:</strong> ${form.BaseStats[4]}</div>
-        <div><strong>Sp. Def:</strong> ${form.BaseStats[5]}</div>
-        <div><strong>Speed:</strong> ${form.BaseStats[3]}</div>
-      `;
-      formCard.appendChild(statsList);
+      const stats = {
+        HP: form.BaseStats[0],
+        Attack: form.BaseStats[1],
+        Defense: form.BaseStats[2],
+        Speed: form.BaseStats[3],
+        SpAtk: form.BaseStats[4],
+        SpDef: form.BaseStats[5]
+      };
+      const statsBox = createStatsContainer(stats);
+      formCard.appendChild(statsBox);
     }
 
     formCard.style.borderImage = `linear-gradient(to top, ${getTypeColor(types[1])}, ${getTypeColor(types[0])}) 1`;
@@ -341,7 +359,7 @@ function renderEvolutions(original, allOriginalPokemon) {
       methodDiv.className = 'evo-method';
       let methodText = evo.method ? evo.method.replace(/_/g, ' ') : 'Method';
       if (evo.param) {
-        // If it's an item, show the item image if available
+        // NOTE: FUTURE: If it's an item, show the item image if available 
         if (evo.method && evo.method.toLowerCase().includes('item')) {
           methodText += `<br><img src="./games/${game}/images/Items/${evo.param}.png" alt="${evo.param}" class="evo-item-icon" /><br>${evo.param}`;
         } else {
@@ -481,10 +499,10 @@ function renderMovesTable(pokemon, movesData, tab) {
   moves.forEach(m => {
     const move = movesData.find(x => x.InternalName === m.name || x.Name === m.name) || {};
     const typeImage = move.Type
-      ? `<img src="./games/${game}/images/Types/${move.Type.toUpperCase()}.png" alt="${move.Type} Type" class="type-icon" style="width:28px;height:28px;">`
+      ? `<img src="./games/${game}/images/Types/${move.Type.toUpperCase()}.png" alt="${move.Type} Type" class="type-icon" style="width:50px;height:50px;">`
       : 'N/A';
     const categoryImage = move.Category
-      ? `<img src="./games/${game}/images/Moves/${move.Category.toUpperCase()}.png" alt="${move.Category} Category" class="category-icon" style="width:28px;height:28px;">`
+      ? `<img src="./games/${game}/images/Moves/${move.Category.toUpperCase()}.png" alt="${move.Category} Category" class="category-icon" style="width:60px;height:32px;">`
       : 'N/A';
     const row = document.createElement("tr");
     row.innerHTML = `
@@ -527,7 +545,6 @@ function renderFullInfo(pokemon) {
       hiddenAbilities = pokemon.HiddenAbility.split(',').map(a => a.trim()).filter(Boolean);
     }
   }
-
   // --- Egg Groups ---
   let eggGroups = [];
   if (pokemon.Compatibility) {
@@ -555,6 +572,16 @@ function renderFullInfo(pokemon) {
     stats = { HP: pokemon.BaseStats[0] };
   } else if (typeof pokemon.BaseStats === 'object') {
     stats = pokemon.BaseStats;
+  }
+
+  const statsBox = createStatsContainer(stats);
+  const statsContainer = document.getElementById('stats-container');
+  if (statsContainer) {
+    statsContainer.innerHTML = ''; // clear previous
+    statsContainer.appendChild(statsBox);
+  } else {
+    // fallback: append to full-info if container missing
+    document.getElementById('full-info').appendChild(statsBox);
   }
 
   // --- Gender Ratio ---
@@ -589,16 +616,6 @@ function renderFullInfo(pokemon) {
       <li><strong>Type:</strong> ${types.map(type =>
         `<img src="./games/${game}/images/Types/${type}.png" class="type-icon" alt="${type}"> ${type}`
         ).join(' / ')}</li>
-      <li><strong>Base Stats:</strong>
-        <ul>
-          <li>HP: ${stats.HP ?? 'N/A'}</li>
-          <li>Attack: ${stats.Attack ?? 'N/A'}</li>
-          <li>Defense: ${stats.Defense ?? 'N/A'}</li>
-          <li>Sp. Atk: ${stats.SpAtk ?? 'N/A'}</li>
-          <li>Sp. Def: ${stats.SpDef ?? 'N/A'}</li>
-          <li>Speed: ${stats.Speed ?? 'N/A'}</li>
-        </ul>
-      </li>
       ${species ? `<li><strong>Species:</strong> ${species}</li>` : ''}
       <li><strong>Height:</strong> ${height} m</li>
       <li><strong>Weight:</strong> ${weight} kg</li>

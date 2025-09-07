@@ -6,26 +6,48 @@
   <link rel="stylesheet" href="viewer.css" />
 </head>
 <body>
+  <div id="back-container">
+    <button class="back-button" onclick="location.href='index.html'">
+      ← Back to Game Selection
+    </button>
+  </div>
+
   <div id="search-container">
-  <input type="text" id="search-bar" placeholder="Search by Anything, good luck!" />
-  <input type="text" id="name-search" placeholder="Search by Name" />
-  <input type="text" id="type-search" placeholder="Search by Type" />
-  <input type="text" id="ability-search" placeholder="Search by Ability" />
-  <input type="text" id="move-search" placeholder="Search by Move" />
-</div>
+    <input type="text" id="search-bar" placeholder="Search by Anything, good luck!" />
+    <input type="text" id="name-search" placeholder="Search by Name" />
+    <input type="text" id="type-search" placeholder="Search by Type" />
+    <input type="text" id="ability-search" placeholder="Search by Ability" />
+    <input type="text" id="move-search" placeholder="Search by Move" />
+  </div>
+
   <button id="reset-button">Reset</button>
+
   <div id="sort-container">
-  <label for="sort-select">Sort by:</label>
-  <select id="sort-select">
-    <option value="default">Default</option>
-    <option value="alphabetical">Alphabetical (A-Z)</option>
-  </select>
-</div>
-  <h1>Game-Specific Pokédex</h1>
+    <label for="sort-select">Sort by:</label>
+    <select id="sort-select">
+      <option value="default">Default</option>
+      <option value="alphabetical">Alphabetical (A-Z)</option>
+    </select>
+  </div>
+
+  <h1 id="page-title"></h1>
+
   <div id="pokedex-container">
-  <div id="notice"></div>
-  <div id="pokedex-wrapper"></div>
-</div>
+    <div id="pokedex-wrapper"></div>
+  </div>
+
+  <!-- Title based on game -->
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    let game = params.get('game');
+    if (game) {
+      game = game.charAt(0).toUpperCase() + game.slice(1);
+    } else {
+      game = "Unknown";
+    }
+    document.getElementById('page-title').textContent = game + " Pokédex";
+  </script>
+
   <script type="module" src="viewer.js"></script>
 </body>
 </html>

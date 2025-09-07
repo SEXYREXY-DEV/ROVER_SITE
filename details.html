@@ -7,7 +7,13 @@
 </head>
 <body>
   <div id="main-container">
-    <button onclick="window.history.back()">← Back to Pokédex</button>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+  </script>
+  <button class="back-button" onclick="location.href='viewer.html?game=' + encodeURIComponent(params.get('game'))">
+    ← Back to Pokédex
+  </button>
+
 
     <div id="sprite-selector">
       <label>View Sprite: </label>
@@ -19,11 +25,9 @@
         <option value="Icons">Icon</option>
       </select>
     </div>
-
     <div id="main-info">
     </div>
-
-    
+    <div id="stats-container"></div>
     <div id="full-info"></div>
     <div id="evolution-chain">
       <h3>Evolution Chain</h3>

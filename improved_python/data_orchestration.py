@@ -39,6 +39,11 @@ class DataOrchestrator:
     def generate_evolutions(self):
         Evolution.process_multiple_games(self.paths.games, base_dir=self.paths.base_dir)
 
+    def generate_types(self):
+        from types_to_json import TypesParser
+        parser = TypesParser()
+        parser.process_types_data(self.paths.games, base_dir=self.paths.base_dir)
+
     def run_tests(self):
         print("\nRunning unit tests...")
         unittest.main(module='unit_tests', exit=False)

@@ -1,0 +1,335 @@
+[
+    {},
+    {
+        "Name": "NORMAL",
+        "Weaknesses": [
+            "FIGHTING",
+            "COSMIC"
+        ],
+        "Resistances": [
+            "FAIRY"
+        ],
+        "Immunities": [
+            "GHOST"
+        ]
+    },
+    {
+        "Name": "FIGHTING",
+        "Weaknesses": [
+            "FLYING",
+            "PSYCHIC",
+            "FAIRY"
+        ],
+        "Resistances": [
+            "ROCK",
+            "DARK"
+        ]
+    },
+    {
+        "Name": "FLYING",
+        "Weaknesses": [
+            "ELECTRIC",
+            "ICE",
+            "ROCK"
+        ],
+        "Resistances": [
+            "GRASS",
+            "FIGHTING",
+            "BUG",
+            "SOUND"
+        ],
+        "Immunities": [
+            "GROUND"
+        ]
+    },
+    {
+        "Name": "POISON",
+        "Weaknesses": [
+            "GROUND",
+            "PSYCHIC"
+        ],
+        "Resistances": [
+            "GRASS",
+            "FIGHTING",
+            "POISON",
+            "FAIRY"
+        ]
+    },
+    {
+        "Name": "GROUND",
+        "Weaknesses": [
+            "WATER",
+            "GRASS",
+            "ICE"
+        ],
+        "Resistances": [
+            "POISON",
+            "ROCK",
+            "LIGHT"
+        ],
+        "Immunities": [
+            "ELECTRIC"
+        ]
+    },
+    {
+        "Name": "ROCK",
+        "Weaknesses": [
+            "WATER",
+            "GRASS",
+            "FIGHTING",
+            "GROUND",
+            "STEEL"
+        ],
+        "Resistances": [
+            "NORMAL",
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "FLYING",
+            "COSMIC",
+            "LIGHT"
+        ]
+    },
+    {
+        "Name": "BUG",
+        "Weaknesses": [
+            "FIRE",
+            "FLYING",
+            "ROCK",
+            "SOUND"
+        ],
+        "Resistances": [
+            "GRASS",
+            "GROUND",
+            "DARK"
+        ]
+    },
+    {
+        "Name": "GHOST",
+        "Weaknesses": [
+            "GHOST",
+            "DARK",
+            "LIGHT"
+        ],
+        "Resistances": [
+            "POISON",
+            "SOUND"
+        ],
+        "Immunities": [
+            "NORMAL",
+            "FIGHTING"
+        ]
+    },
+    {
+        "Name": "STEEL",
+        "Weaknesses": [
+            "FIRE",
+            "ELECTRIC",
+            "FIGHTING",
+            "GROUND",
+            "COSMIC"
+        ],
+        "Resistances": [
+            "NORMAL",
+            "GRASS",
+            "ICE",
+            "FLYING",
+            "BUG",
+            "ROCK",
+            "STEEL",
+            "FAIRY",
+            "LIGHT"
+        ],
+        "Immunities": [
+            "POISON"
+        ]
+    },
+    {
+        "Name": "???"
+    },
+    {
+        "Name": "FIRE",
+        "Weaknesses": [
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "COSMIC"
+        ],
+        "Resistances": [
+            "FIRE",
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL"
+        ]
+    },
+    {
+        "Name": "WATER",
+        "Weaknesses": [
+            "ELECTRIC",
+            "GRASS",
+            "SOUND"
+        ],
+        "Resistances": [
+            "FIRE",
+            "WATER",
+            "ICE",
+            "STEEL"
+        ]
+    },
+    {
+        "Name": "GRASS",
+        "Weaknesses": [
+            "FIRE",
+            "ICE",
+            "POISON",
+            "FLYING",
+            "BUG"
+        ],
+        "Resistances": [
+            "WATER",
+            "ELECTRIC",
+            "GRASS",
+            "GROUND",
+            "LIGHT"
+        ]
+    },
+    {
+        "Name": "ELECTRIC",
+        "Weaknesses": [
+            "GROUND",
+            "GHOST"
+        ],
+        "Resistances": [
+            "ELECTRIC",
+            "FLYING",
+            "STEEL"
+        ]
+    },
+    {
+        "Name": "PSYCHIC",
+        "Weaknesses": [
+            "BUG",
+            "GHOST",
+            "DARK",
+            "SOUND"
+        ],
+        "Resistances": [
+            "FIGHTING",
+            "PSYCHIC",
+            "FAIRY"
+        ]
+    },
+    {
+        "Name": "ICE",
+        "Weaknesses": [
+            "FIRE",
+            "FIGHTING",
+            "ROCK",
+            "SOUND"
+        ],
+        "Resistances": [
+            "WATER",
+            "ICE",
+            "FLYING"
+        ]
+    },
+    {
+        "Name": "DRAGON",
+        "Weaknesses": [
+            "ICE",
+            "DRAGON",
+            "FAIRY",
+            "LIGHT"
+        ],
+        "Resistances": [
+            "WATER",
+            "ELECTRIC",
+            "GRASS",
+            "COSMIC"
+        ]
+    },
+    {
+        "Name": "DARK",
+        "Weaknesses": [
+            "FIGHTING",
+            "BUG",
+            "FAIRY",
+            "LIGHT"
+        ],
+        "Resistances": [
+            "GHOST",
+            "DARK"
+        ],
+        "Immunities": [
+            "PSYCHIC"
+        ]
+    },
+    {
+        "Name": "FAIRY",
+        "Weaknesses": [
+            "NORMAL",
+            "POISON",
+            "STEEL"
+        ],
+        "Resistances": [
+            "FIGHTING",
+            "BUG",
+            "DARK",
+            "SOUND"
+        ],
+        "Immunities": [
+            "DRAGON"
+        ]
+    },
+    {
+        "Name": "COSMIC",
+        "Weaknesses": [
+            "ROCK",
+            "DRAGON",
+            "DARK",
+            "LIGHT"
+        ],
+        "Resistances": [
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "STEEL",
+            "COSMIC"
+        ],
+        "Immunities": [
+            "GROUND",
+            "SOUND"
+        ]
+    },
+    {
+        "Name": "SOUND",
+        "Weaknesses": [
+            "FLYING",
+            "STEEL",
+            "FAIRY"
+        ],
+        "Resistances": [
+            "WATER",
+            "BUG",
+            "ROCK",
+            "SOUND"
+        ]
+    },
+    {
+        "Name": "LIGHT",
+        "Weaknesses": [
+            "GRASS",
+            "POISON",
+            "PSYCHIC",
+            "DARK"
+        ],
+        "Resistances": [
+            "ELECTRIC",
+            "GHOST",
+            "DRAGON",
+            "COSMIC",
+            "LIGHT"
+        ]
+    }
+]
