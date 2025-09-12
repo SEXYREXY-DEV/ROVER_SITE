@@ -425,6 +425,14 @@ body {
   background: #A8A878;
   color: #23242a;
 }
+.type-effectiveness-label.barelyeffective {
+  background: #f0ad4e;
+  color: #23242a;
+}
+.type-effectiveness-label.hypereffective {
+  background: #e30f0f;
+  color: #fffbe8;
+}
 .type-effectiveness-card .type-icon {
   width: 32px;
   height: 32px;
@@ -751,6 +759,14 @@ body {
   .type-effectiveness-label.immune {
     background: #A8A878;
     color: #23242a;
+  }
+  .type-effectiveness-label.barelyeffective {
+    background: #f0ad4e;
+    color: #23242a;
+  }
+  .type-effectiveness-label.hypereffective {
+    background: #e80d0d;
+    color: #fffbe8;
   }
   .type-effectiveness-card .type-icon {
     background: #23242a;

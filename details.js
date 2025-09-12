@@ -227,7 +227,15 @@ function renderMainInfo(pokemon) {
     effectivenessContainer.innerHTML = `
       <div class="type-effectiveness-card">
         <div class="type-effectiveness-row">
-          <span class="type-effectiveness-label weak">Weak to</span>
+          <span class="type-effectiveness-label hypereffective">Hyperffective</span>
+          <span class="type-effectiveness-icons">
+             ${effectiveness.hypereffective.map(type =>
+              `<img src="./games/${game}/images/Types/${type}.png" class="type-icon" title="${type}" alt="${type}">`
+            ).join(' ')}
+          </span>
+        </div>
+        <div class="type-effectiveness-row">
+          <span class="type-effectiveness-label weak">Supereffective</span>
           <span class="type-effectiveness-icons">
             ${effectiveness.weaknesses.map(type =>
               `<img src="./games/${game}/images/Types/${type}.png" class="type-icon" title="${type}" alt="${type}">`
@@ -235,9 +243,17 @@ function renderMainInfo(pokemon) {
           </span>
         </div>
         <div class="type-effectiveness-row">
-          <span class="type-effectiveness-label resist">Resists</span>
+          <span class="type-effectiveness-label resist">Not Very Effective</span>
           <span class="type-effectiveness-icons">
             ${effectiveness.resistances.map(type =>
+              `<img src="./games/${game}/images/Types/${type}.png" class="type-icon" title="${type}" alt="${type}">`
+            ).join(' ')}
+          </span>
+        </div>
+        <div class="type-effectiveness-row">
+          <span class="type-effectiveness-label barelyeffective">Barely Effective</span>
+          <span class="type-effectiveness-icons">
+            ${effectiveness.barelyeffective.map(type =>
               `<img src="./games/${game}/images/Types/${type}.png" class="type-icon" title="${type}" alt="${type}">`
             ).join(' ')}
           </span>
@@ -740,30 +756,55 @@ function setupTabs() {
   });
 }
 
+// updated effectiveness to actually work :3 I forgor about proper ordering on dual types
 function getTypeEffectiveness(types) {
-  let weaknesses = new Set();
-  let resistances = new Set();
-  let immunities = new Set();
+  const effectiveness = {};
 
   types.forEach(type => {
     const typeObj = allTypes.find(t => t.Name === type);
-    if (typeObj) {
-      (typeObj.Weaknesses || []).forEach(w => weaknesses.add(w));
-      (typeObj.Resistances || []).forEach(r => resistances.add(r));
-      (typeObj.Immunities || []).forEach(i => immunities.add(i));
-    }
+    if (!typeObj) return;
+
+    // 2×
+    (typeObj.Weaknesses || []).forEach(t => {
+      effectiveness[t] = (effectiveness[t] || 1) * 2;
+    });
+
+    // 0.5×
+    (typeObj.Resistances || []).forEach(t => {
+      effectiveness[t] = (effectiveness[t] || 1) * 0.5;
+    });
+
+    // 0×
+    (typeObj.Immunities || []).forEach(t => {
+      effectiveness[t] = 0;
+    });
   });
 
-  // Remove overlaps: Immunities > Resistances > Weaknesses
-  immunities.forEach(i => {
-    weaknesses.delete(i);
-    resistances.delete(i);
-  });
-  resistances.forEach(r => weaknesses.delete(r));
+  const weaknesses = [];
+  const resistances = [];
+  const immunities = [];
+  const hypereffective = [];
+  const barelyeffective = [];
+
+  for (const [type, multiplier] of Object.entries(effectiveness)) {
+    if (multiplier === 0) {
+      immunities.push(type);
+    } else if (multiplier === 4) {
+      hypereffective.push(type);
+    } else if (multiplier === 2) {
+      weaknesses.push(type);
+    } else if (multiplier === 0.25) {
+      barelyeffective.push(type);
+    } else if (multiplier === 0.5) {
+      resistances.push(type);
+    }
+  }
 
   return {
-    weaknesses: Array.from(weaknesses),
-    resistances: Array.from(resistances),
-    immunities: Array.from(immunities)
+    hypereffective,
+    weaknesses,
+    resistances,
+    barelyeffective,
+    immunities
   };
 }
