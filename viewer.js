@@ -294,11 +294,10 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       abilities.innerHTML = `<p><strong>Abilities:</strong> ${pokemon.Abilities}</p><p><strong>Hidden Ability:</strong> ${pokemon.HiddenAbilities || pokemon.HiddenAbility}</p>`;
 
       const statLabels = ['HP', 'Attack', 'Defense', 'Speed', 'Sp. Atk', 'Sp. Def'];
-      const statDisplayOrder = [0, 1, 2, 4, 5, 3]; // Speed (index 3) last
+      const statDisplayOrder = [0, 1, 2, 4, 5, 3];
 
       const statsList = document.createElement('ul');
       if (Array.isArray(pokemon.BaseStats)) {
-        // Display in order: HP, Attack, Defense, Sp. Atk, Sp. Def, Speed (Speed last)
         [0, 1, 2, 4, 5, 3].forEach(idx => {
           const label = statLabels[idx];
           const li = document.createElement('li');
@@ -329,25 +328,40 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
 
           const formImage = document.createElement('img');
           const baseInternalName = (form.InternalName || pokemon.InternalName).replace(/T$/, '');
-          let formIndex = pokemon.Forms.indexOf(form) + 1;
+          const formIndex = pokemon.Forms.indexOf(form) + 1;
 
-          let imgSrc = `./games/${game}/images/Front/${baseInternalName}.png`;
-          formImage.src = imgSrc;
           formImage.alt = form.FormName;
           formImage.className = 'pokemon-image';
 
-          // Recursive fallback logic
-          formImage.onerror = function tryNext() {
-            formIndex++;
-            if (formIndex <= pokemon.Forms.length+1) {
-              const nextSrc = `./games/${game}/images/Front/${baseInternalName}_${formIndex}.png`;
-              this.onerror = tryNext;
-              this.src = nextSrc;
-            } else {
-              this.onerror = null;
-              this.src = `./games/${game}/images/Front/000.png`;
-            }
-          };
+          const isAnomaly =
+            (form.FormName && form.FormName.toLowerCase().includes('anomaly')) ||
+            (form.InternalName && form.InternalName.toLowerCase().includes('anomaly'));
+
+          if (isAnomaly) {
+            formImage.src = `./games/${game}/images/Front/${baseInternalName}.png`;
+            formImage.onerror = function tryUnderscore() {
+              // try 2
+              const trimmedName = baseInternalName.slice(0, -1);
+              this.onerror = function tryOne() {
+                // Try 1
+                this.onerror = function fallback() {
+                  this.onerror = null;
+                  this.src = `./games/${game}/images/Front/000.png`;
+                };
+                this.src = `./games/${game}/images/Front/${trimmedName}1.png`;
+              };
+              this.src = `./games/${game}/images/Front/${trimmedName}2.png`;
+            };
+          } else {
+            formImage.src = `./games/${game}/images/Front/${baseInternalName}.png`;
+            formImage.onerror = function tryIndexed() {
+              this.onerror = function fallback() {
+                this.onerror = null;
+                this.src = `./games/${game}/images/Front/000.png`;
+              };
+              this.src = `./games/${game}/images/Front/${baseInternalName}_${formIndex}.png`;
+            };
+          }
 
           const formTitle = document.createElement('h3');
           formTitle.textContent = form.FormName;
@@ -369,13 +383,16 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
           formCard.appendChild(formAbilities);
 
           const formStats = document.createElement('ul');
-          form.BaseStats.forEach((stat, idx) => {
+          statDisplayOrder.forEach(idx => {
+            const label = statLabels[idx];
+            const statValue = typeof form.BaseStats[idx] === 'string'
+              ? form.BaseStats[idx].split('#')[0].trim()
+              : form.BaseStats[idx];
             const li = document.createElement('li');
-            li.textContent = `${statLabels[idx]}: ${stat}`;
+            li.textContent = `${label}: ${statValue}`;
             formStats.appendChild(li);
           });
 
-          // Optional: color based on form's primary type
           const primaryType = form.Type1 || pokemon.Type1;
           const secondaryType = form.Type2 || pokemon.Type2;
           formCard.style.borderImage = `linear-gradient(to top, ${getTypeColor(secondaryType)}, ${getTypeColor(primaryType)}) 1`;

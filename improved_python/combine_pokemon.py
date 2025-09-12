@@ -22,11 +22,11 @@ class PokemonCombiner:
 
             merged_pokemon = {}
 
-            # Check the structure of the base data (optional debug print)
+            #
             print(f"Base data structure for {game_name}:")
             for base_pokemon in base_data:
-                print(base_pokemon)  # Print each base entry to check the structure
-                break  # Remove this line if you want to print all base entries
+                print(base_pokemon)
+                break
 
             # Iterate through base Pokémon data and add to merged_pokemon dictionary
             for base_pokemon in base_data:
@@ -35,9 +35,6 @@ class PokemonCombiner:
                     merged_pokemon[base_name] = base_pokemon
                 except KeyError:
                     print(f"Warning: 'InternalName' not found in this base entry: {base_pokemon}")
-
-            # Iterate through form data and append forms to the corresponding base Pokémon
-            # Track how many generic (non-mega/anomaly) forms have been added per base
             form_counters = {}
 
             for form in form_data:

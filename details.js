@@ -11,6 +11,7 @@ const moveDataPath = `./games/${game}/data/moves.json`;
 
 let allPokemon = [];
 let allMoves = [];
+let allTypes = [];
 
 let config = { excludedPokemon: [], AllowsForms: "Y" };
 
@@ -26,10 +27,11 @@ window.addEventListener('DOMContentLoaded', async () => {
       config = { excludedPokemon: [], AllowsForms: "Y" };
     }
 
-    [allPokemon, allMoves, allAbilities] = await Promise.all([
+    [allPokemon, allMoves, allAbilities, allTypes] = await Promise.all([
       fetch(pokemonDataPath).then(res => res.json()),
       fetch(moveDataPath).then(res => res.json()),
-      fetch(`./games/${game}/data/abilities.json`).then(res => res.json())
+      fetch(`./games/${game}/data/abilities.json`).then(res => res.json()),
+      fetch(`./games/${game}/data/types.json`).then(res => res.json())
     ]);
 
     // Exclude Pokémon in config.excludedPokemon
@@ -94,14 +96,25 @@ function createStatsContainer(stats) {
   const statList = document.createElement('ul');
   statList.className = 'stat-list';
 
+  let bst = 0;
   Object.entries(stats).forEach(([stat, value]) => {
+    let cleanValue = typeof value === 'string' ? value.split('#')[0].trim() : value;
+    bst += Number(cleanValue) || 0;
     const li = document.createElement('li');
     li.innerHTML = `
       <span class="stat-name">${stat}</span>
-      <span class="stat-bar-value">${value}</span>
+      <span class="stat-bar-value">${cleanValue}</span>
     `;
     statList.appendChild(li);
   });
+
+  // Add BST row
+  const bstLi = document.createElement('li');
+  bstLi.innerHTML = `
+    <span class="stat-name"><strong>BST</strong></span>
+    <span class="stat-bar-value"><strong>${bst}</strong></span>
+  `;
+  statList.appendChild(bstLi);
 
   container.appendChild(statList);
   return container;
@@ -110,6 +123,8 @@ function createStatsContainer(stats) {
 function renderMainInfo(pokemon) {
   const mainInfo = document.getElementById('main-info');
   mainInfo.innerHTML = '';
+  console.log('Pokemon Types:', pokemon.Types);
+  console.log('All Types:', allTypes.map(t => t.Name));
 
   const img = document.createElement('img');
   img.id = 'main-sprite';
@@ -136,19 +151,16 @@ function renderMainInfo(pokemon) {
     });
   }
 
-  // Normalize ability names for matching (strip spaces)
   function normalizeAbilityName(name) {
     return name ? name.replace(/\s+/g, '').toLowerCase() : '';
   }
 
-  // Show abilities and hidden abilities with definitions and descriptions
   const abilitiesEl = document.createElement('div');
   abilitiesEl.id = 'abilities';
   const abilities = Array.isArray(pokemon.Abilities)
     ? pokemon.Abilities
     : (typeof pokemon.Abilities === 'string' ? pokemon.Abilities.split(',').map(a => a.trim()).filter(Boolean) : []);
 
-  // Support both HiddenAbility and HiddenAbilities
   let hiddenAbilities = [];
   if (pokemon.HiddenAbilities) {
     hiddenAbilities = Array.isArray(pokemon.HiddenAbilities)
@@ -160,24 +172,24 @@ function renderMainInfo(pokemon) {
       : (typeof pokemon.HiddenAbility === 'string' ? pokemon.HiddenAbility.split(',').map(a => a.trim()).filter(Boolean) : []);
   }
 
-  let html = `<strong>Abilities:</strong>`;
-  html += `<ul style="margin: 4px 0 0 0; padding-left: 18px;">`;
+  let html = `<div class="abilities-title">Abilities:</div>`;
+  html += `<ul class="abilities-list">`;
   abilities.forEach(a => {
     const ab = allAbilities.find(x =>
       x.Name && normalizeAbilityName(x.Name) === normalizeAbilityName(a)
     );
-    html += `<li><span style="font-weight:bold;">${ab ? ab.Name : a}</span>: <span style="font-style:italic;">${ab ? ab.Description : 'No description.'}</span></li>`;
+    html += `<li class="ability"><span class="ability-name">${ab ? ab.Name : a}</span>${ab && ab.Description ? `: <span class="ability-desc">${ab.Description}</span>` : ''}</li>`;
   });
   html += `</ul>`;
 
   if (hiddenAbilities.length) {
-    html += `<strong>Hidden Ability:</strong>`;
-    html += `<ul style="margin: 4px 0 0 0; padding-left: 18px;">`;
+    html += `<div class="abilities-title">Hidden Ability:</div>`;
+    html += `<ul class="abilities-list">`;
     hiddenAbilities.forEach(a => {
       const ab = allAbilities.find(x =>
         x.Name && normalizeAbilityName(x.Name) === normalizeAbilityName(a)
       );
-      html += `<li><span style="font-weight:bold;">${ab ? ab.Name : a}</span>: <span style="font-style:italic;">${ab ? ab.Description : 'No description.'}</span></li>`;
+      html += `<li class="ability"><span class="ability-name">${ab ? ab.Name : a}</span>: <span class="ability-desc">${ab ? ab.Description : 'No description.'}</span></li>`;
     });
     html += `</ul>`;
   }
@@ -186,7 +198,61 @@ function renderMainInfo(pokemon) {
   mainInfo.appendChild(img);
   mainInfo.appendChild(nameEl);
   mainInfo.appendChild(typesContainer);
-  mainInfo.appendChild(abilitiesEl);
+
+  const abilitiesContainer = document.getElementById('abilities-container');
+  if (abilitiesContainer) {
+    abilitiesContainer.innerHTML = html;
+  }
+
+  let types = [];
+  if (Array.isArray(pokemon.Types) && pokemon.Types.length) {
+    types = pokemon.Types;
+  } else {
+    if (pokemon.Type1) types.push(pokemon.Type1);
+    if (pokemon.Type2 && pokemon.Type2 !== pokemon.Type1) types.push(pokemon.Type2);
+  }
+
+  const effectivenessContainer = document.getElementById('type-effectiveness-container');
+  if (effectivenessContainer) {
+    let types = [];
+    if (Array.isArray(pokemon.Types) && pokemon.Types.length) {
+      types = pokemon.Types;
+    } else {
+      if (pokemon.Type1) types.push(pokemon.Type1);
+      if (pokemon.Type2 && pokemon.Type2 !== pokemon.Type1) types.push(pokemon.Type2);
+    }
+
+    const effectiveness = getTypeEffectiveness(types);
+
+    effectivenessContainer.innerHTML = `
+      <div class="type-effectiveness-card">
+        <div class="type-effectiveness-row">
+          <span class="type-effectiveness-label weak">Weak to</span>
+          <span class="type-effectiveness-icons">
+            ${effectiveness.weaknesses.map(type =>
+              `<img src="./games/${game}/images/Types/${type}.png" class="type-icon" title="${type}" alt="${type}">`
+            ).join(' ')}
+          </span>
+        </div>
+        <div class="type-effectiveness-row">
+          <span class="type-effectiveness-label resist">Resists</span>
+          <span class="type-effectiveness-icons">
+            ${effectiveness.resistances.map(type =>
+              `<img src="./games/${game}/images/Types/${type}.png" class="type-icon" title="${type}" alt="${type}">`
+            ).join(' ')}
+          </span>
+        </div>
+        <div class="type-effectiveness-row">
+          <span class="type-effectiveness-label immune">Immune</span>
+          <span class="type-effectiveness-icons">
+            ${effectiveness.immunities.map(type =>
+              `<img src="./games/${game}/images/Types/${type}.png" class="type-icon" title="${type}" alt="${type}">`
+            ).join(' ')}
+          </span>
+        </div>
+      </div>
+    `;
+  }
 }
 
 function renderForms(pokemon) {
@@ -263,9 +329,9 @@ function renderForms(pokemon) {
         HP: form.BaseStats[0],
         Attack: form.BaseStats[1],
         Defense: form.BaseStats[2],
-        Speed: form.BaseStats[3],
         SpAtk: form.BaseStats[4],
-        SpDef: form.BaseStats[5]
+        SpDef: form.BaseStats[5],
+        Speed: form.BaseStats[3]
       };
       const statsBox = createStatsContainer(stats);
       formCard.appendChild(statsBox);
@@ -283,7 +349,7 @@ function renderEvolutions(original, allOriginalPokemon) {
   const container = document.getElementById('evolutions');
   container.innerHTML = '';
 
-  // Build forward evolution map with methods
+  // Evo map
   const forwardMap = new Map();
   for (const p of allOriginalPokemon) {
     let evolutions = [];
@@ -303,7 +369,7 @@ function renderEvolutions(original, allOriginalPokemon) {
     }
   }
 
-  // Helper: Find all pre-evolutions recursively
+  // Find all pre-evolutions recursively
   function findPreEvo(name) {
     for (const [base, evos] of forwardMap.entries()) {
       if (evos.some(evo => evo.target === name)) {
@@ -313,12 +379,12 @@ function renderEvolutions(original, allOriginalPokemon) {
     return null;
   }
 
-  // Helper: Get all direct evolutions for a Pokémon
+  // Get all direct evolutions for a Pokémon
   function getDirectEvolutions(name) {
     return forwardMap.get(name) || [];
   }
 
-  // Find the root/base of the chain for this Pokémon
+  // Find the root/base of the chain for Pokémon
   let root = original.InternalName;
   let prev = findPreEvo(root);
   while (prev) {
@@ -326,12 +392,12 @@ function renderEvolutions(original, allOriginalPokemon) {
     prev = findPreEvo(root);
   }
 
-  // Render the evolution chain as a split tree (no repeats)
+  // Render the evolution chain as a split tree
   function renderChain(name, highlight) {
     const p = allOriginalPokemon.find(pkmn => pkmn.InternalName === name);
     const evoDiv = document.createElement('div');
     evoDiv.className = 'evo-stage';
-    evoDiv.dataset.internalName = p.InternalName; // <-- Add this line
+    evoDiv.dataset.internalName = p.InternalName;
     if (highlight) evoDiv.classList.add('current-pokemon');
     evoDiv.innerHTML = `
       <img src="./games/${game}/images/Front/${p.InternalName.toUpperCase()}.png" alt="${p.Name}" class="evolution-sprite" />
@@ -411,7 +477,6 @@ function renderEvolutions(original, allOriginalPokemon) {
   });
 }
 
-// --- Moves Tabs and Table ---
 function renderMovesTabs(pokemon) {
   const moveTabs = document.getElementById('move-tabs');
   if (!moveTabs) return;
@@ -518,7 +583,6 @@ function renderMovesTable(pokemon, movesData, tab) {
   });
 }
 
-// --- New: Render all info tab ---
 function renderFullInfo(pokemon) {
   const info = document.getElementById('full-info');
   if (!info) return;
@@ -568,7 +632,6 @@ function renderFullInfo(pokemon) {
       Speed: pokemon.BaseStats[3]
     };
   } else if (Array.isArray(pokemon.BaseStats) && pokemon.BaseStats.length === 1) {
-    // Some data only has one value, fallback
     stats = { HP: pokemon.BaseStats[0] };
   } else if (typeof pokemon.BaseStats === 'object') {
     stats = pokemon.BaseStats;
@@ -577,10 +640,9 @@ function renderFullInfo(pokemon) {
   const statsBox = createStatsContainer(stats);
   const statsContainer = document.getElementById('stats-container');
   if (statsContainer) {
-    statsContainer.innerHTML = ''; // clear previous
+    statsContainer.innerHTML = '';
     statsContainer.appendChild(statsBox);
   } else {
-    // fallback: append to full-info if container missing
     document.getElementById('full-info').appendChild(statsBox);
   }
 
@@ -676,4 +738,32 @@ function setupTabs() {
       document.getElementById(button.dataset.tab).classList.remove('hidden');
     });
   });
+}
+
+function getTypeEffectiveness(types) {
+  let weaknesses = new Set();
+  let resistances = new Set();
+  let immunities = new Set();
+
+  types.forEach(type => {
+    const typeObj = allTypes.find(t => t.Name === type);
+    if (typeObj) {
+      (typeObj.Weaknesses || []).forEach(w => weaknesses.add(w));
+      (typeObj.Resistances || []).forEach(r => resistances.add(r));
+      (typeObj.Immunities || []).forEach(i => immunities.add(i));
+    }
+  });
+
+  // Remove overlaps: Immunities > Resistances > Weaknesses
+  immunities.forEach(i => {
+    weaknesses.delete(i);
+    resistances.delete(i);
+  });
+  resistances.forEach(r => weaknesses.delete(r));
+
+  return {
+    weaknesses: Array.from(weaknesses),
+    resistances: Array.from(resistances),
+    immunities: Array.from(immunities)
+  };
 }
