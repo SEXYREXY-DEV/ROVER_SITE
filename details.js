@@ -761,23 +761,29 @@ function getTypeEffectiveness(types) {
   const effectiveness = {};
 
   types.forEach(type => {
-    const typeObj = allTypes.find(t => t.Name === type);
+    // normalize for safety
+    const typeObj = allTypes.find(t => t.Name.toUpperCase() === type.toUpperCase());
     if (!typeObj) return;
 
     // 2×
     (typeObj.Weaknesses || []).forEach(t => {
-      effectiveness[t] = (effectiveness[t] || 1) * 2;
+      if (effectiveness[t] !== 0) {
+        effectiveness[t] = (effectiveness[t] || 1) * 2;
+      }
     });
 
     // 0.5×
     (typeObj.Resistances || []).forEach(t => {
-      effectiveness[t] = (effectiveness[t] || 1) * 0.5;
+      if (effectiveness[t] !== 0) {
+        effectiveness[t] = (effectiveness[t] || 1) * 0.5;
+      }
     });
 
     // 0×
     (typeObj.Immunities || []).forEach(t => {
       effectiveness[t] = 0;
     });
+
   });
 
   const weaknesses = [];
