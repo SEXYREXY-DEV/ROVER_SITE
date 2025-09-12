@@ -762,7 +762,7 @@ function getTypeEffectiveness(types) {
 
   types.forEach(type => {
     // normalize for safety
-    const typeObj = allTypes.find(t => t.Name.toUpperCase() === type.toUpperCase());
+    const typeObj = allTypes.find(t => t.Name === type);
     if (!typeObj) return;
 
     // 2×
