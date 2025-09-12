@@ -369,9 +369,6 @@ body {
   margin-left: 2px;
   font-size: 0.98em;
 }
-.ability:hover {
-  background: #ffeaea;
-}
 
 /* Type Effectiveness */
 .type-effectiveness-card {
