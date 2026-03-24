@@ -2,7 +2,7 @@ const params = new URLSearchParams(window.location.search);
 const game = params.get('game');
 const notice = document.getElementById('notice');
 const pokedexWrapper = document.getElementById('pokedex-wrapper');
-import { normalizePokemon, findMatchingOriginal, applyFilters } from './utils.js';
+import { normalizePokemon, findMatchingOriginal } from './utils.js';
 if (game) {
   loadPokedex(game, pokedexWrapper);
 } else {
@@ -95,122 +95,61 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       matchingOriginal.filter(p => p).forEach(p => renderPokemonCard(p));
     }
     
+    function applyFilters() {
+      const generalQuery = document.getElementById('search-bar').value.toLowerCase().trim();
+      const nameQuery = document.getElementById('name-search').value.toLowerCase().trim();
+      const typeQuery = document.getElementById('type-search').value.toLowerCase().trim();
+      const abilityQuery = document.getElementById('ability-search').value.toLowerCase().trim();
+      const moveQuery = document.getElementById('move-search').value.toLowerCase().trim();
+
+      const filtered = normalizedList.filter(p => {
+        const generalMatch =
+          !generalQuery ||
+          p.Name.includes(generalQuery) ||
+          (p.Types || []).some(t => t.includes(generalQuery)) ||
+          (p.Abilities || []).some(a => a.includes(generalQuery)) ||
+          (p.EggGroups || []).some(g => g.includes(generalQuery)) ||
+          (p.Forms || []).some(f =>
+            f.name.includes(generalQuery) ||
+            (f.types || []).some(t => t.includes(generalQuery)) ||
+            (f.abilities || []).some(a => a.includes(generalQuery))
+          );
+
+        const nameMatch =
+          !nameQuery ||
+          p.Name.includes(nameQuery) ||
+          (p.Forms || []).some(f => f.name.includes(nameQuery));
+
+        const typeMatch =
+          !typeQuery ||
+          (p.Types || []).some(t => t.includes(typeQuery)) ||
+          (p.Forms || []).some(f =>
+            (f.types || []).some(t => t.includes(typeQuery))
+          );
+
+        const abilityMatch =
+          !abilityQuery ||
+          (p.Abilities || []).some(a => a.includes(abilityQuery)) ||
+          (p.Forms || []).some(f =>
+            (f.abilities || []).some(a => a.includes(abilityQuery))
+          );
+
+        const moveMatch =
+          !moveQuery ||
+          (p.Moves || []).some(m => m.includes(moveQuery));
+
+        return generalMatch && nameMatch && typeMatch && abilityMatch && moveMatch;
+      });
+
+      renderFilteredResults(filtered, pokemons);
+    }
+    
     renderFilteredResults(normalizedList, pokemons);
 
-    document.getElementById('search-bar').addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase().trim();
-
-      let filtered;
-      if (!query) {
-        filtered = normalizedList;
-      } else {
-        filtered = normalizedList.filter(p =>
-          p.Name.includes(query) ||
-          (p.Types || []).some(t => t.includes(query)) ||
-          (p.Abilities || []).some(a => a.includes(query)) ||
-          (p.EggGroups || []).some(g => g.includes(query)) ||
-          (p.Forms || []).some(f =>
-            f.name.includes(query) ||
-            (f.types || []).some(t => t.includes(query)) ||
-            (f.abilities || []).some(a => a.includes(query))
-          )
-        );
-      }
-
-      container.innerHTML = '';
-      const matchingOriginal = filtered.map(n => findMatchingOriginal(n, pokemons));
-
-      matchingOriginal.filter(p => p).forEach(p => renderPokemonCard(p));
-    });
+    document.getElementById('search-bar').addEventListener('input', applyFilters);
 
     ['name-search', 'type-search', 'ability-search', 'move-search'].forEach(id => {
       document.getElementById(id).addEventListener('input', applyFilters);
-    });
-
-    document.getElementById('name-search').addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase().trim();
-
-      let filtered;
-      if (!query) {
-
-        filtered = normalizedList;
-      } else {
-        filtered = normalizedList.filter(p =>
-          p.Name.includes(query) ||
-          (p.Forms || []).some(f => f.name.includes(query))
-        );
-      }
-
-      container.innerHTML = '';
-      const matchingOriginal = filtered.map(n => findMatchingOriginal(n, pokemons));
-
-      matchingOriginal.filter(p => p).forEach(p => renderPokemonCard(p));
-    });
-
-    document.getElementById('type-search').addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase().trim();
-
-      let filtered;
-      if (!query) {
-        // Show all Pokémon if search input is empty
-        filtered = normalizedList;
-      } else {
-        filtered = normalizedList.filter(p =>
-          (p.Types || []).some(t => t.includes(query)) ||
-          (p.Forms || []).some(f =>
-            (f.types || []).some(t => t.includes(query))
-          )
-        );
-      }
-
-      container.innerHTML = '';
-      const matchingOriginal = filtered.map(n => findMatchingOriginal(n, pokemons)
-      );
-      matchingOriginal.filter(p => p).forEach(p => renderPokemonCard(p));
-    });
-
-    document.getElementById('ability-search').addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase().trim();
-
-      let filtered;
-      if (!query) {
-        // Show all Pokémon if search input is empty
-        filtered = normalizedList;
-      } else {
-        filtered = normalizedList.filter(p =>
-          (p.Abilities || []).some(a => a.includes(query)) ||
-          (p.Forms || []).some(f =>
-            (f.abilities || []).some(a => a.includes(query))
-          )
-        );
-      }
-
-      container.innerHTML = '';
-      const matchingOriginal = filtered.map(n => findMatchingOriginal(n, pokemons)
-      );
-      matchingOriginal.filter(p => p).forEach(p => renderPokemonCard(p));
-    });
-
-    document.getElementById('move-search').addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase().trim();
-
-      let filtered;
-      if (!query) {
-        // Show all Pokémon if search input is empty
-        filtered = normalizedList;
-      } else {
-        filtered = normalizedList.filter(p =>
-          (p.Moves || []).some(m => m.includes(query)) ||
-          (p.Forms || []).some(f =>
-            (f.moves || []).some(m => m.includes(query))
-          )
-        );
-      }
-
-      container.innerHTML = '';
-      const matchingOriginal = filtered.map(n => findMatchingOriginal(n, pokemons)
-      );
-      matchingOriginal.filter(p => p).forEach(p => renderPokemonCard(p));
     });
 
     document.getElementById('reset-button').addEventListener('click', () => {
@@ -222,9 +161,7 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       renderFilteredResults(normalizedList, pokemons);
     });
 
-    document.getElementById('sort-select').addEventListener('change', () => {
-      renderFilteredResults(normalizedList, pokemons);
-    });
+    document.getElementById('sort-select').addEventListener('change', applyFilters);
 
     function renderPokemonCard(pokemon) {
       const card = document.createElement('div');
