@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Team Builder</title>
+  <link rel="stylesheet" href="viewer.css">
+  <link rel="stylesheet" href="teambuilder.css">
+</head>
+<body>
+  <div id="back-container">
+    <a class="back-button" href="viewer.html">← Back to Pokedex</a>
+  </div>
+  <h1 id="page-title">Team Builder</h1>
+  <div id="status" aria-live="polite" role="status"></div>
+
+  <div id="builder-wrapper" class="page-grid">
+    <div id="top-search" style="width:100%; padding:16px;">
+      <div style="display:flex; gap:8px; align-items:center;">
+        <input id="search-bar" type="text" placeholder="Search Pokémon, type, ability, move..." style="flex:1">
+        <button id="find-button" class="back-button">Find</button>
+        <button id="prev-match" class="back-button">Prev</button>
+        <button id="next-match" class="back-button">Next</button>
+        <div style="display:flex;gap:12px;align-items:center">
+          <div id="match-count" style="margin-left:8px;font-size:14px;color:#666">No results</div>
+          <div id="match-thumbs" style="display:flex;gap:6px;overflow:auto;max-width:480px"></div>
+        </div>
+        <div id="search-results" class="search-results" style="margin-top:8px"></div> 
+      </div>
+      <div style="margin-top:8px; display:flex; gap:8px;">
+        <input id="name-search" type="text" placeholder="Name filter">
+        <input id="type-search" type="text" placeholder="Type filter">
+        <input id="ability-search" type="text" placeholder="Ability filter">
+      </div>
+    </div>
+
+    <main id="main-area">
+      <section id="editor-panel">
+        <div id="editor-empty">No Pokémon selected. Use the search above and click Find to select a Pokémon to edit or add.</div>
+        <div id="editor-card" class="pokemon-card hidden" style="padding:12px; display:flex; gap:12px; align-items:flex-start">
+          <img id="editor-image" class="pokemon-image" src="" alt="">
+          <div style="flex:1">
+            <h2 id="editor-name"></h2>
+            <div id="editor-types"></div>
+            <label>Ability: <select id="editor-ability"><option value="">(choose)</option></select></label>
+            <label>Form: <select id="editor-form"><option value="base">Base</option></select></label>
+            <label>Level: <input id="editor-level" type="number" min="1" max="120" value="50"></label>
+            <div id="editor-stat-preview" style="margin-top:8px">
+              <h4>Base stats</h4>
+              <div id="editor-stat-values">—</div>
+              <div id="editor-advanced" style="margin-top:8px">
+                <label>Nature: <select id="editor-nature"></select></label>
+                <table style="width:100%;font-size:13px;margin-top:8px">
+                  <thead><tr><th>Stat</th><th>IV</th><th>EV</th><th>Computed</th></tr></thead>
+                  <tbody>
+                    <tr><th>HP</th><td><input id="editor-iv-hp" type="number" min="0" max="31" value="31"></td><td><input id="editor-ev-hp" type="number" min="0" max="252" value="0"></td><td id="editor-stat-hp">-</td></tr>
+                    <tr><th>ATK</th><td><input id="editor-iv-atk" type="number" min="0" max="31" value="31"></td><td><input id="editor-ev-atk" type="number" min="0" max="252" value="0"></td><td id="editor-stat-atk">-</td></tr>
+                    <tr><th>DEF</th><td><input id="editor-iv-def" type="number" min="0" max="31" value="31"></td><td><input id="editor-ev-def" type="number" min="0" max="252" value="0"></td><td id="editor-stat-def">-</td></tr>
+                    <tr><th>SPA</th><td><input id="editor-iv-spa" type="number" min="0" max="31" value="31"></td><td><input id="editor-ev-spa" type="number" min="0" max="252" value="0"></td><td id="editor-stat-spa">-</td></tr>
+                    <tr><th>SPD</th><td><input id="editor-iv-spd" type="number" min="0" max="31" value="31"></td><td><input id="editor-ev-spd" type="number" min="0" max="252" value="0"></td><td id="editor-stat-spd">-</td></tr>
+                    <tr><th>SPE</th><td><input id="editor-iv-spe" type="number" min="0" max="31" value="31"></td><td><input id="editor-ev-spe" type="number" min="0" max="252" value="0"></td><td id="editor-stat-spe">-</td></tr>
+                  </tbody>
+                </table>
+                <div style="margin-top:6px">EV Total: <span id="editor-ev-total">0</span>/510</div>
+              </div>
+            </div>
+            <div id="moves-editor-inline">
+              <h4>Moves</h4>
+              <div id="editor-moves-list"></div>
+              <button id="editor-edit-moves" class="back-button">Edit Moves</button>
+            </div>
+            <div style="margin-top:8px">
+              <label>Slot: <select id="editor-slot-select"><option value="first">First Empty</option><option value="0">Slot 1</option><option value="1">Slot 2</option><option value="2">Slot 3</option><option value="3">Slot 4</option><option value="4">Slot 5</option><option value="5">Slot 6</option></select></label>
+              <button id="editor-add-to-team" class="back-button">Add to Team</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <section id="team-and-controls" style="margin-top:16px;">
+        <section id="team-grid" aria-label="Team slots">
+          <!-- Six slots will be generated by JS -->
+        </section>
+
+        <section id="results-container" style="display:none">
+          <!-- hidden list - kept for compatibility -->
+        </section>
+
+        <div style="margin-top:16px; display:flex; gap:8px; align-items:center;">
+          <select id="export-format">
+            <option value="pokepaste">Pokepaste</option>
+            <option value="pbs">PBS</option>
+            <option value="json">JSON</option>
+          </select>
+          <button id="export-team" class="back-button">Export Team</button>
+          <button id="import-team" class="back-button">Import Team</button>
+          <input id="import-file" type="file" accept=".json,.txt" style="display:none">
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Modal: edit slot -->
+  <div id="slot-modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button id="modal-close" class="back-button">Close</button>
+      <h2 id="modal-title">Edit Pokémon</h2>
+      <div id="modal-body">
+        <label>Nickname: <input id="slot-nick" type="text"></label>
+        <label>Level: <input id="slot-level" type="number" min="1" max="120" value="50"></label>
+        <label>Form: <select id="slot-form"><option value="base">Base</option></select></label>
+        <label>Ability: <select id="slot-ability"></select></label>
+        <label>Item: <input id="slot-item" type="text"></label>
+
+        <div style="margin-top:8px">
+          <button id="slot-advanced-toggle" class="back-button">Advanced: Edit IV/EV & Nature</button>
+          <div id="slot-advanced" class="hidden">
+            <div id="stat-editor" style="margin-top:8px">
+              <h4>IVs / EVs / Nature</h4>
+              <label>Nature: <select id="slot-nature"></select></label>
+              <div id="iv-ev-grid">
+                <table style="width:100%;font-size:13px">
+                  <thead><tr><th>Stat</th><th>IV</th><th>EV</th><th>Stat</th></tr></thead>
+                  <tbody>
+                    <tr><th>HP</th><td><input id="iv-hp" type="number" min="0" max="31" value="31"></td><td><input id="ev-hp" type="number" min="0" max="252" value="0"></td><td id="stat-hp">-</td></tr>
+                    <tr><th>ATK</th><td><input id="iv-atk" type="number" min="0" max="31" value="31"></td><td><input id="ev-atk" type="number" min="0" max="252" value="0"></td><td id="stat-atk">-</td></tr>
+                    <tr><th>DEF</th><td><input id="iv-def" type="number" min="0" max="31" value="31"></td><td><input id="ev-def" type="number" min="0" max="252" value="0"></td><td id="stat-def">-</td></tr>
+                    <tr><th>SPA</th><td><input id="iv-spa" type="number" min="0" max="31" value="31"></td><td><input id="ev-spa" type="number" min="0" max="252" value="0"></td><td id="stat-spa">-</td></tr>
+                    <tr><th>SPD</th><td><input id="iv-spd" type="number" min="0" max="31" value="31"></td><td><input id="ev-spd" type="number" min="0" max="252" value="0"></td><td id="stat-spd">-</td></tr>
+                    <tr><th>SPE</th><td><input id="iv-spe" type="number" min="0" max="31" value="31"></td><td><input id="ev-spe" type="number" min="0" max="252" value="0"></td><td id="stat-spe">-</td></tr>
+                  </tbody>
+                </table>
+                <div style="margin-top:6px">EV Total: <span id="ev-total">0</span>/510</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="moves-editor">
+          <h4>Moves</h4>
+          <div id="moves-list"></div>
+          <button id="edit-moves">Edit Moves</button>
+      </div>
+
+        <div style="margin-top:8px">
+          <button id="type-chart-button" class="back-button">Type Chart</button>
+        </div>
+
+        <div id="slot-actions">
+          <button id="slot-remove">Remove</button>
+          <button id="slot-save">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Move picker modal (top-level so it works from main editor) -->
+  <div id="move-picker" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button id="move-picker-close" class="back-button">Close</button>
+      <h3>Pick a Move</h3>
+      <input id="move-search" placeholder="Search moves by name or type..." />
+      <div id="move-results"></div>
+      <div id="move-desc" class="move-desc" style="margin-top:8px;font-size:13px;color:#333"></div>
+    </div>
+  </div>
+
+  <div id="type-chart-modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button id="type-chart-close" class="back-button">Close</button>
+      <h3>Type Chart</h3>
+      <div id="type-chart-body"></div>
+    </div>
+  </div>
+
+  <script type="module" src="teambuilder.js"></script>
+</body>
+</html>
