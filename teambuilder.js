@@ -80,9 +80,9 @@ function getBaseStatsFor(slotOrPokemon, formIndex) {
     hp: Number(baseArr[0] || 0),
     atk: Number(baseArr[1] || 0),
     def: Number(baseArr[2] || 0),
-    spa: Number(baseArr[3] || 0),
-    spd: Number(baseArr[4] || 0),
-    spe: Number(baseArr[5] || 0)
+    spe: Number(baseArr[3] || 0),
+    spa: Number(baseArr[4] || 0),
+    spd: Number(baseArr[5] || 0)
   };
 }
 
