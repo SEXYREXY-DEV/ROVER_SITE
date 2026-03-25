@@ -634,6 +634,14 @@ function showSearchMatches(matches) {
 
   if (prev) prev.disabled = (matches.length <= 1);
   if (next) next.disabled = (matches.length <= 1);
+
+  // Scroll the selected result into view
+  if (results && results.style.display !== 'none') {
+    const selectedRow = results.querySelector('.search-row.selected');
+    if (selectedRow) {
+      selectedRow.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
 }
 
 function updateEditorStatPreview() {
