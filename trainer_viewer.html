@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trainer Viewer</title>
+  <link rel="stylesheet" href="trainer_viewer.css" />
+</head>
+<body>
+  <div id="back-container">
+    <button class="back-button" onclick="location.href='index.html'">
+      ← Back to Game Selection
+    </button>
+  </div>
+
+  <div id="search-container">
+    <input type="text" id="search-bar" placeholder="Search by Trainer Name" />
+  </div>
+
+  <button id="reset-button">Reset</button>
+
+  <h1 id="page-title"></h1>
+
+  <div id="trainers-container">
+    <div id="trainers-wrapper"></div>
+  </div>
+
+  <div id="trainer-details" style="display: none;">
+    <h2 id="trainer-details-title"></h2>
+    <div id="pokemon-list"></div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const queryGame = params.get('game');
+    window.game = queryGame ? queryGame.toLowerCase() : 'ss2';
+    const displayGame = queryGame ? queryGame.charAt(0).toUpperCase() + queryGame.slice(1) : 'SS2';
+    document.getElementById('page-title').textContent = displayGame + ' Trainer Viewer';
+  </script>
+
+  <script src="trainer_viewer.js"></script>
+</body>
+</html>
