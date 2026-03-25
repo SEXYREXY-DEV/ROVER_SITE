@@ -362,9 +362,10 @@ function saveSlotFromModal() {
   const totalEV = Object.values(slot.evs).reduce((a,b)=>a+Number(b||0),0);
   if (totalEV > 510) {
     let excess = totalEV - 510;
-    const order = ['spe','spd','spa','def','atk','hp']; // trim speed first, then others
-    for (let s of order) {
+    const order = ['hp','atk','def','spa','spd','spe']; // trim from highest priority stats
+    for (let i = order.length - 1; i >= 0; i--) {
       if (excess <= 0) break;
+      const s = order[i];
       const take = Math.min(slot.evs[s], excess);
       slot.evs[s] -= take;
       excess -= take;
