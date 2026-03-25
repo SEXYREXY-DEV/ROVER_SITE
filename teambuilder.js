@@ -1171,9 +1171,9 @@ function exportAsPBS(team) {
     if (ability) output += `Ability = ${ability}\n`;
     output += `Nature = ${nature}\n`;
     if (item) output += `Item = ${item}\n`;
-    const ivStr = [ivs.hp, ivs.atk, ivs.def, ivs.spa, ivs.spd, ivs.spe].join(',');
+    const ivStr = [ivs.hp, ivs.atk, ivs.def, ivs.spe, ivs.spa, ivs.spd].join(',');
     output += `IV = ${ivStr}\n`;
-    const evStr = [evs.hp, evs.atk, evs.def, evs.spa, evs.spd, evs.spe].join(',');
+    const evStr = [evs.hp, evs.atk, evs.def, evs.spe, evs.spa, evs.spd].join(',');
     output += `EV = ${evStr}\n`;
     output += `\n`;
   });
