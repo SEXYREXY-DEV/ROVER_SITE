@@ -44,6 +44,11 @@ class DataOrchestrator:
         parser = TypesParser()
         parser.process_types_data(self.paths.games, base_dir=self.paths.base_dir)
 
+    def generate_trainers(self):
+        from trainers_to_json import TrainersParser
+        parser = TrainersParser()
+        parser.process_trainers_data(self.paths.games, base_dir=self.paths.base_dir)
+
     def run_tests(self):
         print("\nRunning unit tests...")
         unittest.main(module='unit_tests', exit=False)
@@ -55,6 +60,8 @@ class DataOrchestrator:
         self.parse_moves()
         self.parse_abilities()
         self.generate_evolutions()
+        self.generate_types()
+        self.generate_trainers()
         self.run_tests()
 
 if __name__ == "__main__":
