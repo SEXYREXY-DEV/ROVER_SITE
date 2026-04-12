@@ -687,18 +687,6 @@ body {
   .moves-table tr:hover {
     background: #2d2323;
   }
-  .back-button {
-    background: #b71c1c;
-    border: 2px solid #e23d3d;
-    color: #ffe08b;
-  }
-  .back-button:hover {
-    background: #e23d3d;
-    color: #fff;
-  }
-  .back-button:active {
-    background: #8c1515;
-  }
   #sprite-viewer {
     background: #23242a;
     border-color: #e23d3d;

@@ -26,6 +26,36 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background: #e23d3d;
+  border: 2px solid #b71c1c;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+.back-button:hover {
+  background: #b71c1c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+.back-button:active {
+  background: #8c1515;
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+.back-button:focus {
+  outline: 2px solid #007BFF;
+  outline-offset: 2px;
+}
+
 #sort-container {
   margin: 20px;
   display: flex;
