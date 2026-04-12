@@ -6,12 +6,18 @@
   <link rel="stylesheet" href="viewer.css" />
 </head>
 <body>
-  <div id="back-container">
+
+  <div id="navigation-container">
     <button class="back-button" onclick="location.href='index.html'">
       ← Back to Game Selection
     </button>
+    <button class="back-button" onclick="location.href='ability_move_viewer.html?game=' + window.game">
+        List of Abilities & Moves →
+    </button>
+    <button class="back-button" onclick="location.href='trainer_viewer.html?game=' + window.game">
+        View Trainers (SPOILERS) →
+    </button>
   </div>
-
   <div id="search-container">
     <input type="text" id="search-bar" placeholder="Search by Anything, good luck!" />
     <input type="text" id="name-search" placeholder="Search by Name" />
@@ -36,16 +42,20 @@
     <div id="pokedex-wrapper"></div>
   </div>
 
-  <!-- Title based on game -->
   <script>
     const params = new URLSearchParams(window.location.search);
-    let game = params.get('game');
-    if (game) {
-      game = game.charAt(0).toUpperCase() + game.slice(1);
-    } else {
-      game = "Unknown";
-    }
-    document.getElementById('page-title').textContent = game + " Pokédex";
+    const queryGame = params.get('game');
+    window.game = queryGame ? queryGame.toLowerCase() : 'default';
+    const displayGame = queryGame
+      ? queryGame.charAt(0).toUpperCase() + queryGame.slice(1)
+      : 'Game';
+
+    let currentTab = 'moves';
+    if (params.get('ability')) currentTab = 'abilities';
+    if (params.get('move')) currentTab = 'moves';
+
+    document.getElementById('page-title').textContent =
+      displayGame + ' Abilities & Moves Viewer';
   </script>
 
   <script type="module" src="viewer.js"></script>

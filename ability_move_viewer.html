@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abilities & Moves Viewer</title>
+  <link rel="stylesheet" href="ability_move_viewer.css" />
+</head>
+<body>
+
+  <div id="back-container">
+    <button class="back-button" onclick="location.href='viewer.html?game=' + window.game">
+      ← Back to View Pokédex
+    </button>
+
+    <button class="back-button" onclick="location.href='index.html'">
+      ← Back to Game Selection
+    </button>
+  </div>
+
+  <div id="tab-container">
+    <span class="tab-button" data-tab="moves">Moves</span>
+    <span class="tab-button active" data-tab="abilities">Abilities</span>
+  </div>
+
+  <div id="search-container">
+    <h3>Abilities</h3>
+    <input type="text" id="ability-search" placeholder="Search abilities...">
+
+    <h3>Moves</h3>
+    <input type="text" id="move-search" placeholder="Search moves...">
+
+    <h3>Move Filters</h3>
+    <input type="text" id="type-filter" placeholder="Type (FIRE, WATER...)">
+    <input type="number" id="power-filter" placeholder="Min Power">
+    <input type="number" id="accuracy-filter" placeholder="Min Accuracy">
+    <input type="text" id="flag-filter" placeholder="Flag (Bomb, Protect...)">
+  </div>
+
+  <button id="reset-button">Reset</button>
+
+  <h1 id="page-title"></h1>
+
+  <div id="viewer-container">
+    <h2>Abilities</h2>
+    <div id="abilities-results"></div>
+
+    <h2>Moves</h2>
+    <div id="moves-results"></div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const queryGame = params.get('game');
+    window.game = queryGame ? queryGame.toLowerCase() : 'default';
+    const displayGame = queryGame
+      ? queryGame.charAt(0).toUpperCase() + queryGame.slice(1)
+      : 'Game';
+
+    let currentTab = 'moves';
+    if (params.get('ability')) currentTab = 'abilities';
+    if (params.get('move')) currentTab = 'moves';
+
+    document.getElementById('page-title').textContent =
+      displayGame + ' Abilities & Moves Viewer';
+  </script>
+
+  <script src="ability_move_viewer.js"></script>
+</body>
+</html>

@@ -7,7 +7,7 @@ body {
   color: #333;
 }
 
-#back-container {
+#navigation-container {
   margin: 20px;
 }
 
@@ -48,7 +48,7 @@ body {
   color: #e23d3d;
 }
 
-.back-button {
+.navigation-container {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -64,12 +64,12 @@ body {
   text-decoration: none;
 }
 
-.back-button:hover {
+.navigation-container:hover {
   background-color: #e0e0e0;
   border-color: #999;
 }
 
-.back-button:active {
+.navigation-container:active {
   background-color: #d0d0d0;
   transform: translateY(1px);
 }
@@ -269,18 +269,18 @@ body {
     box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
   }
 
-  .back-button {
+  .navigation-container {
     background-color: #2c2c2c;
     color: #fff;
     border: 2px solid #444;
   }
 
-  .back-button:hover {
+  .navigation-container:hover {
     background-color: #3a3a3a;
     border-color: #666;
   }
 
-  .back-button:active {
+  .navigation-container:active {
     background-color: #444;
   }
 }

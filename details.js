@@ -4,7 +4,7 @@ import { normalizePokemon } from './utils.js';
 
 const params = new URLSearchParams(window.location.search);
 const game = params.get('game');
-const pokemonInternalName = localStorage.getItem('selectedPokemon');
+const pokemonInternalName = params.get('pokemon');
 
 const pokemonDataPath = `./games/${game}/data/pokemon_master_evo.json`;
 const moveDataPath = `./games/${game}/data/moves.json`;
@@ -44,7 +44,17 @@ window.addEventListener('DOMContentLoaded', async () => {
       allPokemon.forEach(p => { p.Forms = []; });
     }
 
-    const rawPokemon = allPokemon.find(p => p.InternalName.toUpperCase() === pokemonInternalName.toUpperCase());
+    if (!pokemonInternalName) {
+      document.getElementById('main-container').innerHTML = '<p>No Pokémon specified.</p>';
+      return;
+    }
+
+    const rawPokemon = allPokemon.find(p => p.InternalName && p.InternalName.toUpperCase() === pokemonInternalName.toUpperCase());
+    if (!rawPokemon) {
+      document.getElementById('main-container').innerHTML = '<p>Pokémon not found.</p>';
+      return;
+    }
+
     const normalizedPokemon = normalizePokemon(rawPokemon);
 
     renderPokemonDetails(normalizedPokemon);
@@ -76,6 +86,11 @@ function getTypeColor(type) {
     QMARKS: '#68A090', COSMIC: '#15416A', LIGHT: '#FFE08B', SOUND: '#A22FD3'
   };
   return typeColors[type?.toUpperCase()] || '#ccc';
+}
+
+function hexToRgb(hex) {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? `${parseInt(result[1], 16)}, ${parseInt(result[2], 16)}, ${parseInt(result[3], 16)}` : null;
 }
 
 function renderPokemonDetails(pokemon) {
@@ -178,7 +193,7 @@ function renderMainInfo(pokemon) {
     const ab = allAbilities.find(x =>
       x.Name && normalizeAbilityName(x.Name) === normalizeAbilityName(a)
     );
-    html += `<li class="ability"><span class="ability-name">${ab ? ab.Name : a}</span>${ab && ab.Description ? `: <span class="ability-desc">${ab.Description}</span>` : ''}</li>`;
+    html += `<li class="ability"><span class="ability-name"><a href="ability_move_viewer.html?game=${game}&ability=${encodeURIComponent(ab ? ab.Name : a)}">${ab ? ab.Name : a}</a></span>${ab && ab.Description ? `: <span class="ability-desc">${ab.Description}</span>` : ''}</li>`;
   });
   html += `</ul>`;
 
@@ -189,7 +204,7 @@ function renderMainInfo(pokemon) {
       const ab = allAbilities.find(x =>
         x.Name && normalizeAbilityName(x.Name) === normalizeAbilityName(a)
       );
-      html += `<li class="ability"><span class="ability-name">${ab ? ab.Name : a}</span>: <span class="ability-desc">${ab ? ab.Description : 'No description.'}</span></li>`;
+      html += `<li class="ability"><span class="ability-name"><a href="ability_move_viewer.html?game=${game}&ability=${encodeURIComponent(ab ? ab.Name : a)}">${ab ? ab.Name : a}</a></span>: <span class="ability-desc">${ab ? ab.Description : 'No description.'}</span></li>`;
     });
     html += `</ul>`;
   }
@@ -411,16 +426,17 @@ function renderEvolutions(original, allOriginalPokemon) {
   // Render the evolution chain as a split tree
   function renderChain(name, highlight) {
     const p = allOriginalPokemon.find(pkmn => pkmn.InternalName === name);
-    const evoDiv = document.createElement('div');
-    evoDiv.className = 'evo-stage';
-    evoDiv.dataset.internalName = p.InternalName;
-    if (highlight) evoDiv.classList.add('current-pokemon');
-    evoDiv.innerHTML = `
+    const evoA = document.createElement('a');
+    evoA.className = 'evo-stage';
+    evoA.dataset.internalName = p.InternalName;
+    if (highlight) evoA.classList.add('current-pokemon');
+    evoA.href = `details.html?pokemon=${encodeURIComponent(p.InternalName)}&game=${game}`;
+    evoA.innerHTML = `
       <img src="./games/${game}/images/Front/${p.InternalName.toUpperCase()}.png" alt="${p.Name}" class="evolution-sprite" />
       <div>${p.Name}</div>
     `;
 
-    return evoDiv;
+    return evoA;
   }
 
   // Recursive: Render branches from a Pokémon
@@ -478,18 +494,10 @@ function renderEvolutions(original, allOriginalPokemon) {
   container.appendChild(rootDiv);
 
   // Highlight the current Pokémon in the chain
-  container.querySelectorAll('.evo-stage').forEach(div => {
-    if (div.textContent.includes(original.Name)) {
-      div.classList.add('current_pokemon');
+  container.querySelectorAll('.evo-stage').forEach(a => {
+    if (a.textContent.includes(original.Name)) {
+      a.classList.add('current_pokemon');
     }
-    div.onclick = () => {
-      const internalName = div.dataset.internalName; // <-- Use this instead
-      const poke = allOriginalPokemon.find(p => p.InternalName === internalName);
-      if (poke) {
-        localStorage.setItem('selectedPokemon', poke.InternalName);
-        window.location.reload();
-      }
-    };
   });
 }
 
@@ -568,6 +576,7 @@ function renderMovesTable(pokemon, movesData, tab) {
             <th>Category</th>
             <th>Power</th>
             <th>Accuracy</th>
+            <th>Flags</th>
             <th>Description</th>
           </tr>
         </thead>
@@ -578,25 +587,61 @@ function renderMovesTable(pokemon, movesData, tab) {
 
   const tbody = document.getElementById(`moves-table-body-${tab}`);
   moves.forEach(m => {
-    const move = movesData.find(x => x.InternalName === m.name || x.Name === m.name) || {};
-    const typeImage = move.Type
-      ? `<img src="./games/${game}/images/Types/${move.Type.toUpperCase()}.png" alt="${move.Type} Type" class="type-icon" style="width:50px;height:50px;">`
-      : 'N/A';
-    const categoryImage = move.Category
-      ? `<img src="./games/${game}/images/Moves/${move.Category.toUpperCase()}.png" alt="${move.Category} Category" class="category-icon" style="width:60px;height:32px;">`
-      : 'N/A';
-    const row = document.createElement("tr");
-    row.innerHTML = `
-      <td>${move.Name || m.name}</td>
-      ${tab === 'levelup' ? `<td>${m.level}</td>` : ''}
-      <td>${typeImage}</td>
-      <td>${categoryImage}</td>
-      <td>${move.Power || '-'}</td>
-      <td>${move.Accuracy || '-'}</td>
-      <td>${move.Description || 'No description available'}</td>
-    `;
-    tbody.appendChild(row);
+  const move = movesData.find(x => x.InternalName === m.name || x.Name === m.name) || {};
+
+  const typeImage = move.Type
+    ? `<img src="./games/${game}/images/Types/${move.Type.toUpperCase()}.png" alt="${move.Type} Type" class="type-icon" style="width:50px;height:50px;">`
+    : 'N/A';
+
+  const categoryImage = move.Category
+    ? `<img src="./games/${game}/images/Moves/${move.Category.toUpperCase()}.png" alt="${move.Category} Category" class="category-icon" style="width:60px;height:32px;">`
+    : 'N/A';
+
+  const row = document.createElement("tr");
+
+  // --- COLOR SETUP ---
+  const baseColor = hexToRgb(getTypeColor(move.Type));
+  const normalColor = `rgba(${baseColor}, 0.3)`;
+  const hoverColor = `rgba(${baseColor}, 0.6)`;
+
+  row.style.backgroundColor = normalColor;
+  row.style.cursor = 'pointer';
+  row.style.transition = 'background-color 0.2s ease';
+
+  // --- HOVER LOGIC ---
+  row.addEventListener('mouseenter', () => {
+    row.style.backgroundColor = hoverColor;
   });
+
+  row.addEventListener('mouseleave', () => {
+    row.style.backgroundColor = normalColor;
+  });
+
+  // --- CLICK LOGIC (FIXED) ---
+  row.addEventListener('mousedown', (event) => {
+    const url = `ability_move_viewer.html?game=${game}&move=${encodeURIComponent(move.Name || m.name)}`;
+
+    if (event.button === 0) {
+      window.location.href = url;
+    } else if (event.button === 1) {
+      window.open(url, '_blank');
+      event.preventDefault();
+    }
+  });
+
+  row.innerHTML = `
+    <td>${move.Name || m.name}</td>
+    ${tab === 'levelup' ? `<td>${m.level}</td>` : ''}
+    <td>${typeImage}</td>
+    <td>${categoryImage}</td>
+    <td>${move.Power || '-'}</td>
+    <td>${move.Accuracy || '-'}</td>
+    <td>${(move.Flags || []).join(', ')}</td>
+    <td>${move.Description || 'No description available'}</td>
+  `;
+
+  tbody.appendChild(row);
+});
 }
 
 function renderFullInfo(pokemon) {

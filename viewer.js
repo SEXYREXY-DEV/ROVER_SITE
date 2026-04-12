@@ -172,8 +172,7 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       const type2Color = pokemon.Type2 ? getTypeColor(pokemon.Type2) : null;
       
       card.addEventListener('click', () => {
-        localStorage.setItem('selectedPokemon', pokemon.InternalName);
-        window.location.href = `details.html?game=${game}`;
+        window.location.href = `details.html?pokemon=${encodeURIComponent(pokemon.InternalName)}&game=${game}`;
       });
 
 

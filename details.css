@@ -533,12 +533,15 @@ body {
   top: 0;
   z-index: 1;
 }
-.moves-table tr:nth-child(even) {
-  background: #f8f8fa;
+.moves-table tr {
+  cursor: pointer;
+  transition: transform 0.2s;
 }
+
 .moves-table tr:hover {
-  background: #ffeaea;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 1.0);
 }
+
 .category-icon {
   width: 28px;
   height: 28px;
