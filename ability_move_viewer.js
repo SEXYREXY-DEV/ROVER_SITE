@@ -54,7 +54,7 @@ async function loadData() {
     allPokemon.forEach(p => {
       // Abilities
       const abilities = Array.isArray(p.Abilities) ? p.Abilities : (p.Abilities ? p.Abilities.split(',').map(a => a.trim()) : []);
-      const hidden = Array.isArray(p.HiddenAbility) ? p.HiddenAbility : (p.HiddenAbility ? p.HiddenAbility.split(',').map(a => a.trim()) : []);
+      const hidden = Array.isArray(p.HiddenAbilities) ? p.HiddenAbilities : (p.HiddenAbilities ? p.HiddenAbilities.split(',').map(a => a.trim()) : []);
       [...abilities, ...hidden].forEach(a => {
         const norm = a.replace(/\s+/g, '').toLowerCase();
         if (!abilityToPokemon.has(norm)) abilityToPokemon.set(norm, new Set());
