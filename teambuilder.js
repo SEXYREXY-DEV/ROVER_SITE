@@ -97,6 +97,41 @@ function computeStats({baseStats, ivs, evs, level, nature}) {
   return res;
 }
 
+function normalizeSlotForStorage(slot) {
+  if (!slot) return null;
+  const s = Object.assign({}, slot);
+  // ensure basic fields
+  s.nick = s.nick || s.Name || '';
+  s.level = Number(s.level) || 50;
+  s.ability = s.ability || '';
+  s.item = s.item || '';
+  s.form = (s.form === undefined) ? null : s.form;
+  // moves
+  s.moves = Array.isArray(s.moves) ? s.moves.map(m => typeof m === 'string' ? m : (m.Name||String(m))).slice(0,4) : [];
+  // ivs / evs defaults and numeric coercion
+  s.ivs = s.ivs || {hp:31,atk:31,def:31,spa:31,spd:31,spe:31};
+  s.evs = s.evs || {hp:0,atk:0,def:0,spa:0,spd:0,spe:0};
+  ['hp','atk','def','spa','spd','spe'].forEach(stat => {
+    s.ivs[stat] = Number(s.ivs[stat]) || (stat === 'hp' ? 31 : 31);
+    s.ivs[stat] = Math.max(0, Math.min(31, s.ivs[stat]));
+    s.evs[stat] = Number(s.evs[stat]) || 0;
+    s.evs[stat] = Math.max(0, Math.min(252, s.evs[stat]));
+  });
+  // trim EV total to 510 if necessary
+  const totalEV = Object.values(s.evs).reduce((a,b)=>a+Number(b||0),0);
+  if (totalEV > 510) {
+    let excess = totalEV - 510;
+    const order = ['spe','spd','spa','def','atk','hp'];
+    for (let i=0;i<order.length && excess>0;i++) {
+      const st = order[i];
+      const take = Math.min(s.evs[st], excess);
+      s.evs[st] -= take;
+      excess -= take;
+    }
+  }
+  s.nature = s.nature || 'Hardy';
+  return s;
+}
 async function init() {
   try {
     const [pResp, mResp] = await Promise.all([
@@ -352,11 +387,19 @@ function saveSlotFromModal() {
   slot.form = formVal === 'base' ? null : formVal;
   slot.nature = nature;
   // save IVs/EVs
+  // Ensure ivs/evs objects exist, then copy numeric values from inputs
+  slot.ivs = slot.ivs || { hp:31, atk:31, def:31, spa:31, spd:31, spe:31 };
+  slot.evs = slot.evs || { hp:0, atk:0, def:0, spa:0, spd:0, spe:0 };
   ['hp','atk','def','spa','spd','spe'].forEach(stat => {
     const ivEl = document.getElementById(`iv-${stat}`);
     const evEl = document.getElementById(`ev-${stat}`);
-    if (ivEl) slot.ivs = slot.ivs || {}, slot.ivs[stat] = Number(ivEl.value) || 0;
-    if (evEl) slot.evs = slot.evs || {}, slot.evs[stat] = Math.max(0, Math.min(252, Number(evEl.value) || 0));
+    if (ivEl) {
+      slot.ivs[stat] = Number(ivEl.value) || 0;
+      slot.ivs[stat] = Math.max(0, Math.min(31, slot.ivs[stat]));
+    }
+    if (evEl) {
+      slot.evs[stat] = Math.max(0, Math.min(252, Number(evEl.value) || 0));
+    }
   });
   // Enforce 510 total EVs; trim extras from last stats if needed
   const totalEV = Object.values(slot.evs).reduce((a,b)=>a+Number(b||0),0);
@@ -524,6 +567,14 @@ function renderEditorForSlot(index) {
   const abilitySel = document.getElementById('editor-ability'); if (abilitySel) abilitySel.value = editingCandidate.ability || '';
   // moves
   renderMovesList(null, 'candidate');
+  // Populate inline editor IV/EV inputs so values are visible
+  ['hp','atk','def','spa','spd','spe'].forEach(stat => {
+    const ivEl = document.getElementById(`editor-iv-${stat}`);
+    const evEl = document.getElementById(`editor-ev-${stat}`);
+    if (ivEl) ivEl.value = (editingCandidate.ivs && editingCandidate.ivs[stat] !== undefined) ? editingCandidate.ivs[stat] : 31;
+    if (evEl) evEl.value = (editingCandidate.evs && editingCandidate.evs[stat] !== undefined) ? editingCandidate.evs[stat] : 0;
+  });
+  const evTotalEl = document.getElementById('editor-ev-total'); if (evTotalEl) evTotalEl.textContent = Object.values(editingCandidate.evs||{hp:0,atk:0,def:0,spa:0,spd:0,spe:0}).reduce((a,b)=>a+Number(b||0),0);
   // editor advanced values
   const adv = document.getElementById('editor-advanced'); if (adv && !adv.classList.contains('hidden')) { updateEditorStatPreview(); }
 }
@@ -1107,7 +1158,9 @@ function openTypeChart() {
 
 
 function saveTeam(notify = false) {
-  localStorage.setItem(teamKey, JSON.stringify(currentTeam));
+  // Ensure stored representation is normalized so re-loading yields correct types
+  const toStore = (Array.isArray(currentTeam) ? currentTeam.map(s => normalizeSlotForStorage(s)) : []);
+  localStorage.setItem(teamKey, JSON.stringify(toStore));
   if (notify) showStatus('Team saved');
 } 
 
@@ -1116,7 +1169,8 @@ function loadTeam() {
   if (!raw) return;
   try {
     const t = JSON.parse(raw);
-    currentTeam = t;
+    // Normalize each slot to ensure fields persist correctly
+    currentTeam = (Array.isArray(t) ? t : []).map(s => normalizeSlotForStorage(s));
     refreshTeamUI();
   } catch (err) { console.warn('Failed to parse saved team', err); }
 }
@@ -1219,7 +1273,7 @@ function importTeamFromFile(e) {
     try {
       const t = JSON.parse(ev.target.result);
       if (Array.isArray(t) && t.length === 6) {
-        currentTeam = t;
+        currentTeam = t.map(s => normalizeSlotForStorage(s));
         refreshTeamUI();
         saveTeam(true);
         showStatus('Team imported and saved');
