@@ -1803,7 +1803,7 @@
     },
     {
         "BaseName": "WIGGLYTUFF2",
-        "FormName": "Mega Wigglytuff",
+        "FormName": "Mega T.Wigglytuff",
         "BaseStats": [
             "70",
             "115",
@@ -1986,7 +1986,7 @@
     },
     {
         "BaseName": "SNORLAX2",
-        "FormName": "Mega Snorlax",
+        "FormName": "Mega T.Snorlax",
         "BaseStats": [
             "130",
             "115",
