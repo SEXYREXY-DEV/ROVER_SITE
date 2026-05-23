@@ -265,19 +265,28 @@ function renderMoves() {
     .forEach(m => {
         const card = document.createElement('div');
         card.className = 'pokemon-card';
-        card.style.backgroundColor = `rgba(${hexToRgb(getTypeColor(m.Type))}, 0.3)`;
+
+        const normalizedType = (m.Type || 'UNKNOWN').toUpperCase();
+        const typeColor = getTypeColor(normalizedType);
+        const typeRgb = hexToRgb(typeColor) || '204, 204, 204';
+        card.style.backgroundColor = `rgba(${typeRgb}, 0.3)`;
 
         // Type icon
-        const typeIcon = `<img src="./games/${window.game}/images/Types/${m.Type.toUpperCase()}.png" alt="${m.Type}" title="${m.Type}" class="move-type-icon">`;
+        const typeIcon = m.Type
+          ? `<img src="./games/${window.game}/images/Types/${normalizedType}.png" alt="${m.Type}" title="${m.Type}" class="move-type-icon">`
+          : '';
 
         // Category icon (assumes category images are in the folder: PHYSICAL.png, SPECIAL.png, STATUS.png)
-        const categoryIcon = `<img src="./games/${window.game}/images/Moves/${m.Category.toUpperCase()}.png" alt="${m.Category}" title="${m.Category}" class="move-category-icon">`;
+        const categoryIcon = m.Category
+          ? `<img src="./games/${window.game}/images/Moves/${m.Category.toUpperCase()}.png" alt="${m.Category}" title="${m.Category}" class="move-category-icon">`
+          : '';
 
         // Flags icons (all caps, one icon per flag)
         const flagsIcons = (m.Flags || []).map(f => 
             `<img src="./games/${window.game}/images/Moves/${f.toUpperCase()}.png" alt="${f}" title="${f}" class="move-flag-icon">`
         ).join(' ');
 
+        const targetInfo = m.Target ? `<li><span class="stat-name">Target:</span> ${m.Target}</li>` : '';
         const flagsList = (m.Flags || []).length > 0 ? `<div class="move-flags">Flags: ${m.Flags.join(', ')}</div>` : '';
 
         card.innerHTML = `
@@ -290,6 +299,7 @@ function renderMoves() {
             <li><span class="stat-name">Power:</span> ${m.Power ?? '-'}</li>
             <li><span class="stat-name">Accuracy:</span> ${m.Accuracy ?? '-'}</li>
             <li><span class="stat-name">PP:</span> ${m.TotalPP}</li>
+            ${targetInfo}
             ${(m.EffectChance && m.EffectChance > 0) ? `<li><span class="stat-name">Effect Chance:</span> ${m.EffectChance}%</li>` : ''}
             <li>${m.Description}</li>
             ${flagsList}
