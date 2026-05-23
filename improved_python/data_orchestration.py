@@ -10,7 +10,7 @@ from unit_tests import unittest
 class FilePaths:
     def __init__(self, base_dir="games"):
         self.base_dir = base_dir
-        self.games = ['vanguard', 'ss2']  # Add more as needed
+        self.games = ['ss2']  # Add more as needed
 
 class DataOrchestrator:
     def __init__(self, paths: FilePaths):

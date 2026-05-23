@@ -1,5 +1,8 @@
 [
     {
+        "Name": "\u00bb\u00bf# See the documentation on the wiki to learn how to edit this file"
+    },
+    {
         "Name": "MEGAHORN",
         "Type": "BUG",
         "Category": "Physical",
@@ -732,7 +735,8 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Biting"
         ],
         "Description": "Prevents the user and target from switching out until either of them faints or is switched out."
     },
@@ -759,7 +763,8 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Punching"
         ],
         "Description": "The user strikes with a fierce blow. It always results in a critical hit."
     },
@@ -861,7 +866,7 @@
         "Type": "DRAGON",
         "Category": "Physical",
         "Power": 100,
-        "Accuracy": 75,
+        "Accuracy": 90,
         "TotalPP": 10,
         "Target": "NearOther",
         "FunctionCode": "FlinchTarget",
@@ -1431,7 +1436,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Attacks with an electrified beak. 1.5x power if user is faster."
+        "Description": "Attacks with an electrified beak. 1.5x power if user acts before the target."
     },
     {
         "Name": "RISINGVOLTAGE",
@@ -1446,7 +1451,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Attacks with electric voltage rising from the ground. Power increases on Electric Terrain."
+        "Description": "Attacks with electric voltage rising from the ground. 1.6x damage on Electric Terrain."
     },
     {
         "Name": "LIGHTOFRUIN",
@@ -1594,7 +1599,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Attacks everything around it and faints. Power is increased on Misty Terrain."
+        "Description": "Attacks everything around it and faints. 1.5x damage on Misty Terrain."
     },
     {
         "Name": "FOCUSPUNCH",
@@ -1790,7 +1795,8 @@
         "FunctionCode": "UseTargetDefenseInsteadOfTargetSpDef",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Slicing"
         ],
         "Description": "The user cuts with a sharp sword. The odd power contained in it does physical damage to the foe."
     },
@@ -2318,8 +2324,7 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 10,
         "Description": "Recoil move that may burn the target."
@@ -2351,8 +2356,7 @@
         "FunctionCode": "DoublePowerAfterFusionBolt",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "Description": "The move does more damage if influenced by Fusion Bolt."
     },
@@ -2566,8 +2570,7 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 10,
         "Description": "The user cloaks itself in fire and charges at the target. It may also leave the target with a burn."
@@ -2741,7 +2744,6 @@
         "FunctionCode": "BurnAttackerBeforeUserActs",
         "Flags": [
             "CanProtect",
-            "ThawsUser",
             "Bomb"
         ],
         "Description": "The user heats up its beak before attacking. Making contact in this time results in a burn."
@@ -3129,13 +3131,13 @@
         "Accuracy": 90,
         "TotalPP": 5,
         "Target": "NearOther",
-        "FunctionCode": "FailsIfTargetHasNoItem",
+        "FunctionCode": "HalfDamageIfTargetItemless",
         "Flags": [
             "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Attacks the target by controlling its item. Fails if the target doesn't have an item."
+        "Description": "Attacks the target by controlling its item. Half damage if the target doesn't have an item."
     },
     {
         "Name": "FRENZYPLANT",
@@ -3670,7 +3672,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Attacks by gliding on the ground. This move always goes first on Grassy Terrain."
+        "Description": "Attacks by gliding on the ground. +1 priority on Grassy Terrain."
     },
     {
         "Name": "JUNGLEHEALING",
@@ -3683,7 +3685,7 @@
         "Flags": [
             "CannotMetronome"
         ],
-        "Description": "The user restores HP and cures status conditions of itself and allies."
+        "Description": "Heals 25% HP and cures status conditions of itself and allies."
     },
     {
         "Name": "PRECIPICEBLADES",
@@ -3814,7 +3816,7 @@
         "Type": "GROUND",
         "Category": "Special",
         "Power": 65,
-        "Accuracy": 85,
+        "Accuracy": 100,
         "TotalPP": 10,
         "Target": "NearOther",
         "FunctionCode": "LowerTargetAccuracy1",
@@ -3823,7 +3825,7 @@
             "CanMirrorMove",
             "Bomb"
         ],
-        "EffectChance": 30,
+        "EffectChance": 20,
         "Description": "The user launches a hard-packed mud ball to attack. It may also lower the target's accuracy."
     },
     {
@@ -4035,7 +4037,7 @@
             "Wind"
         ],
         "EffectChance": 10,
-        "Description": "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid."
+        "Description": "A howling blizzard is summoned to strike the opposing team. It may also leave the target with frostbite."
     },
     {
         "Name": "ICEHAMMER",
@@ -4068,7 +4070,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid."
+        "Description": "The target is struck with an icy-cold beam of energy. It may also leave the target with frostbite."
     },
     {
         "Name": "ICEPUNCH",
@@ -4086,7 +4088,7 @@
             "Punching"
         ],
         "EffectChance": 10,
-        "Description": "The target is punched with an icy fist. It may also leave the target frozen."
+        "Description": "The target is punched with an icy fist. It may also leave the target with frostbite."
     },
     {
         "Name": "FREEZEDRY",
@@ -4102,7 +4104,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "The user rapidly cools the target. This may freeze the target. Is super-effective on Water types."
+        "Description": "The user rapidly cools the target. This may frostbite the target. Is super-effective on Water types."
     },
     {
         "Name": "GLACIATE",
@@ -4136,7 +4138,7 @@
             "Biting"
         ],
         "EffectChance": 100,
-        "Description": "The user bites with cold-infused fangs. It may also make the target flinch or leave it frozen."
+        "Description": "The user bites with cold-infused fangs. It may also make the target flinch or leave it frostbitten."
     },
     {
         "Name": "AVALANCHE",
@@ -4216,7 +4218,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "The user attacks with a chilling gust of powdery snow. It may also freeze the targets."
+        "Description": "The user attacks with a chilling gust of powdery snow. It may leave targets with frostbite."
     },
     {
         "Name": "SHEERCOLD",
@@ -4455,17 +4457,17 @@
         "Name": "EGGBOMB",
         "Type": "NORMAL",
         "Category": "Physical",
-        "Power": 100,
-        "Accuracy": 75,
-        "TotalPP": 10,
+        "Power": 90,
+        "Accuracy": 100,
+        "TotalPP": 15,
         "Target": "NearOther",
-        "FunctionCode": "None",
+        "FunctionCode": "HealAllyOrDamageFoe",
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
             "Bomb"
         ],
-        "Description": "A large egg is hurled at the target with maximum force to inflict damage."
+        "Description": "A large egg is hurled at the target with maximum force to damage enemies or restore allies' HP."
     },
     {
         "Name": "JUDGMENT",
@@ -4569,7 +4571,7 @@
         "Type": "NORMAL",
         "Category": "Physical",
         "Power": 80,
-        "Accuracy": 75,
+        "Accuracy": 90,
         "TotalPP": 20,
         "Target": "NearOther",
         "FunctionCode": "None",
@@ -4610,7 +4612,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 20,
-        "Description": "The user launches a 3-beam attack. May also paralyze burn or freeze the target."
+        "Description": "The user launches a 3-beam attack. May also paralyze burn or frostbite the target."
     },
     {
         "Name": "CHIPAWAY",
@@ -4636,13 +4638,13 @@
         "Accuracy": 100,
         "TotalPP": 20,
         "Target": "NearOther",
-        "FunctionCode": "DoublePowerIfUserPoisonedBurnedParalyzed",
+        "FunctionCode": "DoublePowerIfUserPoisonedBurnedParalyzedFrostbite",
         "Flags": [
             "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "An attack move that doubles its power if the user is poisoned burned or has paralysis."
+        "Description": "An attack move that doubles its power if the user is poisoned, burned, frostbitten or has paralysis."
     },
     {
         "Name": "HEADBUTT",
@@ -5102,12 +5104,12 @@
         "Accuracy": 100,
         "TotalPP": 10,
         "Target": "NearOther",
-        "FunctionCode": "None",
+        "FunctionCode": "CategoryDependsOnHigherDamage",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A consistent full-power, special attacking move."
+        "Description": "A consistent full-power attack with hatred. Becomes physical if user's Atk > SpAtk."
     },
     {
         "Name": "NATURALGIFT",
@@ -5142,18 +5144,18 @@
     {
         "Name": "RETURN",
         "Type": "NORMAL",
-        "Category": "Physical",
+        "Category": "Special",
         "Power": 100,
         "Accuracy": 100,
         "TotalPP": 10,
         "Target": "NearOther",
-        "FunctionCode": "None",
+        "FunctionCode": "CategoryDependsOnHigherDamage",
         "Flags": [
             "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A consistent full-power, physical attacking move."
+        "Description": "A consistent full-power attack with love. Becomes physical if user's Atk > SpAtk."
     },
     {
         "Name": "SPITUP",
@@ -5225,7 +5227,7 @@
         "TotalPP": 30,
         "Target": "UserOrNearAlly",
         "FunctionCode": "RaiseMinMaxStat1",
-        "Description": "The user applies pressure to stress points boosting its highest and lowest stat."
+        "Description": "The user applies pressure to stress points boosting its or its ally's highest and lowest stats by 1."
     },
     {
         "Name": "AFTERYOU",
@@ -5720,8 +5722,8 @@
         "Accuracy": 0,
         "TotalPP": 20,
         "Target": "User",
-        "FunctionCode": "CureUserBurnPoisonParalysis",
-        "Description": "The user rests to cure itself of a poisoning burn or paralysis."
+        "FunctionCode": "CureUserBurnPoisonParalysisFrostbite",
+        "Description": "The user rests to cure itself of a poisoning burn frostbite or paralysis."
     },
     {
         "Name": "SCARYFACE",
@@ -6060,7 +6062,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks by throwing a clump of special mud. All status changes are returned to normal."
+        "Description": "The user attacks by throwing a clump of special mud. All stat changes are returned to normal."
     },
     {
         "Name": "ACID",
@@ -6220,12 +6222,12 @@
         "Accuracy": 100,
         "TotalPP": 20,
         "Target": "NearOther",
-        "FunctionCode": "PoisonTargetLowerTargetSpeed1",
+        "FunctionCode": "PoisonTargetLowerTargetSpeed2",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user shoots poisonous threads to poison the target and lower the target's Speed stat."
+        "Description": "The user shoots poisonous threads to poison the target and lower the target's Speed stat by 2 stages."
     },
     {
         "Name": "VENOMDRENCH",
@@ -6869,7 +6871,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Attacks with its psychic power. Power increases and damages all opponents on Psychic Terrain."
+        "Description": "Attacks with its psychic power. 1.3x damage and hits all opponents on Psychic Terrain."
     },
     {
         "Name": "HEADSMASH",
@@ -7042,7 +7044,7 @@
         "Type": "STEEL",
         "Category": "Physical",
         "Power": 100,
-        "Accuracy": 75,
+        "Accuracy": 90,
         "TotalPP": 15,
         "Target": "NearOther",
         "FunctionCode": "LowerTargetDefense1",
@@ -7353,14 +7355,13 @@
         "Type": "WATER",
         "Category": "Special",
         "Power": 110,
-        "Accuracy": 100,
+        "Accuracy": 85,
         "TotalPP": 5,
         "Target": "NearOther",
         "FunctionCode": "BurnTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 30,
         "Description": "The user immerses the target in superheated steam. This may also leave the target with a burn."
@@ -7440,8 +7441,7 @@
         "FunctionCode": "BurnTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 30,
         "Description": "The user shoots boiling hot water at its target. It may also leave the target with a burn."
@@ -7666,7 +7666,7 @@
             "CanMirrorMove",
             "Biting"
         ],
-        "Description": "Rends the target with its hard gills. 1.5x power if user is faster."
+        "Description": "Rends the target with its hard gills. 1.5x power if user acts before the target."
     },
     {
         "Name": "LIFEDEW",
@@ -7690,7 +7690,8 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Punching"
         ],
         "Description": "Strikes the target thrice with the power of water. Always results in a critical hit."
     },
@@ -7707,7 +7708,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "It swamps the area around the user with a giant wave."
+        "Description": "Swamps the enemy side of the field with a giant wave, dealing double damage if underwater."
     },
     {
         "Name": "CASCADE",
@@ -7813,7 +7814,7 @@
         "Type": "BUG",
         "Category": "Physical",
         "Power": 25,
-        "Accuracy": 100,
+        "Accuracy": 95,
         "TotalPP": 15,
         "Target": "NearOther",
         "FunctionCode": "HitTwoToFiveTimes",
@@ -7865,12 +7866,11 @@
         "Target": "AllNearFoes",
         "FunctionCode": "LowerTargetSpAtk1",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
         "EffectChance": 100,
-        "Description": "While resisting the opponent the user struggles - the Sp.Atk of all opponents."
+        "Description": "While resisting the opponent the user struggles. Lowers Sp.Atk of all targets."
     },
     {
         "Name": "TWINEEDLE",
@@ -8255,7 +8255,8 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Slicing"
         ],
         "Description": "The user slashes the target with huge, sharp claws."
     },
@@ -8269,7 +8270,6 @@
         "Target": "NearOther",
         "FunctionCode": "HitTwoToFiveTimes",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -8569,8 +8569,7 @@
         "FunctionCode": "ConfuseTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 10,
         "Description": "The user attacks the targets by emitting a dizzying steam. This may also confuse the target."
@@ -8729,7 +8728,6 @@
             "Contact",
             "CanProtect",
             "CanMirrorMove",
-            "ThawsUser",
             "HighCriticalHitRate"
         ],
         "Description": "The user launches a fiery kick with a high critical-hit ratio"
@@ -8761,8 +8759,7 @@
         "FunctionCode": "BindTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "Description": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns."
     },
@@ -8778,7 +8775,6 @@
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
-            "ThawsUser",
             "Bomb"
         ],
         "Description": "The user attacks the foe with a bursting flame. This attack will never miss."
@@ -8794,8 +8790,7 @@
         "FunctionCode": "BurnTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 50,
         "Description": "The target is hit with a mystical fire. It may also leave the target with a burn."
@@ -8859,7 +8854,6 @@
         "Target": "NearOther",
         "FunctionCode": "DisableTargetSoundMoves",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove",
             "Wind"
@@ -9352,7 +9346,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user burrows then attacks on the second turn. It can also be used to exit dungeons."
+        "Description": "The user burrows then attacks on the second turn."
     },
     {
         "Name": "HIGHHORSEPOWER",
@@ -9639,7 +9633,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks with a pillar of light. Uses the highest offensive stat to damage."
+        "Description": "The user attacks with a pillar of light that ignores the target's ability. Becomes physical if user's Atk > SpAtk."
     },
     {
         "Name": "SAFEGUARD",
@@ -9711,7 +9705,8 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Slicing"
         ],
         "EffectChance": 40,
         "Description": "The user strikes the target with menacing claws. Chance to lower the target's Defense."
@@ -9745,8 +9740,8 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "EffectChance": 20,
-        "Description": "The user glares at the target, with a chance to freeze it."
+        "EffectChance": 30,
+        "Description": "The user directs a chilling glare at the target, with a chance to cause frostbite."
     },
     {
         "Name": "HYPERFANG",
@@ -10056,7 +10051,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 20,
-        "Description": "The laser strikes like light in a prism. May also paralyze, burn, or freeze the target."
+        "Description": "The laser strikes like light in a prism. May also paralyze, burn, or frostbite the target."
     },
     {
         "Name": "PSYCHOBOOST",
@@ -10129,7 +10124,7 @@
         "Accuracy": 0,
         "TotalPP": 10,
         "Target": "User",
-        "FunctionCode": "RaiseUserDefSpDef1Ingrain # TwoTurnAttackRaiseUserSpAtkSpDefSpd2",
+        "FunctionCode": "RaiseUserDefSpDef1Ingrain",
         "Description": "Raises its Def + SpDef, heals it every turn, but traps it in battle."
     },
     {
@@ -10147,7 +10142,7 @@
         "Type": "ROCK",
         "Category": "Physical",
         "Power": 25,
-        "Accuracy": 100,
+        "Accuracy": 90,
         "TotalPP": 15,
         "Target": "NearOther",
         "FunctionCode": "HitTwoToFiveTimes",
@@ -10584,7 +10579,7 @@
             "CanMirrorMove",
             "Sound"
         ],
-        "Description": "The user generates odd sound waves from its body. It may confuse the target."
+        "Description": "The user generates odd sound waves from its body that confuse the target."
     },
     {
         "Name": "UPROAR",
@@ -10699,16 +10694,16 @@
         "Type": "STEEL",
         "Category": "Physical",
         "Power": 130,
-        "Accuracy": 100,
-        "TotalPP": 5,
+        "Accuracy": 90,
+        "TotalPP": 10,
         "Target": "NearOther",
-        "FunctionCode": "RemoveTerrain",
+        "FunctionCode": "HalfOfDamageDoneIfNoTerrainRemovesTerrain",
         "Flags": [
             "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks while destroying the terrain. This move fails when the ground isn't a terrain."
+        "Description": "The user attacks while destroying the terrain. Base power is halved if no terrain is present."
     },
     {
         "Name": "STEELWING",
@@ -10880,7 +10875,6 @@
         "Target": "NearOther",
         "FunctionCode": "TrapTargetInBattleLowerTargetDefSpDef1EachTurn",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -10998,8 +10992,8 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "EffectChance": 10,
-        "Description": "Summons a swarm of icy bugs that engulf the foe. It may also freeze the target solid."
+        "EffectChance": 30,
+        "Description": "Summons a swarm of icy bugs that engulf the foe. It may also leave the target with frostbite."
     },
     {
         "Name": "BUTTERFLYKISS",
@@ -11014,7 +11008,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Rapidly drains body fluids from the target with a kiss. The user's HP is restored by over half."
+        "Description": "Rapidly drains body fluids from the target with a kiss. The user's HP is restored by half of damage done."
     },
     {
         "Name": "DRAGONFLYCHARGE",
@@ -11040,8 +11034,8 @@
         "Accuracy": 0,
         "TotalPP": 20,
         "Target": "User",
-        "FunctionCode": "CureUserBurnPoisonParalysis",
-        "Description": "The user flaps its wings to rid itself from impurities. Cures poisoning, burn, or paralysis."
+        "FunctionCode": "CureUserBurnPoisonParalysisFrostbite",
+        "Description": "The user flaps its wings to rid itself from impurities. Cures poisoning, burn, frostbite, or paralysis."
     },
     {
         "Name": "HIVEMIND",
@@ -11053,7 +11047,6 @@
         "Target": "RandomNearFoe",
         "FunctionCode": "MultiTurnAttackConfuseUserAtEnd",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -11163,7 +11156,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The target is bombarded with anti-particles, resetting any stat changes."
+        "Description": "The target is bombarded with anti-particles, resetting the target's stat changes."
     },
     {
         "Name": "ASTEROIDBELT",
@@ -11268,12 +11261,11 @@
         "Target": "NearOther",
         "FunctionCode": "FreezeTarget",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "A comet composed of ice and rock is shot towards the target. It may also freeze the target."
+        "Description": "A comet composed of ice and rock is shot towards the target. It may also frostbite the target."
     },
     {
         "Name": "INNERVATE",
@@ -11380,8 +11372,7 @@
         "FunctionCode": "BurnTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 10,
         "Description": "The user releases an intense burst of heat on the foes. It may also leave targets with a burn."
@@ -11397,8 +11388,7 @@
         "FunctionCode": "BurnTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 20,
         "Description": "The user hurls a thermally charged meteor at the target. It may also burn the target."
@@ -11866,7 +11856,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user stabs the target and drains their vitality. The user's HP is restored by over half."
+        "Description": "The user stabs the target and drains their vitality. The user's HP is restored by half of damage done."
     },
     {
         "Name": "WICKEDSTRIKE",
@@ -12440,7 +12430,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Using the power of the King of fairies, the lower the user's HP, the less powerful it is."
+        "Description": "Attacks using the power of the King of fairies, the lower the user's HP, the less powerful it is."
     },
     {
         "Name": "PEEKABOO",
@@ -12486,7 +12476,8 @@
         "FunctionCode": "TrapTargetInBattle",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove"
+            "CanMirrorMove",
+            "Sound"
         ],
         "Description": "Using a lovely melody, the user traps the target in battle."
     },
@@ -12546,7 +12537,7 @@
         "TotalPP": 30,
         "Target": "UserOrNearAlly",
         "FunctionCode": "RaiseMinMaxStat1",
-        "Description": "The user's wild imagination boosts its highest and lowest stats by 1."
+        "Description": "The user's wild imagination boosts its or its ally's highest and lowest stats by 1."
     },
     {
         "Name": "WOOINGHUG",
@@ -12639,8 +12630,7 @@
         "FunctionCode": "ParalyzeTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 30,
         "Description": "Gathers energy into its palm to blast the foe. Has a chance to paralyze the target"
@@ -12772,8 +12762,7 @@
         "FunctionCode": "ConfuseTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 10,
         "Description": "The user chars the target with ancient flames, with a chance to confuse."
@@ -12803,7 +12792,6 @@
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
-            "ThawsUser",
             "Bomb"
         ],
         "Description": "The user continually strikes the target with embers. It becomes stronger each time it hits."
@@ -12813,14 +12801,13 @@
         "Type": "FIRE",
         "Category": "Physical",
         "Power": 20,
-        "Accuracy": 90,
+        "Accuracy": 100,
         "TotalPP": 15,
         "Target": "NearOther",
         "FunctionCode": "HitTwoToFiveTimes",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "Description": "Burning projectiles are shot at the target in rapid succession. They hit two to five times in a row."
     },
@@ -12836,8 +12823,7 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 100,
         "Description": "The user attacks the target's legs swiftly with a flame slice reducing the target's Speed stat."
@@ -12854,10 +12840,9 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
-        "Description": "The user slams the target and drains heat from them. The user's HP is restored by half."
+        "Description": "The user slams the target and drains heat from them. The user's HP is restored by half of damage done."
     },
     {
         "Name": "INFERNALBLADE",
@@ -12872,7 +12857,6 @@
             "Contact",
             "CanProtect",
             "CanMirrorMove",
-            "ThawsUser",
             "Slicing"
         ],
         "Description": "The user gathers heat into a blade attacking the target on the next turn."
@@ -12889,8 +12873,7 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "Description": "Rams the target with blazing horns or a beak, but damages the user a little."
     },
@@ -12906,8 +12889,7 @@
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 100,
         "Description": "The user nuzzles its burning body against the target. This also leaves the target with burn."
@@ -12927,7 +12909,7 @@
             "Wind"
         ],
         "EffectChance": 10,
-        "Description": "The user combines Boreas' power to generate an icestorm. It may also freeze the target."
+        "Description": "The user combines Boreas' power to generate an icestorm. It may also frostbite the target."
     },
     {
         "Name": "DEATHVORTEX",
@@ -12965,7 +12947,7 @@
         "Type": "FLYING",
         "Category": "Physical",
         "Power": 20,
-        "Accuracy": 90,
+        "Accuracy": 100,
         "TotalPP": 15,
         "Target": "Other",
         "FunctionCode": "HitTwoToFiveTimes",
@@ -13136,8 +13118,7 @@
         "FunctionCode": "HitThreeTimesPowersUpWithEachHit",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "Description": "Three consecutive ofudas attack that becomes more powerful with each successful hit."
     },
@@ -13301,7 +13282,7 @@
         "Accuracy": 0,
         "TotalPP": 10,
         "Target": "User",
-        "FunctionCode": "RaiseUserDefSpDef1Ingrain # TwoTurnAttackRaiseUserSpAtkSpDefSpd2",
+        "FunctionCode": "RaiseUserDefSpDef1Ingrain",
         "Description": "Raises its Def + SpDef, heals it every turn, but traps it in battle."
     },
     {
@@ -13427,7 +13408,6 @@
         "Target": "AllNearFoes",
         "FunctionCode": "TrapTargetInBattle",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -13436,18 +13416,17 @@
     {
         "Name": "CONTINENTALRIFT",
         "Type": "GROUND",
-        "Category": "Physical",
+        "Category": "Special",
         "Power": 100,
         "Accuracy": 90,
         "TotalPP": 10,
         "Target": "NearOther",
         "FunctionCode": "CategoryDependsOnHigherDamageIgnoreTargetAbility",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user causes huge quakes that deals physical or special damage opportunistically."
+        "Description": "The user causes huge quakes that ignore the target's ability. Becomes physical if user's Atk > SpAtk."
     },
     {
         "Name": "GAIAPULSE",
@@ -13457,14 +13436,13 @@
         "Accuracy": 90,
         "TotalPP": 5,
         "Target": "NearOther",
-        "FunctionCode": "FlinchTarget",
+        "FunctionCode": "LowerUserSpAtk1",
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
             "Pulse"
         ],
-        "EffectChance": 10,
-        "Description": "The user strikes the target with ground pulses. It may cause the foe to flinch."
+        "Description": "The user strikes the target with ground pulses. Lowers user's SpAtk by 1."
     },
     {
         "Name": "GOLDRUSH",
@@ -13474,14 +13452,13 @@
         "Accuracy": 100,
         "TotalPP": 15,
         "Target": "NearOther",
-        "FunctionCode": "UserStealTargetPositiveStatStages",
+        "FunctionCode": "ResetTargetStatStages",
         "Flags": [
             "Contact",
             "CanProtect",
-            "CanMirrorMove",
-            "CannotMetronome"
+            "CanMirrorMove"
         ],
-        "Description": "The user steals the target's stat boosts, and then attacks."
+        "Description": "The target buries the target's stat boosts resetting the target's stat changes."
     },
     {
         "Name": "MUDSHACKLES",
@@ -13513,7 +13490,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 20,
-        "Description": "Stomping its feet, an avalanche of mud falls on the foes. It may lower their accuracy."
+        "Description": "The user causes an avalanche of mud to fall on the foes. It may lower their accuracy."
     },
     {
         "Name": "SANDJET",
@@ -13596,7 +13573,7 @@
             "Biting"
         ],
         "EffectChance": 20,
-        "Description": "The user bites down on the target with a glacial jaw. May -target's Def by 1."
+        "Description": "The user bites down on the target with a glacial jaw. May reduce target's Def by 1."
     },
     {
         "Name": "FROZENHEART",
@@ -13637,7 +13614,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "The user attacks by freezing the surroundings of its foe. Chance to freeze."
+        "Description": "The user attacks by freezing the surroundings of its foe. Chance to cause frostbite."
     },
     {
         "Name": "ICEVORTEX",
@@ -13669,8 +13646,8 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "EffectChance": 10,
-        "Description": "The battlefield gets immersed in an ice cold substance. Has a chance to freeze."
+        "EffectChance": 30,
+        "Description": "The battlefield gets immersed in an ice cold substance. It may leave targets with frostbite."
     },
     {
         "Name": "LOVELOOP",
@@ -13703,8 +13680,8 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "EffectChance": 50,
-        "Description": "The user creates a spear to puncture the target. High chance to freeze."
+        "EffectChance": 100,
+        "Description": "The user launches a large ice spear to inflict damage and cause frostbite."
     },
     {
         "Name": "SNOWFLAKES",
@@ -13741,10 +13718,14 @@
         "Type": "LIGHT",
         "Category": "Status",
         "Accuracy": 0,
-        "TotalPP": 20,
-        "Target": "User",
-        "FunctionCode": "CureUserBurnPoisonParalysis",
-        "Description": "The user prays to cure itself of a poisoning, burn, or paralysis."
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "LowerTargetEvasion1RemoveSideEffects",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "Cleanses the battlefield of the foe's obstacles such as Light Screen. It also lowers their evasion."
     },
     {
         "Name": "CONSECRATE",
@@ -13898,7 +13879,6 @@
         "Flags": [
             "CanProtect",
             "CanMirrorMove",
-            "ThawsUser",
             "Slicing"
         ],
         "EffectChance": 10,
@@ -13917,7 +13897,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "A fallen angel seeks revenge. Goes through Protect. Chance of + Attack."
+        "Description": "A fallen angel seeks revenge. Chance of + Attack."
     },
     {
         "Name": "LUMINOUSBLADE",
@@ -13996,7 +13976,7 @@
         "Flags": [
             "CannotMetronome"
         ],
-        "Description": "The user chants a prayer, restoring their side's HP and curing status."
+        "Description": "The user chants a prayer, restoring their side's HP for 25% and curing status."
     },
     {
         "Name": "REBUKE",
@@ -14110,8 +14090,7 @@
         "FunctionCode": "BurnTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 10,
         "Description": "The target is attacked with blinding lights. It may also leave the target with a burn."
@@ -14128,7 +14107,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Strobe lights are exposed to the target with a chance to confuse them."
+        "Description": "Strobe lights are exposed to confuse the target."
     },
     {
         "Name": "SWEETNOTHINGS",
@@ -14304,7 +14283,7 @@
             "CanMirrorMove",
             "Pulse"
         ],
-        "Description": "Summoning an ancient wave the user hits the enemy with precision."
+        "Description": "Summoning an ancient wave, the user hits the enemy side with primal energy."
     },
     {
         "Name": "PULSE",
@@ -14727,8 +14706,7 @@
         "FunctionCode": "BurnTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 30,
         "Description": "The user sets the target ablaze using its powers. It may also leave the target with a burn."
@@ -14780,7 +14758,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 20,
-        "Description": "Nearby gems charge the user to shoot the foe. May also paralyze burn or freeze the target."
+        "Description": "Nearby gems charge the user to shoot the foe. May also paralyze burn or frostbite the target."
     },
     {
         "Name": "BOULDERHURL",
@@ -14792,7 +14770,6 @@
         "Target": "NearOther",
         "FunctionCode": "UseUserBaseDefenseInsteadOfUserBaseAttack",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -15176,7 +15153,7 @@
         "Flags": [
             "Sound"
         ],
-        "Description": "The user performs a concert, restoring its HP and curing status conditions of itself and allies."
+        "Description": "Performs a concert, healing 25% HP and curing status of itself and allies."
     },
     {
         "Name": "RALLENTANDO",
@@ -15220,7 +15197,7 @@
         "Flags": [
             "Sound"
         ],
-        "Description": "The user begins to hear and feel things, boosting its highest and lowest stat."
+        "Description": "The user begins to hear and feel things, boosting its or its ally's highest and lowest stats by 1."
     },
     {
         "Name": "SONGOFPASSION",
@@ -15542,7 +15519,6 @@
         "Target": "NearOther",
         "FunctionCode": "BurnTarget",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove",
             "HighCriticalHitRate",
@@ -15778,17 +15754,17 @@
     {
         "Name": "CONCOCTION",
         "Type": "POISON",
-        "Category": "Physical",
+        "Category": "Special",
         "Power": 100,
         "Accuracy": 90,
         "TotalPP": 10,
         "Target": "NearOther",
-        "FunctionCode": "CategoryDependsOnHigherDamageIgnoreTargetAbility",
+        "FunctionCode": "CategoryDependsOnHigherDamage",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user throws a concoction that deals physical or special damage opportunistically."
+        "Description": "The user throws a concoction that becomes physical if user's Atk > SpAtk."
     },
     {
         "Name": "CRUELWHIP",
@@ -15809,19 +15785,18 @@
     {
         "Name": "BOMBARDMENT",
         "Type": "STEEL",
-        "Category": "Physical",
+        "Category": "Special",
         "Power": 100,
         "Accuracy": 90,
         "TotalPP": 10,
         "Target": "NearOther",
-        "FunctionCode": "CategoryDependsOnHigherDamageIgnoreTargetAbility",
+        "FunctionCode": "CategoryDependsOnHigherDamage",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove",
             "Bomb"
         ],
-        "Description": "The user drops a barrage that deals physical or special damage opportunistically."
+        "Description": "The user drops a barrage that becomes physical if user's Atk > SpAtk."
     },
     {
         "Name": "SCENTEDSHIELD",
@@ -16049,7 +16024,7 @@
         "Type": "COSMIC",
         "Category": "Special",
         "Power": 18,
-        "Accuracy": 90,
+        "Accuracy": 100,
         "TotalPP": 15,
         "Target": "Other",
         "FunctionCode": "HitTwoToFiveTimes",
@@ -16122,7 +16097,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user becomes a cosmic avatar but lowers its Attack and Defense."
+        "Description": "The user attacks with an avatar of cosmic energy, but lowers its own Attack and Defense."
     },
     {
         "Name": "ASTRALBARRAGE",
@@ -16473,8 +16448,8 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "EffectChance": 10,
-        "Description": "The user sends out an eerie sensation that may also freeze the target solid."
+        "EffectChance": 30,
+        "Description": "The user sends out a chilling sensation that may also leave the target with frostbite."
     },
     {
         "Name": "REFRACTION",
@@ -16580,8 +16555,7 @@
         "FunctionCode": "BurnTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 20,
         "Description": "The user strikes with a surge of superheated stones. It may also burn the target."
@@ -16607,7 +16581,7 @@
         "Type": "STEEL",
         "Category": "Special",
         "Power": 80,
-        "Accuracy": 90,
+        "Accuracy": 100,
         "TotalPP": 10,
         "Target": "NearOther",
         "FunctionCode": "ResetTargetStatStages",
@@ -16615,7 +16589,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The target is struck with a metallic ray, resetting any stat changes."
+        "Description": "The target is struck with a metallic ray, resetting the target's stat changes."
     },
     {
         "Name": "MUDBLAST",
@@ -17157,7 +17131,6 @@
         "Target": "NearOther",
         "FunctionCode": "LowerTargetDefSpDef1SwitchOutUser",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -17201,7 +17174,7 @@
         "Type": "POISON",
         "Category": "Physical",
         "Power": 25,
-        "Accuracy": 100,
+        "Accuracy": 90,
         "TotalPP": 15,
         "Target": "NearOther",
         "FunctionCode": "HitTwoToFiveTimes",
@@ -17285,7 +17258,6 @@
         "Target": "NearOther",
         "FunctionCode": "CrashDamageIfFailsUnusableInGravity",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -17301,6 +17273,7 @@
         "Target": "NearOther",
         "FunctionCode": "RecoilThirdOfDamageDealt",
         "Flags": [
+            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -17460,13 +17433,12 @@
         "Accuracy": 90,
         "TotalPP": 5,
         "Target": "NearOther",
-        "FunctionCode": "FlinchTarget",
+        "FunctionCode": "LowerUserSpAtk1",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "EffectChance": 10,
-        "Description": "The user strikes the target with a wave of dark energy. It may cause the foe to flinch."
+        "Description": "The user strikes the target with a wave of dark energy. Lowers user's SpAtk by 1."
     },
     {
         "Name": "DRACOTEMPEST",
@@ -17498,7 +17470,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "The user roars with the power of its heritage, which may freeze the target."
+        "Description": "The user roars with the power of its heritage, which may frostbite the target."
     },
     {
         "Name": "WYRMSRAGE",
@@ -17530,7 +17502,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 30,
-        "Description": "Flies into the sky and strafes the ground with mystical fire. It may also make the targets flinch."
+        "Description": "Strafes the ground with mystical fire. It may also make the targets flinch."
     },
     {
         "Name": "DRACONICMIGHT",
@@ -17567,8 +17539,8 @@
         "Accuracy": 0,
         "TotalPP": 20,
         "Target": "User",
-        "FunctionCode": "CureUserBurnPoisonParalysis",
-        "Description": "The user taps into its soul to rid itself of impurities. Cures poisoning, burn, or paralysis."
+        "FunctionCode": "CureUserBurnPoisonParalysisFrostbite",
+        "Description": "The user taps into its soul to rid itself of impurities. Cures poisoning, burn, frostbite, or paralysis."
     },
     {
         "Name": "STORMSHIELD",
@@ -17607,7 +17579,6 @@
         "Target": "AllNearFoes",
         "FunctionCode": "LowerTargetSpAtk1",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -17688,11 +17659,10 @@
         "FunctionCode": "ParalyzeTarget",
         "Flags": [
             "CanProtect",
-            "CanMirrorMove",
-            "ThawsUser"
+            "CanMirrorMove"
         ],
         "EffectChance": 30,
-        "Description": "Gathers energy into its palm to blast the foe. Has a chance to paralyze the target"
+        "Description": "Blasts the foe with a rotating sphere of energy. Has a chance to paralyze the target"
     },
     {
         "Name": "KAMEHAMEHA",
@@ -17729,14 +17699,14 @@
         "Type": "FIGHTING",
         "Category": "Status",
         "Accuracy": 100,
-        "TotalPP": 20,
+        "TotalPP": 10,
         "Target": "NearOther",
-        "FunctionCode": "DisableTargetStatusMoves",
+        "FunctionCode": "NegateTargetAbility",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The target's aura is suppressed, allowing it to use only attack moves for three turns."
+        "Description": "The target's aura is suppressed, negating the effect of their Ability."
     },
     {
         "Name": "FLAMEPILLAR",
@@ -17825,7 +17795,6 @@
         "Target": "NearOther",
         "FunctionCode": "HitThreeTimesPowersUpWithEachHit",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -17994,7 +17963,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "A torrent of deceased spirits engulfs the opponent. It may also lower the targets' accuracy."
+        "Description": "A torrent of deceased spirits engulfs the enemy team. It may also lower the targets' accuracy."
     },
     {
         "Name": "DIRGE",
@@ -18270,7 +18239,6 @@
         "Target": "NearOther",
         "FunctionCode": "DoublePowerIfTargetNotActed",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -18448,7 +18416,6 @@
         "Target": "AllNearFoes",
         "FunctionCode": "LowerTargetSpAtk1",
         "Flags": [
-            "Contact",
             "CanProtect",
             "CanMirrorMove"
         ],
@@ -18570,7 +18537,7 @@
     {
         "Name": "VIRUS",
         "Type": "POISON",
-        "Category": "Physical",
+        "Category": "Special",
         "Power": 60,
         "Accuracy": 100,
         "TotalPP": 20,
@@ -18932,7 +18899,7 @@
         "TotalPP": 30,
         "Target": "UserOrNearAlly",
         "FunctionCode": "RaiseMinMaxStat1",
-        "Description": "The user refurbishes its body, boosting its highest and lowest stat."
+        "Description": "The user refurbishes its body, boosting its or its ally's highest and lowest stats by 1."
     },
     {
         "Name": "WELD",
@@ -19123,7 +19090,7 @@
         "Description": "The user hardens their body before tackling the target. It may also raise the user's Defense."
     },
     {
-        "Name": "TORRENT] # Leafage but remove function cod",
+        "Name": "TORRENT",
         "Type": "WATER",
         "Category": "Physical",
         "Power": 40,
@@ -19153,6 +19120,571 @@
         ],
         "EffectChance": 20,
         "Description": "The user surges at the target and hits with a wall of water. It may also lower the target's Attack stat."
+    },
+    {
+        "Name": "HYDROSTEAM",
+        "Type": "WATER",
+        "Category": "Special",
+        "Power": 80,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "IncreasePowerInSunWeather",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user blasts the target with boiling-hot water whose power is boosted in harsh sunlight."
+    },
+    {
+        "Name": "BURNINGBULWARK",
+        "Type": "FIRE",
+        "Category": "Status",
+        "Accuracy": 0,
+        "TotalPP": 10,
+        "Target": "User",
+        "Priority": 4,
+        "FunctionCode": "ProtectUserBurningBulwark",
+        "Description": "Protects the user from attacks. Also burns any attacker that makes contact with the user."
+    },
+    {
+        "Name": "THUNDERCLAP",
+        "Type": "ELECTRIC",
+        "Category": "Special",
+        "Power": 70,
+        "Accuracy": 100,
+        "TotalPP": 5,
+        "Target": "NearOther",
+        "Priority": 1,
+        "FunctionCode": "FailsIfTargetActed",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "This move enables the user to attack first. It fails if the target is not readying an attack, however."
+    },
+    {
+        "Name": "PSYBLADE",
+        "Type": "PSYCHIC",
+        "Category": "Physical",
+        "Power": 80,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "IncreasePowerInElectricTerrain",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove",
+            "Slicing"
+        ],
+        "EffectChance": 10,
+        "Description": "The user rends the target with an ethereal blade whose power is boosted on Electric Terrain."
+    },
+    {
+        "Name": "MIGHTYCLEAVE",
+        "Type": "ROCK",
+        "Category": "Physical",
+        "Power": 95,
+        "Accuracy": 100,
+        "TotalPP": 5,
+        "Target": "NearOther",
+        "FunctionCode": "None",
+        "Flags": [
+            "Contact",
+            "CanMirrorMove",
+            "Slicing"
+        ],
+        "Description": "The user cleaves the target. This move hits even if the target protects itself."
+    },
+    {
+        "Name": "TACHYONCUTTER",
+        "Type": "STEEL",
+        "Category": "Special",
+        "Power": 50,
+        "Accuracy": 0,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "HitTwoTimes",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove",
+            "Slicing"
+        ],
+        "Description": "The user attacks by launching particle blades at the target twice in a row. This attack never misses."
+    },
+    {
+        "Name": "WILDFIRE",
+        "Type": "FIRE",
+        "Category": "Physical",
+        "Power": 95,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "LowerTargetAttack1",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 10,
+        "Description": "The user ravages the target with wildfire, this may lower their Attack stat."
+    },
+    {
+        "Name": "HELLBRAND",
+        "Type": "FIRE",
+        "Category": "Physical",
+        "Power": 85,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "RemoveScreens",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "Brands the battlefield with fire, removing the effects of Light Screen and Reflect."
+    },
+    {
+        "Name": "NEBULASTRIKE",
+        "Type": "COSMIC",
+        "Category": "Physical",
+        "Power": 75,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "DoublePowerIfUserLastMoveFailed",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user attacks with nebulous power. Power increases if the user's previous move failed."
+    },
+    {
+        "Name": "EARTHENLANCE",
+        "Type": "GROUND",
+        "Category": "Physical",
+        "Power": 85,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "LowerTargetDefense1",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 20,
+        "Description": "The user launches earthen spikes at the target. It may also lower the target's Defense stat."
+    },
+    {
+        "Name": "CATACLYSM",
+        "Type": "GROUND",
+        "Category": "Physical",
+        "Power": 110,
+        "Accuracy": 90,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "LowerUserSpeed1",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user breaks the earth underneath the target, lowering the user's Speed by one stage."
+    },
+    {
+        "Name": "WEAKSPOT",
+        "Type": "FIGHTING",
+        "Category": "Physical",
+        "Power": 95,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "LowerTargetAttack1",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 20,
+        "Description": "The user targets the weak spot of its enemy. It may also lower the target's Attack stat."
+    },
+    {
+        "Name": "RADIANTBURST",
+        "Type": "LIGHT",
+        "Category": "Physical",
+        "Power": 85,
+        "Accuracy": 90,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "RaiseUserSpeed1",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove",
+            "Bomb"
+        ],
+        "EffectChance": 30,
+        "Description": "The user transforms into light energy and launches itself at the foe. It has a chance to raise the user's Speed stat."
+    },
+    {
+        "Name": "PRISMATICFURY",
+        "Type": "LIGHT",
+        "Category": "Physical",
+        "Power": 95,
+        "Accuracy": 90,
+        "TotalPP": 10,
+        "Target": "AllNearFoes",
+        "FunctionCode": "BurnTarget",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 10,
+        "Description": "The user bombards the target team with light energy at close range. It may burn."
+    },
+    {
+        "Name": "NEUTRALIZE",
+        "Type": "NORMAL",
+        "Category": "Special",
+        "Power": 40,
+        "Accuracy": 0,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "ResetTargetStatStages",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user neutralizes its target, returning all stat changes to normal."
+    },
+    {
+        "Name": "SAVAGERY",
+        "Type": "NORMAL",
+        "Category": "Physical",
+        "Power": 90,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "RaiseUserDefense1",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 30,
+        "Description": "The user acts tackles the target in a savage manner. It may also raise the user's Defense."
+    },
+    {
+        "Name": "OBSIDIANSHARDS",
+        "Type": "ROCK",
+        "Category": "Physical",
+        "Power": 95,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "LowerTargetSpAtk1",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 30,
+        "Description": "Bombards the enemy with a flurry of shiny rocks. Chance to drop target's Sp. Atk."
+    },
+    {
+        "Name": "IRONCASCADE",
+        "Type": "STEEL",
+        "Category": "Physical",
+        "Power": 110,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "AllNearOthers",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user drops a crushing cascade of steel on everyone around it."
+    },
+    {
+        "Name": "ECLIPSENOVA",
+        "Type": "DARK",
+        "Category": "Special",
+        "Power": 95,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "AllNearFoes",
+        "FunctionCode": "PoisonTarget",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 10,
+        "Description": "Looses a nova of dark pent-up energy. It may also poison those hit."
+    },
+    {
+        "Name": "SCALESTORM",
+        "Type": "DRAGON",
+        "Category": "Physical",
+        "Power": 85,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "AllNearFoes",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove",
+            "HighCriticalHitRate",
+            "Slicing"
+        ],
+        "Description": "The user releases a storm of its scales at the targets. High critical hit rate."
+    },
+    {
+        "Name": "WYRMBEAM",
+        "Type": "DRAGON",
+        "Category": "Special",
+        "Power": 80,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "ResetTargetStatStages",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user looses a beam from deep within its core, resetting the target's stat changes."
+    },
+    {
+        "Name": "SEISMICCHANT",
+        "Type": "GROUND",
+        "Category": "Status",
+        "Accuracy": 100,
+        "TotalPP": 20,
+        "Target": "AllNearFoes",
+        "FunctionCode": "LowerTargetSpAtk2",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user chants to the earth, harshly lowering the SpAtk stat of the enemy team."
+    },
+    {
+        "Name": "BLASTFREEZE",
+        "Type": "ICE",
+        "Category": "Special",
+        "Power": 100,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "AllNearOthers",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user blast freezes the area, striking every Pok\u00c3\u00a9mon around it."
+    },
+    {
+        "Name": "BOLTCRASH",
+        "Type": "ELECTRIC",
+        "Category": "Special",
+        "Power": 100,
+        "Accuracy": 90,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "LowerUserSpeed1",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user crashes down like a lightning bolt on its enemy. It lowers the user's Speed however."
+    },
+    {
+        "Name": "BALLLIGHTNING",
+        "Type": "ELECTRIC",
+        "Category": "Physical",
+        "Power": 85,
+        "Accuracy": 90,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "RaiseUserSpeed1",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove",
+            "Bomb"
+        ],
+        "EffectChance": 30,
+        "Description": "The user transforms into a lightning ball and charges at the foe. It has a chance to raise the user's Speed stat."
+    },
+    {
+        "Name": "DIVINEJUDGMENT",
+        "Type": "LIGHT",
+        "Category": "Special",
+        "Power": 90,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "LowerTargetSpDef1",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 10,
+        "Description": "The user passes judgment on the enemy. It may also lower the target's Sp. Def."
+    },
+    {
+        "Name": "HOLYNOVA",
+        "Type": "LIGHT",
+        "Category": "Special",
+        "Power": 110,
+        "Accuracy": 90,
+        "TotalPP": 10,
+        "Target": "AllNearOthers",
+        "FunctionCode": "LowerUserSpAtk1",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user radiates a nova of divine energy to everyone around it. Lowers user's SpAtk by 1."
+    },
+    {
+        "Name": "CRYSTALSHOWER",
+        "Type": "ROCK",
+        "Category": "Special",
+        "Power": 70,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "LowerTargetAccuracy1",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 30,
+        "Description": "The user attacks with a shower of crystals. It may also lower the target's accuracy."
+    },
+    {
+        "Name": "CRYSTALLINEBEAM",
+        "Type": "ROCK",
+        "Category": "Special",
+        "Power": 95,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "FreezeTarget",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 10,
+        "Description": "The target is struck with a crystalline beam of energy. It may also frostbite the target."
+    },
+    {
+        "Name": "BEATDROP",
+        "Type": "SOUND",
+        "Category": "Physical",
+        "Power": 110,
+        "Accuracy": 90,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "CrashDamageIfFailsUnusableInGravity",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user drops the beat on its enemy and surprise attacks. If it misses, the user is hurt instead."
+    },
+    {
+        "Name": "TAPDANCE",
+        "Type": "SOUND",
+        "Category": "Physical",
+        "Power": 90,
+        "Accuracy": 100,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "ConfuseTarget",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove",
+            "Dance"
+        ],
+        "EffectChance": 10,
+        "Description": "The user does a little jig, which has a chance to confuse the target."
+    },
+    {
+        "Name": "IRONTEMPEST",
+        "Type": "STEEL",
+        "Category": "Special",
+        "Power": 100,
+        "Accuracy": 90,
+        "TotalPP": 10,
+        "Target": "AllNearOthers",
+        "FunctionCode": "None",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user rains metallic debris on the battlefield harming both sides."
+    },
+    {
+        "Name": "CHILLINGTOUCH",
+        "Type": "ICE",
+        "Category": "Status",
+        "Accuracy": 90,
+        "TotalPP": 15,
+        "Target": "NearOther",
+        "FunctionCode": "FreezeTarget",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "Description": "The user releases a freezing wind toward the target that causes frostbite."
+    },
+    {
+        "Name": "FROSTNIP",
+        "Type": "ICE",
+        "Category": "Physical",
+        "Power": 20,
+        "Accuracy": 100,
+        "TotalPP": 20,
+        "Target": "NearOther",
+        "FunctionCode": "FreezeTarget",
+        "Flags": [
+            "Contact",
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 100,
+        "Description": "The user chills the target with a frozen touch. This also leaves the target with frostbite."
+    },
+    {
+        "Name": "BITTERBASTION",
+        "Type": "ICE",
+        "Category": "Status",
+        "Accuracy": 0,
+        "TotalPP": 10,
+        "Target": "User",
+        "Priority": 4,
+        "FunctionCode": "ProtectUserBitterBastion",
+        "Description": "Protects the user from attacks. Also frostbites any attacker that hits the user with a special move."
+    },
+    {
+        "Name": "POWERCYCLE",
+        "Type": "LIGHT",
+        "Category": "Special",
+        "Power": 90,
+        "Accuracy": 100,
+        "TotalPP": 10,
+        "Target": "NearOther",
+        "FunctionCode": "TypeDependsOnUserMorpekoFormRaiseUserSpeed1",
+        "Flags": [
+            "CanProtect",
+            "CanMirrorMove"
+        ],
+        "EffectChance": 100,
+        "Description": "Raises user's Speed by one stage after use. This move becomes Dark type when user is in Unpowered Mode."
     },
     {
         "Name": "BALANCERCHANGEREQUIRED",
