@@ -207,7 +207,9 @@ function renderMainInfo(pokemon) {
     const ab = allAbilities.find(x =>
       x.Name && normalizeAbilityName(x.Name) === normalizeAbilityName(a)
     );
-    html += `<li class="ability"><span class="ability-name"><a href="ability_move_viewer.html?game=${game}&ability=${encodeURIComponent(ab ? ab.Name : a)}">${ab ? ab.Name : a}</a></span>${ab && ab.Description ? `: <span class="ability-desc">${ab.Description}</span>` : ''}</li>`;
+    const abilityName = ab ? ab.Name : a;
+    const abilityUrl = `ability_move_viewer.html?game=${game}&ability=${encodeURIComponent(abilityName)}`;
+    html += `<li class="ability"><span class="ability-name">${abilityName}</span><button type="button" class="ability-redirect-button" data-url="${abilityUrl}" title="View ability details">↗</button>${ab && ab.Description ? `: <span class="ability-desc">${ab.Description}</span>` : ''}</li>`;
   });
   html += `</ul>`;
 
@@ -218,7 +220,9 @@ function renderMainInfo(pokemon) {
       const ab = allAbilities.find(x =>
         x.Name && normalizeAbilityName(x.Name) === normalizeAbilityName(a)
       );
-      html += `<li class="ability"><span class="ability-name"><a href="ability_move_viewer.html?game=${game}&ability=${encodeURIComponent(ab ? ab.Name : a)}">${ab ? ab.Name : a}</a></span>: <span class="ability-desc">${ab ? ab.Description : 'No description.'}</span></li>`;
+      const abilityName = ab ? ab.Name : a;
+      const abilityUrl = `ability_move_viewer.html?game=${game}&ability=${encodeURIComponent(abilityName)}`;
+      html += `<li class="ability"><span class="ability-name">${abilityName}</span><button type="button" class="ability-redirect-button" data-url="${abilityUrl}" title="View ability details">↗</button>: <span class="ability-desc">${ab ? ab.Description : 'No description.'}</span></li>`;
     });
     html += `</ul>`;
   }
@@ -232,6 +236,12 @@ function renderMainInfo(pokemon) {
   if (abilitiesContainer) {
     abilitiesContainer.innerHTML = html;
   }
+
+  document.querySelectorAll('.ability-redirect-button').forEach(button => {
+    button.addEventListener('click', () => {
+      window.location.href = button.dataset.url;
+    });
+  });
 
   let types = [];
   if (Array.isArray(pokemon.Types) && pokemon.Types.length) {

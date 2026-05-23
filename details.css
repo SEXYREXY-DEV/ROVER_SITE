@@ -369,6 +369,36 @@ body {
   margin-left: 2px;
   font-size: 0.98em;
 }
+.ability {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.ability-redirect-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #e23d3d;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.ability-redirect-button:hover {
+  background: rgba(226, 61, 61, 0.08);
+  border-color: rgba(226, 61, 61, 0.3);
+  transform: translateY(-1px);
+}
+.ability-redirect-button:focus {
+  outline: 2px solid #007BFF;
+  outline-offset: 2px;
+}
 
 /* Type Effectiveness */
 .type-effectiveness-card {
