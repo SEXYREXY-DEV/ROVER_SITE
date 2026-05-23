@@ -2,7 +2,7 @@ const params = new URLSearchParams(window.location.search);
 const game = params.get('game');
 const notice = document.getElementById('notice');
 const pokedexWrapper = document.getElementById('pokedex-wrapper');
-import { normalizePokemon, findMatchingOriginal } from './utils.js';
+import { normalizePokemon, findMatchingOriginal, getInheritedEggMoves } from './utils.js';
 if (game) {
   loadPokedex(game, pokedexWrapper);
 } else {
@@ -43,7 +43,20 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
     const pokemons = await response.json();
     console.log('Pokemons data:', pokemons);
 
-    normalizedList = pokemons.map(p => normalizePokemon(p));
+    const pokemonsWithInheritedEggMoves = pokemons.map(pokemon => {
+      const inheritedEggMoves = getInheritedEggMoves(pokemon, pokemons);
+      const ownEggMoves = Array.isArray(pokemon.EggMoves)
+        ? pokemon.EggMoves.map(m => m.trim()).filter(Boolean)
+        : typeof pokemon.EggMoves === 'string'
+          ? pokemon.EggMoves.split(',').map(m => m.trim()).filter(Boolean)
+          : [];
+      return {
+        ...pokemon,
+        EggMoves: [...new Set([...ownEggMoves, ...inheritedEggMoves])]
+      };
+    });
+
+    normalizedList = pokemonsWithInheritedEggMoves.map(p => normalizePokemon(p));
     console.log('Normalized list:', normalizedList);
 
     if (Array.isArray(config.excludedPokemon) && config.excludedPokemon.length > 0) {
@@ -138,7 +151,10 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
           !moveQuery ||
           (p.Moves || []).some(m => m.includes(moveQuery));
 
-        return generalMatch && nameMatch && typeMatch && abilityMatch && moveMatch;
+        const nonEvolvingOnly = document.getElementById('non-evolving-checkbox')?.checked;
+        const evolutionMatch = !nonEvolvingOnly || !p.Evolves;
+
+        return generalMatch && nameMatch && typeMatch && abilityMatch && moveMatch && evolutionMatch;
       });
 
       renderFilteredResults(filtered, pokemons);
@@ -152,12 +168,16 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       document.getElementById(id).addEventListener('input', applyFilters);
     });
 
+    document.getElementById('non-evolving-checkbox')?.addEventListener('change', applyFilters);
+
     document.getElementById('reset-button').addEventListener('click', () => {
       document.getElementById('search-bar').value = '';
       document.getElementById('name-search').value = '';
       document.getElementById('type-search').value = '';
       document.getElementById('ability-search').value = '';
       document.getElementById('move-search').value = '';
+      const checkbox = document.getElementById('non-evolving-checkbox');
+      if (checkbox) checkbox.checked = false;
       renderFilteredResults(normalizedList, pokemons);
     });
 

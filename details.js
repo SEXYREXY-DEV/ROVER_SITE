@@ -1,6 +1,6 @@
 // details.js
 
-import { normalizePokemon } from './utils.js';
+import { normalizePokemon, getInheritedEggMoves } from './utils.js';
 
 const params = new URLSearchParams(window.location.search);
 const game = params.get('game');
@@ -43,6 +43,20 @@ window.addEventListener('DOMContentLoaded', async () => {
     if (config.AllowsForms === "N") {
       allPokemon.forEach(p => { p.Forms = []; });
     }
+
+    // Propagate egg moves from earlier evolution stages to later stages
+    allPokemon = allPokemon.map(pokemon => {
+      const inheritedMoves = getInheritedEggMoves(pokemon, allPokemon);
+      const ownEggMoves = Array.isArray(pokemon.EggMoves)
+        ? pokemon.EggMoves.map(m => m.trim()).filter(Boolean)
+        : typeof pokemon.EggMoves === 'string'
+          ? pokemon.EggMoves.split(',').map(m => m.trim()).filter(Boolean)
+          : [];
+      return {
+        ...pokemon,
+        EggMoves: [...new Set([...ownEggMoves, ...inheritedMoves])]
+      };
+    });
 
     if (!pokemonInternalName) {
       document.getElementById('main-container').innerHTML = '<p>No Pokémon specified.</p>';

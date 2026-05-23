@@ -17,6 +17,9 @@
     <button class="back-button" onclick="location.href='trainer_viewer.html?game=' + window.game">
         View Trainers (SPOILERS) →
     </button>
+    <button class="back-button" onclick="location.href='teambuilder.html?game=' + window.game">
+        Teambuilder →
+    </button>
   </div>
   <div id="search-container">
     <input type="text" id="search-bar" placeholder="Search by Anything, good luck!" />
@@ -24,6 +27,10 @@
     <input type="text" id="type-search" placeholder="Search by Type" />
     <input type="text" id="ability-search" placeholder="Search by Ability" />
     <input type="text" id="move-search" placeholder="Search by Move" />
+    <label class="filter-checkbox">
+      <input type="checkbox" id="non-evolving-checkbox" />
+      Non-evolving only
+    </label>
   </div>
 
   <button id="reset-button">Reset</button>
@@ -36,7 +43,12 @@
     </select>
   </div>
 
-  <h1 id="page-title"></h1>
+  <div id="external-doc-link" class="external-link">
+    <strong>2.0 Pokémon Document:</strong>
+    <a href="https://docs.google.com/document/d/1q_21bxsX8MwHvNvZXJyaXj_yhOfvph9NaeMFHv29QFI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+      View the Google Doc
+    </a>
+  </div>
 
   <div id="pokedex-container">
     <div id="pokedex-wrapper"></div>
@@ -49,13 +61,6 @@
     const displayGame = queryGame
       ? queryGame.charAt(0).toUpperCase() + queryGame.slice(1)
       : 'Game';
-
-    let currentTab = 'moves';
-    if (params.get('ability')) currentTab = 'abilities';
-    if (params.get('move')) currentTab = 'moves';
-
-    document.getElementById('page-title').textContent =
-      displayGame + ' Abilities & Moves Viewer';
   </script>
 
   <script type="module" src="viewer.js"></script>
