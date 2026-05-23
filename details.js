@@ -558,6 +558,19 @@ function renderMovesTabs(pokemon) {
   });
 }
 
+function buildMoveLookup(movesData) {
+  const lookup = new Map();
+  movesData.forEach(move => {
+    if (typeof move.Name === 'string' && move.Name.trim()) {
+      lookup.set(move.Name.trim().toUpperCase(), move);
+    }
+    if (typeof move.InternalName === 'string' && move.InternalName.trim()) {
+      lookup.set(move.InternalName.trim().toUpperCase(), move);
+    }
+  });
+  return lookup;
+}
+
 function renderMovesTable(pokemon, movesData, tab) {
   let moves = [];
   if (tab === 'levelup') {
@@ -572,6 +585,8 @@ function renderMovesTable(pokemon, movesData, tab) {
   } else if (tab === 'tutor') {
     if (Array.isArray(pokemon.TutorMoves)) {
       moves = pokemon.TutorMoves.map(name => ({ name }));
+    } else if (typeof pokemon.TutorMoves === 'string') {
+      moves = pokemon.TutorMoves.split(',').map(name => ({ name: name.trim() })).filter(m => m.name);
     }
   } else if (tab === 'egg') {
     if (typeof pokemon.EggMoves === 'string') {
@@ -581,6 +596,7 @@ function renderMovesTable(pokemon, movesData, tab) {
     }
   }
 
+  const moveLookup = buildMoveLookup(movesData);
   const container = document.getElementById(tab);
   if (!container) return;
 
@@ -611,11 +627,13 @@ function renderMovesTable(pokemon, movesData, tab) {
 
   const tbody = document.getElementById(`moves-table-body-${tab}`);
   moves.forEach(m => {
-  const move = movesData.find(x => x.InternalName === m.name || x.Name === m.name) || {};
+    const normalizedName = typeof m.name === 'string' ? m.name.trim().toUpperCase() : '';
+    const move = moveLookup.get(normalizedName) || {};
+    const displayName = move.Name || m.name;
 
-  const typeImage = move.Type
-    ? `<img src="./games/${game}/images/Types/${move.Type.toUpperCase()}.png" alt="${move.Type} Type" class="type-icon" style="width:50px;height:50px;">`
-    : 'N/A';
+    const typeImage = move.Type
+      ? `<img src="./games/${game}/images/Types/${move.Type.toUpperCase()}.png" alt="${move.Type} Type" class="type-icon" style="width:50px;height:50px;">`
+      : 'N/A';
 
   const categoryImage = move.Category
     ? `<img src="./games/${game}/images/Moves/${move.Category.toUpperCase()}.png" alt="${move.Category} Category" class="category-icon" style="width:60px;height:32px;">`
@@ -624,7 +642,7 @@ function renderMovesTable(pokemon, movesData, tab) {
   const row = document.createElement("tr");
 
   // --- COLOR SETUP ---
-  const baseColor = hexToRgb(getTypeColor(move.Type));
+  const baseColor = hexToRgb(getTypeColor(move.Type || 'UNKNOWN')) || '200, 200, 200';
   const normalColor = `rgba(${baseColor}, 0.3)`;
   const hoverColor = `rgba(${baseColor}, 0.6)`;
 
@@ -643,7 +661,7 @@ function renderMovesTable(pokemon, movesData, tab) {
 
   // --- CLICK LOGIC (FIXED) ---
   row.addEventListener('mousedown', (event) => {
-    const url = `ability_move_viewer.html?game=${game}&move=${encodeURIComponent(move.Name || m.name)}`;
+    const url = `ability_move_viewer.html?game=${game}&move=${encodeURIComponent(displayName)}`;
 
     if (event.button === 0) {
       window.location.href = url;
@@ -654,7 +672,7 @@ function renderMovesTable(pokemon, movesData, tab) {
   });
 
   row.innerHTML = `
-    <td>${move.Name || m.name}</td>
+    <td>${displayName}</td>
     ${tab === 'levelup' ? `<td>${m.level}</td>` : ''}
     <td>${typeImage}</td>
     <td>${categoryImage}</td>
