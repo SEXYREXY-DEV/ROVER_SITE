@@ -17,6 +17,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     renderTrainers(allTrainers);
     setupSearch();
+    showFirstVisitGuide();
   } catch (err) {
     console.error('Error loading data:', err);
   }
@@ -26,30 +27,19 @@ function renderTrainers(trainers) {
   const container = document.getElementById('trainers-container');
   container.innerHTML = '';
 
-  trainers.forEach(trainer => {
+  const shownEXPTrainer = { seen: false };
+  const normalizedTrainers = trainers.filter(trainer => {
+    const type = (trainer.Type || '').toLowerCase();
+    if (type.includes('exptrainer')) {
+      if (shownEXPTrainer.seen) return false;
+      shownEXPTrainer.seen = true;
+    }
+    return true;
+  });
+
+  normalizedTrainers.forEach(trainer => {
     const card = document.createElement('div');
     card.className = 'trainer-card';
-
-    let isTrainerCanon = false;
-
-    // Canon logic for RIVAL_Artie
-    if (trainer.Type === 'RIVAL_Artie') {
-      if (trainer.Number === 0 || trainer.Number === 1 || (trainer.Number >= 4 && (trainer.Number - 4) % 4 === 0)) {
-        isTrainerCanon = true;
-      }
-    }
-    // Canon logic for EGADMIN_Angelo
-    else if (trainer.Type === 'EGADMIN_Angelo' && (trainer.Number === 0 || trainer.Number === 4 || trainer.Number === 5)) {
-      isTrainerCanon = true;
-    }
-    else if (trainer.Type === 'EGADMIN_Claude' && (trainer.Number === 0 || trainer.Number === 4)) {
-      isTrainerCanon = true;
-    }
-    else if (trainer.Number === 0) {
-      isTrainerCanon = true;
-    }
-
-    trainer.isCanon = isTrainerCanon;
 
     const trainerTypeKey = trainer.Type || '000';
     const imageUrl = `./games/${game}/images/Trainers/${trainerTypeKey}.png`;
@@ -67,7 +57,7 @@ function renderTrainers(trainers) {
     detailsPanel.style.display = 'none';
 
     card.innerHTML = `
-      <div class="trainer-name">${trainer.Name || 'Unknown'} ${isTrainerCanon ? '<span class="canon-flag">Canon</span>' : ''}</div>
+      <div class="trainer-name">${trainer.Name || 'Unknown'} <span class="trainer-number">#${trainer.Number}</span></div>
       <div class="trainer-class">${trainer.Type || 'Unknown'}</div>
       <div class="trainer-pokemon-count">${Array.isArray(trainer.Pokemon) ? trainer.Pokemon.length : 0} Pokémon</div>
       <div class="trainer-max-level">Max Level: ${Math.max(...(Array.isArray(trainer.Pokemon) ? trainer.Pokemon.map(p => p.Level || 0) : [0]))}</div>
@@ -143,24 +133,6 @@ function populateTrainerDetails(detailsPanel, trainer) {
       const item = document.createElement('div');
       item.className = 'pokemon-item';
 
-      let isCanon = false;
-
-      if (trainer.Type === 'RIVAL_Artie') {
-        if (trainer.Number === 0 || trainer.Number === 1 || (trainer.Number >= 4 && (trainer.Number - 4) % 4 === 0)) {
-          isCanon = true;
-        }
-      } else if (trainer.Type === 'EGADMIN_Angelo' && (trainer.Number === 0 || trainer.Number === 4 || trainer.Number === 5)) {
-        isCanon = true;
-      } else if (trainer.Type === 'EGADMIN_Claude' && (trainer.Number === 0 || trainer.Number === 4)) {
-      isCanon = true;
-      } else {
-        if (trainer.Number === 0) {
-          isCanon = true;
-        } else {
-          isCanon = false;
-        }
-      }
-
       // Pokémon details HTML
       const pokemonImage = document.createElement('img');
       pokemonImage.className = 'pokemon-image';
@@ -185,7 +157,7 @@ function populateTrainerDetails(detailsPanel, trainer) {
 
       item.innerHTML = `
         <div class="pokemon-header">
-          <div class="pokemon-name">${pokemon.Species} (Lv. ${pokemon.Level || 'N/A'}) ${isCanon ? '<span class="canon-flag">Canon</span>' : ''}</div>
+          <div class="pokemon-name">${pokemon.Species} (Lv. ${pokemon.Level || 'N/A'})</div>
         </div>
         <div class="pokemon-details">
           <div class="pokemon-detail"><span>Nature:</span> <span>${pokemon.Nature || 'N/A'}</span></div>
@@ -218,31 +190,122 @@ function populateTrainerDetails(detailsPanel, trainer) {
   detailsPanel.appendChild(rightPanel);
 }
 
+function showFirstVisitGuide() {
+  const storageKey = 'trainer_viewer_guide_seen';
+  if (localStorage.getItem(storageKey)) return;
+
+  const modal = document.getElementById('trainer-guide-modal');
+  if (!modal) return;
+
+  const image1 = document.getElementById('guide-image-1');
+  const image2 = document.getElementById('guide-image-2');
+  const guideText = document.getElementById('guide-message');
+  const trainerNumberFilter = document.getElementById('trainer-number-filter');
+
+  guideText.textContent = 'Travel here through any breloom to get your boss team identification number';
+  image1.src = `./games/${game}/images/Guides/trainer_distinction.png`;
+  image2.src = `./games/${game}/images/Guides/trainer_distinction1.png`;
+
+  modal.classList.add('visible');
+
+  const closeButton = document.getElementById('guide-close-button');
+  const getSelectedGuideNumber = () => {
+    const selected = document.querySelector('input[name="guide-number"]:checked');
+    return selected ? selected.value : '0';
+  };
+
+  if (closeButton) {
+    closeButton.addEventListener('click', () => {
+      modal.classList.remove('visible');
+      localStorage.setItem(storageKey, '1');
+      if (trainerNumberFilter) {
+        trainerNumberFilter.value = getSelectedGuideNumber();
+        applyTrainerFilters();
+      }
+    });
+  }
+
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      modal.classList.remove('visible');
+      localStorage.setItem(storageKey, '1');
+      if (trainerNumberFilter) {
+        trainerNumberFilter.value = getSelectedGuideNumber();
+        applyTrainerFilters();
+      }
+    }
+  });
+}
+
+function matchesTrainerNumber(trainer, selectedNumber) {
+  if (selectedNumber === null) return true;
+
+  if (trainer.Type === 'RIVAL_Artie') {
+    if (trainer.Number === 0) {
+      return true; // Artie 0 is common always
+    }
+    return (trainer.Number - 1) % 4 === selectedNumber;
+  }
+
+  if (trainer.Type === 'EGADMIN_Claude') {
+    if (trainer.Number === 4) {
+      return true; // Claude 4 is common always
+    }
+    return trainer.Number === selectedNumber;
+  }
+
+  if (trainer.Type === 'EGANOMALY_Christina') {
+    return trainer.Number % 4 === selectedNumber;
+  }
+
+  return trainer.Number === selectedNumber;
+}
+
+function applyTrainerFilters() {
+  const searchInput = document.getElementById('search-bar');
+  const numberFilter = document.getElementById('trainer-number-filter');
+  const query = searchInput ? searchInput.value.toLowerCase() : '';
+  const selectedNumber = numberFilter && numberFilter.value !== '' ? Number(numberFilter.value) : null;
+
+  const filtered = allTrainers.filter(trainer => {
+    const name = trainer.Name ? trainer.Name.toLowerCase() : '';
+    const type = trainer.Type ? trainer.Type.toLowerCase() : '';
+    const matchesQuery = name.includes(query) || type.includes(query);
+    const matchesNumber = selectedNumber === null || matchesTrainerNumber(trainer, selectedNumber);
+    return matchesQuery && matchesNumber;
+  });
+
+  renderTrainers(filtered);
+}
+
 function setupSearch() {
   const searchInput = document.getElementById('search-bar');
   if (!searchInput) return;
 
-  searchInput.addEventListener('input', (e) => {
-    const query = e.target.value.toLowerCase();
-    
-    // Filter the trainers based on the query for both Name and Type
-    const filtered = allTrainers.filter(trainer => {
-        // Check if trainer has Name and Type, if not, default to empty string
-        const name = trainer.Name ? trainer.Name.toLowerCase() : '';
-        const type = trainer.Type ? trainer.Type.toLowerCase() : '';
-        
-        // Return true if either Name or Type includes the query
-        return name.includes(query) || type.includes(query);
-    });
+  searchInput.addEventListener('input', () => {
+    applyTrainerFilters();
+  });
 
-    // Render the filtered trainers
-    renderTrainers(filtered);
+  const trainerNumberFilter = document.getElementById('trainer-number-filter');
+  if (trainerNumberFilter) {
+    trainerNumberFilter.addEventListener('change', () => {
+      applyTrainerFilters();
     });
+  }
+
+  const guideButton = document.getElementById('trainer-guide-button');
+  if (guideButton) {
+    guideButton.addEventListener('click', () => {
+      localStorage.removeItem('trainer_viewer_guide_seen');
+      showFirstVisitGuide();
+    });
+  }
 
   const resetButton = document.getElementById('reset-button');
   if (resetButton) {
     resetButton.addEventListener('click', () => {
       searchInput.value = '';
+      if (trainerNumberFilter) trainerNumberFilter.value = '';
       renderTrainers(allTrainers);
       document.getElementById('trainer-details').style.display = 'none';
     });

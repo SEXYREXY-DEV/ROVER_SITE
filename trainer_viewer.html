@@ -17,6 +17,19 @@
 
   <div id="search-container">
     <input type="text" id="search-bar" placeholder="Search by Trainer Name" />
+    <div id="trainer-number-filter-container">
+      <label for="trainer-number-filter">Trainer number:</label>
+      <select id="trainer-number-filter">
+        <option value="">All</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </div>
+    <div id="trainer-guide-container">
+      <button id="trainer-guide-button" class="guide-open-button">Show guide</button>
+    </div>
   </div>
 
   <button id="reset-button">Reset</button>
@@ -30,6 +43,28 @@
   <div id="trainer-details" style="display: none;">
     <h2 id="trainer-details-title"></h2>
     <div id="pokemon-list"></div>
+  </div>
+
+  <div id="trainer-guide-modal" class="guide-modal" role="dialog" aria-modal="true" aria-labelledby="guide-title" aria-describedby="guide-message">
+    <div class="guide-modal-content">
+      <h2 id="guide-title">Trainer Guide</h2>
+      <p id="guide-message">Travel here through any breloom to get your boss team identification number</p>
+      <div class="guide-number-pick">
+        <div class="guide-number-label">Pick trainer number</div>
+        <div class="guide-number-options">
+          <label><input type="radio" name="guide-number" value="0" checked> 0</label>
+          <label><input type="radio" name="guide-number" value="1"> 1</label>
+          <label><input type="radio" name="guide-number" value="2"> 2</label>
+          <label><input type="radio" name="guide-number" value="3"> 3</label>
+        </div>
+      </div>
+      <div class="guide-note">Most trainers use numbers 0-3. RIVAL_Artie uses 1-4 as the normal set, with Artie 0 as the common boss (shown together with Claude 4). EGADMIN_Claude uses 0-3 normally, with Claude 4 as the common boss. EGANOMALY_Christina shows both the first battle (0-3) and the second battle (+4) for the selected number.</div>
+      <div class="guide-images">
+        <img class="guide-image" id="guide-image-1" alt="Trainer distinction guide 1" />
+        <img class="guide-image" id="guide-image-2" alt="Trainer distinction guide 2" />
+      </div>
+      <button id="guide-close-button" class="guide-close-button">Got it</button>
+    </div>
   </div>
 
   <script>
