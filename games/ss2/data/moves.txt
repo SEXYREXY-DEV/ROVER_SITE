@@ -9576,7 +9576,7 @@ Target = NearOther
 FunctionCode = InflictRandomStatus
 Flags = Sound,CanProtect,CanMirrorMove
 EffectChance = 100
-Description = The user utters a spell that inflicts a random status condition on the target
+Description = The user utters a spell that inflicts a random status condition on the target.
 #-------------------------------
 [DRACONICCRASH]
 Name = Draconic Crash

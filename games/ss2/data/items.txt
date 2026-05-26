@@ -10554,7 +10554,7 @@ Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = This item does nothing unless you have the Suitcase Mod installed.
+Description = Your Suitcase, it lets you change your outfit.
 #-------------------------------
 [WIZARDHAT]
 Name = Wizard Hat

@@ -1,5 +1,8 @@
 [
     {
+        "Name": "\u00bb\u00bf# See the documentation on the wiki to learn how to edit this file"
+    },
+    {
         "Name": "MEGAHORN",
         "Type": "BUG",
         "Category": "Physical",
@@ -11983,7 +11986,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 100,
-        "Description": "The user utters a spell that inflicts a random status condition on the target"
+        "Description": "The user utters a spell that inflicts a random status condition on the target."
     },
     {
         "Name": "DRACONICCRASH",

@@ -397,6 +397,7 @@ FullDesc = User's moves deal 1.25x damage against targets that share at least on
 [STEADFAST]
 Name = Steadfast
 Description = Deals 30% more move damage to Pokémon slower than it.
+FullDesc = User deals 1.3x damage to targets that have a lower Speed stat than it (does not take into account stat boosts and other modifiers).
 #-------------------------------
 [SNOWCLOAK]
 Name = Snow Cloak
@@ -758,8 +759,8 @@ FullDesc = User's Status moves get +1 priority but become ineffective against Da
 #-------------------------------
 [SANDFORCE]
 Name = Sand Force
-Description = Boosts certain moves' power in a sandstorm.
-FullDesc = User's Rock, Ground and Steel-type moves deal 1.3x damage during a Sandstorm. User takes no damage from Sandstorm.
+Description = Boosts moves' power in a sandstorm.
+FullDesc = User's moves deal 1.3x damage during a Sandstorm. User takes no damage from Sandstorm.
 #-------------------------------
 [IRONBARBS]
 Name = Iron Barbs
@@ -1364,8 +1365,8 @@ FullDesc = User's moves with the Bomb flag deal 1.5x damage.
 #-------------------------------
 [ICYVEINS]
 Name = Icy Veins
-Description = Ups Ice and Water moves in hail.
-FullDesc = User's Ice and Water-type moves deal 1.3x damage during Hail. User takes no damage from Hail. 
+Description = Boosts moves' power in hail.
+FullDesc = User's moves deal 1.3x damage during Hail. User takes no damage from Hail. 
 #-------------------------------
 [REALISM]
 Name = Realism
@@ -1649,8 +1650,8 @@ FullDesc = User sets up Gravity for 5 turns when entering the field, unless Grav
 #-------------------------------
 [FLEXIBLE]
 Name = Flexible
-Description = 1.2x damage when using non-STAB moves.
-FullDesc = User's moves that don't share a type with it deal 1.2x damage.
+Description = 1.3x damage when using non-STAB moves.
+FullDesc = User's moves that don't share a type with it deal 1.3x damage.
 #-------------------------------
 [REBELLIOUS]
 Name = Rebellious

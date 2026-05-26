@@ -76,6 +76,12 @@ export function normalizePokemon(pokemon, extraEggMoves = []) {
     }
   }
 
+  const items = [
+  pokemon.WildItemCommon,
+  pokemon.WildItemUncommon,
+  pokemon.WildItemRare
+  ].filter(Boolean);
+
   const tutorMoves = Array.isArray(pokemon.TutorMoves) ? pokemon.TutorMoves : [];
 
   const eggMoves = extractEggMoves(pokemon);
@@ -118,6 +124,7 @@ export function normalizePokemon(pokemon, extraEggMoves = []) {
     Abilities: allAbilities.map(a => a.toLowerCase()),
     Moves: allMoves.map(m => m.toLowerCase()),
     EggGroups: (pokemon.EggGroups || '').toLowerCase().split(',').map(g => g.trim()).filter(Boolean),
+    Items: items ? items.map(i => i.toLowerCase()) : [],
     Forms: forms.map(f => ({
       name: f.name.toLowerCase(),
       types: f.types.map(t => t.toLowerCase()),

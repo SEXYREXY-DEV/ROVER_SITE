@@ -322,11 +322,33 @@ function openSlotModal(i) {
 
   // Determine allowed moves (from pokemon_master_evo via normalize) for initial selection
   try {
-    const normalized = normalizePokemon(slot.data);
-    slot.allowedMoves = Array.isArray(normalized.Moves) ? normalized.Moves.map(m=>m.toLowerCase()) : [];
-  } catch (e) {
-    slot.allowedMoves = [];
+  const normalized = normalizePokemon(slot.data);
+
+  let moves = [];
+
+  if (Array.isArray(normalized.Moves)) {
+    for (let i = 0; i < normalized.Moves.length; i += 2) {
+      const moveName = normalized.Moves[i + 1];
+      if (moveName) moves.push(moveName.toLowerCase());
+    }
   }
+
+  if (Array.isArray(normalized.TutorMoves)) {
+    moves.push(...normalized.TutorMoves.map(m => m.toLowerCase()));
+  } else if (typeof normalized.TutorMoves === 'string') {
+    moves.push(...normalized.TutorMoves.split(',').map(m => m.trim().toLowerCase()));
+  }
+
+  if (Array.isArray(normalized.EggMoves)) {
+    moves.push(...normalized.EggMoves.map(m => m.toLowerCase()));
+  } else if (typeof normalized.EggMoves === 'string') {
+    moves.push(...normalized.EggMoves.split(',').map(m => m.trim().toLowerCase()));
+  }
+
+  slot.allowedMoves = [...new Set(moves.filter(Boolean))];
+} catch (e) {
+  slot.allowedMoves = [];
+}
 
   // Render current moves
   renderMovesList(i);

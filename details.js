@@ -774,6 +774,12 @@ function renderFullInfo(pokemon) {
   // --- Pokédex Entry ---
   let pokedex = pokemon.Pokedex || '';
 
+  let items = [
+  pokemon.WildItemCommon,
+  pokemon.WildItemUncommon,
+  pokemon.WildItemRare
+  ].filter(Boolean);
+
   // --- Render ---
   info.innerHTML = `
     <h3>Pokédex Data</h3>
@@ -790,6 +796,7 @@ function renderFullInfo(pokemon) {
       <li><strong>Growth Rate:</strong> ${growth}</li>
       ${eggGroups.length ? `<li><strong>Egg Groups:</strong> ${eggGroups.join(', ')}</li>` : ''}
       <li><strong>Gender Ratio:</strong> ${gender}</li>
+      ${items.length ? `<li><strong>WildHeldItems:</strong> ${items.join(', ')}</li>` : ''}
     </ul>
     <h3>Pokedex Entry</h3>
     <p>${pokedex || 'No Pokédex entry.'}</p>

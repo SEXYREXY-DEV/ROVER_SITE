@@ -114,6 +114,7 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       const typeQuery = document.getElementById('type-search').value.toLowerCase().trim();
       const abilityQuery = document.getElementById('ability-search').value.toLowerCase().trim();
       const moveQuery = document.getElementById('move-search').value.toLowerCase().trim();
+      const itemQuery = document.getElementById('item-search').value.toLowerCase().trim();
 
       const filtered = normalizedList.filter(p => {
         const generalMatch =
@@ -151,10 +152,14 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
           !moveQuery ||
           (p.Moves || []).some(m => m.includes(moveQuery));
 
+        const itemMatch =
+          !itemQuery ||
+          (p.Items || []).some(i => i.includes(itemQuery));
+
         const nonEvolvingOnly = document.getElementById('non-evolving-checkbox')?.checked;
         const evolutionMatch = !nonEvolvingOnly || !p.Evolves;
 
-        return generalMatch && nameMatch && typeMatch && abilityMatch && moveMatch && evolutionMatch;
+        return generalMatch && nameMatch && typeMatch && abilityMatch && moveMatch && itemMatch && evolutionMatch;
       });
 
       renderFilteredResults(filtered, pokemons);
@@ -164,7 +169,7 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
 
     document.getElementById('search-bar').addEventListener('input', applyFilters);
 
-    ['name-search', 'type-search', 'ability-search', 'move-search'].forEach(id => {
+    ['name-search', 'type-search', 'ability-search', 'move-search', 'item-search'].forEach(id => {
       document.getElementById(id).addEventListener('input', applyFilters);
     });
 
@@ -176,6 +181,7 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       document.getElementById('type-search').value = '';
       document.getElementById('ability-search').value = '';
       document.getElementById('move-search').value = '';
+      document.getElementById('item-search').value = '';
       const checkbox = document.getElementById('non-evolving-checkbox');
       if (checkbox) checkbox.checked = false;
       renderFilteredResults(normalizedList, pokemons);

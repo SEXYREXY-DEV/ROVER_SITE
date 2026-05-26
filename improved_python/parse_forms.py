@@ -74,7 +74,7 @@ class FormsParser:
                     
                     if key == 'FormName':
                         form_data['FormName'] = value
-                    elif key in ['InternalName', 'Types', 'Type1', 'Type2', 'BaseStats', 'Height', 'Weight', 'Abilities', 'HiddenAbility', 'HiddenAbilities']:
+                    elif key in ['InternalName', 'Types', 'Type1', 'Type2', 'BaseStats', 'Height', 'Weight', 'Moves', 'TutorMoves', 'EggMoves', 'Abilities', 'HiddenAbility', 'HiddenAbilities']:
                         if key == 'Types':
                             types = value.split(',')
                             form_data['Type1'] = types[0]
@@ -91,7 +91,7 @@ class FormsParser:
                         elif key == 'HiddenAbility' or 'HiddenAbilities':
                             form_data['HiddenAbility'] = value
                         form_data[key] = value
-            
+
             if not form_data['FormName']:
                 form_data['FormName'] = f"{form_data['BaseName']} Form {form_number or ''}".strip()
             
@@ -128,4 +128,4 @@ class FormsParser:
 
 if __name__ == '__main__':
     parser = FormsParser()
-    parser.process_forms_data(['vanguard', 'ss2'])
+    parser.process_forms_data(['ss2'])
