@@ -2244,7 +2244,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetEvasion1RemoveSideEffects
 Flags = CanProtect,CanMirrorMove
-Description = A strong wind blows away the foe's obstacles such as Light Screen. It also lowers their evasion.
+Description = A strong wind blows away the foe's hazards and lowers their evasion.
 #-------------------------------
 [FEATHERDANCE]
 Name = Feather Dance
@@ -3090,7 +3090,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = FixedDamageUserLevel
 Flags = CanProtect,CanMirrorMove
-Description = The user looses a ground-shaking quake affecting everyone around the user. Its power matches the user's level.
+Description = The user looses a ground-shaking quake. It inflicts damage matching the user's level.
 #-------------------------------
 [MUDSPORT]
 Name = Mud Sport
@@ -6760,7 +6760,7 @@ Type = FAIRY
 Category = Status
 Accuracy = 100
 TotalPP = 20
-Target = AllNearFoes
+Target = NearOther
 FunctionCode = LowerTargetSpAtk2
 Flags = CanProtect,CanMirrorMove
 Description = The user captivates the target and harshly lowers its Sp. Atk stat.
@@ -7714,7 +7714,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = CategoryDependsOnHigherDamageIgnoreTargetAbility
 Flags = CanProtect,CanMirrorMove
-Description = The user attacks with a pillar of light that ignores the target's ability. Becomes physical if user's Atk > SpAtk.
+Description = Attacks with a pillar of light that ignores the target's ability. Becomes physical if user's Atk > SpAtk.
 #-------------------------------
 [SAFEGUARD]
 Name = Safeguard
@@ -8819,7 +8819,7 @@ Accuracy = 0
 TotalPP = 20
 Target = User
 FunctionCode = CureUserBurnPoisonParalysisFrostbite
-Description = The user flaps its wings to rid itself from impurities. Cures poisoning, burn, frostbite, or paralysis.
+Description = The user flaps its wings to remove impurities. Cures poison, burn, frostbite, and paralysis.
 #-------------------------------
 [HIVEMIND]
 Name = Hivemind
@@ -8878,7 +8878,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtk2
 Flags = CanProtect,CanMirrorMove
-Description = Chucks a massive pollen bomb at the target. The attack's recoil harshly reduces the user's Sp. Atk stat.
+Description = Chucks a massive pollen bomb at the target. The attack's recoil harshly reduces the user's Sp. Atk.
 #-------------------------------
 [STRAFE]
 Name = Strafe
@@ -9476,7 +9476,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HealUserByHalfOfDamageDone
 Flags = CanProtect,CanMirrorMove
-Description = The user stabs the target and drains their vitality. The user's HP is restored by half of damage done.
+Description = Stabs the target and drains their vitality. The user's HP is restored by half of damage done.
 #-------------------------------
 [WICKEDSTRIKE]
 Name = Wicked Strike
@@ -9502,7 +9502,7 @@ Target = NearOther
 FunctionCode = LowerTargetAttack1
 Flags = CanProtect,CanMirrorMove
 EffectChance = 100
-Description = The user gives off a devestating glare that intimidates the target. This lowers the target's Attack stat.
+Description = Emits a devastating glare that intimidates the target. This lowers the target's Attack stat.
 #-------------------------------
 [DRACARYS]
 Name = Dracarys
@@ -10217,7 +10217,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove
-Description = Burning projectiles are shot at the target in rapid succession. They hit two to five times in a row.
+Description = Shoots fire projectiles at the target in rapid succession. They hit two to five times in a row.
 #-------------------------------
 [FLARESWEEP]
 Name = Flare Sweep
@@ -10242,7 +10242,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HealUserByHalfOfDamageDone
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user slams the target and drains heat from them. The user's HP is restored by half of damage done.
+Description = Slams the target and drains heat from them. The user's HP is restored by half of damage done.
 #-------------------------------
 [INFERNALBLADE]
 Name = Infernal Blade
@@ -10930,7 +10930,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetEvasion1RemoveSideEffects
 Flags = CanProtect,CanMirrorMove
-Description = Cleanses the battlefield of the foe's obstacles such as Light Screen. It also lowers their evasion.
+Description = Cleanses the battlefield of the foe's hazards and lowers their evasion.
 #-------------------------------
 [CONSECRATE]
 Name = Consecrate
@@ -12977,7 +12977,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = DoublePowerIfTargetStatusProblem
 Flags = CanProtect,CanMirrorMove
-Description = This attack exploits the target's fears, dealing increased damage if it's affected by status problems.
+Description = Exploits the target's fears, dealing increased damage if it's affected by status problems.
 #-------------------------------
 [SIPHON]
 Name = Siphon
@@ -13639,7 +13639,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove
-Description = Throwing stars are launched at the target in rapid succession. They hit two to five times in a row.
+Description = Launches throwing stars at the target in rapid succession. They hit two to five times in a row.
 #-------------------------------
 [TREMOR]
 Name = Tremor
@@ -13907,7 +13907,7 @@ Type = DRAGON
 Category = Status
 Accuracy = 100
 TotalPP = 20
-Target = AllNearFoes
+Target = NearOther
 FunctionCode = LowerTargetSpAtk2
 Flags = CanProtect,CanMirrorMove
 Description = The user's majesty disheartens the enemy. The target's SpAtk is harshly lowered.
@@ -13920,7 +13920,7 @@ Accuracy = 0
 TotalPP = 20
 Target = User
 FunctionCode = CureUserBurnPoisonParalysisFrostbite
-Description = The user taps into its soul to rid itself of impurities. Cures poisoning, burn, frostbite, or paralysis.
+Description = The user taps into its soul to remove impurities. Cures poison, burn, frostbite, and paralysis.
 #-------------------------------
 [STORMSHIELD]
 Name = Storm Shield
@@ -14128,7 +14128,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HitThreeTimesPowersUpWithEachHit
 Flags = CanProtect,CanMirrorMove
-Description = A consecutive volley of sharp feathers three times that become more powerful with each successive hit.
+Description = A volley of three sharp feathers that becomes more powerful with each successful hit.
 #-------------------------------
 [STALKPREY]
 Name = Stalk Prey
@@ -14246,7 +14246,7 @@ Target = NearOther
 Priority = -6
 FunctionCode = SwitchOutTargetDamagingMove
 Flags = CanProtect,CanMirrorMove
-Description = The user recites a spiteful chant that drags out another Pokémon in its party. In the wild the battle ends.
+Description = Recites a spiteful chant that drags out another Pokémon in its party. In the wild the battle ends.
 #-------------------------------
 [GHASTLYFLOOD]
 Name = Ghastly Flood
@@ -14410,7 +14410,7 @@ Target = NearOther
 Priority = -6
 FunctionCode = SwitchOutTargetStatusMove
 Flags = CanMirrorMove
-Description = The foe is trapped in a sand pit, replacing them by another Pokémon in its party. In the wild the battle ends.
+Description = The foe is trapped in a sand pit, replacing them by another Pokémon. In the wild the battle ends.
 #-------------------------------
 [SANDSHROUD]
 Name = Sand Shroud
@@ -14640,7 +14640,7 @@ TotalPP = 25
 Target = AllNearFoes
 FunctionCode = None
 Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = A forceful wave of natural energy is launched at the opposing team. Critical hits land more easily.
+Description = A forceful wave of energy is launched at the opposing team. Critical hits land more easily.
 #-------------------------------
 [HARNESS]
 Name = Harness
@@ -14652,7 +14652,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HealUserByHalfOfDamageDone
 Flags = CanProtect,CanMirrorMove
-Description = Harnesses the energy of a foe for its own. The user's HP is restored by half the damage taken by the target.
+Description = Harnesses the energy of a foe. The user's HP is restored by half the damage taken by the target.
 #-------------------------------
 [BALANCEDBEAM]
 Name = Balanced Beam
@@ -14989,7 +14989,7 @@ Target = NearOther
 FunctionCode = LowerTargetDefense1
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 100
-Description = The user slams into the target with jagged spikes, lowering the target's defense by one stage if it hits.
+Description = Slams into the target with jagged spikes, lowering their defense by one stage if it hits.
 #-------------------------------
 [VANGUARD]
 Name = Vanguard
@@ -15107,7 +15107,7 @@ Target = AllNearFoes
 FunctionCode = LowerTargetDefense1
 Flags = CanProtect,CanMirrorMove
 EffectChance = 10
-Description = Charges the enemy side of the field with arcing electrical force, with a chance to lower targets' defense.
+Description = Charges the enemy field with arcing electrical force. Chance to lower targets' defense.
 #-------------------------------
 [OVERWHELM]
 Name = Overwhelm
@@ -15344,7 +15344,7 @@ Target = NearOther
 FunctionCode = RaiseUserSpeed1
 Flags = Contact,CanProtect,CanMirrorMove,Bomb
 EffectChance = 30
-Description = The user transforms into light energy and launches itself at the foe. It has a chance to raise the user's Speed stat.
+Description = Transforms into light and launches itself at the foe. Chance to raise Speed.
 #-------------------------------
 [PRISMATICFURY]
 Name = Prismatic Fury
@@ -15452,10 +15452,10 @@ Type = GROUND
 Category = Status
 Accuracy = 100
 TotalPP = 20
-Target = AllNearFoes
+Target = NearOther
 FunctionCode = LowerTargetSpAtk2
 Flags = CanProtect,CanMirrorMove
-Description = The user chants to the earth, harshly lowering the SpAtk stat of the enemy team.
+Description = The user chants to the earth, harshly lowering the SpAtk stat of the target.
 #-------------------------------
 [BLASTFREEZE]
 Name = Blast Freeze
@@ -15492,7 +15492,7 @@ Target = NearOther
 FunctionCode = RaiseUserSpeed1
 Flags = Contact,CanProtect,CanMirrorMove,Bomb
 EffectChance = 30
-Description = The user transforms into a lightning ball and charges at the foe. It has a chance to raise the user's Speed stat.
+Description = Transforms into a lightning ball and charges at the foe. Chance to raise Speed.
 #-------------------------------
 [DIVINEJUDGMENT]
 Name = Divine Judgment
@@ -15615,7 +15615,7 @@ TotalPP = 10
 Target = User
 Priority = 4
 FunctionCode = ProtectUserBitterBastion
-Description = Protects the user from attacks. Also frostbites any attacker that hits the user with a special move.
+Description = Protects the user. Also frostbites any attacker that hits the user with a special move.
 #-------------------------------
 [POWERCYCLE]
 Name = Power Cycle
@@ -15628,7 +15628,7 @@ Target = NearOther
 FunctionCode = TypeDependsOnUserMorpekoFormRaiseUserSpeed1
 Flags = CanProtect,CanMirrorMove
 EffectChance = 100
-Description = Raises user's Speed by one stage after use. This move becomes Dark type when user is in Unpowered Mode.
+Description = Raises Speed by one stage after use. Becomes Dark type when user is in Unpowered Mode.
 #-------------------------------
 [BALANCERCHANGEREQUIRED]
 Name = Balancer Change

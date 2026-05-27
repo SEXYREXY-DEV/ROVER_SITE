@@ -2857,7 +2857,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A strong wind blows away the foe's obstacles such as Light Screen. It also lowers their evasion."
+        "Description": "A strong wind blows away the foe's hazards and lowers their evasion."
     },
     {
         "Name": "FEATHERDANCE",
@@ -3918,7 +3918,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user looses a ground-shaking quake affecting everyone around the user. Its power matches the user's level."
+        "Description": "The user looses a ground-shaking quake. It inflicts damage matching the user's level."
     },
     {
         "Name": "MUDSPORT",
@@ -8401,7 +8401,7 @@
         "Category": "Status",
         "Accuracy": 100,
         "TotalPP": 20,
-        "Target": "AllNearFoes",
+        "Target": "NearOther",
         "FunctionCode": "LowerTargetSpAtk2",
         "Flags": [
             "CanProtect",
@@ -9633,7 +9633,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks with a pillar of light that ignores the target's ability. Becomes physical if user's Atk > SpAtk."
+        "Description": "Attacks with a pillar of light that ignores the target's ability. Becomes physical if user's Atk > SpAtk."
     },
     {
         "Name": "SAFEGUARD",
@@ -11035,7 +11035,7 @@
         "TotalPP": 20,
         "Target": "User",
         "FunctionCode": "CureUserBurnPoisonParalysisFrostbite",
-        "Description": "The user flaps its wings to rid itself from impurities. Cures poisoning, burn, frostbite, or paralysis."
+        "Description": "The user flaps its wings to remove impurities. Cures poison, burn, frostbite, and paralysis."
     },
     {
         "Name": "HIVEMIND",
@@ -11106,7 +11106,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Chucks a massive pollen bomb at the target. The attack's recoil harshly reduces the user's Sp. Atk stat."
+        "Description": "Chucks a massive pollen bomb at the target. The attack's recoil harshly reduces the user's Sp. Atk."
     },
     {
         "Name": "STRAFE",
@@ -11856,7 +11856,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user stabs the target and drains their vitality. The user's HP is restored by half of damage done."
+        "Description": "Stabs the target and drains their vitality. The user's HP is restored by half of damage done."
     },
     {
         "Name": "WICKEDSTRIKE",
@@ -11889,7 +11889,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 100,
-        "Description": "The user gives off a devestating glare that intimidates the target. This lowers the target's Attack stat."
+        "Description": "Emits a devastating glare that intimidates the target. This lowers the target's Attack stat."
     },
     {
         "Name": "DRACARYS",
@@ -12809,7 +12809,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Burning projectiles are shot at the target in rapid succession. They hit two to five times in a row."
+        "Description": "Shoots fire projectiles at the target in rapid succession. They hit two to five times in a row."
     },
     {
         "Name": "FLARESWEEP",
@@ -12842,7 +12842,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user slams the target and drains heat from them. The user's HP is restored by half of damage done."
+        "Description": "Slams the target and drains heat from them. The user's HP is restored by half of damage done."
     },
     {
         "Name": "INFERNALBLADE",
@@ -13725,7 +13725,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Cleanses the battlefield of the foe's obstacles such as Light Screen. It also lowers their evasion."
+        "Description": "Cleanses the battlefield of the foe's hazards and lowers their evasion."
     },
     {
         "Name": "CONSECRATE",
@@ -16338,7 +16338,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "This attack exploits the target's fears, dealing increased damage if it's affected by status problems."
+        "Description": "Exploits the target's fears, dealing increased damage if it's affected by status problems."
     },
     {
         "Name": "SIPHON",
@@ -17182,7 +17182,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Throwing stars are launched at the target in rapid succession. They hit two to five times in a row."
+        "Description": "Launches throwing stars at the target in rapid succession. They hit two to five times in a row."
     },
     {
         "Name": "TREMOR",
@@ -17524,7 +17524,7 @@
         "Category": "Status",
         "Accuracy": 100,
         "TotalPP": 20,
-        "Target": "AllNearFoes",
+        "Target": "NearOther",
         "FunctionCode": "LowerTargetSpAtk2",
         "Flags": [
             "CanProtect",
@@ -17540,7 +17540,7 @@
         "TotalPP": 20,
         "Target": "User",
         "FunctionCode": "CureUserBurnPoisonParalysisFrostbite",
-        "Description": "The user taps into its soul to rid itself of impurities. Cures poisoning, burn, frostbite, or paralysis."
+        "Description": "The user taps into its soul to remove impurities. Cures poison, burn, frostbite, and paralysis."
     },
     {
         "Name": "STORMSHIELD",
@@ -17798,7 +17798,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A consecutive volley of sharp feathers three times that become more powerful with each successive hit."
+        "Description": "A volley of three sharp feathers that becomes more powerful with each successful hit."
     },
     {
         "Name": "STALKPREY",
@@ -17947,7 +17947,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user recites a spiteful chant that drags out another Pok\u00c3\u00a9mon in its party. In the wild the battle ends."
+        "Description": "Recites a spiteful chant that drags out another Pok\u00c3\u00a9mon in its party. In the wild the battle ends."
     },
     {
         "Name": "GHASTLYFLOOD",
@@ -18150,7 +18150,7 @@
         "Flags": [
             "CanMirrorMove"
         ],
-        "Description": "The foe is trapped in a sand pit, replacing them by another Pok\u00c3\u00a9mon in its party. In the wild the battle ends."
+        "Description": "The foe is trapped in a sand pit, replacing them by another Pok\u00c3\u00a9mon. In the wild the battle ends."
     },
     {
         "Name": "SANDSHROUD",
@@ -18436,7 +18436,7 @@
             "CanMirrorMove",
             "HighCriticalHitRate"
         ],
-        "Description": "A forceful wave of natural energy is launched at the opposing team. Critical hits land more easily."
+        "Description": "A forceful wave of energy is launched at the opposing team. Critical hits land more easily."
     },
     {
         "Name": "HARNESS",
@@ -18451,7 +18451,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Harnesses the energy of a foe for its own. The user's HP is restored by half the damage taken by the target."
+        "Description": "Harnesses the energy of a foe. The user's HP is restored by half the damage taken by the target."
     },
     {
         "Name": "BALANCEDBEAM",
@@ -18879,7 +18879,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 100,
-        "Description": "The user slams into the target with jagged spikes, lowering the target's defense by one stage if it hits."
+        "Description": "Slams into the target with jagged spikes, lowering their defense by one stage if it hits."
     },
     {
         "Name": "VANGUARD",
@@ -19020,7 +19020,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "Charges the enemy side of the field with arcing electrical force, with a chance to lower targets' defense."
+        "Description": "Charges the enemy field with arcing electrical force. Chance to lower targets' defense."
     },
     {
         "Name": "OVERWHELM",
@@ -19326,7 +19326,7 @@
             "Bomb"
         ],
         "EffectChance": 30,
-        "Description": "The user transforms into light energy and launches itself at the foe. It has a chance to raise the user's Speed stat."
+        "Description": "Transforms into light and launches itself at the foe. Chance to raise Speed."
     },
     {
         "Name": "PRISMATICFURY",
@@ -19461,13 +19461,13 @@
         "Category": "Status",
         "Accuracy": 100,
         "TotalPP": 20,
-        "Target": "AllNearFoes",
+        "Target": "NearOther",
         "FunctionCode": "LowerTargetSpAtk2",
         "Flags": [
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user chants to the earth, harshly lowering the SpAtk stat of the enemy team."
+        "Description": "The user chants to the earth, harshly lowering the SpAtk stat of the target."
     },
     {
         "Name": "BLASTFREEZE",
@@ -19515,7 +19515,7 @@
             "Bomb"
         ],
         "EffectChance": 30,
-        "Description": "The user transforms into a lightning ball and charges at the foe. It has a chance to raise the user's Speed stat."
+        "Description": "Transforms into a lightning ball and charges at the foe. Chance to raise Speed."
     },
     {
         "Name": "DIVINEJUDGMENT",
@@ -19668,7 +19668,7 @@
         "Target": "User",
         "Priority": 4,
         "FunctionCode": "ProtectUserBitterBastion",
-        "Description": "Protects the user from attacks. Also frostbites any attacker that hits the user with a special move."
+        "Description": "Protects the user. Also frostbites any attacker that hits the user with a special move."
     },
     {
         "Name": "POWERCYCLE",
@@ -19684,7 +19684,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 100,
-        "Description": "Raises user's Speed by one stage after use. This move becomes Dark type when user is in Unpowered Mode."
+        "Description": "Raises Speed by one stage after use. Becomes Dark type when user is in Unpowered Mode."
     },
     {
         "Name": "BALANCERCHANGEREQUIRED",

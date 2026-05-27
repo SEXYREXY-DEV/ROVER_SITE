@@ -10511,6 +10511,14 @@ Price = 10000
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have T.Wigglytuff hold it, and it will be able to Mega Evolve.
 #-------------------------------
+[EELEKTROSSITE]
+Name = Eelektrossite
+NamePlural = Eelektrossites
+Pocket = 6
+Price = 10000
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Eelektross hold it, and it will be able to Mega Evolve.
+#-------------------------------
 [OPENDEMONEYE]
 Name = Demonic Eye (Open)
 NamePlural = Demonic Eyes

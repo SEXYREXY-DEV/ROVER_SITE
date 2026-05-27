@@ -8755,7 +8755,7 @@
                     "ROCKSMASH",
                     "PLAYNICE",
                     "CUPIDSARROW",
-                    "BARRAGE"
+                    "FAKEOUT"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 0,
@@ -9227,9 +9227,8 @@
                     "OVERFLOW",
                     "PURSUIT"
                 ],
-                "Nature": "BOLD",
+                "Nature": "MODEST",
                 "AbilityIndex": 2,
-                "Item": "DARKGEM",
                 "IV": [
                     16,
                     16,
@@ -9238,7 +9237,7 @@
                     16,
                     16
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "0,0,252,252,0,0",
                 "Ball": "GREATBALL"
             }
         ]
@@ -15378,18 +15377,18 @@
                 "Ball": "GREATBALL"
             },
             {
-                "Species": "OINKOLOGNE",
+                "Species": "ELDEGOSS",
                 "Level": 70,
-                "Gender": "male",
+                "Gender": "female",
                 "Moves": [
-                    "ZENHEADBUTT",
-                    "HORNLEECH",
-                    "ROCKSLIDE",
-                    "EXECUTION"
+                    "GIGADRAIN",
+                    "FOULPLAY",
+                    "SPORE",
+                    "VITALITYDRAIN"
                 ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 2,
-                "Item": "ASSAULTVEST",
+                "Nature": "MODEST",
+                "AbilityIndex": 1,
+                "Item": "TANGABERRY",
                 "IV": [
                     31,
                     31,
@@ -15398,8 +15397,7 @@
                     31,
                     31
                 ],
-                "EV": "252,252,0,0,0,0",
-                "Ball": "ULTRABALL"
+                "EV": "252,0,0,0,252,0"
             },
             {
                 "Species": "CONKELDURR",
@@ -18636,18 +18634,18 @@
                 "EV": "252,0,0,0,252,0"
             },
             {
-                "Species": "ELDEGOSS",
+                "Species": "OINKOLOGNE",
                 "Level": 75,
-                "Gender": "female",
+                "Gender": "male",
                 "Moves": [
-                    "LEECHSEED",
-                    "FOULPLAY",
-                    "SPORE",
-                    "PROTECT"
+                    "ZENHEADBUTT",
+                    "HORNLEECH",
+                    "ROCKSLIDE",
+                    "EXECUTION"
                 ],
-                "Nature": "BOLD",
-                "AbilityIndex": 0,
-                "Item": "TOXICORB",
+                "Nature": "ADAMANT",
+                "AbilityIndex": 2,
+                "Item": "ASSAULTVEST",
                 "IV": [
                     31,
                     31,
@@ -18656,7 +18654,8 @@
                     31,
                     31
                 ],
-                "EV": "252,0,252,0,0,0"
+                "EV": "0,252,0,252,0,0",
+                "Ball": "ULTRABALL"
             },
             {
                 "Species": "JUMPLUFF2",
@@ -27578,17 +27577,17 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "DODRIO",
+                "Species": "EELEKTROSS",
                 "Level": 107,
                 "Moves": [
-                    "MOONBLAST",
-                    "AERIALPULSE",
-                    "NASTYPLOT",
-                    "STRANGESTEAM"
+                    "COIL",
+                    "PINMISSILE",
+                    "BONERUSH",
+                    "ROCKBLAST"
                 ],
-                "Nature": "MODEST",
-                "AbilityIndex": 2,
-                "Item": "DODRINITE",
+                "Nature": "JOLLY",
+                "AbilityIndex": 1,
+                "Item": "EELEKTROSSITE",
                 "IV": [
                     31,
                     31,
@@ -27597,7 +27596,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,0,252,0,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "ULTRABALL"
             },
             {
@@ -28092,18 +28091,18 @@
         "LoseText": "My flame has been extinguished...",
         "Pokemon": [
             {
-                "Species": "PINCURCHIN2",
+                "Species": "ABOMASNOW2",
                 "Level": 108,
                 "Gender": "male",
                 "Moves": [
-                    "SHOREUP",
-                    "UTURN",
-                    "TOXIC",
-                    "STEALTHROCK"
+                    "BOMBARDMENT",
+                    "MINDBLOWN",
+                    "FORTISSIMO",
+                    "EARTHQUAKE"
                 ],
-                "Nature": "CALM",
-                "AbilityIndex": 2,
-                "Item": "LEFTOVERS",
+                "Nature": "RASH",
+                "AbilityIndex": 1,
+                "Item": "LIFEORB",
                 "IV": [
                     31,
                     31,
@@ -28112,7 +28111,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,252,0,0,0",
+                "EV": "252,252,0,0,0,0",
                 "Ball": "ULTRABALL"
             },
             {
@@ -31484,7 +31483,7 @@
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 2,
-                "Item": "CHOICESCARF",
+                "Item": "CHOICEBAND",
                 "IV": [
                     31,
                     31,
@@ -36276,7 +36275,7 @@
                 "Level": 26
             },
             {
-                "Species": "GROVYLE",
+                "Species": "SNOVER2",
                 "Level": 26
             },
             {
@@ -38652,7 +38651,7 @@
                 "Level": 38
             },
             {
-                "Species": "NUZLEAF",
+                "Species": "SNOVER2",
                 "Level": 38
             }
         ]
@@ -46187,7 +46186,7 @@
                 "Level": 62
             },
             {
-                "Species": "FERALIGATR2",
+                "Species": "ABOMASNOW2",
                 "Level": 62
             },
             {
@@ -49502,7 +49501,8 @@
             },
             {
                 "Species": "GOSSIFLEUR",
-                "Level": 68
+                "Level": 68,
+                "Item": "EVIOLITE"
             },
             {
                 "Species": "DUBWOOL",
@@ -53014,7 +53014,7 @@
                 "Level": 85
             },
             {
-                "Species": "MABOSSTIFF",
+                "Species": "ABOMASNOW2",
                 "Level": 85
             }
         ]
@@ -56246,7 +56246,7 @@
         "LoseText": "No… my guard slipped.",
         "Pokemon": [
             {
-                "Species": "SUNFLORA",
+                "Species": "ABOMASNOW2",
                 "Level": 98
             },
             {
@@ -60213,7 +60213,7 @@
         "LoseText": "How did I capitulate so easily to this taint?",
         "Pokemon": [
             {
-                "Species": "MIENSHAO",
+                "Species": "ABOMASNOW2",
                 "Level": 117
             },
             {

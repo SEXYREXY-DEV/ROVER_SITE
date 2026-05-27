@@ -1390,6 +1390,11 @@
         "FullDesc": "User's Fire-type moves deal 1.5x damage. Stacks multiplicatively with STAB."
     },
     {
+        "Name": "Funeral Pyre",
+        "Description": "Powers up Ghost & Fire-type moves.",
+        "FullDesc": "User's Ghost-type and Fire-type moves deal 2x damage. Stacks multiplicatively with STAB."
+    },
+    {
         "Name": "Vengeful",
         "Description": "Ups Atk and Speed if a hit makes its HP <50%."
     },

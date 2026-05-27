@@ -358,6 +358,14 @@ BaseStats = 85,50,60,105,135,115
 Abilities = DAZZLING
 HiddenAbilities = DAZZLING
 #-------------------------------
+[EELEKTROSS,1]
+Flags = RaidBoss
+FormName = Mega Eelektross
+MegaStone = EELEKTROSSITE
+BaseStats = 85,125,130,85,95,95
+Abilities = SKILLLINK
+HiddenAbilities = SKILLLINK
+#-------------------------------
 [FURRET,1]
 Flags = RaidBoss
 FormName = Mega Furret
@@ -432,11 +440,11 @@ HiddenAbilities = GENIUS
 [MEOWSTIC,2]
 Flags = RaidBoss
 FormName = Mega Meowstic
-Types = PSYCHIC,GHOST
+Types = PSYCHIC
 MegaStone = MEOWSTICITE
-BaseStats = 74,104,80,124,104,80
-Abilities = ARSONIST
-HiddenAbilities = ARSONIST
+BaseStats = 74,109,70,134,109,70
+Abilities = FUNERALPYRE
+HiddenAbilities = FUNERALPYRE
 #-------------------------------
 [PIDGEOT,1]
 Flags = RaidBoss

@@ -662,6 +662,21 @@
         "HiddenAbilities": "DAZZLING"
     },
     {
+        "BaseName": "EELEKTROSS",
+        "FormName": "Mega Eelektross",
+        "BaseStats": [
+            "85",
+            "125",
+            "130",
+            "85",
+            "95",
+            "95"
+        ],
+        "HiddenAbility": "SKILLLINK",
+        "Abilities": "SKILLLINK",
+        "HiddenAbilities": "SKILLLINK"
+    },
+    {
         "BaseName": "FURRET",
         "FormName": "Mega Furret",
         "BaseStats": [
@@ -800,19 +815,18 @@
         "BaseName": "MEOWSTIC",
         "FormName": "Mega Meowstic",
         "Type1": "PSYCHIC",
-        "Type2": "GHOST",
-        "Types": "PSYCHIC,GHOST",
+        "Types": "PSYCHIC",
         "BaseStats": [
             "74",
-            "104",
-            "80",
-            "124",
-            "104",
-            "80"
+            "109",
+            "70",
+            "134",
+            "109",
+            "70"
         ],
-        "HiddenAbility": "ARSONIST",
-        "Abilities": "ARSONIST",
-        "HiddenAbilities": "ARSONIST"
+        "HiddenAbility": "FUNERALPYRE",
+        "Abilities": "FUNERALPYRE",
+        "HiddenAbilities": "FUNERALPYRE"
     },
     {
         "BaseName": "PIDGEOT",
