@@ -202,6 +202,30 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       loadNext();
     }
 
+    function parseCommaList(field) {
+      if (Array.isArray(field)) {
+        return field.map(item => String(item).trim()).filter(Boolean);
+      }
+      if (typeof field === 'string' && field.trim()) {
+        return field.split(',').map(item => item.trim()).filter(Boolean);
+      }
+      return [];
+    }
+
+    function isHiddenAbilityFieldMoveList(field, pokemon) {
+      const tokens = parseCommaList(field).map(t => t.toUpperCase());
+      if (!tokens.length) return false;
+
+      const moveTokens = new Set([
+        ...parseCommaList(pokemon.Moves),
+        ...parseCommaList(pokemon.TutorMoves),
+        ...parseCommaList(pokemon.EggMoves)
+      ].map(m => m.toUpperCase()));
+
+      const matches = tokens.filter(token => moveTokens.has(token));
+      return matches.length >= Math.max(1, tokens.length - 1);
+    }
+
     function buildFormImageSources(baseInternalName, formIndex, maxForms) {
       const baseName = baseInternalName.replace(/T$/, '');
       const match = baseName.match(/^(.*)_(\d+)$/);
@@ -375,6 +399,19 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
           formAbilities.innerHTML = `<p><strong>Abilities:</strong> ${form.Abilities}</p>`;
           formCard.appendChild(formAbilities);
 
+          const formHiddenAbilityValue = form.HiddenAbilities || form.HiddenAbility;
+          const formHiddenAbilityTokens = parseCommaList(formHiddenAbilityValue).map(t => t.toUpperCase());
+          const formAbilitiesList = parseCommaList(form.Abilities).map(a => a.toUpperCase());
+          if (
+            formHiddenAbilityTokens.length &&
+            !isHiddenAbilityFieldMoveList(formHiddenAbilityValue, { ...pokemon, ...form }) &&
+            !formHiddenAbilityTokens.some(token => formAbilitiesList.includes(token))
+          ) {
+            const formHiddenAbilities = document.createElement('div');
+            formHiddenAbilities.innerHTML = `<p><strong>Hidden Ability:</strong> ${formHiddenAbilityValue}</p>`;
+            formCard.appendChild(formHiddenAbilities);
+          }
+
           const formStats = document.createElement('ul');
           statDisplayOrder.forEach(idx => {
             const label = statLabels[idx];
@@ -397,15 +434,6 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
           formCard.appendChild(formTitle);
           formCard.appendChild(formTypes);
           formCard.appendChild(formAbilities);
-          const formHiddenAbilityValue = form.HiddenAbilities || form.HiddenAbility;
-          if (
-            formHiddenAbilityValue &&
-            !(form.Abilities || []).includes(formHiddenAbilityValue)
-          ) {
-            const formHiddenAbilities = document.createElement('div');
-            formHiddenAbilities.innerHTML = `<p><strong>Hidden Ability:</strong> ${formHiddenAbilityValue}</p>`;
-            formCard.appendChild(formHiddenAbilities);
-          }
           formCard.appendChild(formStats);
           formsWrapper.appendChild(formCard);
         });

@@ -224,6 +224,12 @@ function normalizeAbilityName(name) {
   return name ? String(name).replace(/\s+/g, '').toLowerCase() : '';
 }
 
+function isKnownAbilityName(name) {
+  if (!name) return false;
+  const normalized = normalizeAbilityName(name);
+  return allAbilities.some(a => a && a.Name && normalizeAbilityName(a.Name) === normalized);
+}
+
 function parseAbilityField(field) {
   if (Array.isArray(field)) {
     return field.map(item => String(item).trim()).filter(Boolean);
@@ -232,13 +238,13 @@ function parseAbilityField(field) {
     return [];
   }
 
-  const values = field.split(',').map(item => item.trim()).filter(Boolean);
-  const looksLikeMoveSequence = values.length >= 4 && /^\*?\d+$/.test(values[0]) && /^\d+$/.test(values[2]);
-  if (looksLikeMoveSequence) {
-    return [];
-  }
+  return field.split(',').map(item => item.trim()).filter(Boolean);
+}
 
-  return values;
+function parseHiddenAbilityField(field) {
+  const values = parseAbilityField(field);
+  if (!values.length) return [];
+  return values.some(isKnownAbilityName) ? values : [];
 }
 
 function setSpriteImage(img, spriteType, baseInternalName, formIndex) {
@@ -323,9 +329,9 @@ function renderMainInfo(pokemon, selectedFormIndex = 0) {
   abilitiesEl.id = 'abilities';
   const abilities = parseAbilityField(pokemon.Abilities);
 
-  let hiddenAbilities = parseAbilityField(pokemon.HiddenAbilities);
+  let hiddenAbilities = parseHiddenAbilityField(pokemon.HiddenAbilities);
   if (!hiddenAbilities.length) {
-    hiddenAbilities = parseAbilityField(pokemon.HiddenAbility);
+    hiddenAbilities = parseHiddenAbilityField(pokemon.HiddenAbility);
   }
 
   let html = `<div class="abilities-title">Abilities:</div>`;
