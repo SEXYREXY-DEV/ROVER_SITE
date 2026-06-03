@@ -220,6 +220,10 @@ function renderFormSelector(original) {
   });
 }
 
+function normalizeAbilityName(name) {
+  return name ? String(name).replace(/\s+/g, '').toLowerCase() : '';
+}
+
 function parseAbilityField(field) {
   if (Array.isArray(field)) {
     return field.map(item => String(item).trim()).filter(Boolean);
@@ -229,7 +233,7 @@ function parseAbilityField(field) {
   }
 
   const values = field.split(',').map(item => item.trim()).filter(Boolean);
-  const looksLikeMoveSequence = values.length >= 4 && /^\ *\d+$/.test(values[0]) && /^\d+$/.test(values[2]);
+  const looksLikeMoveSequence = values.length >= 4 && /^\*?\d+$/.test(values[0]) && /^\d+$/.test(values[2]);
   if (looksLikeMoveSequence) {
     return [];
   }
@@ -313,10 +317,6 @@ function renderMainInfo(pokemon, selectedFormIndex = 0) {
       typeImg.className = 'type-icon';
       typesContainer.appendChild(typeImg);
     });
-  }
-
-  function normalizeAbilityName(name) {
-    return name ? name.replace(/\s+/g, '').toLowerCase() : '';
   }
 
   const abilitiesEl = document.createElement('div');
