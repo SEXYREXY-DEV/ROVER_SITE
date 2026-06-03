@@ -73,6 +73,14 @@
     window.game = queryGame ? queryGame.toLowerCase() : 'ss2';
     const displayGame = queryGame ? queryGame.charAt(0).toUpperCase() + queryGame.slice(1) : 'SS2';
     document.getElementById('page-title').textContent = displayGame + ' Trainer Viewer';
+    
+    // Hide trainer filter options if not ss2
+    const filterContainer = document.getElementById('trainer-number-filter-container');
+    const guideContainer = document.getElementById('trainer-guide-container');
+    if (window.game !== 'ss2') {
+      if (filterContainer) filterContainer.style.display = 'none';
+      if (guideContainer) guideContainer.style.display = 'none';
+    }
   </script>
 
   <script src="trainer_viewer.js"></script>

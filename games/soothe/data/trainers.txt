@@ -1,0 +1,287 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[CAMPER,Liam]
+LoseText = A very good battle, indeed!
+Pokemon = DIGLETT,10
+Pokemon = BONSLY,11
+#-------------------------------
+[BIRDKEEPER,Darren]
+LoseText = Hmmm. Now that I've lost i feel free.
+Pokemon = PIDGEY,5
+Pokemon = STARLY,6
+#-------------------------------
+[BUGCATCHER,Archie]
+LoseText = This place is perfect for bug catching.
+Pokemon = NINCADA,4
+Pokemon = SPINARAK,5
+#-------------------------------
+[HIKER,Max]
+LoseText = But our defenses.
+Pokemon = MUDBRAY,6
+#-------------------------------
+[BLACKBELT,Brian]
+LoseText = Maybe i should work on my defense.
+Pokemon = MACHOP,5
+Pokemon = TYROGUE,6
+#-------------------------------
+[BEAUTY,Brea]
+LoseText = My Snivy!
+Pokemon = SNIVY,7
+#-------------------------------
+[SPIRITOMB,Spiritomb]
+LoseText = ...
+Pokemon = SPIRITOMB,14
+    Moves = SHADOWBALL,CALMMIND,DARKPULSE,IRONDEFENSE
+    Ability = CURSEDBODY
+    Item = LAGGINGTAIL
+    EV = 252,0,252,0,0,0
+    Shadow = true
+Pokemon = ZUBAT,10
+#-------------------------------
+[OLIVIA,Olivia]
+LoseText = ...
+Pokemon = ABSOL,14
+    Moves = DETECT,FALSESWIPE,KNOCKOFF,QUICKATTACK
+    Ability = SUPERLUCK
+    Ball = SAFARIBALL
+Pokemon = TRAPINCH,14
+    Moves = MUDSLAP,ROCKTOMB,SANDTOMB,QUICKATTACK
+    Ability = HYPERCUTTER
+    Item = EVIOLITE
+    IV = 0,31,0,0,0,0
+    EV = 0,252,0,0,0,0
+    Ball = SAFARIBALL
+#-------------------------------
+[LEADER_Brock,Brock]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Very good.
+Pokemon = GEODUDE,12
+    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
+    AbilityIndex = 0
+    Gender = male
+    IV = 20,20,20,20,20,20
+Pokemon = ONIX,14
+    Name = Rocky
+    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    AbilityIndex = 0
+    Item = SITRUSBERRY
+    Gender = male
+    IV = 20,20,20,20,20,20
+    Shiny = true
+    Ball = HEAVYBALL
+#-------------------------------
+[LEADER_Blanca,Blanca]
+Items = POTION,POTION
+LoseText = ...
+Pokemon = DOTTLER,12
+    Moves = REFLECT,LIGHTSCREEN
+    AbilityIndex = 0
+    Item = FOCUSSASH
+    Gender = male
+    IV = 10,10,10,10,10,10
+    Shiny = true
+Pokemon = VIVILLON,13
+    Form = 11
+    Moves = STRUGGLEBUG,GUST,STUNSPORE,POISONPOWDER
+    AbilityIndex = 1
+    Item = SITRUSBERRY
+    Gender = female
+    IV = 10,10,10,10,10,10
+Pokemon = BEAUTIFLY,14
+    Moves = NIGHTSLASH,QUICKATTACK,FURYCUTTER,WINGATTACK
+    AbilityIndex = 0
+    Item = METRONOME
+    Gender = female
+    IV = 10,10,10,10,10,10
+    Shiny = true
+#-------------------------------
+[TEAMROCKET_M,Grunt,1]
+LoseText = You're too good for me!
+Pokemon = WEEPINBELL,14
+    Shadow = true
+#-------------------------------
+[TEAMROCKET_F,Grunt,1]
+LoseText = You're too good for me!
+Pokemon = BURMY,14
+Pokemon = WINGULL,14
+Pokemon = ELECTABUZZ,14
+    Shadow = true
+#-------------------------------
+[POKEMONTRAINER_Rio,Rio]
+LoseText = ...
+Pokemon = ROOKIDEE,9
+    Ball = GREATBALL
+Pokemon = DUSKULL,10
+    Ball = DUSKBALL
+#-------------------------------
+[YOUNGSTER,Ben]
+LoseText = Aww, I lost.
+Pokemon = RATTATA,11
+Pokemon = EKANS,11
+#-------------------------------
+[YOUNGSTER,Timmy]
+LoseText = How come I loose to you as well!
+Pokemon = CHARMANDER,5
+#-------------------------------
+[CAMPER,Jeff]
+LoseText = A very good battle, indeed!
+Pokemon = SPEAROW,14
+Pokemon = SENTRET,14
+#-------------------------------
+[CAMPER,Jeff,1]
+LoseText = You beat me again!
+Pokemon = FEAROW,14
+Pokemon = FURRET,14
+#-------------------------------
+[CAMPER,Jake]
+LoseText = ...
+Pokemon = BULBASAUR,6
+#-------------------------------
+[BUGCATCHER,Jay]
+LoseText = Looks like I'll need to metamorphosize if i don't want to loose again.
+Pokemon = SKORUPI,10
+#-------------------------------
+[BUGCATCHER,Ryland]
+LoseText = If i get fired I'll have to go back up north.
+Pokemon = SEWADDLE,10
+Pokemon = VENIPEDE,11
+#-------------------------------
+[BUGCATCHER,Mark]
+LoseText = I should've evolved my entire team..
+Pokemon = METAPOD,10
+Pokemon = KAKUNA,11
+Pokemon = BUTTERFREE,12
+#-------------------------------
+[PICNICKER,Susie]
+LoseText = Defeated! Oh my!
+Pokemon = MEOWTH,14
+#-------------------------------
+[PICNICKER,Susie,1]
+LoseText = Defeated! Oh my!
+Pokemon = PERSIAN,14
+#-------------------------------
+[HIKER,Ford]
+LoseText = You're too good for me!
+Pokemon = MACHOP,14
+#-------------------------------
+[FISHERMAN,Andrew]
+LoseText = Washed out!
+Pokemon = MAGIKARP,14
+Pokemon = MAGIKARP,14
+#-------------------------------
+[FISHERMAN,Kyle]
+LoseText = You burst MY Bubble!!!
+Pokemon = SQUIRTLE,5
+#-------------------------------
+[BEAUTY,Bridget]
+LoseText = My Skitty!
+Pokemon = SKITTY,14
+#-------------------------------
+[LASS,Crissy]
+LoseText = You didn't have to win so convincingly!
+Pokemon = PLUSLE,14
+Pokemon = MINUN,14
+#-------------------------------
+[COOLCOUPLE,Alice & Bob]
+LoseText = Our teamwork failed!
+Pokemon = TURTWIG,14
+Pokemon = CHIMCHAR,14
+#-------------------------------
+[POKEMONTRAINER_May,May]
+LoseText = ...
+Pokemon = COMBUSKEN,14
+#-------------------------------
+[SWIMMER2_F,Ariel]
+LoseText = Washed out!
+Pokemon = STARYU,14
+Pokemon = GOLDEEN,11
+#-------------------------------
+[RIVAL1,Blue]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,14
+Pokemon = RATTATA,14
+Pokemon = BULBASAUR,14
+#-------------------------------
+[RIVAL1,Blue,1]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,14
+Pokemon = RATTATA,14
+Pokemon = CHARMANDER,14
+#-------------------------------
+[RIVAL1,Blue,2]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,14
+Pokemon = RATTATA,14
+Pokemon = SQUIRTLE,14
+#-------------------------------
+[CHAMPION,Blue]
+LoseText = A good battle indeed!
+Pokemon = VENUSAUR,14
+    Item = SITRUSBERRY
+Pokemon = CHARIZARD,14
+    Item = SITRUSBERRY
+Pokemon = BLASTOISE,14
+    Item = SITRUSBERRY
+#-------------------------------
+[CAMPER,Bobby]
+Items = POWERHERB
+LoseText = ...
+Pokemon = BULBASAUR,5
+#-------------------------------
+[REDWOOD,Redwood]
+LoseText = Interesting.
+Pokemon = MANKEY,11
+    Ball = HEALBALL
+Pokemon = HATENNA,11
+    Ball = HEALBALL
+Pokemon = SOBBLE,12
+    Ball = HEALBALL
+#-------------------------------
+[YOUNGSTER,Houdini]
+LoseText = Stop shattering my dreams.
+Pokemon = YAMASK,3
+    Form = 2
+Pokemon = SKRELP,5
+#-------------------------------
+[HIKER,Reagan]
+LoseText = My partner!
+Pokemon = SKIDDO,4
+#-------------------------------
+[ANGEREDPOLLUTANTS,Trubbish and Tangela]
+LoseText = ...
+Pokemon = TRUBBISH,13
+Pokemon = TANGELA,13
+#-------------------------------
+[ENRAGEDPOLLUTANTS,Garbodor and Tangrowth]
+LoseText = ...
+Pokemon = TANGROWTH,10
+Pokemon = GARBODOR,14
+Pokemon = TANGROWTH,14
+#-------------------------------
+[BEAUTY,Molly]
+LoseText = ...
+Pokemon = DROWZEE,14
+#-------------------------------
+[BURGLAR,Flipper]
+LoseText = You're gonna make me flip.
+Pokemon = VOLTORB,8
+Pokemon = VOLTORB,8
+Pokemon = VOLTORB,8
+#-------------------------------
+[FISHERMAN,Connor,2]
+LoseText = ...
+Pokemon = SQUIRTLE,12
+    Item = NUGGET
+Pokemon = MEOWTH,13
+    Moves = PAYDAY
+    Item = LUCKINCENSE
+Pokemon = CLAMPERL,14
+    Item = PEARL
+Pokemon = GIMMIGHOUL,14
+    Item = AMULETCOIN
+#-------------------------------
+[FISHERMAN,Connor,1]
+LoseText = ...
+Pokemon = SQUIRTLE,3
+Pokemon = MEOWTH,4
+Pokemon = GIMMIGHOUL,5

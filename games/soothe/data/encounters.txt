@@ -1,0 +1,128 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[004,1] # Oxyrus Lake
+Land,21
+    20,VENONAT,9,11
+    10,PATRAT,7,10
+    10,ARON,8,11
+    10,DRILBUR,8,10
+    10,STARLY,7,11
+#-------------------------------
+[022] # Serene Village
+Land,21
+    20,FIDOUGH,2,5
+    20,LILLIPUP,5
+    20,LITLEO,2,3
+    20,PIDGEY,2,3
+    20,STARLY,2,4
+    6,SEEDOT,5
+#-------------------------------
+[032] # Route 1
+Land,15
+    30,PIDGEY,2,4
+    20,FIDOUGH,2,5
+    20,SKIDDO,3,5
+    20,WURMPLE,3,4
+    15,SHINX,2,5
+    15,ZIGZAGOON,1,4
+    5,FLABEBE_1,1,3
+    5,FLABEBE_2,1,3
+    5,FLABEBE_3,1,3
+    5,FLABEBE_4,1,3
+    4,EKANS,4,5
+Water,2
+    20,SLOWPOKE,5
+#-------------------------------
+[048] # Feldspar Forest
+Land,21
+    30,SCATTERBUG,3,5
+    30,SKWOVET,4,6
+    30,WURMPLE,3,5
+    20,CATERPIE,4,5
+    20,LEDYBA,4,5
+    20,PIKIPEK,3,5
+    20,WEEDLE,4,5
+    5,CUBBY,3,5
+#-------------------------------
+[086] # Hall of champions
+Cave,1
+    40,YAMASK,12,13
+    20,DUSKULL,10,14
+    20,GASTLY,14
+    20,JOLTIK,8,13
+    20,LITWICK,11,14
+    20,RATTATA,12,14
+    20,ZUBAT,12,13
+    15,SPINARAK,10,12
+    10,DRILBUR,10,14
+    10,GOLETT,14
+    10,MISDREAVUS,14
+    5,UNOWN,1
+    1,SHEDINJA,14
+#-------------------------------
+[088] # Catacombs BF1
+Cave,1
+    40,YAMASK,12,13
+    20,DUSKULL,10,14
+    20,GASTLY,14
+    20,JOLTIK,8,13
+    20,LITWICK,11,14
+    20,RATTATA,12,14
+    20,ZUBAT,12,13
+    15,SPINARAK,10,12
+    10,DRILBUR,10,14
+    10,GOLETT,14
+    10,MISDREAVUS,14
+    5,UNOWN,1
+    1,SHEDINJA,14
+#-------------------------------
+[089] # Catacombs BF2
+Cave,1
+    40,YAMASK,12,13
+    20,DUSKULL,10,14
+    20,GASTLY,14
+    20,JOLTIK,8,13
+    20,LITWICK,11,14
+    20,RATTATA,12,14
+    20,ZUBAT,12,13
+    15,SPINARAK,10,12
+    10,DRILBUR,10,14
+    10,GOLETT,14
+    10,MISDREAVUS,14
+    5,UNOWN,1
+    1,SHEDINJA,14
+#-------------------------------
+[101] # Feldspar Forest
+Land,21
+    30,SCATTERBUG,6,8
+    30,SKWOVET,6,8
+    30,WURMPLE,7,9
+    20,CATERPIE,7,9
+    20,LEDYBA,7,9
+    20,SPINARAK,7,8
+    20,WEEDLE,7,9
+    15,FOONGUS,5,7
+    10,CUBBY,8,11
+#-------------------------------
+[102] # Feldspar Forest
+Land,21
+    30,SCATTERBUG,6,8
+    30,SKWOVET,6,8
+    30,WURMPLE,7,9
+    20,CATERPIE,7,9
+    20,CUBBY,8,11
+    20,LEDYBA,7,9
+    20,SPINARAK,7,8
+    20,WEEDLE,7,9
+    15,FOONGUS,5,7
+#-------------------------------
+[110] # Route 02
+Land,15
+    30,STARLY,6,8
+    20,PIDGEY,4,8
+    20,WURMPLE,5,7
+    15,PIKIPEK,7,8
+    15,SUNKERN,4,6
+    15,WIMPOD,5,10
+    15,ZIGZAGOON,5,7
+    1,EEVEE,4,5

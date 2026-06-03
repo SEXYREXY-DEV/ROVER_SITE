@@ -31,7 +31,8 @@
     },
     {
         "Name": "Battle Armor",
-        "Description": "Prevents crits and 1.2x Pok\u00c3\u00a9mon's SpDef stat."
+        "Description": "Prevents crits and 1.2x Pok\u00c3\u00a9mon's SpDef stat.",
+        "FullDesc": "Attacks against the user will never be critical hits. User has 1.2x Special Defense against special moves."
     },
     {
         "Name": "Sturdy",
@@ -371,7 +372,8 @@
     },
     {
         "Name": "Shell Armor",
-        "Description": "Prevents crits and 1.2x Pok\u00c3\u00a9mon's Defense stat."
+        "Description": "Prevents crits and 1.2x Pok\u00c3\u00a9mon's Defense stat.",
+        "FullDesc": "Attacks against the user will never be critical hits. User has 1.2x Defense against physical moves."
     },
     {
         "Name": "Air Lock",
@@ -670,7 +672,8 @@
     },
     {
         "Name": "Telepathy",
-        "Description": "Anticipates an ally's attack and dodges it."
+        "Description": "Anticipates an ally's attack and dodges it.",
+        "FullDesc": "Dodges damaging spread moves an ally uses that hits the user."
     },
     {
         "Name": "Moody",
@@ -680,7 +683,7 @@
     {
         "Name": "Overcoat",
         "Description": "Prevents weather damage and 1.1x Def/SpDef stats.",
-        "FullDesc": "User is immune to damage from Hail and Sandstorm and has 1.1x Defense and Special Defense. Also gives user immunity to moves with the Powder tag."
+        "FullDesc": "User is immune to damage from Hail and Sandstorm, and has 1.1x Defense/Special Defense against physical/special moves respectively. Also gives user immunity to moves with the Powder tag."
     },
     {
         "Name": "Poison Touch",
@@ -735,7 +738,8 @@
     },
     {
         "Name": "Justified",
-        "Description": "Raises both attack stats when hit by a Dark-type move."
+        "Description": "Raises both attack stats when hit by a Dark-type move.",
+        "FullDesc": "Raises Attack and Special Attack when hit by a Dark-type move."
     },
     {
         "Name": "Rattled",
@@ -938,7 +942,7 @@
     {
         "Name": "Stakeout",
         "Description": "Deals 30% more damage on target's first turn.",
-        "FullDesc": "User deals 30% more damage to the target if it is the target's first turn on the field. Also applies on the turn the target switches in (turn 0)."
+        "FullDesc": "User deals 30% more damage to the target if it is their first turn on the field. Also applies on the turn the target switches in (turn 0)."
     },
     {
         "Name": "Water Bubble",
@@ -987,7 +991,8 @@
     },
     {
         "Name": "Disguise",
-        "Description": "Its shroud protects it from an attack just once."
+        "Description": "Its shroud protects it from an attack just once.",
+        "FullDesc": "Protects the user from an opposing attack or self-inflicted confusion hit just once, only taking 1/8th damage."
     },
     {
         "Name": "Battle Bond",
@@ -1244,7 +1249,8 @@
     },
     {
         "Name": "Honey Gather",
-        "Description": "Gradually regains 1/16 max HP each turn."
+        "Description": "Gradually regains 1/16 max HP each turn.",
+        "FullDesc": "Gradually regains 1/16 max HP each turn. After a battle, the user has a 5% chance for every 10 levels to generate Honey if they are not already holding an item."
     },
     {
         "Name": "Charisma",
@@ -1345,7 +1351,8 @@
     },
     {
         "Name": "Sharp Shooter",
-        "Description": "All non-contact moves always hit their target."
+        "Description": "All non-contact moves always hit their target.",
+        "FullDesc": "All of the user's damaging moves that do not make contact become never-miss moves, skip accuracy checks, and ignore misdirection from effects such as Follow Me and abilities like Lightning Rod."
     },
     {
         "Name": "Cannon Fire",
@@ -1377,7 +1384,7 @@
     {
         "Name": "Winter Gift",
         "Description": "Powers up party's SpAtk/SpDef in hail.",
-        "FullDesc": "When user is on the field, all allies including user get 1.5x Special Attack and Special Defense during Hail. User takes no damage from Hail."
+        "FullDesc": "User changes to its Hailing form when it's Hailing. When user is on the field, all allies including user get 1.5x Special Attack and Special Defense during Hail. User takes no damage from Hail."
     },
     {
         "Name": "Tormented",

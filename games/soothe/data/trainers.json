@@ -1,0 +1,822 @@
+[
+    {
+        "Type": "CAMPER",
+        "Name": "Liam",
+        "LoseText": "A very good battle, indeed!",
+        "Pokemon": [
+            {
+                "Species": "DIGLETT",
+                "Level": 10
+            },
+            {
+                "Species": "BONSLY",
+                "Level": 11
+            }
+        ]
+    },
+    {
+        "Type": "BIRDKEEPER",
+        "Name": "Darren",
+        "LoseText": "Hmmm. Now that I've lost i feel free.",
+        "Pokemon": [
+            {
+                "Species": "PIDGEY",
+                "Level": 5
+            },
+            {
+                "Species": "STARLY",
+                "Level": 6
+            }
+        ]
+    },
+    {
+        "Type": "BUGCATCHER",
+        "Name": "Archie",
+        "LoseText": "This place is perfect for bug catching.",
+        "Pokemon": [
+            {
+                "Species": "NINCADA",
+                "Level": 4
+            },
+            {
+                "Species": "SPINARAK",
+                "Level": 5
+            }
+        ]
+    },
+    {
+        "Type": "HIKER",
+        "Name": "Max",
+        "LoseText": "But our defenses.",
+        "Pokemon": [
+            {
+                "Species": "MUDBRAY",
+                "Level": 6
+            }
+        ]
+    },
+    {
+        "Type": "BLACKBELT",
+        "Name": "Brian",
+        "LoseText": "Maybe i should work on my defense.",
+        "Pokemon": [
+            {
+                "Species": "MACHOP",
+                "Level": 5
+            },
+            {
+                "Species": "TYROGUE",
+                "Level": 6
+            }
+        ]
+    },
+    {
+        "Type": "BEAUTY",
+        "Name": "Brea",
+        "LoseText": "My Snivy!",
+        "Pokemon": [
+            {
+                "Species": "SNIVY",
+                "Level": 7
+            }
+        ]
+    },
+    {
+        "Type": "SPIRITOMB",
+        "Name": "Spiritomb",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "SPIRITOMB",
+                "Level": 14,
+                "Moves": [
+                    "SHADOWBALL",
+                    "CALMMIND",
+                    "DARKPULSE",
+                    "IRONDEFENSE"
+                ],
+                "Ability": "CURSEDBODY",
+                "Item": "LAGGINGTAIL",
+                "EV": "252,0,252,0,0,0",
+                "Shadow": "true"
+            },
+            {
+                "Species": "ZUBAT",
+                "Level": 10
+            }
+        ]
+    },
+    {
+        "Type": "OLIVIA",
+        "Name": "Olivia",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "ABSOL",
+                "Level": 14,
+                "Moves": [
+                    "DETECT",
+                    "FALSESWIPE",
+                    "KNOCKOFF",
+                    "QUICKATTACK"
+                ],
+                "Ability": "SUPERLUCK",
+                "Ball": "SAFARIBALL"
+            },
+            {
+                "Species": "TRAPINCH",
+                "Level": 14,
+                "Moves": [
+                    "MUDSLAP",
+                    "ROCKTOMB",
+                    "SANDTOMB",
+                    "QUICKATTACK"
+                ],
+                "Ability": "HYPERCUTTER",
+                "Item": "EVIOLITE",
+                "IV": [
+                    0,
+                    31,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "EV": "0,252,0,0,0,0",
+                "Ball": "SAFARIBALL"
+            }
+        ]
+    },
+    {
+        "Type": "LEADER_Brock",
+        "Name": "Brock",
+        "Items": "FULLRESTORE,FULLRESTORE",
+        "LoseText": "Very good.",
+        "Pokemon": [
+            {
+                "Species": "GEODUDE",
+                "Level": 12,
+                "Moves": [
+                    "DEFENSECURL",
+                    "HEADSMASH",
+                    "ROCKPOLISH",
+                    "ROCKTHROW"
+                ],
+                "AbilityIndex": 0,
+                "Gender": "male",
+                "IV": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                ]
+            },
+            {
+                "Species": "ONIX",
+                "Level": 14,
+                "Name": "Rocky",
+                "Moves": [
+                    "HEADSMASH",
+                    "ROCKTHROW",
+                    "RAGE",
+                    "ROCKTOMB"
+                ],
+                "AbilityIndex": 0,
+                "Item": "SITRUSBERRY",
+                "Gender": "male",
+                "IV": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                ],
+                "Shiny": false,
+                "Ball": "HEAVYBALL"
+            }
+        ]
+    },
+    {
+        "Type": "LEADER_Blanca",
+        "Name": "Blanca",
+        "Items": "POTION,POTION",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "DOTTLER",
+                "Level": 12,
+                "Moves": [
+                    "REFLECT",
+                    "LIGHTSCREEN"
+                ],
+                "AbilityIndex": 0,
+                "Item": "FOCUSSASH",
+                "Gender": "male",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "Shiny": false
+            },
+            {
+                "Species": "VIVILLON",
+                "Level": 13,
+                "Form": "11",
+                "Moves": [
+                    "STRUGGLEBUG",
+                    "GUST",
+                    "STUNSPORE",
+                    "POISONPOWDER"
+                ],
+                "AbilityIndex": 1,
+                "Item": "SITRUSBERRY",
+                "Gender": "female",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "BEAUTIFLY",
+                "Level": 14,
+                "Moves": [
+                    "NIGHTSLASH",
+                    "QUICKATTACK",
+                    "FURYCUTTER",
+                    "WINGATTACK"
+                ],
+                "AbilityIndex": 0,
+                "Item": "METRONOME",
+                "Gender": "female",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "Shiny": false
+            }
+        ]
+    },
+    {
+        "Type": "TEAMROCKET_M",
+        "Name": "Grunt",
+        "Number": 1,
+        "LoseText": "You're too good for me!",
+        "Pokemon": [
+            {
+                "Species": "WEEPINBELL",
+                "Level": 14,
+                "Shadow": "true"
+            }
+        ]
+    },
+    {
+        "Type": "TEAMROCKET_F",
+        "Name": "Grunt",
+        "Number": 1,
+        "LoseText": "You're too good for me!",
+        "Pokemon": [
+            {
+                "Species": "BURMY",
+                "Level": 14
+            },
+            {
+                "Species": "WINGULL",
+                "Level": 14
+            },
+            {
+                "Species": "ELECTABUZZ",
+                "Level": 14,
+                "Shadow": "true"
+            }
+        ]
+    },
+    {
+        "Type": "POKEMONTRAINER_Rio",
+        "Name": "Rio",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "ROOKIDEE",
+                "Level": 9,
+                "Ball": "GREATBALL"
+            },
+            {
+                "Species": "DUSKULL",
+                "Level": 10,
+                "Ball": "DUSKBALL"
+            }
+        ]
+    },
+    {
+        "Type": "YOUNGSTER",
+        "Name": "Ben",
+        "LoseText": "Aww, I lost.",
+        "Pokemon": [
+            {
+                "Species": "RATTATA",
+                "Level": 11
+            },
+            {
+                "Species": "EKANS",
+                "Level": 11
+            }
+        ]
+    },
+    {
+        "Type": "YOUNGSTER",
+        "Name": "Timmy",
+        "LoseText": "How come I loose to you as well!",
+        "Pokemon": [
+            {
+                "Species": "CHARMANDER",
+                "Level": 5
+            }
+        ]
+    },
+    {
+        "Type": "CAMPER",
+        "Name": "Jeff",
+        "LoseText": "A very good battle, indeed!",
+        "Pokemon": [
+            {
+                "Species": "SPEAROW",
+                "Level": 14
+            },
+            {
+                "Species": "SENTRET",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "CAMPER",
+        "Name": "Jeff",
+        "Number": 1,
+        "LoseText": "You beat me again!",
+        "Pokemon": [
+            {
+                "Species": "FEAROW",
+                "Level": 14
+            },
+            {
+                "Species": "FURRET",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "CAMPER",
+        "Name": "Jake",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "BULBASAUR",
+                "Level": 6
+            }
+        ]
+    },
+    {
+        "Type": "BUGCATCHER",
+        "Name": "Jay",
+        "LoseText": "Looks like I'll need to metamorphosize if i don't want to loose again.",
+        "Pokemon": [
+            {
+                "Species": "SKORUPI",
+                "Level": 10
+            }
+        ]
+    },
+    {
+        "Type": "BUGCATCHER",
+        "Name": "Ryland",
+        "LoseText": "If i get fired I'll have to go back up north.",
+        "Pokemon": [
+            {
+                "Species": "SEWADDLE",
+                "Level": 10
+            },
+            {
+                "Species": "VENIPEDE",
+                "Level": 11
+            }
+        ]
+    },
+    {
+        "Type": "BUGCATCHER",
+        "Name": "Mark",
+        "LoseText": "I should've evolved my entire team..",
+        "Pokemon": [
+            {
+                "Species": "METAPOD",
+                "Level": 10
+            },
+            {
+                "Species": "KAKUNA",
+                "Level": 11
+            },
+            {
+                "Species": "BUTTERFREE",
+                "Level": 12
+            }
+        ]
+    },
+    {
+        "Type": "PICNICKER",
+        "Name": "Susie",
+        "LoseText": "Defeated! Oh my!",
+        "Pokemon": [
+            {
+                "Species": "MEOWTH",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "PICNICKER",
+        "Name": "Susie",
+        "Number": 1,
+        "LoseText": "Defeated! Oh my!",
+        "Pokemon": [
+            {
+                "Species": "PERSIAN",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "HIKER",
+        "Name": "Ford",
+        "LoseText": "You're too good for me!",
+        "Pokemon": [
+            {
+                "Species": "MACHOP",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "FISHERMAN",
+        "Name": "Andrew",
+        "LoseText": "Washed out!",
+        "Pokemon": [
+            {
+                "Species": "MAGIKARP",
+                "Level": 14
+            },
+            {
+                "Species": "MAGIKARP",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "FISHERMAN",
+        "Name": "Kyle",
+        "LoseText": "You burst MY Bubble!!!",
+        "Pokemon": [
+            {
+                "Species": "SQUIRTLE",
+                "Level": 5
+            }
+        ]
+    },
+    {
+        "Type": "BEAUTY",
+        "Name": "Bridget",
+        "LoseText": "My Skitty!",
+        "Pokemon": [
+            {
+                "Species": "SKITTY",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "LASS",
+        "Name": "Crissy",
+        "LoseText": "You didn't have to win so convincingly!",
+        "Pokemon": [
+            {
+                "Species": "PLUSLE",
+                "Level": 14
+            },
+            {
+                "Species": "MINUN",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "COOLCOUPLE",
+        "Name": "Alice & Bob",
+        "LoseText": "Our teamwork failed!",
+        "Pokemon": [
+            {
+                "Species": "TURTWIG",
+                "Level": 14
+            },
+            {
+                "Species": "CHIMCHAR",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "POKEMONTRAINER_May",
+        "Name": "May",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "COMBUSKEN",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "SWIMMER2_F",
+        "Name": "Ariel",
+        "LoseText": "Washed out!",
+        "Pokemon": [
+            {
+                "Species": "STARYU",
+                "Level": 14
+            },
+            {
+                "Species": "GOLDEEN",
+                "Level": 11
+            }
+        ]
+    },
+    {
+        "Type": "RIVAL1",
+        "Name": "Blue",
+        "LoseText": "Not too shabby.",
+        "Pokemon": [
+            {
+                "Species": "PIDGEOTTO",
+                "Level": 14
+            },
+            {
+                "Species": "RATTATA",
+                "Level": 14
+            },
+            {
+                "Species": "BULBASAUR",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "RIVAL1",
+        "Name": "Blue",
+        "Number": 1,
+        "LoseText": "Not too shabby.",
+        "Pokemon": [
+            {
+                "Species": "PIDGEOTTO",
+                "Level": 14
+            },
+            {
+                "Species": "RATTATA",
+                "Level": 14
+            },
+            {
+                "Species": "CHARMANDER",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "RIVAL1",
+        "Name": "Blue",
+        "Number": 2,
+        "LoseText": "Not too shabby.",
+        "Pokemon": [
+            {
+                "Species": "PIDGEOTTO",
+                "Level": 14
+            },
+            {
+                "Species": "RATTATA",
+                "Level": 14
+            },
+            {
+                "Species": "SQUIRTLE",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "CHAMPION",
+        "Name": "Blue",
+        "LoseText": "A good battle indeed!",
+        "Pokemon": [
+            {
+                "Species": "VENUSAUR",
+                "Level": 14,
+                "Item": "SITRUSBERRY"
+            },
+            {
+                "Species": "CHARIZARD",
+                "Level": 14,
+                "Item": "SITRUSBERRY"
+            },
+            {
+                "Species": "BLASTOISE",
+                "Level": 14,
+                "Item": "SITRUSBERRY"
+            }
+        ]
+    },
+    {
+        "Type": "CAMPER",
+        "Name": "Bobby",
+        "Items": "POWERHERB",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "BULBASAUR",
+                "Level": 5
+            }
+        ]
+    },
+    {
+        "Type": "REDWOOD",
+        "Name": "Redwood",
+        "LoseText": "Interesting.",
+        "Pokemon": [
+            {
+                "Species": "MANKEY",
+                "Level": 11,
+                "Ball": "HEALBALL"
+            },
+            {
+                "Species": "HATENNA",
+                "Level": 11,
+                "Ball": "HEALBALL"
+            },
+            {
+                "Species": "SOBBLE",
+                "Level": 12,
+                "Ball": "HEALBALL"
+            }
+        ]
+    },
+    {
+        "Type": "YOUNGSTER",
+        "Name": "Houdini",
+        "LoseText": "Stop shattering my dreams.",
+        "Pokemon": [
+            {
+                "Species": "YAMASK",
+                "Level": 3,
+                "Form": "2"
+            },
+            {
+                "Species": "SKRELP",
+                "Level": 5
+            }
+        ]
+    },
+    {
+        "Type": "HIKER",
+        "Name": "Reagan",
+        "LoseText": "My partner!",
+        "Pokemon": [
+            {
+                "Species": "SKIDDO",
+                "Level": 4
+            }
+        ]
+    },
+    {
+        "Type": "ANGEREDPOLLUTANTS",
+        "Name": "Trubbish and Tangela",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "TRUBBISH",
+                "Level": 13
+            },
+            {
+                "Species": "TANGELA",
+                "Level": 13
+            }
+        ]
+    },
+    {
+        "Type": "ENRAGEDPOLLUTANTS",
+        "Name": "Garbodor and Tangrowth",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "TANGROWTH",
+                "Level": 10
+            },
+            {
+                "Species": "GARBODOR",
+                "Level": 14
+            },
+            {
+                "Species": "TANGROWTH",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "BEAUTY",
+        "Name": "Molly",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "DROWZEE",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "BURGLAR",
+        "Name": "Flipper",
+        "LoseText": "You're gonna make me flip.",
+        "Pokemon": [
+            {
+                "Species": "VOLTORB",
+                "Level": 8
+            },
+            {
+                "Species": "VOLTORB",
+                "Level": 8
+            },
+            {
+                "Species": "VOLTORB",
+                "Level": 8
+            }
+        ]
+    },
+    {
+        "Type": "FISHERMAN",
+        "Name": "Connor",
+        "Number": 2,
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "SQUIRTLE",
+                "Level": 12,
+                "Item": "NUGGET"
+            },
+            {
+                "Species": "MEOWTH",
+                "Level": 13,
+                "Moves": [
+                    "PAYDAY"
+                ],
+                "Item": "LUCKINCENSE"
+            },
+            {
+                "Species": "CLAMPERL",
+                "Level": 14,
+                "Item": "PEARL"
+            },
+            {
+                "Species": "GIMMIGHOUL",
+                "Level": 14,
+                "Item": "AMULETCOIN"
+            }
+        ]
+    },
+    {
+        "Type": "FISHERMAN",
+        "Name": "Connor",
+        "Number": 1,
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "SQUIRTLE",
+                "Level": 3
+            },
+            {
+                "Species": "MEOWTH",
+                "Level": 4
+            },
+            {
+                "Species": "GIMMIGHOUL",
+                "Level": 5
+            }
+        ]
+    }
+]

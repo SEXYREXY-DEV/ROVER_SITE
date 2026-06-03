@@ -75,11 +75,19 @@ body {
 }
 
 /* Sprite Selector */
-#sprite-selector {
+#sprite-selector,
+#form-selector-container {
   margin: 16px 0;
   font-size: 1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-#sprite-viewer {
+#form-selector-container {
+  flex-wrap: wrap;
+}
+#sprite-viewer,
+#form-selector {
   padding: 6px 10px;
   border: 2px solid #e23d3d;
   border-radius: 8px;
@@ -87,7 +95,8 @@ body {
   font-size: 1em;
   cursor: pointer;
 }
-#sprite-viewer:focus {
+#sprite-viewer:focus,
+#form-selector:focus {
   outline: 2px solid #007BFF;
   outline-offset: 2px;
 }
@@ -645,6 +654,7 @@ body {
   .form-card,
   .evo-stage,
   #sprite-viewer,
+  #form-selector,
   #full-info .type-icon,
   .stat-bar-bg {
     background: #23242a;
@@ -654,7 +664,8 @@ body {
   #evolution-chain,
   .form-card,
   .evo-stage.current_pokemon,
-  #sprite-viewer {
+  #sprite-viewer,
+  #form-selector {
     border-color: #e23d3d;
   }
   #full-info {
@@ -715,6 +726,11 @@ body {
   .tab-button.active,
   .tab-button:hover {
     background: #b71c1c;
+  }
+  #form-selector {
+    background: #23242a;
+    border-color: #e23d3d;
+    color: #ffe08b;
   }
   .moves-table th {
     background: #23242a;

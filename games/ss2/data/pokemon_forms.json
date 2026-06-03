@@ -577,10 +577,10 @@
         "BaseStats": [
             "80",
             "85",
-            "100",
-            "93",
-            "75",
-            "100"
+            "115",
+            "88",
+            "50",
+            "115"
         ],
         "HiddenAbility": "MAGICBOUNCE",
         "Abilities": "MAGICBOUNCE",
@@ -2909,8 +2909,8 @@
             "70",
             "40",
             "60",
-            "85",
-            "102",
+            "95",
+            "92",
             "93"
         ]
     },
@@ -3728,10 +3728,10 @@
             "25",
             "70 # 425 BST Total Physical Bruiser"
         ],
-        "HiddenAbility": "1,SUPERPOWER,1,EARTHQUAKE,1,FRENZY,1,OUTRAGE",
+        "HiddenAbility": "1,SUPERPOWER,1,EARTHQUAKE,1,POISONJAB,1,OUTRAGE",
         "Abilities": "OWNTEMPO",
         "HiddenAbilities": "OWNTEMPO",
-        "Moves": "1,SUPERPOWER,1,EARTHQUAKE,1,FRENZY,1,OUTRAGE"
+        "Moves": "1,SUPERPOWER,1,EARTHQUAKE,1,POISONJAB,1,OUTRAGE"
     },
     {
         "BaseName": "GULPIN",
@@ -4735,10 +4735,10 @@
             "50",
             "100 # 600 BST Total"
         ],
-        "HiddenAbility": "1,CRUNCH,1,EARTHQUAKE,1,POISONJAB,1,ROCKSLIDE",
+        "HiddenAbility": "1,CRUNCH,1,EARTHENLANCE,1,POISONJAB,1,ROCKSLIDE",
         "Abilities": "SHEERFORCE",
         "HiddenAbilities": "SHEERFORCE",
-        "Moves": "1,CRUNCH,1,EARTHQUAKE,1,POISONJAB,1,ROCKSLIDE"
+        "Moves": "1,CRUNCH,1,EARTHENLANCE,1,POISONJAB,1,ROCKSLIDE"
     },
     {
         "BaseName": "GOLBAT",
@@ -4905,10 +4905,10 @@
             "35",
             "85 # 475 BST Total Physical Bruiser"
         ],
-        "HiddenAbility": "1,STRENGTHSAP,1,LEECHSEED,1,MOSSYPUNCH,1,PROTECT",
-        "Abilities": "RAINDISH",
-        "HiddenAbilities": "RAINDISH",
-        "Moves": "1,STRENGTHSAP,1,LEECHSEED,1,MOSSYPUNCH,1,PROTECT"
+        "HiddenAbility": "1,STRENGTHSAP,1,ROCKSLIDE,1,MOSSYPUNCH,1,EARTHQUAKE",
+        "Abilities": "VENGEFUL",
+        "HiddenAbilities": "VENGEFUL",
+        "Moves": "1,STRENGTHSAP,1,ROCKSLIDE,1,MOSSYPUNCH,1,EARTHQUAKE"
     },
     {
         "BaseName": "VILEPLUME",

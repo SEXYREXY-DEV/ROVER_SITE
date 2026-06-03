@@ -3989,7 +3989,7 @@
                 ],
                 "Nature": "TIMID",
                 "AbilityIndex": 2,
-                "Item": "GRASSGEM",
+                "Item": "BOOSTERENERGY",
                 "IV": [
                     31,
                     31,
@@ -4509,7 +4509,7 @@
                 ],
                 "Nature": "TIMID",
                 "AbilityIndex": 2,
-                "Item": "GRASSGEM",
+                "Item": "BOOSTERENERGY",
                 "IV": [
                     31,
                     31,
@@ -5101,7 +5101,7 @@
                 ],
                 "Nature": "TIMID",
                 "AbilityIndex": 2,
-                "Item": "GRASSGEM",
+                "Item": "BOOSTERENERGY",
                 "IV": [
                     31,
                     31,
@@ -5717,7 +5717,7 @@
                 ],
                 "Nature": "TIMID",
                 "AbilityIndex": 2,
-                "Item": "GRASSGEM",
+                "Item": "BOOSTERENERGY",
                 "IV": [
                     31,
                     31,
@@ -5784,7 +5784,7 @@
                 "Moves": [
                     "MAGNETICCANNON",
                     "METEORBEAM",
-                    "EXTRASENSORY",
+                    "PSYCHIC",
                     "FLAMETHROWER"
                 ],
                 "Nature": "MODEST",
@@ -6333,7 +6333,7 @@
                 ],
                 "Nature": "TIMID",
                 "AbilityIndex": 2,
-                "Item": "GRASSGEM",
+                "Item": "BOOSTERENERGY",
                 "IV": [
                     31,
                     31,
@@ -6400,7 +6400,7 @@
                 "Moves": [
                     "MAGNETICCANNON",
                     "METEORBEAM",
-                    "EXTRASENSORY",
+                    "PSYCHIC",
                     "FLAMETHROWER"
                 ],
                 "Nature": "MODEST",
@@ -8025,7 +8025,7 @@
                 ],
                 "Nature": "TIMID",
                 "AbilityIndex": 2,
-                "Item": "GRASSGEM",
+                "Item": "BOOSTERENERGY",
                 "IV": [
                     31,
                     31,
@@ -8092,7 +8092,7 @@
                 "Moves": [
                     "MAGNETICCANNON",
                     "METEORBEAM",
-                    "EXTRASENSORY",
+                    "PSYCHIC",
                     "FLAMETHROWER"
                 ],
                 "Nature": "MODEST",
@@ -9596,7 +9596,7 @@
                     "BOULDERHURL"
                 ],
                 "Nature": "ADAMANT",
-                "AbilityIndex": 0,
+                "AbilityIndex": 2,
                 "IV": [
                     20,
                     20,
@@ -9605,7 +9605,7 @@
                     20,
                     20
                 ],
-                "EV": "0,252,0,252,0,0"
+                "EV": "252,252,0,0,0,0"
             },
             {
                 "Species": "SKIDDO2",
@@ -9641,7 +9641,7 @@
                     "ROLLOUT"
                 ],
                 "Nature": "GENTLE",
-                "AbilityIndex": 0,
+                "AbilityIndex": 2,
                 "Item": "CHOPLEBERRY",
                 "IV": [
                     20,
@@ -9664,7 +9664,7 @@
                     "VISEGRIP"
                 ],
                 "Nature": "RELAXED",
-                "AbilityIndex": 1,
+                "AbilityIndex": 2,
                 "Item": "OCCABERRY",
                 "IV": [
                     20,
@@ -13640,19 +13640,19 @@
         "Number": 0,
         "Pokemon": [
             {
-                "Species": "MISMAGIUS",
+                "Species": "GOLBAT",
                 "Level": 63,
                 "Form": "2",
                 "Gender": "female",
                 "Moves": [
-                    "FANTASYSEAL",
-                    "BURNINGOFUDA",
-                    "AURASPHERE",
-                    "RELICSONG"
+                    "NIGHTSLASH",
+                    "LEECHLIFE",
+                    "POISONFANG",
+                    "SHATTER"
                 ],
-                "Nature": "MODEST",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "GHOSTGEM",
+                "Item": "POISONGEM",
                 "IV": [
                     31,
                     31,
@@ -13661,23 +13661,23 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "GRAPPLOCT",
+                "Species": "DRAPION",
                 "Level": 63,
                 "Form": "2",
                 "Gender": "male",
                 "Moves": [
-                    "WATERPRESSURE",
-                    "SUBMISSION",
-                    "CELESTIALFURY",
-                    "FRENZY"
+                    "CRUNCH",
+                    "EARTHENLANCE",
+                    "POISONJAB",
+                    "ROCKSLIDE"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "BODYARMOR",
+                "Item": "LIFEORB",
                 "IV": [
                     31,
                     31,
@@ -14114,7 +14114,7 @@
             },
             {
                 "Species": "SLAKING",
-                "Level": 79,
+                "Level": 65,
                 "Gender": "male",
                 "Moves": [
                     "POLARPUMMEL",
@@ -15838,7 +15838,7 @@
                 "Level": 71,
                 "Gender": "male",
                 "Moves": [
-                    "GAIAPULSE",
+                    "MUDBLAST",
                     "CHAKRABLAST",
                     "HELLBULLET",
                     "AURASPHERE"
@@ -17056,19 +17056,19 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "STARMIE",
+                "Species": "BARBARACLE",
                 "Level": 73,
                 "Form": "2",
                 "Gender": "male",
                 "Moves": [
-                    "HYPERSPACEHOLE",
-                    "SUPERNOVA",
-                    "BEJEWELED",
-                    "ETHEREALBURST"
+                    "ARCANEENERGY",
+                    "CORECOLLAPSE",
+                    "AMBERWAVE",
+                    "EARTHPOWER"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "COSMICGEM",
+                "Item": "SHIELDWATER",
                 "IV": [
                     31,
                     31,
@@ -17077,7 +17077,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,0,0,0,252,252",
                 "Ball": "DUSKBALL"
             },
             {
@@ -17213,44 +17213,19 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "MISMAGIUS",
+                "Species": "BELLOSSOM",
                 "Level": 73,
                 "Form": "2",
                 "Gender": "female",
                 "Moves": [
-                    "FANTASYSEAL",
-                    "BURNINGOFUDA",
-                    "AURASPHERE",
-                    "RELICSONG"
+                    "PRIMORDIALBEAM",
+                    "ARCANEENERGY",
+                    "QUIVERDANCE",
+                    "BLINDINGFLASH"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "GHOSTGEM",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,0,0,252,252,0",
-                "Ball": "DUSKBALL"
-            },
-            {
-                "Species": "SWALOT",
-                "Level": 73,
-                "Form": "2",
-                "Gender": "male",
-                "Moves": [
-                    "EARTHPOWER",
-                    "GIGADRAIN",
-                    "SLUDGEBOMB",
-                    "HEATWAVE"
-                ],
-                "Nature": "MODEST",
-                "AbilityIndex": 0,
-                "Item": "RINDOBERRY",
+                "Item": "SHIELDBUG",
                 "IV": [
                     31,
                     31,
@@ -17260,22 +17235,22 @@
                     31
                 ],
                 "EV": "0,0,0,0,252,252",
-                "Ball": "PREMIERBALL"
+                "Ball": "DUSKBALL"
             },
             {
-                "Species": "JUMPLUFF2",
+                "Species": "DRAPION",
                 "Level": 73,
                 "Form": "2",
-                "Gender": "female",
+                "Gender": "male",
                 "Moves": [
-                    "POLLENBLAST",
-                    "GIGADRAIN",
-                    "SWEEPINGWIND",
-                    "AURASPHERE"
+                    "CRUNCH",
+                    "EARTHENLANCE",
+                    "POISONJAB",
+                    "ROCKSLIDE"
                 ],
-                "Nature": "MODEST",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "BUGGEM",
+                "Item": "LIFEORB",
                 "IV": [
                     31,
                     31,
@@ -17284,7 +17259,32 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,252,0,252,0,0",
+                "Ball": "DUSKBALL"
+            },
+            {
+                "Species": "BRELOOM",
+                "Level": 73,
+                "Form": "2",
+                "Gender": "male",
+                "Moves": [
+                    "POWERUPPUNCH",
+                    "BULLETPUNCH",
+                    "MACHPUNCH",
+                    "OVERCLOCK"
+                ],
+                "Nature": "JOLLY",
+                "AbilityIndex": 0,
+                "Item": "ASSAULTVEST",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "0,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -17313,19 +17313,19 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "GRAPPLOCT",
+                "Species": "GOLBAT",
                 "Level": 73,
                 "Form": "2",
-                "Gender": "male",
+                "Gender": "female",
                 "Moves": [
-                    "WATERPRESSURE",
-                    "SUBMISSION",
-                    "CELESTIALFURY",
-                    "FRENZY"
+                    "NIGHTSLASH",
+                    "LEECHLIFE",
+                    "POISONFANG",
+                    "SHATTER"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "BODYARMOR",
+                "Item": "POISONGEM",
                 "IV": [
                     31,
                     31,
@@ -17420,19 +17420,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "STARMIE",
+                "Species": "MEGANIUM",
                 "Level": 73,
                 "Form": "2",
-                "Gender": "male",
                 "Moves": [
-                    "HYPERSPACEHOLE",
-                    "SUPERNOVA",
-                    "BEJEWELED",
-                    "ETHEREALBURST"
+                    "GIGADRAIN",
+                    "POLLENPUFF",
+                    "DRAININGKISS",
+                    "FAESBLESSING"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "COSMICGEM",
+                "Item": "FAIRYGEM",
                 "IV": [
                     31,
                     31,
@@ -17527,31 +17526,6 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "GRAPPLOCT",
-                "Level": 73,
-                "Form": "2",
-                "Gender": "male",
-                "Moves": [
-                    "WATERPRESSURE",
-                    "SUBMISSION",
-                    "CELESTIALFURY",
-                    "FRENZY"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 0,
-                "Item": "BODYARMOR",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,252,0,252,0,0",
-                "Ball": "DUSKBALL"
-            },
-            {
                 "Species": "SWOOBAT",
                 "Level": 73,
                 "Form": "2",
@@ -17577,19 +17551,19 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "SWALOT",
+                "Species": "JUMPLUFF2",
                 "Level": 73,
                 "Form": "2",
-                "Gender": "male",
+                "Gender": "female",
                 "Moves": [
-                    "EARTHPOWER",
+                    "POLLENBLAST",
                     "GIGADRAIN",
-                    "SLUDGEBOMB",
-                    "HEATWAVE"
+                    "SWEEPINGWIND",
+                    "AURASPHERE"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "RINDOBERRY",
+                "Item": "BUGGEM",
                 "IV": [
                     31,
                     31,
@@ -17598,23 +17572,23 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,0,252,252",
-                "Ball": "PREMIERBALL"
+                "EV": "0,0,0,252,252,0",
+                "Ball": "DUSKBALL"
             },
             {
-                "Species": "ARCANINE",
+                "Species": "MANECTRIC",
                 "Level": 73,
                 "Form": "2",
                 "Gender": "male",
                 "Moves": [
-                    "TRIVEGA",
-                    "OUTRAGE",
-                    "VALKYRIECHARIOT",
-                    "CRUNCH"
+                    "SHADOWFORCE",
+                    "SKULLBASH",
+                    "ZENHEADBUTT",
+                    "BONEMERANG"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "COSMICGEM",
+                "Item": "GROUNDGEM",
                 "IV": [
                     31,
                     31,
@@ -17624,7 +17598,32 @@
                     31
                 ],
                 "EV": "0,252,0,252,0,0",
-                "Ball": "PREMIERBALL"
+                "Ball": "DUSKBALL"
+            },
+            {
+                "Species": "ARIADOS",
+                "Level": 73,
+                "Form": "2",
+                "Gender": "male",
+                "Moves": [
+                    "MEGAHORN",
+                    "PLAGUE",
+                    "EXECUTION",
+                    "PHANTOMFORCE"
+                ],
+                "Nature": "ADAMANT",
+                "AbilityIndex": 0,
+                "Item": "WHITEHERB",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "0,252,0,252,0,0",
+                "Ball": "DUSKBALL"
             },
             {
                 "Species": "GARBODOR",
@@ -18681,19 +18680,19 @@
                 "EV": "0,0,0,252,252,0"
             },
             {
-                "Species": "GRAPPLOCT",
+                "Species": "EXCADRILL",
                 "Level": 75,
                 "Form": "2",
                 "Gender": "male",
                 "Moves": [
-                    "WATERPRESSURE",
-                    "SUBMISSION",
-                    "CELESTIALFURY",
-                    "FRENZY"
+                    "SONICNOVA",
+                    "POWERDRILL",
+                    "EARTHQUAKE",
+                    "SUPERPOWER"
                 ],
-                "Nature": "ADAMANT",
+                "Nature": "JOLLY",
                 "AbilityIndex": 0,
-                "Item": "BODYARMOR",
+                "Item": "LIFEORB",
                 "IV": [
                     31,
                     31,
@@ -20006,7 +20005,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "252,0,0,0,252,0",
                 "Ball": "PREMIERBALL"
             },
             {
@@ -22472,14 +22471,14 @@
                 "Level": 85,
                 "Gender": "female",
                 "Moves": [
-                    "EXECUTION",
-                    "FORTISSIMO",
+                    "AMBUSH",
+                    "POLTERGEIST",
                     "PSYCHICFANGS",
                     "PLAYROUGH"
                 ],
-                "Nature": "ADAMANT",
+                "Nature": "JOLLY",
                 "AbilityIndex": 2,
-                "Item": "CHOICESCARF",
+                "Item": "LIFEORB",
                 "IV": [
                     31,
                     31,
@@ -26943,19 +26942,19 @@
                 "Ball": "ULTRABALL"
             },
             {
-                "Species": "STARMIE",
+                "Species": "GARBODOR",
                 "Level": 106,
                 "Form": "2",
                 "Gender": "male",
                 "Moves": [
-                    "HYPERSPACEHOLE",
-                    "SUPERNOVA",
-                    "BEJEWELED",
-                    "ETHEREALBURST"
+                    "CHROMERAY",
+                    "BATTERYACID",
+                    "ACIDRAIN",
+                    "VITALITYDRAIN"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "COSMICGEM",
+                "Item": "STEELGEM",
                 "IV": [
                     31,
                     31,
@@ -26964,7 +26963,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,0,252,0,252,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -28850,7 +28849,7 @@
                 ],
                 "Nature": "IMPISH",
                 "AbilityIndex": 0,
-                "Item": "SMOOTHROCK",
+                "Item": "LEFTOVERS",
                 "IV": [
                     31,
                     31,
@@ -28863,17 +28862,17 @@
                 "Ball": "SUPERBALL"
             },
             {
-                "Species": "MANDIBUZZ",
+                "Species": "WHIMSICOTT",
                 "Level": 109,
                 "Moves": [
-                    "BRAVEBIRD",
+                    "SCORCHINGSANDS",
                     "SANDSTORM",
-                    "BLOODRITUAL",
-                    "THOUSANDARROWS"
+                    "TEMPESTFLARE",
+                    "TAILWIND"
                 ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 0,
-                "Item": "BODYARMOR",
+                "Nature": "MODEST",
+                "AbilityIndex": 3,
+                "Item": "SMOOTHROCK",
                 "IV": [
                     31,
                     31,
@@ -28882,7 +28881,7 @@
                     31,
                     31
                 ],
-                "EV": "252, 252, 0, 6, 0, 0",
+                "EV": "252, 0, 0, 6, 252, 0",
                 "Ball": "SUPERBALL"
             },
             {
@@ -31476,14 +31475,14 @@
                 "Species": "KINGLER",
                 "Level": 116,
                 "Moves": [
-                    "STONEEDGE",
+                    "ROCKCLIMB",
                     "GOLDRUSH",
                     "TITANHAMMER",
                     "BRICKBREAK"
                 ],
                 "Nature": "ADAMANT",
-                "AbilityIndex": 2,
-                "Item": "CHOICEBAND",
+                "AbilityIndex": 0,
+                "Item": "CHOICESCARF",
                 "IV": [
                     31,
                     31,
@@ -33072,7 +33071,7 @@
                 "Level": 13
             },
             {
-                "Species": "GASTLY",
+                "Species": "MAGBY",
                 "Level": 13
             }
         ]
@@ -33388,7 +33387,7 @@
                 "Level": 16
             },
             {
-                "Species": "PIPLUP",
+                "Species": "GASTLY",
                 "Level": 16
             }
         ]
@@ -33453,7 +33452,7 @@
                 "Level": 15
             },
             {
-                "Species": "MAGBY",
+                "Species": "PIPLUP",
                 "Level": 16
             },
             {
@@ -40663,18 +40662,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "JOLTIK",
+                "Species": "MACHOP",
                 "Level": 44,
                 "Form": "1",
                 "Moves": [
-                    "CROSSPOISON",
-                    "NIGHTSLASH",
-                    "FELLSTINGER",
-                    "AGILITY"
+                    "SUPERPOWER",
+                    "EARTHQUAKE",
+                    "POISONJAB",
+                    "OUTRAGE"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "DARKGEM",
+                "Item": "DRAGONGEM",
                 "IV": [
                     31,
                     31,
@@ -40799,18 +40798,18 @@
         "LoseText": "...",
         "Pokemon": [
             {
-                "Species": "JOLTIK",
+                "Species": "ZUBAT",
                 "Level": 44,
                 "Form": "1",
                 "Moves": [
-                    "CROSSPOISON",
-                    "NIGHTSLASH",
-                    "FELLSTINGER",
-                    "AGILITY"
+                    "SHATTER",
+                    "FRENZY",
+                    "SWEEPINGTALON",
+                    "PSYCHOBREAK"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "DARKGEM",
+                "Item": "PSYCHICGEM",
                 "IV": [
                     31,
                     31,
@@ -42778,7 +42777,7 @@
                 "Moves": [
                     "SUPERPOWER",
                     "EARTHQUAKE",
-                    "FRENZY",
+                    "POISONJAB",
                     "OUTRAGE"
                 ],
                 "Nature": "ADAMANT",
@@ -42858,7 +42857,7 @@
                 "Moves": [
                     "SUPERPOWER",
                     "EARTHQUAKE",
-                    "FRENZY",
+                    "POISONJAB",
                     "OUTRAGE"
                 ],
                 "Nature": "ADAMANT",
@@ -42876,18 +42875,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "GULPIN",
+                "Species": "ZUBAT",
                 "Level": 51,
                 "Form": "1",
                 "Moves": [
-                    "MUDDYWATER",
-                    "SANDSNARE",
-                    "BLACKHOLE",
-                    "GIGADRAIN"
+                    "SHATTER",
+                    "FRENZY",
+                    "SWEEPINGTALON",
+                    "PSYCHOBREAK"
                 ],
-                "Nature": "MODEST",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "WATERGEM",
+                "Item": "PSYCHICGEM",
                 "IV": [
                     31,
                     31,
@@ -42896,7 +42895,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -42938,7 +42937,7 @@
                 "Moves": [
                     "SUPERPOWER",
                     "EARTHQUAKE",
-                    "FRENZY",
+                    "POISONJAB",
                     "OUTRAGE"
                 ],
                 "Nature": "ADAMANT",
@@ -42956,18 +42955,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "SKORUPI",
+                "Species": "CHIKORITA",
                 "Level": 51,
                 "Form": "1",
                 "Moves": [
-                    "NEUROTOXIN",
-                    "EARTHQUAKE",
-                    "LEECHLIFE",
-                    "EXECUTION"
+                    "SCENTEDSHIELD",
+                    "POLLENPUFF",
+                    "HYPERVOICE",
+                    "STARDUSTREVERIE"
                 ],
-                "Nature": "ADAMANT",
+                "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "BUGGEM",
+                "Item": "GRASSGEM",
                 "IV": [
                     31,
                     31,
@@ -42976,7 +42975,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "0,0,0,252,252,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -43228,18 +43227,18 @@
         "LoseText": "...",
         "Pokemon": [
             {
-                "Species": "ZUBAT",
+                "Species": "DEWPIDER2",
                 "Level": 52,
                 "Form": "1",
                 "Moves": [
-                    "SHATTER",
-                    "FRENZY",
-                    "SWEEPINGTALON",
-                    "PSYCHOBREAK"
+                    "GAMMARAY",
+                    "EXTRASENSORY",
+                    "BUGBUZZ",
+                    "CONFUSERAY"
                 ],
-                "Nature": "ADAMANT",
+                "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "PSYCHICGEM",
+                "Item": "COSMICGEM",
                 "IV": [
                     31,
                     31,
@@ -43356,18 +43355,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "METANG",
+                "Species": "CUBONE",
                 "Level": 52,
                 "Form": "1",
                 "Moves": [
-                    "MAGNETICCANNON",
-                    "EXTRASENSORY",
-                    "METEORBEAM",
-                    "DARKPULSE"
+                    "CORALBOMB",
+                    "MAGNETBOMB",
+                    "ROCKBLAST",
+                    "ICEBALL"
                 ],
-                "Nature": "MODEST",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "DARKGEM",
+                "Item": "ROCKGEM",
                 "IV": [
                     31,
                     31,
@@ -43376,7 +43375,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -43468,18 +43467,18 @@
         "LoseText": "...",
         "Pokemon": [
             {
-                "Species": "GOTHITA2",
+                "Species": "DEWPIDER2",
                 "Level": 53,
                 "Form": "1",
                 "Moves": [
-                    "SLUDGEBOMB",
-                    "STONEGAZE",
-                    "GLARE",
-                    "HYPERACUSIS"
+                    "GAMMARAY",
+                    "EXTRASENSORY",
+                    "BUGBUZZ",
+                    "CONFUSERAY"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "POISONGEM",
+                "Item": "COSMICGEM",
                 "IV": [
                     31,
                     31,
@@ -43488,7 +43487,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -43596,18 +43595,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "GLOOM",
+                "Species": "GOLETT",
                 "Level": 53,
                 "Form": "1",
                 "Moves": [
-                    "CHECKMATE",
-                    "GIGADRAIN",
-                    "STARSALIGNED",
-                    "TITANIASLAW"
+                    "MAGNETICCANNON",
+                    "MOONBLAST",
+                    "CHAINLIGHTNING",
+                    "PSYCHIC"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "PSYCHICGEM",
+                "Item": "ELECTRICGEM",
                 "IV": [
                     31,
                     31,
@@ -43628,18 +43627,18 @@
         "LoseText": "...",
         "Pokemon": [
             {
-                "Species": "LARVESTA2",
+                "Species": "MACHOP",
                 "Level": 53,
                 "Form": "1",
                 "Moves": [
-                    "QUANTUMSTAR",
-                    "LEECHLIFE",
-                    "DEADSILENCE",
-                    "PLAGUE"
+                    "SUPERPOWER",
+                    "EARTHQUAKE",
+                    "POISONJAB",
+                    "OUTRAGE"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "SOUNDGEM",
+                "Item": "DRAGONGEM",
                 "IV": [
                     31,
                     31,
@@ -46065,18 +46064,18 @@
                 "Level": 62
             },
             {
-                "Species": "SPINARAK",
+                "Species": "CHIKORITA",
                 "Level": 62,
                 "Form": "1",
                 "Moves": [
-                    "FRENZY",
-                    "NEUROTOXIN",
-                    "SPOIL",
-                    "PSYCHOCUT"
+                    "SCENTEDSHIELD",
+                    "POLLENPUFF",
+                    "HYPERVOICE",
+                    "STARDUSTREVERIE"
                 ],
-                "Nature": "ADAMANT",
+                "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "PSYCHICGEM",
+                "Item": "GRASSGEM",
                 "IV": [
                     31,
                     31,
@@ -46085,7 +46084,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "0,0,0,252,252,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -46114,7 +46113,7 @@
                 "Moves": [
                     "SUPERPOWER",
                     "EARTHQUAKE",
-                    "FRENZY",
+                    "POISONJAB",
                     "OUTRAGE"
                 ],
                 "Nature": "ADAMANT",
@@ -46151,18 +46150,18 @@
                 "Level": 62
             },
             {
-                "Species": "ZUBAT",
+                "Species": "GULPIN",
                 "Level": 62,
                 "Form": "1",
                 "Moves": [
-                    "SHATTER",
-                    "FRENZY",
-                    "SWEEPINGTALON",
-                    "PSYCHOBREAK"
+                    "MUDDYWATER",
+                    "SANDSNARE",
+                    "BLACKHOLE",
+                    "GIGADRAIN"
                 ],
-                "Nature": "ADAMANT",
+                "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "PSYCHICGEM",
+                "Item": "WATERGEM",
                 "IV": [
                     31,
                     31,
@@ -46171,7 +46170,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "0,0,0,252,252,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -46946,7 +46945,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,0,0,252,0"
+                "EV": "0,0,0,252,252,0"
             },
             {
                 "Species": "LAPRAS2",
@@ -47462,18 +47461,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "GOTHITA2",
+                "Species": "ELECTRIKE",
                 "Level": 63,
                 "Form": "1",
                 "Moves": [
-                    "SLUDGEBOMB",
-                    "STONEGAZE",
-                    "GLARE",
-                    "HYPERACUSIS"
+                    "SHADOWBONE",
+                    "CRUNCH",
+                    "GOLDRUSH",
+                    "FLAREBLITZ"
                 ],
-                "Nature": "MODEST",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "POISONGEM",
+                "Item": "FIREGEM",
                 "IV": [
                     31,
                     31,
@@ -47482,7 +47481,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -47518,18 +47517,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "SPINARAK",
+                "Species": "EKANS",
                 "Level": 63,
                 "Form": "1",
                 "Moves": [
-                    "FRENZY",
-                    "NEUROTOXIN",
-                    "SPOIL",
-                    "PSYCHOCUT"
+                    "EARTHPOWER",
+                    "SLUDGEWAVE",
+                    "CLANGINGSCALES",
+                    "DARKPULSE"
                 ],
-                "Nature": "ADAMANT",
+                "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "PSYCHICGEM",
+                "Item": "DARKGEM",
                 "IV": [
                     31,
                     31,
@@ -47538,22 +47537,22 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "0,0,0,252,252,0",
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "JOLTIK",
+                "Species": "DEWPIDER2",
                 "Level": 63,
                 "Form": "1",
                 "Moves": [
-                    "CROSSPOISON",
-                    "NIGHTSLASH",
-                    "FELLSTINGER",
-                    "AGILITY"
+                    "GAMMARAY",
+                    "EXTRASENSORY",
+                    "BUGBUZZ",
+                    "CONFUSERAY"
                 ],
-                "Nature": "ADAMANT",
+                "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "DARKGEM",
+                "Item": "COSMICGEM",
                 "IV": [
                     31,
                     31,
@@ -47679,18 +47678,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "SPHEAL",
+                "Species": "MURKROW",
                 "Level": 64,
                 "Form": "1",
                 "Moves": [
-                    "CATAPULT",
-                    "EARTHQUAKE",
-                    "WINTERSHOWL",
-                    "NOBLEROAR"
+                    "DUALWINGBEAT",
+                    "EGGBOMB",
+                    "SHATTER",
+                    "SPIRITBREAK"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "GROUNDGEM",
+                "Item": "SOUNDGEM",
                 "IV": [
                     31,
                     31,
@@ -48749,18 +48748,18 @@
                 "Level": 67
             },
             {
-                "Species": "METANG",
+                "Species": "MURKROW",
                 "Level": 67,
                 "Form": "1",
                 "Moves": [
-                    "MAGNETICCANNON",
-                    "EXTRASENSORY",
-                    "METEORBEAM",
-                    "DARKPULSE"
+                    "DUALWINGBEAT",
+                    "EGGBOMB",
+                    "SHATTER",
+                    "SPIRITBREAK"
                 ],
-                "Nature": "MODEST",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "DARKGEM",
+                "Item": "SOUNDGEM",
                 "IV": [
                     31,
                     31,
@@ -48769,7 +48768,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -48797,18 +48796,18 @@
                 "Item": "EVIOLITE"
             },
             {
-                "Species": "GLOOM",
+                "Species": "CUBONE",
                 "Level": 67,
                 "Form": "1",
                 "Moves": [
-                    "CHECKMATE",
-                    "GIGADRAIN",
-                    "STARSALIGNED",
-                    "TITANIASLAW"
+                    "CORALBOMB",
+                    "MAGNETBOMB",
+                    "ROCKBLAST",
+                    "ICEBALL"
                 ],
-                "Nature": "MODEST",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "PSYCHICGEM",
+                "Item": "ROCKGEM",
                 "IV": [
                     31,
                     31,
@@ -48817,7 +48816,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -50455,14 +50454,14 @@
         "LoseText": "...",
         "Pokemon": [
             {
-                "Species": "BUIZEL",
+                "Species": "MURKROW",
                 "Level": 73,
                 "Form": "1",
                 "Moves": [
-                    "SLICINGTAIL",
-                    "GOLDENBULLET",
-                    "OCEANWRATH",
-                    "SHATTER"
+                    "DUALWINGBEAT",
+                    "EGGBOMB",
+                    "SHATTER",
+                    "SPIRITBREAK"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 0,
@@ -50583,19 +50582,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "MISDREAVUS",
+                "Species": "ELECTABUZZ",
                 "Level": 73,
                 "Form": "1",
-                "Gender": "female",
                 "Moves": [
-                    "SONGOFPASSION",
-                    "AURASPHERE",
-                    "VITALITYDRAIN",
-                    "CHAINLIGHTNING"
+                    "FELLSTINGER",
+                    "LEECHLIFE",
+                    "POWERUPPUNCH",
+                    "ROCKSLIDE"
                 ],
-                "Nature": "MODEST",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "DARKGEM",
+                "Item": "BUGGEM",
                 "IV": [
                     31,
                     31,
@@ -50604,7 +50602,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -50616,18 +50614,18 @@
         "LoseText": "...",
         "Pokemon": [
             {
-                "Species": "METANG",
+                "Species": "GOLETT",
                 "Level": 73,
                 "Form": "1",
                 "Moves": [
                     "MAGNETICCANNON",
-                    "EXTRASENSORY",
-                    "METEORBEAM",
-                    "DARKPULSE"
+                    "MOONBLAST",
+                    "CHAINLIGHTNING",
+                    "PSYCHIC"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "DARKGEM",
+                "Item": "ELECTRICGEM",
                 "IV": [
                     31,
                     31,
@@ -50640,31 +50638,7 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "LARVESTA2",
-                "Level": 73,
-                "Form": "1",
-                "Moves": [
-                    "QUANTUMSTAR",
-                    "LEECHLIFE",
-                    "DEADSILENCE",
-                    "PLAGUE"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 0,
-                "Item": "SOUNDGEM",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,252,0,252,0,0",
-                "Ball": "DUSKBALL"
-            },
-            {
-                "Species": "BAYLEEF",
+                "Species": "CHIKORITA",
                 "Level": 73,
                 "Form": "1",
                 "Moves": [
@@ -50675,7 +50649,7 @@
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "BUGGEM",
+                "Item": "GRASSGEM",
                 "IV": [
                     31,
                     31,
@@ -50684,7 +50658,30 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,0,252,252",
+                "EV": "0,0,0,252,252,0"
+            },
+            {
+                "Species": "GRIMER",
+                "Level": 73,
+                "Form": "1",
+                "Moves": [
+                    "STRENGTHSAP",
+                    "ROCKSLIDE",
+                    "MOSSYPUNCH",
+                    "EARTHQUAKE"
+                ],
+                "Nature": "ADAMANT",
+                "AbilityIndex": 0,
+                "Item": "ROCKGEM",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,252,0,0,0,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -50800,18 +50797,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "GOLDUCK",
+                "Species": "GRIMER",
                 "Level": 74,
-                "Form": "2",
+                "Form": "1",
                 "Moves": [
-                    "EARTHPOWER",
-                    "EXTRASENSORY",
-                    "AURASPHERE",
-                    "TIDALWAVE"
+                    "STRENGTHSAP",
+                    "ROCKSLIDE",
+                    "MOSSYPUNCH",
+                    "EARTHQUAKE"
                 ],
-                "Nature": "MODEST",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "WATERGEM",
+                "Item": "ROCKGEM",
                 "IV": [
                     31,
                     31,
@@ -50820,7 +50817,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,0,252,252",
+                "EV": "252,252,0,0,0,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -51071,18 +51068,18 @@
                 "Level": 74
             },
             {
-                "Species": "BAYLEEF",
+                "Species": "GRIMER",
                 "Level": 74,
                 "Form": "1",
                 "Moves": [
-                    "SCENTEDSHIELD",
-                    "POLLENPUFF",
-                    "HYPERVOICE",
-                    "STARDUSTREVERIE"
+                    "STRENGTHSAP",
+                    "ROCKSLIDE",
+                    "MOSSYPUNCH",
+                    "EARTHQUAKE"
                 ],
-                "Nature": "MODEST",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "BUGGEM",
+                "Item": "ROCKGEM",
                 "IV": [
                     31,
                     31,
@@ -51091,7 +51088,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,0,252,252",
+                "EV": "252,252,0,0,0,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -51293,18 +51290,18 @@
                 "Level": 75
             },
             {
-                "Species": "GOLDUCK",
+                "Species": "SMOLIV",
                 "Level": 75,
-                "Form": "2",
+                "Form": "1",
                 "Moves": [
-                    "EARTHPOWER",
-                    "EXTRASENSORY",
-                    "AURASPHERE",
-                    "TIDALWAVE"
+                    "TIDALWAVE",
+                    "PSYCHIC",
+                    "SLUDGEWAVE",
+                    "VITALITYDRAIN"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "WATERGEM",
+                "Item": "DARKGEM",
                 "IV": [
                     31,
                     31,
@@ -51313,7 +51310,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,0,252,252",
+                "EV": "0,0,0,252,252,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -52590,18 +52587,18 @@
         "LoseText": "...",
         "Pokemon": [
             {
-                "Species": "ZUBAT",
+                "Species": "CHIKORITA",
                 "Level": 82,
                 "Form": "1",
                 "Moves": [
-                    "SHATTER",
-                    "FRENZY",
-                    "SWEEPINGTALON",
-                    "PSYCHOBREAK"
+                    "SCENTEDSHIELD",
+                    "POLLENPUFF",
+                    "HYPERVOICE",
+                    "STARDUSTREVERIE"
                 ],
-                "Nature": "ADAMANT",
+                "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "PSYCHICGEM",
+                "Item": "GRASSGEM",
                 "IV": [
                     31,
                     31,
@@ -52610,7 +52607,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "0,0,0,252,252,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -58611,18 +58608,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "LOPUNNY",
+                "Species": "SMOLIV",
                 "Level": 105,
-                "Form": "2",
+                "Form": "1",
                 "Moves": [
-                    "TRIPLEAXEL",
-                    "COMETPUNCH",
-                    "POWERUPPUNCH",
-                    "MEMORYBLOCK"
+                    "TIDALWAVE",
+                    "PSYCHIC",
+                    "SLUDGEWAVE",
+                    "VITALITYDRAIN"
                 ],
-                "Nature": "ADAMANT",
+                "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "PSYCHICGEM",
+                "Item": "DARKGEM",
                 "IV": [
                     31,
                     31,
@@ -58631,7 +58628,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "0,0,0,252,252,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -58691,18 +58688,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "JOLTIK",
+                "Species": "CHIKORITA",
                 "Level": 105,
                 "Form": "1",
                 "Moves": [
-                    "CROSSPOISON",
-                    "NIGHTSLASH",
-                    "FELLSTINGER",
-                    "AGILITY"
+                    "SCENTEDSHIELD",
+                    "POLLENPUFF",
+                    "HYPERVOICE",
+                    "STARDUSTREVERIE"
                 ],
-                "Nature": "ADAMANT",
+                "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "DARKGEM",
+                "Item": "GRASSGEM",
                 "IV": [
                     31,
                     31,
@@ -58711,7 +58708,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "0,0,0,252,252,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -60338,18 +60335,18 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "GULPIN",
+                "Species": "CHIKORITA",
                 "Level": 117,
                 "Form": "1",
                 "Moves": [
-                    "MUDDYWATER",
-                    "SANDSNARE",
-                    "BLACKHOLE",
-                    "GIGADRAIN"
+                    "SCENTEDSHIELD",
+                    "POLLENPUFF",
+                    "HYPERVOICE",
+                    "STARDUSTREVERIE"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "WATERGEM",
+                "Item": "GRASSGEM",
                 "IV": [
                     31,
                     31,
@@ -61567,7 +61564,7 @@
                 "Species": "BRAMBLIN",
                 "Level": 34,
                 "Gender": "male",
-                "AbilityIndex": 2,
+                "AbilityIndex": 1,
                 "Item": "RINDOBERRY",
                 "IV": [
                     26,
@@ -63084,7 +63081,7 @@
                 "Species": "SHIFTRY",
                 "Level": 101,
                 "Gender": "male",
-                "AbilityIndex": 0,
+                "AbilityIndex": 2,
                 "Item": "SHIELDFLYING",
                 "IV": [
                     31,

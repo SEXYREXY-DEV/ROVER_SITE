@@ -33,6 +33,7 @@ FullDesc = At the end of every turn, user's Speed is raised by one stage.
 [BATTLEARMOR]
 Name = Battle Armor
 Description = Prevents crits and 1.2x Pokémon's SpDef stat.
+FullDesc = Attacks against the user will never be critical hits. User has 1.2x Special Defense against special moves.
 #-------------------------------
 [STURDY]
 Name = Sturdy
@@ -373,6 +374,7 @@ Description = Doubles the Pokémon's Attack stat.
 [SHELLARMOR]
 Name = Shell Armor
 Description = Prevents crits and 1.2x Pokémon's Defense stat.
+FullDesc = Attacks against the user will never be critical hits. User has 1.2x Defense against physical moves.
 #-------------------------------
 [AIRLOCK]
 Name = Air Lock
@@ -672,6 +674,7 @@ FullDesc = At the end of each turn, the user has a 50% chance to restore the las
 [TELEPATHY]
 Name = Telepathy
 Description = Anticipates an ally's attack and dodges it.
+FullDesc = Dodges damaging spread moves an ally uses that hits the user.
 #-------------------------------
 [MOODY]
 Name = Moody
@@ -681,7 +684,7 @@ FullDesc = Every turn, the user gets one out of their Attack, Special Attack, De
 [OVERCOAT]
 Name = Overcoat
 Description = Prevents weather damage and 1.1x Def/SpDef stats.
-FullDesc = User is immune to damage from Hail and Sandstorm and has 1.1x Defense and Special Defense. Also gives user immunity to moves with the Powder tag.
+FullDesc = User is immune to damage from Hail and Sandstorm, and has 1.1x Defense/Special Defense against physical/special moves respectively. Also gives user immunity to moves with the Powder tag.
 #-------------------------------
 [POISONTOUCH]
 Name = Poison Touch
@@ -737,6 +740,7 @@ Description = On KO, Attack is boosted once per switch-in.
 [JUSTIFIED]
 Name = Justified
 Description = Raises both attack stats when hit by a Dark-type move.
+FullDesc = Raises Attack and Special Attack when hit by a Dark-type move.
 #-------------------------------
 [RATTLED]
 Name = Rattled
@@ -939,7 +943,7 @@ Description = Its shell breaks if its HP becomes half or less.
 [STAKEOUT]
 Name = Stakeout
 Description = Deals 30% more damage on target's first turn.
-FullDesc = User deals 30% more damage to the target if it is the target's first turn on the field. Also applies on the turn the target switches in (turn 0).
+FullDesc = User deals 30% more damage to the target if it is their first turn on the field. Also applies on the turn the target switches in (turn 0).
 #-------------------------------
 [WATERBUBBLE]
 Name = Water Bubble
@@ -989,6 +993,7 @@ Description = Forms a powerful school while it has a lot of HP.
 [DISGUISE]
 Name = Disguise
 Description = Its shroud protects it from an attack just once.
+FullDesc = Protects the user from an opposing attack or self-inflicted confusion hit just once, only taking 1/8th damage.
 #-------------------------------
 [BATTLEBOND]
 Name = Battle Bond
@@ -1256,6 +1261,7 @@ Description = Possesses 2 abilities
 [HONEYGATHER]
 Name = Honey Gather
 Description = Gradually regains 1/16 max HP each turn.
+FullDesc = Gradually regains 1/16 max HP each turn. After a battle, the user has a 5% chance for every 10 levels to generate Honey if they are not already holding an item.
 #-------------------------------
 [CHARISMA]
 Name = Charisma
@@ -1357,6 +1363,7 @@ Description = Shields the Pokémon from one contact move.
 [SHARPSHOOTER]
 Name = Sharp Shooter
 Description = All non-contact moves always hit their target.
+FullDesc = All of the user's damaging moves that do not make contact become never-miss moves, skip accuracy checks, and ignore misdirection from effects such as Follow Me and abilities like Lightning Rod.
 #-------------------------------
 [CANNONFIRE]
 Name = Cannon Fire
@@ -1388,7 +1395,7 @@ FullDesc = User's Normal-type moves become Cosmic-type and deal 1.2x damage.
 [WINTERGIFT]
 Name = Winter Gift
 Description = Powers up party's SpAtk/SpDef in hail.
-FullDesc = When user is on the field, all allies including user get 1.5x Special Attack and Special Defense during Hail. User takes no damage from Hail. 
+FullDesc = User changes to its Hailing form when it's Hailing. When user is on the field, all allies including user get 1.5x Special Attack and Special Defense during Hail. User takes no damage from Hail. 
 #-------------------------------
 [TORMENTED]
 Name = Tormented

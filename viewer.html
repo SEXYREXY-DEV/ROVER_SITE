@@ -44,25 +44,27 @@
     </select>
   </div>
 
-  <div id="external-doc-link" class="external-link">
-    <strong>Wonderful 2.0 Pokémon Document by WitchyAlex:</strong>
-    <a href="https://docs.google.com/document/d/1q_21bxsX8MwHvNvZXJyaXj_yhOfvph9NaeMFHv29QFI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-      View the Google Doc
-    </a>
-  </div>
+  <div id="external-docs-container">
+    <div id="external-doc-link" class="external-link">
+      <strong>Wonderful 2.0 Pokémon Document by WitchyAlex:</strong>
+      <a href="https://docs.google.com/document/d/1q_21bxsX8MwHvNvZXJyaXj_yhOfvph9NaeMFHv29QFI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+        View the Google Doc
+      </a>
+    </div>
 
-  <div id="external-doc-link" class="external-link">
-    <strong> Beautiful 2.0 abilities document by WitchyAlex:</strong>
-    <a href="https://docs.google.com/document/d/1ZJzpknHRxWrZd-iKIBapaNVkZR3tlY2ZNPd9JA87E4w/edit?tab=t.0#heading=h.e5b4nr1v1ccs" target="_blank" rel="noopener noreferrer">
-      View the Google Doc
-    </a>
-  </div>
+    <div id="external-doc-link" class="external-link">
+      <strong> Beautiful 2.0 abilities document by WitchyAlex:</strong>
+      <a href="https://docs.google.com/document/d/1ZJzpknHRxWrZd-iKIBapaNVkZR3tlY2ZNPd9JA87E4w/edit?tab=t.0#heading=h.e5b4nr1v1ccs" target="_blank" rel="noopener noreferrer">
+        View the Google Doc
+      </a>
+    </div>
 
-  <div id="external-doc-link" class="external-link">
-    <strong> Amazingful Master document by Riptidecord and WitchyAlex:</strong>
-    <a href="https://docs.google.com/document/d/1MNL5UlN6YrEEEFEvw9UU_BhoxI5nyDhd3Hb8QG6p9nk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-      View the Google Doc
-    </a>
+    <div id="external-doc-link" class="external-link">
+      <strong> Amazingful Master document by Riptidecord and WitchyAlex:</strong>
+      <a href="https://docs.google.com/document/d/1MNL5UlN6YrEEEFEvw9UU_BhoxI5nyDhd3Hb8QG6p9nk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+        View the Google Doc
+      </a>
+    </div>
   </div>
 
   <div id="pokedex-container">
@@ -76,6 +78,12 @@
     const displayGame = queryGame
       ? queryGame.charAt(0).toUpperCase() + queryGame.slice(1)
       : 'Game';
+    
+    // Show external docs only for ss2
+    const docsContainer = document.getElementById('external-docs-container');
+    if (docsContainer) {
+      docsContainer.style.display = window.game === 'ss2' ? 'block' : 'none';
+    }
   </script>
 
   <script type="module" src="viewer.js"></script>

@@ -132,7 +132,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user stings the opponent. Koing raises user's Attack sharply."
+        "Description": "The user stings the opponent. KO-ing raises user's Attack sharply."
     },
     {
         "Name": "DEFENDORDER",
@@ -152,7 +152,7 @@
         "TotalPP": 10,
         "Target": "User",
         "FunctionCode": "HealUserHalfOfTotalHP",
-        "Description": "The user calls out its underlings to heal it. The user regains up to half of its max HP."
+        "Description": "Calling its underlings to heal itself, the user restores its own HP by half of its max HP."
     },
     {
         "Name": "QUIVERDANCE",
@@ -380,7 +380,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user slaps down the target's held item preventing that item from being used in the battle."
+        "Description": "The target's held item is knocked off. Damage boosted 50% if done so."
     },
     {
         "Name": "ASSURANCE",
@@ -797,7 +797,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user blasts the target with power that distorts even time. The user must rest on the next turn."
+        "Description": "The user blasts the target with power that distorts even time. The user is exhausted on the next turn."
     },
     {
         "Name": "DRACOMETEOR",
@@ -812,7 +812,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Comets are summoned down from the sky. The attack's recoil harshly reduces the user's Sp. Atk stat."
+        "Description": "Comets are summoned down from the sky. This harshly reduces the user's Sp. Atk stat."
     },
     {
         "Name": "OUTRAGE",
@@ -957,7 +957,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row."
+        "Description": "The user attacks its target by hitting it with brutal strikes, hitting two times."
     },
     {
         "Name": "DRAGONRAGE",
@@ -1029,7 +1029,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Eternatus's most powerful attack in its original form. The user can't move on the next turn."
+        "Description": "Eternatus's most powerful attack in its original form. The user is exhausted on the next turn."
     },
     {
         "Name": "CLANGOROUSSOUL",
@@ -1057,7 +1057,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Attacks all opponents by converting its life-force into power. Its power decreases with the user's HP"
+        "Description": "Attacks all opponents by converting its life-force into power. Weakens in damage as the user loses HP."
     },
     {
         "Name": "BOLTSTRIKE",
@@ -1091,7 +1091,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "The user electrifies itself then charges at the foe. It causes considerable damage to the user as well."
+        "Description": "The user electrifies itself then charges at the foe. The user takes 33% recoil."
     },
     {
         "Name": "ZAPCANNON",
@@ -1188,7 +1188,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user shrouds itself in electricity and smashes into its foe. It also damages the user a little."
+        "Description": "The user shrouds itself in electricity and smashes into its foe. The user takes 25% recoil."
     },
     {
         "Name": "DISCHARGE",
@@ -1466,7 +1466,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Fires a powerful beam of light. It also damages the user a lot."
+        "Description": "Fires a powerful beam of light. The user takes 50% recoil."
     },
     {
         "Name": "AROMATICMIST",
@@ -1814,7 +1814,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user grabs the target and recklessly dives for the ground. It also hurts the user slightly."
+        "Description": "The user grabs the target and recklessly dives for the ground. The user takes 25% recoil."
     },
     {
         "Name": "DRAINPUNCH",
@@ -2219,7 +2219,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The target is razed by a fiery explosion. The user must rest on the next turn however."
+        "Description": "The target is razed by a fiery explosion. The user is exhausted on the next turn."
     },
     {
         "Name": "ERUPTION",
@@ -2234,7 +2234,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks in an explosive fury. The lower the user's HP the less powerful this attack becomes."
+        "Description": "The user attacks in an explosive fury. Weakens in damage as the user loses HP."
     },
     {
         "Name": "MINDBLOWN",
@@ -2310,7 +2310,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks the target at full power. The attack's recoil sharply reduces the user's Sp. Atk stat."
+        "Description": "The user attacks the target at full power. This sharply reduces the user's Sp. Atk stat."
     },
     {
         "Name": "FLAREBLITZ",
@@ -2327,7 +2327,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "Recoil move that may burn the target."
+        "Description": "The user runs at the foe while on fire, taking 33% recoil and potentially burning."
     },
     {
         "Name": "FIREBLAST",
@@ -2697,7 +2697,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user tucks in its wings and charges from a low altitude. The user also takes serious damage."
+        "Description": "The user tucks in its wings and charges from a low altitude. The user takes 33% recoil."
     },
     {
         "Name": "DRAGONASCENT",
@@ -2762,7 +2762,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user soars then strikes on the second turn. It can also be used for flying to any familiar town."
+        "Description": "The user soars, charging and becoming hidden, then attacks on the second turn."
     },
     {
         "Name": "AERIALACE",
@@ -2857,7 +2857,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A strong wind blows away the foe's hazards and lowers their evasion."
+        "Description": "A strong wind reduces the foe's evasion. Also removes hazards, terrains, and opposing screens."
     },
     {
         "Name": "FEATHERDANCE",
@@ -2921,7 +2921,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user slams the target with its wings. The target is hit twice in a row."
+        "Description": "The user slams the target with its wings, hitting two times."
     },
     {
         "Name": "SHADOWFORCE",
@@ -2936,7 +2936,7 @@
             "Contact",
             "CanMirrorMove"
         ],
-        "Description": "The user disappears then strikes the foe on the second turn. It hits even if the foe protects itself."
+        "Description": "The user disappears, charging and becoming hidden. It hits even if the foe protects itself."
     },
     {
         "Name": "MOONGEISTBEAM",
@@ -2966,7 +2966,7 @@
             "Contact",
             "CanMirrorMove"
         ],
-        "Description": "The user vanishes somewhere then strikes on the next turn. Hits through protections."
+        "Description": "The user vanishes, charging and becoming hidden, then strikes on the next turn. Hits through protections."
     },
     {
         "Name": "SHADOWBALL",
@@ -3152,7 +3152,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user slams the target with an enormous tree. The user can't move on the next turn."
+        "Description": "The user slams the target with an enormous tree. The user is exhausted on the next turn."
     },
     {
         "Name": "LEAFSTORM",
@@ -3167,7 +3167,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A storm of sharp is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat."
+        "Description": "A storm of sharp is whipped up. This harshly reduces the user's Sp. Atk stat."
     },
     {
         "Name": "SOLARBLADE",
@@ -3201,7 +3201,7 @@
             "CanMirrorMove",
             "Dance"
         ],
-        "Description": "The user attacks by scattering petals for two to three turns. The user then becomes confused."
+        "Description": "The user attacks by scattering petals and rampages for two to three turns. The user then becomes confused."
     },
     {
         "Name": "POWERWHIP",
@@ -3264,7 +3264,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user slams its rugged body into the target to attack. The user also sustains serious damage."
+        "Description": "The user slams its rugged body into the target to attack. The user takes 33% recoil."
     },
     {
         "Name": "ENERGYBALL",
@@ -3594,7 +3594,7 @@
         "TotalPP": 5,
         "Target": "User",
         "FunctionCode": "HealUserDependingOnWeather",
-        "Description": "The user restores its own HP. The amount of HP regained varies with the weather."
+        "Description": "The user restores its own HP by half of its max HP, 66% in sunlight, or 25% in any other weather."
     },
     {
         "Name": "WORRYSEED",
@@ -3873,7 +3873,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user throws the bone it holds. The bone loops to hit the target twice coming and going."
+        "Description": "The user throws the bone it holds. The bone loops to hit coming and going, hitting two times."
     },
     {
         "Name": "SANDTOMB",
@@ -3962,7 +3962,7 @@
         "TotalPP": 10,
         "Target": "User",
         "FunctionCode": "HealUserDependingOnSandstorm",
-        "Description": "The user regains up to half of its max HP. It restores more HP in a sandstorm."
+        "Description": "The user regains up to half of its max HP, or 66% in a sandstorm."
     },
     {
         "Name": "SPIKES",
@@ -4340,7 +4340,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user charges at the target using every bit of its power. The user must rest on the next turn."
+        "Description": "The user charges at the target using every bit of its power. The user is exhausted on the next turn."
     },
     {
         "Name": "HYPERBEAM",
@@ -4355,7 +4355,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy."
+        "Description": "The foe is attacked with a powerful beam. The user is exhausted on the next turn."
     },
     {
         "Name": "LASTRESORT",
@@ -4403,7 +4403,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A reckless life-risking tackle. It also damages the user by a fairly large amount however."
+        "Description": "A reckless life-risking tackle. The user takes 33% recoil."
     },
     {
         "Name": "HEADCHARGE",
@@ -4419,7 +4419,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user charges its head into the foe. The user also takes damage."
+        "Description": "The user charges its head into the foe. The user takes 25% recoil."
     },
     {
         "Name": "MEGAKICK",
@@ -4530,7 +4530,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A reckless full-body charge attack for slamming into the foe. It also damages the user a little."
+        "Description": "A reckless full-body charge attack for slamming into the foe. The user takes 25% recoil."
     },
     {
         "Name": "BODYSLAM",
@@ -4644,7 +4644,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "An attack move that doubles its power if the user is poisoned, burned, frostbitten or has paralysis."
+        "Description": "An attack move that doubles its power if the user has a non-volatile status."
     },
     {
         "Name": "HEADBUTT",
@@ -4965,7 +4965,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Things such as long bodies or tentacles are used to bind and squeeze the foe for four to five turns."
+        "Description": "Things such as long bodies or tentacles are used to bind and trap the foe for four to five turns."
     },
     {
         "Name": "DOUBLESLAP",
@@ -5013,7 +5013,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A long body or vines are used to wrap and squeeze the target for four to five turns."
+        "Description": "A long body or vines are used to trap and squeeze the target for four to five turns."
     },
     {
         "Name": "CONSTRICT",
@@ -5571,7 +5571,7 @@
         "TotalPP": 10,
         "Target": "User",
         "FunctionCode": "HealUserHalfOfTotalHP",
-        "Description": "The user restores its HP by 50%. May also be used in the field to heal HP."
+        "Description": "The user restores its own HP by half of its max HP. May also be used in the field to heal HP."
     },
     {
         "Name": "MIMIC",
@@ -5723,7 +5723,7 @@
         "TotalPP": 20,
         "Target": "User",
         "FunctionCode": "CureUserBurnPoisonParalysisFrostbite",
-        "Description": "The user rests to cure itself of a poisoning burn frostbite or paralysis."
+        "Description": "The user rests to cure itself of a non-volatile status."
     },
     {
         "Name": "SCARYFACE",
@@ -5791,7 +5791,7 @@
         "TotalPP": 10,
         "Target": "User",
         "FunctionCode": "HealUserHalfOfTotalHP",
-        "Description": "The user restores its HP by 50%. May also be used in the field to heal HP."
+        "Description": "The user restores its own HP by half of its max HP. May also be used in the field to heal HP."
     },
     {
         "Name": "STOCKPILE",
@@ -6062,7 +6062,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks by throwing a clump of special mud. All stat changes are returned to normal."
+        "Description": "The user attacks by throwing a clump of special mud, resetting the target's stat changes."
     },
     {
         "Name": "ACID",
@@ -6189,7 +6189,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user heals the target's status condition. If so it also restores the user's own HP."
+        "Description": "The user heals the target's status condition. If so it also restores the user's own HP by half."
     },
     {
         "Name": "TOXIC",
@@ -6277,7 +6277,7 @@
         "TotalPP": 10,
         "Target": "NearOther",
         "FunctionCode": "AttackTwoTurnsLater",
-        "Description": "Two turns after this move is used a hunk of psychic energy attacks the target."
+        "Description": "The user foretells an attack. Two turns later, a hunk of psychic energy hits the targeted spot."
     },
     {
         "Name": "SYNCHRONOISE",
@@ -6307,7 +6307,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "If the foe is sleeping, it deals double damage and absorbs half the damage caused to heal the user's HP."
+        "Description": "If the foe is sleeping, it deals double damage and drains half the damage caused to heal the user's HP."
     },
     {
         "Name": "PSYSTRIKE",
@@ -6355,7 +6355,7 @@
             "CanMirrorMove",
             "Biting"
         ],
-        "Description": "The user bites the target using psychic capabilities. This can also destroy Light Screen and Reflect."
+        "Description": "The user bites the target using psychic capabilities. This can also break screens."
     },
     {
         "Name": "EXTRASENSORY",
@@ -6887,7 +6887,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks the foe with a hazardous full-power headbutt. The user also takes terrible damage."
+        "Description": "The user attacks the foe with a hazardous full-power headbutt. The user takes 50% recoil."
     },
     {
         "Name": "ROCKWRECKER",
@@ -6903,7 +6903,7 @@
             "CanMirrorMove",
             "Bomb"
         ],
-        "Description": "The user launches a huge boulder at the target to attack. It must rest on the next turn however."
+        "Description": "The user launches a huge boulder at the target to attack. The user is exhausted on the next turn."
     },
     {
         "Name": "STONEEDGE",
@@ -7037,7 +7037,7 @@
         "TotalPP": 5,
         "Target": "NearOther",
         "FunctionCode": "AttackTwoTurnsLater",
-        "Description": "Two turns after this move is used the user blasts the target with a concentrated bundle of light."
+        "Description": "The user foretells doom. Two turns later, the spot is hit with a concentrated beam of light."
     },
     {
         "Name": "IRONTAIL",
@@ -7121,7 +7121,7 @@
             "Punching"
         ],
         "EffectChance": 30,
-        "Description": "The user bashes the target with its steel limbs twice. May cause flinching."
+        "Description": "The user bashes the target with its steel limbs, hitting two times. May cause flinching."
     },
     {
         "Name": "GEARGRIND",
@@ -7137,7 +7137,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks by throwing two steel gears at its target."
+        "Description": "The user attacks by throwing two steel gears at its target, hitting two times."
     },
     {
         "Name": "BULLETPUNCH",
@@ -7317,7 +7317,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The target is hit with a watery blast. The user must rest on the next turn however."
+        "Description": "The target is hit with a watery blast. The user is exhausted on the next turn."
     },
     {
         "Name": "WATERSPOUT",
@@ -7332,7 +7332,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user spouts water to damage the foe. The lower the user's HP the less powerful it becomes."
+        "Description": "The user spouts water to damage the foe. Weakens in damage as the user loses HP."
     },
     {
         "Name": "ORIGINPULSE",
@@ -7428,7 +7428,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Diving on the first turn the user rises and hits on the next turn. It can be used to dive in the ocean."
+        "Description": "Diving on the first turn, charging and becoming hidden, the user hits on the second turn."
     },
     {
         "Name": "SCALD",
@@ -7593,7 +7593,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user hits the target with throwing stars 2-5 times in a row. This move always goes first."
+        "Description": "The user hits with throwing stars two to five times in a row. This move always goes first."
     },
     {
         "Name": "AQUARING",
@@ -7741,7 +7741,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Diving on the first turn the user rises and hits on the next turn."
+        "Description": "Diving on the first turn, charging and becoming hidden, the user hits on the next turn."
     },
     {
         "Name": "ATTACKORDER",
@@ -7807,7 +7807,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The target is infested and unable to flee for four to five turns."
+        "Description": "The target is infested, trapped and unable to flee for four to five turns."
     },
     {
         "Name": "PINMISSILE",
@@ -7886,7 +7886,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The foe is stabbed twice by a pair of stingers."
+        "Description": "The foe is stabbed twice by a pair of stingers, hitting two times."
     },
     {
         "Name": "XSCISSOR",
@@ -7921,7 +7921,7 @@
             "CanMirrorMove",
             "Punching"
         ],
-        "Description": "The target is hit with a flurry of meteorite punches"
+        "Description": "The target is hit with a flurry of two to five meteorite punches"
     },
     {
         "Name": "COSMICPOWER",
@@ -8069,7 +8069,7 @@
         "Flags": [
             "CanMirrorMove"
         ],
-        "Description": "The user restores its own HP. The amount of HP regained varies with the weather."
+        "Description": "The user restores its own HP by half of its max HP, 66% in sunlight, or 25% in any other weather."
     },
     {
         "Name": "DARKVOID",
@@ -8332,7 +8332,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user's HP is restored by 75% of the damage dealt."
+        "Description": "Draining electrical charge. The user's HP is restored by 75% of the damage dealt."
     },
     {
         "Name": "SHOCKWAVE",
@@ -8457,7 +8457,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user steals the target's HP with a kiss. Restores HP worth 75% of damage dealt."
+        "Description": "The user drains the target's HP with a kiss. Restores HP worth 75% of damage dealt."
     },
     {
         "Name": "FAIRYWIND",
@@ -8490,7 +8490,7 @@
             "CanMirrorMove",
             "CannotMetronome"
         ],
-        "Description": "The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat."
+        "Description": "The user unleashes a strong beam. This harshly lowers the user's Sp. Atk stat."
     },
     {
         "Name": "HEARTSTAMP",
@@ -8602,7 +8602,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user looses a flurry of open-palmed arm thrusts that hit 2-5x in a row."
+        "Description": "The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row."
     },
     {
         "Name": "BLOCK",
@@ -8631,7 +8631,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks with a swift chop, breaking any barriers."
+        "Description": "The user attacks with a swift chop. This can also break screens."
     },
     {
         "Name": "DOUBLEKICK",
@@ -8647,7 +8647,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The target is quickly kicked twice in succession using both feet."
+        "Description": "The target is quickly kicked twice in succession using both feet, hitting two times."
     },
     {
         "Name": "ROLLINGKICK",
@@ -8876,7 +8876,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 30,
-        "Description": "The user bounces up high and crashes down on the second turn. Chance to paralyze."
+        "Description": "The user bounces up high, hiding and becoming hidden. Chance to paralyze."
     },
     {
         "Name": "DRILLPECK",
@@ -8924,7 +8924,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user absorbs its target's HP. The user's HP is restored by 75% of the damage dealt."
+        "Description": "The user drains its target's HP. The user's HP is restored by 75% of the damage dealt."
     },
     {
         "Name": "PECK",
@@ -9346,7 +9346,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user burrows then attacks on the second turn."
+        "Description": "The user burrows, charging and becoming hidden, then attacks on the second turn."
     },
     {
         "Name": "HIGHHORSEPOWER",
@@ -9618,7 +9618,7 @@
         "TotalPP": 10,
         "Target": "User",
         "FunctionCode": "HealUserDependingOnWeather",
-        "Description": "The user restores its own HP. The amount of HP regained varies with the weather."
+        "Description": "The user restores its own HP by half of its max HP, 66% in sunlight, or 25% in any other weather."
     },
     {
         "Name": "PHOTONGEYSER",
@@ -9725,7 +9725,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user slams the target twice."
+        "Description": "The user slams the target twice, hitting two times."
     },
     {
         "Name": "FREEZINGGLARE",
@@ -9873,7 +9873,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks by striking the target with its hard tail 2 - 5 times."
+        "Description": "The user attacks by striking the target with its hard tail two to five times."
     },
     {
         "Name": "CROSSPOISON",
@@ -10595,7 +10595,7 @@
             "CanMirrorMove",
             "Sound"
         ],
-        "Description": "The user attacks in an uproar for three turns. It then becomes confused however."
+        "Description": "The user attacks in an uproar and rampages for three turns. It then becomes confused."
     },
     {
         "Name": "ANCHORSHOT",
@@ -10799,7 +10799,7 @@
             "CanMirrorMove",
             "Biting"
         ],
-        "Description": "The target is clamped and squeezed by the user for four to five turns."
+        "Description": "The target is clamped and trapped by the user for four to five turns."
     },
     {
         "Name": "FLIPTURN",
@@ -11025,7 +11025,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user rams into the target in +2 priority but suffers 25% recoil damage."
+        "Description": "The user rams into the target with +2 priority but takes 25% recoil damage."
     },
     {
         "Name": "FLUTTER",
@@ -11035,7 +11035,7 @@
         "TotalPP": 20,
         "Target": "User",
         "FunctionCode": "CureUserBurnPoisonParalysisFrostbite",
-        "Description": "The user flaps its wings to remove impurities. Cures poison, burn, frostbite, and paralysis."
+        "Description": "The user flaps its wings to remove impurities. Cures non-volatile statuses."
     },
     {
         "Name": "HIVEMIND",
@@ -11050,7 +11050,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Forces its subjects to maim the target for two to three turns. It then becomes confused however."
+        "Description": "Its subjects maim the target and rampages for two to three turns. It then becomes confused."
     },
     {
         "Name": "INFECTION",
@@ -11106,7 +11106,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Chucks a massive pollen bomb at the target. The attack's recoil harshly reduces the user's Sp. Atk."
+        "Description": "Chucks a massive pollen bomb at the target. This harshly reduces the user's Sp. Atk."
     },
     {
         "Name": "STRAFE",
@@ -11141,7 +11141,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "Calls its species to charges its foe, damaging the user a lot. Chance to paralyze."
+        "Description": "Calls its species to charges its foe, taking 33% recoil. Chance to paralyze."
     },
     {
         "Name": "ANTIMATTER",
@@ -11223,7 +11223,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks the target then escapes using a nearby dimensional portal."
+        "Description": "The user attacks the target then escapes using a nearby dimensional portal to switch places with a party Pok\u00c3\u00a9mon in waiting"
     },
     {
         "Name": "DIMENSIONALRUSH",
@@ -11516,7 +11516,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user hurls itself at the target. It also damages the user by a fairly large amount however."
+        "Description": "The user hurls itself at the target. The user takes 33% recoil."
     },
     {
         "Name": "SUPERNOVA",
@@ -11532,7 +11532,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 30,
-        "Description": "Explodes in cosmic glory, scorching everything around the user. It may leave targets with a burn."
+        "Description": "Bursts in cosmic glory, scorching everything around the user. It may leave targets with a burn."
     },
     {
         "Name": "TRIVEGA",
@@ -11563,7 +11563,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The target is hit with a pair of stars in quick succession."
+        "Description": "The target is hit with a pair of stars in quick succession, hitting two times."
     },
     {
         "Name": "URANOMETRIA",
@@ -11578,7 +11578,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Recites an old spell that summons 88 constellations. Recharges next turn."
+        "Description": "Recites an old spell that summons 88 constellations. The user is exhausted on the next turn."
     },
     {
         "Name": "VOIDDRIFT",
@@ -11793,7 +11793,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "This scathing attack clears the foe's stat changes."
+        "Description": "This scathing attack smites the target, resetting the target's stat changes."
     },
     {
         "Name": "VENDETTA",
@@ -11970,7 +11970,7 @@
             "CanMirrorMove",
             "Biting"
         ],
-        "Description": "User nibbles the target persistently. The user's HP is restored by 75% of the damage dealt."
+        "Description": "User nibbles the target persistently to drain it. The user's HP is restored by 75% of the damage dealt."
     },
     {
         "Name": "DRAGONMAGIC",
@@ -12003,7 +12003,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 10,
-        "Description": "The user charges at the foe, taking damage but may also paralyze the target."
+        "Description": "The user charges at the foe, taking 33% recoil but may also paralyze the target."
     },
     {
         "Name": "DRAGONWING",
@@ -12430,7 +12430,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Attacks using the power of the King of fairies, the lower the user's HP, the less powerful it is."
+        "Description": "Attacks using the power of the King of fairies. Weakens in damage as the user loses HP."
     },
     {
         "Name": "PEEKABOO",
@@ -12495,7 +12495,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Uses its fabled horns to restore 50% of damage dealt."
+        "Description": "Uses its fabled horns to drains 50% of damage dealt."
     },
     {
         "Name": "TITANIASLAW",
@@ -12701,7 +12701,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Uses all its power in a single overwhelming attack. The user can't move on the next turn."
+        "Description": "Uses all its power in a single overwhelming attack. The user is exhausted on the next turn."
     },
     {
         "Name": "MAGICPALM",
@@ -12875,7 +12875,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Rams the target with blazing horns or a beak, but damages the user a little."
+        "Description": "Rams the target with blazing horns or a beak, taking 25% recoil."
     },
     {
         "Name": "SIZZLE",
@@ -12956,7 +12956,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Calls a herd of its own species to carry out 2-5 consecutive attacks on the target."
+        "Description": "Calls a herd of its own species to carry out two to five consecutive attacks on the target."
     },
     {
         "Name": "GALEHOLD",
@@ -13088,7 +13088,7 @@
             "CanMirrorMove",
             "Wind"
         ],
-        "Description": "A strong wind causes the target to drop their held item."
+        "Description": "The target's held item is knocked off with strong winds. Damage boosted 50% if done so."
     },
     {
         "Name": "TYPHOON",
@@ -13186,7 +13186,7 @@
             "CanMirrorMove",
             "Slicing"
         ],
-        "Description": "The user slashes the opponent. KOing raises user's Attack sharply."
+        "Description": "The user slashes the opponent. KO-ing raises user's Attack sharply."
     },
     {
         "Name": "HAUNT",
@@ -13219,7 +13219,7 @@
             "CanMirrorMove",
             "Biting"
         ],
-        "Description": "The user devours the target viciously like a corpse, restoring HP by 75% of the damage dealt."
+        "Description": "The user devours the target viciously like a corpse to drain it, restoring HP by 75% of the damage dealt."
     },
     {
         "Name": "MACABREDANCE",
@@ -13248,7 +13248,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user possesses the target and eviscerates itself damaging the user substantially."
+        "Description": "The user possesses the target and eviscerates itself taking 33% recoil."
     },
     {
         "Name": "SHADOWRAY",
@@ -13725,7 +13725,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Cleanses the battlefield of the foe's hazards and lowers their evasion."
+        "Description": "A cleansing wave reduces the foe's evasion. Also removes hazards, terrains, and opposing screens."
     },
     {
         "Name": "CONSECRATE",
@@ -13767,7 +13767,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Deities smite the target. The attack's recoil harshly reduces the user's Sp. Atk stat."
+        "Description": "Deities smite the target. This harshly reduces the user's Sp. Atk stat."
     },
     {
         "Name": "DIVINEVISION",
@@ -13782,7 +13782,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Two turns after this move, a divine force attacks the target."
+        "Description": "The user foretells a divine prophecy. Two turns after this move, a divine force attacks the target."
     },
     {
         "Name": "FINALSTAND",
@@ -13797,7 +13797,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A reckless life-risking tackle, damaging the user by a fairly large amount however."
+        "Description": "A reckless life-risking tackle, taking 33% recoil."
     },
     {
         "Name": "GUARDIANANGEL",
@@ -13835,7 +13835,7 @@
             "CanMirrorMove",
             "Punching"
         ],
-        "Description": "The user pummels the target. KOing raises user's Attack sharply."
+        "Description": "The user pummels the target. KO-ing raises user's Attack sharply."
     },
     {
         "Name": "HOLYBOLT",
@@ -13894,6 +13894,7 @@
         "Target": "NearOther",
         "FunctionCode": "RaiseUserAttack1",
         "Flags": [
+            "CanProtect",
             "CanMirrorMove"
         ],
         "EffectChance": 10,
@@ -14213,7 +14214,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user attacks relentlessly for 2-3 turns! It then becomes confused however."
+        "Description": "The user rampages relentlessly for two to three turns! It then becomes confused however."
     },
     {
         "Name": "FANTASYSEAL",
@@ -14243,7 +14244,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Extends the duration of existing weather and terrain by 1 turn when KOing a target."
+        "Description": "Extends the duration of existing weather and terrain by 1 turn when KO-ing a target."
     },
     {
         "Name": "LAZYBREAK",
@@ -14384,7 +14385,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Shoots the target with identical beams in quick succession."
+        "Description": "Shoots the target with identical beams in quick succession, hitting two times."
     },
     {
         "Name": "WEAPONMASTERY",
@@ -14507,7 +14508,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The target's item rots after entering in contact with the user."
+        "Description": "The target's held item is removed with rot. Damage boosted 50% if done so."
     },
     {
         "Name": "VENOMDRAIN",
@@ -14570,7 +14571,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Makes a blood pact with a sinister force, causing the user to take serious damage."
+        "Description": "Makes a blood pact with a sinister force, taking 33% recoil."
     },
     {
         "Name": "CHECKMATE",
@@ -14585,7 +14586,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user outsmarts the target. KOing raises user's SpAtk sharply."
+        "Description": "The user outsmarts the target. KO-ing raises user's SpAtk sharply."
     },
     {
         "Name": "KARMASPELL",
@@ -15184,7 +15185,7 @@
             "CanMirrorMove",
             "Sound"
         ],
-        "Description": "The user issues a bellowing sound that produces a large echo that can hit the target 2-5 times."
+        "Description": "The user issues a bellowing sound that can hit the target two to five times."
     },
     {
         "Name": "SCHIZOPHRENIA",
@@ -15230,7 +15231,7 @@
             "CanMirrorMove",
             "Sound"
         ],
-        "Description": "The user plays John Cage's 4'33 that returns all stat changes to normal."
+        "Description": "The user plays John Cage's 4'33, resetting the target's stat changes."
     },
     {
         "Name": "SONICCRASH",
@@ -15607,7 +15608,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "A column of water is slammed at the target. 1/3rd Recoil damage."
+        "Description": "A column of water is slammed at the target, taking 33% recoil."
     },
     {
         "Name": "WATERWHIP",
@@ -15876,7 +15877,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user drills past any barrier such as Light Screen and Reflect."
+        "Description": "The user drills a hole towards the target which break screens."
     },
     {
         "Name": "OVERCLOCK",
@@ -15960,7 +15961,7 @@
             "CanMirrorMove",
             "Sound"
         ],
-        "Description": "The user shatters any screens such as Light Screen and Reflect."
+        "Description": "The user shatters and break screens."
     },
     {
         "Name": "PENANCE",
@@ -16017,7 +16018,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user explodes in a cosmic finale. The attack's recoil harshly reduces the user's Sp. Atk stat."
+        "Description": "The user explodes in a cosmic finale. This harshly reduces the user's Sp. Atk stat."
     },
     {
         "Name": "METEORSHOWER",
@@ -16032,7 +16033,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Calls down a meteor shower that lands 2-5 consecutive attacks on the target."
+        "Description": "Calls down a meteor shower that lands two to five consecutive attacks on the target."
     },
     {
         "Name": "CELESTIALFURY",
@@ -16173,7 +16174,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Two turns after this move, a sinister force attacks the target."
+        "Description": "The user foretells a terrible fate. Two turns after this move, a sinister force attacks the target."
     },
     {
         "Name": "DUNEBLAST",
@@ -16188,7 +16189,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user blasts the target with sand. KOing raises user's SpAtk sharply."
+        "Description": "The user blasts the target with sand. KO-ing raises user's SpAtk sharply."
     },
     {
         "Name": "SANDSNARE",
@@ -16284,7 +16285,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user heals the target's status condition. If so it also restores the user's own HP."
+        "Description": "The user heals the target's status condition. If so it also restores the user's own HP by half."
     },
     {
         "Name": "IGNITE",
@@ -16353,7 +16354,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user siphons life from the target. The user's HP is restored by half the damage done."
+        "Description": "The user drains life from the target. The user's HP is restored by half the damage done."
     },
     {
         "Name": "MANIPULATION",
@@ -16673,7 +16674,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user blasts a gush of water at the target's held item preventing it from using it in the battle."
+        "Description": "The target's held item is removed with water. Damage boosted 50% if done so."
     },
     {
         "Name": "ENERGYSURGE",
@@ -17167,7 +17168,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user slams the ground causing a small quake and removing the target's held item."
+        "Description": "The target's held item is removed with a small quake. Damage boosted 50% if done so."
     },
     {
         "Name": "THROWINGSTAR",
@@ -17277,7 +17278,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Charges the enemy with fabled power, causing the user to take serious damage."
+        "Description": "Charges the enemy with fabled power, taking 33% recoil."
     },
     {
         "Name": "DOUBLESCOOP",
@@ -17293,7 +17294,7 @@
             "Punching"
         ],
         "EffectChance": 30,
-        "Description": "The user hurls two scoops of ice cream at its target. May cause flinching."
+        "Description": "The user hurls two scoops of ice cream at its target, hitting two times. May cause flinching."
     },
     {
         "Name": "SLURP",
@@ -17540,7 +17541,7 @@
         "TotalPP": 20,
         "Target": "User",
         "FunctionCode": "CureUserBurnPoisonParalysisFrostbite",
-        "Description": "The user taps into its soul to remove impurities. Cures poison, burn, frostbite, and paralysis."
+        "Description": "The user taps into its soul to remove impurities. Cures non-volatile statuses."
     },
     {
         "Name": "STORMSHIELD",
@@ -17884,7 +17885,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Disturbs the target with terrorizing visions, making it drop their held item."
+        "Description": "The target's held item is removed with terrorizing visions. Damage boosted 50% if done so."
     },
     {
         "Name": "MALEFICACT",
@@ -18038,7 +18039,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Uses the power of autumn to remove the effects of Light Screen and Reflect."
+        "Description": "Uses the power of autumn to break screens."
     },
     {
         "Name": "PRIMORDIALBEAM",
@@ -18104,7 +18105,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user wallops the target with waves of sand 2-5 times in a row. This move always goes first."
+        "Description": "The user wallops the target with waves of sand two to five times in a row. This move always goes first."
     },
     {
         "Name": "SANDSPRAY",
@@ -18273,7 +18274,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user blasts the target with freezing air. KOing raises user's SpAtk sharply."
+        "Description": "The user blasts the target with freezing air. KO-ing raises user's SpAtk sharply."
     },
     {
         "Name": "NUMBINGWIND",
@@ -18317,7 +18318,7 @@
         "TotalPP": 10,
         "Target": "NearOther",
         "FunctionCode": "AttackTwoTurnsLater",
-        "Description": "Two turns after this move is used, a snowstorm attacks the target."
+        "Description": "The user foretells imminent winter. Two turns after this move is used, a snowstorm attacks the target."
     },
     {
         "Name": "COLDFRONT",
@@ -18372,7 +18373,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user throws an enchanted hammer. The hammer loops to hit the target twice coming and going."
+        "Description": "The user throws an enchanted hammer, hitting two times as it loops, coming and going."
     },
     {
         "Name": "FANATICISM",
@@ -18451,7 +18452,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Harnesses the energy of a foe. The user's HP is restored by half the damage taken by the target."
+        "Description": "Harnesses the energy of a foe to drain it. The user's HP is restored by 50% of the damage."
     },
     {
         "Name": "BALANCEDBEAM",
@@ -18596,7 +18597,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Blights the battlefield, removing the effects of Light Screen and Reflect."
+        "Description": "Blights the battlefield to break screens."
     },
     {
         "Name": "CAUSTICACID",
@@ -18643,7 +18644,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Makes the enemy's mind wither, making them forget how to use their held item."
+        "Description": "The target's held item is removed by withering their mind. Damage boosted 50% if done so."
     },
     {
         "Name": "SCRAMBLEMIND",
@@ -18691,7 +18692,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user wallops the target with magical blasts 2-5 times in a row. This move always goes first."
+        "Description": "The user sends magical blasts two to five times in a row. This move always goes first."
     },
     {
         "Name": "HEXBOLT",
@@ -18814,7 +18815,7 @@
             "CanMirrorMove",
             "Sound"
         ],
-        "Description": "Sings a magnificient hymn. The attack's recoil harshly reduces the user's Sp. Atk stat."
+        "Description": "Sings a magnificient hymn. This harshly reduces the user's Sp. Atk stat."
     },
     {
         "Name": "SHOTPUT",
@@ -19211,7 +19212,7 @@
             "CanMirrorMove",
             "Slicing"
         ],
-        "Description": "The user attacks by launching particle blades at the target twice in a row. This attack never misses."
+        "Description": "The user attacks by launching particle blades at the target, hitting two times. This attack never misses."
     },
     {
         "Name": "WILDFIRE",
@@ -19243,7 +19244,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "Brands the battlefield with fire, removing the effects of Light Screen and Reflect."
+        "Description": "Brands the battlefield with fire to break screens."
     },
     {
         "Name": "NEBULASTRIKE",
@@ -19357,7 +19358,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user neutralizes its target, returning all stat changes to normal."
+        "Description": "The user neutralizes its target, resetting the target's stat changes."
     },
     {
         "Name": "SAVAGERY",

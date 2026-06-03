@@ -314,7 +314,7 @@ HiddenAbilities = HIVEMIND
 Flags = RaidBoss
 FormName = Mega Raticate
 MegaStone = RATICATITE
-BaseStats = 80,85,100,93,75,100
+BaseStats = 80,85,115,88,50,115
 Abilities = MAGICBOUNCE
 HiddenAbilities = MAGICBOUNCE
 #-------------------------------
@@ -1400,7 +1400,7 @@ Moves = 1,LEER,1,TACKLE,1,ASTONISH,4,DRAGONFURY,6,TORRENT,8,SOULRIP,11,BITE,14,A
 TutorMoves = AMBUSH, ANCIENTGLARE, ATTRACT, BLOODRITUAL, BRINE, CASCADE, CLOSECOMBAT, COUPDEGRACE, CRUNCH, CURSEDTOUCH, DARKPULSE, DRAGONDANCE, ENDERSHOCK, EXECUTION, FALSESWIPE, FIREFANG, FLIPTURN, FROSTBITE, GOBLINSTRIKE, HAIL, HIDDENPOWER, HYPOTHERMIA, ICEFANG, ICICLESPEAR, ICYWIND, IRONHEAD, KNOCKOFF, LASHOUT, LIQUIDATION, MEMENTO, NAGASKIN, NASTYPLOT, OCEANWRATH, OUTRAGE, OVERFLOW, PHANTOMFORCE, PHOBIA, PLAYROUGH, POISONFANG, POISONJAB, PROTECT, PSYCHICFANGS, RAINDANCE, REST, RETURN, SAFEGUARD, SCALD, SCALESHOT, SHADOWBALL, SLEEPTALK, SOAK, SOULRIP, SPIKES, SUBMERGE, SUBSTITUTE, SWIFT, TAUNT, THUNDERFANG, TIDALWAVE, TOXIC, TOXICSPIKES, VENDETTA, VITALITYDRAIN, WATERPRESSURE, WATERPULSE, WHIRLPOOL, WORKUP
 EggMoves = WATERPRESSURE,ICEFANG,CASCADE,FOULPLAY,BEATUP,AGILITY,AQUAFANG,BREAKINGSWIPE,SPIRITSHACKLE,DUALCHOP
 Pokedex = Even Basculin, which devours everything it can with its huge jaws, is nothing more than food to organisms stronger than itself.
-Evolutions = BASCULEGION,Item,ROYALSTONE
+Evolutions = BASCULEGION,Level,40
 #-------------------------------
 [FURFROU,1]
 FormName = Ash
@@ -1579,7 +1579,7 @@ Pokedex = This Pokemon masquerades as a charged mace.
 [CHERRIM,1]
 FormName = Hailing Form
 Types = GRASS,ICE
-BaseStats = 70,40,60,85,102,93
+BaseStats = 70,40,60,95,92,93
 EVs = SPECIAL_ATTACK,2
 Color = Blue
 Pokedex = After harnessing the power of hail, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until the hail stops.
@@ -2115,7 +2115,7 @@ BaseStats = 100,80,70,80,25,70 # 425 BST Total Physical Bruiser
 EVs = ATTACK,3
 Abilities = OWNTEMPO
 HiddenAbilities = OWNTEMPO
-Moves = 1,SUPERPOWER,1,EARTHQUAKE,1,FRENZY,1,OUTRAGE
+Moves = 1,SUPERPOWER,1,EARTHQUAKE,1,POISONJAB,1,OUTRAGE
 Pokedex = This Pokemon is a temporal anomaly.
 #-------------------------------
 [GULPIN,1]
@@ -2645,7 +2645,7 @@ BaseStats = 150,100,100,100,50,100 # 600 BST Total
 EVs = ATTACK,3
 Abilities = SHEERFORCE
 HiddenAbilities = SHEERFORCE
-Moves = 1,CRUNCH,1,EARTHQUAKE,1,POISONJAB,1,ROCKSLIDE
+Moves = 1,CRUNCH,1,EARTHENLANCE,1,POISONJAB,1,ROCKSLIDE
 Pokedex = This Pokemon is a temporal anomaly.
 #-------------------------------
 [GOLBAT,2] # This is form #2 in case I decide to give him a mega
@@ -2733,9 +2733,9 @@ FormName = Anomaly
 Types = GRASS,GROUND
 BaseStats = 100,85,85,85,35,85 # 475 BST Total Physical Bruiser
 EVs = DEFENSE,3
-Abilities = RAINDISH
-HiddenAbilities = RAINDISH
-Moves = 1,STRENGTHSAP,1,LEECHSEED,1,MOSSYPUNCH,1,PROTECT
+Abilities = VENGEFUL
+HiddenAbilities = VENGEFUL
+Moves = 1,STRENGTHSAP,1,ROCKSLIDE,1,MOSSYPUNCH,1,EARTHQUAKE
 Pokedex = This Pokemon is a temporal anomaly.
 #-------------------------------
 [VILEPLUME,2]

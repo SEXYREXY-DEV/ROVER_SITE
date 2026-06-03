@@ -96,7 +96,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = RaiseUserAttack2IfTargetFaints
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user stings the opponent. Koing raises user's Attack sharply.
+Description = The user stings the opponent. KO-ing raises user's Attack sharply.
 #-------------------------------
 [DEFENDORDER]
 Name = Defend Order
@@ -116,7 +116,7 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = HealUserHalfOfTotalHP
-Description = The user calls out its underlings to heal it. The user regains up to half of its max HP.
+Description = Calling its underlings to heal itself, the user restores its own HP by half of its max HP.
 #-------------------------------
 [QUIVERDANCE]
 Name = Quiver Dance
@@ -297,7 +297,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RemoveTargetItem
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user slaps down the target's held item preventing that item from being used in the battle.
+Description = The target's held item is knocked off. Damage boosted 50% if done so.
 #-------------------------------
 [ASSURANCE]
 Name = Assurance
@@ -622,7 +622,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = CanProtect,CanMirrorMove
-Description = The user blasts the target with power that distorts even time. The user must rest on the next turn.
+Description = The user blasts the target with power that distorts even time. The user is exhausted on the next turn.
 #-------------------------------
 [DRACOMETEOR]
 Name = Draco Meteor
@@ -634,7 +634,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtk2
 Flags = CanProtect,CanMirrorMove
-Description = Comets are summoned down from the sky. The attack's recoil harshly reduces the user's Sp. Atk stat.
+Description = Comets are summoned down from the sky. This harshly reduces the user's Sp. Atk stat.
 #-------------------------------
 [OUTRAGE]
 Name = Outrage
@@ -744,7 +744,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoTimes
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.
+Description = The user attacks its target by hitting it with brutal strikes, hitting two times.
 #-------------------------------
 [DRAGONRAGE]
 Name = Dragon Rage
@@ -803,7 +803,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = CanProtect,CanMirrorMove
-Description = Eternatus's most powerful attack in its original form. The user can't move on the next turn.
+Description = Eternatus's most powerful attack in its original form. The user is exhausted on the next turn.
 #-------------------------------
 [CLANGOROUSSOUL]
 Name = Clangorous Soul
@@ -826,7 +826,7 @@ TotalPP = 5
 Target = AllNearFoes
 FunctionCode = PowerHigherWithUserHP
 Flags = CanProtect,CanMirrorMove
-Description = Attacks all opponents by converting its life-force into power. Its power decreases with the user's HP
+Description = Attacks all opponents by converting its life-force into power. Weakens in damage as the user loses HP.
 #-------------------------------
 [BOLTSTRIKE]
 Name = Bolt Strike
@@ -852,7 +852,7 @@ Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealtParalyzeTarget
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 10
-Description = The user electrifies itself then charges at the foe. It causes considerable damage to the user as well.
+Description = The user electrifies itself then charges at the foe. The user takes 33% recoil.
 #-------------------------------
 [ZAPCANNON]
 Name = Zap Cannon
@@ -927,7 +927,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user shrouds itself in electricity and smashes into its foe. It also damages the user a little.
+Description = The user shrouds itself in electricity and smashes into its foe. The user takes 25% recoil.
 #-------------------------------
 [DISCHARGE]
 Name = Discharge
@@ -1152,7 +1152,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = RecoilHalfOfDamageDealt
 Flags = CanProtect,CanMirrorMove
-Description = Fires a powerful beam of light. It also damages the user a lot.
+Description = Fires a powerful beam of light. The user takes 50% recoil.
 #-------------------------------
 [AROMATICMIST]
 Name = Aromatic Mist
@@ -1424,7 +1424,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user grabs the target and recklessly dives for the ground. It also hurts the user slightly.
+Description = The user grabs the target and recklessly dives for the ground. The user takes 25% recoil.
 #-------------------------------
 [DRAINPUNCH]
 Name = Drain Punch
@@ -1746,7 +1746,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = CanProtect,CanMirrorMove
-Description = The target is razed by a fiery explosion. The user must rest on the next turn however.
+Description = The target is razed by a fiery explosion. The user is exhausted on the next turn.
 #-------------------------------
 [ERUPTION]
 Name = Eruption
@@ -1758,7 +1758,7 @@ TotalPP = 5
 Target = AllNearFoes
 FunctionCode = PowerHigherWithUserHP
 Flags = CanProtect,CanMirrorMove
-Description = The user attacks in an explosive fury. The lower the user's HP the less powerful this attack becomes.
+Description = The user attacks in an explosive fury. Weakens in damage as the user loses HP.
 #-------------------------------
 [MINDBLOWN]
 Name = Mind Blown
@@ -1820,7 +1820,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtk2
 Flags = CanProtect,CanMirrorMove
-Description = The user attacks the target at full power. The attack's recoil sharply reduces the user's Sp. Atk stat.
+Description = The user attacks the target at full power. This sharply reduces the user's Sp. Atk stat.
 #-------------------------------
 [FLAREBLITZ]
 Name = Flare Blitz
@@ -1833,7 +1833,7 @@ Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealtBurnTarget
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 10
-Description = Recoil move that may burn the target.
+Description = The user runs at the foe while on fire, taking 33% recoil and potentially burning.
 #-------------------------------
 [FIREBLAST]
 Name = Fire Blast
@@ -2123,7 +2123,7 @@ TotalPP = 15
 Target = Other
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user tucks in its wings and charges from a low altitude. The user also takes serious damage.
+Description = The user tucks in its wings and charges from a low altitude. The user takes 33% recoil.
 #-------------------------------
 [DRAGONASCENT]
 Name = Dragon Ascent
@@ -2173,7 +2173,7 @@ TotalPP = 15
 Target = Other
 FunctionCode = TwoTurnAttackInvulnerableInSky
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user soars then strikes on the second turn. It can also be used for flying to any familiar town.
+Description = The user soars, charging and becoming hidden, then attacks on the second turn.
 #-------------------------------
 [AERIALACE]
 Name = Aerial Ace
@@ -2244,7 +2244,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetEvasion1RemoveSideEffects
 Flags = CanProtect,CanMirrorMove
-Description = A strong wind blows away the foe's hazards and lowers their evasion.
+Description = A strong wind reduces the foe's evasion. Also removes hazards, terrains, and opposing screens.
 #-------------------------------
 [FEATHERDANCE]
 Name = Feather Dance
@@ -2298,7 +2298,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HitTwoTimes
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user slams the target with its wings. The target is hit twice in a row.
+Description = The user slams the target with its wings, hitting two times.
 #-------------------------------
 [SHADOWFORCE]
 Name = Shadow Force
@@ -2310,7 +2310,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableRemoveProtections
 Flags = Contact,CanMirrorMove
-Description = The user disappears then strikes the foe on the second turn. It hits even if the foe protects itself.
+Description = The user disappears, charging and becoming hidden. It hits even if the foe protects itself.
 #-------------------------------
 [MOONGEISTBEAM]
 Name = Moongeist Beam
@@ -2334,7 +2334,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableRemoveProtections
 Flags = Contact,CanMirrorMove
-Description = The user vanishes somewhere then strikes on the next turn. Hits through protections.
+Description = The user vanishes, charging and becoming hidden, then strikes on the next turn. Hits through protections.
 #-------------------------------
 [SHADOWBALL]
 Name = Shadow Ball
@@ -2486,7 +2486,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = CanProtect,CanMirrorMove
-Description = The user slams the target with an enormous tree. The user can't move on the next turn.
+Description = The user slams the target with an enormous tree. The user is exhausted on the next turn.
 #-------------------------------
 [LEAFSTORM]
 Name = Leaf Storm
@@ -2498,7 +2498,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtk2
 Flags = CanProtect,CanMirrorMove
-Description = A storm of sharp is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat.
+Description = A storm of sharp is whipped up. This harshly reduces the user's Sp. Atk stat.
 #-------------------------------
 [SOLARBLADE]
 Name = Solar Blade
@@ -2522,7 +2522,7 @@ TotalPP = 10
 Target = RandomNearFoe
 FunctionCode = MultiTurnAttackConfuseUserAtEnd
 Flags = Contact,CanProtect,CanMirrorMove,Dance
-Description = The user attacks by scattering petals for two to three turns. The user then becomes confused.
+Description = The user attacks by scattering petals and rampages for two to three turns. The user then becomes confused.
 #-------------------------------
 [POWERWHIP]
 Name = Power Whip
@@ -2571,7 +2571,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user slams its rugged body into the target to attack. The user also sustains serious damage.
+Description = The user slams its rugged body into the target to attack. The user takes 33% recoil.
 #-------------------------------
 [ENERGYBALL]
 Name = Energy Ball
@@ -2834,7 +2834,7 @@ Accuracy = 0
 TotalPP = 5
 Target = User
 FunctionCode = HealUserDependingOnWeather
-Description = The user restores its own HP. The amount of HP regained varies with the weather.
+Description = The user restores its own HP by half of its max HP, 66% in sunlight, or 25% in any other weather.
 #-------------------------------
 [WORRYSEED]
 Name = Worry Seed
@@ -3054,7 +3054,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HitTwoTimes
 Flags = CanProtect,CanMirrorMove
-Description = The user throws the bone it holds. The bone loops to hit the target twice coming and going.
+Description = The user throws the bone it holds. The bone loops to hit coming and going, hitting two times.
 #-------------------------------
 [SANDTOMB]
 Name = Sand Tomb
@@ -3131,7 +3131,7 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = HealUserDependingOnSandstorm
-Description = The user regains up to half of its max HP. It restores more HP in a sandstorm.
+Description = The user regains up to half of its max HP, or 66% in a sandstorm.
 #-------------------------------
 [SPIKES]
 Name = Spikes
@@ -3435,7 +3435,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user charges at the target using every bit of its power. The user must rest on the next turn.
+Description = The user charges at the target using every bit of its power. The user is exhausted on the next turn.
 #-------------------------------
 [HYPERBEAM]
 Name = Hyper Beam
@@ -3447,7 +3447,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = CanProtect,CanMirrorMove
-Description = The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.
+Description = The foe is attacked with a powerful beam. The user is exhausted on the next turn.
 #-------------------------------
 [LASTRESORT]
 Name = Last Resort
@@ -3483,7 +3483,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = A reckless life-risking tackle. It also damages the user by a fairly large amount however.
+Description = A reckless life-risking tackle. The user takes 33% recoil.
 #-------------------------------
 [HEADCHARGE]
 Name = Head Charge
@@ -3495,7 +3495,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user charges its head into the foe. The user also takes damage.
+Description = The user charges its head into the foe. The user takes 25% recoil.
 #-------------------------------
 [MEGAKICK]
 Name = Mega Kick
@@ -3579,7 +3579,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = A reckless full-body charge attack for slamming into the foe. It also damages the user a little.
+Description = A reckless full-body charge attack for slamming into the foe. The user takes 25% recoil.
 #-------------------------------
 [BODYSLAM]
 Name = Body Slam
@@ -3665,7 +3665,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = DoublePowerIfUserPoisonedBurnedParalyzedFrostbite
 Flags = Contact,CanProtect,CanMirrorMove
-Description = An attack move that doubles its power if the user is poisoned, burned, frostbitten or has paralysis.
+Description = An attack move that doubles its power if the user has a non-volatile status.
 #-------------------------------
 [HEADBUTT]
 Name = Headbutt
@@ -3909,7 +3909,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = BindTarget
 Flags = Contact,CanProtect,CanMirrorMove
-Description = Things such as long bodies or tentacles are used to bind and squeeze the foe for four to five turns.
+Description = Things such as long bodies or tentacles are used to bind and trap the foe for four to five turns.
 #-------------------------------
 [DOUBLESLAP]
 Name = Double Slap
@@ -3945,7 +3945,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = BindTarget
 Flags = Contact,CanProtect,CanMirrorMove
-Description = A long body or vines are used to wrap and squeeze the target for four to five turns.
+Description = A long body or vines are used to trap and squeeze the target for four to five turns.
 #-------------------------------
 [CONSTRICT]
 Name = Constrict
@@ -4427,7 +4427,7 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = HealUserHalfOfTotalHP
-Description = The user restores its HP by 50%. May also be used in the field to heal HP.
+Description = The user restores its own HP by half of its max HP. May also be used in the field to heal HP.
 #-------------------------------
 [MIMIC]
 Name = Mimic
@@ -4564,7 +4564,7 @@ Accuracy = 0
 TotalPP = 20
 Target = User
 FunctionCode = CureUserBurnPoisonParalysisFrostbite
-Description = The user rests to cure itself of a poisoning burn frostbite or paralysis.
+Description = The user rests to cure itself of a non-volatile status.
 #-------------------------------
 [SCARYFACE]
 Name = Scary Face
@@ -4626,7 +4626,7 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = HealUserHalfOfTotalHP
-Description = The user restores its HP by 50%. May also be used in the field to heal HP.
+Description = The user restores its own HP by half of its max HP. May also be used in the field to heal HP.
 #-------------------------------
 [STOCKPILE]
 Name = Stockpile
@@ -4852,7 +4852,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = ResetTargetStatStages
 Flags = CanProtect,CanMirrorMove
-Description = The user attacks by throwing a clump of special mud. All stat changes are returned to normal.
+Description = The user attacks by throwing a clump of special mud, resetting the target's stat changes.
 #-------------------------------
 [ACID]
 Name = Acid
@@ -4956,7 +4956,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = CureTargetStatusHealUserHalfOfTotalHP
 Flags = CanProtect,CanMirrorMove
-Description = The user heals the target's status condition. If so it also restores the user's own HP.
+Description = The user heals the target's status condition. If so it also restores the user's own HP by half.
 #-------------------------------
 [TOXIC]
 Name = Toxic
@@ -5033,7 +5033,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = AttackTwoTurnsLater
-Description = Two turns after this move is used a hunk of psychic energy attacks the target.
+Description = The user foretells an attack. Two turns later, a hunk of psychic energy hits the targeted spot.
 #-------------------------------
 [SYNCHRONOISE]
 Name = Synchronoise
@@ -5057,7 +5057,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HealUserByHalfOfDamageDoneIfTargetAsleep
 Flags = CanProtect,CanMirrorMove
-Description = If the foe is sleeping, it deals double damage and absorbs half the damage caused to heal the user's HP.
+Description = If the foe is sleeping, it deals double damage and drains half the damage caused to heal the user's HP.
 #-------------------------------
 [PSYSTRIKE]
 Name = Psystrike
@@ -5094,7 +5094,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = RemoveScreens
 Flags = Contact,CanProtect,CanMirrorMove,Biting
-Description = The user bites the target using psychic capabilities. This can also destroy Light Screen and Reflect.
+Description = The user bites the target using psychic capabilities. This can also break screens.
 #-------------------------------
 [EXTRASENSORY]
 Name = Extrasensory
@@ -5549,7 +5549,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = RecoilHalfOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user attacks the foe with a hazardous full-power headbutt. The user also takes terrible damage.
+Description = The user attacks the foe with a hazardous full-power headbutt. The user takes 50% recoil.
 #-------------------------------
 [ROCKWRECKER]
 Name = Rock Wrecker
@@ -5561,7 +5561,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = CanProtect,CanMirrorMove,Bomb
-Description = The user launches a huge boulder at the target to attack. It must rest on the next turn however.
+Description = The user launches a huge boulder at the target to attack. The user is exhausted on the next turn.
 #-------------------------------
 [STONEEDGE]
 Name = Stone Edge
@@ -5676,7 +5676,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = AttackTwoTurnsLater
-Description = Two turns after this move is used the user blasts the target with a concentrated bundle of light.
+Description = The user foretells doom. Two turns later, the spot is hit with a concentrated beam of light.
 #-------------------------------
 [IRONTAIL]
 Name = Iron Tail
@@ -5739,7 +5739,7 @@ Target = NearOther
 FunctionCode = HitTwoTimesFlinchTarget
 Flags = Contact,CanProtect,Punching
 EffectChance = 30
-Description = The user bashes the target with its steel limbs twice. May cause flinching.
+Description = The user bashes the target with its steel limbs, hitting two times. May cause flinching.
 #-------------------------------
 [GEARGRIND]
 Name = Gear Grind
@@ -5751,7 +5751,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoTimes
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user attacks by throwing two steel gears at its target.
+Description = The user attacks by throwing two steel gears at its target, hitting two times.
 #-------------------------------
 [BULLETPUNCH]
 Name = Bullet Punch
@@ -5899,7 +5899,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = CanProtect,CanMirrorMove
-Description = The target is hit with a watery blast. The user must rest on the next turn however.
+Description = The target is hit with a watery blast. The user is exhausted on the next turn.
 #-------------------------------
 [WATERSPOUT]
 Name = Water Spout
@@ -5911,7 +5911,7 @@ TotalPP = 5
 Target = AllNearFoes
 FunctionCode = PowerHigherWithUserHP
 Flags = CanProtect,CanMirrorMove
-Description = The user spouts water to damage the foe. The lower the user's HP the less powerful it becomes.
+Description = The user spouts water to damage the foe. Weakens in damage as the user loses HP.
 #-------------------------------
 [ORIGINPULSE]
 Name = Origin Pulse
@@ -5984,7 +5984,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableUnderwater
 Flags = Contact,CanProtect,CanMirrorMove
-Description = Diving on the first turn the user rises and hits on the next turn. It can be used to dive in the ocean.
+Description = Diving on the first turn, charging and becoming hidden, the user hits on the second turn.
 #-------------------------------
 [SCALD]
 Name = Scald
@@ -6113,7 +6113,7 @@ Target = NearOther
 Priority = 1
 FunctionCode = HitTwoToFiveTimesOrThreeForAshGreninja
 Flags = CanProtect,CanMirrorMove
-Description = The user hits the target with throwing stars 2-5 times in a row. This move always goes first.
+Description = The user hits with throwing stars two to five times in a row. This move always goes first.
 #-------------------------------
 [AQUARING]
 Name = Aqua Ring
@@ -6236,7 +6236,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableUnderwater
 Flags = Contact,CanProtect,CanMirrorMove
-Description = Diving on the first turn the user rises and hits on the next turn.
+Description = Diving on the first turn, charging and becoming hidden, the user hits on the next turn.
 #-------------------------------
 [ATTACKORDER]
 Name = Attack Order
@@ -6286,7 +6286,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = BindTarget
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The target is infested and unable to flee for four to five turns.
+Description = The target is infested, trapped and unable to flee for four to five turns.
 #-------------------------------
 [PINMISSILE]
 Name = Pin Missile
@@ -6347,7 +6347,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HitTwoTimes
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The foe is stabbed twice by a pair of stingers.
+Description = The foe is stabbed twice by a pair of stingers, hitting two times.
 #-------------------------------
 [XSCISSOR]
 Name = X-Scissor
@@ -6371,7 +6371,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = Contact,CanProtect,CanMirrorMove,Punching
-Description = The target is hit with a flurry of meteorite punches
+Description = The target is hit with a flurry of two to five meteorite punches
 #-------------------------------
 [COSMICPOWER]
 Name = Cosmic Power
@@ -6497,7 +6497,7 @@ TotalPP = 10
 Target = User
 FunctionCode = HealUserDependingOnWeather
 Flags = CanMirrorMove
-Description = The user restores its own HP. The amount of HP regained varies with the weather.
+Description = The user restores its own HP by half of its max HP, 66% in sunlight, or 25% in any other weather.
 #-------------------------------
 [DARKVOID]
 Name = Dark Void
@@ -6704,7 +6704,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = HealUserByThreeQuartersOfDamageDone
 Flags = CanProtect,CanMirrorMove
-Description = The user's HP is restored by 75% of the damage dealt.
+Description = Draining electrical charge. The user's HP is restored by 75% of the damage dealt.
 #-------------------------------
 [SHOCKWAVE]
 Name = Shock Wave
@@ -6800,7 +6800,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HealUserByThreeQuartersOfDamageDone
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user steals the target's HP with a kiss. Restores HP worth 75% of damage dealt.
+Description = The user drains the target's HP with a kiss. Restores HP worth 75% of damage dealt.
 #-------------------------------
 [FAIRYWIND]
 Name = Fairy Wind
@@ -6825,7 +6825,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtk2
 Flags = CanProtect,CanMirrorMove,CannotMetronome
-Description = The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat.
+Description = The user unleashes a strong beam. This harshly lowers the user's Sp. Atk stat.
 #-------------------------------
 [HEARTSTAMP]
 Name = Heart Stamp
@@ -6911,7 +6911,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user looses a flurry of open-palmed arm thrusts that hit 2-5x in a row.
+Description = The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.
 #-------------------------------
 [BLOCK]
 Name = Block
@@ -6934,7 +6934,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RemoveScreens
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user attacks with a swift chop, breaking any barriers.
+Description = The user attacks with a swift chop. This can also break screens.
 #-------------------------------
 [DOUBLEKICK]
 Name = Double Kick
@@ -6946,7 +6946,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = HitTwoTimes
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The target is quickly kicked twice in succession using both feet.
+Description = The target is quickly kicked twice in succession using both feet, hitting two times.
 #-------------------------------
 [ROLLINGKICK]
 Name = Rolling Kick
@@ -7119,7 +7119,7 @@ Target = Other
 FunctionCode = TwoTurnAttackInvulnerableInSkyParalyzeTarget
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 30
-Description = The user bounces up high and crashes down on the second turn. Chance to paralyze.
+Description = The user bounces up high, hiding and becoming hidden. Chance to paralyze.
 #-------------------------------
 [DRILLPECK]
 Name = Drill Peck
@@ -7155,7 +7155,7 @@ TotalPP = 10
 Target = Other
 FunctionCode = HealUserByThreeQuartersOfDamageDone
 Flags = CanProtect,CanMirrorMove
-Description = The user absorbs its target's HP. The user's HP is restored by 75% of the damage dealt.
+Description = The user drains its target's HP. The user's HP is restored by 75% of the damage dealt.
 #-------------------------------
 [PECK]
 Name = Peck
@@ -7485,7 +7485,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TwoTurnAttackInvulnerableUnderground
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user burrows then attacks on the second turn.
+Description = The user burrows, charging and becoming hidden, then attacks on the second turn.
 #-------------------------------
 [HIGHHORSEPOWER]
 Name = High Horsepower
@@ -7702,7 +7702,7 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = HealUserDependingOnWeather
-Description = The user restores its own HP. The amount of HP regained varies with the weather.
+Description = The user restores its own HP by half of its max HP, 66% in sunlight, or 25% in any other weather.
 #-------------------------------
 [PHOTONGEYSER]
 Name = Photon Geyser
@@ -7793,7 +7793,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = HitTwoTimes
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user slams the target twice.
+Description = The user slams the target twice, hitting two times.
 #-------------------------------
 [FREEZINGGLARE]
 Name = Freezing Glare
@@ -7906,7 +7906,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user attacks by striking the target with its hard tail 2 - 5 times.
+Description = The user attacks by striking the target with its hard tail two to five times.
 #-------------------------------
 [CROSSPOISON]
 Name = Cross Poison
@@ -8471,7 +8471,7 @@ TotalPP = 10
 Target = RandomNearFoe
 FunctionCode = MultiTurnAttackConfuseUserAtEnd
 Flags = CanProtect,CanMirrorMove,Sound
-Description = The user attacks in an uproar for three turns. It then becomes confused however.
+Description = The user attacks in an uproar and rampages for three turns. It then becomes confused.
 #-------------------------------
 [ANCHORSHOT]
 Name = Anchor Shot
@@ -8628,7 +8628,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = BindTarget
 Flags = Contact,CanProtect,CanMirrorMove,Biting
-Description = The target is clamped and squeezed by the user for four to five turns.
+Description = The target is clamped and trapped by the user for four to five turns.
 #-------------------------------
 [FLIPTURN]
 Name = Flip Turn
@@ -8809,7 +8809,7 @@ Target = NearOther
 Priority = 2
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user rams into the target in +2 priority but suffers 25% recoil damage.
+Description = The user rams into the target with +2 priority but takes 25% recoil damage.
 #-------------------------------
 [FLUTTER]
 Name = Flutter
@@ -8819,7 +8819,7 @@ Accuracy = 0
 TotalPP = 20
 Target = User
 FunctionCode = CureUserBurnPoisonParalysisFrostbite
-Description = The user flaps its wings to remove impurities. Cures poison, burn, frostbite, and paralysis.
+Description = The user flaps its wings to remove impurities. Cures non-volatile statuses.
 #-------------------------------
 [HIVEMIND]
 Name = Hivemind
@@ -8831,7 +8831,7 @@ TotalPP = 10
 Target = RandomNearFoe
 FunctionCode = MultiTurnAttackConfuseUserAtEnd
 Flags = CanProtect,CanMirrorMove
-Description = Forces its subjects to maim the target for two to three turns. It then becomes confused however.
+Description = Its subjects maim the target and rampages for two to three turns. It then becomes confused.
 #-------------------------------
 [INFECTION]
 Name = Infection
@@ -8878,7 +8878,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtk2
 Flags = CanProtect,CanMirrorMove
-Description = Chucks a massive pollen bomb at the target. The attack's recoil harshly reduces the user's Sp. Atk.
+Description = Chucks a massive pollen bomb at the target. This harshly reduces the user's Sp. Atk.
 #-------------------------------
 [STRAFE]
 Name = Strafe
@@ -8904,7 +8904,7 @@ Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealtParalyzeTarget
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 10
-Description = Calls its species to charges its foe, damaging the user a lot. Chance to paralyze.
+Description = Calls its species to charges its foe, taking 33% recoil. Chance to paralyze.
 #-------------------------------
 [ANTIMATTER]
 Name = Antimatter
@@ -8974,7 +8974,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = SwitchOutUserDamagingMove
 Flags = CanProtect,CanMirrorMove
-Description = The user attacks the target then escapes using a nearby dimensional portal.
+Description = The user attacks the target then escapes using a nearby dimensional portal to switch places with a party Pokémon in waiting
 #-------------------------------
 [DIMENSIONALRUSH]
 Name = Dimensional Rush
@@ -9209,7 +9209,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user hurls itself at the target. It also damages the user by a fairly large amount however.
+Description = The user hurls itself at the target. The user takes 33% recoil.
 #-------------------------------
 [SUPERNOVA]
 Name = Supernova
@@ -9222,7 +9222,7 @@ Target = AllNearOthers
 FunctionCode = BurnTarget
 Flags = CanProtect,CanMirrorMove
 EffectChance = 30
-Description = Explodes in cosmic glory, scorching everything around the user. It may leave targets with a burn.
+Description = Bursts in cosmic glory, scorching everything around the user. It may leave targets with a burn.
 #-------------------------------
 [TRIVEGA]
 Name = Tri-Vega
@@ -9246,7 +9246,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoTimes
 Flags = CanProtect,CanMirrorMove
-Description = The target is hit with a pair of stars in quick succession.
+Description = The target is hit with a pair of stars in quick succession, hitting two times.
 #-------------------------------
 [URANOMETRIA]
 Name = Urano Metria
@@ -9258,7 +9258,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = CanProtect,CanMirrorMove
-Description = Recites an old spell that summons 88 constellations. Recharges next turn.
+Description = Recites an old spell that summons 88 constellations. The user is exhausted on the next turn.
 #-------------------------------
 [VOIDDRIFT]
 Name = Void Drift
@@ -9428,7 +9428,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = ResetTargetStatStages
 Flags = Contact,CanProtect,CanMirrorMove
-Description = This scathing attack clears the foe's stat changes.
+Description = This scathing attack smites the target, resetting the target's stat changes.
 #-------------------------------
 [VENDETTA]
 Name = Vendetta
@@ -9564,7 +9564,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = HealUserByThreeQuartersOfDamageDone
 Flags = Contact,CanProtect,CanMirrorMove,Biting
-Description = User nibbles the target persistently. The user's HP is restored by 75% of the damage dealt.
+Description = User nibbles the target persistently to drain it. The user's HP is restored by 75% of the damage dealt.
 #-------------------------------
 [DRAGONMAGIC]
 Name = Dragon Magic
@@ -9589,7 +9589,7 @@ Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealtParalyzeTarget
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 10
-Description = The user charges at the foe, taking damage but may also paralyze the target.
+Description = The user charges at the foe, taking 33% recoil but may also paralyze the target.
 #-------------------------------
 [DRAGONWING]
 Name = Dragon Wing
@@ -9922,7 +9922,7 @@ TotalPP = 5
 Target = AllNearFoes
 FunctionCode = PowerHigherWithUserHP
 Flags = CanProtect,CanMirrorMove
-Description = Attacks using the power of the King of fairies, the lower the user's HP, the less powerful it is.
+Description = Attacks using the power of the King of fairies. Weakens in damage as the user loses HP.
 #-------------------------------
 [PEEKABOO]
 Name = Peekaboo
@@ -9972,7 +9972,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HealUserByHalfOfDamageDone
 Flags = Contact,CanProtect,CanMirrorMove
-Description = Uses its fabled horns to restore 50% of damage dealt.
+Description = Uses its fabled horns to drains 50% of damage dealt.
 #-------------------------------
 [TITANIASLAW]
 Name = Titania's Law
@@ -10132,7 +10132,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = AttackAndSkipNextTurn
 Flags = Contact,CanProtect,CanMirrorMove
-Description = Uses all its power in a single overwhelming attack. The user can't move on the next turn.
+Description = Uses all its power in a single overwhelming attack. The user is exhausted on the next turn.
 #-------------------------------
 [MAGICPALM]
 Name = Magic Palm
@@ -10266,7 +10266,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = Rams the target with blazing horns or a beak, but damages the user a little.
+Description = Rams the target with blazing horns or a beak, taking 25% recoil.
 #-------------------------------
 [SIZZLE]
 Name = Sizzle
@@ -10328,7 +10328,7 @@ TotalPP = 15
 Target = Other
 FunctionCode = HitTwoToFiveTimes
 Flags = Contact,CanProtect,CanMirrorMove
-Description = Calls a herd of its own species to carry out 2-5 consecutive attacks on the target.
+Description = Calls a herd of its own species to carry out two to five consecutive attacks on the target.
 #-------------------------------
 [GALEHOLD]
 Name = Gale Hold
@@ -10428,7 +10428,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RemoveTargetItem
 Flags = CanProtect,CanMirrorMove,Wind
-Description = A strong wind causes the target to drop their held item.
+Description = The target's held item is knocked off with strong winds. Damage boosted 50% if done so.
 #-------------------------------
 [TYPHOON]
 Name = Typhoon
@@ -10504,7 +10504,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = RaiseUserAttack2IfTargetFaints
 Flags = Contact,CanProtect,CanMirrorMove,Slicing
-Description = The user slashes the opponent. KOing raises user's Attack sharply.
+Description = The user slashes the opponent. KO-ing raises user's Attack sharply.
 #-------------------------------
 [HAUNT]
 Name = Haunt
@@ -10529,7 +10529,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = HealUserByThreeQuartersOfDamageDone
 Flags = Contact,CanProtect,CanMirrorMove,Biting
-Description = The user devours the target viciously like a corpse, restoring HP by 75% of the damage dealt.
+Description = The user devours the target viciously like a corpse to drain it, restoring HP by 75% of the damage dealt.
 #-------------------------------
 [MACABREDANCE]
 Name = Macabre Dance
@@ -10552,7 +10552,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user possesses the target and eviscerates itself damaging the user substantially.
+Description = The user possesses the target and eviscerates itself taking 33% recoil.
 #-------------------------------
 [SHADOWRAY]
 Name = Shadow Ray
@@ -10930,7 +10930,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetEvasion1RemoveSideEffects
 Flags = CanProtect,CanMirrorMove
-Description = Cleanses the battlefield of the foe's hazards and lowers their evasion.
+Description = A cleansing wave reduces the foe's evasion. Also removes hazards, terrains, and opposing screens.
 #-------------------------------
 [CONSECRATE]
 Name = Consecrate
@@ -10964,7 +10964,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtk2
 Flags = CanProtect,CanMirrorMove
-Description = Deities smite the target. The attack's recoil harshly reduces the user's Sp. Atk stat.
+Description = Deities smite the target. This harshly reduces the user's Sp. Atk stat.
 #-------------------------------
 [DIVINEVISION]
 Name = Divine Vision
@@ -10976,7 +10976,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = AttackTwoTurnsLater
 Flags = CanProtect,CanMirrorMove
-Description = Two turns after this move, a divine force attacks the target.
+Description = The user foretells a divine prophecy. Two turns after this move, a divine force attacks the target.
 #-------------------------------
 [FINALSTAND]
 Name = Final Stand
@@ -10988,7 +10988,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = CanProtect,CanMirrorMove
-Description = A reckless life-risking tackle, damaging the user by a fairly large amount however.
+Description = A reckless life-risking tackle, taking 33% recoil.
 #-------------------------------
 [GUARDIANANGEL]
 Name = Guardian Angel
@@ -11021,7 +11021,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = RaiseUserAttack2IfTargetFaints
 Flags = Contact,CanProtect,CanMirrorMove,Punching
-Description = The user pummels the target. KOing raises user's Attack sharply.
+Description = The user pummels the target. KO-ing raises user's Attack sharply.
 #-------------------------------
 [HOLYBOLT]
 Name = Holy Bolt
@@ -11069,7 +11069,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = RaiseUserAttack1
-Flags = CanMirrorMove
+Flags = CanProtect,CanMirrorMove
 EffectChance = 10
 Description = A fallen angel seeks revenge. Chance of + Attack.
 #-------------------------------
@@ -11321,7 +11321,7 @@ TotalPP = 10
 Target = RandomNearFoe
 FunctionCode = MultiTurnAttackConfuseUserAtEnd
 Flags = CanProtect,CanMirrorMove
-Description = The user attacks relentlessly for 2-3 turns! It then becomes confused however.
+Description = The user rampages relentlessly for two to three turns! It then becomes confused however.
 #-------------------------------
 [FANTASYSEAL]
 Name = Fantasy Seal
@@ -11345,7 +11345,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = ExtendWeatherTerrainIfTargetFaints
 Flags = CanProtect,CanMirrorMove
-Description = Extends the duration of existing weather and terrain by 1 turn when KOing a target.
+Description = Extends the duration of existing weather and terrain by 1 turn when KO-ing a target.
 #-------------------------------
 [LAZYBREAK]
 Name = Lazy Break
@@ -11454,7 +11454,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HitTwoTimes
 Flags = CanProtect,CanMirrorMove
-Description = Shoots the target with identical beams in quick succession.
+Description = Shoots the target with identical beams in quick succession, hitting two times.
 #-------------------------------
 [WEAPONMASTERY]
 Name = Weapon Mastery
@@ -11551,7 +11551,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RemoveTargetItem
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The target's item rots after entering in contact with the user.
+Description = The target's held item is removed with rot. Damage boosted 50% if done so.
 #-------------------------------
 [VENOMDRAIN]
 Name = Venom Drain
@@ -11600,7 +11600,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = CanProtect,CanMirrorMove
-Description = Makes a blood pact with a sinister force, causing the user to take serious damage.
+Description = Makes a blood pact with a sinister force, taking 33% recoil.
 #-------------------------------
 [CHECKMATE]
 Name = Checkmate
@@ -11612,7 +11612,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = RaiseUserSpAtk2IfTargetFaints
 Flags = CanProtect,CanMirrorMove
-Description = The user outsmarts the target. KOing raises user's SpAtk sharply.
+Description = The user outsmarts the target. KO-ing raises user's SpAtk sharply.
 #-------------------------------
 [KARMASPELL]
 Name = Karma Spell
@@ -12078,7 +12078,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove,Sound
-Description = The user issues a bellowing sound that produces a large echo that can hit the target 2-5 times.
+Description = The user issues a bellowing sound that can hit the target two to five times.
 #-------------------------------
 [SCHIZOPHRENIA]
 Name = Schizophrenia
@@ -12114,7 +12114,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = ResetTargetStatStages
 Flags = CanProtect,CanMirrorMove,Sound
-Description = The user plays John Cage's 4'33 that returns all stat changes to normal.
+Description = The user plays John Cage's 4'33, resetting the target's stat changes.
 #-------------------------------
 [SONICCRASH]
 Name = Sonic Crash
@@ -12400,7 +12400,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = A column of water is slammed at the target. 1/3rd Recoil damage.
+Description = A column of water is slammed at the target, taking 33% recoil.
 #-------------------------------
 [WATERWHIP]
 Name = Water Whip
@@ -12608,7 +12608,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RemoveScreens
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user drills past any barrier such as Light Screen and Reflect.
+Description = The user drills a hole towards the target which break screens.
 #-------------------------------
 [OVERCLOCK]
 Name = Overclock
@@ -12670,7 +12670,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RemoveScreens
 Flags = Contact,CanProtect,CanMirrorMove,Sound
-Description = The user shatters any screens such as Light Screen and Reflect.
+Description = The user shatters and break screens.
 #-------------------------------
 [PENANCE]
 Name = Penance
@@ -12717,7 +12717,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtk2
 Flags = CanProtect,CanMirrorMove
-Description = The user explodes in a cosmic finale. The attack's recoil harshly reduces the user's Sp. Atk stat.
+Description = The user explodes in a cosmic finale. This harshly reduces the user's Sp. Atk stat.
 #-------------------------------
 [METEORSHOWER]
 Name = Meteor Shower
@@ -12729,7 +12729,7 @@ TotalPP = 15
 Target = Other
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove
-Description = Calls down a meteor shower that lands 2-5 consecutive attacks on the target.
+Description = Calls down a meteor shower that lands two to five consecutive attacks on the target.
 #-------------------------------
 [CELESTIALFURY]
 Name = Celestial Fury
@@ -12840,7 +12840,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = AttackTwoTurnsLater
 Flags = CanProtect,CanMirrorMove
-Description = Two turns after this move, a sinister force attacks the target.
+Description = The user foretells a terrible fate. Two turns after this move, a sinister force attacks the target.
 #-------------------------------
 [DUNEBLAST]
 Name = Dune Blast
@@ -12852,7 +12852,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = RaiseUserSpAtk2IfTargetFaints
 Flags = CanProtect,CanMirrorMove
-Description = The user blasts the target with sand. KOing raises user's SpAtk sharply.
+Description = The user blasts the target with sand. KO-ing raises user's SpAtk sharply.
 #-------------------------------
 [SANDSNARE]
 Name = Sand Snare
@@ -12932,7 +12932,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = CureTargetStatusHealUserHalfOfTotalHP
 Flags = CanProtect,CanMirrorMove
-Description = The user heals the target's status condition. If so it also restores the user's own HP.
+Description = The user heals the target's status condition. If so it also restores the user's own HP by half.
 #-------------------------------
 [IGNITE]
 Name = Ignite
@@ -12989,7 +12989,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = HealUserByHalfOfDamageDone
 Flags = CanProtect,CanMirrorMove
-Description = The user siphons life from the target. The user's HP is restored by half the damage done.
+Description = The user drains life from the target. The user's HP is restored by half the damage done.
 #-------------------------------
 [MANIPULATION]
 Name = Manipulation
@@ -13238,7 +13238,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RemoveTargetItem
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user blasts a gush of water at the target's held item preventing it from using it in the battle.
+Description = The target's held item is removed with water. Damage boosted 50% if done so.
 #-------------------------------
 [ENERGYSURGE]
 Name = Energy Surge
@@ -13627,7 +13627,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RemoveTargetItem
 Flags = Contact,CanProtect,CanMirrorMove
-Description = The user slams the ground causing a small quake and removing the target's held item.
+Description = The target's held item is removed with a small quake. Damage boosted 50% if done so.
 #-------------------------------
 [THROWINGSTAR]
 Name = Throwing Star
@@ -13712,7 +13712,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RecoilThirdOfDamageDealt
 Flags = Contact,CanProtect,CanMirrorMove
-Description = Charges the enemy with fabled power, causing the user to take serious damage.
+Description = Charges the enemy with fabled power, taking 33% recoil.
 #-------------------------------
 [DOUBLESCOOP]
 Name = Double Scoop
@@ -13725,7 +13725,7 @@ Target = NearOther
 FunctionCode = HitTwoTimesFlinchTarget
 Flags = CanProtect,Punching
 EffectChance = 30
-Description = The user hurls two scoops of ice cream at its target. May cause flinching.
+Description = The user hurls two scoops of ice cream at its target, hitting two times. May cause flinching.
 #-------------------------------
 [SLURP]
 Name = Slurp
@@ -13920,7 +13920,7 @@ Accuracy = 0
 TotalPP = 20
 Target = User
 FunctionCode = CureUserBurnPoisonParalysisFrostbite
-Description = The user taps into its soul to remove impurities. Cures poison, burn, frostbite, and paralysis.
+Description = The user taps into its soul to remove impurities. Cures non-volatile statuses.
 #-------------------------------
 [STORMSHIELD]
 Name = Storm Shield
@@ -14196,7 +14196,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RemoveTargetItem
 Flags = CanProtect,CanMirrorMove
-Description = Disturbs the target with terrorizing visions, making it drop their held item.
+Description = The target's held item is removed with terrorizing visions. Damage boosted 50% if done so.
 #-------------------------------
 [MALEFICACT]
 Name = Malefic Act
@@ -14320,7 +14320,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = RemoveScreens
 Flags = CanProtect,CanMirrorMove
-Description = Uses the power of autumn to remove the effects of Light Screen and Reflect.
+Description = Uses the power of autumn to break screens.
 #-------------------------------
 [PRIMORDIALBEAM]
 Name = Primordial Beam
@@ -14372,7 +14372,7 @@ Target = NearOther
 Priority = 1
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove
-Description = The user wallops the target with waves of sand 2-5 times in a row. This move always goes first.
+Description = The user wallops the target with waves of sand two to five times in a row. This move always goes first.
 #-------------------------------
 [SANDSPRAY]
 Name = Sand Spray
@@ -14507,7 +14507,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = RaiseUserSpAtk2IfTargetFaints
 Flags = CanProtect,CanMirrorMove
-Description = The user blasts the target with freezing air. KOing raises user's SpAtk sharply.
+Description = The user blasts the target with freezing air. KO-ing raises user's SpAtk sharply.
 #-------------------------------
 [NUMBINGWIND]
 Name = Numbing Wind
@@ -14544,7 +14544,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = AttackTwoTurnsLater
-Description = Two turns after this move is used, a snowstorm attacks the target.
+Description = The user foretells imminent winter. Two turns after this move is used, a snowstorm attacks the target.
 #-------------------------------
 [COLDFRONT]
 Name = Cold Front
@@ -14590,7 +14590,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HitTwoTimes
 Flags = CanProtect,CanMirrorMove
-Description = The user throws an enchanted hammer. The hammer loops to hit the target twice coming and going.
+Description = The user throws an enchanted hammer, hitting two times as it loops, coming and going.
 #-------------------------------
 [FANATICISM]
 Name = Fanaticism
@@ -14652,7 +14652,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HealUserByHalfOfDamageDone
 Flags = CanProtect,CanMirrorMove
-Description = Harnesses the energy of a foe. The user's HP is restored by half the damage taken by the target.
+Description = Harnesses the energy of a foe to drain it. The user's HP is restored by 50% of the damage.
 #-------------------------------
 [BALANCEDBEAM]
 Name = Balanced Beam
@@ -14767,7 +14767,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = RemoveScreens
 Flags = CanProtect,CanMirrorMove
-Description = Blights the battlefield, removing the effects of Light Screen and Reflect.
+Description = Blights the battlefield to break screens.
 #-------------------------------
 [CAUSTICACID]
 Name = Caustic Acid
@@ -14804,7 +14804,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RemoveTargetItem
 Flags = CanProtect,CanMirrorMove
-Description = Makes the enemy's mind wither, making them forget how to use their held item.
+Description = The target's held item is removed by withering their mind. Damage boosted 50% if done so.
 #-------------------------------
 [SCRAMBLEMIND]
 Name = Scramble Mind
@@ -14843,7 +14843,7 @@ Target = NearOther
 Priority = 1
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove
-Description = The user wallops the target with magical blasts 2-5 times in a row. This move always goes first.
+Description = The user sends magical blasts two to five times in a row. This move always goes first.
 #-------------------------------
 [HEXBOLT]
 Name = Hex Bolt
@@ -14938,7 +14938,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserSpAtk2
 Flags = CanProtect,CanMirrorMove,Sound
-Description = Sings a magnificient hymn. The attack's recoil harshly reduces the user's Sp. Atk stat.
+Description = Sings a magnificient hymn. This harshly reduces the user's Sp. Atk stat.
 #-------------------------------
 [SHOTPUT]
 Name = Shotput
@@ -15256,7 +15256,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = HitTwoTimes
 Flags = CanProtect,CanMirrorMove,Slicing
-Description = The user attacks by launching particle blades at the target twice in a row. This attack never misses.
+Description = The user attacks by launching particle blades at the target, hitting two times. This attack never misses.
 #-------------------------------
 [WILDFIRE]
 Name = Wildfire
@@ -15281,7 +15281,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = RemoveScreens
 Flags = CanProtect,CanMirrorMove
-Description = Brands the battlefield with fire, removing the effects of Light Screen and Reflect.
+Description = Brands the battlefield with fire to break screens.
 #-------------------------------
 [NEBULASTRIKE]
 Name = Nebula Strike
@@ -15369,7 +15369,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = ResetTargetStatStages
 Flags = CanProtect,CanMirrorMove
-Description = The user neutralizes its target, returning all stat changes to normal.
+Description = The user neutralizes its target, resetting the target's stat changes.
 #-------------------------------
 [SAVAGERY]
 Name = Savagery

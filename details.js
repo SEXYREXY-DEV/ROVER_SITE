@@ -14,6 +14,9 @@ let allMoves = [];
 let allTypes = [];
 
 let config = { excludedPokemon: [], AllowsForms: "Y" };
+let currentFormIndex = 0;
+let currentRawPokemon = null;
+let currentSpriteType = 'Front';
 
 window.addEventListener('DOMContentLoaded', async () => {
   try {
@@ -69,9 +72,11 @@ window.addEventListener('DOMContentLoaded', async () => {
       return;
     }
 
-    const normalizedPokemon = normalizePokemon(rawPokemon);
+    currentRawPokemon = rawPokemon;
+    currentFormIndex = 0;
 
-    renderPokemonDetails(normalizedPokemon);
+    renderFormSelector(rawPokemon);
+    renderPokemonDetails(rawPokemon, currentFormIndex);
     setupSpriteSelector();
     setupTabs();
 
@@ -107,15 +112,149 @@ function hexToRgb(hex) {
   return result ? `${parseInt(result[1], 16)}, ${parseInt(result[2], 16)}, ${parseInt(result[3], 16)}` : null;
 }
 
-function renderPokemonDetails(pokemon) {
-  const original = allPokemon.find(p => p.InternalName.toLowerCase() === pokemon.InternalName);
-  const normalized = normalizePokemon(original);
+function renderPokemonDetails(original, selectedFormIndex = 0) {
+  const effectivePokemon = getFormData(original, selectedFormIndex > 0 ? original.Forms[selectedFormIndex - 1] : null);
+  currentFormIndex = selectedFormIndex;
+  currentSpriteType = document.getElementById('sprite-viewer')?.value || currentSpriteType;
 
-  renderMainInfo(original, normalized);
+  renderMainInfo(effectivePokemon, selectedFormIndex);
   renderEvolutions(original, allPokemon);
-  renderFullInfo(original);
+  renderFullInfo(effectivePokemon);
   renderForms(original);
-  renderMovesTabs(original);
+  renderMovesTabs(effectivePokemon);
+}
+
+function getFormData(basePokemon, form = null) {
+  if (!form) {
+    return { ...basePokemon };
+  }
+
+  const mergeField = (formValue, baseValue) => {
+    if (formValue === undefined || formValue === null) return baseValue;
+    if (typeof formValue === 'string' && !formValue.trim()) return baseValue;
+    if (Array.isArray(formValue) && formValue.length === 0) return baseValue;
+    return formValue;
+  };
+
+  const result = { ...basePokemon };
+  result.InternalName = basePokemon.InternalName;
+  result.Name = basePokemon.Name;
+  result.Type1 = mergeField(form.Type1, basePokemon.Type1);
+  result.Type2 = mergeField(form.Type2, basePokemon.Type2);
+  if (Array.isArray(form.types) && form.types.length) {
+    result.Types = [...form.types];
+    if (!result.Type1 && result.Types[0]) result.Type1 = result.Types[0];
+    if (!result.Type2 && result.Types[1]) result.Type2 = result.Types[1];
+  } else {
+    result.Types = [];
+    if (result.Type1) result.Types.push(result.Type1);
+    if (result.Type2 && result.Type2 !== result.Type1) result.Types.push(result.Type2);
+  }
+
+  result.Abilities = mergeField(form.Abilities, basePokemon.Abilities);
+  result.HiddenAbilities = mergeField(form.HiddenAbilities, basePokemon.HiddenAbilities);
+  result.HiddenAbility = mergeField(form.HiddenAbility, basePokemon.HiddenAbility);
+  result.Moves = mergeField(form.Moves, basePokemon.Moves);
+  result.TutorMoves = mergeField(form.TutorMoves, basePokemon.TutorMoves);
+  result.EggMoves = mergeField(form.EggMoves, basePokemon.EggMoves);
+  result.BaseStats = mergeField(form.BaseStats, basePokemon.BaseStats);
+  result.Height = mergeField(form.Height, basePokemon.Height);
+  result.Weight = mergeField(form.Weight, basePokemon.Weight);
+  result.Rareness = mergeField(form.Rareness, basePokemon.Rareness);
+  result.CatchRate = mergeField(form.CatchRate, basePokemon.CatchRate);
+  result.Happiness = mergeField(form.Happiness, basePokemon.Happiness);
+  result.BaseFriendship = mergeField(form.BaseFriendship, basePokemon.BaseFriendship);
+  result.BaseEXP = mergeField(form.BaseEXP, basePokemon.BaseEXP);
+  result.GrowthRate = mergeField(form.GrowthRate, basePokemon.GrowthRate);
+  result.Kind = mergeField(form.Kind, basePokemon.Kind);
+  result.Species = mergeField(form.Species, basePokemon.Species);
+  result.Pokedex = mergeField(form.Pokedex, basePokemon.Pokedex);
+  result.Compatibility = mergeField(form.Compatibility, basePokemon.Compatibility);
+  result.GenderRate = mergeField(form.GenderRate, basePokemon.GenderRate);
+  result.GenderRatio = mergeField(form.GenderRatio, basePokemon.GenderRatio);
+  result.Forms = basePokemon.Forms;
+
+  const formName = form.FormName || form.name || '';
+  if (formName.trim()) {
+    result.Name = `${basePokemon.Name} (${formName.trim()})`;
+  }
+
+  // Normalize move fields so downstream renderers can assume arrays
+  if (typeof result.Moves === 'string') {
+    result.Moves = result.Moves.split(',').map(s => s.trim()).filter(Boolean);
+  }
+  if (typeof result.TutorMoves === 'string') {
+    result.TutorMoves = result.TutorMoves.split(',').map(s => s.trim()).filter(Boolean);
+  }
+  if (typeof result.EggMoves === 'string') {
+    result.EggMoves = result.EggMoves.split(',').map(s => s.trim()).filter(Boolean);
+  }
+
+  return result;
+}
+
+function renderFormSelector(original) {
+  const selector = document.getElementById('form-selector');
+  if (!selector) return;
+
+  selector.innerHTML = '';
+  const baseOption = document.createElement('option');
+  baseOption.value = '0';
+  baseOption.textContent = 'Base Form';
+  selector.appendChild(baseOption);
+
+  if (Array.isArray(original.Forms)) {
+    original.Forms.forEach((form, idx) => {
+      const option = document.createElement('option');
+      option.value = String(idx + 1);
+      option.textContent = form.FormName || form.name || `Form ${idx + 1}`;
+      selector.appendChild(option);
+    });
+  }
+
+  selector.value = String(currentFormIndex || 0);
+  selector.addEventListener('change', () => {
+    const selectedIndex = Number(selector.value);
+    currentFormIndex = selectedIndex;
+    renderPokemonDetails(original, selectedIndex);
+  });
+}
+
+function parseAbilityField(field) {
+  if (Array.isArray(field)) {
+    return field.map(item => String(item).trim()).filter(Boolean);
+  }
+  if (typeof field !== 'string' || !field.trim()) {
+    return [];
+  }
+
+  const values = field.split(',').map(item => item.trim()).filter(Boolean);
+  const looksLikeMoveSequence = values.length >= 4 && /^\ *\d+$/.test(values[0]) && /^\d+$/.test(values[2]);
+  if (looksLikeMoveSequence) {
+    return [];
+  }
+
+  return values;
+}
+
+function setSpriteImage(img, spriteType, baseInternalName, formIndex) {
+  const suffix = formIndex > 0 ? `_${formIndex}` : '';
+  const candidate = `./games/${game}/images/${spriteType}/${baseInternalName}${suffix}.png`;
+
+  img.src = candidate;
+  img.onerror = function () {
+    this.onerror = null;
+    const fallback = `./games/${game}/images/${spriteType}/${baseInternalName}.png`;
+    if (suffix) {
+      this.src = fallback;
+      this.onerror = function () {
+        this.onerror = null;
+        this.src = `./games/${game}/images/${spriteType}/000.png`;
+      };
+    } else {
+      this.src = `./games/${game}/images/${spriteType}/000.png`;
+    }
+  };
 }
 
 function createStatsContainer(stats) {
@@ -149,7 +288,7 @@ function createStatsContainer(stats) {
   return container;
 }
 
-function renderMainInfo(pokemon) {
+function renderMainInfo(pokemon, selectedFormIndex = 0) {
   const mainInfo = document.getElementById('main-info');
   mainInfo.innerHTML = '';
   console.log('Pokemon Types:', pokemon.Types);
@@ -158,11 +297,7 @@ function renderMainInfo(pokemon) {
   const img = document.createElement('img');
   img.id = 'main-sprite';
   img.className = 'pokemon-image';
-  img.src = `./games/${game}/images/Front/${pokemon.InternalName}.png`;
-  img.onerror = function () {
-    this.onerror = null;
-    this.src = `./games/${game}/images/Front/${pokemon.InternalName}T.png`;
-  };
+  setSpriteImage(img, currentSpriteType, pokemon.InternalName.replace(/T$/, ''), selectedFormIndex);
 
   const nameEl = document.createElement('h2');
   nameEl.id = 'pokemon-name';
@@ -186,19 +321,11 @@ function renderMainInfo(pokemon) {
 
   const abilitiesEl = document.createElement('div');
   abilitiesEl.id = 'abilities';
-  const abilities = Array.isArray(pokemon.Abilities)
-    ? pokemon.Abilities
-    : (typeof pokemon.Abilities === 'string' ? pokemon.Abilities.split(',').map(a => a.trim()).filter(Boolean) : []);
+  const abilities = parseAbilityField(pokemon.Abilities);
 
-  let hiddenAbilities = [];
-  if (pokemon.HiddenAbilities) {
-    hiddenAbilities = Array.isArray(pokemon.HiddenAbilities)
-      ? pokemon.HiddenAbilities
-      : (typeof pokemon.HiddenAbilities === 'string' ? pokemon.HiddenAbilities.split(',').map(a => a.trim()).filter(Boolean) : []);
-  } else if (pokemon.HiddenAbility) {
-    hiddenAbilities = Array.isArray(pokemon.HiddenAbility)
-      ? pokemon.HiddenAbility
-      : (typeof pokemon.HiddenAbility === 'string' ? pokemon.HiddenAbility.split(',').map(a => a.trim()).filter(Boolean) : []);
+  let hiddenAbilities = parseAbilityField(pokemon.HiddenAbilities);
+  if (!hiddenAbilities.length) {
+    hiddenAbilities = parseAbilityField(pokemon.HiddenAbility);
   }
 
   let html = `<div class="abilities-title">Abilities:</div>`;
@@ -357,21 +484,10 @@ function renderForms(pokemon) {
     if (types.length) formCard.appendChild(formTypes);
 
     // Abilities
-    let abilities = [];
-    if (form.Abilities) {
-      if (Array.isArray(form.Abilities)) {
-        abilities = form.Abilities;
-      } else if (typeof form.Abilities === 'string') {
-        abilities = form.Abilities.split(',').map(a => a.trim()).filter(Boolean);
-      }
-    }
-    let hiddenAbilities = [];
-    if (form.HiddenAbility) {
-      if (Array.isArray(form.HiddenAbility)) {
-        hiddenAbilities = form.HiddenAbility;
-      } else if (typeof form.HiddenAbility === 'string') {
-        hiddenAbilities = form.HiddenAbility.split(',').map(a => a.trim()).filter(Boolean);
-      }
+    const abilities = parseAbilityField(form.Abilities);
+    let hiddenAbilities = parseAbilityField(form.HiddenAbilities);
+    if (!hiddenAbilities.length) {
+      hiddenAbilities = parseAbilityField(form.HiddenAbility);
     }
     const formAbilities = document.createElement('div');
     formAbilities.innerHTML = `<strong>Abilities:</strong> ${abilities.join(', ') || 'None'}`
@@ -704,13 +820,9 @@ function renderFullInfo(pokemon) {
       abilities = pokemon.Abilities.split(',').map(a => a.trim()).filter(Boolean);
     }
   }
-  let hiddenAbilities = [];
-  if (pokemon.HiddenAbility) {
-    if (Array.isArray(pokemon.HiddenAbility)) {
-      hiddenAbilities = pokemon.HiddenAbility;
-    } else if (typeof pokemon.HiddenAbility === 'string') {
-      hiddenAbilities = pokemon.HiddenAbility.split(',').map(a => a.trim()).filter(Boolean);
-    }
+  let hiddenAbilities = parseAbilityField(pokemon.HiddenAbilities);
+  if (!hiddenAbilities.length) {
+    hiddenAbilities = parseAbilityField(pokemon.HiddenAbility);
   }
   // --- Egg Groups ---
   let eggGroups = [];
@@ -826,13 +938,11 @@ function createFormImage(baseInternalName, formIndex, maxForms, game) {
 function setupSpriteSelector() {
   const selector = document.getElementById('sprite-viewer');
   selector.addEventListener('change', () => {
-    const spriteType = selector.value;
-    const spritePath = `./games/${game}/images/${spriteType}/${pokemonInternalName}.png`;
+    currentSpriteType = selector.value;
     const img = document.getElementById('main-sprite');
-    img.src = spritePath;
-    img.onerror = () => {
-      img.src = `./games/${game}/images/${spriteType}/000.png`;
-    };
+    if (img && currentRawPokemon) {
+      setSpriteImage(img, currentSpriteType, currentRawPokemon.InternalName.replace(/T$/, ''), currentFormIndex);
+    }
   });
 }
 

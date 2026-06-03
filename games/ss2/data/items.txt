@@ -738,7 +738,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_10
-Description = An item to be held by a Pokémon. The holder will float in the air until hit. Once hit, this item will burst.
+Description = Held item that makes the holder immune to Ground-type moves. Bursts once hit with any attack.
 #-------------------------------
 [BRIGHTPOWDER]
 Name = Bright Powder
@@ -747,7 +747,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 2000
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent's accuracy.
+Description = Held item which lowers the accuracy of moves used by the opponents against the holder by 10%.
 #-------------------------------
 [EVIOLITE]
 Name = Eviolite
@@ -757,7 +757,7 @@ Price = 3000
 BPPrice = 2
 SellPrice = 2000
 Flags = Fling_40
-Description = A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def if the holder can still evolve.
+Description = When held, it raises the Defense and Sp. Def if the holder can still evolve by 50%.
 #-------------------------------
 [FLOATSTONE]
 Name = Float Stone
@@ -767,7 +767,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_30
-Description = A very light stone. It reduces the weight of a Pokémon when held.
+Description = A very light stone. It halves the weight of a Pokémon when held.
 #-------------------------------
 [DESTINYKNOT]
 Name = Destiny Knot
@@ -787,7 +787,7 @@ Price = 3000
 SellPrice = 2000
 BPPrice = 2
 Flags = Fling_60
-Description = If the holder of this item takes damage, the attacker will also be damaged upon contact.
+Description = Damages attackers for 1/8th of their HP when they make contact with the holder.
 #-------------------------------
 [ASSAULTVEST]
 Name = Assault Vest
@@ -796,7 +796,7 @@ Pocket = 1
 Price = 1000
 Flags = Fling_80
 BPPrice = 2
-Description = An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves.
+Description = Held item which raises Sp. Def by 50% but prevents the use of status moves.
 #-------------------------------
 [WISEVEST]
 Name = Wise Vest
@@ -805,7 +805,7 @@ Pocket = 1
 Price = 1000
 Flags = Fling_80
 BPPrice = 2
-Description = An item to be held by a Pokémon. This defensive vest raises Sp. Def by 10%.
+Description = A held item. This defensive vest raises Sp. Def by 10%.
 #-------------------------------
 [MUSCLEARMOR]
 Name = Muscle Armor
@@ -814,7 +814,7 @@ Pocket = 1
 Price = 1000
 Flags = Fling_80
 BPPrice = 2
-Description = An item to be held by a Pokémon. This defensive vest raises Def by 10%.
+Description = A held item. This defensive vest raises Def by 10%.
 #-------------------------------
 [SAFETYGOGGLES]
 Name = Safety Goggles
@@ -824,7 +824,7 @@ Price = 3000
 BPPrice = 2
 SellPrice = 2000
 Flags = Fling_80
-Description = An item to be held by a Pokémon. They protect the holder from weather-related damage and powder.
+Description = Held item which protects the holder from weather-related damage and powder moves.
 #-------------------------------
 [PROTECTIVEPADS]
 Name = Protective Pads
@@ -834,7 +834,7 @@ Price = 3000
 BPPrice = 2
 SellPrice = 2000
 Flags = Fling_30
-Description = An item to be held by a Pokémon. They protect the holder from effects caused by making contact.
+Description = A held item. They protect the holder from effects caused by making contact.
 #-------------------------------
 [HEAVYDUTYBOOTS]
 Name = Heavy-Duty Boots
@@ -844,7 +844,7 @@ Price = 3000
 BPPrice = 2
 SellPrice = 2000
 Flags = Fling_80
-Description = These boots prevent the effects of traps set on the battlefield.
+Description = These boots prevent the effects of hazards set on the battlefield.
 #-------------------------------
 [UTILITYUMBRELLA]
 Name = Utility Umbrella
@@ -854,7 +854,7 @@ Price = 3000
 BPPrice = 2
 SellPrice = 2000
 Flags = Fling_60
-Description = An item to be held by a Pokémon. This sturdy umbrella protects the holder from the effects of rain and sun.
+Description = A held item. This sturdy umbrella protects the holder from the effects of rain and sun.
 #-------------------------------
 [EJECTBUTTON]
 Name = Eject Button
@@ -874,7 +874,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_50
-Description = An item to be held by a Pokémon. When the holder's stats are lowered, it will be switched out of battle.
+Description = A held item. When the holder's stats are lowered, it will be switched out of battle.
 #-------------------------------
 [REDCARD]
 Name = Red Card
@@ -894,7 +894,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_10
-Description = An item to be held by a Pokémon. This discarded carapace lets the holder switch out of battle without fail.
+Description = A held item. This discarded carapace lets the holder switch out of battle without fail.
 #-------------------------------
 [SMOKEBALL]
 Name = Smoke Ball
@@ -904,7 +904,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.
+Description = A held item. It enables the holder to flee from any wild Pokémon without fail.
 #-------------------------------
 [LUCKYEGG]
 Name = Lucky Egg
@@ -912,7 +912,7 @@ NamePlural = Lucky Eggs
 Pocket = 1
 Price = 10000
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
+Description = A held item. It is an egg filled with happiness that earns extra Exp. Points in battle.
 #-------------------------------
 [EXPSHARE]
 Name = Exp. Share
@@ -920,7 +920,7 @@ NamePlural = Exp. Shares
 Pocket = 1
 Price = 3000
 Flags = Fling_30
-Description = An item to be held by a Pokémon. The holder gets a share of a battle's Exp. Points without battling.
+Description = A held item. The holder gets a share of a battle's Exp. Points without battling.
 #-------------------------------
 [AMULETCOIN]
 Name = Amulet Coin
@@ -928,7 +928,7 @@ NamePlural = Amulet Coins
 Pocket = 1
 Price = 10000
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.
+Description = A held item. It doubles a battle's prize money if the holding Pokémon joins in.
 #-------------------------------
 [SOOTHEBELL]
 Name = Soothe Bell
@@ -937,7 +937,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 1
 Flags = Fling_10
-Description = An item to be held by a Pokémon. The comforting chime of this bell calms the holder, making it friendly.
+Description = A held item. The comforting chime of this bell calms the holder, making it friendly.
 #-------------------------------
 [CLEANSETAG]
 Name = Cleanse Tag
@@ -946,7 +946,7 @@ Pocket = 1
 Price = 5000
 BPPrice = 1
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.
+Description = Held item which keep wild Pokémon away if the holder is the first one in the party.
 #-------------------------------
 [CHOICEBAND]
 Name = Choice Band
@@ -955,7 +955,7 @@ Pocket = 1
 Price = 20000
 BPPrice = 3
 Flags = Fling_10
-Description = An item to be held by a Pokémon. This headband ups Attack, but allows the use of only one move.
+Description = Held item which boosts Attack by 50% but allows the use of only one move.
 #-------------------------------
 [CHOICESPECS]
 Name = Choice Specs
@@ -964,7 +964,7 @@ Pocket = 1
 Price = 20000
 BPPrice = 3
 Flags = Fling_10
-Description = An item to be held by a Pokémon. These curious glasses boost Sp. Atk but allows the use of only one move.
+Description = Held item which boosts Special Attack by 50% but allows the use of only one move.
 #-------------------------------
 [CHOICESCARF]
 Name = Choice Scarf
@@ -973,7 +973,7 @@ Pocket = 1
 Price = 20000
 BPPrice = 3
 Flags = Fling_10
-Description = An item to be held by a Pokémon. This scarf boosts Speed but allows the use of only one move.
+Description = Held item which boosts Speed by 50% but allows the use of only one move.
 #-------------------------------
 [HEATROCK]
 Name = Heat Rock
@@ -982,7 +982,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_60
-Description = A Pokémon held item that extends the duration of the move Sunny Day used by the holder.
+Description = Held item that extends the duration of the move Sunny Day caused by the holder.
 #-------------------------------
 [DAMPROCK]
 Name = Damp Rock
@@ -991,7 +991,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_60
-Description = A Pokémon held item that extends the duration of the move Rain Dance used by the holder.
+Description = Held item that extends the duration of the move Rain Dance caused by the holder.
 #-------------------------------
 [SMOOTHROCK]
 Name = Smooth Rock
@@ -1000,7 +1000,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_10
-Description = A Pokémon held item that extends the duration of the move Sandstorm used by the holder.
+Description = Held item that extends the duration of the move Sandstorm caused by the holder.
 #-------------------------------
 [ICYROCK]
 Name = Icy Rock
@@ -1009,7 +1009,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_40
-Description = A Pokémon held item that extends the duration of the move Hail used by the holder.
+Description = A held item that extends the duration of the move Hail caused by the holder.
 #-------------------------------
 [TERRAINEXTENDER]
 Name = Terrain Extender
@@ -1018,7 +1018,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 1
 Flags = Fling_60
-Description = An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder.
+Description = Held item that extends the duration of terrains caused by the holder.
 #-------------------------------
 [LIGHTCLAY]
 Name = Light Clay
@@ -1027,7 +1027,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_30
-Description = An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective longer.
+Description = A held item that extends the duration of Light Screen, Reflect, and Aurora Veil.
 #-------------------------------
 [GRIPCLAW]
 Name = Grip Claw
@@ -1036,7 +1036,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 1
 Flags = Fling_90
-Description = A Pokémon held item that extends the duration of multiturn attacks like Bind and Wrap.
+Description = Held item that extends the duration of binding moves to 7 turns.
 #-------------------------------
 [BINDINGBAND]
 Name = Binding Band
@@ -1046,7 +1046,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_30
-Description = A band that increases the power of binding moves when held.
+Description = A band that increases the power of binding moves when held to 1/6th damage.
 #-------------------------------
 [BIGROOT]
 Name = Big Root
@@ -1055,7 +1055,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It boosts the amount of HP the holder restores from HP-stealing effects.
+Description = A held item. The holder recovers 30% more HP from draining moves, Ingrain, Aqua Ring, and leech.
 #-------------------------------
 [BLACKSLUDGE]
 Name = Black Sludge
@@ -1065,7 +1065,7 @@ Price = 3000
 BPPrice = 3
 SellPrice = 2000
 Flags = Fling_30
-Description = A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.
+Description = Item that restores the HP of Poison-types by 1/16th. Inflicts 1/8th damage on other types.
 #-------------------------------
 [LEFTOVERS]
 Name = Leftovers
@@ -1074,7 +1074,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 3
 Flags = Fling_10
-Description = An item to be held by a Pokémon. The holder's HP is gradually restored during battle.
+Description = Held item that restores the HP of the holder by 1/16th.
 #-------------------------------
 [SHELLBELL]
 Name = Shell Bell
@@ -1083,7 +1083,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_30
-Description = An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.
+Description = The holder's HP is restored by 1/8th of the damage the holder deals.
 #-------------------------------
 [MENTALHERB]
 Name = Mental Herb
@@ -1091,7 +1091,7 @@ NamePlural = Mental Herbs
 Pocket = 1
 Price = 4000
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.
+Description = Held item that cures the holder of Taunt, Encore, Torment, Heal Block, Disable, or Infatuation.
 #-------------------------------
 [WHITEHERB]
 Name = White Herb
@@ -1100,7 +1100,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.
+Description = Held item that restores any lowered stat in battle. It can be used only once.
 #-------------------------------
 [POWERHERB]
 Name = Power Herb
@@ -1109,7 +1109,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_10
-Description = A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
+Description = Held item that allows the immediate use of a move that charges up first.
 #-------------------------------
 [ABSORBBULB]
 Name = Absorb Bulb
@@ -1133,7 +1133,7 @@ NamePlural = Luminous Mosses
 Pocket = 1
 Price = 4000
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It boosts Sp. Def if hit by a Water-type attack. It can only be used once.
+Description = A held item. It boosts Sp. Def if hit by a Water-type attack. It can only be used once.
 #-------------------------------
 [SNOWBALL]
 Name = Snowball
@@ -1141,7 +1141,7 @@ NamePlural = Snowballs
 Pocket = 1
 Price = 4000
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It boosts Attack if hit by an Ice-type attack. It can only be used once.
+Description = A held item. It boosts Attack if hit by an Ice-type attack. It can only be used once.
 #-------------------------------
 [WEAKNESSPOLICY]
 Name = Weakness Policy
@@ -1149,7 +1149,7 @@ NamePlural = Weakness Policies
 Pocket = 1
 Price = 1000
 Flags = Fling_80
-Description = An item to be held by a Pokémon. The holder's Attack and Sp. Atk sharply increase if hit by a move it's weak to.
+Description = A held item. The holder's Attack and Sp. Atk sharply increase if hit by a move it's weak to.
 #-------------------------------
 [BLUNDERPOLICY]
 Name = Blunder Policy
@@ -1173,7 +1173,7 @@ NamePlural = Adrenaline Orbs
 Pocket = 1
 Price = 300
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It boosts Speed when intimidated. It can be used only once.
+Description = A held item. It boosts Speed when intimidated. It can be used only once.
 #-------------------------------
 [ROOMSERVICE]
 Name = Room Service
@@ -1181,7 +1181,7 @@ NamePlural = Room Services
 Pocket = 1
 Price = 4000
 Flags = Fling_100
-Description = An item to be held by a Pokémon. Lowers Speed when Trick Room takes effect.
+Description = A held item. Lowers Speed when Trick Room takes effect.
 #-------------------------------
 [ELECTRICSEED]
 Name = Electric Seed
@@ -1191,7 +1191,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It boosts Defense on Electric Terrain. It can only be used once.
+Description = A held item. It boosts Defense on Electric Terrain. It can only be used once.
 #-------------------------------
 [GRASSYSEED]
 Name = Grassy Seed
@@ -1201,7 +1201,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It boosts Defense on Grassy Terrain. It can only be used once.
+Description = A held item. It boosts Defense on Grassy Terrain. It can only be used once.
 #-------------------------------
 [MISTYSEED]
 Name = Misty Seed
@@ -1211,7 +1211,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It boosts Sp. Def on Misty Terrain. It can only be used once.
+Description = A held item. It boosts Sp. Def on Misty Terrain. It can only be used once.
 #-------------------------------
 [PSYCHICSEED]
 Name = Psychic Seed
@@ -1221,7 +1221,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It boosts Sp. Def on Psychic Terrain. It can only be used once.
+Description = A held item. It boosts Sp. Def on Psychic Terrain. It can only be used once.
 #-------------------------------
 [LIFEORB]
 Name = Life Orb
@@ -1230,7 +1230,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 3
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.
+Description = A held item. It boosts the power of moves by 30%, but at the cost of 10% HP on each hit.
 #-------------------------------
 [EXPERTBELT]
 Name = Expert Belt
@@ -1239,7 +1239,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 1
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It is a well-worn belt that slightly boosts the power of supereffective moves.
+Description = A well-worn belt that boosts the holder's supereffective moves by 20%.
 #-------------------------------
 [METRONOME]
 Name = Metronome
@@ -1249,7 +1249,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_30
-Description = A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.
+Description = A held item. Boosts a move used consecutively by 20% more each time. This resets if another move is used.
 #-------------------------------
 [MUSCLEBAND]
 Name = Muscle Band
@@ -1258,7 +1258,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 1
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.
+Description = It is a headband that boosts the power of physical moves by 10%.
 #-------------------------------
 [WISEGLASSES]
 Name = Wise Glasses
@@ -1267,7 +1267,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 1
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.
+Description = It is a thick pair of glasses that boosts the power of special moves by 10%.
 #-------------------------------
 [RAZORCLAW]
 Name = Razor Claw
@@ -1277,7 +1277,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2500
 Flags = Fling_80
-Description = An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder's critical-hit ratio.
+Description = A held item. It is a sharply hooked claw that ups the holder's critical-hit ratio.
 #-------------------------------
 [SCOPELENS]
 Name = Scope Lens
@@ -1286,7 +1286,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 1
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a lens that boosts the holder's critical-hit ratio.
+Description = A held item. It is a lens that boosts the holder's critical-hit ratio.
 #-------------------------------
 [WIDELENS]
 Name = Wide Lens
@@ -1295,7 +1295,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 1
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It is a magnifying lens that slightly boosts the accuracy of moves.
+Description = A held item. It is a magnifying lens that boosts the Accuracy of moves by 10%.
 #-------------------------------
 [ZOOMLENS]
 Name = Zoom Lens
@@ -1304,7 +1304,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 1
 Flags = Fling_10
-Description = An item to be held by a Pokémon. If the holder moves after its target, its accuracy will be boosted.
+Description = A held item. It is a magnifying lens that boosts the Accuracy of moves by 20% when used last.
 #-------------------------------
 [KINGSROCK]
 Name = King's Rock
@@ -1312,7 +1312,7 @@ NamePlural = King's Rocks
 Pocket = 1
 Price = 5000
 Flags = Fling_30
-Description = An item to be held by a Pokémon. When the holder inflicts damage, the target may flinch.
+Description = Held item that grants all attacking moves lacking a flinch chance a 10% chance to flinch.
 #-------------------------------
 [RAZORFANG]
 Name = Razor Fang
@@ -1321,7 +1321,7 @@ Pocket = 1
 Price = 5000
 BPPrice = 1
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage.
+Description = Held item that grants all attacking moves lacking a flinch chance a 10% chance to flinch.
 #-------------------------------
 [LAGGINGTAIL]
 Name = Lagging Tail
@@ -1330,7 +1330,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 1
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.
+Description = Held item which forces the holder to move last in its priority bracket.
 #-------------------------------
 [QUICKCLAW]
 Name = Quick Claw
@@ -1340,7 +1340,7 @@ Price = 3000
 BPPrice = 1
 SellPrice = 2000
 Flags = Fling_80
-Description = An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.
+Description = A held item. A light, sharp claw that gives a 20% chance of going first in its priority bracket.
 #-------------------------------
 [FOCUSBAND]
 Name = Focus Band
@@ -1349,7 +1349,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 2000
 Flags = Fling_10
-Description = An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.
+Description = A held item that has a 10% chance to let the holder endure a KO attack with just 1 HP.
 #-------------------------------
 [FOCUSSASH]
 Name = Focus Sash
@@ -1358,7 +1358,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 2000
 Flags = Fling_10
-Description = An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.
+Description = A held item that lets the holder endure a KO attack with just 1 HP when at full HP.
 #-------------------------------
 [FLAMEORB]
 Name = Flame Orb
@@ -1367,7 +1367,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle.
+Description = A held item. It is a bizarre orb that inflicts a burn on the holder in battle.
 #-------------------------------
 [TOXICORB]
 Name = Toxic Orb
@@ -1376,7 +1376,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.
+Description = A held item. It is a bizarre orb that badly poisons the holder in battle.
 #-------------------------------
 [FROSTORB]
 Name = Frost Orb
@@ -1385,7 +1385,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 2
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a bizarre orb that inflicts frostbite on the holder in battle.
+Description = A held item. It is a bizarre orb that inflicts frostbite on the holder in battle.
 #-------------------------------
 [STICKYBARB]
 Name = Sticky Barb
@@ -1403,7 +1403,7 @@ Pocket = 1
 Price = 4000
 BPPrice = 1
 Flags = Fling_130
-Description = A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.
+Description = Held item that halves Speed. It makes Flying-type and levitating holders susceptible to Ground moves.
 #-------------------------------
 [RINGTARGET]
 Name = Ring Target
@@ -1476,7 +1476,7 @@ NamePlural = Lax Incenses
 Pocket = 1
 Price = 5000
 Flags = Fling_10,Incense
-Description = An item to be held by a Pokémon. The tricky aroma of this incense may make attacks miss the holder.
+Description = The tricky aroma lowers the accuracy of moves used by the opponents against the holder by 10%.
 #-------------------------------
 [FULLINCENSE]
 Name = Full Incense
@@ -1484,7 +1484,7 @@ NamePlural = Full Incenses
 Pocket = 1
 Price = 5000
 Flags = Fling_10,Incense
-Description = An item to be held by a Pokémon. This exotic-smelling incense makes the holder bloated and slow moving.
+Description = A held item. This exotic-smelling incense makes the holder bloated and slow moving.
 #-------------------------------
 [LUCKINCENSE]
 Name = Luck Incense
@@ -1492,7 +1492,7 @@ NamePlural = Luck Incenses
 Pocket = 1
 Price = 11000
 Flags = Fling_10,Incense
-Description = An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.
+Description = A held item. It doubles a battle's prize money if the holding Pokémon joins in.
 #-------------------------------
 [PUREINCENSE]
 Name = Pure Incense
@@ -1500,7 +1500,7 @@ NamePlural = Pure Incenses
 Pocket = 1
 Price = 6000
 Flags = Fling_10,Incense
-Description = An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.
+Description = Held item which keep wild Pokémon away if the holder is the first one in the party.
 #-------------------------------
 [SEAINCENSE]
 Name = Sea Incense
@@ -1508,7 +1508,7 @@ NamePlural = Sea Incenses
 Pocket = 1
 Price = 2000
 Flags = Fling_10,Incense
-Description = An item to be held by a Pokémon. It has a curious aroma that boosts the power of Water-type moves.
+Description = Held item with a curious aroma that boosts the power of Water-type moves by 20%.
 #-------------------------------
 [WAVEINCENSE]
 Name = Wave Incense
@@ -1516,7 +1516,7 @@ NamePlural = Wave Incenses
 Pocket = 1
 Price = 2000
 Flags = Fling_10,Incense
-Description = An item to be held by a Pokémon. It has a curious aroma that boosts the power of Water-type moves.
+Description = Held item with a curious aroma that boosts the power of Water-type moves by 20%.
 #-------------------------------
 [ROSEINCENSE]
 Name = Rose Incense
@@ -1524,7 +1524,7 @@ NamePlural = Rose Incenses
 Pocket = 1
 Price = 2000
 Flags = Fling_10,Incense
-Description = An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Grass-type moves.
+Description = Held item with a exotic-smelling aroma that boosts the power of Grass-type moves by 20%.
 #-------------------------------
 [ODDINCENSE]
 Name = Odd Incense
@@ -1532,7 +1532,7 @@ NamePlural = Odd Incenses
 Pocket = 1
 Price = 2000
 Flags = Fling_10,Incense
-Description = An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Psychic-type moves.
+Description = Held item with a exotic-smelling aroma that boosts the power of Psychic-type moves by 20%.
 #-------------------------------
 [ROCKINCENSE]
 Name = Rock Incense
@@ -1540,7 +1540,7 @@ NamePlural = Rock Incenses
 Pocket = 1
 Price = 2000
 Flags = Fling_10,Incense
-Description = An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Rock-type moves.
+Description = Held item with a exotic-smelling aroma that boosts the power of Rock-type moves by 20%.
 #-------------------------------
 [CHARCOAL]
 Name = Charcoal
@@ -1549,7 +1549,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a combustible fuel that boosts the power of Fire-type moves.
+Description = A combustible fuel that boosts the holder's Fire-type moves by 20%.
 #-------------------------------
 [MYSTICWATER]
 Name = Mystic Water
@@ -1558,7 +1558,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.
+Description = A teardrop-shaped gem that boosts the holder's Water-type moves by 20%.
 #-------------------------------
 [MAGNET]
 Name = Magnet
@@ -1567,7 +1567,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.
+Description = A powerful magnet that boosts the holder's Electric-type moves by 20%.
 #-------------------------------
 [MIRACLESEED]
 Name = Miracle Seed
@@ -1576,7 +1576,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.
+Description = A seed imbued with life that boosts the holder's Grass-type moves by 20%.
 #-------------------------------
 [NEVERMELTICE]
 Name = Never-Melt Ice
@@ -1585,7 +1585,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a piece of ice that repels heat and boosts Ice-type moves.
+Description = A piece of ice that repels heat and boosts Ice-type moves by 20%.
 #-------------------------------
 [BLACKBELT]
 Name = Black Belt
@@ -1594,7 +1594,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a belt that boosts determination and Fighting-type moves.
+Description = A belt that boosts determination and Fighting-type moves by 20%.
 #-------------------------------
 [POISONBARB]
 Name = Poison Barb
@@ -1603,7 +1603,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_70
-Description = An item to be held by a Pokémon. It is a small, poisonous barb that ups the power of Poison-type moves.
+Description = A small, poisonous barb that boosts the holder's Poison-type moves by 20%.
 #-------------------------------
 [SOFTSAND]
 Name = Soft Sand
@@ -1612,7 +1612,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It is a loose, silky sand that boosts the power of Ground-type moves.
+Description = A loose, silky sand that boosts the holder's Ground-type moves by 20%.
 #-------------------------------
 [SHARPBEAK]
 Name = Sharp Beak
@@ -1621,7 +1621,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_50
-Description = An item to be held by a Pokémon. It is a long, sharp beak that boosts the power of Flying-type moves.
+Description = A long, sharp beak that boosts the holder's Flying-type moves by 20%.
 #-------------------------------
 [TWISTEDSPOON]
 Name = Twisted Spoon
@@ -1630,7 +1630,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a spoon imbued with telekinetic power that boosts Psychic-type moves.
+Description = A spoon imbued with telekinetic power that boosts Psychic-type moves by 20%.
 #-------------------------------
 [SILVERPOWDER]
 Name = Silver Powder
@@ -1639,7 +1639,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It is a shiny, silver powder that ups the power of Bug-type moves.
+Description = A shiny, silver powder that boosts the holder's Bug-type moves by 20%.
 #-------------------------------
 [HARDSTONE]
 Name = Hard Stone
@@ -1648,7 +1648,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_100
-Description = An item to be held by a Pokémon. It is an unbreakable stone that ups the power of Rock-type moves.
+Description = An unbreakable stone that boosts the holder's Rock-type moves by 20%.
 #-------------------------------
 [SPELLTAG]
 Name = Spell Tag
@@ -1657,7 +1657,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.
+Description = A sinister, eerie tag that boosts the holder's Ghost-type moves by 20%.
 #-------------------------------
 [DRAGONFANG]
 Name = Dragon Fang
@@ -1666,7 +1666,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_70
-Description = An item to be held by a Pokémon. It is a hard and sharp fang that ups the power of Dragon-type moves.
+Description = A hard and sharp fang that boosts the holder's Dragon-type moves by 20%.
 #-------------------------------
 [BLACKGLASSES]
 Name = Black Glasses
@@ -1675,7 +1675,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a shady-looking pair of glasses that boosts Dark-type moves.
+Description = A shady-looking pair of glasses that boosts the holder's Dark-type moves by 20%.
 #-------------------------------
 [METALCOAT]
 Name = Metal Coat
@@ -1684,7 +1684,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a special metallic film that ups the power of Steel-type moves.
+Description = A special metallic film that boosts the holder's Steel-type moves by 20%.
 #-------------------------------
 [SILKSCARF]
 Name = Silk Scarf
@@ -1693,7 +1693,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_10
-Description = An item to be held by a Pokémon. It is a sumptuous scarf that boosts the power of Normal-type moves.
+Description = A sumptuous scarf that boosts the holder's Normal-type moves by 20%.
 #-------------------------------
 [FLAMEPLATE]
 Name = Flame Plate
@@ -1702,7 +1702,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fire-type moves.
+Description = A stone tablet that boosts the power of Fire-type moves by 20%.
 #-------------------------------
 [SPLASHPLATE]
 Name = Splash Plate
@@ -1711,7 +1711,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Water-type moves.
+Description = A stone tablet that boosts the power of Water-type moves by 20%.
 #-------------------------------
 [ZAPPLATE]
 Name = Zap Plate
@@ -1720,7 +1720,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Electric-type moves.
+Description = A stone tablet that boosts the power of Electric-type moves by 20%.
 #-------------------------------
 [MEADOWPLATE]
 Name = Meadow Plate
@@ -1729,7 +1729,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Grass-type moves.
+Description = A stone tablet that boosts the power of Grass-type moves by 20%.
 #-------------------------------
 [ICICLEPLATE]
 Name = Icicle Plate
@@ -1738,7 +1738,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ice-type moves.
+Description = A stone tablet that boosts the power of Ice-type moves by 20%.
 #-------------------------------
 [FISTPLATE]
 Name = Fist Plate
@@ -1747,7 +1747,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fighting-type moves.
+Description = A stone tablet that boosts the power of Fighting-type moves by 20%.
 #-------------------------------
 [TOXICPLATE]
 Name = Toxic Plate
@@ -1756,7 +1756,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Poison-type moves.
+Description = A stone tablet that boosts the power of Poison-type moves by 20%.
 #-------------------------------
 [EARTHPLATE]
 Name = Earth Plate
@@ -1765,7 +1765,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ground-type moves.
+Description = A stone tablet that boosts the power of Ground-type moves by 20%.
 #-------------------------------
 [SKYPLATE]
 Name = Sky Plate
@@ -1774,7 +1774,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Flying-type moves.
+Description = A stone tablet that boosts the power of Flying-type moves by 20%.
 #-------------------------------
 [MINDPLATE]
 Name = Mind Plate
@@ -1783,7 +1783,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Psychic-type moves.
+Description = A stone tablet that boosts the power of Psychic-type moves by 20%.
 #-------------------------------
 [INSECTPLATE]
 Name = Insect Plate
@@ -1792,7 +1792,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Bug-type moves.
+Description = A stone tablet that boosts the power of Bug-type moves by 20%.
 #-------------------------------
 [STONEPLATE]
 Name = Stone Plate
@@ -1801,7 +1801,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Rock-type moves.
+Description = A stone tablet that boosts the power of Rock-type moves by 20%.
 #-------------------------------
 [SPOOKYPLATE]
 Name = Spooky Plate
@@ -1810,7 +1810,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ghost-type moves.
+Description = A stone tablet that boosts the power of Ghost-type moves by 20%.
 #-------------------------------
 [DRACOPLATE]
 Name = Draco Plate
@@ -1819,7 +1819,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dragon-type moves.
+Description = A stone tablet that boosts the power of Dragon-type moves by 20%.
 #-------------------------------
 [DREADPLATE]
 Name = Dread Plate
@@ -1828,7 +1828,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dark-type moves.
+Description = A stone tablet that boosts the power of Dark-type moves.
 #-------------------------------
 [IRONPLATE]
 Name = Iron Plate
@@ -1837,7 +1837,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Steel-type moves.
+Description = A stone tablet that boosts the power of Steel-type moves by 20%.
 #-------------------------------
 [PIXIEPLATE]
 Name = Pixie Plate
@@ -1846,7 +1846,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fairy-type moves.
+Description = A stone tablet that boosts the power of Fairy-type moves by 20%.
 #-------------------------------
 [FIREGEM]
 Name = Fire Gem
@@ -1902,7 +1902,7 @@ NamePlural = Poison Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Fire-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Poison-type move by 30% and is then consumed.
 #-------------------------------
 [GROUNDGEM]
 Name = Ground Gem
@@ -1966,7 +1966,7 @@ NamePlural = Dark Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Dark Gem-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Dark-type move by 30% and is then consumed.
 #-------------------------------
 [STEELGEM]
 Name = Steel Gem
@@ -2279,7 +2279,7 @@ NamePlural = Everstones
 Pocket = 1
 Price = 3000
 Flags = Fling_30
-Description = An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving.
+Description = A held item. The Pokémon holding this peculiar stone is prevented from evolving.
 #-------------------------------
 [DRAGONSCALE]
 Name = Dragon Scale
@@ -6207,7 +6207,7 @@ Price = 20
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_PSYCHIC_80,HealBerry
-Description = It may be used or held by a Pokémon to heal the user's HP a little.
+Description = It may be used or held by a Pokémon to heal the user's HP by 25%.
 #-------------------------------
 [FIGYBERRY]
 Name = Figy Berry
@@ -6215,7 +6215,7 @@ NamePlural = Figy Berries
 Pocket = 5
 Price = 20
 Flags = Berry,Fling_10,NaturalGift_BUG_80,HealBerry,FlavorBerry
-Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+Description = If held, it restores the user's HP in a pinch by 33%. Will cause confusion if it hates the taste.
 #-------------------------------
 [WIKIBERRY]
 Name = Wiki Berry
@@ -6223,7 +6223,7 @@ NamePlural = Wiki Berries
 Pocket = 5
 Price = 20
 Flags = Berry,Fling_10,NaturalGift_ROCK_80,HealBerry,FlavorBerry
-Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+Description = If held, it restores the user's HP in a pinch by 33%. Will cause confusion if it hates the taste.
 #-------------------------------
 [MAGOBERRY]
 Name = Mago Berry
@@ -6231,7 +6231,7 @@ NamePlural = Mago Berries
 Pocket = 5
 Price = 20
 Flags = Berry,Fling_10,NaturalGift_GHOST_80,HealBerry,FlavorBerry
-Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+Description = If held, it restores the user's HP in a pinch by 33%. Will cause confusion if it hates the taste.
 #-------------------------------
 [AGUAVBERRY]
 Name = Aguav Berry
@@ -6239,7 +6239,7 @@ NamePlural = Aguav Berries
 Pocket = 5
 Price = 20
 Flags = Berry,Fling_10,NaturalGift_DRAGON_80,HealBerry,FlavorBerry
-Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+Description = If held, it restores the user's HP in a pinch by 33%. Will cause confusion if it hates the taste.
 #-------------------------------
 [IAPAPABERRY]
 Name = Iapapa Berry
@@ -6247,7 +6247,7 @@ NamePlural = Iapapa Berries
 Pocket = 5
 Price = 20
 Flags = Berry,Fling_10,NaturalGift_DARK_80,HealBerry,FlavorBerry
-Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+Description = If held, it restores the user's HP in a pinch by 33%. Will cause confusion if it hates the taste.
 #-------------------------------
 [RAZZBERRY]
 Name = Razz Berry
@@ -6421,7 +6421,7 @@ NamePlural = Occa Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_FIRE_80,TypeReduceBerry
-Description = Weakens a supereffective Fire-type attack against the holding Pokémon.
+Description = Weakens a supereffective Fire-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [PASSHOBERRY]
 Name = Passho Berry
@@ -6429,7 +6429,7 @@ NamePlural = Passho Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_WATER_80,TypeReduceBerry
-Description = Weakens a supereffective Water-type attack against the holding Pokémon.
+Description = Weakens a supereffective Water-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [WACANBERRY]
 Name = Wacan Berry
@@ -6437,7 +6437,7 @@ NamePlural = Wacan Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_ELECTRIC_80,TypeReduceBerry
-Description = Weakens a supereffective Electric-type attack against the holding Pokémon.
+Description = Weakens a supereffective Electric-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [RINDOBERRY]
 Name = Rindo Berry
@@ -6445,7 +6445,7 @@ NamePlural = Rindo Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_GRASS_80,TypeReduceBerry
-Description = Weakens a supereffective Grass-type attack against the holding Pokémon.
+Description = Weakens a supereffective Grass-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [YACHEBERRY]
 Name = Yache Berry
@@ -6453,7 +6453,7 @@ NamePlural = Yache Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_ICE_80,TypeReduceBerry
-Description = Weakens a supereffective Ice-type attack against the holding Pokémon.
+Description = Weakens a supereffective Ice-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [CHOPLEBERRY]
 Name = Chople Berry
@@ -6461,7 +6461,7 @@ NamePlural = Chople Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_FIGHTING_80,TypeReduceBerry
-Description = Weakens a supereffective Fighting-type attack against the holding Pokémon.
+Description = Weakens a supereffective Fighting-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [KEBIABERRY]
 Name = Kebia Berry
@@ -6469,7 +6469,7 @@ NamePlural = Kebia Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_POISON_80,TypeReduceBerry
-Description = Weakens a supereffective Poison-type attack against the holding Pokémon.
+Description = Weakens a supereffective Poison-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [SHUCABERRY]
 Name = Shuca Berry
@@ -6477,7 +6477,7 @@ NamePlural = Shuca Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_GROUND_80,TypeReduceBerry
-Description = Weakens a supereffective Ground-type attack against the holding Pokémon.
+Description = Weakens a supereffective Ground-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [COBABERRY]
 Name = Coba Berry
@@ -6485,7 +6485,7 @@ NamePlural = Coba Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_FLYING_80,TypeReduceBerry
-Description = Weakens a supereffective Flying-type attack against the holding Pokémon.
+Description = Weakens a supereffective Flying-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [PAYAPABERRY]
 Name = Payapa Berry
@@ -6493,7 +6493,7 @@ NamePlural = Payapa Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_PSYCHIC_80,TypeReduceBerry
-Description = Weakens a supereffective Psychic-type attack against the holding Pokémon.
+Description = Weakens a supereffective Psychic-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [TANGABERRY]
 Name = Tanga Berry
@@ -6501,7 +6501,7 @@ NamePlural = Tanga Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_BUG_80,TypeReduceBerry
-Description = Weakens a supereffective Bug-type attack against the holding Pokémon.
+Description = Weakens a supereffective Bug-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [CHARTIBERRY]
 Name = Charti Berry
@@ -6509,7 +6509,7 @@ NamePlural = Charti Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_ROCK_80,TypeReduceBerry
-Description = Weakens a supereffective Rock-type attack against the holding Pokémon.
+Description = Weakens a supereffective Rock-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [KASIBBERRY]
 Name = Kasib Berry
@@ -6517,7 +6517,7 @@ NamePlural = Kasib Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_GHOST_80,TypeReduceBerry
-Description = Weakens a supereffective Ghost-type attack against the holding Pokémon.
+Description = Weakens a supereffective Ghost-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [HABANBERRY]
 Name = Haban Berry
@@ -6525,7 +6525,7 @@ NamePlural = Haban Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_DRAGON_80,TypeReduceBerry
-Description = Weakens a supereffective Dragon-type attack against the holding Pokémon.
+Description = Weakens a supereffective Dragon-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [COLBURBERRY]
 Name = Colbur Berry
@@ -6533,7 +6533,7 @@ NamePlural = Colbur Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_DARK_80,TypeReduceBerry
-Description = Weakens a supereffective Dark-type attack against the holding Pokémon.
+Description = Weakens a supereffective Dark-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [BABIRIBERRY]
 Name = Babiri Berry
@@ -6541,7 +6541,7 @@ NamePlural = Babiri Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_STEEL_80,TypeReduceBerry
-Description = Weakens a supereffective Steel-type attack against the holding Pokémon.
+Description = Weakens a supereffective Steel-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [ROSELIBERRY]
 Name = Roseli Berry
@@ -6549,7 +6549,7 @@ NamePlural = Roseli Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_FAIRY_80,TypeReduceBerry
-Description = Weakens a supereffective Fairy-type attack against the holding Pokémon.
+Description = Weakens a supereffective Fairy-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [CHILANBERRY]
 Name = Chilan Berry
@@ -6557,7 +6557,7 @@ NamePlural = Chilan Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_NORMAL_80,TypeReduceBerry
-Description = Weakens a supereffective Normal-type attack against the holding Pokémon.
+Description = Weakens a supereffective Normal-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [LIECHIBERRY]
 Name = Liechi Berry
@@ -6621,7 +6621,7 @@ NamePlural = Enigma Berries
 Pocket = 5
 Price = 1000
 Flags = Berry,Fling_10,NaturalGift_BUG_100
-Description = If held by a Pokémon, it restores its HP if it is hit by any supereffective attack.
+Description = If held by a Pokémon, it restores its HP by 25% if it is hit by any supereffective attack.
 #-------------------------------
 [MICLEBERRY]
 Name = Micle Berry
@@ -6645,7 +6645,7 @@ NamePlural = Jaboca Berries
 Pocket = 5
 Price = 500
 Flags = Berry,Fling_10,NaturalGift_DRAGON_100
-Description = If held by a Pokémon and a physical attack lands, the attacker also takes damage.
+Description = If held by a Pokémon and they take a physical attack, the attacker takes 1/8th damage.
 #-------------------------------
 [ROWAPBERRY]
 Name = Rowap Berry
@@ -6653,7 +6653,7 @@ NamePlural = Rowap Berries
 Pocket = 5
 Price = 500
 Flags = Berry,Fling_10,NaturalGift_DARK_100
-Description = If held by a Pokémon and a special attack lands, the attacker also takes damage.
+Description = If held by a Pokémon and they take a special attack, the attacker takes 1/8th damage.
 #-------------------------------
 [KEEBERRY]
 Name = Kee Berry
@@ -7405,7 +7405,7 @@ NamePlural = Shiny Charms
 Pocket = 8
 Price = 0
 Flags = KeyItem
-Description = A shiny charm said to increase the chance of finding a Shiny Pokémon.
+Description = A shiny charm which doubles the chance of finding a Shiny Pokémon.
 #-------------------------------
 [CATCHINGCHARM]
 Name = Catching Charm
@@ -8960,7 +8960,7 @@ NamePlural = Normal Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Normal-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Normal-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDFIRE]
 Name = Fire Shield
@@ -8968,7 +8968,7 @@ NamePlural = Fire Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Fire-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Fire-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDWATER]
 Name = Water Shield
@@ -8976,7 +8976,7 @@ NamePlural = Water Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Water-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Water-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDGRASS]
 Name = Grass Shield
@@ -8984,7 +8984,7 @@ NamePlural = Grass Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Grass-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Grass-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDELECTRIC]
 Name = Electric Shield
@@ -8992,7 +8992,7 @@ NamePlural = Electric Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Electric-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Electric-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDICE]
 Name = Ice Shield
@@ -9000,7 +9000,7 @@ NamePlural = Ice Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Ice-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Ice-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDPOISON]
 Name = Poison Shield
@@ -9008,7 +9008,7 @@ NamePlural = Poison Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Poison-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Poison-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDFIGHTING]
 Name = Fighting Shield
@@ -9016,7 +9016,7 @@ NamePlural = Fighting Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Fighting-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Fighting-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDGROUND]
 Name = Ground Shield
@@ -9024,7 +9024,7 @@ NamePlural = Ground Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Ground-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Ground-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDFLYING]
 Name = Flying Shield
@@ -9032,7 +9032,7 @@ NamePlural = Flying Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Flying-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Flying-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDPSYCHIC]
 Name = Psychic Shield
@@ -9040,7 +9040,7 @@ NamePlural = Psychic Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Psychic-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Psychic-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDBUG]
 Name = Bug Shield
@@ -9048,7 +9048,7 @@ NamePlural = Bug Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Bug-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Bug-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDROCK]
 Name = Rock Shield
@@ -9056,7 +9056,7 @@ NamePlural = Rock Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Rock-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Rock-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDGHOST]
 Name = Ghost Shield
@@ -9064,7 +9064,7 @@ NamePlural = Ghost Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Ghost-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Ghost-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDDRAGON]
 Name = Dragon Shield
@@ -9072,7 +9072,7 @@ NamePlural = Dragon Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Dragon-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Dragon-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDSTEEL]
 Name = Steel Shield
@@ -9080,7 +9080,7 @@ NamePlural = Steel Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Steel-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Steel-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDDARK]
 Name = Dark Shield
@@ -9088,7 +9088,7 @@ NamePlural = Dark Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Dark-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Dark-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDFAIRY]
 Name = Fairy Shield
@@ -9096,7 +9096,7 @@ NamePlural = Fairy Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Fairy-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Fairy-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDCOSMIC]
 Name = Cosmic Shield
@@ -9104,7 +9104,7 @@ NamePlural = Cosmic Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Cosmic-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Cosmic-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDLIGHT]
 Name = Light Shield
@@ -9112,7 +9112,7 @@ NamePlural = Light Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Light-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Light-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SHIELDSOUND]
 Name = Sound Shield
@@ -9120,7 +9120,7 @@ NamePlural = Sound Shields
 Pocket = 7
 Price = 10000
 BPPrice = 5
-Description = Weakens supereffective Sound-type attacks against the Pokemon that holds this item.
+Description = Weakens supereffective Sound-type attacks against the Pokemon by 50% that holds this item.
 #-------------------------------
 [SWORDNORMAL]
 Name = Normal Sword
@@ -9312,7 +9312,7 @@ NamePlural = Sand Incenses
 Pocket = 1
 Price = 2000
 Flags = Fling_10,Incense
-Description = An item to be held by a Pokémon. It has a curious aroma that boosts the power of Ground-type moves.
+Description = Held item with a curious aroma that boosts the power of Ground-type moves by 20%.
 #-------------------------------
 [POKETREAT]
 Name = PokéTreat
@@ -9418,7 +9418,7 @@ NamePlural = Oli Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_COSMIC_80,TypeReduceBerry
-Description = Weakens a supereffective Cosmic-type attack against the holding Pokémon.
+Description = Weakens a supereffective Cosmic-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [PATOTOBERRY]
 Name = Patoto Berry
@@ -9426,7 +9426,7 @@ NamePlural = Patoto Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_LIGHT_80,TypeReduceBerry
-Description = Weakens a supereffective Light-type attack against the holding Pokémon.
+Description = Weakens a supereffective Light-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [AVOCABERRY]
 Name = Avoca Berry
@@ -9434,7 +9434,7 @@ NamePlural = Avoca Berries
 Pocket = 5
 Price = 750
 Flags = Berry,Fling_10,NaturalGift_SOUND_80,TypeReduceBerry
-Description = Weakens a supereffective Sound-type attack against the holding Pokémon.
+Description = Weakens a supereffective Sound-type attack against the holding Pokémon by 75%.
 #-------------------------------
 [COSMICDUST]
 Name = Cosmic Dust
@@ -9443,7 +9443,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is an interstellar dust that ups the power of Cosmic-type moves.
+Description = Interstellar dust that boosts the holder's Cosmic-type moves by 20%.
 #-------------------------------
 [STELLARPLATE]
 Name = Stellar Plate
@@ -9452,7 +9452,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Cosmic-type moves.
+Description = A stone tablet that boosts the power of Cosmic-type moves by 20%.
 #-------------------------------
 [COSMICGEM]
 Name = Cosmic Gem
@@ -9469,7 +9469,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a simple mirror, powering up Light-type moves.
+Description = A simple mirror that boosts the holder's Light-type moves by 20%.
 #-------------------------------
 [HOLYPLATE]
 Name = Holy Plate
@@ -9478,7 +9478,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Light-type moves.
+Description = A stone tablet that boosts the power of Light-type moves by 20%.
 #-------------------------------
 [LIGHTGEM]
 Name = Light Gem
@@ -9495,7 +9495,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a box that plays a soothing tune, powering up Sound-type moves.
+Description = A box that plays soothing tunes that boosts the holder's Light-type moves by 20%.
 #-------------------------------
 [RHYTHMPLATE]
 Name = Rhythm Plate
@@ -9504,7 +9504,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Sound-type moves.
+Description = A stone tablet that boosts the power of Sound-type moves by 20%.
 #-------------------------------
 [SOUNDGEM]
 Name = Sound Gem
@@ -9521,7 +9521,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 1000
 Flags = Fling_30
-Description = An item to be held by a Pokémon. It is a pile of enchanted dust that ups the power of Fairy-type moves.
+Description = A pile of enchanted dust that boosts the power of Fairy-type moves by 20%.
 #-------------------------------
 [BLANKPLATE]
 Name = Blank Plate
@@ -9530,7 +9530,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 500
 Flags = Fling_90,Plate
-Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Normal-type moves.
+Description = A stone tablet that boosts the power of Normal-type moves by 20%.
 #-------------------------------
 [ULTRAPOTION]
 Name = Ultra Potion
@@ -9913,7 +9913,7 @@ Pocket = 1
 Price = 10000
 BPPrice = 3
 Flags = Fling_80
-Description = An item to be held by a Pokémon. This body armor prevents the user from sustaining recoil damage.
+Description = A held item. This body armor prevents the user from sustaining recoil damage.
 #-------------------------------
 [BOATPASS]
 Name = Boat Pass
@@ -10039,7 +10039,7 @@ Pocket = 1
 Price = 1000
 BPPrice = 2
 Flags = Fling_80
-Description = An item to be held by a Pokémon. This offensive vest raises Def but prevents the use of status moves.
+Description = Held item which raises Defense by 50% but prevents the use of status moves.
 #-------------------------------
 [LOADEDDICE]
 Name = Loaded Dice
@@ -10048,7 +10048,7 @@ Pocket = 1
 Price = 20000
 BPPrice = 2
 Flags = Fling_80
-Description = An item to be held by a Pokémon. It ensures the holder's multistrike moves hit more times.
+Description = A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
 #-------------------------------
 [ROCKSMASHITEM]
 Name = Pickaxe
@@ -10922,5 +10922,5 @@ NamePlural = Everolite
 Pocket = 1
 Price = 3000
 Flags = Fling_30
-Description = An item to be held by a Pokémon that prevents evolution and raises both Defense stats if the holder can still evolve.
+Description = Raises the Defense and Sp. Def if the holder can still evolve by 50%. Prevents evolution.
 #-------------------------------

@@ -189,6 +189,50 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
 
     document.getElementById('sort-select').addEventListener('change', applyFilters);
 
+    function applyImageFallback(img, sources) {
+      let currentIndex = 0;
+      function loadNext() {
+        if (currentIndex >= sources.length) {
+          img.onerror = null;
+          return;
+        }
+        img.src = sources[currentIndex++];
+      }
+      img.onerror = loadNext;
+      loadNext();
+    }
+
+    function buildFormImageSources(baseInternalName, formIndex, maxForms) {
+      const baseName = baseInternalName.replace(/T$/, '');
+      const match = baseName.match(/^(.*)_(\d+)$/);
+      const root = match ? match[1] : baseName;
+      const sources = [];
+
+      if (match) {
+        if (formIndex > 1) {
+          sources.push(`./games/${game}/images/Front/${root}_${formIndex}.png`);
+        }
+        sources.push(`./games/${game}/images/Front/${baseName}.png`);
+        for (let i = 1; i <= maxForms; i++) {
+          const candidate = `./games/${game}/images/Front/${root}_${i}.png`;
+          if (!sources.includes(candidate)) sources.push(candidate);
+        }
+        sources.push(`./games/${game}/images/Front/${root}.png`);
+      } else {
+        sources.push(`./games/${game}/images/Front/${baseName}.png`);
+        if (formIndex > 1) {
+          sources.push(`./games/${game}/images/Front/${baseName}_${formIndex}.png`);
+        }
+        for (let i = 1; i <= maxForms; i++) {
+          const candidate = `./games/${game}/images/Front/${baseName}_${i}.png`;
+          if (!sources.includes(candidate)) sources.push(candidate);
+        }
+      }
+
+      sources.push(`./games/${game}/images/Front/000.png`);
+      return sources;
+    }
+
     function renderPokemonCard(pokemon) {
       const card = document.createElement('div');
       card.className = 'pokemon-card';
@@ -300,29 +344,16 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
             (form.InternalName && form.InternalName.toLowerCase().includes('anomaly'));
 
           if (isAnomaly) {
-            formImage.src = `./games/${game}/images/Front/${baseInternalName}.png`;
-            formImage.onerror = function tryUnderscore() {
-              // try 2
-              const trimmedName = baseInternalName.slice(0, -1);
-              this.onerror = function tryOne() {
-                // Try 1
-                this.onerror = function fallback() {
-                  this.onerror = null;
-                  this.src = `./games/${game}/images/Front/000.png`;
-                };
-                this.src = `./games/${game}/images/Front/${trimmedName}1.png`;
-              };
-              this.src = `./games/${game}/images/Front/${trimmedName}2.png`;
-            };
+            const trimmedName = baseInternalName.slice(0, -1);
+            applyImageFallback(formImage, [
+              `./games/${game}/images/Front/${baseInternalName}.png`,
+              `./games/${game}/images/Front/${trimmedName}2.png`,
+              `./games/${game}/images/Front/${trimmedName}1.png`,
+              `./games/${game}/images/Front/000.png`
+            ]);
           } else {
-            formImage.src = `./games/${game}/images/Front/${baseInternalName}.png`;
-            formImage.onerror = function tryIndexed() {
-              this.onerror = function fallback() {
-                this.onerror = null;
-                this.src = `./games/${game}/images/Front/000.png`;
-              };
-              this.src = `./games/${game}/images/Front/${baseInternalName}_${formIndex}.png`;
-            };
+            const fallbackSources = buildFormImageSources(baseInternalName, formIndex, pokemon.Forms.length);
+            applyImageFallback(formImage, fallbackSources);
           }
 
           const formTitle = document.createElement('h3');
