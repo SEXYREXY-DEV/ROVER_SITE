@@ -151,7 +151,6 @@ body {
   border: 2px solid transparent;
   transition: background 0.2s;
 }
-.evo-stage.current-pokemon,
 .evo-stage.current_pokemon {
   background: #ffe08b;
   color: #23242a;
@@ -519,6 +518,75 @@ body {
   font-size: 1em;
   line-height: 1.5;
 }
+
+#encounters-container {
+  margin-top: 28px;
+}
+.encounters-box {
+  padding: 24px;
+  border: 2px solid #e23d3d;
+  border-radius: 18px;
+  background: #fff7f0;
+}
+.encounters-box h3 {
+  margin-top: 0;
+  color: #e23d3d;
+}
+.encounter-map-card {
+  margin-top: 18px;
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(226, 61, 61, 0.25);
+  background: #ffffff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+}
+.encounter-map-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #e23d3d;
+}
+.map-id {
+  font-size: 0.95em;
+  color: #555;
+  opacity: 0.9;
+}
+.encounter-type-block {
+  margin-bottom: 14px;
+}
+.encounter-type-title {
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-weight: 700;
+  color: #e23d3d;
+}
+.encounter-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+.encounter-table th,
+.encounter-table td {
+  border: 1px solid #e23d3d;
+  padding: 10px 12px;
+  text-align: left;
+}
+.encounter-table th {
+  background: #ffe8e2;
+  color: #e23d3d;
+}
+.encounter-table td {
+  background: #fff;
+}
+.no-encounters {
+  margin-top: 8px;
+  font-size: 1em;
+  color: #333;
+}
 #full-info ul {
   list-style: none;
   padding-left: 0;
@@ -817,5 +885,40 @@ body {
   .type-effectiveness-card .type-icon {
     background: #23242a;
     border-color: #444;
+  }
+  .encounters-box {
+    background: #23242a;
+    border: 2px solid #e23d3d;
+    border-radius: 18px;
+    color: #d0d0d0;
+  }
+  .encounters-box h3 {
+    color: #e8a87c;
+  }
+  .encounter-map-card {
+    background: #23242a;
+    border: 1px solid rgba(226, 61, 61, 0.15);
+    border-radius: 16px;
+    color: #d0d0d0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  }
+  .encounter-map-header {
+    color: #e8a87c;
+  }
+  .encounter-type-title {
+    color: #d0d0d0;
+  }
+  .encounter-table {
+    background: #23242a;
+  }
+  .encounter-table th {
+    background: #2d2323;
+    color: #d0d0d0;
+    border: 1px solid rgba(226, 61, 61, 0.15);
+  }
+  .encounter-table td {
+    background: #23242a;
+    color: #d0d0d0;
+    border: 1px solid rgba(100, 70, 70, 0.15);
   }
 }

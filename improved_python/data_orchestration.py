@@ -4,6 +4,7 @@ from parse_forms import FormsParser
 from combine_pokemon import PokemonCombiner
 from moves_to_json import MovesParser
 from abilities_to_json import AbilitiesParser
+from encounters_to_json import EncountersParser
 from evos import Evolution
 from unit_tests import unittest
 
@@ -36,6 +37,10 @@ class DataOrchestrator:
         parser = AbilitiesParser()
         parser.process_abilities_data(self.paths.games, base_dir=self.paths.base_dir)
 
+    def parse_encounters(self):
+        parser = EncountersParser()
+        parser.process_encounters_data(self.paths.games, base_dir=self.paths.base_dir)
+
     def generate_evolutions(self):
         Evolution.process_multiple_games(self.paths.games, base_dir=self.paths.base_dir)
 
@@ -59,6 +64,7 @@ class DataOrchestrator:
         self.combine_pokemon()
         self.parse_moves()
         self.parse_abilities()
+        self.parse_encounters()
         self.generate_evolutions()
         self.generate_types()
         self.generate_trainers()
