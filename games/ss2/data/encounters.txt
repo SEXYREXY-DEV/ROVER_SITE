@@ -27,7 +27,7 @@ SuperRod
 	20,BIDOOF,5
 #-------------------------------
 [110] # Europa Lake
-LandMorning,10
+LandMorning,4
     10,RATTATA,4
     10,AIPOM,4
     10,WURMPLE,4
@@ -38,7 +38,7 @@ LandMorning,10
 	10,YAMPER,4
 	10,MEOWTH,4
 	10,KRICKETOT,4
-LandDay,10
+LandDay,4
     10,RATTATA,4
 	10,AIPOM,4
 	10,WURMPLE,4
@@ -49,7 +49,7 @@ LandDay,10
 	10,YAMPER,4
 	10,MEOWTH,4
 	10,KRICKETOT,4
-LandNight,10
+LandNight,4
     10,RATTATA,4
 	10,AIPOM,4
 	10,WURMPLE,4
@@ -86,7 +86,7 @@ SuperRod
 	20,POLIWAG,4
 #-------------------------------
 [112] # Europa Forest
-LandMorning,10
+LandMorning,4
     10,FOMANTIS,5
 	10,YAMPER,5
 	10,WURMPLE,5
@@ -97,7 +97,7 @@ LandMorning,10
 	10,FLETCHLING,5
 	10,DEERLING,5
 	10,VENONAT,5	
-LandDay,10
+LandDay,4
     10,AIPOM,5
 	10,HOPPIP2,5
 	10,WURMPLE,5
@@ -108,7 +108,7 @@ LandDay,10
 	10,ROOKIDEE,5
 	10,STUNKY,5	
 	10,KRICKETOT,5
-LandNight,10
+LandNight,4
     10,MANKEY,5
 	10,CUBCHOO,5
 	10,SEEDOT,5
@@ -262,7 +262,7 @@ RockSmash,50
 	20,GULPIN,7
 #-------------------------------
 [032] # Route 1
-LandMorning,10
+LandMorning,4
     10,RATTATA,8
 	10,AIPOM,8
 	10,PAWMI,8
@@ -273,7 +273,7 @@ LandMorning,10
 	10,MAREEP,8
 	10,SWIRLIX,8
 	10,CUBCHOO,8
-LandDay,10
+LandDay,4
     10,RATTATA,8
 	10,AIPOM,8
 	10,PAWMI,8
@@ -284,7 +284,7 @@ LandDay,10
 	10,WOOLOO,8
 	10,MURKROW,8
 	10,SUNKERN,8
-LandNight,10
+LandNight,4
     10,RATTATA,8
 	10,BLIPBUG,8
 	10,PAWMI,8
@@ -438,7 +438,7 @@ RockSmash,50
 #-------------------------------
 #-------------------------------
 [130] # Route 2A
-LandMorning,10
+LandMorning,4
 	10,DIGLETT2,12
 	10,SKWOVET,12
 	10,WURMPLE2,12
@@ -449,7 +449,7 @@ LandMorning,10
 	10,BUNEARY,12
 	10,PAWMI,12
 	10,HOOTHOOT2,12
-LandDay,10
+LandDay,4
 	10,VOLTORB,12
 	10,PIDGEY,12
 	10,CHERUBI,12
@@ -460,7 +460,7 @@ LandDay,10
 	10,SLAKOTH,12
 	10,TANDEMAUS2,12
 	10,BULBASAUR,12
-LandNight,10
+LandNight,4
 	10,CACNEA,12
 	10,POOCHYENA,12
 	10,TRAPINCH,12
@@ -492,7 +492,7 @@ Cave,1
 	10,TAROUNTULA,13
 #-------------------------------
 [134] # Route 2B
-LandMorning,10
+LandMorning,4
 	10,DIGLETT2,13
 	10,SKWOVET,13
 	10,CASCOON,13
@@ -503,7 +503,7 @@ LandMorning,10
 	10,BUNEARY,13
 	10,PAWMI,13
 	10,HOOTHOOT2,13
-LandDay,10
+LandDay,4
 	10,VOLTORB,13
 	10,PIDGEY,13
 	10,CHERUBI,13
@@ -514,7 +514,7 @@ LandDay,10
 	10,SLAKOTH,13
 	10,TANDEMAUS2,13
 	10,BULBASAUR,13
-LandNight,10
+LandNight,4
 	10,CACNEA,13
 	10,POOCHYENA,13
 	10,TRAPINCH,13
@@ -1036,7 +1036,7 @@ SuperRod
 #-------------------------------
 #-------------------------------
 [043] # Route 3
-LandMorning,10
+LandMorning,4
     10,RATTATA,15
 	10,AIPOM,15
 	10,SILCOON,15
@@ -1047,7 +1047,7 @@ LandMorning,10
 	10,YAMPER,15
 	10,MEOWTH,15
 	10,KRICKETOT,15
-LandDay,10
+LandDay,4
     10,GROOKEY,15
 	10,SANDSHREW,15
 	10,SILCOON,15
@@ -1058,7 +1058,7 @@ LandDay,10
 	10,COTTONEE2,15
 	10,MEOWTH,15
 	10,HONEDGE,15
-LandNight,10
+LandNight,4
     10,ABRA,15
 	10,TEDDIURSA,15
 	10,HOOTHOOT,15
@@ -1093,7 +1093,7 @@ SuperRod
 	25,SENTRET2,16
 #-------------------------------
 [127] # Route 4A
-LandMorning,10
+LandMorning,4
     10,SUNKERN,16
 	10,AIPOM,16
 	10,SKITTY2,16
@@ -1104,7 +1104,7 @@ LandMorning,10
 	10,YAMPER,16
 	10,MEOWTH,16
 	10,HOOTHOOT,16
-LandDay,10
+LandDay,4
     10,DUNSPARCE,16
 	10,VENONAT,16
 	10,NACLI,16
@@ -1115,7 +1115,7 @@ LandDay,10
 	10,HORSEA2,16
 	10,PURRLOIN,16
 	10,KRICKETOT,16
-LandNight,10
+LandNight,4
     10,WIMPOD,16
 	10,PHANTUMP,16
 	10,CLEFAIRY,16
@@ -1152,7 +1152,7 @@ SuperRod
 	20,SENTRET2,16
 #-------------------------------
 [128] # Route 4B
-LandMorning,10
+LandMorning,4
     10,BERGMITE,17
 	10,DROWZEE,17
 	10,MACHOP,17	
@@ -1163,7 +1163,7 @@ LandMorning,10
 	10,CARVANHA,17
 	10,SHINX,17
 	10,SKARMORY,17
-LandDay,10
+LandDay,4
     10,ROGGENROLA2,17
 	10,IMPIDIMP,17
 	10,LECHONK,17
@@ -1174,7 +1174,7 @@ LandDay,10
 	10,RUFFLET,17
 	10,WATTREL,17
 	10,JANGMOO,17
-LandNight,10
+LandNight,4
     10,GEODUDE2,17
 	10,CHIMCHAR,17
 	10,TYROGUE,17
@@ -1187,7 +1187,7 @@ LandNight,10
 	10,GIBLE,17
 #-------------------------------
 [445] # Route 4C
-LandMorning,10
+LandMorning,4
     10,DRIFLOON,17
 	10,SHELLOS_2,17
 	10,HONEDGE_2,17	
@@ -1198,7 +1198,7 @@ LandMorning,10
 	10,WOOLOO,17
 	10,MARSHTOMP2,17
 	10,SWIRLIX,17
-LandDay,10
+LandDay,4
     10,ROGGENROLA2,17
 	10,SHELLOS_3,17
 	10,SNEASEL2,17
@@ -1209,7 +1209,7 @@ LandDay,10
 	10,ZORUA2,17
 	10,ROWLET2,17
 	10,SKIDDO2,17
-LandNight,10
+LandNight,4
     10,LICKITUNG,17
 	10,SHELLOS_11,17
 	10,TURTWIG2,17
@@ -1268,7 +1268,7 @@ Cave,1
 #-------------------------------
 #-------------------------------
 [180] # Route 5A
-LandMorning,10
+LandMorning,4
     10,STARAVIA,20
 	10,MURKROW,20
 	10,MUNCHLAX2,20
@@ -1279,7 +1279,7 @@ LandMorning,10
 	10,PAWMO,20
 	10,SHROOMISH2,20
 	10,BUDEW2,20
-LandDay,10
+LandDay,4
 	10,CRAMORANT,20
 	10,MUDBRAY,20
 	10,TIMBURR2,20
@@ -1290,7 +1290,7 @@ LandDay,10
 	10,CHIMCHAR,20
 	10,SIZZLIPEDE,20
 	10,LECHONK,20
-LandNight,10
+LandNight,4
 	10,DRIFLOON,20
 	10,HOUNDOUR,20
 	10,WOOLOO2,20
@@ -1362,7 +1362,7 @@ CaveNight,4
 	10,DEDENNE,21
 #-------------------------------
 [157] # Orion City - West
-LandMorning,10
+LandMorning,4
 	10,RATICATE,22
 	10,HERDIER,22
 	10,SENTRET,22
@@ -1373,7 +1373,7 @@ LandMorning,10
 	10,PATRAT,22
 	10,DEWPIDER,22
 	10,CUTIEFLY,22
-LandDay,10
+LandDay,4
 	10,TAILLOW,22
 	10,GOTHITA,22
 	10,SHROODLE,22
@@ -1384,7 +1384,7 @@ LandDay,10
 	10,TOEDSCOOL,22
 	10,NATU,22
 	10,CARVANHA,22
-LandNight,10
+LandNight,4
 	10,DOTTLER,22
 	10,TRUBBISH,22
 	10,APPLIN,22
@@ -1620,7 +1620,7 @@ Cave,1
 	10,KLINK,23
 #-------------------------------
 [212] # Orion Slums
-LandMorning,10
+LandMorning,4
 	10,TAILLOW,24
 	10,HERDIER,24
 	10,CHINGLING,24
@@ -1631,7 +1631,7 @@ LandMorning,10
 	10,DOTTLER,24
 	10,KLINK,24
 	10,APPLIN,24
-LandDay,10
+LandDay,4
 	10,NATU,24
 	10,WATCHOG,24
 	10,ELGYEM,24
@@ -1642,7 +1642,7 @@ LandDay,10
 	10,RELLOR,24
 	10,SEWADDLE,24
 	10,MAGNEMITE,24
-LandNight,10
+LandNight,4
 	10,SNIVY,24
 	10,YANMA2,24
 	10,MRMIME,24
@@ -1668,7 +1668,7 @@ Cave,1
 	10,PORYGON,24
 #-------------------------------
 [177] # Orion Landfill
-Land,10
+Land,4
 	10,SLUGMA,25
 	10,WATCHOG,25
 	10,ARAQUANID,25
@@ -1689,7 +1689,7 @@ Land,10
 #-------------------------------
 #-------------------------------
 [301] # Route 6A
-LandMorning,10
+LandMorning,4
     10,MUNCHLAX2,26
 	10,TIMBURR2,26
 	10,SURSKIT2,26
@@ -1700,7 +1700,7 @@ LandMorning,10
 	10,FLAAFFY,26
 	10,SPRIGATITO,26
 	10,MILTANK,26
-LandDay,10
+LandDay,4
     10,SPOINK,26
 	10,BUTTERFREE,26
 	10,VENONAT,26
@@ -1711,7 +1711,7 @@ LandDay,10
 	10,WOOLOO2,26
 	10,ZANGOOSE,26
 	10,LECHONK,26
-LandNight,10
+LandNight,4
     10,PANSEAR,26
 	10,PANCHAM,26
 	10,PHANTUMP,26
@@ -1724,7 +1724,7 @@ LandNight,10
 	10,DARTRIX,26
 #-------------------------------
 [226] # Route 6B
-LandMorning,10
+LandMorning,4
     10,FLETCHINDER,27
 	10,SKIPLOOM2,27
 	10,SKIDDO2,27
@@ -1735,7 +1735,7 @@ LandMorning,10
 	10,FLAAFFY,27
 	10,SKITTY2,27
 	10,GIBLE,27
-LandDay,10
+LandDay,4
     10,FLORAGATO,27
 	10,VENONAT,27
 	10,SPOINK_1,27
@@ -1746,7 +1746,7 @@ LandDay,10
 	10,WOOLOO2,27
 	10,ZANGOOSE,27
 	10,DREEPY,27
-LandNight,10
+LandNight,4
     10,CORVISQUIRE2,27
 	10,MAREEP2,27
 	10,RUFFLET,27
@@ -2034,7 +2034,7 @@ SuperRod
 	20,SHELLOS_10,33
 #-------------------------------
 [137] # Indus Beach
-LandMorning,10
+LandMorning,4
 	10,SIZZLIPEDE,33
 	10,TOXEL,33
     10,STARAVIA,33
@@ -2045,7 +2045,7 @@ LandMorning,10
 	10,VENOMOTH,33
 	10,TRANQUILL,33
 	10,DUBWOOL2,33
-LandDay,10
+LandDay,4
 	10,WIMPOD,33
 	10,TOXEL,33
     10,FLETCHINDER,33
@@ -2056,7 +2056,7 @@ LandDay,10
 	10,ROSELIA2,33
 	10,FLAAFFY,33
 	10,SAWSBUCK,33
-LandNight,10
+LandNight,4
 	10,DUNSPARCE,33
 	10,GLOOM,33
     10,DARTRIX,33
@@ -2108,7 +2108,7 @@ SuperRod
 	20,SHELLOS_10,33
 #-------------------------------
 [319] # Indus Jungles
-LandMorning,10
+LandMorning,4
 	10,NOSEPASS,34
     10,FRILLISH,34
 	10,ROSELIA2,34
@@ -2119,7 +2119,7 @@ LandMorning,10
 	10,SEVIPER2,34
 	10,BEAUTIFLY,34
 	10,CHARMELEON2,34
-LandDay,10
+LandDay,4
 	10,SNEASEL,34
 	10,FERROSEED,34
 	10,VENOMOTH,34
@@ -2130,7 +2130,7 @@ LandDay,10
 	10,ARAQUANID2,34
 	10,MASQUERAIN2,34
 	10,GURDURR2,34
-LandNight,10
+LandNight,4
 	10,PALPITOAD,34
 	10,BRONZOR,34
 	10,CAPSAKID,34
@@ -2327,7 +2327,7 @@ SuperRod
 	20,BASCULIN_1,36
 #-------------------------------
 [138] # Indus Temple Grounds
-LandMorning,10
+LandMorning,4
 	10,NOSEPASS,36
 	10,GURDURR2,36
 	10,CAPSAKID,36
@@ -2338,7 +2338,7 @@ LandMorning,10
 	10,STARYU2,36
 	10,BEAUTIFLY,36
 	10,GLIMMET,36
-LandDay,10
+LandDay,4
 	10,SNEASEL,36
 	10,PALPITOAD,36
     10,FRILLISH,36
@@ -2349,7 +2349,7 @@ LandDay,10
 	10,GROVYLE,36
 	10,CHARMELEON2,36
 	10,MASQUERAIN2,36
-LandNight,10
+LandNight,4
 	10,BRONZOR2,36
 	10,CENTISKORCH,36
 	10,PRIMEAPE,36
@@ -2426,7 +2426,7 @@ RockSmash,50
 #-------------------------------
 #-------------------------------
 [422] # Europa Lake Underwater
-Land,10
+Land,4
     5,DUOSION,39
 	5,FLOETTE,39
 	5,LUMINEON,39
@@ -2449,7 +2449,7 @@ Land,10
 	5,GYARADOS,39
 #-------------------------------
 [272] # Route 8A Underwater
-Land,10
+Land,4
     5,DUOSION,39
 	5,FLOETTE,39
 	5,LUMINEON,39
@@ -2472,7 +2472,7 @@ Land,10
 	5,GYARADOS,39
 #-------------------------------
 [314] # Route 8A Underwater Houses
-Land,10
+Land,4
     5,DUOSION,39
 	5,CUBONE,39
 	5,LUMINEON,39
@@ -2495,7 +2495,7 @@ Land,10
 	5,MAGCARGO2,39
 #-------------------------------
 [273] # Route 8B Underwater
-Land,10
+Land,4
     5,DUOSION,39
 	5,FLOETTE,39
 	5,LUMINEON,39
@@ -2518,7 +2518,7 @@ Land,10
 	5,GYARADOS,39
 #-------------------------------
 [318] # Route 8B Underwater Houses
-Land,10
+Land,4
     5,DUOSION,39
 	5,CUBONE,39
 	5,LUMINEON,39
@@ -2582,7 +2582,7 @@ CaveNight,4
 	10,MARACTUS,39
 #-------------------------------
 [448] # Route 15B
-LandMorning,10
+LandMorning,4
 	10,SWELLOW,40
 	10,HERDIER,40
 	10,CHIMECHO,40
@@ -2593,7 +2593,7 @@ LandMorning,10
 	10,HOUNDSTONE,40
 	10,KLANG,40
 	10,FLAPPLE,40
-LandDay,10
+LandDay,4
 	10,XATU,40
 	10,VESPIQUEN,40
 	10,ELGYEM,40
@@ -2604,7 +2604,7 @@ LandDay,10
 	10,SEVIPER,40
 	10,SWADLOON,40
 	10,MAGNETON,40
-LandNight,10
+LandNight,4
 	10,CORVISQUIRE,40
 	10,PORYGON2,40
 	10,MRMIME,40
@@ -2656,7 +2656,7 @@ CaveNight,4
 #-------------------------------
 #-------------------------------
 [224] # Hyperion Lake
-LandMorning,10
+LandMorning,4
     10,FARFETCHD,40
 	10,BUTTERFREE,40
 	10,DRIFBLIM,40
@@ -2667,7 +2667,7 @@ LandMorning,10
 	10,FLETCHINDER,40
 	10,SAWSBUCK,40
 	10,BRAIXEN,40
-LandDay,10
+LandDay,4
     10,SKIPLOOM2,40
 	10,SEADRA2,40
 	10,MUDSDALE,40
@@ -2678,7 +2678,7 @@ LandDay,10
 	10,KADABRA,40
 	10,BAYLEEF,40	
 	10,DUBWOOL2,40
-LandNight,10
+LandNight,4
     10,BUTTERFREE,40
 	10,BEAUTIFLY,40
 	10,HONCHKROW2,40
@@ -2707,7 +2707,7 @@ SuperRod
     33,FEAROW,40
 #-------------------------------
 [225] # Route 5B
-LandMorning,10
+LandMorning,4
     10,HONCHKROW2,40
 	10,FLAAFFY,40
 	10,SLURPUFF,40
@@ -2718,7 +2718,7 @@ LandMorning,10
 	10,GROTLE2,40
 	10,SEADRA2,40
 	10,MASQUERAIN2,40	
-LandDay,10
+LandDay,4
     10,SKIPLOOM2,40
 	10,SEADRA2,40
 	10,STARAVIA,40
@@ -2729,7 +2729,7 @@ LandDay,10
 	10,DRAKLOAK,40
 	10,RUFFLET,40	
 	10,FURFROU,40
-LandNight,10
+LandNight,4
     10,FIDOUGH,40
 	10,GLOOM,40
 	10,SHEDINJA,40
@@ -2742,7 +2742,7 @@ LandNight,10
 	10,DRAMPA,40
 #-------------------------------
 [223] # Route 7A
-LandMorning,10
+LandMorning,4
     10,HONCHKROW2,41
 	10,FLAAFFY,41
 	10,SLURPUFF,41
@@ -2753,7 +2753,7 @@ LandMorning,10
 	10,JUMPLUFF2,41
 	10,SKUNTANK,41
 	10,MASQUERAIN2,41	
-LandDay,10
+LandDay,4
     10,WEAVILE2,41
 	10,SEADRA2,41
 	10,VAROOM,41
@@ -2764,7 +2764,7 @@ LandDay,10
 	10,DRAKLOAK,41
 	10,IVYSAUR,41	
 	10,FURFROU,41
-LandNight,10
+LandNight,4
     10,TAROUNTULA2,41
 	10,SPINDA,41
 	10,SHEDINJA,41
@@ -2777,7 +2777,7 @@ LandNight,10
 	10,DRAMPA,41
 #-------------------------------
 [251] # Route 7B
-LandMorning,10
+LandMorning,4
     10,HONCHKROW2,41
 	10,FLAAFFY,41
 	10,BAYLEEF,41
@@ -2788,7 +2788,7 @@ LandMorning,10
 	10,JUMPLUFF,41
 	10,IVYSAUR,41
 	10,HAUNTER,41	
-LandDay,10
+LandDay,4
     10,WEAVILE2,41
 	10,SEADRA2,41
 	10,VAROOM,41
@@ -2799,7 +2799,7 @@ LandDay,10
 	10,DRAKLOAK,41
 	10,RUFFLET,41	
 	10,GOGOAT2,41
-LandNight,10
+LandNight,4
     10,TAROUNTULA2,41
 	10,SPINDA,41
 	10,ELDEGOSS,41
@@ -2945,7 +2945,7 @@ SuperRod
 #-------------------------------
 #-------------------------------
 [077] # Indus Marsh
-LandMorning,10
+LandMorning,4
 	10,PROBOPASS,44
 	10,PALPITOAD,44
 	10,AMBIPOM,44
@@ -2956,7 +2956,7 @@ LandMorning,10
 	10,CHATOT,44
 	10,TOUCANNON,44
 	10,BEAUTIFLY,44
-LandDay,10
+LandDay,4
 	10,SNEASLER,44
 	10,POLIWHIRL,44
 	10,DARMANITAN,44
@@ -2967,7 +2967,7 @@ LandDay,10
 	10,DRIZZILE,44
 	10,JUMPLUFF2,44
 	10,MASQUERAIN2,44
-LandNight,10
+LandNight,4
 	10,NUZLEAF,44
 	10,FROGADIER,44
 	10,TURTONATOR,44
@@ -3072,7 +3072,7 @@ SuperRod
 	20,GASTRODON_10,45
 #-------------------------------
 [283] # Route 9A Underwater
-Land,10
+Land,4
     5,DUOSION,45
 	5,FLOETTE,45
 	5,RAPIDASH2,45
@@ -3143,7 +3143,7 @@ SuperRod
 	20,GASTRODON_10,46
 #-------------------------------
 [205] # Route 9B Underwater
-Land,10
+Land,4
     5,DUOSION,46
 	5,CUBONE,46
 	5,RAPIDASH2,46
@@ -3166,7 +3166,7 @@ Land,10
 	5,GYARADOS,46
 #-------------------------------
 [206] # Route 9B Underwater Houses
-Land,10
+Land,4
     5,DUOSION,46
 	5,CUBONE,46
 	5,RAPIDASH2,46
@@ -3559,7 +3559,7 @@ RockSmash
 #-------------------------------
 #-------------------------------
 [207] # The In-Between
-Land,10
+Land,4
 	10,ONIX2,51
 	10,REVAVROOM,51
 	10,FALINKS,51
@@ -3572,7 +3572,7 @@ Land,10
 	10,MINIOR,51
 #-------------------------------
 [208] # The In-Between
-Land,10
+Land,4
 	10,SWAMPERT,51
 	10,HATTERENE,51
 	10,SWADLOON,51
@@ -3586,7 +3586,7 @@ Land,10
 	10,LARVESTA2,51
 #-------------------------------
 [209] # The In-Between
-Land,10
+Land,4
 	10,BEHEEYEM,52
 	10,LYCANROC,52
 	10,METANG,52
@@ -3599,7 +3599,7 @@ Land,10
 	10,GABITE,52
 #-------------------------------
 [215] # The In-Between
-Land,10
+Land,4
 	10,MAGNETON,52
 	10,CLEFABLE,52
 	10,LUXRAY,52
@@ -3715,7 +3715,7 @@ SuperRod
 	20,OCTILLERY,54
 #-------------------------------
 [329] # Mt. Titania Underwater
-Land,10
+Land,4
     10,REUNICLUS,54
 	10,MAROWAK,54
 	10,LUMINEON,54
@@ -3728,7 +3728,7 @@ Land,10
 	10,MAGCARGO2,54
 #-------------------------------
 [325] # Underwater Temple L1
-Land,10
+Land,4
 	10,PALAFIN,55
 	10,MILOTIC,55
 	10,RELICANTH,55
@@ -3746,7 +3746,7 @@ RockSmash,50
 	25,UNOWN,55
 #-------------------------------
 [326] # Underwater Temple L2
-Land,10
+Land,4
     10,REUNICLUS,55
 	10,LUMINEON,55
 	10,GRAPPLOCT,55
@@ -3764,7 +3764,7 @@ RockSmash,50
 	25,UNOWN,55
 #-------------------------------
 [327] # Underwater Temple L3
-Land,10
+Land,4
 	10,SABLEYE2,55
 	10,CURSOLA,55
 	10,OCTILLERY,55
@@ -3782,7 +3782,7 @@ RockSmash,50
 	25,BOLDORE,55
 #-------------------------------
 [331] # Lyra Glacier Underwater
-Land,10
+Land,4
 	10,BARRASKEWDA,55
 	10,TOGEDEMARU,55
 	10,MANTINE,55
@@ -3866,7 +3866,7 @@ SuperRod
 #-------------------------------
 #-------------------------------
 [197] # Route 11A
-LandMorning,10
+LandMorning,4
 	10,SKIPLOOM,57
 	10,PYROAR,57
 	10,CHERRIM,57
@@ -3877,7 +3877,7 @@ LandMorning,10
 	10,CAMERUPT2,57
 	10,PIDGEOTTO,57
 	10,JYNX,57
-LandDay,10
+LandDay,4
 	10,PIDGEOTTO,57
 	10,MAUSHOLD2,57
 	10,CHERRIM,57
@@ -3888,7 +3888,7 @@ LandDay,10
 	10,GREEDENT,57
 	10,DUGTRIO2,57
 	10,STANTLER,57
-LandNight,10
+LandNight,4
 	10,GENGAR,57
 	10,ZOROARK,57
 	10,NOCTOWL2,57
@@ -3959,7 +3959,7 @@ SuperRod
 	20,SABLEYE2,57
 #-------------------------------
 [284] # Route 11B
-LandMorning,10
+LandMorning,4
 	10,SKIPLOOM,58
 	10,GRUMPIG_2,58
 	10,ELECTRODE,58
@@ -3970,7 +3970,7 @@ LandMorning,10
 	10,PIDGEOTTO,58
 	10,SNORLAX,58
 	10,STANTLER,58
-LandDay,10
+LandDay,4
 	10,SLOWKING,58
 	10,MAUSHOLD2,58
 	10,CHERRIM,58
@@ -3981,7 +3981,7 @@ LandDay,10
 	10,FLYGON,58
 	10,BEARTIC,58
 	10,DUGTRIO2,58
-LandNight,10
+LandNight,4
 	10,GENGAR,58
 	10,ZOROARK,58
 	10,NOCTOWL2,58
@@ -4052,7 +4052,7 @@ SuperRod
 	20,WALREIN,58
 #-------------------------------
 [287] # Route 12A
-LandMorning,10
+LandMorning,4
 	10,JUMPLUFF,59
 	10,VENUSAUR,59
 	10,ELECTRODE,59
@@ -4063,7 +4063,7 @@ LandMorning,10
 	10,PIDGEOT,59
 	10,SNORLAX,59
 	10,ABSOL,59
-LandDay,10
+LandDay,4
 	10,SLOWKING,59
 	10,ORTHWORM,59
 	10,CHERRIM,59
@@ -4074,7 +4074,7 @@ LandDay,10
 	10,FLYGON,59
 	10,GRUMPIG_2,59
 	10,DUGTRIO2,59
-LandNight,10
+LandNight,4
 	10,GENGAR,59
 	10,ZOROARK,59
 	10,NOCTOWL2,59
@@ -4116,7 +4116,7 @@ SuperRod
 	20,OCTILLERY,58
 #-------------------------------
 [289] # Route 12B
-LandMorning,10
+LandMorning,4
 	10,JUMPLUFF,59
 	10,VENUSAUR,59
 	10,ELECTRODE,59
@@ -4127,7 +4127,7 @@ LandMorning,10
 	10,PIDGEOT,59
 	10,SNORLAX,59
 	10,STANTLER,59
-LandDay,10
+LandDay,4
 	10,SLOWKING,59
 	10,ORTHWORM,59
 	10,CHERRIM,59
@@ -4138,7 +4138,7 @@ LandDay,10
 	10,FLYGON,59
 	10,BEARTIC,59
 	10,DUGTRIO2,59
-LandNight,10
+LandNight,4
 	10,GENGAR,59
 	10,ZOROARK,59
 	10,NOCTOWL2,59
@@ -4269,7 +4269,7 @@ SuperRod
 	20,GIGALITH,60
 #-------------------------------
 [196] # Route 13A Corrupted
-LandMorning,10
+LandMorning,4
 	10,JUMPLUFF,61
 	10,VENUSAUR,61
 	10,ELECTRODE,61
@@ -4280,7 +4280,7 @@ LandMorning,10
 	10,PIDGEOT,61
 	10,SNORLAX,61
 	10,WYRDEER,61
-LandDay,10
+LandDay,4
 	10,SLOWKING,61
 	10,BELLIBOLT,61
 	10,CHERRIM,61
@@ -4291,7 +4291,7 @@ LandDay,10
 	10,FLYGON,61
 	10,ESPATHRA,61
 	10,DUGTRIO2,61
-LandNight,10
+LandNight,4
 	10,GENGAR,61
 	10,ZOROARK,61
 	10,NOCTOWL2,61
@@ -4304,7 +4304,7 @@ LandNight,10
 	10,URSALUNA2,61
 #-------------------------------
 [385] # Route 13A Clean
-LandMorning,10
+LandMorning,4
 	10,JUMPLUFF,61
 	10,VENUSAUR,61
 	10,ELECTRODE,61
@@ -4315,7 +4315,7 @@ LandMorning,10
 	10,PIDGEOT,61
 	10,SNORLAX,61
 	10,WYRDEER,61
-LandDay,10
+LandDay,4
 	10,SLOWKING,61
 	10,BELLIBOLT,61
 	10,CHERRIM,61
@@ -4326,7 +4326,7 @@ LandDay,10
 	10,FLYGON,61
 	10,ESPATHRA,61
 	10,DUGTRIO2,61
-LandNight,10
+LandNight,4
 	10,GENGAR,61
 	10,ZOROARK,61
 	10,NOCTOWL2,61
@@ -4339,7 +4339,7 @@ LandNight,10
 	10,URSALUNA2,61
 #-------------------------------
 [199] # Route 13B Corrupted
-LandMorning,10
+LandMorning,4
 	10,JUMPLUFF,61
 	10,VENUSAUR,61
 	10,ELECTRODE,61
@@ -4350,7 +4350,7 @@ LandMorning,10
 	10,PIDGEOT,61
 	10,SNORLAX,61
 	10,WYRDEER,61
-LandDay,10
+LandDay,4
 	10,SLOWKING,61
 	10,BELLIBOLT,61
 	10,CHERRIM,61
@@ -4361,7 +4361,7 @@ LandDay,10
 	10,FLYGON,61
 	10,ESPATHRA,61
 	10,DUGTRIO2,61
-LandNight,10
+LandNight,4
 	10,GENGAR,61
 	10,ZOROARK,61
 	10,NOCTOWL2,61
@@ -4403,7 +4403,7 @@ SuperRod
 	20,OCTILLERY,61
 #-------------------------------
 [386] # Route 13B Clean
-LandMorning,10
+LandMorning,4
 	10,JUMPLUFF,61
 	10,VENUSAUR,61
 	10,ELECTRODE,61
@@ -4414,7 +4414,7 @@ LandMorning,10
 	10,PIDGEOT,61
 	10,SNORLAX,61
 	10,WYRDEER,61
-LandDay,10
+LandDay,4
 	10,SLOWBRO,61
 	10,BELLIBOLT,61
 	10,CHERRIM,61
@@ -4425,7 +4425,7 @@ LandDay,10
 	10,FLYGON,61
 	10,ESPATHRA,61
 	10,DUGTRIO2,61
-LandNight,10
+LandNight,4
 	10,GENGAR,61
 	10,ZOROARK,61
 	10,NOCTOWL2,61
@@ -4476,7 +4476,7 @@ SuperRod
 #-------------------------------
 #-------------------------------
 [231] # Route 14A
-LandMorning,10
+LandMorning,4
 	10,BUTTERFREE,62
 	10,PINCURCHIN2,62
 	10,GASTRODON_5,62
@@ -4487,7 +4487,7 @@ LandMorning,10
 	10,ROSERADE2,62
 	10,SHIFTRY,62
 	10,MILTANK,62
-LandDay,10
+LandDay,4
 	10,CRAMORANT,62
 	10,DECIDUEYE,62
 	10,MUDSDALE,62
@@ -4498,7 +4498,7 @@ LandDay,10
 	10,CONKELDURR2,62
 	10,BRAVIARY,62
 	10,VENOMOTH,62
-LandNight,10
+LandNight,4
 	10,JUMPLUFF2,62
 	10,BEAUTIFLY,62
 	10,NINETALES,62
@@ -4511,7 +4511,7 @@ LandNight,10
 	10,ORANGURU,62
 #-------------------------------
 [234] # Callisto Lake
-LandMorning,10
+LandMorning,4
     10,STARAPTOR,62
 	10,HONCHKROW,62
 	10,AMPHAROS,62
@@ -4522,7 +4522,7 @@ LandMorning,10
 	10,ZEBSTRIKA,62
 	10,SAWSBUCK,62	
 	10,KINGDRA2,62
-LandDay,10
+LandDay,4
 	10,SIMISAGE,62
 	10,TREVENANT,62
 	10,ARCANINE,62
@@ -4533,7 +4533,7 @@ LandDay,10
 	10,DELCATTY2,62
 	10,LILLIGANT,62
 	10,OINKOLOGNE,62
-LandNight,10
+LandNight,4
 	10,TALONFLAME,65
 	10,UNFEZANT,65
 	10,SIRFETCHD,65
@@ -4562,7 +4562,7 @@ SuperRod
     33,POLITOED,62
 #-------------------------------
 [237] # Callisto Lake Underwater
-Land,10
+Land,4
     5,REUNICLUS,62
 	5,LANTURN,62
 	5,LUMINEON,62
@@ -4585,7 +4585,7 @@ Land,10
 	5,GYARADOS,62
 #-------------------------------
 [371] # Callisto Caverns
-Land,10
+Land,4
     5,REUNICLUS,62
 	5,LANTURN,62
 	5,LUMINEON,62
@@ -4783,7 +4783,7 @@ SuperRod
 #-------------------------------
 #-------------------------------
 [235] # Route 14B
-LandMorning,10  
+LandMorning,4  
 	10,HONCHKROW,65
 	10,SLURPUFF,65
 	10,BRELOOM2,65
@@ -4794,7 +4794,7 @@ LandMorning,10
 	10,PAWMOT,65
 	10,DACHSBUN,65
 	10,MILTANK,65
-LandDay,10
+LandDay,4
 	10,CRAMORANT,65
 	10,MUDSDALE,65
 	10,ORICORIO,65
@@ -4805,7 +4805,7 @@ LandDay,10
 	10,GASTRODON,65
 	10,BISHARP,65
 	10,OINKOLOGNE,65
-LandNight,10
+LandNight,4
 	10,TALONFLAME,65
 	10,SIRFETCHD,65
 	10,DUBWOOL2,65
@@ -4834,7 +4834,7 @@ SuperRod
     33,POLIWRATH,65
 #-------------------------------
 [238] # Route 14B Underwater
-Land,10
+Land,4
     5,REUNICLUS,65
 	5,LANTURN,65
 	5,LUMINEON,65
@@ -4857,7 +4857,7 @@ Land,10
 	5,GYARADOS,65
 #-------------------------------
 [369] # Callisto Caverns - Part 2
-Land,10
+Land,4
     5,REUNICLUS,65
 	5,LANTURN,65
 	5,LUMINEON,65
@@ -4880,7 +4880,7 @@ Land,10
 	5,MAGCARGO2,65
 #-------------------------------
 [387] # Draco City Attack
-LandMorning,10
+LandMorning,4
 	10,GARBODOR,66
 	10,SCRAFTY,66
 	10,OBSTAGOON,66
@@ -4891,7 +4891,7 @@ LandMorning,10
 	10,STONJOURNER,66
 	10,GARDEVOIR,66
 	10,RAICHU,66
-LandDay,10
+LandDay,4
 	10,TOEDSCRUEL,66
 	10,MARACTUS,66
 	10,SAMUROTT,66
@@ -4902,7 +4902,7 @@ LandDay,10
 	10,EXPLOUD,66	
 	10,GALLADE,66
 	10,RAICHU2,66
-LandNight,10
+LandNight,4
 	10,STUNFISK,66
 	10,QUAQUAVAL,66
 	10,SCIZOR2,66
@@ -6020,7 +6020,7 @@ SuperRod
 	20,SALAZZLE,79
 #-------------------------------
 [459] # Eridanus Trench
-Land,10
+Land,4
     5,REUNICLUS,80
 	5,LANTURN,80
 	5,LUMINEON,80
@@ -6043,7 +6043,7 @@ Land,10
 	5,MAGCARGO2,80
 #-------------------------------
 [460] # Eridanus Trench
-Land,10
+Land,4
     5,REUNICLUS,80
 	5,LANTURN,80
 	5,LUMINEON,80
@@ -6172,7 +6172,7 @@ RockSmash,50
 	25,UNOWN,82
 #-------------------------------
 [462] # Market District
-LandMorning,10
+LandMorning,4
 	10,GARBODOR,83
 	10,SCRAFTY,83
 	10,OBSTAGOON,83
@@ -6183,7 +6183,7 @@ LandMorning,10
 	10,STONJOURNER,83
 	10,GARDEVOIR,83
 	10,RAICHU,83
-LandDay,10
+LandDay,4
 	10,TOEDSCRUEL,83
 	10,MARACTUS,83
 	10,SAMUROTT,83
@@ -6194,7 +6194,7 @@ LandDay,10
 	10,EXPLOUD,83	
 	10,GALLADE,83
 	10,KLINKLANG,83
-LandNight,10
+LandNight,4
 	10,STUNFISK,83
 	10,QUAQUAVAL,83
 	10,SCIZOR2,83
@@ -6361,7 +6361,7 @@ Cave,4
 	10,HEATMOR,85
 #-------------------------------
 [469] # The Arboretum
-LandMorning,10
+LandMorning,4
 	10,LEDIAN,86
 	10,BEEDRILL,86
 	10,BELLOSSOM,86
@@ -6372,7 +6372,7 @@ LandMorning,10
 	10,SUNFLORA,86
 	10,JUMPLUFF2,86
 	10,ROSERADE2,86
-LandDay,10
+LandDay,4
 	10,JELLICENT,86
 	10,PAWMOT,86
 	10,MILTANK,86
@@ -6383,7 +6383,7 @@ LandDay,10
 	10,WEAVILE,86
 	10,MASQUERAIN2,86
 	10,SANDSLASH,86
-LandNight,10
+LandNight,4
 	10,LURANTIS,86
 	10,AVALUGG2,86
 	10,VILEPLUME,86
@@ -6425,7 +6425,7 @@ SuperRod
 	20,LUMINEON,86
 #-------------------------------
 [482] # The Orchidarium
-LandMorning,10
+LandMorning,4
 	10,LEDIAN,86
 	10,BEEDRILL,86
 	10,BELLOSSOM,86
@@ -6436,7 +6436,7 @@ LandMorning,10
 	10,SUNFLORA,86
 	10,JUMPLUFF2,86
 	10,ROSERADE2,86
-LandDay,10
+LandDay,4
 	10,JELLICENT,86
 	10,PAWMOT,86
 	10,MILTANK,86
@@ -6447,7 +6447,7 @@ LandDay,10
 	10,WEAVILE,86
 	10,MASQUERAIN2,86
 	10,SANDSLASH,86
-LandNight,10
+LandNight,4
 	10,LURANTIS,86
 	10,AVALUGG2,86
 	10,VILEPLUME,86
@@ -6460,7 +6460,7 @@ LandNight,10
 	10,VESPIQUEN,86
 #-------------------------------
 [470] # Civil District
-LandMorning,10
+LandMorning,4
 	10,LEDIAN,87
 	10,BEEDRILL,87
 	10,BELLOSSOM,87
@@ -6471,7 +6471,7 @@ LandMorning,10
 	10,SUNFLORA,87
 	10,JUMPLUFF2,87
 	10,ROSERADE2,87
-LandDay,10
+LandDay,4
 	10,JELLICENT,87
 	10,PAWMOT,87
 	10,MILTANK,87
@@ -6482,7 +6482,7 @@ LandDay,10
 	10,WEAVILE,87
 	10,MASQUERAIN2,87
 	10,SANDSLASH,87
-LandNight,10
+LandNight,4
 	10,LURANTIS,87
 	10,AVALUGG2,87
 	10,VILEPLUME,87
@@ -6610,7 +6610,7 @@ SuperRod
 	20,GOREBYSS,88
 #-------------------------------
 [069] # Libram Trench
-Land,10
+Land,4
     5,REUNICLUS,88
 	5,LANTURN,88
 	5,LUMINEON,88
@@ -6633,7 +6633,7 @@ Land,10
 	5,MAGCARGO2,88
 #-------------------------------
 [070] # Guulrahn Trench
-Land,10
+Land,4
     5,REUNICLUS,89
 	5,LANTURN,89
 	5,LUMINEON,89
@@ -7389,7 +7389,7 @@ SuperRod
 	10,INTELEON,93
 #-------------------------------
 [502] # Draco Trench
-Land,10
+Land,4
     5,REUNICLUS,93
 	5,LANTURN,93
 	5,LUMINEON,93
@@ -7412,7 +7412,7 @@ Land,10
 	5,GYARADOS,93
 #-------------------------------
 [511] # Flooded Base Underwater
-Land,10
+Land,4
     5,REUNICLUS,93
 	5,LANTURN,93
 	5,LUMINEON,93
@@ -7535,7 +7535,7 @@ RockSmash,50
 	20,MAGCARGO2,94
 #-------------------------------
 [425] # Route 18A
-LandMorning,10
+LandMorning,4
     10,HYDRAPPLE2,95
 	10,HONCHKROW,95
 	10,AMPHAROS,95
@@ -7546,7 +7546,7 @@ LandMorning,10
 	10,ZEBSTRIKA,95
 	10,SAWSBUCK,95	
 	10,KINGDRA2,95
-LandDay,10
+LandDay,4
 	10,CRAMORANT,95
 	10,DECIDUEYE,95
 	10,MUDSDALE,95
@@ -7557,7 +7557,7 @@ LandDay,10
 	10,CONKELDURR2,95
 	10,BRAVIARY,95
 	10,VENOMOTH,95
-LandNight,10
+LandNight,4
 	10,TALONFLAME,95
 	10,UNFEZANT,95
 	10,CORVIKNIGHT,95
@@ -7599,7 +7599,7 @@ SuperRod
 	20,GRENINJA,95	
 #-------------------------------
 [426] # Route 18B
-LandMorning,10
+LandMorning,4
 	10,BRONZONG2,96
 	10,BUTTERFREE,96
 	10,GASTRODON_5,96
@@ -7610,7 +7610,7 @@ LandMorning,10
 	10,ROSERADE2,96
 	10,SHIFTRY,96
 	10,MILTANK,96
-LandDay,10
+LandDay,4
 	10,LILLIGANT,96
 	10,TREVENANT,96
 	10,TOXTRICITY,96
@@ -7621,7 +7621,7 @@ LandDay,10
 	10,DELCATTY2,96
 	10,CENTISKORCH,96
 	10,ORICORIO_3,96
-LandNight,10
+LandNight,4
 	10,JUMPLUFF2,96
 	10,LYCANROC,96
 	10,BEAUTIFLY,96
@@ -7683,7 +7683,7 @@ SuperRod
 #-------------------------------
 #-------------------------------
 [430] # Route 22A
-LandMorning,10
+LandMorning,4
     10,MUK2,97
     10,WEEZING,97
 	10,SHIINOTIC,97
@@ -7694,7 +7694,7 @@ LandMorning,10
 	10,LILLIGANT,97
 	10,ALTARIA,97
 	10,CHARIZARD,97	
-LandDay,10
+LandDay,4
     10,SUNFLORA,97
     10,CACTURNE2,97   
 	10,GOLURK2,97
@@ -7705,7 +7705,7 @@ LandDay,10
 	10,MILOTIC2,97
 	10,ALCREMIE,97
 	10,EMBOAR,97
-LandNight,10
+LandNight,4
     10,QUAGSIRE,97
     10,TREVENANT,97    
 	10,ELDEGOSS,97
@@ -7718,7 +7718,7 @@ LandNight,10
 	10,SWAMPERT,97
 #-------------------------------
 [431] # Route 22B
-LandMorning,10
+LandMorning,4
     10,MUK2,97
     10,WEEZING,97
 	10,SHIINOTIC,97
@@ -7729,7 +7729,7 @@ LandMorning,10
 	10,LILLIGANT,97
 	10,ALTARIA,97
 	10,EMBOAR,97	
-LandDay,10
+LandDay,4
     10,ABOMASNOW2,97
     10,CACTURNE2,97  
 	10,GOLURK2,97
@@ -7740,7 +7740,7 @@ LandDay,10
 	10,MILOTIC2,97
 	10,ALCREMIE,97
 	10,SWAMPERT,97
-LandNight,10
+LandNight,4
     10,QUAGSIRE,97
     10,TREVENANT,97        
 	10,ELDEGOSS,97
@@ -7753,7 +7753,7 @@ LandNight,10
 	10,TORTERRA,97
 #-------------------------------
 [432] # Route 22C
-LandMorning,10
+LandMorning,4
     10,MUK2,97
     10,WEEZING,97
 	10,SHIINOTIC,97
@@ -7764,7 +7764,7 @@ LandMorning,10
 	10,LILLIGANT,97
 	10,MUDSDALE2,97
 	10,SWAMPERT,97	
-LandDay,10
+LandDay,4
     10,MUK2,97
     10,WEEZING,97   
 	10,GOLURK2,97
@@ -7775,7 +7775,7 @@ LandDay,10
 	10,MILOTIC2,97
 	10,LOKIX,97
 	10,RILLABOOM2,97
-LandNight,10
+LandNight,4
     10,MUK2,97
     10,WEEZING,97    
 	10,AMOONGUSS,97
@@ -7802,7 +7802,7 @@ LandNight,10
 #-------------------------------
 #-------------------------------
 [412] # Route 19
-LandMorning,10
+LandMorning,4
 	10,HONCHKROW,97
 	10,AMPHAROS,97
 	10,DRAGALGE2,97
@@ -7813,7 +7813,7 @@ LandMorning,10
 	10,MEGANIUM,97
 	10,ROSERADE2,97
 	10,MILTANK,97
-LandDay,10
+LandDay,4
 	10,CRAMORANT,97
 	10,MUDSDALE,97
 	10,WHIMSICOTT2,97
@@ -7824,7 +7824,7 @@ LandDay,10
 	10,GASTRODON,97
 	10,DELCATTY2,97
 	10,OINKOLOGNE,97
-LandNight,10
+LandNight,4
 	10,TALONFLAME,97
 	10,UNFEZANT,97
 	10,HOUNDOOM,97
@@ -7961,7 +7961,7 @@ SuperRod
 	20,GASTRODON_10,99
 #-------------------------------
 [013] # Route 20A Underwater
-Land,10
+Land,4
     5,REUNICLUS,99
 	5,MAROWAK,99
 	5,LUMINEON,99
@@ -8026,7 +8026,7 @@ SuperRod
 	20,GASTRODON_10,99
 #-------------------------------
 [014] # Route 20B Underwater
-Land,10
+Land,4
     5,REUNICLUS,99
 	5,MAROWAK,99
 	5,LUMINEON,99
@@ -8049,7 +8049,7 @@ Land,10
 	5,GYARADOS,99
 #-------------------------------
 [012] # Abandoned Shipwreck
-Land,10
+Land,4
     5,DRAGALGE,99
 	5,GYARADOS,99
 	5,LANTURN,99
@@ -8141,7 +8141,7 @@ SuperRod
 	20,GASTRODON_10,100
 #-------------------------------
 [427] # Route 21B
-LandMorning,10
+LandMorning,4
 	10,PROBOPASS,101
 	10,SEISMITOAD,101
 	10,WEAVILE,101
@@ -8152,7 +8152,7 @@ LandMorning,10
 	10,MUK,101
 	10,YANMEGA,101
 	10,TOUCANNON,101
-LandDay,10
+LandDay,4
 	10,DARMANITAN,101
 	10,GRIMMSNARL,101
 	10,TSAREENA2,101
@@ -8163,7 +8163,7 @@ LandDay,10
 	10,CENTISKORCH,101
 	10,FERROTHORN,101
 	10,HYDREIGON,101
-LandNight,10
+LandNight,4
 	10,SCEPTILE,101
 	10,ELECTIVIRE,101
 	10,AMBIPOM,101
@@ -8284,7 +8284,7 @@ SuperRod
 	10,INTELEON,102
 #-------------------------------
 [011] # Tucana Bayou
-LandMorning,10
+LandMorning,4
 	10,PROBOPASS,102
 	10,SEISMITOAD,102
 	10,WEAVILE,102
@@ -8295,7 +8295,7 @@ LandMorning,10
 	10,MUK,102
 	10,YANMEGA,102
 	10,BEAUTIFLY,102
-LandDay,10
+LandDay,4
 	10,DARMANITAN,102
 	10,ROSERADE2,102
 	10,TSAREENA2,102
@@ -8306,7 +8306,7 @@ LandDay,10
 	10,CENTISKORCH,102
 	10,FERROTHORN,102
 	10,HYDREIGON,102
-LandNight,10
+LandNight,4
 	10,SCEPTILE,102
 	10,ELECTIVIRE,102
 	10,AMBIPOM,102

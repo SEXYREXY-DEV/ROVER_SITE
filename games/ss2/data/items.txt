@@ -481,7 +481,7 @@ NamePlural = Pearl Strings
 Pocket = 1
 Price = 20000
 Flags = Fling_30
-Description = Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price.
+Description = Very large pearls that sparkle in a pretty silver color. It can be sold at a high price to shops.
 #-------------------------------
 [STARDUST]
 Name = Stardust
@@ -505,7 +505,7 @@ NamePlural = Comet Shards
 Pocket = 1
 Price = 25000
 Flags = Fling_30
-Description = A shard which fell to the ground when a comet approached. A maniac will buy it for a high price.
+Description = A shard which fell to the ground when a comet approached. It can be sold at a high price to shops.
 #-------------------------------
 [NUGGET]
 Name = Nugget
@@ -521,7 +521,7 @@ NamePlural = Big Nuggets
 Pocket = 1
 Price = 40000
 Flags = Fling_130
-Description = A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.
+Description = A big nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.
 #-------------------------------
 [HEARTSCALE]
 Name = Heart Scale
@@ -608,7 +608,7 @@ NamePlural = Growth Mulch
 Pocket = 1
 Price = 200
 Flags = Mulch,Fling_30
-Description = A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Description = A fertilizer to be spread on soft soil. Berries grow faster but soil also dries quicker.
 #-------------------------------
 [DAMPMULCH]
 Name = Damp Mulch
@@ -616,7 +616,7 @@ NamePlural = Damp Mulch
 Pocket = 1
 Price = 200
 Flags = Mulch,Fling_30
-Description = A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Description = A fertilizer to be spread on soft soil. Berries grow slower but soil also dries slower.
 #-------------------------------
 [STABLEMULCH]
 Name = Stable Mulch
@@ -624,7 +624,7 @@ NamePlural = Stable Mulch
 Pocket = 1
 Price = 200
 Flags = Mulch,Fling_30
-Description = A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Description = A fertilizer to be spread on soft soil. Berries remain longer before dropping off.
 #-------------------------------
 [GOOEYMULCH]
 Name = Gooey Mulch
@@ -632,7 +632,7 @@ NamePlural = Gooey Mulch
 Pocket = 1
 Price = 200
 Flags = Mulch,Fling_30
-Description = A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Description = A fertilizer to be spread on soft soil. Makes dead plants regrow more times.
 #-------------------------------
 [SHOALSALT]
 Name = Shoal Salt
@@ -640,7 +640,7 @@ NamePlural = Shoal Salts
 Pocket = 1
 Price = 20
 Flags = Fling_30
-Description = Pure salt that can be discovered deep inside the Shoal Cave. A maniac will buy it for a high price.
+Description = Pure salt that can be discovered deep inside the Shoal Cave.
 #-------------------------------
 [SHOALSHELL]
 Name = Shoal Shell
@@ -648,7 +648,7 @@ NamePlural = Shoal Shells
 Pocket = 1
 Price = 20
 Flags = Fling_30
-Description = A pretty seashell that can be found deep inside the Shoal Cave. A maniac will buy it for a high price.
+Description = A pretty seashell that can be found deep inside the Shoal Cave.
 #-------------------------------
 [ODDKEYSTONE]
 Name = Odd Keystone
@@ -787,7 +787,17 @@ Price = 3000
 SellPrice = 2000
 BPPrice = 2
 Flags = Fling_60
-Description = Damages attackers for 1/8th of their HP when they make contact with the holder.
+Description = Damages attackers for 1/8th of their HP when they hit the holder with physical attacks.
+#-------------------------------
+[HIVISJACKET]
+Name = Hi-Viz Jacket
+NamePlural = Hi-Viz Jackets
+Pocket = 1
+Price = 3000
+SellPrice = 2000
+BPPrice = 2
+Flags = Fling_60
+Description = Damages attackers for 1/8th of their HP when they hit the holder with special attacks.
 #-------------------------------
 [ASSAULTVEST]
 Name = Assault Vest
@@ -834,7 +844,7 @@ Price = 3000
 BPPrice = 2
 SellPrice = 2000
 Flags = Fling_30
-Description = A held item. They protect the holder from effects caused by making contact.
+Description = A held item. They protect the holder from harmful effects caused by making contact or using attacks against a target.
 #-------------------------------
 [HEAVYDUTYBOOTS]
 Name = Heavy-Duty Boots
@@ -1173,7 +1183,7 @@ NamePlural = Adrenaline Orbs
 Pocket = 1
 Price = 300
 Flags = Fling_30
-Description = A held item. It boosts Speed when intimidated. It can be used only once.
+Description = A held item. Boosts Speed when Intimidated or Disheartened. It can be used only once.
 #-------------------------------
 [ROOMSERVICE]
 Name = Room Service
@@ -1854,7 +1864,7 @@ NamePlural = Fire Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Fire-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Fire-type move by 40% and is then consumed.
 #-------------------------------
 [WATERGEM]
 Name = Water Gem
@@ -1862,7 +1872,7 @@ NamePlural = Water Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Water-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Water-type move by 40% and is then consumed.
 #-------------------------------
 [ELECTRICGEM]
 Name = Electric Gem
@@ -1870,7 +1880,7 @@ NamePlural = Electric Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Electric-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Electric-type move by 40% and is then consumed.
 #-------------------------------
 [GRASSGEM]
 Name = Grass Gem
@@ -1878,7 +1888,7 @@ NamePlural = Grass Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Grass-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Grass-type move by 40% and is then consumed.
 #-------------------------------
 [ICEGEM]
 Name = Ice Gem
@@ -1886,7 +1896,7 @@ NamePlural = Ice Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Ice-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Ice-type move by 40% and is then consumed.
 #-------------------------------
 [FIGHTINGGEM]
 Name = Fighting Gem
@@ -1894,7 +1904,7 @@ NamePlural = Fighting Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Fighting-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Fighting-type move by 40% and is then consumed.
 #-------------------------------
 [POISONGEM]
 Name = Poison Gem
@@ -1902,7 +1912,7 @@ NamePlural = Poison Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Poison-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Poison-type move by 40% and is then consumed.
 #-------------------------------
 [GROUNDGEM]
 Name = Ground Gem
@@ -1910,7 +1920,7 @@ NamePlural = Ground Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Ground-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Ground-type move by 40% and is then consumed.
 #-------------------------------
 [FLYINGGEM]
 Name = Flying Gem
@@ -1918,7 +1928,7 @@ NamePlural = Flying Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Flying-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Flying-type move by 40% and is then consumed.
 #-------------------------------
 [PSYCHICGEM]
 Name = Psychic Gem
@@ -1926,7 +1936,7 @@ NamePlural = Psychic Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Psychic-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Psychic-type move by 40% and is then consumed.
 #-------------------------------
 [BUGGEM]
 Name = Bug Gem
@@ -1934,7 +1944,7 @@ NamePlural = Bug Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Bug-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Bug-type move by 40% and is then consumed.
 #-------------------------------
 [ROCKGEM]
 Name = Rock Gem
@@ -1942,7 +1952,7 @@ NamePlural = Rock Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Rock-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Rock-type move by 40% and is then consumed.
 #-------------------------------
 [GHOSTGEM]
 Name = Ghost Gem
@@ -1950,7 +1960,7 @@ NamePlural = Ghost Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Ghost-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Ghost-type move by 40% and is then consumed.
 #-------------------------------
 [DRAGONGEM]
 Name = Dragon Gem
@@ -1958,7 +1968,7 @@ NamePlural = Dragon Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Dragon-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Dragon-type move by 40% and is then consumed.
 #-------------------------------
 [DARKGEM]
 Name = Dark Gem
@@ -1966,7 +1976,7 @@ NamePlural = Dark Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Dark-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Dark-type move by 40% and is then consumed.
 #-------------------------------
 [STEELGEM]
 Name = Steel Gem
@@ -1974,7 +1984,7 @@ NamePlural = Steel Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Steel-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Steel-type move by 40% and is then consumed.
 #-------------------------------
 [FAIRYGEM]
 Name = Fairy Gem
@@ -1982,7 +1992,7 @@ NamePlural = Fairy Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Fairy-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Fairy-type move by 40% and is then consumed.
 #-------------------------------
 [NORMALGEM]
 Name = Normal Gem
@@ -1990,7 +2000,7 @@ NamePlural = Normal Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Normal-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Normal-type move by 40% and is then consumed.
 #-------------------------------
 [LIGHTBALL]
 Name = Light Ball
@@ -9460,7 +9470,7 @@ NamePlural = Cosmic Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Cosmic-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Cosmic-type move by 40% and is then consumed.
 #-------------------------------
 [CLEARMIRROR]
 Name = Clear Mirror
@@ -9486,7 +9496,7 @@ NamePlural = Light Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Light-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Light-type move by 40% and is then consumed.
 #-------------------------------
 [MUSICBOX]
 Name = Music Box
@@ -9512,7 +9522,7 @@ NamePlural = Sound Gems
 Pocket = 7
 Price = 1000
 Flags = TypeGem
-Description = A gem that boosts the power of a Sound-type move by 30% and is then consumed.
+Description = A gem that boosts the power of a Sound-type move by 40% and is then consumed.
 #-------------------------------
 [FAIRYDUST]
 Name = Fairy Dust

@@ -131,8 +131,8 @@ FullDesc = When user is on the field, all adjacent opponents cannot switch out o
 #-------------------------------
 [ROUGHSKIN]
 Name = Rough Skin
-Description = Inflicts damage to the foe on contact.
-FullDesc = When user is hit by a contact move, attacker takes damage equal to 1/8 of their max HP.
+Description = Inflicts damage to the foe on physical hit.
+FullDesc = When user is hit by a physical move, attacker takes damage equal to 1/8 of their max HP.
 #-------------------------------
 [WONDERGUARD]
 Name = Wonder Guard
@@ -283,8 +283,8 @@ FullDesc = User has 1.5x Attack but 0.8x Accuracy with physical moves.
 #-------------------------------
 [CUTECHARM]
 Name = Cute Charm
-Description = Contact with the Pokémon may cause infatuation.
-FullDesc = When user is hit by a contact move, there's a 30% chance to infatuate the attacker. If user is in the lead, has a 66% chance to force wild encounters to be the opposite gender to the user's.
+Description = Reduces damage from opponents with shared types.
+FullDesc = The user has 1.25x Defense/Special Defense against attacks from opponents that share one of their typings.
 #-------------------------------
 [PLUS]
 Name = Plus
@@ -399,7 +399,7 @@ FullDesc = User's moves deal 1.25x damage against targets that share at least on
 [STEADFAST]
 Name = Steadfast
 Description = Deals 30% more move damage to Pokémon slower than it.
-FullDesc = User deals 1.3x damage to targets that have a lower Speed stat than it (does not take into account stat boosts and other modifiers).
+FullDesc = User deals 1.3x damage to targets that have a lower Speed stat than it (does not take into account stat stages nor other Speed modifiers).
 #-------------------------------
 [SNOWCLOAK]
 Name = Snow Cloak
@@ -768,8 +768,8 @@ FullDesc = User's moves deal 1.3x damage during a Sandstorm. User takes no damag
 #-------------------------------
 [IRONBARBS]
 Name = Iron Barbs
-Description = Inflicts damage to the Pokémon on contact.
-FullDesc = When user is hit by a contact move, attacker takes damage equal to 1/8 of their max HP.
+Description = Inflicts damage to the foe on physical hit.
+FullDesc = When user is hit by a physical move, attacker takes damage equal to 1/8 of their max HP.
 #-------------------------------
 [ZENMODE]
 Name = Zen Mode
@@ -967,6 +967,7 @@ FullDesc = User's Speed stat is doubled during Hail. User takes no damage from H
 [LONGREACH]
 Name = Long Reach
 Description = Uses moves without making contact with the target.
+FullDesc = User's moves lose the Contact flag if they had it. User is also immune to most harmful effects that proc upon attacking an enemy.
 #-------------------------------
 [LIQUIDVOICE]
 Name = Liquid Voice
@@ -1052,6 +1053,7 @@ Description = Copies the Ability of a defeated ally.
 [POWEROFALCHEMY]
 Name = Alchemy
 Description = Copies the Ability of a defeated ally.
+FullDesc = When an ally faints, this Pokémon also gains their ability
 #-------------------------------
 [BEASTBOOST]
 Name = Beast Boost
@@ -1527,8 +1529,8 @@ FullDesc = User's moves with the Slicing flag deal 1.5x damage.
 #-------------------------------
 [TOXICDEBRIS]
 Name = Toxic Debris
-Description = Scatters poison spikes upon contact.
-FullDesc = When hit by a move that makes contact, user sets up Toxic Spikes on the enemy side of the field.
+Description = Scatters poison spikes upon physical hit.
+FullDesc = When hit by a physical move, user sets up Toxic Spikes on the enemy side of the field.
 #-------------------------------
 [EARTHEATER]
 Name = Earth Eater
@@ -1687,4 +1689,19 @@ FullDesc = User deals 1.4x damage with their moves, but their Attack will be low
 [VANDAL]
 Name = Vandal
 Description = Deals 30% more damage to targets that have an item.
+#-------------------------------
+[FEEDBACK]
+Name = Feedback
+Description = Inflicts damage to the foe on special hit.
+FullDesc = When user is hit by a special move, attacker takes damage equal to 1/8 of their max HP.
+#-------------------------------
+[RETRIBUTION]
+Name = Retribution
+Description = Inflicts damage to the foe on special hit.
+FullDesc = When user is hit by a special move, attacker takes damage equal to 1/8 of their max HP.
+#-------------------------------
+[FORCEFIELD]
+Name = Force Field
+Description = Inflicts damage to the foe on special hit.
+FullDesc = When user is hit by a special move, attacker takes damage equal to 1/8 of their max HP.
 #-------------------------------

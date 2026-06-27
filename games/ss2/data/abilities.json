@@ -130,8 +130,8 @@
     },
     {
         "Name": "Rough Skin",
-        "Description": "Inflicts damage to the foe on contact.",
-        "FullDesc": "When user is hit by a contact move, attacker takes damage equal to 1/8 of their max HP."
+        "Description": "Inflicts damage to the foe on physical hit.",
+        "FullDesc": "When user is hit by a physical move, attacker takes damage equal to 1/8 of their max HP."
     },
     {
         "Name": "Wonder Guard",
@@ -282,8 +282,8 @@
     },
     {
         "Name": "Cute Charm",
-        "Description": "Contact with the Pok\u00c3\u00a9mon may cause infatuation.",
-        "FullDesc": "When user is hit by a contact move, there's a 30% chance to infatuate the attacker. If user is in the lead, has a 66% chance to force wild encounters to be the opposite gender to the user's."
+        "Description": "Reduces damage from opponents with shared types.",
+        "FullDesc": "The user has 1.25x Defense/Special Defense against attacks from opponents that share one of their typings."
     },
     {
         "Name": "Plus",
@@ -398,7 +398,7 @@
     {
         "Name": "Steadfast",
         "Description": "Deals 30% more move damage to Pok\u00c3\u00a9mon slower than it.",
-        "FullDesc": "User deals 1.3x damage to targets that have a lower Speed stat than it (does not take into account stat boosts and other modifiers)."
+        "FullDesc": "User deals 1.3x damage to targets that have a lower Speed stat than it (does not take into account stat stages nor other Speed modifiers)."
     },
     {
         "Name": "Snow Cloak",
@@ -767,8 +767,8 @@
     },
     {
         "Name": "Iron Barbs",
-        "Description": "Inflicts damage to the Pok\u00c3\u00a9mon on contact.",
-        "FullDesc": "When user is hit by a contact move, attacker takes damage equal to 1/8 of their max HP."
+        "Description": "Inflicts damage to the foe on physical hit.",
+        "FullDesc": "When user is hit by a physical move, attacker takes damage equal to 1/8 of their max HP."
     },
     {
         "Name": "Zen Mode",
@@ -965,7 +965,8 @@
     },
     {
         "Name": "Long Reach",
-        "Description": "Uses moves without making contact with the target."
+        "Description": "Uses moves without making contact with the target.",
+        "FullDesc": "User's moves lose the Contact flag if they had it. User is also immune to most harmful effects that proc upon attacking an enemy."
     },
     {
         "Name": "Liquid Voice",
@@ -1050,7 +1051,8 @@
     },
     {
         "Name": "Alchemy",
-        "Description": "Copies the Ability of a defeated ally."
+        "Description": "Copies the Ability of a defeated ally.",
+        "FullDesc": "When an ally faints, this Pok\u00c3\u00a9mon also gains their ability"
     },
     {
         "Name": "Beast Boost",
@@ -1516,8 +1518,8 @@
     },
     {
         "Name": "Toxic Debris",
-        "Description": "Scatters poison spikes upon contact.",
-        "FullDesc": "When hit by a move that makes contact, user sets up Toxic Spikes on the enemy side of the field."
+        "Description": "Scatters poison spikes upon physical hit.",
+        "FullDesc": "When hit by a physical move, user sets up Toxic Spikes on the enemy side of the field."
     },
     {
         "Name": "Earth Eater",
@@ -1676,5 +1678,20 @@
     {
         "Name": "Vandal",
         "Description": "Deals 30% more damage to targets that have an item."
+    },
+    {
+        "Name": "Feedback",
+        "Description": "Inflicts damage to the foe on special hit.",
+        "FullDesc": "When user is hit by a special move, attacker takes damage equal to 1/8 of their max HP."
+    },
+    {
+        "Name": "Retribution",
+        "Description": "Inflicts damage to the foe on special hit.",
+        "FullDesc": "When user is hit by a special move, attacker takes damage equal to 1/8 of their max HP."
+    },
+    {
+        "Name": "Force Field",
+        "Description": "Inflicts damage to the foe on special hit.",
+        "FullDesc": "When user is hit by a special move, attacker takes damage equal to 1/8 of their max HP."
     }
 ]
