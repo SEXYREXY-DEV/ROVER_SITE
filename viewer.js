@@ -59,6 +59,43 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
     normalizedList = pokemonsWithInheritedEggMoves.map(p => normalizePokemon(p));
     console.log('Normalized list:', normalizedList);
 
+    try {
+      const encounterResp = await fetch(`./games/${game}/data/encounters.json`);
+      if (encounterResp.ok) {
+        const encounterData = await encounterResp.json();
+        const encounterLocations = new Map();
+
+        encounterData.forEach(map => {
+          const mapName = map.MapName || map.MapID || 'Unknown Location';
+          const encounters = map.Encounters || {};
+
+          Object.entries(encounters).forEach(([encounterType, details]) => {
+            const locationLabel = encounterType
+              ? `${mapName} (${encounterType})`
+              : mapName;
+            const pokemonEntries = Array.isArray(details?.Pokemon) ? details.Pokemon : [];
+
+            pokemonEntries.forEach(entry => {
+              const speciesName = String(entry?.Species || '').toUpperCase();
+              if (!speciesName) return;
+
+              if (!encounterLocations.has(speciesName)) {
+                encounterLocations.set(speciesName, new Set());
+              }
+              encounterLocations.get(speciesName).add(locationLabel);
+            });
+          });
+        });
+
+        normalizedList = normalizedList.map(p => ({
+          ...p,
+          Locations: Array.from(encounterLocations.get((p.InternalName || '').toUpperCase()) || [])
+        }));
+      }
+    } catch (e) {
+      console.warn('Unable to load encounter locations for', game, e);
+    }
+
     if (Array.isArray(config.excludedPokemon) && config.excludedPokemon.length > 0) {
       const excludedSet = new Set(config.excludedPokemon.map(name => name.toUpperCase()));
       normalizedList = normalizedList.filter(
@@ -80,16 +117,16 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       normalizedList.forEach(p => { p.Forms = []; });
     }
 
-    const tNames = new Set(
-      normalizedList
-        .map(p => p.InternalName)
-        .filter(name => name.endsWith('t'))
-        .map(name => name.slice(0, -1))
-    );
+    //const tNames = new Set(
+    //  normalizedList
+    //    .map(p => p.InternalName)
+    //    .filter(name => name.endsWith('t'))
+    //    .map(name => name.slice(0, -1))
+    //);
 
-    normalizedList = normalizedList.filter(p =>
-      !(tNames.has(p.InternalName) && !p.InternalName.endsWith('t'))
-    );
+    //normalizedList = normalizedList.filter(p =>
+    //  !(tNames.has(p.InternalName) && !p.InternalName.endsWith('t'))
+    //);
     
     function renderFilteredResults(filteredList, originalData) {
       const sortSelect = document.getElementById('sort-select');
@@ -115,6 +152,7 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       const abilityQuery = document.getElementById('ability-search').value.toLowerCase().trim();
       const moveQuery = document.getElementById('move-search').value.toLowerCase().trim();
       const itemQuery = document.getElementById('item-search').value.toLowerCase().trim();
+      const locationQuery = document.getElementById('location-search').value.toLowerCase().trim();
 
       const filtered = normalizedList.filter(p => {
         const generalMatch =
@@ -123,6 +161,7 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
           (p.Types || []).some(t => t.includes(generalQuery)) ||
           (p.Abilities || []).some(a => a.includes(generalQuery)) ||
           (p.EggGroups || []).some(g => g.includes(generalQuery)) ||
+          (p.Locations || []).some(loc => loc.toLowerCase().includes(generalQuery)) ||
           (p.Forms || []).some(f =>
             f.name.includes(generalQuery) ||
             (f.types || []).some(t => t.includes(generalQuery)) ||
@@ -156,10 +195,14 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
           !itemQuery ||
           (p.Items || []).some(i => i.includes(itemQuery));
 
+        const locationMatch =
+          !locationQuery ||
+          (p.Locations || []).some(loc => loc.toLowerCase().includes(locationQuery));
+
         const nonEvolvingOnly = document.getElementById('non-evolving-checkbox')?.checked;
         const evolutionMatch = !nonEvolvingOnly || !p.Evolves;
 
-        return generalMatch && nameMatch && typeMatch && abilityMatch && moveMatch && itemMatch && evolutionMatch;
+        return generalMatch && nameMatch && typeMatch && abilityMatch && moveMatch && itemMatch && locationMatch && evolutionMatch;
       });
 
       renderFilteredResults(filtered, pokemons);
@@ -169,7 +212,7 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
 
     document.getElementById('search-bar').addEventListener('input', applyFilters);
 
-    ['name-search', 'type-search', 'ability-search', 'move-search', 'item-search'].forEach(id => {
+    ['name-search', 'type-search', 'ability-search', 'move-search', 'item-search', 'location-search'].forEach(id => {
       document.getElementById(id).addEventListener('input', applyFilters);
     });
 
@@ -182,6 +225,7 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
       document.getElementById('ability-search').value = '';
       document.getElementById('move-search').value = '';
       document.getElementById('item-search').value = '';
+      document.getElementById('location-search').value = '';
       const checkbox = document.getElementById('non-evolving-checkbox');
       if (checkbox) checkbox.checked = false;
       renderFilteredResults(normalizedList, pokemons);
@@ -227,28 +271,27 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
     }
 
     function buildFormImageSources(baseInternalName, formIndex, maxForms) {
-      const baseName = baseInternalName.replace(/T$/, '');
-      const match = baseName.match(/^(.*)_(\d+)$/);
-      const root = match ? match[1] : baseName;
+      const match = baseInternalName.match(/^(.*)_(\d+)$/);
+      const root = match ? match[1] : baseInternalName;
       const sources = [];
 
       if (match) {
         if (formIndex > 1) {
           sources.push(`./games/${game}/images/Front/${root}_${formIndex}.png`);
         }
-        sources.push(`./games/${game}/images/Front/${baseName}.png`);
+        sources.push(`./games/${game}/images/Front/${baseInternalName}.png`);
         for (let i = 1; i <= maxForms; i++) {
           const candidate = `./games/${game}/images/Front/${root}_${i}.png`;
           if (!sources.includes(candidate)) sources.push(candidate);
         }
         sources.push(`./games/${game}/images/Front/${root}.png`);
       } else {
-        sources.push(`./games/${game}/images/Front/${baseName}.png`);
+        sources.push(`./games/${game}/images/Front/${baseInternalName}.png`);
         if (formIndex > 1) {
-          sources.push(`./games/${game}/images/Front/${baseName}_${formIndex}.png`);
+          sources.push(`./games/${game}/images/Front/${baseInternalName}_${formIndex}.png`);
         }
         for (let i = 1; i <= maxForms; i++) {
-          const candidate = `./games/${game}/images/Front/${baseName}_${i}.png`;
+          const candidate = `./games/${game}/images/Front/${baseInternalName}_${i}.png`;
           if (!sources.includes(candidate)) sources.push(candidate);
         }
       }
@@ -357,7 +400,7 @@ async function loadPokedex(game, container = document.getElementById('pokedex-co
           formCard.className = 'form-card';
 
           const formImage = document.createElement('img');
-          const baseInternalName = (form.InternalName || pokemon.InternalName).replace(/T$/, '');
+          const baseInternalName = form.InternalName || pokemon.InternalName;
           const formIndex = pokemon.Forms.indexOf(form) + 1;
 
           formImage.alt = form.FormName;

@@ -2,6 +2,9 @@ import unittest
 import os
 import json
 import re
+import tempfile
+
+from encounters_to_json import EncountersParser
 
 def parse_txt_file(file_path):
     pokemon_data = {}
@@ -261,6 +264,43 @@ def get_game_names(base_dir='games'):
         return []
     return [name for name in os.listdir(base_dir)
             if os.path.isdir(os.path.join(base_dir, name))]
+
+class TestEncountersParser(unittest.TestCase):
+    def test_parser_handles_real_encounter_formats(self):
+        parser = EncountersParser()
+        sample = """#-------------------------------
+[004,1] # Oxyrus Lake
+Land,21
+    20,VENONAT,9,11
+    10,PATRAT,7,10
+#-------------------------------
+[022] # Serene Village
+Water,4
+    20,FINNEON,5
+"""
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            input_file = os.path.join(tmpdir, 'encounters.txt')
+            output_file = os.path.join(tmpdir, 'encounters.json')
+
+            with open(input_file, 'w', encoding='utf-8') as handle:
+                handle.write(sample)
+
+            parser.parse_encounters(input_file, output_file)
+
+            with open(output_file, 'r', encoding='utf-8') as handle:
+                data = json.load(handle)
+
+            self.assertEqual(len(data), 2)
+            self.assertEqual(data[0]['MapID'], '004')
+            self.assertEqual(data[0]['MapName'], 'Oxyrus Lake')
+            self.assertIn('Land', data[0]['Encounters'])
+            self.assertEqual(data[0]['Encounters']['Land']['Pokemon'][0]['Species'], 'VENONAT')
+            self.assertEqual(data[0]['Encounters']['Land']['Pokemon'][0]['MinLevel'], 9)
+            self.assertEqual(data[0]['Encounters']['Land']['Pokemon'][0]['MaxLevel'], 11)
+            self.assertEqual(data[1]['MapID'], '022')
+            self.assertEqual(data[1]['Encounters']['Water']['Pokemon'][0]['Level'], 5)
+
 
 class TestCompareData(unittest.TestCase):
     def setUp(self):

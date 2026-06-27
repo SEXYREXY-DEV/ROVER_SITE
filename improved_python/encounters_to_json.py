@@ -25,7 +25,6 @@ class EncountersParser:
                 if not line:
                     continue
 
-                # If line starts a new encounter type (e.g. "Water,4" or "OldRod")
                 if re.match(r'^[A-Za-z]+(Day|Night|Morning)?(,\d+)?$', line):
                     parts = line.split(',')
                     current_type = parts[0]
@@ -35,15 +34,28 @@ class EncountersParser:
                         'Pokemon': []
                     }
                 else:
-                    # Pokemon encounter line (e.g. "20,FINNEON,5")
                     if current_type is None:
-                        continue  # Ignore stray data
-                    chance, species, level = [x.strip() for x in line.split(',')]
-                    encounters[current_type]['Pokemon'].append({
-                        'Chance': int(chance),
-                        'Species': species,
-                        'Level': int(level)
-                    })
+                        continue
+
+                    fields = [x.strip() for x in line.split(',')]
+                    if len(fields) < 3:
+                        continue
+
+                    chance = int(fields[0])
+                    species = fields[1]
+                    if len(fields) == 3:
+                        encounters[current_type]['Pokemon'].append({
+                            'Chance': chance,
+                            'Species': species,
+                            'Level': int(fields[2])
+                        })
+                    else:
+                        encounters[current_type]['Pokemon'].append({
+                            'Chance': chance,
+                            'Species': species,
+                            'MinLevel': int(fields[2]),
+                            'MaxLevel': int(fields[3])
+                        })
 
             all_maps.append({
                 'MapID': map_id,
@@ -56,7 +68,7 @@ class EncountersParser:
 
     def _parse_map_header(self, header_line):
         """Extract map ID and name from header line."""
-        match = re.match(r'\[(\d+)]\s*#\s*(.+)', header_line)
+        match = re.match(r'\[(\d+)(?:,\d+)?]\s*#\s*(.+)', header_line)
         if match:
             return match.group(1), match.group(2).strip()
         return "UNKNOWN", "Unnamed Map"

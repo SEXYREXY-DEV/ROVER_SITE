@@ -1,0 +1,680 @@
+[
+    {
+        "MapID": "UNKNOWN",
+        "MapName": "Unnamed Map",
+        "Encounters": {}
+    },
+    {
+        "MapID": "004",
+        "MapName": "Oxyrus Lake",
+        "Encounters": {
+            "Land": {
+                "Rate": 21,
+                "Pokemon": [
+                    {
+                        "Chance": 20,
+                        "Species": "VENONAT",
+                        "MinLevel": 9,
+                        "MaxLevel": 11
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "PATRAT",
+                        "MinLevel": 7,
+                        "MaxLevel": 10
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "ARON",
+                        "MinLevel": 8,
+                        "MaxLevel": 11
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "DRILBUR",
+                        "MinLevel": 8,
+                        "MaxLevel": 10
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "STARLY",
+                        "MinLevel": 7,
+                        "MaxLevel": 11
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "MapID": "022",
+        "MapName": "Serene Village",
+        "Encounters": {
+            "Land": {
+                "Rate": 21,
+                "Pokemon": [
+                    {
+                        "Chance": 20,
+                        "Species": "FIDOUGH",
+                        "MinLevel": 2,
+                        "MaxLevel": 5
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "LILLIPUP",
+                        "Level": 5
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "LITLEO",
+                        "MinLevel": 2,
+                        "MaxLevel": 3
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "PIDGEY",
+                        "MinLevel": 2,
+                        "MaxLevel": 3
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "STARLY",
+                        "MinLevel": 2,
+                        "MaxLevel": 4
+                    },
+                    {
+                        "Chance": 6,
+                        "Species": "SEEDOT",
+                        "Level": 5
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "MapID": "032",
+        "MapName": "Route 1",
+        "Encounters": {
+            "Land": {
+                "Rate": 15,
+                "Pokemon": [
+                    {
+                        "Chance": 30,
+                        "Species": "PIDGEY",
+                        "MinLevel": 2,
+                        "MaxLevel": 4
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "FIDOUGH",
+                        "MinLevel": 2,
+                        "MaxLevel": 5
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "SKIDDO",
+                        "MinLevel": 3,
+                        "MaxLevel": 5
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "WURMPLE",
+                        "MinLevel": 3,
+                        "MaxLevel": 4
+                    },
+                    {
+                        "Chance": 15,
+                        "Species": "SHINX",
+                        "MinLevel": 2,
+                        "MaxLevel": 5
+                    },
+                    {
+                        "Chance": 15,
+                        "Species": "ZIGZAGOON",
+                        "MinLevel": 1,
+                        "MaxLevel": 4
+                    },
+                    {
+                        "Chance": 5,
+                        "Species": "FLABEBE_1",
+                        "MinLevel": 1,
+                        "MaxLevel": 3
+                    },
+                    {
+                        "Chance": 5,
+                        "Species": "FLABEBE_2",
+                        "MinLevel": 1,
+                        "MaxLevel": 3
+                    },
+                    {
+                        "Chance": 5,
+                        "Species": "FLABEBE_3",
+                        "MinLevel": 1,
+                        "MaxLevel": 3
+                    },
+                    {
+                        "Chance": 5,
+                        "Species": "FLABEBE_4",
+                        "MinLevel": 1,
+                        "MaxLevel": 3
+                    },
+                    {
+                        "Chance": 4,
+                        "Species": "EKANS",
+                        "MinLevel": 4,
+                        "MaxLevel": 5
+                    }
+                ]
+            },
+            "Water": {
+                "Rate": 2,
+                "Pokemon": [
+                    {
+                        "Chance": 20,
+                        "Species": "SLOWPOKE",
+                        "Level": 5
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "MapID": "048",
+        "MapName": "Feldspar Forest",
+        "Encounters": {
+            "Land": {
+                "Rate": 21,
+                "Pokemon": [
+                    {
+                        "Chance": 30,
+                        "Species": "SCATTERBUG",
+                        "MinLevel": 3,
+                        "MaxLevel": 5
+                    },
+                    {
+                        "Chance": 30,
+                        "Species": "SKWOVET",
+                        "MinLevel": 4,
+                        "MaxLevel": 6
+                    },
+                    {
+                        "Chance": 30,
+                        "Species": "WURMPLE",
+                        "MinLevel": 3,
+                        "MaxLevel": 5
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "CATERPIE",
+                        "MinLevel": 4,
+                        "MaxLevel": 5
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "LEDYBA",
+                        "MinLevel": 4,
+                        "MaxLevel": 5
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "PIKIPEK",
+                        "MinLevel": 3,
+                        "MaxLevel": 5
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "WEEDLE",
+                        "MinLevel": 4,
+                        "MaxLevel": 5
+                    },
+                    {
+                        "Chance": 5,
+                        "Species": "CUBBY",
+                        "MinLevel": 3,
+                        "MaxLevel": 5
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "MapID": "086",
+        "MapName": "Hall of champions",
+        "Encounters": {
+            "Cave": {
+                "Rate": 1,
+                "Pokemon": [
+                    {
+                        "Chance": 40,
+                        "Species": "YAMASK",
+                        "MinLevel": 12,
+                        "MaxLevel": 13
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "DUSKULL",
+                        "MinLevel": 10,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "GASTLY",
+                        "Level": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "JOLTIK",
+                        "MinLevel": 8,
+                        "MaxLevel": 13
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "LITWICK",
+                        "MinLevel": 11,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "RATTATA",
+                        "MinLevel": 12,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "ZUBAT",
+                        "MinLevel": 12,
+                        "MaxLevel": 13
+                    },
+                    {
+                        "Chance": 15,
+                        "Species": "SPINARAK",
+                        "MinLevel": 10,
+                        "MaxLevel": 12
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "DRILBUR",
+                        "MinLevel": 10,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "GOLETT",
+                        "Level": 14
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "MISDREAVUS",
+                        "Level": 14
+                    },
+                    {
+                        "Chance": 5,
+                        "Species": "UNOWN",
+                        "Level": 1
+                    },
+                    {
+                        "Chance": 1,
+                        "Species": "SHEDINJA",
+                        "Level": 14
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "MapID": "088",
+        "MapName": "Catacombs BF1",
+        "Encounters": {
+            "Cave": {
+                "Rate": 1,
+                "Pokemon": [
+                    {
+                        "Chance": 40,
+                        "Species": "YAMASK",
+                        "MinLevel": 12,
+                        "MaxLevel": 13
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "DUSKULL",
+                        "MinLevel": 10,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "GASTLY",
+                        "Level": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "JOLTIK",
+                        "MinLevel": 8,
+                        "MaxLevel": 13
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "LITWICK",
+                        "MinLevel": 11,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "RATTATA",
+                        "MinLevel": 12,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "ZUBAT",
+                        "MinLevel": 12,
+                        "MaxLevel": 13
+                    },
+                    {
+                        "Chance": 15,
+                        "Species": "SPINARAK",
+                        "MinLevel": 10,
+                        "MaxLevel": 12
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "DRILBUR",
+                        "MinLevel": 10,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "GOLETT",
+                        "Level": 14
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "MISDREAVUS",
+                        "Level": 14
+                    },
+                    {
+                        "Chance": 5,
+                        "Species": "UNOWN",
+                        "Level": 1
+                    },
+                    {
+                        "Chance": 1,
+                        "Species": "SHEDINJA",
+                        "Level": 14
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "MapID": "089",
+        "MapName": "Catacombs BF2",
+        "Encounters": {
+            "Cave": {
+                "Rate": 1,
+                "Pokemon": [
+                    {
+                        "Chance": 40,
+                        "Species": "YAMASK",
+                        "MinLevel": 12,
+                        "MaxLevel": 13
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "DUSKULL",
+                        "MinLevel": 10,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "GASTLY",
+                        "Level": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "JOLTIK",
+                        "MinLevel": 8,
+                        "MaxLevel": 13
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "LITWICK",
+                        "MinLevel": 11,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "RATTATA",
+                        "MinLevel": 12,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "ZUBAT",
+                        "MinLevel": 12,
+                        "MaxLevel": 13
+                    },
+                    {
+                        "Chance": 15,
+                        "Species": "SPINARAK",
+                        "MinLevel": 10,
+                        "MaxLevel": 12
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "DRILBUR",
+                        "MinLevel": 10,
+                        "MaxLevel": 14
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "GOLETT",
+                        "Level": 14
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "MISDREAVUS",
+                        "Level": 14
+                    },
+                    {
+                        "Chance": 5,
+                        "Species": "UNOWN",
+                        "Level": 1
+                    },
+                    {
+                        "Chance": 1,
+                        "Species": "SHEDINJA",
+                        "Level": 14
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "MapID": "101",
+        "MapName": "Feldspar Forest",
+        "Encounters": {
+            "Land": {
+                "Rate": 21,
+                "Pokemon": [
+                    {
+                        "Chance": 30,
+                        "Species": "SCATTERBUG",
+                        "MinLevel": 6,
+                        "MaxLevel": 8
+                    },
+                    {
+                        "Chance": 30,
+                        "Species": "SKWOVET",
+                        "MinLevel": 6,
+                        "MaxLevel": 8
+                    },
+                    {
+                        "Chance": 30,
+                        "Species": "WURMPLE",
+                        "MinLevel": 7,
+                        "MaxLevel": 9
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "CATERPIE",
+                        "MinLevel": 7,
+                        "MaxLevel": 9
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "LEDYBA",
+                        "MinLevel": 7,
+                        "MaxLevel": 9
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "SPINARAK",
+                        "MinLevel": 7,
+                        "MaxLevel": 8
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "WEEDLE",
+                        "MinLevel": 7,
+                        "MaxLevel": 9
+                    },
+                    {
+                        "Chance": 15,
+                        "Species": "FOONGUS",
+                        "MinLevel": 5,
+                        "MaxLevel": 7
+                    },
+                    {
+                        "Chance": 10,
+                        "Species": "CUBBY",
+                        "MinLevel": 8,
+                        "MaxLevel": 11
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "MapID": "102",
+        "MapName": "Feldspar Forest",
+        "Encounters": {
+            "Land": {
+                "Rate": 21,
+                "Pokemon": [
+                    {
+                        "Chance": 30,
+                        "Species": "SCATTERBUG",
+                        "MinLevel": 6,
+                        "MaxLevel": 8
+                    },
+                    {
+                        "Chance": 30,
+                        "Species": "SKWOVET",
+                        "MinLevel": 6,
+                        "MaxLevel": 8
+                    },
+                    {
+                        "Chance": 30,
+                        "Species": "WURMPLE",
+                        "MinLevel": 7,
+                        "MaxLevel": 9
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "CATERPIE",
+                        "MinLevel": 7,
+                        "MaxLevel": 9
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "CUBBY",
+                        "MinLevel": 8,
+                        "MaxLevel": 11
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "LEDYBA",
+                        "MinLevel": 7,
+                        "MaxLevel": 9
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "SPINARAK",
+                        "MinLevel": 7,
+                        "MaxLevel": 8
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "WEEDLE",
+                        "MinLevel": 7,
+                        "MaxLevel": 9
+                    },
+                    {
+                        "Chance": 15,
+                        "Species": "FOONGUS",
+                        "MinLevel": 5,
+                        "MaxLevel": 7
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "MapID": "110",
+        "MapName": "Route 02",
+        "Encounters": {
+            "Land": {
+                "Rate": 15,
+                "Pokemon": [
+                    {
+                        "Chance": 30,
+                        "Species": "STARLY",
+                        "MinLevel": 6,
+                        "MaxLevel": 8
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "PIDGEY",
+                        "MinLevel": 4,
+                        "MaxLevel": 8
+                    },
+                    {
+                        "Chance": 20,
+                        "Species": "WURMPLE",
+                        "MinLevel": 5,
+                        "MaxLevel": 7
+                    },
+                    {
+                        "Chance": 15,
+                        "Species": "PIKIPEK",
+                        "MinLevel": 7,
+                        "MaxLevel": 8
+                    },
+                    {
+                        "Chance": 15,
+                        "Species": "SUNKERN",
+                        "MinLevel": 4,
+                        "MaxLevel": 6
+                    },
+                    {
+                        "Chance": 15,
+                        "Species": "WIMPOD",
+                        "MinLevel": 5,
+                        "MaxLevel": 10
+                    },
+                    {
+                        "Chance": 15,
+                        "Species": "ZIGZAGOON",
+                        "MinLevel": 5,
+                        "MaxLevel": 7
+                    },
+                    {
+                        "Chance": 1,
+                        "Species": "EEVEE",
+                        "MinLevel": 4,
+                        "MaxLevel": 5
+                    }
+                ]
+            }
+        }
+    }
+]
