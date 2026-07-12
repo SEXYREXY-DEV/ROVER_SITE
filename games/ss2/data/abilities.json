@@ -397,8 +397,8 @@
     },
     {
         "Name": "Steadfast",
-        "Description": "Deals 30% more move damage to Pok\u00c3\u00a9mon slower than it.",
-        "FullDesc": "User deals 1.3x damage to targets that have a lower Speed stat than it (does not take into account stat stages nor other Speed modifiers)."
+        "Description": "Deals 30% more move damage to Pok\u00c3\u00a9mon that haven't acted.",
+        "FullDesc": "When user moves before their target, their moves deal 1.3x damage."
     },
     {
         "Name": "Snow Cloak",
@@ -697,8 +697,8 @@
     },
     {
         "Name": "Big Pecks",
-        "Description": "Prevents other Pok\u00c3\u00a9mon from lowering Defense.",
-        "FullDesc": "User's Defense stat cannot be lowered by other Pok\u00c3\u00a9mon."
+        "Description": "30% more damage to foes below half HP.",
+        "FullDesc": "User's moves deal 1.3x damage against targets that are below half HP."
     },
     {
         "Name": "Sand Rush",
@@ -708,7 +708,7 @@
     {
         "Name": "Wonder Skin",
         "Description": "Makes status-changing moves more likely to miss.",
-        "FullDesc": "Lowers the Accuracy of any Status moves used against the user to 50%."
+        "FullDesc": "Lowers the base Accuracy of any Status moves used against the user to 50%. Does not affect moves that already have 50% or lower Accuracy, nor moves that cannot miss."
     },
     {
         "Name": "Analytic",
@@ -821,6 +821,10 @@
         "Name": "Bulletproof",
         "Description": "Protects the Pok\u00c3\u00a9mon from some ball and bomb moves.",
         "FullDesc": "User is immune to moves with the Bomb flag."
+    },
+    {
+        "Name": "Bunker Down",
+        "Description": "Self-destructing leavers the user at 1 HP."
     },
     {
         "Name": "Competitive",
@@ -1345,11 +1349,13 @@
     },
     {
         "Name": "Leeching Fangs",
-        "Description": "Restores 1/8 life with every biting contact move."
+        "Description": "Restores 1/8 life with every biting contact move.",
+        "FullDesc": "When the user damages a target with moves that have both the Biting and Contact flags, they recover HP equal to 1/8 of their target's max HP."
     },
     {
         "Name": "Ethereal",
-        "Description": "Shields the Pok\u00c3\u00a9mon from one contact move."
+        "Description": "Shields the Pok\u00c3\u00a9mon from one contact move.",
+        "FullDesc": "User will be immune to the first contact move they are hit with. This shield is restored on switch-out."
     },
     {
         "Name": "Sharp Shooter",

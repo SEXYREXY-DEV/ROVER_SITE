@@ -1253,5 +1253,33 @@
     {
         "Name": "Delicious",
         "Description": "The Pok\u00c3\u00a9mon is irresistibly tasty looking."
+    },
+    {
+        "Name": "Reflection",
+        "Description": "The Pok\u00c3\u00a9mon reflects special damage back at the opponent."
+    },
+    {
+        "Name": "Dish Out",
+        "Description": "Causes this Pok\u00c3\u00a9mon to take less damage if the opponent uses the same category of move that this Pok\u00c3\u00a9mon has already used."
+    },
+    {
+        "Name": "Auditory Illusion",
+        "Description": "Sound based moves become the primary type of your final slot and gain a chance to confuse"
+    },
+    {
+        "Name": "Holy Idol",
+        "Description": "This Pok\u00c3\u00a9mon cannot receive non-direct damage, and is immune to confusion."
+    },
+    {
+        "Name": "Mood Shift",
+        "Description": "This Pok\u00c3\u00a9mon changes form per status condition, and does not receive the stat drop of frostbite."
+    },
+    {
+        "Name": "Self Conscious",
+        "Description": "This Pok\u00c3\u00a9mon switches out whenever a stat is lowered"
+    },
+    {
+        "Name": "Invulnerability",
+        "Description": "Enemy pokemon cannot be harmed by attacking moves"
     }
 ]

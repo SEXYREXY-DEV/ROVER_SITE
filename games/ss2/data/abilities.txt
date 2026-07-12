@@ -398,8 +398,8 @@ FullDesc = User's moves deal 1.25x damage against targets that share at least on
 #-------------------------------
 [STEADFAST]
 Name = Steadfast
-Description = Deals 30% more move damage to Pokémon slower than it.
-FullDesc = User deals 1.3x damage to targets that have a lower Speed stat than it (does not take into account stat stages nor other Speed modifiers).
+Description = Deals 30% more move damage to Pokémon that haven't acted.
+FullDesc = When user moves before their target, their moves deal 1.3x damage.
 #-------------------------------
 [SNOWCLOAK]
 Name = Snow Cloak
@@ -698,8 +698,8 @@ FullDesc = User recovers 33% of their max HP when switched out.
 #-------------------------------
 [BIGPECKS]
 Name = Big Pecks
-Description = Prevents other Pokémon from lowering Defense.
-FullDesc = User's Defense stat cannot be lowered by other Pokémon.
+Description = 30% more damage to foes below half HP.
+FullDesc = User's moves deal 1.3x damage against targets that are below half HP.
 #-------------------------------
 [SANDRUSH]
 Name = Sand Rush
@@ -709,7 +709,7 @@ FullDesc = User's Speed stat is doubled during a Sandstorm. User takes no damage
 [WONDERSKIN]
 Name = Wonder Skin
 Description = Makes status-changing moves more likely to miss.
-FullDesc = Lowers the Accuracy of any Status moves used against the user to 50%.
+FullDesc = Lowers the base Accuracy of any Status moves used against the user to 50%. Does not affect moves that already have 50% or lower Accuracy, nor moves that cannot miss.
 #-------------------------------
 [ANALYTIC]
 Name = Analytic
@@ -822,6 +822,10 @@ FullDesc = When user is not holding an item and attacks a target, user steals th
 Name = Bulletproof
 Description = Protects the Pokémon from some ball and bomb moves.
 FullDesc = User is immune to moves with the Bomb flag.
+#-------------------------------
+[BUNKERDOWN]
+Name = Bunker Down
+Description = Self-destructing leavers the user at 1 HP.
 #-------------------------------
 [COMPETITIVE]
 Name = Competitive
@@ -1357,10 +1361,12 @@ Description = Ups Def and SpDef if a hit makes its HP <50%.
 [LEECHINGFANGS]
 Name = Leeching Fangs
 Description = Restores 1/8 life with every biting contact move.
+FullDesc = When the user damages a target with moves that have both the Biting and Contact flags, they recover HP equal to 1/8 of their target's max HP.
 #-------------------------------
 [ETHEREAL]
 Name = Ethereal
 Description = Shields the Pokémon from one contact move.
+FullDesc = User will be immune to the first contact move they are hit with. This shield is restored on switch-out.
 #-------------------------------
 [SHARPSHOOTER]
 Name = Sharp Shooter

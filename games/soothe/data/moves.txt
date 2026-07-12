@@ -1604,6 +1604,19 @@ Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 10
 Description = The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
 #-------------------------------
+[FAESMASH]
+Name = Fae Smash
+Type = FIGHTING
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user smashes into the target. This may also lower the target's defense stat.
+#-------------------------------
 [STRANGESTEAM]
 Name = Strange Steam
 Type = FAIRY
@@ -9979,8 +9992,7 @@ Description = The user strikes the target with a Sweet lash. This also lowers th
 #-------------------------------
 [BREAKAWAY]
 Name = Breakaway
-Abilities = WEAKARMOR,MIRRORARMOR
-HiddenAbilities = CURSEDBODY
+Type = MIRROR
 Category = Status
 Accuracy = 100
 TotalPP = 20
@@ -9989,15 +10001,162 @@ FunctionCode = LowerTargetAccuracy1SwitchOutUser
 Flags = CanProtect,CanMirrorMove,Sound
 Description = The user breaks away from the battle, lowering the targets accuracy with mirrors.
 #-------------------------------
-[LUCKYWIND]
-Name = Lucky Wind
+[WINDFALL]
+Name = Windfall
 Type = FLYING
 Category = Special
-Power = 65
+Power = 50
 Accuracy = 100
 TotalPP = 20
 Target = NearOther
-FunctionCode = RaiseUserCriticalHitRate1
+FunctionCode = CantSelectConsecutiveTurnsNextMoveUpCritChance
 Flags = NoContact,CanProtect,CanMirrorMove,Wind
 EffectChance = 30
-Description = The user flaps it's wings, releasing a burst of wind that can increase their chance of critical hits.
+Description = The user flaps it's wings, calling a burst of wind that increases their chance of critical hits next turn, but cannot be selected twice.
+#-------------------------------
+[SINGE]
+Name = Singe
+Type = FIRE
+Category = Physical
+Power = 45
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user heats a limb with friction before forcing it onto the opponent. It may also leave the target with a burn.
+#-------------------------------
+[SLINGSHOT]
+Name = Slingshot
+Type = ROCK
+Category = Special
+Power = 45
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user launches a pebble at it's opponent. This may also confuse the target.
+#-------------------------------
+[BRASSKNUCKLE]
+Name = Brass Knuckle
+Type = STEEL
+Category = Physical
+Power = 45
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user attacks it's opponent with a brass enforced fist. This may also cause the target to flinch.
+#-------------------------------
+[MIRRORBEAM]
+Name = Mirror Beam
+Type = MIRROR
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user reflects specific light waves at the target for offensive purposes.
+#-------------------------------
+[MIRRORBREAK]
+Name = Mirror Break
+Type = MIRROR
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user reflects metaphysical elements and solidifies them to attack the target.
+#-------------------------------
+[SHATTERHEART]
+Name = Shatter Heart
+Type = MIRROR
+Category = Physical
+Power = 60
+Accuracy = 0
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks through alternative planes to hit the target. This move will always hit.
+#-------------------------------
+[SHATTERSTORM]
+Name = Shatter Storm
+Type = MIRROR
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = AllFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user reflects pieces of alternative planes towards their foes. This move hits all enemy targets.
+#-------------------------------
+[DRAGONLASH]
+Name = Dragon Lash
+Type = DRAGON
+Category = Physical
+Power = 45
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoTimesTargetThenTargetAlly
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks twice using two long appendages like whips.
+#-------------------------------
+[SUDSYSLAM]
+Name = Sudsy Slam
+Type = WATER
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RemoveScreens
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user uses bubbles it produces to slide into the opponent, cleaning away any screens on that side of the field.
+#-------------------------------
+[LASTWAIL]
+Name = Last Wail
+Type = GHOST
+Category = Special
+Power = 130
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpAtk2
+Flags = CanProtect,CanMirrorMove,Sound
+Description = The user attacks the target at full power. The attack's recoil sharply reduces the user's Sp. Atk stat.
+#-------------------------------
+[REPRISE]
+Name = Reprise
+Type = MIRROR
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = AllFoes
+FunctionCode = MirrorsStatusCondition
+Flags = CanProtect,CanMirrorMove
+Description = The user reflects it's own status codition onto the opponent
+#-------------------------------
+[CHEAPSHOT]
+Name = Cheap Shot
+Type = DARK
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RemoveScreens
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user catches its foe off guard, breaking down any screens they have in front of them.

@@ -803,6 +803,16 @@ BPPrice = 25
 Flags = Fling_60
 Description = If the holder of this item takes damage, the attacker will also be damaged upon contact.
 #-------------------------------
+[TINFOILHAT]
+Name = Tinfoil Hat
+NamePlural = Tinfoil Hats
+Pocket = 1
+Price = 3000
+SellPrice = 2000
+BPPrice = 25
+Flags = Fling_60
+Description = If the holder of this item takes special damage, the attacker will also be damaged via refraction.
+#-------------------------------
 [ASSAULTVEST]
 Name = Assault Vest
 NamePlural = Assault Vests
@@ -1402,6 +1412,15 @@ Price = 4000
 BPPrice = 16
 Flags = Fling_30
 Description = An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.
+#-------------------------------
+[FROSTORB]
+Name = Frost Orb
+NamePlural = Frost Orbs
+Pocket = 1
+Price = 4000
+BPPrice = 16
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a bizarre orb that freezes the holder in battle.
 #-------------------------------
 [STICKYBARB]
 Name = Sticky Barb
@@ -5390,13 +5409,13 @@ Price = 20
 Flags = Berry,Fling_10,NaturalGift_WATER_90
 Description = In the Sinnoh region, they like to make sweets known as Poffins with this Berry.
 #-------------------------------
-[WEPEARBERRY]
-Name = Wepear Berry
-NamePlural = Wepear Berries
-Pocket = 5
-Price = 20
-Flags = Berry,Fling_10,NaturalGift_ELECTRIC_90
-Description = In the Sinnoh region, they like to make sweets known as Poffins with this Berry.
+#[WEPEARBERRY]
+#Name = Wepear Berry
+#NamePlural = Wepear Berries
+#Pocket = 5
+#Price = 20
+#Flags = Berry,Fling_10,NaturalGift_ELECTRIC_90
+#Description = In the Sinnoh region, they like to make sweets known as Poffins with this Berry.
 #-------------------------------
 [PINAPBERRY]
 Name = Pinap Berry
@@ -5508,13 +5527,13 @@ Price = 20
 Flags = Berry,Fling_10,NaturalGift_STEEL_90
 Description = In the Sinnoh region, they like to make sweets known as Poffins with this Berry.
 #-------------------------------
-[WATMELBERRY]
-Name = Watmel Berry
-NamePlural = Watmel Berries
-Pocket = 5
-Price = 20
-Flags = Berry,Fling_10,NaturalGift_FIRE_100
-Description = In the Sinnoh region, they like to make sweets known as Poffins with this Berry.
+#[WATMELBERRY]
+#Name = Watmel Berry
+#NamePlural = Watmel Berries
+#Pocket = 5
+#Price = 20
+#Flags = Berry,Fling_10,NaturalGift_FIRE_100
+#Description = In the Sinnoh region, they like to make sweets known as Poffins with this Berry.
 #-------------------------------
 [DURINBERRY]
 Name = Durin Berry
@@ -5674,7 +5693,7 @@ NamePlural = Chilan Berries
 Pocket = 5
 Price = 20
 Flags = Berry,Fling_10,NaturalGift_NORMAL_80
-Description = Weakens a Normal-type attack against the Pokémon holding this berry.
+Description = Weakens a supereffective Normal-type attack against the Pokémon holding this berry.
 #-------------------------------
 [LIECHIBERRY]
 Name = Liechi Berry
@@ -7124,7 +7143,7 @@ NamePlural = Briar's Books
 Pocket = 8
 Price = 0
 Flags = KeyItem
-Description = A proof copy of the exploration notes, along with Briar's thoughts covering the Area Zero Underdepths.
+Description = A proof copy of the exploration notes, along with Briar's thoughts covering the Area Zero Underdepths.F
 #-------------------------------
 [ODDDISC]
 Name = Odd Disc
@@ -7149,3 +7168,118 @@ Pocket = 1
 Price = 5
 Flags = Fling_60
 Description = A very flammable ball of paper.
+#-------------------------------
+[EXPALL]
+Name = Exp Share
+NamePlural = Exp Shares
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = ON.
+#-------------------------------
+[EXPALLOFF]
+Name = Exp Share
+NamePlural = Exp Shares
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = OFF.
+#-------------------------------
+[MIRRORGEM]
+Name = Mirror Gem
+NamePlural = Mirror Gems
+Pocket = 1
+Price = 4000
+Flags = TypeGem
+Description = A gem with an essence of mirrors. When held, it strengthens the power of a Mirror-type move only once.
+#-------------------------------
+[POLISHINGCLOTH]
+Name = Polishing Cloth
+NamePlural = Mystic Waters
+Pocket = 1
+Price = 3000
+SellPrice = 500
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a reflective cloth that ups the power of Mirror-type moves.
+#-------------------------------
+[MIRRORPLATE]
+Name = Mirror Plate
+NamePlural = Mirror Plates
+Pocket = 1
+Price = 10000
+SellPrice = 500
+Flags = Fling_90
+Description = An item to be held by a Pokémon. It is a stone tablet that boosts the power of Mirror-type moves.
+#-------------------------------
+[WATMELBERRY]
+Name = Watmel Berry
+NamePlural = Watmel Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_MIRROR_80
+Description = Weakens a supereffective Mirror-type attack against the Pokémon holding this berry.
+#-------------------------------
+[ANCESTRALLEAF]
+Name = Ancestral leaf
+NamePlural = Ancestral leaves
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A leaf fallen from a tree that has lived for generations, the Pokémon Tropius seems to have some sort of bond to it.
+#-------------------------------
+[REPELCHARM]
+Name = Repel Charm
+NamePlural = Repel Charms
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = A mysterious charm, that when flipped to show its face, seems to drive off wild pokemon.
+#-------------------------------
+[REPELCHARMOFF]
+Name = Repel Charm (Off)
+NamePlural = Repel Charms
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = A mysterious charm, that when flipped to show its face, seems to drive off wild pokemon.
+#-------------------------------
+[POKESALTSMACHINE]
+Name = PokeSalts Machine
+NamePlural = PokeSalts Machines
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = A machine that produces various scented salts to ward off pokemon you have pokedex data for.
+#-------------------------------
+[POKESALTSMACHINEOFF]
+Name = PokeSalts Machine
+NamePlural = PokeSalts Machines
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = A machine that produces various scented salts to ward off pokemon you have pokedex data for.
+#-------------------------------
+[STRENGTHITEM]
+Name = Hariyama-Hand
+NamePlural = Hariyama-Hands
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = An old tool used to push heavy items, it's themed off a certain pokemon
+#-------------------------------
+[DEATHORBHALF]
+Name = Death Orb
+NamePlural = Death Orb
+Pocket = 1
+Price = 10
+BPPrice = 10
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It reduces the users HP by half each turn.

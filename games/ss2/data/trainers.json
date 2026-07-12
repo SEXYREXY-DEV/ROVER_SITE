@@ -6788,7 +6788,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "8,252,0,252,0,0",
                 "Ball": "PREMIERBALL"
             },
             {
@@ -6812,7 +6812,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "8,0,0,252,252,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -6836,7 +6836,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "8,0,0,252,252,0",
                 "Ball": "SUPERBALL"
             },
             {
@@ -6860,7 +6860,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "8,0,0,252,252,0",
                 "Ball": "SUPERBALL"
             },
             {
@@ -6870,7 +6870,7 @@
                 "Moves": [
                     "FISHIOUSREND",
                     "DRAGONDANCE",
-                    "ELECTRONCRUSH",
+                    "VOLTTACKLE",
                     "FRENZY"
                 ],
                 "Nature": "JOLLY",
@@ -6884,7 +6884,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "8,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -6908,7 +6908,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "8,0,0,252,252,0",
                 "Ball": "HEALBALL",
                 "Name": "Aki"
             }
@@ -7224,6 +7224,7 @@
             {
                 "Species": "BASCULEGION",
                 "Level": 76,
+                "Form": "1",
                 "Gender": "male",
                 "Moves": [
                     "WATERPRESSURE",
@@ -8676,7 +8677,7 @@
                 "Level": 9,
                 "Gender": "female",
                 "Moves": [
-                    "SPARKLE",
+                    "LUMINESCENCE",
                     "CRYSTALDUST",
                     "IRRITANT",
                     "DARKWHISPERS"
@@ -9020,18 +9021,18 @@
                 "Ball": "PREMIERBALL"
             },
             {
-                "Species": "FLETCHLING",
+                "Species": "CHEWTLE",
                 "Level": 12,
                 "Gender": "female",
                 "Moves": [
-                    "PECK",
                     "LEER",
-                    "STATICSHOCK",
-                    "QUICKATTACK"
+                    "SNAPTRAP",
+                    "WITHDRAW",
+                    "ACCELEROCK"
                 ],
                 "Nature": "NAUGHTY",
-                "AbilityIndex": 1,
-                "Item": "MAGNET",
+                "AbilityIndex": 0,
+                "Item": "CHOPLEBERRY",
                 "IV": [
                     16,
                     16,
@@ -9169,14 +9170,14 @@
                 "Ball": "PREMIERBALL"
             },
             {
-                "Species": "SNOVER",
+                "Species": "ROCKRUFF",
                 "Level": 12,
                 "Gender": "female",
                 "Moves": [
-                    "STUFFCHEEKS",
-                    "ESSENCEBLOOM",
-                    "SANDTOMB",
-                    "RECYCLE"
+                    "METEORDRIVE",
+                    "HOWL",
+                    "TACKLE",
+                    "ENDEAVOR"
                 ],
                 "Nature": "IMPISH",
                 "AbilityIndex": 1,
@@ -9189,21 +9190,21 @@
                     16,
                     16
                 ],
-                "EV": "252,252,0,0,0,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "GREATBALL"
             },
             {
-                "Species": "ELEKID",
+                "Species": "PANPOUR",
                 "Level": 12,
                 "Gender": "male",
                 "Moves": [
-                    "MACHPUNCH",
-                    "POUND",
-                    "ROLLOUT",
-                    "BIDE"
+                    "MINERALWAVE",
+                    "STONEGAZE",
+                    "SMACKDOWN",
+                    "SNARL"
                 ],
-                "Nature": "JOLLY",
-                "AbilityIndex": 0,
+                "Nature": "TIMID",
+                "AbilityIndex": 1,
                 "Item": "ORANBERRY",
                 "Shiny": true,
                 "IV": [
@@ -9214,7 +9215,7 @@
                     16,
                     16
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "0,0,0,252,252,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -10930,7 +10931,7 @@
                 "Gender": "female",
                 "Moves": [
                     "DRENCH",
-                    "RECOVER",
+                    "WISH",
                     "KARMASPELL",
                     "PSYBEAM"
                 ],
@@ -11082,7 +11083,7 @@
                     "TOXIC",
                     "KNOCKOFF"
                 ],
-                "Nature": "BOLD",
+                "Nature": "IMPISH",
                 "AbilityIndex": 1,
                 "Item": "LEFTOVERS",
                 "IV": [
@@ -11093,7 +11094,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,0,0,252,0"
+                "EV": "252,252,0,0,0,0"
             },
             {
                 "Species": "STEENEE2",
@@ -11942,6 +11943,7 @@
             {
                 "Species": "BASCULEGION",
                 "Level": 40,
+                "Form": "1",
                 "Gender": "male",
                 "Moves": [
                     "CRUNCH",
@@ -12476,7 +12478,7 @@
                     31,
                     31
                 ],
-                "EV": "0,128,128,252,0,0",
+                "EV": "0,126,126,252,0,0",
                 "Ball": "NETBALL"
             },
             {
@@ -12548,7 +12550,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,0,128,128,0",
+                "EV": "252,0,0,126,126,0",
                 "Ball": "NETBALL"
             },
             {
@@ -12572,7 +12574,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,128,252,128,0",
+                "EV": "0,0,126,252,126,0",
                 "Ball": "ULTRABALL"
             }
         ]
@@ -12605,7 +12607,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,128,128",
+                "EV": "0,0,0,252,126,126",
                 "Ball": "DUSKBALL"
             },
             {
@@ -12629,7 +12631,7 @@
                     31,
                     31
                 ],
-                "EV": "0,128,128,252,0,0",
+                "EV": "0,126,126,252,0,0",
                 "Ball": "ULTRABALL"
             },
             {
@@ -12744,7 +12746,7 @@
                 "Moves": [
                     "COBALTRAY",
                     "FOULPLAY",
-                    "ICYWIND",
+                    "PEEKABOO",
                     "KNOCKOFF"
                 ],
                 "Nature": "CALM",
@@ -12806,7 +12808,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,128,128",
+                "EV": "252,126,0,0,0,126",
                 "Ball": "ULTRABALL"
             },
             {
@@ -12853,7 +12855,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "252,252,0,0,0,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -12861,14 +12863,14 @@
                 "Level": 52,
                 "Gender": "male",
                 "Moves": [
-                    "GAIAPULSE",
-                    "PHOTONGEYSER",
+                    "MOONSTONERAY",
+                    "SWEEPINGWIND",
                     "EARTHPOWER",
                     "REVITALIZE"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "LIFEORB",
+                "Item": "POWERHERB",
                 "IV": [
                     31,
                     31,
@@ -12877,7 +12879,7 @@
                     31,
                     31
                 ],
-                "EV": "0,128,0,252,128,0",
+                "EV": "252,0,0,0,252,0",
                 "Ball": "DUSKBALL"
             }
         ]
@@ -12909,7 +12911,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,128,128",
+                "EV": "0,0,0,252,126,126",
                 "Ball": "SUPERBALL"
             },
             {
@@ -13005,7 +13007,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,128,128",
+                "EV": "0,0,0,252,126,126",
                 "Ball": "SUPERBALL"
             },
             {
@@ -13029,7 +13031,7 @@
                     31,
                     31
                 ],
-                "EV": "0,128,128,252,0,0",
+                "EV": "0,126,126,252,0,0",
                 "Ball": "SUPERBALL"
             }
         ]
@@ -13745,7 +13747,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,128,252,0,128"
+                "EV": "0,0,126,252,0,126"
             },
             {
                 "Species": "REUNICLUS",
@@ -13791,7 +13793,7 @@
                     31,
                     31
                 ],
-                "EV": "128,128,0,252,0,0"
+                "EV": "126,126,0,252,0,0"
             },
             {
                 "Species": "GARDEVOIR2",
@@ -13860,7 +13862,7 @@
                     31,
                     31
                 ],
-                "EV": "128,0,0,252,128,0",
+                "EV": "126,0,0,252,126,0",
                 "Ball": "PREMIERBALL"
             }
         ]
@@ -13905,7 +13907,7 @@
                     "TOXIC",
                     "KNOCKOFF"
                 ],
-                "Nature": "BOLD",
+                "Nature": "IMPISH",
                 "AbilityIndex": 1,
                 "Item": "LEFTOVERS",
                 "IV": [
@@ -13916,7 +13918,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,0,0,252,0"
+                "EV": "252,252,0,0,0,0"
             },
             {
                 "Species": "TSAREENA2",
@@ -13939,7 +13941,7 @@
                     31,
                     31
                 ],
-                "EV": "128,128,0,252,0,0"
+                "EV": "126,126,0,252,0,0"
             },
             {
                 "Species": "ZEBSTRIKA",
@@ -13962,7 +13964,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,128,128"
+                "EV": "0,0,0,252,126,126"
             },
             {
                 "Species": "MEGANIUM2",
@@ -14110,7 +14112,7 @@
                     31,
                     31
                 ],
-                "EV": "128,128,0,252,0,0"
+                "EV": "126,126,0,252,0,0"
             },
             {
                 "Species": "SLAKING",
@@ -14258,7 +14260,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,128,128",
+                "EV": "0,0,0,252,126,126",
                 "Ball": "PREMIERBALL"
             },
             {
@@ -14305,7 +14307,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,128,128"
+                "EV": "0,0,0,252,126,126"
             }
         ]
     },
@@ -16854,7 +16856,7 @@
                 "Gender": "male",
                 "Moves": [
                     "TAILGLOW",
-                    "ETHEREALBURST",
+                    "STRANGESTEAM",
                     "HURRICANE",
                     "DAZZLINGGLEAM"
                 ],
@@ -19274,11 +19276,11 @@
                     "PAINSPLIT",
                     "SPOIL",
                     "SPIRITBREAK",
-                    "LIGHTSCREEN"
+                    "REFLECT"
                 ],
                 "Nature": "CAREFUL",
                 "AbilityIndex": 1,
-                "Item": "LEFTOVERS",
+                "Item": "REDCARD",
                 "IV": [
                     31,
                     31,
@@ -19368,7 +19370,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,252,0,0,0",
+                "EV": "252,252,0,0,0,0",
                 "Ball": "MASTERBALL"
             },
             {
@@ -20143,7 +20145,7 @@
                 "Level": 77,
                 "Gender": "male",
                 "Moves": [
-                    "BOOMBURST",
+                    "HYPERVOICE",
                     "DARKRECITAL",
                     "SPARKLINGARIA",
                     "BUGBUZZ"
@@ -20764,7 +20766,7 @@
                     "TOXIC",
                     "KNOCKOFF"
                 ],
-                "Nature": "BOLD",
+                "Nature": "IMPISH",
                 "AbilityIndex": 1,
                 "Item": "LEFTOVERS",
                 "IV": [
@@ -20775,7 +20777,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,0,0,252,0"
+                "EV": "252,252,0,0,0,0"
             },
             {
                 "Species": "TSAREENA2",
@@ -21569,7 +21571,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,0,252,0,0",
+                "EV": "252,252,0,0,0,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -21626,314 +21628,6 @@
         "Type": "CONCLAVE_Aldric",
         "Name": "Aldric",
         "Number": 1,
-        "Items": "TETRAPOTION,TETRAPOTION,OFFENSEVIAL,MEGARING",
-        "LoseText": "The Conclave will make you pay!",
-        "Pokemon": [
-            {
-                "Species": "SUNFLORA",
-                "Level": 84,
-                "Gender": "male",
-                "Moves": [
-                    "WEATHERBALL",
-                    "SOLARBEAM",
-                    "POLLENPUFF",
-                    "SYNTHESIS"
-                ],
-                "Nature": "MODEST",
-                "AbilityIndex": 2,
-                "Item": "HEATROCK",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "252,0,0,0,252,0",
-                "Ball": "PREMIERBALL"
-            },
-            {
-                "Species": "PRISMEON",
-                "Level": 84,
-                "Gender": "male",
-                "Moves": [
-                    "SOLARBEAM",
-                    "PHOTONGEYSER",
-                    "WEATHERBALL",
-                    "BEJEWELED"
-                ],
-                "Nature": "TIMID",
-                "AbilityIndex": 0,
-                "Item": "LIFEORB",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,0,0,252,252,0",
-                "Ball": "PREMIERBALL"
-            },
-            {
-                "Species": "LILLIGANT",
-                "Level": 84,
-                "Gender": "female",
-                "Moves": [
-                    "FLAMETHROWER",
-                    "ETHEREALBURST",
-                    "BURNINGOFUDA",
-                    "HYPERVOICE"
-                ],
-                "Nature": "TIMID",
-                "AbilityIndex": 1,
-                "Item": "GHOSTGEM",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,0,0,252,252,0",
-                "Ball": "ULTRABALL"
-            },
-            {
-                "Species": "LAPRAS",
-                "Level": 84,
-                "Gender": "male",
-                "Moves": [
-                    "NASTYPLOT",
-                    "HYDROSTEAM",
-                    "MAGMASTORM",
-                    "STONESURGE"
-                ],
-                "Nature": "CALM",
-                "AbilityIndex": 1,
-                "Item": "SHUCABERRY",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "252,0,0,0,252,0",
-                "Ball": "PREMIERBALL"
-            },
-            {
-                "Species": "EXPLOUD",
-                "Level": 84,
-                "Gender": "male",
-                "Moves": [
-                    "CLANGOROUSSOUL",
-                    "PARABOLICCHARGE",
-                    "HYPERVOICE",
-                    "EARTHPOWER"
-                ],
-                "Nature": "MODEST",
-                "AbilityIndex": 0,
-                "Item": "EXPLOUDINITE",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "252,0,0,0,252,0",
-                "Ball": "PREMIERBALL"
-            },
-            {
-                "Species": "SAWSBUCK",
-                "Level": 84,
-                "Gender": "male",
-                "Moves": [
-                    "FLAREBLITZ",
-                    "HIGHJUMPKICK",
-                    "HORNLEECH",
-                    "MORNINGSUN"
-                ],
-                "Nature": "JOLLY",
-                "AbilityIndex": 0,
-                "Item": "SAWSBUCKITE",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,252,0,252,0,0",
-                "Ball": "SUPERBALL"
-            }
-        ]
-    },
-    {
-        "Type": "CONCLAVE_Aldric",
-        "Name": "Aldric",
-        "Number": 2,
-        "Items": "TETRAPOTION,TETRAPOTION,OFFENSEVIAL,MEGARING",
-        "LoseText": "The Conclave will make you pay!",
-        "Pokemon": [
-            {
-                "Species": "PRIMARINA",
-                "Level": 84,
-                "Gender": "female",
-                "Moves": [
-                    "GIGADRAIN",
-                    "STARDUSTREVERIE",
-                    "TITANIASLAW",
-                    "EARTHPOWER"
-                ],
-                "Nature": "TIMID",
-                "AbilityIndex": 2,
-                "Item": "TERRAINEXTENDER",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,0,0,0,252,252",
-                "Ball": "PREMIERBALL"
-            },
-            {
-                "Species": "MEOWSTIC",
-                "Level": 84,
-                "Form": "1",
-                "Gender": "male",
-                "Moves": [
-                    "OVERHEAT",
-                    "PSYCHIC",
-                    "UMBRALWAVE",
-                    "FOCUSBLAST"
-                ],
-                "Nature": "MODEST",
-                "AbilityIndex": 2,
-                "Item": "CHOICESPECS",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,0,0,252,252,0",
-                "Ball": "PREMIERBALL"
-            },
-            {
-                "Species": "DRAGALGE",
-                "Level": 84,
-                "Gender": "female",
-                "Moves": [
-                    "TIDALWAVE",
-                    "LEAFSTORM",
-                    "SLUDGEBOMB",
-                    "ICEBEAM"
-                ],
-                "Nature": "TIMID",
-                "AbilityIndex": 0,
-                "Item": "LIFEORB",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,0,0,252,252,0",
-                "Ball": "PREMIERBALL"
-            },
-            {
-                "Species": "AVALUGG2",
-                "Level": 84,
-                "Gender": "male",
-                "Moves": [
-                    "GRASSYGLIDE",
-                    "THOUSANDWAVES",
-                    "STRENGTHSAP",
-                    "BULKUP"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 1,
-                "Item": "LIECHIBERRY",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "252,252,0,0,0,0",
-                "Ball": "ULTRABALL"
-            },
-            {
-                "Species": "SLOWKING",
-                "Level": 84,
-                "Gender": "male",
-                "Moves": [
-                    "DEFENDORDER",
-                    "FOCUSBLAST",
-                    "ENERGYBALL",
-                    "BUTTERFLYKISS"
-                ],
-                "Nature": "IMPISH",
-                "AbilityIndex": 0,
-                "Item": "SLOWKINGITE",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "252,0,0,0,252,0",
-                "Ball": "PREMIERBALL"
-            },
-            {
-                "Species": "GOTHITELLE",
-                "Level": 84,
-                "Gender": "female",
-                "Moves": [
-                    "CLOSECOMBAT",
-                    "PLAYROUGH",
-                    "IRONIMPACT",
-                    "AMBUSH"
-                ],
-                "Nature": "JOLLY",
-                "Name": "Harley",
-                "AbilityIndex": 1,
-                "Item": "GOTHITELLITE",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,252,0,252,0,0",
-                "Ball": "ULTRABALL"
-            }
-        ]
-    },
-    {
-        "Type": "CONCLAVE_Aldric",
-        "Name": "Aldric",
-        "Number": 3,
         "Items": "TETRAPOTION,TETRAPOTION,OFFENSEVIAL,MEGARING",
         "LoseText": "The Conclave will make you pay!",
         "Pokemon": [
@@ -22080,6 +21774,314 @@
                 ],
                 "EV": "0,252,0,252,0,0",
                 "Ball": "ULTRABALL"
+            }
+        ]
+    },
+    {
+        "Type": "CONCLAVE_Aldric",
+        "Name": "Aldric",
+        "Number": 2,
+        "Items": "TETRAPOTION,TETRAPOTION,OFFENSEVIAL,MEGARING",
+        "LoseText": "The Conclave will make you pay!",
+        "Pokemon": [
+            {
+                "Species": "PRIMARINA",
+                "Level": 84,
+                "Gender": "female",
+                "Moves": [
+                    "GIGADRAIN",
+                    "FAESBLESSING",
+                    "TITANIASLAW",
+                    "EARTHPOWER"
+                ],
+                "Nature": "TIMID",
+                "AbilityIndex": 2,
+                "Item": "LEFTOVERS",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "0,0,0,0,252,252",
+                "Ball": "PREMIERBALL"
+            },
+            {
+                "Species": "MEOWSTIC",
+                "Level": 84,
+                "Form": "1",
+                "Gender": "male",
+                "Moves": [
+                    "OVERHEAT",
+                    "PSYCHIC",
+                    "UMBRALWAVE",
+                    "FOCUSBLAST"
+                ],
+                "Nature": "MODEST",
+                "AbilityIndex": 2,
+                "Item": "CHOICESPECS",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "0,0,0,252,252,0",
+                "Ball": "PREMIERBALL"
+            },
+            {
+                "Species": "DRAGALGE",
+                "Level": 84,
+                "Gender": "female",
+                "Moves": [
+                    "TIDALWAVE",
+                    "LEAFSTORM",
+                    "SLUDGEBOMB",
+                    "ICEBEAM"
+                ],
+                "Nature": "TIMID",
+                "AbilityIndex": 0,
+                "Item": "LIFEORB",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "0,0,0,252,252,0",
+                "Ball": "PREMIERBALL"
+            },
+            {
+                "Species": "AVALUGG2",
+                "Level": 84,
+                "Gender": "male",
+                "Moves": [
+                    "GRASSYGLIDE",
+                    "THOUSANDWAVES",
+                    "STRENGTHSAP",
+                    "BULKUP"
+                ],
+                "Nature": "ADAMANT",
+                "AbilityIndex": 1,
+                "Item": "LIECHIBERRY",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,252,0,0,0,0",
+                "Ball": "ULTRABALL"
+            },
+            {
+                "Species": "SLOWKING",
+                "Level": 84,
+                "Gender": "male",
+                "Moves": [
+                    "DEFENDORDER",
+                    "FOCUSBLAST",
+                    "ENERGYBALL",
+                    "BUTTERFLYKISS"
+                ],
+                "Nature": "IMPISH",
+                "AbilityIndex": 0,
+                "Item": "SLOWKINGITE",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,0,0,0,252,0",
+                "Ball": "PREMIERBALL"
+            },
+            {
+                "Species": "GOTHITELLE",
+                "Level": 84,
+                "Gender": "female",
+                "Moves": [
+                    "CLOSECOMBAT",
+                    "PLAYROUGH",
+                    "IRONIMPACT",
+                    "AMBUSH"
+                ],
+                "Nature": "JOLLY",
+                "Name": "Harley",
+                "AbilityIndex": 1,
+                "Item": "GOTHITELLITE",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "0,252,0,252,0,0",
+                "Ball": "ULTRABALL"
+            }
+        ]
+    },
+    {
+        "Type": "CONCLAVE_Aldric",
+        "Name": "Aldric",
+        "Number": 3,
+        "Items": "TETRAPOTION,TETRAPOTION,OFFENSEVIAL,MEGARING",
+        "LoseText": "The Conclave will make you pay!",
+        "Pokemon": [
+            {
+                "Species": "SUNFLORA",
+                "Level": 84,
+                "Gender": "male",
+                "Moves": [
+                    "WEATHERBALL",
+                    "SOLARBEAM",
+                    "POLLENPUFF",
+                    "SYNTHESIS"
+                ],
+                "Nature": "MODEST",
+                "AbilityIndex": 2,
+                "Item": "LIFEORB",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,0,0,0,252,0",
+                "Ball": "PREMIERBALL"
+            },
+            {
+                "Species": "PRISMEON",
+                "Level": 84,
+                "Gender": "male",
+                "Moves": [
+                    "SOLARBEAM",
+                    "PHOTONGEYSER",
+                    "WEATHERBALL",
+                    "BEJEWELED"
+                ],
+                "Nature": "TIMID",
+                "AbilityIndex": 0,
+                "Item": "LIFEORB",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "0,0,0,252,252,0",
+                "Ball": "PREMIERBALL"
+            },
+            {
+                "Species": "LILLIGANT",
+                "Level": 84,
+                "Gender": "female",
+                "Moves": [
+                    "FLAMETHROWER",
+                    "ETHEREALBURST",
+                    "BURNINGOFUDA",
+                    "HYPERVOICE"
+                ],
+                "Nature": "TIMID",
+                "AbilityIndex": 1,
+                "Item": "GHOSTGEM",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "0,0,0,252,252,0",
+                "Ball": "ULTRABALL"
+            },
+            {
+                "Species": "LAPRAS",
+                "Level": 84,
+                "Gender": "male",
+                "Moves": [
+                    "NASTYPLOT",
+                    "HYDROSTEAM",
+                    "MAGMASTORM",
+                    "STONESURGE"
+                ],
+                "Nature": "CALM",
+                "AbilityIndex": 1,
+                "Item": "SHUCABERRY",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,0,0,0,252,0",
+                "Ball": "PREMIERBALL"
+            },
+            {
+                "Species": "EXPLOUD",
+                "Level": 84,
+                "Gender": "male",
+                "Moves": [
+                    "CLANGOROUSSOUL",
+                    "PARABOLICCHARGE",
+                    "HYPERVOICE",
+                    "EARTHPOWER"
+                ],
+                "Nature": "MODEST",
+                "AbilityIndex": 0,
+                "Item": "EXPLOUDINITE",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,0,0,0,252,0",
+                "Ball": "PREMIERBALL"
+            },
+            {
+                "Species": "SAWSBUCK",
+                "Level": 84,
+                "Gender": "male",
+                "Moves": [
+                    "FLAREBLITZ",
+                    "HIGHJUMPKICK",
+                    "HORNLEECH",
+                    "MORNINGSUN"
+                ],
+                "Nature": "JOLLY",
+                "AbilityIndex": 0,
+                "Item": "SAWSBUCKITE",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "0,252,0,252,0,0",
+                "Ball": "SUPERBALL"
             }
         ]
     },
@@ -22287,7 +22289,7 @@
                     31,
                     31
                 ],
-                "EV": "242,252,0,0,0,0",
+                "EV": "252,252,0,0,0,0",
                 "Ball": "ULTRABALL"
             },
             {
@@ -22416,7 +22418,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,0,252,0,0",
+                "EV": "252,252,0,0,0,0",
                 "Ball": "ULTRABALL"
             },
             {
@@ -22583,9 +22585,9 @@
                     "COSMICAVATAR",
                     "PLAYROUGH"
                 ],
-                "Nature": "JOLLY",
-                "AbilityIndex": 2,
-                "Item": "FLAMEORB",
+                "Nature": "ADAMANT",
+                "AbilityIndex": 0,
+                "Item": "LIFEORB",
                 "IV": [
                     31,
                     31,
@@ -22594,7 +22596,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "252,252,0,0,0,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -23206,7 +23208,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "0,0,0,252,252,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -23406,7 +23408,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "252,252,0,0,0,0",
                 "Ball": "PREMIERBALL"
             },
             {
@@ -23607,7 +23609,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "252,0,0,0,252,0",
                 "Ball": "ULTRABALL"
             }
         ]
@@ -23780,7 +23782,7 @@
                     "SWORDSDANCE",
                     "GRASSYGLIDE",
                     "NIGHTSLASH",
-                    "SMARTBLADE"
+                    "EARTHENLANCE"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 2,
@@ -23831,7 +23833,7 @@
                     "FORTISSIMO"
                 ],
                 "Nature": "JOLLY",
-                "AbilityIndex": 1,
+                "AbilityIndex": 2,
                 "Item": "ASSAULTVEST",
                 "IV": [
                     31,
@@ -23933,11 +23935,11 @@
                     "SOLARBLADE",
                     "PYROBALL",
                     "HEATSIPHON",
-                    "HORNLEECH"
+                    "EXECUTION"
                 ],
                 "Nature": "JOLLY",
                 "AbilityIndex": 1,
-                "Item": "CHOICEBAND",
+                "Item": "LIFEORB",
                 "IV": [
                     31,
                     31,
@@ -24221,7 +24223,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,252,0,0,0",
+                "EV": "252,0,0,0,252,0",
                 "Ball": "ULTRABALL"
             }
         ]
@@ -24239,7 +24241,7 @@
                 "Gender": "male",
                 "Moves": [
                     "TRIPLEAXEL",
-                    "STONEEDGE",
+                    "ROCKSLIDE",
                     "RETURN",
                     "POWERUPPUNCH"
                 ],
@@ -24278,7 +24280,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,0,252,0,0",
+                "EV": "252,252,0,0,0,0",
                 "Ball": "PREMIERBALL"
             },
             {
@@ -24326,7 +24328,7 @@
                     31,
                     31
                 ],
-                "EV": "252,0,0,252,0,0",
+                "EV": "0,0,0,252,252,0",
                 "Ball": "ULTRABALL"
             },
             {
@@ -24642,7 +24644,7 @@
                 "Moves": [
                     "STRENGTHSAP",
                     "LEECHSEED",
-                    "MOSSYPUNCH",
+                    "GIGADRAIN",
                     "PROTECT"
                 ],
                 "Nature": "SASSY",
@@ -25440,7 +25442,7 @@
                 "Gender": "male",
                 "Moves": [
                     "DRAGONDANCE",
-                    "SPECTRALTHIEF",
+                    "SHADOWBONE",
                     "DRACOSHRED",
                     "DRAINPUNCH"
                 ],
@@ -25711,7 +25713,7 @@
                     31,
                     31
                 ],
-                "EV": "252,252,0,0,0,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -26927,7 +26929,7 @@
                 "Level": 106,
                 "Gender": "male",
                 "Moves": [
-                    "NORETREAT",
+                    "BULKUP",
                     "DRAINPUNCH",
                     "DARKESTLARIAT",
                     "ROCKSLIDE"
@@ -27087,7 +27089,7 @@
                     "MYSTICALFIRE"
                 ],
                 "Nature": "MODEST",
-                "AbilityIndex": 0,
+                "AbilityIndex": 1,
                 "Item": "TANGABERRY",
                 "IV": [
                     31,
@@ -27100,18 +27102,18 @@
                 "EV": "0,0,252,0,252,0"
             },
             {
-                "Species": "SEAKING",
+                "Species": "HYDRAPPLE",
                 "Level": 106,
                 "Form": "2",
                 "Moves": [
-                    "TIDALWAVE",
                     "ACIDRAIN",
-                    "PHOBIA",
-                    "ICEBEAM"
+                    "CHROMERAY",
+                    "EARTHPOWER",
+                    "VITALITYDRAIN"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 0,
-                "Item": "ICEGEM",
+                "Item": "GROUNDGEM",
                 "IV": [
                     31,
                     31,
@@ -27251,16 +27253,16 @@
                 "Ball": "ULTRABALL"
             },
             {
-                "Species": "LANTURN",
+                "Species": "CROBAT",
                 "Level": 107,
                 "Form": "2",
                 "Moves": [
-                    "DARKPULSE",
-                    "TIDALWAVE",
-                    "HYPERACUSIS",
-                    "THUNDERBOLT"
+                    "NIGHTSLASH",
+                    "LEECHLIFE",
+                    "POISONFANG",
+                    "SHATTER"
                 ],
-                "Nature": "MODEST",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 0,
                 "Item": "SOUNDGEM",
                 "IV": [
@@ -27271,7 +27273,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "0,252,0,252,0,0",
                 "Ball": "DUSKBALL"
             },
             {
@@ -27457,7 +27459,7 @@
                 "Gender": "female",
                 "Moves": [
                     "PSYCHIC",
-                    "SHADOWBALL",
+                    "GHASTLYFLOOD",
                     "MACABREDANCE",
                     "VITALITYDRAIN"
                 ],
@@ -27951,7 +27953,7 @@
                 "Level": 108,
                 "Gender": "male",
                 "Moves": [
-                    "ROCKSLIDE",
+                    "OBSIDIANSHARDS",
                     "WILDCHARGE",
                     "FLAREBLITZ",
                     "WEAKSPOT"
@@ -30077,7 +30079,7 @@
                     "CALMMIND",
                     "ACIDARMOR",
                     "STOREDPOWER",
-                    "RECOVER"
+                    "WISH"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 1,
@@ -30453,7 +30455,7 @@
                 "Species": "GARCHOMP",
                 "Level": 116,
                 "Moves": [
-                    "SPECTRALTHIEF",
+                    "SHADOWBONE",
                     "DRAGONDANCE",
                     "DRACOSHRED",
                     "DRAINPUNCH"
@@ -44775,7 +44777,7 @@
                 "Level": 57
             },
             {
-                "Species": "MAGMAR",
+                "Species": "EMPOLEON",
                 "Level": 57
             }
         ]
@@ -55277,7 +55279,8 @@
         "Pokemon": [
             {
                 "Species": "BASCULEGION",
-                "Level": 93
+                "Level": 93,
+                "Form": "1"
             },
             {
                 "Species": "INTELEON",
@@ -62854,7 +62857,7 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,0,252,252"
+                "EV": "8,0,0,0,252,252"
             },
             {
                 "Species": "LUXRAY",
@@ -62870,7 +62873,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0"
+                "EV": "8,252,0,252,0,0"
             },
             {
                 "Species": "GOLURK2",
@@ -62885,7 +62888,7 @@
                     31,
                     31
                 ],
-                "EV": "252,252,0,0,0,0"
+                "EV": "252,252,0,0,0,8"
             },
             {
                 "Species": "LAPRAS",
@@ -62901,13 +62904,13 @@
                     31,
                     31
                 ],
-                "EV": "252,252,0,0,0,0"
+                "EV": "252,252,0,0,0,8"
             },
             {
                 "Species": "GYARADOS",
                 "Level": 98,
                 "Gender": "male",
-                "AbilityIndex": 0,
+                "AbilityIndex": 1,
                 "Item": "GYARADOSITE",
                 "IV": [
                     31,
@@ -62917,7 +62920,7 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0"
+                "EV": "8,252,0,252,0,0"
             },
             {
                 "Species": "AVALUGG",
@@ -62933,7 +62936,7 @@
                     31,
                     31
                 ],
-                "EV": "252,252,0,0,0,0"
+                "EV": "252,252,0,0,0,8"
             }
         ]
     },
@@ -63397,7 +63400,7 @@
                     "CALMMIND",
                     "ACIDARMOR",
                     "STOREDPOWER",
-                    "RECOVER"
+                    "WISH"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 1,
@@ -64341,7 +64344,7 @@
                 ],
                 "Nature": "TIMID",
                 "AbilityIndex": 2,
-                "Item": "HEATROCK",
+                "Item": "DANDELIGHT",
                 "IV": [
                     31,
                     0,
@@ -64604,7 +64607,7 @@
                 "Name": "Luchadora",
                 "Gender": "male",
                 "Moves": [
-                    "NORETREAT",
+                    "BULKUP",
                     "DYNAMICPUNCH",
                     "WICKEDSTRIKE",
                     "REST"
@@ -64893,7 +64896,7 @@
                 "Moves": [
                     "SPIKYSHIELD",
                     "LEAFBLADE",
-                    "DRILLRUN",
+                    "EARTHENLANCE",
                     "SMARTBLADE"
                 ],
                 "Nature": "JOLLY",
@@ -64980,7 +64983,7 @@
                 "Level": 76,
                 "Moves": [
                     "DRAGONDANCE",
-                    "SPECTRALTHIEF",
+                    "SHADOWBONE",
                     "DRACOSHRED",
                     "CRUNCH"
                 ],
@@ -65447,7 +65450,7 @@
                 "Level": 120,
                 "Name": "Shadow",
                 "Moves": [
-                    "SPECTRALTHIEF",
+                    "SHADOWBONE",
                     "DRAGONDANCE",
                     "CRUNCH",
                     "DRAGONCLAW"
@@ -65782,67 +65785,69 @@
         "LoseText": "Well done.",
         "Pokemon": [
             {
-                "Species": "GIGALITH",
+                "Species": "PINCURCHIN2",
                 "Level": 120,
-                "Name": "Permafrost",
+                "Name": "Sonic",
                 "Gender": "male",
                 "Moves": [
-                    "BLIZZARD",
-                    "TIDALWAVE",
-                    "DAZZLINGGLEAM",
-                    "METEORBEAM"
+                    "STEALTHROCK",
+                    "UTURN",
+                    "FISSURE",
+                    "FOULPLAY"
+                ],
+                "Nature": "IMPISH",
+                "AbilityIndex": 1,
+                "Item": "SHIELDWATER",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,0,252,0,0,8",
+                "Ball": "HEALBALL"
+            },
+            {
+                "Species": "SKARMORY",
+                "Level": 120,
+                "Name": "Rocky",
+                "Gender": "male",
+                "Moves": [
+                    "ROCKSLIDE",
+                    "TRIPLEKICK",
+                    "DUALWINGBEAT",
+                    "PERCUSSIONBLAST"
+                ],
+                "Nature": "ADAMANT",
+                "AbilityIndex": 0,
+                "Item": "LIFEORB",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,252,0,8,0,0",
+                "Ball": "MASTERBALL"
+            },
+            {
+                "Species": "VESPIQUEN",
+                "Level": 120,
+                "Name": "Sunspot",
+                "Gender": "female",
+                "Moves": [
+                    "BLUEFLARE",
+                    "CHROMERAY",
+                    "ENERGYBALL",
+                    "VITALITYDRAIN"
                 ],
                 "Nature": "MODEST",
                 "AbilityIndex": 2,
-                "Item": "GIGANITE",
-                "IV": [
-                    31,
-                    0,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "96,0,0,164,252,0",
-                "Ball": "DIVEBALL"
-            },
-            {
-                "Species": "AROMATISSE2",
-                "Level": 120,
-                "Name": "Grinch",
-                "Gender": "male",
-                "Moves": [
-                    "HELPINGHAND",
-                    "FOLLOWME"
-                ],
-                "Nature": "IMPISH",
-                "AbilityIndex": 0,
-                "Item": "LEFTOVERS",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "252,0,8,0,0,252",
-                "Ball": "LUXURYBALL"
-            },
-            {
-                "Species": "HYDREIGON",
-                "Level": 120,
-                "Name": "Terror",
-                "Gender": "female",
-                "Moves": [
-                    "PROTECT",
-                    "DRACARYS",
-                    "EXPANDINGFORCE",
-                    "FLAMETHROWER"
-                ],
-                "Nature": "MODEST",
-                "AbilityIndex": 1,
-                "Item": "FLAMEORB",
+                "Item": "VESPIQUENITE",
                 "IV": [
                     31,
                     0,
@@ -65852,22 +65857,21 @@
                     31
                 ],
                 "EV": "8,0,0,252,252,0",
-                "Ball": "PREMIERBALL"
+                "Ball": "ULTRABALL"
             },
             {
-                "Species": "MACHAMP",
+                "Species": "YANMEGA",
                 "Level": 120,
-                "Name": "Impact",
-                "Gender": "male",
+                "Name": "Hero",
                 "Moves": [
-                    "CROSSCHOP",
-                    "ROCKSLIDE",
-                    "EARTHQUAKE",
-                    "KNOCKOFF"
+                    "SURGINGSTRIKES",
+                    "DRAGONFLYCHARGE",
+                    "FORTISSIMO",
+                    "TAILWIND"
                 ],
-                "Nature": "JOLLY",
-                "AbilityIndex": 2,
-                "Item": "MACHAMPITE",
+                "Nature": "ADAMANT",
+                "AbilityIndex": 0,
+                "Item": "LIFEORB",
                 "IV": [
                     31,
                     31,
@@ -65877,47 +65881,47 @@
                     31
                 ],
                 "EV": "8,252,0,252,0,0",
-                "Ball": "FASTBALL"
+                "Ball": "DUSKBALL"
             },
             {
-                "Species": "RATICATE",
+                "Species": "PASSIMIAN",
                 "Level": 120,
-                "Name": "Pest",
-                "Gender": "female",
+                "Name": "Comet",
+                "Gender": "male",
                 "Moves": [
-                    "FOLLOWME",
-                    "HYPNOSIS",
-                    "HELPINGHAND",
-                    "KNOCKOFF"
+                    "MANICOVERLOAD",
+                    "STELLARRUSH",
+                    "POSSESSION",
+                    "RETURN"
                 ],
-                "Nature": "IMPISH",
-                "AbilityIndex": 0,
-                "Item": "LEFTOVERS",
+                "Nature": "JOLLY",
+                "AbilityIndex": 1,
+                "Item": "LIFEORB",
                 "IV": [
                     31,
-                    0,
+                    31,
                     31,
                     31,
                     31,
                     31
                 ],
-                "EV": "252,0,8,0,0,252",
-                "Ball": "POKEBALL"
+                "EV": "8,252,0,252,0,0",
+                "Ball": "QUICKBALL"
             },
             {
-                "Species": "DEDENNE",
+                "Species": "MEDICHAM",
                 "Level": 120,
-                "Name": "Harmless",
+                "Name": "Medium",
                 "Gender": "female",
                 "Moves": [
-                    "BOOMBURST",
-                    "FAESBLESSING",
-                    "TITANIASLAW",
-                    "MAGNETICCANNON"
+                    "DAZZLINGGLEAM",
+                    "SWEEPINGWIND",
+                    "MYSTICPULSE",
+                    "FLUXWAVE"
                 ],
                 "Nature": "TIMID",
                 "AbilityIndex": 1,
-                "Item": "LIFEORB",
+                "Item": "MEDICHAMITE",
                 "IV": [
                     31,
                     0,
@@ -65939,40 +65943,66 @@
         "LoseText": "Well done.",
         "Pokemon": [
             {
-                "Species": "JUMPLUFF",
+                "Species": "GIGALITH",
                 "Level": 120,
-                "Name": "Carol",
-                "Gender": "female",
+                "Name": "Permafrost",
+                "Gender": "male",
                 "Moves": [
-                    "RALLENTANDO"
+                    "BLIZZARD",
+                    "TIDALWAVE",
+                    "DAZZLINGGLEAM",
+                    "METEORBEAM"
                 ],
-                "Nature": "TIMID",
+                "Nature": "MODEST",
                 "AbilityIndex": 2,
-                "Item": "ICYROCK",
+                "Item": "GIGANITE",
                 "IV": [
                     31,
-                    31,
+                    0,
                     31,
                     31,
                     31,
                     31
                 ],
-                "EV": "252,0,252,0,8,0",
-                "Ball": "MOONBALL"
+                "EV": "252,0,0,8,252,0",
+                "Ball": "DIVEBALL"
             },
             {
-                "Species": "SPIDOPS",
+                "Species": "AROMATISSE2",
                 "Level": 120,
-                "Name": "Sniper",
+                "Name": "Grinch",
                 "Gender": "male",
                 "Moves": [
-                    "BLIZZARD",
-                    "SNIPESHOT",
-                    "GIGADRAIN",
-                    "BUGBUZZ"
+                    "HELPINGHAND",
+                    "FOLLOWME"
+                ],
+                "Nature": "IMPISH",
+                "AbilityIndex": 0,
+                "Item": "SITRUSBERRY",
+                "IV": [
+                    31,
+                    0,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,0,8,0,0,252",
+                "Ball": "LUXURYBALL"
+            },
+            {
+                "Species": "HYDREIGON",
+                "Level": 120,
+                "Name": "Terror",
+                "Gender": "female",
+                "Moves": [
+                    "DRAGONGALE",
+                    "HYPERVOICE",
+                    "EXPANDINGFORCE",
+                    "SWEEPINGWIND"
                 ],
                 "Nature": "MODEST",
-                "AbilityIndex": 1,
+                "AbilityIndex": 0,
                 "Item": "LIFEORB",
                 "IV": [
                     31,
@@ -65982,48 +66012,23 @@
                     31,
                     31
                 ],
-                "EV": "8,0,0,252,252,0",
-                "Ball": "SUPERBALL"
+                "EV": "252,0,0,8,252,0",
+                "Ball": "PREMIERBALL"
             },
             {
-                "Species": "GOGOAT",
+                "Species": "LILLIGANT",
                 "Level": 120,
-                "Name": "Apex",
-                "Gender": "male",
-                "Moves": [
-                    "HEADSMASH",
-                    "TRIPLEAXEL",
-                    "FLAREBLITZ",
-                    "PLAYROUGH"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 2,
-                "Item": "BODYARMOR",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,252,252,8,0,0",
-                "Ball": "FASTBALL"
-            },
-            {
-                "Species": "MINUN",
-                "Level": 120,
-                "Name": "Winter",
+                "Name": "Flower",
                 "Gender": "female",
                 "Moves": [
-                    "TRIPLEAXEL",
-                    "CASCADE",
-                    "AURORAVEIL",
-                    "ZINGZAP"
+                    "STRANGESTEAM",
+                    "FLAMETHROWER",
+                    "TERRAINPULSE",
+                    "RETURN"
                 ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 2,
-                "Item": "MINUNITE",
+                "Nature": "TIMID",
+                "AbilityIndex": 0,
+                "Item": "LIFEORB",
                 "IV": [
                     31,
                     0,
@@ -66032,23 +66037,48 @@
                     31,
                     31
                 ],
-                "EV": "8,0,0,252,252,0",
+                "EV": "252,0,0,8,252,0",
                 "Ball": "LOVEBALL"
             },
             {
-                "Species": "SAWK",
+                "Species": "WOBBUFFET",
                 "Level": 120,
-                "Name": "Knight",
+                "Name": "Puppet",
                 "Gender": "male",
                 "Moves": [
-                    "HEADSMASH",
-                    "CLOSECOMBAT",
-                    "FINALSTAND",
-                    "POSSESSION"
+                    "ECLIPSENOVA",
+                    "RETURN",
+                    "NASTYPLOT",
+                    "HYPERVOICE"
+                ],
+                "Nature": "MODEST",
+                "AbilityIndex": 2,
+                "Item": "WOBBNITE",
+                "IV": [
+                    31,
+                    0,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,0,8,0,252,0",
+                "Ball": "FASTBALL"
+            },
+            {
+                "Species": "KECLEON",
+                "Level": 120,
+                "Name": "Reverse",
+                "Gender": "male",
+                "Moves": [
+                    "FOULPLAY",
+                    "HAZE",
+                    "DRAGONTAIL",
+                    "MINDDRAIN"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 1,
-                "Item": "CHOICESCARF",
+                "Item": "SHIELDBUG",
                 "IV": [
                     31,
                     31,
@@ -66057,33 +66087,8 @@
                     31,
                     31
                 ],
-                "EV": "8,252,0,252,0,0",
-                "Ball": "HEAVYBALL"
-            },
-            {
-                "Species": "DUGTRIO",
-                "Level": 120,
-                "Name": "Casper",
-                "Gender": "male",
-                "Moves": [
-                    "EARTHQUAKE",
-                    "SPECTRALTHIEF",
-                    "STONEEDGE",
-                    "CRUNCH"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 2,
-                "Item": "DUGTRIOITE",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "8,252,0,252,0,0",
-                "Ball": "DUSKBALL"
+                "EV": "252,252,0,8,0,0",
+                "Ball": "NETBALL"
             }
         ]
     },
@@ -66091,164 +66096,6 @@
         "Type": "BETATESTER_FabulaFares",
         "Name": "FabulaFares",
         "Number": 2,
-        "Items": "MEGARING,FULLRESTORE,FULLRESTORE,FULLRESTORE",
-        "LoseText": "Well done.",
-        "Pokemon": [
-            {
-                "Species": "ESPEON",
-                "Level": 120,
-                "Name": "Poisonbite",
-                "Gender": "female",
-                "Moves": [
-                    "NEUROTOXIN",
-                    "NIGHTSLASH",
-                    "SHADOWCLAW",
-                    "GOLDRUSH"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 2,
-                "Item": "LIFEORB",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "8,252,0,252,0,0",
-                "Ball": "HEALBALL"
-            },
-            {
-                "Species": "SEISMITOAD",
-                "Level": 120,
-                "Name": "Prince",
-                "Gender": "male",
-                "Moves": [
-                    "MUDDYWATER",
-                    "VITALITYDRAIN",
-                    "SPORE",
-                    "EARTHPOWER"
-                ],
-                "Nature": "TIMID",
-                "AbilityIndex": 0,
-                "Item": "SEISMITOADITE",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "8,0,0,252,252,0",
-                "Ball": "MASTERBALL"
-            },
-            {
-                "Species": "VESPIQUEN",
-                "Level": 120,
-                "Name": "Sunspot",
-                "Gender": "female",
-                "Moves": [
-                    "BLUEFLARE",
-                    "CHROMERAY",
-                    "ENERGYBALL",
-                    "VITALITYDRAIN"
-                ],
-                "Nature": "MODEST",
-                "AbilityIndex": 1,
-                "Item": "VESPIQUENITE",
-                "IV": [
-                    31,
-                    0,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "8,0,0,252,252,0",
-                "Ball": "ULTRABALL"
-            },
-            {
-                "Species": "ROTOM",
-                "Level": 120,
-                "Name": "Jaws",
-                "Moves": [
-                    "EXECUTION",
-                    "MEMENTO",
-                    "PLAYROUGH",
-                    "FORTISSIMO"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 2,
-                "Item": "CHOICESCARF",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "8,252,0,252,0,0",
-                "Ball": "DUSKBALL"
-            },
-            {
-                "Species": "ORBEETLE",
-                "Level": 120,
-                "Name": "Gale",
-                "Gender": "male",
-                "Moves": [
-                    "GOLDRUSH",
-                    "STELLARRUSH",
-                    "DOUBLEEDGE",
-                    "IRONHEAD"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 2,
-                "Item": "BODYARMOR",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "8,252,0,252,0,0",
-                "Ball": "QUICKBALL"
-            },
-            {
-                "Species": "CINDERACE",
-                "Level": 120,
-                "Name": "Jester",
-                "Gender": "female",
-                "Moves": [
-                    "FABLEDSLAM",
-                    "BLOODRITUAL",
-                    "STELLARRUSH",
-                    "HIGHJUMPKICK"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 0,
-                "Item": "BODYARMOR",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "8,252,0,252,0,0",
-                "Ball": "LOVEBALL"
-            }
-        ]
-    },
-    {
-        "Type": "BETATESTER_FabulaFares",
-        "Name": "FabulaFares",
-        "Number": 3,
         "Items": "MEGARING,FULLRESTORE,FULLRESTORE,FULLRESTORE",
         "LoseText": "Well done.",
         "Pokemon": [
@@ -66278,19 +66125,19 @@
                 "Ball": "LOVEBALL"
             },
             {
-                "Species": "VANILLUXE2",
+                "Species": "BRAMBLEGHAST",
                 "Level": 120,
-                "Name": "Magma",
+                "Name": "Coralia",
                 "Gender": "female",
                 "Moves": [
-                    "HEATWAVE",
-                    "SLUDGEWAVE",
-                    "EARTHPOWER",
-                    "AMBERWAVE"
+                    "HYDROSTEAM",
+                    "SOLARBEAM",
+                    "GEMSTORM",
+                    "NASTYPLOT"
                 ],
                 "Nature": "MODEST",
-                "AbilityIndex": 2,
-                "Item": "CHOICESCARF",
+                "AbilityIndex": 1,
+                "Item": "SHIELDGRASS",
                 "IV": [
                     31,
                     0,
@@ -66299,7 +66146,7 @@
                     31,
                     31
                 ],
-                "EV": "8,0,0,252,252,0",
+                "EV": "252,0,0,8,252,0",
                 "Ball": "ULTRABALL"
             },
             {
@@ -66314,7 +66161,7 @@
                     "MACABREDANCE"
                 ],
                 "Nature": "MODEST",
-                "AbilityIndex": 0,
+                "AbilityIndex": 2,
                 "Item": "CACTURNITE2",
                 "IV": [
                     31,
@@ -66328,19 +66175,19 @@
                 "Ball": "DUSKBALL"
             },
             {
-                "Species": "RAICHU2",
+                "Species": "FLAREON",
                 "Level": 120,
-                "Name": "Boxer",
-                "Gender": "male",
+                "Name": "Iku",
+                "Gender": "female",
                 "Moves": [
-                    "NORETREAT",
-                    "HIGHJUMPKICK",
-                    "THROATCHOP",
-                    "ICEPUNCH"
+                    "SHIELDBASH",
+                    "WILLOWISP",
+                    "THUNDERWAVE",
+                    "KNOCKOFF"
                 ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 1,
-                "Item": "ICEGEM",
+                "Nature": "IMPISH",
+                "AbilityIndex": 0,
+                "Item": "SHIELDGROUND",
                 "IV": [
                     31,
                     31,
@@ -66349,23 +66196,23 @@
                     31,
                     31
                 ],
-                "EV": "8,252,0,252,0,0",
+                "EV": "252,0,252,0,0,8",
                 "Ball": "FASTBALL"
             },
             {
-                "Species": "DELCATTY2",
+                "Species": "MAWILE2",
                 "Level": 120,
-                "Name": "Dandelion",
-                "Gender": "female",
+                "Name": "Sticks",
+                "Gender": "male",
                 "Moves": [
-                    "CHARM",
-                    "SYNTHESIS",
-                    "GRASSWHISTLE",
-                    "LIGHTSCREEN"
+                    "PRIMORDIALBEAM",
+                    "MACABREDANCE",
+                    "GHASTLYFLOOD",
+                    "RETURN"
                 ],
-                "Nature": "BOLD",
+                "Nature": "TIMID",
                 "AbilityIndex": 2,
-                "Item": "LEFTOVERS",
+                "Item": "WEAKNESSPOLICY",
                 "IV": [
                     31,
                     0,
@@ -66374,23 +66221,23 @@
                     31,
                     31
                 ],
-                "EV": "252,0,252,0,0,8",
+                "EV": "8,0,0,252,252,0",
                 "Ball": "HEALBALL"
             },
             {
-                "Species": "HIPPOWDON",
+                "Species": "AZUMARILL",
                 "Level": 120,
-                "Name": "Tropical",
+                "Name": "Punchy",
                 "Gender": "male",
                 "Moves": [
-                    "GRASSYGLIDE",
-                    "WOODHAMMER",
-                    "WATERPRESSURE",
-                    "HEADSMASH"
+                    "DRAINPUNCH",
+                    "IRONIMPACT",
+                    "PLAYROUGH",
+                    "ROCKSLIDE"
                 ],
                 "Nature": "ADAMANT",
-                "AbilityIndex": 1,
-                "Item": "HIPPOWDONITE",
+                "AbilityIndex": 0,
+                "Item": "AZUMARILLITE",
                 "IV": [
                     31,
                     31,
@@ -66400,7 +66247,166 @@
                     31
                 ],
                 "EV": "252,252,0,8,0,0",
-                "Ball": "NESTBALL"
+                "Ball": "FASTBALL"
+            }
+        ]
+    },
+    {
+        "Type": "BETATESTER_FabulaFares",
+        "Name": "FabulaFares",
+        "Number": 3,
+        "Items": "MEGARING,FULLRESTORE,FULLRESTORE,FULLRESTORE",
+        "LoseText": "Well done.",
+        "Pokemon": [
+            {
+                "Species": "LUVDISC",
+                "Level": 120,
+                "Name": "Carol",
+                "Gender": "female",
+                "Moves": [
+                    "RALLENTANDO",
+                    "FLIPTURN",
+                    "BEATDROP",
+                    "PLAYROUGH"
+                ],
+                "Nature": "JOLLY",
+                "AbilityIndex": 1,
+                "Item": "LUVDISCITE",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "0,252,0,252,8,0",
+                "Ball": "MOONBALL"
+            },
+            {
+                "Species": "SALAZZLE",
+                "Level": 120,
+                "Name": "Sniper",
+                "Gender": "female",
+                "Moves": [
+                    "FISHIOUSREND",
+                    "ELECTRONCRUSH",
+                    "HIGHJUMPKICK",
+                    "VENOMDRAIN"
+                ],
+                "Nature": "ADAMANT",
+                "AbilityIndex": 1,
+                "Item": "LIFEORB",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,252,0,8,0,0",
+                "Ball": "SUPERBALL"
+            },
+            {
+                "Species": "WALREIN2",
+                "Level": 120,
+                "Name": "Hug",
+                "Gender": "female",
+                "Moves": [
+                    "CHAINLIGHTNING",
+                    "STRANGESTEAM",
+                    "BOMBARDMENT",
+                    "COBALTRAY"
+                ],
+                "Nature": "ADAMANT",
+                "AbilityIndex": 0,
+                "Item": "SHIELDGROUND",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,0,0,8,252,0",
+                "Ball": "FASTBALL"
+            },
+            {
+                "Species": "MASQUERAIN2",
+                "Level": 120,
+                "Name": "Spring",
+                "Gender": "female",
+                "Moves": [
+                    "GIGADRAIN",
+                    "STICKYWEB",
+                    "BUTTERFLYKISS",
+                    "STRENGTHSAP"
+                ],
+                "Nature": "MODEST",
+                "AbilityIndex": 0,
+                "Item": "MASQUERITE2",
+                "IV": [
+                    31,
+                    0,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,0,0,8,252,0",
+                "Ball": "LOVEBALL"
+            },
+            {
+                "Species": "EMBOAR",
+                "Level": 120,
+                "Name": "Knight",
+                "Gender": "male",
+                "Moves": [
+                    "ROCKSLIDE",
+                    "EARTHENLANCE",
+                    "DRAINPUNCH",
+                    "STEELROLLER"
+                ],
+                "Nature": "ADAMANT",
+                "AbilityIndex": 1,
+                "Item": "SHIELDGRASS",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "242,252,0,8,0,0",
+                "Ball": "HEAVYBALL"
+            },
+            {
+                "Species": "MOTHIM_2",
+                "Level": 120,
+                "Name": "Winter",
+                "Gender": "female",
+                "Moves": [
+                    "QUIVERDANCE",
+                    "BUTTERFLYKISS",
+                    "BOREASBREATH",
+                    "BLIZZARD"
+                ],
+                "Nature": "MODEST",
+                "AbilityIndex": 0,
+                "Item": "FOCUSSASH",
+                "IV": [
+                    31,
+                    0,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "8,0,0,252,252,0",
+                "Ball": "DUSKBALL"
             }
         ]
     },
@@ -67081,7 +67087,7 @@
                 "Level": 120,
                 "Gender": "female",
                 "Moves": [
-                    "SPECTRALTHIEF",
+                    "SHADOWBONE",
                     "CRUNCH",
                     "NECROPHAGY",
                     "DRACONICCRASH"
@@ -68210,58 +68216,52 @@
         "LoseText": "This ain't a street fight! It's a trench war!",
         "Pokemon": [
             {
-                "Species": "PARASECT",
+                "Species": "BAXCALIBUR",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
-                    "POLLENBLAST",
-                    "ECTOPLASM",
-                    "SPORE",
-                    "LEAFSTORM"
+                    "HEADSMASH",
+                    "DRAGONHAMMER",
+                    "NAGASKIN",
+                    "FORTIFY"
                 ],
-                "Nature": "QUIET",
+                "Nature": "ADAMANT",
                 "AbilityIndex": 2,
-                "Item": "FOCUSSASH",
+                "Item": "BAXCALIBRITE",
                 "IV": [
                     31,
                     31,
                     31,
-                    0,
+                    31,
                     31,
                     31
                 ],
-                "EV": "252,0,0,0,252,0",
-                "Name": "EatMeMario"
+                "EV": "252,252,0,0,0,8"
             },
             {
-                "Species": "BANETTE",
+                "Species": "TINKATON",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
-                    "PLAYROUGH",
-                    "WICKEDSTRIKE",
-                    "EXECUTION",
-                    "PARTINGSHOT"
+                    "POLTERGEIST",
+                    "DRAGONGNAW",
+                    "GRIMREAPER",
+                    "EXECUTION"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 0,
-                "Item": "EJECTPACK",
+                "Item": "ASSAULTARMOR",
                 "IV": [
                     31,
                     31,
                     31,
-                    0,
+                    31,
                     31,
                     31
                 ],
-                "EV": "252,252,0,0,0,0",
-                "Ball": "ULTRABALL",
-                "Name": "Joker"
+                "EV": "8,252,252,0,0,0"
             },
             {
                 "Species": "BASTIODON",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
                     "SHIELDBASH",
                     "BODYPRESS",
@@ -68279,22 +68279,21 @@
                     31,
                     31
                 ],
-                "EV": "252,0,252,0,0,0",
+                "EV": "252,0,252,0,0,8",
                 "Name": "Based"
             },
             {
-                "Species": "CHIMECHO",
+                "Species": "ILLUMISE",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
-                    "MAGNETFORCE",
-                    "PLASMAFORGE",
-                    "CHROMERAY",
-                    "NASTYPLOT"
+                    "NECTARTAP",
+                    "DIAMONDSTORM",
+                    "BUTTERFLYKISS",
+                    "CAUSTICACID"
                 ],
-                "Nature": "QUIET",
-                "AbilityIndex": 0,
-                "Item": "CHIMECHITE",
+                "Nature": "MODEST",
+                "AbilityIndex": 2,
+                "Item": "VOIDHEART",
                 "IV": [
                     31,
                     31,
@@ -68303,18 +68302,16 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
-                "Name": "Chimney"
+                "EV": "8,0,0,0,252,252"
             },
             {
                 "Species": "MISMAGIUS",
                 "Level": 120,
-                "Gender": "female",
                 "Moves": [
                     "REVITALIZE",
                     "BOOMBURST",
-                    "STACCATO",
-                    "PENANCE"
+                    "PENANCE",
+                    "HOLYNOVA"
                 ],
                 "Nature": "TIMID",
                 "AbilityIndex": 0,
@@ -68327,175 +68324,20 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
-                "Name": "Hallelujah"
+                "EV": "8,0,0,252,252,0",
+                "Name": "Solo-er"
             },
             {
-                "Species": "COPPERAJAH",
+                "Species": "FERALIGATR2",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
-                    "GAIAPULSE",
-                    "ARCANEENERGY",
-                    "CHECKMATE",
-                    "MOONSTONERAY"
-                ],
-                "Nature": "QUIET",
-                "AbilityIndex": 0,
-                "Item": "WIDELENS",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "252,0,0,0,252,0",
-                "Name": "Jos' Child"
-            }
-        ]
-    },
-    {
-        "Type": "BETATESTER_Riptidecord",
-        "Name": "Riptidecord",
-        "Number": 1,
-        "Items": "MEGARING,FULLRESTORE,FULLRESTORE,FULLRESTORE",
-        "LoseText": "You got lucky!",
-        "Pokemon": [
-            {
-                "Species": "TYPHLOSION",
-                "Level": 120,
-                "Gender": "male",
-                "Moves": [
-                    "GEARGRIND",
-                    "DOUBLEHIT",
-                    "GOLDENBULLET",
-                    "SHIFTGEAR"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 2,
-                "Item": "FOCUSSASH",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,252,0,252,0,0",
-                "Ball": "ULTRABALL",
-                "Name": "Hedge"
-            },
-            {
-                "Species": "KABUTOPS2",
-                "Level": 120,
-                "Gender": "male",
-                "Moves": [
-                    "TRIVEGA",
-                    "PLASMAFISTS",
-                    "CELESTIALFURY",
-                    "DIMENSIONWARP"
-                ],
-                "Nature": "JOLLY",
-                "AbilityIndex": 0,
-                "Item": "LIFEORB",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,252,0,252,0,0",
-                "Name": "B9K Jr"
-            },
-            {
-                "Species": "TINKATON",
-                "Level": 120,
-                "Gender": "female",
-                "Moves": [
-                    "DRAGONHAMMER",
-                    "POLTERGEIST",
-                    "DRAGONDANCE",
-                    "DRAGONGNAW"
-                ],
-                "Nature": "JOLLY",
-                "AbilityIndex": 0,
-                "Item": "DRACOPLATE",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,252,0,252,0,0",
-                "Name": "Kaly"
-            },
-            {
-                "Species": "GRIMMSNARL2",
-                "Level": 120,
-                "Gender": "male",
-                "Moves": [
-                    "DARKESTLARIAT",
-                    "FIRELASH",
-                    "SPECTRALTHIEF",
-                    "FAKEOUT"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 0,
-                "Item": "GRIMMSNARLITE2",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "252,252,0,0,0,0",
-                "Name": "Pit"
-            },
-            {
-                "Species": "SNEASLER",
-                "Level": 120,
-                "Gender": "male",
-                "Moves": [
-                    "LEAFBLADE",
+                    "HEATSIPHON",
                     "DRAINPUNCH",
-                    "EVILTHORN",
-                    "LASHOUT"
+                    "NAGASKIN",
+                    "BULKUP"
                 ],
                 "Nature": "ADAMANT",
-                "AbilityIndex": 1,
-                "Item": "CHOICEBAND",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "0,252,0,252,0,0",
-                "Name": "Sneeze"
-            },
-            {
-                "Species": "DELCATTY2",
-                "Level": 120,
-                "Gender": "female",
-                "Moves": [
-                    "TERRAINPULSE",
-                    "REVITALIZE",
-                    "GRASSWHISTLE",
-                    "POLLENBLAST"
-                ],
-                "Nature": "MODEST",
-                "AbilityIndex": 2,
+                "AbilityIndex": 0,
                 "Item": "LEFTOVERS",
                 "IV": [
                     31,
@@ -68505,8 +68347,151 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
-                "Name": "Nemu"
+                "EV": "252,252,0,0,0,8",
+                "Name": "Dead Beat"
+            }
+        ]
+    },
+    {
+        "Type": "BETATESTER_Riptidecord",
+        "Name": "Riptidecord",
+        "Number": 1,
+        "Items": "MEGARING,FULLRESTORE,FULLRESTORE,FULLRESTORE",
+        "LoseText": "We're not rivals! We're not equals!",
+        "Pokemon": [
+            {
+                "Species": "ELECTRODE2",
+                "Level": 120,
+                "Moves": [
+                    "GEMSTORM",
+                    "METEORBEAM",
+                    "MOONSTONERAY",
+                    "INFERNO"
+                ],
+                "Nature": "MODEST",
+                "AbilityIndex": 2,
+                "Item": "POWERHERB",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "120,252,0,132,0,0",
+                "Name": "Jupiter"
+            },
+            {
+                "Species": "VOLBEAT",
+                "Level": 120,
+                "Moves": [
+                    "MEGAHORN",
+                    "GUNKSHOT",
+                    "STONEEDGE",
+                    "NECTARTAP"
+                ],
+                "Nature": "ADAMANT",
+                "AbilityIndex": 1,
+                "Item": "VOIDHEART",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,252,0,0,0,8",
+                "Name": "Shaw"
+            },
+            {
+                "Species": "LAPRAS",
+                "Level": 120,
+                "Moves": [
+                    "MAGMASTORM",
+                    "STEAMERUPTION",
+                    "BURNINGBULWARK",
+                    "AMBERWAVE"
+                ],
+                "Nature": "MODEST",
+                "AbilityIndex": 2,
+                "Item": "SITRUSBERRY",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,0,0,0,252,8",
+                "Name": "Water In Fire"
+            },
+            {
+                "Species": "EMPOLEON",
+                "Level": 120,
+                "Moves": [
+                    "POLARSPEAR",
+                    "PROTECT",
+                    "OCEANWRATH",
+                    "AQUAJET"
+                ],
+                "Nature": "ADAMANT",
+                "AbilityIndex": 2,
+                "Item": "EMPOLEONITE",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "8,252,252,0,0,0"
+            },
+            {
+                "Species": "CLAWITZER",
+                "Level": 120,
+                "Moves": [
+                    "ZAPCANNON"
+                ],
+                "Nature": "MODEST",
+                "AbilityIndex": 2,
+                "Item": "CHOICESCARF",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "8,0,0,252,252,0",
+                "Name": "Gun"
+            },
+            {
+                "Species": "KANGASKHAN",
+                "Level": 120,
+                "Moves": [
+                    "DYNAMICPUNCH",
+                    "CELESTIALFURY",
+                    "ASTEROIDBELT",
+                    "ZENHEADBUTT"
+                ],
+                "Nature": "ADAMANT",
+                "AbilityIndex": 2,
+                "Item": "KANGASKHANITE",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,252,0,8,0,0",
+                "Name": "Aerial"
             }
         ]
     },
@@ -68515,16 +68500,15 @@
         "Name": "Riptidecord",
         "Number": 2,
         "Items": "MEGARING,FULLRESTORE,FULLRESTORE,FULLRESTORE",
-        "LoseText": "You got lucky!",
+        "LoseText": "In other words you're useless, every last one of ya!",
         "Pokemon": [
             {
                 "Species": "COALOSSAL",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
                     "STEALTHROCK",
                     "SPIKES",
-                    "BOULDERHURL",
+                    "EXPLOSION",
                     "EARTHQUAKE"
                 ],
                 "Nature": "IMPISH",
@@ -68543,18 +68527,14 @@
                 "Name": "FUCK IT,WE"
             },
             {
-                "Species": "CARRACOSTA",
+                "Species": "STUNFISK",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
-                    "EARTHQUAKE",
-                    "DOUBLEIRONBASH",
-                    "SANDJET",
-                    "SELFDESTRUCT"
+                    "EXPLOSION"
                 ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 2,
-                "Item": "GROUNDGEM",
+                "Nature": "JOLLY",
+                "AbilityIndex": 0,
+                "Item": "NORMALGEM",
                 "IV": [
                     31,
                     31,
@@ -68563,13 +68543,12 @@
                     31,
                     31
                 ],
-                "EV": "252,252,0,0,0,0",
+                "EV": "8,252,0,252,0,0",
                 "Name": "FUCK IT,WE"
             },
             {
                 "Species": "SHARPEDO",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
                     "RETURN",
                     "IRONHEAD",
@@ -68587,21 +68566,21 @@
                     31,
                     31
                 ],
-                "EV": "0,252,0,252,0,0",
+                "EV": "8,252,0,252,0,0",
                 "Name": "FUCK IT,WE"
             },
             {
-                "Species": "ELECTRODE2",
+                "Species": "GOLISOPOD2",
                 "Level": 120,
                 "Moves": [
-                    "AMBERWAVE",
-                    "MOONBLAST",
-                    "MOONSTONERAY",
-                    "EXPLOSION"
+                    "EXPLOSION",
+                    "HEATSIPHON",
+                    "ICEBEAM",
+                    "BURNINGBULWARK"
                 ],
-                "Nature": "HARDY",
-                "AbilityIndex": 1,
-                "Item": "POWERHERB",
+                "Nature": "SERIOUS",
+                "AbilityIndex": 0,
+                "Item": "WHITEHERB",
                 "IV": [
                     31,
                     31,
@@ -68610,22 +68589,21 @@
                     31,
                     31
                 ],
-                "EV": "120,252,0,132,0,0",
+                "EV": "252,252,0,0,0,8",
                 "Name": "FUCK IT,WE"
             },
             {
-                "Species": "XATU",
+                "Species": "ELECTRODE",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
-                    "THUNDERBOLT",
-                    "MAGNETICCANNON",
-                    "PARABOLICCHARGE",
-                    "EXPLOSION"
+                    "HEADSMASH",
+                    "EXPLOSION",
+                    "ICECOMET",
+                    "ZENHEADBUTT"
                 ],
-                "Nature": "MODEST",
-                "AbilityIndex": 1,
-                "Item": "XATUNITE",
+                "Nature": "ADAMANT",
+                "AbilityIndex": 0,
+                "Item": "ELECTRONITE",
                 "IV": [
                     31,
                     31,
@@ -68634,13 +68612,12 @@
                     31,
                     31
                 ],
-                "EV": "0,0,0,252,252,0",
+                "EV": "8,252,0,252,0,0",
                 "Name": "FUCK IT,WE"
             },
             {
                 "Species": "CLEFABLE",
                 "Level": 120,
-                "Gender": "female",
                 "Moves": [
                     "TITANIASLAW",
                     "MOONBLAST",
@@ -68668,12 +68645,34 @@
         "Name": "Riptidecord",
         "Number": 3,
         "Items": "MEGARING,FULLRESTORE,FULLRESTORE,FULLRESTORE",
-        "LoseText": "You used a fire type, didn't you?",
+        "LoseText": "I still choose to sing 'cause I refuse to die.",
         "Pokemon": [
+            {
+                "Species": "GUMSHOOS",
+                "Level": 120,
+                "Moves": [
+                    "RECOVER",
+                    "WILLOWISP",
+                    "PARTINGSHOT",
+                    "OBSTRUCT"
+                ],
+                "Nature": "BOLD",
+                "AbilityIndex": 2,
+                "Item": "LEFTOVERS",
+                "IV": [
+                    31,
+                    31,
+                    31,
+                    31,
+                    31,
+                    31
+                ],
+                "EV": "252,0,8,0,0,252",
+                "Name": "Cult Following"
+            },
             {
                 "Species": "CHIMECHO",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
                     "CHAINLIGHTNING",
                     "CHROMERAY",
@@ -68698,12 +68697,11 @@
             {
                 "Species": "WUGTRIO",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
                     "LEECHLIFE",
                     "BOMBARDMENT",
-                    "GOLDRUSH",
-                    "STONEEDGE"
+                    "STONEEDGE",
+                    "EARTHQUAKE"
                 ],
                 "Nature": "ADAMANT",
                 "AbilityIndex": 2,
@@ -68722,14 +68720,13 @@
             {
                 "Species": "WISHIWASHI",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
                     "VITALITYDRAIN",
                     "DOUBLEEDGE",
-                    "DREAMEATER",
-                    "HYPNOSIS"
+                    "OBSTRUCT",
+                    "GUNKSHOT"
                 ],
-                "Nature": "HASTY",
+                "Nature": "SERIOUS",
                 "AbilityIndex": 0,
                 "Item": "BLACKGLASSES",
                 "IV": [
@@ -68748,9 +68745,9 @@
                 "Level": 120,
                 "Moves": [
                     "VITALITYDRAIN",
-                    "CLUSTERROCKETS",
+                    "TACHYONCUTTER",
                     "FOCUSBLAST",
-                    "TIMEBOMB"
+                    "OBLIVIONWING"
                 ],
                 "Nature": "CALM",
                 "AbilityIndex": 2,
@@ -68769,15 +68766,14 @@
             {
                 "Species": "STUNFISK",
                 "Level": 120,
-                "Gender": "male",
                 "Moves": [
-                    "SONICBLAST",
-                    "CONCOCTION",
+                    "BEATDROP",
+                    "RETURN",
                     "RECYCLE",
                     "COIL"
                 ],
                 "Nature": "BOLD",
-                "AbilityIndex": 0,
+                "AbilityIndex": 1,
                 "Item": "SITRUSBERRY",
                 "IV": [
                     31,
@@ -68789,30 +68785,6 @@
                 ],
                 "EV": "8,252,252,0,0,0",
                 "Name": "Pranked"
-            },
-            {
-                "Species": "MIGHTYENA",
-                "Level": 120,
-                "Gender": "male",
-                "Moves": [
-                    "ICEFANG",
-                    "CRUNCH",
-                    "PLAYROUGH",
-                    "PSYCHICFANGS"
-                ],
-                "Nature": "ADAMANT",
-                "AbilityIndex": 2,
-                "Item": "CHOICESCARF",
-                "IV": [
-                    31,
-                    31,
-                    31,
-                    31,
-                    31,
-                    31
-                ],
-                "EV": "8,252,0,252,0,0",
-                "Name": "Pupper"
             }
         ]
     },

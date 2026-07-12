@@ -1254,3 +1254,33 @@ Description = Powers up Electric-type moves.
 [DELICIOUS]
 Name = Delicious
 Description = The Pokémon is irresistibly tasty looking. 
+#-------------------------------
+[REFLECTION]
+Name = Reflection
+Description = The Pokémon reflects special damage back at the opponent.
+#-------------------------------
+[DISHOUT]
+Name = Dish Out
+Description = Causes this Pokémon to take less damage if the opponent uses the same category of move that this Pokémon has already used.
+#-------------------------------
+[AUDITORYILLUSION]
+Name = Auditory Illusion
+Description = Sound based moves become the primary type of your final slot and gain a chance to confuse
+#-------------------------------
+[HOLYIDOL]
+Name = Holy Idol
+Description = This Pokémon cannot receive non-direct damage, and is immune to confusion. 
+#-------------------------------
+[MOODSHIFT]
+Name = Mood Shift
+Description = This Pokémon changes form per status condition, and does not receive the stat drop of frostbite.
+#-------------------------------
+[SELFCONSCIOUS]
+Name = Self Conscious
+Description = This Pokémon switches out whenever a stat is lowered 
+ 
+
+#-------------------------------
+[INVULNERABILITY]
+Name = Invulnerability
+Description = Enemy pokemon cannot be harmed by attacking moves

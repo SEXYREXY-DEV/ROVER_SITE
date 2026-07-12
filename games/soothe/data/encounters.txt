@@ -1,128 +1,140 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[004,1] # Oxyrus Lake
+[004] # Oxyrus Lake
 Land,21
-    20,VENONAT,9,11
-    10,PATRAT,7,10
-    10,ARON,8,11
-    10,DRILBUR,8,10
-    10,STARLY,7,11
+    30,PATRAT,7,9
+    30,VENONAT,9
+    20,SANDSHREW,7,9
+    20,DEWPIDER,8,9
+    10,ARON,8,9
+    10,SHELLOS_1,7,11
+#-------------------------------
+[005] # Serene Villlage
+Land,21
+    30,STARLY,2,4
+    20,FIDOUGH,2,5
+    20,LITLEO,2,3
+    20,SHINX,2,4
+    10,SEEDOT,5
+#-------------------------------
+[006] # Serene Village
+Land,21
+    30,STARLY,2,4
+    20,FIDOUGH,2,5
+    20,LITLEO,2,3
+    20,SHINX,2,4
+    10,SEEDOT,5
 #-------------------------------
 [022] # Serene Village
 Land,21
+    30,STARLY,2,4
     20,FIDOUGH,2,5
-    20,LILLIPUP,5
     20,LITLEO,2,3
-    20,PIDGEY,2,3
-    20,STARLY,2,4
-    6,SEEDOT,5
+    20,SHINX,2,4
+    10,SEEDOT,5
 #-------------------------------
 [032] # Route 1
 Land,15
-    30,PIDGEY,2,4
+    30,FLABEBE,1,3
     20,FIDOUGH,2,5
-    20,SKIDDO,3,5
+    20,STARLY,3,4
     20,WURMPLE,3,4
-    15,SHINX,2,5
-    15,ZIGZAGOON,1,4
-    5,FLABEBE_1,1,3
-    5,FLABEBE_2,1,3
-    5,FLABEBE_3,1,3
-    5,FLABEBE_4,1,3
-    4,EKANS,4,5
-Water,2
-    20,SLOWPOKE,5
+    10,SKIDDO,3,5
 #-------------------------------
 [048] # Feldspar Forest
 Land,21
-    30,SCATTERBUG,3,5
-    30,SKWOVET,4,6
     30,WURMPLE,3,5
-    20,CATERPIE,4,5
     20,LEDYBA,4,5
-    20,PIKIPEK,3,5
-    20,WEEDLE,4,5
-    5,CUBBY,3,5
-#-------------------------------
-[086] # Hall of champions
-Cave,1
-    40,YAMASK,12,13
-    20,DUSKULL,10,14
-    20,GASTLY,14
-    20,JOLTIK,8,13
-    20,LITWICK,11,14
-    20,RATTATA,12,14
-    20,ZUBAT,12,13
-    15,SPINARAK,10,12
-    10,DRILBUR,10,14
-    10,GOLETT,14
-    10,MISDREAVUS,14
-    5,UNOWN,1
-    1,SHEDINJA,14
-#-------------------------------
-[088] # Catacombs BF1
-Cave,1
-    40,YAMASK,12,13
-    20,DUSKULL,10,14
-    20,GASTLY,14
-    20,JOLTIK,8,13
-    20,LITWICK,11,14
-    20,RATTATA,12,14
-    20,ZUBAT,12,13
-    15,SPINARAK,10,12
-    10,DRILBUR,10,14
-    10,GOLETT,14
-    10,MISDREAVUS,14
-    5,UNOWN,1
-    1,SHEDINJA,14
-#-------------------------------
-[089] # Catacombs BF2
-Cave,1
-    40,YAMASK,12,13
-    20,DUSKULL,10,14
-    20,GASTLY,14
-    20,JOLTIK,8,13
-    20,LITWICK,11,14
-    20,RATTATA,12,14
-    20,ZUBAT,12,13
-    15,SPINARAK,10,12
-    10,DRILBUR,10,14
-    10,GOLETT,14
-    10,MISDREAVUS,14
-    5,UNOWN,1
-    1,SHEDINJA,14
+    20,PIKIPEK,5,6
+    20,SANDSHREW,4,6
+    10,CUBBY,5,7
 #-------------------------------
 [101] # Feldspar Forest
 Land,21
     30,SCATTERBUG,6,8
-    30,SKWOVET,6,8
+    30,SANDSHREW,6,8
     30,WURMPLE,7,9
     20,CATERPIE,7,9
     20,LEDYBA,7,9
-    20,SPINARAK,7,8
-    20,WEEDLE,7,9
+    20,SANDSHREW,7,8
     15,FOONGUS,5,7
     10,CUBBY,8,11
 #-------------------------------
-[102] # Feldspar Forest
-Land,21
-    30,SCATTERBUG,6,8
-    30,SKWOVET,6,8
-    30,WURMPLE,7,9
-    20,CATERPIE,7,9
-    20,CUBBY,8,11
-    20,LEDYBA,7,9
-    20,SPINARAK,7,8
-    20,WEEDLE,7,9
-    15,FOONGUS,5,7
-#-------------------------------
 [110] # Route 02
 Land,15
-    30,STARLY,6,8
-    20,PIDGEY,4,8
-    20,WURMPLE,5,7
-    15,PIKIPEK,7,8
-    15,SUNKERN,4,6
-    15,WIMPOD,5,10
-    15,ZIGZAGOON,5,7
-    1,EEVEE,4,5
+    30,APPLIN,7,10
+    20,PIKIPEK,9,11
+    20,STARLY,8,10
+    20,WIMPOD,9,11
+    10,ZIGZAGOON,10,12
+#-------------------------------
+[094] # Char Cavern
+Cave,15
+    30,ROLYCOLY,11,13
+    30,WOOBAT,12,14
+    20,SIZZLIPEDE,13,14
+    20,SALANDIT,13,15
+    5,CARKOL,18,18
+#-------------------------------
+[011] # Char Cavern
+Cave,15
+    30,ROLYCOLY,11,13
+    30,WOOBAT,12,14
+    20,SIZZLIPEDE,13,14
+    20,SALANDIT,13,15
+    5,CARKOL,18,18
+#-------------------------------
+[009] # Char hillside
+Land,15
+    30,APPLIN,14,16
+    20,STARLY,13,15
+    20,SNORUNT,14,16
+    10,STARAVIA,15,17
+#-------------------------------
+[012] # Char hillside
+Land,15
+    30,APPLIN,14,16
+    20,SNORUNT,14,16
+    20,SANDSHREW,14,16
+    20,FIDOUGH,13,15
+    10,STARAVIA,15,17
+#-------------------------------
+[010] # Char hillside
+Land,15
+    30,MORELULL,14,16
+    20,SNORUNT,14,16
+    20,SANDSHREW,14,16
+    20,GLAMEOW,14,16
+    10,PARAS,15,17
+#-------------------------------
+[016] # Route 3
+Land,15
+    30,MURKROW,15,17
+    20,SNORUNT,14,16
+    20,ROOKIDEE,15,17
+    20,GLAMEOW,14,16
+    10,GASTLY,16,18
+#-------------------------------
+[082] # Abandoned Mall
+Land,15
+    30,MURKROW,15,17
+    20,SNORUNT,14,16
+    20,ROOKIDEE,15,17
+    20,GLAMEOW,14,16
+    10,GASTLY,16,18
+#-------------------------------
+[104] # Abandoned Mall
+Cave,15
+    30,YAMASK_2,15,17
+    20,DRIFLOON,14,16
+    20,SINISTEA,15,17
+    20,VOLTORB,14,16
+    10,KLEFKI,16,18
+#-------------------------------
+[086] # Ancient Burial Grounds
+Cave,15
+    30,YAMASK,15,17
+    20,RATTATA_1,15,18
+    20,GOLETT,15,17
+    20,MISDREAVUS,15,17
+    10,TAROUNTULA,16,18

@@ -1,5 +1,16 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+[CAMPER,Bond]
+LoseText = Bonding hehe...
+Pokemon = TROPIUS,1
+    Moves = BREAKINGSWIPE
+    Bonded = true
+#-------------------------------
+[CAMPER,Boss]
+LoseText = Boss hehe...
+Pokemon = FLYGON,1
+    BossID = GODSLAYER
+#-------------------------------
 [CAMPER,Liam]
 LoseText = A very good battle, indeed!
 Pokemon = DIGLETT,10
@@ -20,37 +31,13 @@ LoseText = But our defenses.
 Pokemon = MUDBRAY,6
 #-------------------------------
 [BLACKBELT,Brian]
-LoseText = Maybe i should work on my defense.
+LoseText = Maybe I should work on my defense.
 Pokemon = MACHOP,5
 Pokemon = TYROGUE,6
 #-------------------------------
 [BEAUTY,Brea]
 LoseText = My Snivy!
 Pokemon = SNIVY,7
-#-------------------------------
-[SPIRITOMB,Spiritomb]
-LoseText = ...
-Pokemon = SPIRITOMB,14
-    Moves = SHADOWBALL,CALMMIND,DARKPULSE,IRONDEFENSE
-    Ability = CURSEDBODY
-    Item = LAGGINGTAIL
-    EV = 252,0,252,0,0,0
-    Shadow = true
-Pokemon = ZUBAT,10
-#-------------------------------
-[OLIVIA,Olivia]
-LoseText = ...
-Pokemon = ABSOL,14
-    Moves = DETECT,FALSESWIPE,KNOCKOFF,QUICKATTACK
-    Ability = SUPERLUCK
-    Ball = SAFARIBALL
-Pokemon = TRAPINCH,14
-    Moves = MUDSLAP,ROCKTOMB,SANDTOMB,QUICKATTACK
-    Ability = HYPERCUTTER
-    Item = EVIOLITE
-    IV = 0,31,0,0,0,0
-    EV = 0,252,0,0,0,0
-    Ball = SAFARIBALL
 #-------------------------------
 [LEADER_Brock,Brock]
 Items = FULLRESTORE,FULLRESTORE
@@ -73,6 +60,12 @@ Pokemon = ONIX,14
 [LEADER_Blanca,Blanca]
 Items = POTION,POTION
 LoseText = ...
+Pokemon = DEWPIDER,12
+    Moves = STICKYWEB,INFESTATION,RAINDANCE,BUBBLEBEAM
+    AbilityIndex = 0
+    Item = DAMPROCK
+    Gender = male
+    IV = 10,10,10,10,10,10
 Pokemon = DOTTLER,12
     Moves = REFLECT,LIGHTSCREEN
     AbilityIndex = 0
@@ -107,12 +100,27 @@ Pokemon = WINGULL,14
 Pokemon = ELECTABUZZ,14
     Shadow = true
 #-------------------------------
-[POKEMONTRAINER_Rio,Rio]
-LoseText = ...
+[POKEMONTRAINER_Rio,Rio,1]
+LoseText = Wow, I wasn't expecting to lose!
 Pokemon = ROOKIDEE,9
-    Ball = GREATBALL
-Pokemon = DUSKULL,10
-    Ball = DUSKBALL
+    Name = Acheron
+    Moves = POWERTRIP,AGILITY,PECK,HONECLAWS
+    Ability = BIGPECKS
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+Pokemon = WIMPOD,10
+    Name = Styx
+    Moves = DEFENSECURL,EMBER,WILLOWISP
+    Ability = DELICIOUS
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+Pokemon = DUSKULL,11
+    Name = Releva
+    Moves = LEER,SHADOWSNEAK,THIEF,PAINSPLIT
+    Ability = LEVITATE
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
 #-------------------------------
 [YOUNGSTER,Ben]
 LoseText = Aww, I lost.
@@ -138,11 +146,11 @@ LoseText = ...
 Pokemon = BULBASAUR,6
 #-------------------------------
 [BUGCATCHER,Jay]
-LoseText = Looks like I'll need to metamorphosize if i don't want to loose again.
+LoseText = Looks like I'll need to metamorphosize if I don't want to lose again.
 Pokemon = SKORUPI,10
 #-------------------------------
 [BUGCATCHER,Ryland]
-LoseText = If i get fired I'll have to go back up north.
+LoseText = If I get fired, I'll have to go back up north.
 Pokemon = SEWADDLE,10
 Pokemon = VENIPEDE,11
 #-------------------------------
@@ -285,3 +293,404 @@ LoseText = ...
 Pokemon = SQUIRTLE,3
 Pokemon = MEOWTH,4
 Pokemon = GIMMIGHOUL,5
+#-------------------------------
+[LADY,Tara]
+LoseText = ...
+Pokemon = FURFROU,9
+    Form = 4
+    Gender = female
+    Shiny = true
+#-------------------------------
+[GENTLEMAN,Sam]
+LoseText = ...
+Pokemon = FURFROU,9
+    Form = 6
+#-------------------------------
+[CAMPER,Caleb]
+LoseText = ...
+Pokemon = FIDOUGH,9
+Pokemon = BOUNSWEET,9
+Pokemon = WIMPOD,10
+#-------------------------------
+[GLASSMAKER,James]
+LoseText = ...wasn't expecting to lose actually...I guess I owe ya something now.
+Pokemon = ONIX,12
+    Moves = STEALTHROCK,GYROBALL,ROCKTOMB,BULLDOZE
+    Ability = STURDY
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+    Ball = HEAVYBALL 
+Pokemon = BUTTERFREE,14
+    Moves = SLEEPPOWDER,GUST,CONFUSION,STRINGSHOT
+    Ability = COMPOUNDEYES
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+    Ball = FRIENDBALL 
+Pokemon = SANDILE,13
+    Moves = BITE,HONECLAWS,SANDTOMB,POWERTRIP
+    Ability = MOXIE
+    Item = TANGABERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+    Ball = SAFARIBALL 
+Pokemon = HONEDGE,13
+    Moves = FURYCUTTER,SHADOWSNEAK,AERIALACE,DESTINYBOND
+    Ability = NOGUARD
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+    Ball = DUSKBALL 
+Pokemon = PAWNIARD,13
+    Moves = METALCLAW,LOWSWEEP,ROCKTOMB,FURYCUTTER
+    Ability = DEFIANT
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+    Ball = MOONBALL 
+Pokemon = GLIGAR,14
+    Moves = KNOCKOFF,FURYCUTTER,WINGATTACK,QUICKATTACK
+    Ability = HYPERCUTTER
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+    Ball = NETBALL
+#-------------------------------
+[HIKER,Kerial]
+LoseText = Wow! Thanks for the battle, have this!
+Pokemon = LINOONE,14
+    Moves = BABYDOLLEYES,SLASH,HONECLAWS,PINMISSILE
+    Ability = GLUTTONY
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+Pokemon = WIMPOD,12
+    Moves = SLASH,WILLOWISP,METRONOME,FLAMECHARGE
+    Ability = DELICIOUS
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+Pokemon = SLAKOTH,13
+    Moves = YAWN,ENCORE,SLACKOFF,BODYSLAM
+    Ability = TRUANT
+    Item = IAPAPABERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+Pokemon = MEOWTH,13
+    Moves = FAKEOUT,PAYDAY,BITE,BABYDOLLEYES
+    Ability = TECHNICIAN
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+Pokemon = LICKITUNG,12
+    Moves = DEFENSECURL,ROLLOUT,LICK,TACKLE
+    Ability = OBLIVIOUS
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+Pokemon = PORYGON,14
+    Moves = AGILITY,CHARGEBEAM,PSYBEAM,SWIFT
+    Ability = DOWNLOAD
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+#-------------------------------
+[GENTLEMAN,Mayor]
+LoseText = Good show, good show! Why don't you take this?
+Pokemon = MEOWTH,13
+    Moves = FAKEOUT,PAYDAY,BITE,PROTECT
+    Ability = TECHNICIAN
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+    Ball = LUXURYBALL 
+Pokemon = CUBBY,11
+    Moves = HEADBUTT,POUNCE,GROWL,PROTECT
+    Ability = INTIMIDATE
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+    Ball = LUXURYBALL 
+Pokemon = VULPIX,14
+    Moves = EMBER,SPITE,HOWL,SWIFT
+    Ability = DROUGHT
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+    Ball = LUXURYBALL 
+Pokemon = BULBASAUR,13
+    Moves = SLEEPPOWDER,LEECHSEED,RAZORLEAF,PROTECT
+    Ability = CHLOROPHYLL
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+    Ball = LUXURYBALL 
+Pokemon = SEEDOT,14
+    Moves = TAUNT,FLAMECHARGE,POWDERSNOW,PARTINGSHOT
+    Ability = PRANKSTER
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,0,0,0
+    Ball = LUXURYBALL
+#-------------------------------
+[POKEMONTRAINER_Rio,Rio,2]
+LoseText = Hahahaha...You really are an amazing battler!
+Pokemon = CORVISQUIRE,18
+    Name = Acheron
+    Moves = POWERTRIP,HONECLAWS,PLUCK,ROOST
+    Ability = BIGPECKS
+    Item = LUMBERRY
+    IV = 10,10,10,10,10,10
+    EV = 90,0,90,0,0,0
+Pokemon = WIMPOD,18
+    Name = Styx
+    Moves = EMBER,SLASH,WILLOWISP,SWORDSDANCE
+    Ability = DELICIOUS
+    IV = 10,10,10,10,10,10
+    EV = 90,90,0,0,0,0
+Pokemon = SKIDDO,18
+    Name = Cocytus
+    Moves = RAZORLEAF,LEECHSEED,PROTECT,BULLDOZE
+    Ability = SAPSIPPER
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 90,0,0,0,90,0
+Pokemon = DUSKULL,18
+    Name = Releva
+    Moves = WILLOWISP,SHADOWSNEAK,THIEF,PAINSPLIT
+    Ability = LEVITATE
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 90,90,0,0,0,0
+#-------------------------------
+[BIRDKEEPER,Perry]
+LoseText = I hate being cooped up in this cave.
+Pokemon = ZUBAT,13
+Pokemon = GLIGAR,14
+#-------------------------------
+[BLACKBELT,Daniel]
+LoseText = Wax on, wax off.
+Pokemon = MACHOP,15
+Pokemon = MEDITITE,14
+#-------------------------------
+[HIKER,Lewis]
+LoseText = Bewear!
+Pokemon = STUFFUL,11
+Pokemon = STUFFUL,11
+Pokemon = STUFFUL,11
+#-------------------------------
+[HIKER,Rowdy]
+LoseText = I just want to find peace and quiet.
+Pokemon = DIGLETT,15
+Pokemon = TYROGUE,16
+#-------------------------------
+[SCIENTIST,Bob]
+LoseText = THERE ARE SO MANY COOL ROCKS
+Pokemon = GLIMMET,14
+Pokemon = ARON,14
+Pokémon = NOSEPASS,14
+#-------------------------------
+[HIKER,Louise]
+LoseText = Guess I better hike back to the Pokémon Center...
+Pokemon = LARVITAR,14
+Pokemon = ONIX,16
+Pokémon = SANDSHREW,14
+#-------------------------------
+[HEXMANIAC,Helen]
+LoseText = Guess that's what happens when you and your Pokémon are blind!
+Pokemon = ABRA,13
+Pokemon = RALTS,14
+Pokemon = DEINO,14
+#-------------------------------
+[HEXMANIAC,Becky]
+LoseText = Guess that's what happens when you and your Pokémon are deaf!
+Pokemon = VOLTORB,15
+    AbilityIndex = 0
+Pokemon = WHISMUR,14
+    AbilityIndex = 0
+Pokemon = SHIELDON,16
+    AbilityIndex = 1
+#-------------------------------
+[WILDPOKEMON,Carkol]
+LoseText = ...
+Pokemon = CARKOL,25
+    Moves = ROCKBLAST,TEMPERFLARE,FLAMECHARGE,HIGHHORSEPOWER
+    Ability = STEAMENGINE
+    Item = HARDSTONE
+    EV = 94,94,0,20,0,0
+#-------------------------------
+[WILDPOKEMON,SWOOBAT]
+LoseText = ...
+Pokemon = SWOOBAT,25
+    Moves = CONFUSION,AIRCUTTER,SHOCKWAVE,ROOST
+    Ability = UNAWARE
+    Item = SHARPBEAK
+    IV = 0,0,0,9,0,0
+    EV = 20,0,0,94,94,0
+#-------------------------------
+[NEVIAH,Neviah]
+LoseText = I'm blaming this on Rio.
+Pokemon = PETILIL,18
+    Moves = SLEEPPOWDER,MAGICALLEAF,CHARM,GROWTH
+    Ability = CHLOROPHYLL
+    Item = SALACBERRY
+    IV = 10,10,10,10,10,10
+    EV = 0,0,0,90,0,90
+Pokemon = CORSOLA_1,19
+    Moves = ANCIENTPOWER,ATTRACT,REST,SLEEPTALK
+    Ability = CURSEDBODY
+    Item = ORANBERRY
+    IV = 10,10,10,10,10,10
+    EV = 90,0,0,90,0,0
+Pokemon = SWOOBAT,20
+    Moves = ROOST,AIRCUTTER,LIGHTSCREEN,REFLECT
+    Ability = UNAWARE
+    IV = 10,10,10,10,10,10
+    EV = 90,0,0,0,0,90
+Pokemon = ROGGENROLA,20
+    Moves = REPRISE,SLINGSHOT,PROTECT,RECOVER
+    Ability = MOODSHIFT
+    Item = FLAMEORB
+    IV = 10,10,10,10,10,10
+    EV = 90,0,0,90,0,0
+#-------------------------------
+[UNOWNTRAINER,A]
+LoseText = ......
+Pokemon = MONFERNO,18
+    Moves = POWERUPPUNCH,FLAMEWHEEL,TACKLE,GROWL
+    Ability = BLAZE
+    Item = CHARCOAL
+    IV = 10,10,10,10,10,10
+Pokemon = PRINPLUP,18
+    Moves = BUBBLEBEAM,AERIALACE,ICYWIND,ROOST
+    Ability = COMPETITIVE
+    Item = ADRENALINEORB
+    IV = 10,10,10,10,10,10
+Pokemon = GROTLE,18
+    Moves = RAZORLEAF,STOMPINGTANTRUM,LEECHSEED,SYNTHESIS
+    Ability = OVERGROW
+    Item = MIRACLESEED
+    IV = 10,10,10,10,10,10
+Pokemon = LUXIO,16
+    Moves = SPARK,BITE,THUNDERWAVE,FACADE
+    Ability = INTIMIDATE
+    IV = 10,10,10,10,10,10
+Pokemon = GIBLE,15
+    Moves = BITE,SANDTOMB,METALCLAW,DRAGONBREATH
+    Ability = ROUGHSKIN
+    IV = 10,10,10,10,10,10
+Pokemon = ARCANINE_1,20
+    Moves = FLAMEWHEEL,ROCKTHROW,BITE,HOWL
+    Ability = FLASHFIRE
+    Item = ORANBERRY
+    IV = 1,20,20,20,20,20 
+#-------------------------------
+[UNOWNTRAINER,B]
+LoseText = ...
+Pokemon = SNOVER,17
+Pokemon = MEDITITE,17
+#-------------------------------
+[UNOWNTRAINER,C]
+LoseText = ...
+Pokemon = GLIGAR,17
+Pokemon = NOSEPASS,17
+Pokemon = BRONZOR,18
+#-------------------------------
+[UNOWNTRAINER,D]
+LoseText = ...
+Pokemon = SNOVER,17
+Pokemon = CLEFFA,17
+Pokemon = ZORUA_1,18
+Pokemon = GIBLE,18
+#-------------------------------
+[UNOWNTRAINER,E]
+LoseText = ...
+Pokemon = ZORUA_1,18
+    Moves = ICYWIND,HEX,SWIFT,SNARL
+    Ability = ILLUSION
+    Item = FOCUSSASH
+    IV = 10,10,10,10,10,10
+Pokemon = SNOVER,18
+    Moves = POWDERSNOW,RAZORLEAF,AURORAVEIL,WEATHERBALL
+    Ability = SNOWWARNING
+    Item = ICYROCK
+    IV = 10,10,10,10,10,10
+Pokemon = DUSKULL,18
+    Moves = CONFUSERAY,WILLOWISP,NIGHTSHADE,PAYBACK
+    Ability = LEVITATE
+    IV = 10,10,10,10,10,10
+Pokemon = SPHEAL,18
+    Moves = AURORABEAM,BRINE,AQUARING,PROTECT
+    Ability = ICEBODY
+    Item = LEFTOVERS
+    IV = 10,10,10,10,10,10
+Pokemon = BRONZOR,18
+    Moves = WEATHERBALL,SAFEGUARD,CONFUSION,GYROBALL
+    Ability = HEATPROOF
+    IV = 10,10,10,10,10,10
+Pokemon = PROBOPASS,18
+    Moves = ROCKTHROW,ICEPUNCH,HARDPRESS,PAINSPLIT
+    Ability = MAGNETPULL
+    Item = SITRUSBERRY
+    IV = 10,10,10,10,10,10
+#-------------------------------
+[UNOWNTRAINER,F]
+LoseText = ...
+Pokemon = MEDITITE,18
+    Moves = FAKEOUT,FORCEPALM,PSYBEAM,TRAILBLAZE
+    Ability = PUREPOWER
+    IV = 10,10,10,10,10,10
+Pokemon = CLEFAIRY
+    Moves = FOLLOWME,ENCORE,DISARMING VOICE,LIFEDEW
+    Ability = FRIENDGUARD
+    IV = 10,10,10,10,10,10
+Pokemon = RHYHORN,18
+    Moves = SMACKDOWN,THIEF,FIREFANG,ICEFANG
+    Ability = LIGHTNINGROD
+    IV = 10,10,10,10,10,10
+Pokemon = GYARADOS,18
+    Moves = DRAGONRAGE,ICEFANG,BITE,TEMPERFLARE
+    Ability = INTIMIDATE
+    Item = SITRUSBERRY
+    IV = 10,10,10,10,10,10
+Pokemon = RIOLU,18
+    Moves = COACHING,VACUUMWAVE,SUNNYDAY,HELPINGHAND
+    Ability = PRANKSTER
+    Item = FOCUSSASH
+    IV = 10,10,10,10,10,10
+Pokemon = CRANIDOS,18
+    Moves = ROCKSLIDE,ROCKSMASH,STOMP,ASSURANCE
+    Ability = SHEERFORCE
+    Item = WEAKNESSPOLICY
+    IV = 10,10,10,10,10,10
+#-------------------------------
+[UNOWNTRAINER,G]
+LoseText = …
+Pokemon = MURKROW,18
+    Moves = FOULPLAY,TAILWIND,SNARL,SLUDGE
+    Ability = RATTLED
+    Item = AIRBALLOON
+    IV = 10,10,10,10,10,10
+Pokemon = CHATOT,17
+    Moves = CHATTER,ROUND,ROOST,TAUNT
+    Ability = KEENEYE
+    IV = 10,10,10,10,10,10
+Pokemon = GLIGAR,14
+    Moves = ROCKTOMB,BULLDOZE,PECK,ROOST
+    Ability = HYPERCUTTER
+    Item = LEFTOVERS
+    IV = 10,10,10,10,10,10
+Pokemon = MISDREAVUS,16
+    Moves = HEX,CONFUSERAY,CONFUSION,CHARM
+    Ability = LEVITATE
+    Item = COLBURBERRY
+    IV = 10,10,10,10,10,10
+Pokemon = SNEASEL_HISUI,18
+    Moves = FAKEOUT,LOWSWEEP,METALCLAW,COACHING
+    Ability = PICKPOCKET
+    Item = FOCUSSASH
+    IV = 10,10,10,10,10,10
+Pokemon = GRAVELER,18
+    Moves = ROCKTOMB,STOMPINGTANTRUM,DOUBLEDGE,THUNDERPUNCH
+    Ability = ROCKHEAD
+    Item = PASSHOBERRY
+    IV = 10,10,10,10,10,10
+#-------------------------------
+[WILDPOKEMON,Spiritomb]
+LoseText = ...
+Pokemon = SPIRITOMB,25
+    BossID = SOULS

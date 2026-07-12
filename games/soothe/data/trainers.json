@@ -1,6 +1,33 @@
 [
     {
         "Type": "CAMPER",
+        "Name": "Bond",
+        "LoseText": "Bonding hehe...",
+        "Pokemon": [
+            {
+                "Species": "TROPIUS",
+                "Level": 1,
+                "Moves": [
+                    "BREAKINGSWIPE"
+                ],
+                "Bonded": "true"
+            }
+        ]
+    },
+    {
+        "Type": "CAMPER",
+        "Name": "Boss",
+        "LoseText": "Boss hehe...",
+        "Pokemon": [
+            {
+                "Species": "FLYGON",
+                "Level": 1,
+                "BossID": "GODSLAYER"
+            }
+        ]
+    },
+    {
+        "Type": "CAMPER",
         "Name": "Liam",
         "LoseText": "A very good battle, indeed!",
         "Pokemon": [
@@ -58,7 +85,7 @@
     {
         "Type": "BLACKBELT",
         "Name": "Brian",
-        "LoseText": "Maybe i should work on my defense.",
+        "LoseText": "Maybe I should work on my defense.",
         "Pokemon": [
             {
                 "Species": "MACHOP",
@@ -78,72 +105,6 @@
             {
                 "Species": "SNIVY",
                 "Level": 7
-            }
-        ]
-    },
-    {
-        "Type": "SPIRITOMB",
-        "Name": "Spiritomb",
-        "LoseText": "...",
-        "Pokemon": [
-            {
-                "Species": "SPIRITOMB",
-                "Level": 14,
-                "Moves": [
-                    "SHADOWBALL",
-                    "CALMMIND",
-                    "DARKPULSE",
-                    "IRONDEFENSE"
-                ],
-                "Ability": "CURSEDBODY",
-                "Item": "LAGGINGTAIL",
-                "EV": "252,0,252,0,0,0",
-                "Shadow": "true"
-            },
-            {
-                "Species": "ZUBAT",
-                "Level": 10
-            }
-        ]
-    },
-    {
-        "Type": "OLIVIA",
-        "Name": "Olivia",
-        "LoseText": "...",
-        "Pokemon": [
-            {
-                "Species": "ABSOL",
-                "Level": 14,
-                "Moves": [
-                    "DETECT",
-                    "FALSESWIPE",
-                    "KNOCKOFF",
-                    "QUICKATTACK"
-                ],
-                "Ability": "SUPERLUCK",
-                "Ball": "SAFARIBALL"
-            },
-            {
-                "Species": "TRAPINCH",
-                "Level": 14,
-                "Moves": [
-                    "MUDSLAP",
-                    "ROCKTOMB",
-                    "SANDTOMB",
-                    "QUICKATTACK"
-                ],
-                "Ability": "HYPERCUTTER",
-                "Item": "EVIOLITE",
-                "IV": [
-                    0,
-                    31,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "EV": "0,252,0,0,0,0",
-                "Ball": "SAFARIBALL"
             }
         ]
     },
@@ -205,6 +166,27 @@
         "Items": "POTION,POTION",
         "LoseText": "...",
         "Pokemon": [
+            {
+                "Species": "DEWPIDER",
+                "Level": 12,
+                "Moves": [
+                    "STICKYWEB",
+                    "INFESTATION",
+                    "RAINDANCE",
+                    "BUBBLEBEAM"
+                ],
+                "AbilityIndex": 0,
+                "Item": "DAMPROCK",
+                "Gender": "male",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
             {
                 "Species": "DOTTLER",
                 "Level": 12,
@@ -308,17 +290,71 @@
     {
         "Type": "POKEMONTRAINER_Rio",
         "Name": "Rio",
-        "LoseText": "...",
+        "Number": 1,
+        "LoseText": "Wow, I wasn't expecting to lose!",
         "Pokemon": [
             {
                 "Species": "ROOKIDEE",
                 "Level": 9,
-                "Ball": "GREATBALL"
+                "Name": "Acheron",
+                "Moves": [
+                    "POWERTRIP",
+                    "AGILITY",
+                    "PECK",
+                    "HONECLAWS"
+                ],
+                "Ability": "BIGPECKS",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0"
+            },
+            {
+                "Species": "WIMPOD",
+                "Level": 10,
+                "Name": "Styx",
+                "Moves": [
+                    "DEFENSECURL",
+                    "EMBER",
+                    "WILLOWISP"
+                ],
+                "Ability": "DELICIOUS",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0"
             },
             {
                 "Species": "DUSKULL",
-                "Level": 10,
-                "Ball": "DUSKBALL"
+                "Level": 11,
+                "Name": "Releva",
+                "Moves": [
+                    "LEER",
+                    "SHADOWSNEAK",
+                    "THIEF",
+                    "PAINSPLIT"
+                ],
+                "Ability": "LEVITATE",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0"
             }
         ]
     },
@@ -393,7 +429,7 @@
     {
         "Type": "BUGCATCHER",
         "Name": "Jay",
-        "LoseText": "Looks like I'll need to metamorphosize if i don't want to loose again.",
+        "LoseText": "Looks like I'll need to metamorphosize if I don't want to lose again.",
         "Pokemon": [
             {
                 "Species": "SKORUPI",
@@ -404,7 +440,7 @@
     {
         "Type": "BUGCATCHER",
         "Name": "Ryland",
-        "LoseText": "If i get fired I'll have to go back up north.",
+        "LoseText": "If I get fired, I'll have to go back up north.",
         "Pokemon": [
             {
                 "Species": "SEWADDLE",
@@ -816,6 +852,1372 @@
             {
                 "Species": "GIMMIGHOUL",
                 "Level": 5
+            }
+        ]
+    },
+    {
+        "Type": "LADY",
+        "Name": "Tara",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "FURFROU",
+                "Level": 9,
+                "Form": "4",
+                "Gender": "female",
+                "Shiny": false
+            }
+        ]
+    },
+    {
+        "Type": "GENTLEMAN",
+        "Name": "Sam",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "FURFROU",
+                "Level": 9,
+                "Form": "6"
+            }
+        ]
+    },
+    {
+        "Type": "CAMPER",
+        "Name": "Caleb",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "FIDOUGH",
+                "Level": 9
+            },
+            {
+                "Species": "BOUNSWEET",
+                "Level": 9
+            },
+            {
+                "Species": "WIMPOD",
+                "Level": 10
+            }
+        ]
+    },
+    {
+        "Type": "GLASSMAKER",
+        "Name": "James",
+        "LoseText": "...wasn't expecting to lose actually...I guess I owe ya something now.",
+        "Pokemon": [
+            {
+                "Species": "ONIX",
+                "Level": 12,
+                "Moves": [
+                    "STEALTHROCK",
+                    "GYROBALL",
+                    "ROCKTOMB",
+                    "BULLDOZE"
+                ],
+                "Ability": "STURDY",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0",
+                "Ball": "HEAVYBALL"
+            },
+            {
+                "Species": "BUTTERFREE",
+                "Level": 14,
+                "Moves": [
+                    "SLEEPPOWDER",
+                    "GUST",
+                    "CONFUSION",
+                    "STRINGSHOT"
+                ],
+                "Ability": "COMPOUNDEYES",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0",
+                "Ball": "FRIENDBALL"
+            },
+            {
+                "Species": "SANDILE",
+                "Level": 13,
+                "Moves": [
+                    "BITE",
+                    "HONECLAWS",
+                    "SANDTOMB",
+                    "POWERTRIP"
+                ],
+                "Ability": "MOXIE",
+                "Item": "TANGABERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0",
+                "Ball": "SAFARIBALL"
+            },
+            {
+                "Species": "HONEDGE",
+                "Level": 13,
+                "Moves": [
+                    "FURYCUTTER",
+                    "SHADOWSNEAK",
+                    "AERIALACE",
+                    "DESTINYBOND"
+                ],
+                "Ability": "NOGUARD",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0",
+                "Ball": "DUSKBALL"
+            },
+            {
+                "Species": "PAWNIARD",
+                "Level": 13,
+                "Moves": [
+                    "METALCLAW",
+                    "LOWSWEEP",
+                    "ROCKTOMB",
+                    "FURYCUTTER"
+                ],
+                "Ability": "DEFIANT",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0",
+                "Ball": "MOONBALL"
+            },
+            {
+                "Species": "GLIGAR",
+                "Level": 14,
+                "Moves": [
+                    "KNOCKOFF",
+                    "FURYCUTTER",
+                    "WINGATTACK",
+                    "QUICKATTACK"
+                ],
+                "Ability": "HYPERCUTTER",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0",
+                "Ball": "NETBALL"
+            }
+        ]
+    },
+    {
+        "Type": "HIKER",
+        "Name": "Kerial",
+        "LoseText": "Wow! Thanks for the battle, have this!",
+        "Pokemon": [
+            {
+                "Species": "LINOONE",
+                "Level": 14,
+                "Moves": [
+                    "BABYDOLLEYES",
+                    "SLASH",
+                    "HONECLAWS",
+                    "PINMISSILE"
+                ],
+                "Ability": "GLUTTONY",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0"
+            },
+            {
+                "Species": "WIMPOD",
+                "Level": 12,
+                "Moves": [
+                    "SLASH",
+                    "WILLOWISP",
+                    "METRONOME",
+                    "FLAMECHARGE"
+                ],
+                "Ability": "DELICIOUS",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0"
+            },
+            {
+                "Species": "SLAKOTH",
+                "Level": 13,
+                "Moves": [
+                    "YAWN",
+                    "ENCORE",
+                    "SLACKOFF",
+                    "BODYSLAM"
+                ],
+                "Ability": "TRUANT",
+                "Item": "IAPAPABERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0"
+            },
+            {
+                "Species": "MEOWTH",
+                "Level": 13,
+                "Moves": [
+                    "FAKEOUT",
+                    "PAYDAY",
+                    "BITE",
+                    "BABYDOLLEYES"
+                ],
+                "Ability": "TECHNICIAN",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0"
+            },
+            {
+                "Species": "LICKITUNG",
+                "Level": 12,
+                "Moves": [
+                    "DEFENSECURL",
+                    "ROLLOUT",
+                    "LICK",
+                    "TACKLE"
+                ],
+                "Ability": "OBLIVIOUS",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0"
+            },
+            {
+                "Species": "PORYGON",
+                "Level": 14,
+                "Moves": [
+                    "AGILITY",
+                    "CHARGEBEAM",
+                    "PSYBEAM",
+                    "SWIFT"
+                ],
+                "Ability": "DOWNLOAD",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0"
+            }
+        ]
+    },
+    {
+        "Type": "GENTLEMAN",
+        "Name": "Mayor",
+        "LoseText": "Good show, good show! Why don't you take this?",
+        "Pokemon": [
+            {
+                "Species": "MEOWTH",
+                "Level": 13,
+                "Moves": [
+                    "FAKEOUT",
+                    "PAYDAY",
+                    "BITE",
+                    "PROTECT"
+                ],
+                "Ability": "TECHNICIAN",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0",
+                "Ball": "LUXURYBALL"
+            },
+            {
+                "Species": "CUBBY",
+                "Level": 11,
+                "Moves": [
+                    "HEADBUTT",
+                    "POUNCE",
+                    "GROWL",
+                    "PROTECT"
+                ],
+                "Ability": "INTIMIDATE",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0",
+                "Ball": "LUXURYBALL"
+            },
+            {
+                "Species": "VULPIX",
+                "Level": 14,
+                "Moves": [
+                    "EMBER",
+                    "SPITE",
+                    "HOWL",
+                    "SWIFT"
+                ],
+                "Ability": "DROUGHT",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0",
+                "Ball": "LUXURYBALL"
+            },
+            {
+                "Species": "BULBASAUR",
+                "Level": 13,
+                "Moves": [
+                    "SLEEPPOWDER",
+                    "LEECHSEED",
+                    "RAZORLEAF",
+                    "PROTECT"
+                ],
+                "Ability": "CHLOROPHYLL",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0",
+                "Ball": "LUXURYBALL"
+            },
+            {
+                "Species": "SEEDOT",
+                "Level": 14,
+                "Moves": [
+                    "TAUNT",
+                    "FLAMECHARGE",
+                    "POWDERSNOW",
+                    "PARTINGSHOT"
+                ],
+                "Ability": "PRANKSTER",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,0,0,0",
+                "Ball": "LUXURYBALL"
+            }
+        ]
+    },
+    {
+        "Type": "POKEMONTRAINER_Rio",
+        "Name": "Rio",
+        "Number": 2,
+        "LoseText": "Hahahaha...You really are an amazing battler!",
+        "Pokemon": [
+            {
+                "Species": "CORVISQUIRE",
+                "Level": 18,
+                "Name": "Acheron",
+                "Moves": [
+                    "POWERTRIP",
+                    "HONECLAWS",
+                    "PLUCK",
+                    "ROOST"
+                ],
+                "Ability": "BIGPECKS",
+                "Item": "LUMBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "90,0,90,0,0,0"
+            },
+            {
+                "Species": "WIMPOD",
+                "Level": 18,
+                "Name": "Styx",
+                "Moves": [
+                    "EMBER",
+                    "SLASH",
+                    "WILLOWISP",
+                    "SWORDSDANCE"
+                ],
+                "Ability": "DELICIOUS",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "90,90,0,0,0,0"
+            },
+            {
+                "Species": "SKIDDO",
+                "Level": 18,
+                "Name": "Cocytus",
+                "Moves": [
+                    "RAZORLEAF",
+                    "LEECHSEED",
+                    "PROTECT",
+                    "BULLDOZE"
+                ],
+                "Ability": "SAPSIPPER",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "90,0,0,0,90,0"
+            },
+            {
+                "Species": "DUSKULL",
+                "Level": 18,
+                "Name": "Releva",
+                "Moves": [
+                    "WILLOWISP",
+                    "SHADOWSNEAK",
+                    "THIEF",
+                    "PAINSPLIT"
+                ],
+                "Ability": "LEVITATE",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "90,90,0,0,0,0"
+            }
+        ]
+    },
+    {
+        "Type": "BIRDKEEPER",
+        "Name": "Perry",
+        "LoseText": "I hate being cooped up in this cave.",
+        "Pokemon": [
+            {
+                "Species": "ZUBAT",
+                "Level": 13
+            },
+            {
+                "Species": "GLIGAR",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "BLACKBELT",
+        "Name": "Daniel",
+        "LoseText": "Wax on, wax off.",
+        "Pokemon": [
+            {
+                "Species": "MACHOP",
+                "Level": 15
+            },
+            {
+                "Species": "MEDITITE",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "HIKER",
+        "Name": "Lewis",
+        "LoseText": "Bewear!",
+        "Pokemon": [
+            {
+                "Species": "STUFFUL",
+                "Level": 11
+            },
+            {
+                "Species": "STUFFUL",
+                "Level": 11
+            },
+            {
+                "Species": "STUFFUL",
+                "Level": 11
+            }
+        ]
+    },
+    {
+        "Type": "HIKER",
+        "Name": "Rowdy",
+        "LoseText": "I just want to find peace and quiet.",
+        "Pokemon": [
+            {
+                "Species": "DIGLETT",
+                "Level": 15
+            },
+            {
+                "Species": "TYROGUE",
+                "Level": 16
+            }
+        ]
+    },
+    {
+        "Type": "SCIENTIST",
+        "Name": "Bob",
+        "LoseText": "THERE ARE SO MANY COOL ROCKS",
+        "Pokémon": "NOSEPASS,14",
+        "Pokemon": [
+            {
+                "Species": "GLIMMET",
+                "Level": 14
+            },
+            {
+                "Species": "ARON",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "HIKER",
+        "Name": "Louise",
+        "LoseText": "Guess I better hike back to the Pokémon Center...",
+        "Pokémon": "SANDSHREW,14",
+        "Pokemon": [
+            {
+                "Species": "LARVITAR",
+                "Level": 14
+            },
+            {
+                "Species": "ONIX",
+                "Level": 16
+            }
+        ]
+    },
+    {
+        "Type": "HEXMANIAC",
+        "Name": "Helen",
+        "LoseText": "Guess that's what happens when you and your Pokémon are blind!",
+        "Pokemon": [
+            {
+                "Species": "ABRA",
+                "Level": 13
+            },
+            {
+                "Species": "RALTS",
+                "Level": 14
+            },
+            {
+                "Species": "DEINO",
+                "Level": 14
+            }
+        ]
+    },
+    {
+        "Type": "HEXMANIAC",
+        "Name": "Becky",
+        "LoseText": "Guess that's what happens when you and your Pokémon are deaf!",
+        "Pokemon": [
+            {
+                "Species": "VOLTORB",
+                "Level": 15,
+                "AbilityIndex": 0
+            },
+            {
+                "Species": "WHISMUR",
+                "Level": 14,
+                "AbilityIndex": 0
+            },
+            {
+                "Species": "SHIELDON",
+                "Level": 16,
+                "AbilityIndex": 1
+            }
+        ]
+    },
+    {
+        "Type": "WILDPOKEMON",
+        "Name": "Carkol",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "CARKOL",
+                "Level": 25,
+                "Moves": [
+                    "ROCKBLAST",
+                    "TEMPERFLARE",
+                    "FLAMECHARGE",
+                    "HIGHHORSEPOWER"
+                ],
+                "Ability": "STEAMENGINE",
+                "Item": "HARDSTONE",
+                "EV": "94,94,0,20,0,0"
+            }
+        ]
+    },
+    {
+        "Type": "WILDPOKEMON",
+        "Name": "SWOOBAT",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "SWOOBAT",
+                "Level": 25,
+                "Moves": [
+                    "CONFUSION",
+                    "AIRCUTTER",
+                    "SHOCKWAVE",
+                    "ROOST"
+                ],
+                "Ability": "UNAWARE",
+                "Item": "SHARPBEAK",
+                "IV": [
+                    0,
+                    0,
+                    0,
+                    9,
+                    0,
+                    0
+                ],
+                "EV": "20,0,0,94,94,0"
+            }
+        ]
+    },
+    {
+        "Type": "NEVIAH",
+        "Name": "Neviah",
+        "LoseText": "I'm blaming this on Rio.",
+        "Pokemon": [
+            {
+                "Species": "PETILIL",
+                "Level": 18,
+                "Moves": [
+                    "SLEEPPOWDER",
+                    "MAGICALLEAF",
+                    "CHARM",
+                    "GROWTH"
+                ],
+                "Ability": "CHLOROPHYLL",
+                "Item": "SALACBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "0,0,0,90,0,90"
+            },
+            {
+                "Species": "CORSOLA_1",
+                "Level": 19,
+                "Moves": [
+                    "ANCIENTPOWER",
+                    "ATTRACT",
+                    "REST",
+                    "SLEEPTALK"
+                ],
+                "Ability": "CURSEDBODY",
+                "Item": "ORANBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "90,0,0,90,0,0"
+            },
+            {
+                "Species": "SWOOBAT",
+                "Level": 20,
+                "Moves": [
+                    "ROOST",
+                    "AIRCUTTER",
+                    "LIGHTSCREEN",
+                    "REFLECT"
+                ],
+                "Ability": "UNAWARE",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "90,0,0,0,0,90"
+            },
+            {
+                "Species": "ROGGENROLA",
+                "Level": 20,
+                "Moves": [
+                    "REPRISE",
+                    "SLINGSHOT",
+                    "PROTECT",
+                    "RECOVER"
+                ],
+                "Ability": "MOODSHIFT",
+                "Item": "FLAMEORB",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "EV": "90,0,0,90,0,0"
+            }
+        ]
+    },
+    {
+        "Type": "UNOWNTRAINER",
+        "Name": "A",
+        "LoseText": "......",
+        "Pokemon": [
+            {
+                "Species": "MONFERNO",
+                "Level": 18,
+                "Moves": [
+                    "POWERUPPUNCH",
+                    "FLAMEWHEEL",
+                    "TACKLE",
+                    "GROWL"
+                ],
+                "Ability": "BLAZE",
+                "Item": "CHARCOAL",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "PRINPLUP",
+                "Level": 18,
+                "Moves": [
+                    "BUBBLEBEAM",
+                    "AERIALACE",
+                    "ICYWIND",
+                    "ROOST"
+                ],
+                "Ability": "COMPETITIVE",
+                "Item": "ADRENALINEORB",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "GROTLE",
+                "Level": 18,
+                "Moves": [
+                    "RAZORLEAF",
+                    "STOMPINGTANTRUM",
+                    "LEECHSEED",
+                    "SYNTHESIS"
+                ],
+                "Ability": "OVERGROW",
+                "Item": "MIRACLESEED",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "LUXIO",
+                "Level": 16,
+                "Moves": [
+                    "SPARK",
+                    "BITE",
+                    "THUNDERWAVE",
+                    "FACADE"
+                ],
+                "Ability": "INTIMIDATE",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "GIBLE",
+                "Level": 15,
+                "Moves": [
+                    "BITE",
+                    "SANDTOMB",
+                    "METALCLAW",
+                    "DRAGONBREATH"
+                ],
+                "Ability": "ROUGHSKIN",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "ARCANINE_1",
+                "Level": 20,
+                "Moves": [
+                    "FLAMEWHEEL",
+                    "ROCKTHROW",
+                    "BITE",
+                    "HOWL"
+                ],
+                "Ability": "FLASHFIRE",
+                "Item": "ORANBERRY",
+                "IV": [
+                    1,
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                ]
+            }
+        ]
+    },
+    {
+        "Type": "UNOWNTRAINER",
+        "Name": "B",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "SNOVER",
+                "Level": 17
+            },
+            {
+                "Species": "MEDITITE",
+                "Level": 17
+            }
+        ]
+    },
+    {
+        "Type": "UNOWNTRAINER",
+        "Name": "C",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "GLIGAR",
+                "Level": 17
+            },
+            {
+                "Species": "NOSEPASS",
+                "Level": 17
+            },
+            {
+                "Species": "BRONZOR",
+                "Level": 18
+            }
+        ]
+    },
+    {
+        "Type": "UNOWNTRAINER",
+        "Name": "D",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "SNOVER",
+                "Level": 17
+            },
+            {
+                "Species": "CLEFFA",
+                "Level": 17
+            },
+            {
+                "Species": "ZORUA_1",
+                "Level": 18
+            },
+            {
+                "Species": "GIBLE",
+                "Level": 18
+            }
+        ]
+    },
+    {
+        "Type": "UNOWNTRAINER",
+        "Name": "E",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "ZORUA_1",
+                "Level": 18,
+                "Moves": [
+                    "ICYWIND",
+                    "HEX",
+                    "SWIFT",
+                    "SNARL"
+                ],
+                "Ability": "ILLUSION",
+                "Item": "FOCUSSASH",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "SNOVER",
+                "Level": 18,
+                "Moves": [
+                    "POWDERSNOW",
+                    "RAZORLEAF",
+                    "AURORAVEIL",
+                    "WEATHERBALL"
+                ],
+                "Ability": "SNOWWARNING",
+                "Item": "ICYROCK",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "DUSKULL",
+                "Level": 18,
+                "Moves": [
+                    "CONFUSERAY",
+                    "WILLOWISP",
+                    "NIGHTSHADE",
+                    "PAYBACK"
+                ],
+                "Ability": "LEVITATE",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "SPHEAL",
+                "Level": 18,
+                "Moves": [
+                    "AURORABEAM",
+                    "BRINE",
+                    "AQUARING",
+                    "PROTECT"
+                ],
+                "Ability": "ICEBODY",
+                "Item": "LEFTOVERS",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "BRONZOR",
+                "Level": 18,
+                "Moves": [
+                    "WEATHERBALL",
+                    "SAFEGUARD",
+                    "CONFUSION",
+                    "GYROBALL"
+                ],
+                "Ability": "HEATPROOF",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "PROBOPASS",
+                "Level": 18,
+                "Moves": [
+                    "ROCKTHROW",
+                    "ICEPUNCH",
+                    "HARDPRESS",
+                    "PAINSPLIT"
+                ],
+                "Ability": "MAGNETPULL",
+                "Item": "SITRUSBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            }
+        ]
+    },
+    {
+        "Type": "UNOWNTRAINER",
+        "Name": "F",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "MEDITITE",
+                "Level": 18,
+                "Moves": [
+                    "FOLLOWME",
+                    "ENCORE",
+                    "DISARMING VOICE",
+                    "LIFEDEW"
+                ],
+                "Ability": "FRIENDGUARD",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "MEDITITE",
+                "Level": 18,
+                "Moves": [
+                    "FOLLOWME",
+                    "ENCORE",
+                    "DISARMING VOICE",
+                    "LIFEDEW"
+                ],
+                "Ability": "FRIENDGUARD",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "RHYHORN",
+                "Level": 18,
+                "Moves": [
+                    "SMACKDOWN",
+                    "THIEF",
+                    "FIREFANG",
+                    "ICEFANG"
+                ],
+                "Ability": "LIGHTNINGROD",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "GYARADOS",
+                "Level": 18,
+                "Moves": [
+                    "DRAGONRAGE",
+                    "ICEFANG",
+                    "BITE",
+                    "TEMPERFLARE"
+                ],
+                "Ability": "INTIMIDATE",
+                "Item": "SITRUSBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "RIOLU",
+                "Level": 18,
+                "Moves": [
+                    "COACHING",
+                    "VACUUMWAVE",
+                    "SUNNYDAY",
+                    "HELPINGHAND"
+                ],
+                "Ability": "PRANKSTER",
+                "Item": "FOCUSSASH",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "CRANIDOS",
+                "Level": 18,
+                "Moves": [
+                    "ROCKSLIDE",
+                    "ROCKSMASH",
+                    "STOMP",
+                    "ASSURANCE"
+                ],
+                "Ability": "SHEERFORCE",
+                "Item": "WEAKNESSPOLICY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            }
+        ]
+    },
+    {
+        "Type": "UNOWNTRAINER",
+        "Name": "G",
+        "LoseText": "…",
+        "Pokemon": [
+            {
+                "Species": "MURKROW",
+                "Level": 18,
+                "Moves": [
+                    "FOULPLAY",
+                    "TAILWIND",
+                    "SNARL",
+                    "SLUDGE"
+                ],
+                "Ability": "RATTLED",
+                "Item": "AIRBALLOON",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "CHATOT",
+                "Level": 17,
+                "Moves": [
+                    "CHATTER",
+                    "ROUND",
+                    "ROOST",
+                    "TAUNT"
+                ],
+                "Ability": "KEENEYE",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "GLIGAR",
+                "Level": 14,
+                "Moves": [
+                    "ROCKTOMB",
+                    "BULLDOZE",
+                    "PECK",
+                    "ROOST"
+                ],
+                "Ability": "HYPERCUTTER",
+                "Item": "LEFTOVERS",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "MISDREAVUS",
+                "Level": 16,
+                "Moves": [
+                    "HEX",
+                    "CONFUSERAY",
+                    "CONFUSION",
+                    "CHARM"
+                ],
+                "Ability": "LEVITATE",
+                "Item": "COLBURBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "SNEASEL_HISUI",
+                "Level": 18,
+                "Moves": [
+                    "FAKEOUT",
+                    "LOWSWEEP",
+                    "METALCLAW",
+                    "COACHING"
+                ],
+                "Ability": "PICKPOCKET",
+                "Item": "FOCUSSASH",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            },
+            {
+                "Species": "GRAVELER",
+                "Level": 18,
+                "Moves": [
+                    "ROCKTOMB",
+                    "STOMPINGTANTRUM",
+                    "DOUBLEDGE",
+                    "THUNDERPUNCH"
+                ],
+                "Ability": "ROCKHEAD",
+                "Item": "PASSHOBERRY",
+                "IV": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ]
+            }
+        ]
+    },
+    {
+        "Type": "WILDPOKEMON",
+        "Name": "Spiritomb",
+        "LoseText": "...",
+        "Pokemon": [
+            {
+                "Species": "SPIRITOMB",
+                "Level": 25,
+                "BossID": "SOULS"
             }
         ]
     }

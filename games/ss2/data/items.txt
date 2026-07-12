@@ -9505,7 +9505,7 @@ Pocket = 1
 Price = 3000
 SellPrice = 500
 Flags = Fling_30
-Description = A box that plays soothing tunes that boosts the holder's Light-type moves by 20%.
+Description = A box that plays soothing tunes that boosts the holder's Sound-type moves by 20%.
 #-------------------------------
 [RHYTHMPLATE]
 Name = Rhythm Plate
@@ -9787,7 +9787,7 @@ NamePlural = Dandelights
 Pocket = 1
 Price = 2000
 Flags = Fling_30
-Description = An item to be held by T.Skitty or T.Delcatty. Mults Def/Sp.Def by 25% and boosts healing by 15%
+Description = An item to be held by T.Skitty or T.Delcatty. Boosts Def/Sp.Def by 25% and healing by 15%
 #-------------------------------
 [HEADPHONES]
 Name = Headphones
@@ -10934,3 +10934,19 @@ Price = 3000
 Flags = Fling_30
 Description = Raises the Defense and Sp. Def if the holder can still evolve by 50%. Prevents evolution.
 #-------------------------------
+[TOPOGRAPHYMAP]
+Name = Topography Map
+NamePlural = Topography Maps
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by Castform. It's a map that makes it use the first terrain move it knows on entry.
+#-------------------------------
+[EGGHATCHER]
+Name = Egg Incubator
+NamePlural = Egg Incubator
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A set of capsules for hatching multiple eggs at once, it can hold up to 6 eggs.

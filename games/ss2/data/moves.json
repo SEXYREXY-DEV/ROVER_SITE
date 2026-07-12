@@ -1189,7 +1189,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user shrouds itself in electricity and smashes into its foe. The user takes 25% recoil."
+        "Description": "Smashes into its foe shrouded in electricity. The user takes 25% recoil."
     },
     {
         "Name": "DISCHARGE",
@@ -1397,7 +1397,7 @@
         "TotalPP": 10,
         "Target": "User",
         "FunctionCode": "StartUserAirborne",
-        "Description": "The user levitates using electrically generated magnetism for five turns."
+        "Description": "The user levitates using electrically generated magnetism for five turns. Fails in gravity."
     },
     {
         "Name": "MAGNETICFLUX",
@@ -1733,7 +1733,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "An attack that is Fighting and Flying type simultaneously."
+        "Description": "An attack that is Fighting and Flying type simultaneously. Fails in gravity."
     },
     {
         "Name": "HAMMERARM",
@@ -2763,7 +2763,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user soars, charging and becoming hidden, then attacks on the second turn."
+        "Description": "The user soars, charging and becoming hidden, then attacks on the second turn.  Fails in gravity."
     },
     {
         "Name": "AERIALACE",
@@ -6806,7 +6806,7 @@
             "CanProtect",
             "CanMirrorMove"
         ],
-        "Description": "The user makes it so moves cannot miss the target for three turns."
+        "Description": "The user makes it so moves cannot miss the target for three turns. Fails in gravity."
     },
     {
         "Name": "TELEPORT",
@@ -8876,7 +8876,7 @@
             "CanMirrorMove"
         ],
         "EffectChance": 30,
-        "Description": "The user bounces up high, hiding and becoming hidden. 30% chance to paralyze."
+        "Description": "The user bounces up high, hiding and becoming hidden. 30% chance to paralyze. Fails in gravity."
     },
     {
         "Name": "DRILLPECK",
@@ -18198,7 +18198,7 @@
             "HighCriticalHitRate",
             "Slicing"
         ],
-        "Description": "Sharp-edged icicles are launched to slash at the opposing team. +1 crit rate."
+        "Description": "Sharp icicles are launched to slash at the opposing team. +1 crit rate."
     },
     {
         "Name": "TUNDRARUSH",
