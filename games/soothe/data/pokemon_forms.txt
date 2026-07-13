@@ -2398,7 +2398,6 @@ Color = Black
 Shape = Quadruped
 Category = High King
 Pokedex = Legend says that by using its power to see all events from past to future, this Pokémon saved the creatures of a forest from a meteorite strike.
-
 #-------------------------------
 [TAUROS,4]
 FormName = Alpanian
@@ -2416,28 +2415,19 @@ Flags = InheritFormWithEverStone
 WildItemUncommon = ENERGYROOT
 #-------------------------------
 [YAMASK,2]
-Name = A. Yamask
+FormName = Alpanian
 Types = GHOST,MIRROR
 BaseStats = 38,35,70,50,80,40
-GenderRatio = Female50Percent
-GrowthRate = Parabolic
-BaseExp = 61
-EVs = SPECIAL_DEFENSE,1
-CatchRate = 190
-Happiness = 70
 Abilities = WEAKARMOR,REFLECTION
 HiddenAbilities = AFTERMATH
 Moves = 1,ASTONISH,4,MIRRORBEAM,8,NIGHTSHADE,10,CONFUSERAY,17,SINGE,22,HEX,26,MIRRORBREAK,30,SHADOWBALL,33,FLAMETHROWER,35,MIRRORMATCH,40,CURSE,43,WILLOWISP,47,MIRRORCOAT
 TutorMoves = PROTECT,SHADOWBALL,HEX,FACADE,THUNDERWAVE,TOXIC,RETURN,FRUSTRATION,BULKUP,MIRRORCOAT,MIRRORMOVE,MAGICCOAT,TRICKROOM,PARTINGSHOT,SHOCKWAVE,WATERPULSE,HIDDENPOWER,MYSTICALFIRE,DARKPULSE,IRONDEFENSE,BODYPRESS,SPIKES,KNOCKOFF
 EggMoves = DARKPULSE,SHADOWBALL,MIRRORCOAT,COUNTER,PAINSPLIT,HYPNOSIS
-EggGroups = Amorphous
-HatchSteps = 3200
 Height = .5
 Weight = 1.5
 Color = Gray
-Shape = HeadArms
 Category = Mirror
-Pokedex = [hype save me]
+Pokedex = Better filler than hype save me
 Generation = 5
 Evolutions = ALTEREIGUS,Level,37
 #-------------------------------
