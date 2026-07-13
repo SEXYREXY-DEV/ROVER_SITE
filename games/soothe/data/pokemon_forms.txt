@@ -2427,7 +2427,7 @@ Height = .5
 Weight = 1.5
 Color = Gray
 Category = Mirror
-Pokedex = Better filler than hype save me
+Pokedex = Yamask haunt people who have faces resembling their own. If the face is similar enough, they will show it off in their mirror.
 Generation = 5
 Evolutions = ALTEREIGUS,Level,37
 #-------------------------------
