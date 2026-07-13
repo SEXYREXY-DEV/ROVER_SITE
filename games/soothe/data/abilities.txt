@@ -1245,7 +1245,7 @@ Description = Eliminates all weather and terrain.
 #-------------------------------
 [REFLECTATE]
 Name = Reflectate
-Description = Normal-type moves become Mirror-type and powered up.
+Description = Normal-type moves become Mirror-type and power up by 20%.
 #-------------------------------
 [LEDIANBOND]
 Name = Ledian Bond
@@ -1253,27 +1253,27 @@ Description = Powers up Electric-type moves.
 #-------------------------------
 [DELICIOUS]
 Name = Delicious
-Description = The Pokémon is irresistibly tasty looking. 
+Description = All foes' moves get redirected to this Pokémon when using a biting move. When hit by a biting move, the opponent recharges the next turn. 
 #-------------------------------
 [REFLECTION]
 Name = Reflection
-Description = The Pokémon reflects special damage back at the opponent.
+Description = When attacked with a special move, inflicts 1/6th max HP damage on the attacker.
 #-------------------------------
 [DISHOUT]
 Name = Dish Out
-Description = Causes this Pokémon to take less damage if the opponent uses the same category of move that this Pokémon has already used.
+Description = Takes 25% less damage if the opponent uses the same category of move that this Pokemon uses before the opponent.
 #-------------------------------
 [AUDITORYILLUSION]
 Name = Auditory Illusion
-Description = Sound based moves become the primary type of your final slot and gain a chance to confuse
+Description = Sound tagged moves become the primary type of the last Pokemon in your party.
 #-------------------------------
 [HOLYIDOL]
 Name = Holy Idol
-Description = This Pokémon cannot receive non-direct damage, and is immune to confusion. 
+Description = This Pokémon only takes damage from attacks. Immune to being confused. 
 #-------------------------------
 [MOODSHIFT]
 Name = Mood Shift
-Description = This Pokémon changes form per status condition, and does not receive the stat drop of frostbite.
+Description = Changes into another form based on what status condition it has.
 #-------------------------------
 [SELFCONSCIOUS]
 Name = Self Conscious

@@ -1290,7 +1290,7 @@
         "Pokemon": [
             {
                 "Species": "CORVISQUIRE",
-                "Level": 18,
+                "Level": 16,
                 "Name": "Acheron",
                 "Moves": [
                     "POWERTRIP",
@@ -1312,7 +1312,7 @@
             },
             {
                 "Species": "WIMPOD",
-                "Level": 18,
+                "Level": 16,
                 "Name": "Styx",
                 "Moves": [
                     "EMBER",
@@ -1333,7 +1333,7 @@
             },
             {
                 "Species": "SKIDDO",
-                "Level": 18,
+                "Level": 16,
                 "Name": "Cocytus",
                 "Moves": [
                     "RAZORLEAF",
@@ -1355,7 +1355,7 @@
             },
             {
                 "Species": "DUSKULL",
-                "Level": 18,
+                "Level": 16,
                 "Name": "Releva",
                 "Moves": [
                     "WILLOWISP",
@@ -1591,6 +1591,7 @@
             {
                 "Species": "CORSOLA_1",
                 "Level": 19,
+                "Form": "1",
                 "Moves": [
                     "ANCIENTPOWER",
                     "ATTRACT",
@@ -1758,6 +1759,7 @@
             {
                 "Species": "ARCANINE_1",
                 "Level": 20,
+                "Form": "1",
                 "Moves": [
                     "FLAMEWHEEL",
                     "ROCKTHROW",
@@ -1826,7 +1828,8 @@
             },
             {
                 "Species": "ZORUA_1",
-                "Level": 18
+                "Level": 18,
+                "Form": "1"
             },
             {
                 "Species": "GIBLE",
@@ -1842,6 +1845,7 @@
             {
                 "Species": "ZORUA_1",
                 "Level": 18,
+                "Form": "1",
                 "Moves": [
                     "ICYWIND",
                     "HEX",
@@ -1865,8 +1869,7 @@
                 "Moves": [
                     "POWDERSNOW",
                     "RAZORLEAF",
-                    "AURORAVEIL",
-                    "WEATHERBALL"
+                    "AURORAVEIL"
                 ],
                 "Ability": "SNOWWARNING",
                 "Item": "ICYROCK",
@@ -1922,7 +1925,6 @@
                 "Species": "BRONZOR",
                 "Level": 18,
                 "Moves": [
-                    "WEATHERBALL",
                     "SAFEGUARD",
                     "CONFUSION",
                     "GYROBALL"
@@ -1968,12 +1970,12 @@
                 "Species": "MEDITITE",
                 "Level": 18,
                 "Moves": [
-                    "FOLLOWME",
-                    "ENCORE",
-                    "DISARMING VOICE",
-                    "LIFEDEW"
+                    "FAKEOUT",
+                    "FORCEPALM",
+                    "PSYBEAM",
+                    "TRAILBLAZE"
                 ],
-                "Ability": "FRIENDGUARD",
+                "Ability": "PUREPOWER",
                 "IV": [
                     10,
                     10,
@@ -1984,12 +1986,12 @@
                 ]
             },
             {
-                "Species": "MEDITITE",
+                "Species": "CLEFAIRY",
                 "Level": 18,
                 "Moves": [
                     "FOLLOWME",
                     "ENCORE",
-                    "DISARMING VOICE",
+                    "DISARMINGVOICE",
                     "LIFEDEW"
                 ],
                 "Ability": "FRIENDGUARD",
@@ -2168,8 +2170,9 @@
                 ]
             },
             {
-                "Species": "SNEASEL_HISUI",
+                "Species": "SNEASEL_1",
                 "Level": 18,
+                "Form": "1",
                 "Moves": [
                     "FAKEOUT",
                     "LOWSWEEP",
@@ -2193,7 +2196,7 @@
                 "Moves": [
                     "ROCKTOMB",
                     "STOMPINGTANTRUM",
-                    "DOUBLEDGE",
+                    "DOUBLEEDGE",
                     "THUNDERPUNCH"
                 ],
                 "Ability": "ROCKHEAD",

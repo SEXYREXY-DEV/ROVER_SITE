@@ -3085,10 +3085,10 @@
         "Type2": "WATER",
         "BaseStats": [
             "50",
-            "80",
+            "65",
             "40",
-            "100",
-            "20",
+            "90",
+            "35",
             "40"
         ],
         "GenderRatio": "Female50Percent",
@@ -3109,7 +3109,7 @@
             "6",
             "AQUAJET",
             "9",
-            "ROLLOUT",
+            "ACCELEROCK",
             "12",
             "CUT",
             "15",
